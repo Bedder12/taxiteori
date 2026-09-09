@@ -1,0 +1,591 @@
+{
+  "metadata": {
+    "topic": "D2_TAXI_LAW_VILOTIDER",
+    "title": "Vilotider question bank",
+    "status": "published",
+    "created_at": "2026-09-09",
+    "reviewed_at": "2026-09-09",
+    "disclaimer": "Internal topic checkpoint questions. These are not Trafikverket's official question bank."
+  },
+  "checkpoint_exam": {
+    "stable_key": "D2-TAXI-VILOTIDER-CHECKPOINT-001",
+    "title": "Intern checkpoint: Vilotider",
+    "type": "checkpoint",
+    "topic": "D2_TAXI_LAW_VILOTIDER",
+    "eligible_status": "published",
+    "question_count": 15,
+    "pass_threshold": 0.8,
+    "selection": "random_from_eligible_published_questions",
+    "freeze_question_versions_on_attempt_start": true,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q001",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001"],
+      "fact_keys": ["REST-FACT-001", "REST-FACT-002"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L01",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Vilken transport omfattas tydligt av vilotidsförordningen?",
+      "answer_choices": [
+        { "id": "A", "text": "En bil som används i taxitrafik enligt taxitrafiklagen." },
+        { "id": "B", "text": "En helt privat resa till mataffären." },
+        { "id": "C", "text": "En vän som skjutsar dig gratis utan yrkesmässig trafik." },
+        { "id": "D", "text": "Alla personbilsresor oavsett syfte." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: förordningen pekar uttryckligen ut bil som används i taxitrafik. Vanlig feltolkning är att alla personbilsresor omfattas. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "2 § 2" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q002",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001"],
+      "fact_keys": ["REST-FACT-004"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L02",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Vad är huvudregeln för dygnsvila före transport?",
+      "answer_choices": [
+        { "id": "A", "text": "Minst 8 timmar under dygnet." },
+        { "id": "B", "text": "Minst 11 timmar under den föregående 24-timmarsperioden." },
+        { "id": "C", "text": "Minst 45 minuter efter sex timmars arbete." },
+        { "id": "D", "text": "Minst 24 timmar varje vecka." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: 11 timmar ska finnas i den 24-timmarsperiod som föregår transporten. 45 minuter hör till rastregeln, inte dygnsvilan. Repetera lektion 2.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § första stycket" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q003",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001"],
+      "fact_keys": ["REST-FACT-005"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L02",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "När dygnsvilan delas upp i två perioder, vad måste vara uppfyllt?",
+      "answer_choices": [
+        { "id": "A", "text": "Båda perioderna måste vara exakt lika långa." },
+        { "id": "B", "text": "En av perioderna ska vara minst 8 timmar." },
+        { "id": "C", "text": "Varje period måste vara minst 6 timmar." },
+        { "id": "D", "text": "Uppdelad vila får aldrig användas." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: uppdelning är tillåten om en period är minst 8 timmar och totalen uppfyller dygnsvilan. Repetera lektion 2.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § första stycket" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q004",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001"],
+      "fact_keys": ["REST-FACT-006"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L02",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "En förare sitter i bilen med jour och måste vara beredd att köra. Hur ska den tiden bedömas vid dygnsvila?",
+      "answer_choices": [
+        { "id": "A", "text": "Den räknas som dygnsvila eftersom föraren inte kör." },
+        { "id": "B", "text": "Den räknas bara som dygnsvila om bilen står stilla." },
+        { "id": "C", "text": "Den räknas inte som dygnsvila." },
+        { "id": "D", "text": "Den räknas alltid dubbelt som vila." }
+      ],
+      "correct_answer_id": "C",
+      "explanation": "Rätt: jour i fordonet där föraren är tillgänglig räknas inte som dygnsvila. Feltolkningen är att stillastående bil automatiskt betyder vila. Repetera lektion 2.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § andra stycket c" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q005",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001"],
+      "fact_keys": ["REST-FACT-007"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L02",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "När får en tillfällig avvikelse från dygnsvilans huvudregel göras?",
+      "answer_choices": [
+        { "id": "A", "text": "När en kund erbjuder högre betalning." },
+        { "id": "B", "text": "Vid olyckshändelse eller annan särskild oförutsebar omständighet." },
+        { "id": "C", "text": "När föraren själv tycker att vilan räcker." },
+        { "id": "D", "text": "När arbetsgivaren alltid planerar långa pass." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: avvikelsen är knuten till olyckshändelse eller särskild oförutsebar omständighet. Planerad stress räcker inte. Repetera lektion 2.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "4 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q006",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001", "D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-004"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L04",
+      "question_type": "calculation",
+      "competencies": ["beräkna"],
+      "prompt": "Föraren slutar arbeta 20.00 och ska börja köra taxi 07.00 nästa morgon. Hur mycket dygnsvila finns mellan tiderna?",
+      "answer_choices": [
+        { "id": "A", "text": "9 timmar" },
+        { "id": "B", "text": "10 timmar" },
+        { "id": "C", "text": "11 timmar" },
+        { "id": "D", "text": "12 timmar" }
+      ],
+      "correct_answer_id": "C",
+      "explanation": "Rätt: 20.00 till 07.00 är 11 timmar. Det uppfyller huvudregeln om minst 11 timmar. Repetera lektion 4.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § första stycket" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q007",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001", "D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-004"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L04",
+      "question_type": "calculation",
+      "competencies": ["beräkna"],
+      "prompt": "Föraren slutar 23.30 och ska börja köra 09.30. Uppfylls kravet på 11 timmars dygnsvila?",
+      "answer_choices": [
+        { "id": "A", "text": "Ja, eftersom föraren vilat 11 timmar." },
+        { "id": "B", "text": "Nej, vilan är 10 timmar." },
+        { "id": "C", "text": "Ja, eftersom natt räknas dubbelt." },
+        { "id": "D", "text": "Det går inte att bedöma några tider alls." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: 23.30 till 09.30 är 10 timmar, alltså för lite för huvudregeln. Repetera lektion 4.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § första stycket" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q008",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001", "D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-004", "REST-FACT-005"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L04",
+      "question_type": "calculation",
+      "competencies": ["beräkna"],
+      "prompt": "Föraren har vilat 22.00-06.00 och 13.00-16.00. Uppfyller vilan kravet om tiden i övrigt är faktisk vila?",
+      "answer_choices": [
+        { "id": "A", "text": "Ja, 8 timmar + 3 timmar ger 11 timmar och en period är minst 8 timmar." },
+        { "id": "B", "text": "Nej, uppdelad vila är aldrig tillåten." },
+        { "id": "C", "text": "Nej, båda perioderna måste vara minst 8 timmar." },
+        { "id": "D", "text": "Ja, men bara om den andra perioden är jourtid." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: uppdelad vila kan godtas när totalen är 11 timmar och en period är minst 8 timmar. Repetera lektion 4.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § första stycket" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q009",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001", "D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-004", "REST-FACT-006"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L04",
+      "question_type": "calculation",
+      "competencies": ["beräkna", "bedöma"],
+      "prompt": "Föraren sover 21.00-05.00 och har sedan jour i bilen 05.00-08.00 före körning. Hur bedöms dygnsvilan?",
+      "answer_choices": [
+        { "id": "A", "text": "11 timmar, eftersom jour alltid räknas som vila." },
+        { "id": "B", "text": "8 timmar, eftersom jour i bilen inte räknas som dygnsvila." },
+        { "id": "C", "text": "3 timmar, eftersom bara jouren räknas." },
+        { "id": "D", "text": "14 timmar, eftersom nattarbete räknas dubbelt." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: sovtiden är 8 timmar och jour i bilen räknas inte som vila. Repetera lektion 4.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § andra stycket c" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q010",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-008", "REST-FACT-009"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L05",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "När ska anteckningen om den närmast föregående dygnsvilan göras?",
+      "answer_choices": [
+        { "id": "A", "text": "Innan körningen påbörjas." },
+        { "id": "B", "text": "Först när polisen frågar." },
+        { "id": "C", "text": "I slutet av varje månad." },
+        { "id": "D", "text": "Bara efter långa körningar." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: anteckningen ska göras innan körningen börjar. Den ska inte skapas först vid kontroll. Repetera lektion 5.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "5 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q011",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-011"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L05",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Vad gäller för tidboken?",
+      "answer_choices": [
+        { "id": "A", "text": "Den är gemensam för alla förare i samma bil." },
+        { "id": "B", "text": "Den ska vara personlig." },
+        { "id": "C", "text": "Den behövs bara om bilen har taxameter." },
+        { "id": "D", "text": "Den behöver aldrig sparas eller visas." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: tidboken ska vara personlig. Den är inte en gemensam fordonsbok. Repetera lektion 5.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "6 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q012",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-011"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L05",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Hur långt tillbaka ska tidboken innehålla anteckningar när föraren varit skyldig att anteckna?",
+      "answer_choices": [
+        { "id": "A", "text": "Det senaste dygnet." },
+        { "id": "B", "text": "De tre senaste dygnen." },
+        { "id": "C", "text": "De sju senaste dygnen." },
+        { "id": "D", "text": "Det senaste kalenderåret." }
+      ],
+      "correct_answer_id": "C",
+      "explanation": "Rätt: tidboken ska innehålla anteckningar för de sju senaste dygnen med anteckningsskyldighet. Repetera lektion 5.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "6 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q013",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-012"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L05",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "Vid kontroll begär en bilinspektör att få se förarens tidbok. Vad ska föraren göra?",
+      "answer_choices": [
+        { "id": "A", "text": "Lämna tidboken för kontroll." },
+        { "id": "B", "text": "Vägra eftersom bara arbetsgivaren får se tidboken." },
+        { "id": "C", "text": "Säga att den kan visas nästa månad." },
+        { "id": "D", "text": "Visa endast taxameterns kvitto." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: tidboken ska medföras under färden och lämnas på begäran. Repetera lektion 5.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "7 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q014",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-014"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Vem ska utan kostnad tillhandahålla tidbok till en anställd förare?",
+      "answer_choices": [
+        { "id": "A", "text": "Passageraren." },
+        { "id": "B", "text": "Arbetsgivaren." },
+        { "id": "C", "text": "Polismyndigheten." },
+        { "id": "D", "text": "Trafikverket." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: arbetsgivaren ska tillhandahålla tidboken utan kostnad och se till att anteckningar görs. Repetera lektion 3.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "9 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q015",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-013"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Hur länge ska arbetsgivaren bevara sina anteckningar om varje anställd förares dygnsvila?",
+      "answer_choices": [
+        { "id": "A", "text": "Minst en vecka." },
+        { "id": "B", "text": "Minst en månad." },
+        { "id": "C", "text": "Minst tolv månader." },
+        { "id": "D", "text": "Minst tio år." }
+      ],
+      "correct_answer_id": "C",
+      "explanation": "Rätt: anteckningarna ska bevaras i minst tolv månader. Repetera lektion 3.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "8 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q016",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-018", "REST-FACT-019"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "En förare arbetar vägtransportarbete för två arbetsgivare. Vad är arbetsgivarens viktiga kontrollfråga enligt vägarbetstidslagen?",
+      "answer_choices": [
+        { "id": "A", "text": "Om föraren har haft nöjda kunder." },
+        { "id": "B", "text": "Om föraren utfört arbete för annan arbetsgivare." },
+        { "id": "C", "text": "Om föraren vill köra fler helger." },
+        { "id": "D", "text": "Om taxametern har gul bakgrund." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: arbetsgivaren ska skriftligen begära uppgifter om arbete för annan arbetsgivare eftersom arbetstid kan behöva räknas ihop. Repetera lektion 3.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "10-11 §§" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q017",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-020"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Vilken högsta genomsnittliga veckoarbetstid anger vägarbetstidslagen under en beräkningsperiod om högst fyra månader?",
+      "answer_choices": [
+        { "id": "A", "text": "40 timmar." },
+        { "id": "B", "text": "45 timmar." },
+        { "id": "C", "text": "48 timmar." },
+        { "id": "D", "text": "60 timmar i genomsnitt." }
+      ],
+      "correct_answer_id": "C",
+      "explanation": "Rätt: genomsnittet får vara högst 48 timmar per vecka. 60 timmar är ett absolut veckotak, inte genomsnittet. Repetera lektion 3.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "12 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q018",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-020"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "Om vägarbetstidslagen är tillämplig: en förare har 52, 44, 48 och 48 timmars arbetstid under fyra veckor. Vad blir genomsnittet?",
+      "answer_choices": [
+        { "id": "A", "text": "46 timmar." },
+        { "id": "B", "text": "48 timmar." },
+        { "id": "C", "text": "50 timmar." },
+        { "id": "D", "text": "52 timmar." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: 52+44+48+48 = 192 timmar. 192/4 = 48 timmar. Repetera lektion 3.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "12 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q019",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-021", "REST-FACT-022"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "Föraren arbetar 02.00-04.00 under ett pass. Vilken regelkategori blir aktuell enligt vägarbetstidslagen?",
+      "answer_choices": [
+        { "id": "A", "text": "Nattarbete, eftersom arbete sker mellan 01.00 och 05.00." },
+        { "id": "B", "text": "Veckovila, eftersom arbetet sker före morgonen." },
+        { "id": "C", "text": "Ingen särskild kategori, eftersom bilen står stilla ibland." },
+        { "id": "D", "text": "Dygnsvila, eftersom tiden är på natten." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: arbete under någon del av 01.00-05.00 är nattarbete. Natt är inte automatiskt vila. Repetera lektion 3.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "14-15 §§" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q020",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-023", "REST-FACT-024"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "Om vägarbetstidslagen är tillämplig: en förare arbetar 08.00-14.30 utan rast. Vad är problemet?",
+      "answer_choices": [
+        { "id": "A", "text": "Arbete har pågått längre än sex timmar i följd utan rast." },
+        { "id": "B", "text": "Föraren måste alltid vila 11 timmar mitt i arbetspasset." },
+        { "id": "C", "text": "Rast behövs aldrig vid vägtransportarbete." },
+        { "id": "D", "text": "Rast måste alltid vara exakt 60 minuter." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: arbete får inte pågå längre än sex timmar i följd utan rast. Rastens längd styrs av arbetstidens längd. Repetera lektion 3.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "18 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q021",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-025"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Hur länge ska arbetstidsregister enligt vägarbetstidslagen bevaras?",
+      "answer_choices": [
+        { "id": "A", "text": "Minst två år." },
+        { "id": "B", "text": "Minst sju dagar." },
+        { "id": "C", "text": "Minst tolv månader." },
+        { "id": "D", "text": "Endast tills passet är slut." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: arbetstidsregister ska bevaras minst två år. Tolv månader gäller dygnsviloanteckningar enligt vilotidsförordningen. Repetera lektion 3.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "20 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q022",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-026"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Vilken myndighet har tillsyn över att vägarbetstidslagen följs?",
+      "answer_choices": [
+        { "id": "A", "text": "Transportstyrelsen." },
+        { "id": "B", "text": "Kommunens skolnämnd." },
+        { "id": "C", "text": "Bolagsverket." },
+        { "id": "D", "text": "Enbart taxikunden." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Transportstyrelsen har tillsyn enligt lagen. Repetera lektion 3.",
+      "difficulty": "easy",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "22 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q023",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-016", "REST-FACT-017"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "Vad kan hända om förare eller arbetsgivare uppsåtligen eller av oaktsamhet bryter mot vissa regler i vilotidsförordningen?",
+      "answer_choices": [
+        { "id": "A", "text": "Det kan leda till penningböter enligt förordningen." },
+        { "id": "B", "text": "Det saknas alltid påföljd." },
+        { "id": "C", "text": "Det leder alltid till livstids körförbud." },
+        { "id": "D", "text": "Endast passageraren kan straffas." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: förordningen innehåller penningböter för vissa brott. Fel är att påföljd alltid saknas eller alltid blir livstidsförbud. Repetera lektion 3.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "12 §" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q024",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001", "D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-004", "REST-FACT-005"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L06",
+      "question_type": "calculation",
+      "competencies": ["beräkna"],
+      "prompt": "Föraren vilar 23.00-06.30 och 12.00-15.30. Räcker den uppdelade vilan?",
+      "answer_choices": [
+        { "id": "A", "text": "Ja, totalen är 11 timmar och en period är minst 8 timmar." },
+        { "id": "B", "text": "Nej, totalen är 11 timmar men ingen period är minst 8 timmar." },
+        { "id": "C", "text": "Ja, eftersom totalen är 10 timmar." },
+        { "id": "D", "text": "Nej, all vila måste ske efter midnatt." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: 7,5 + 3,5 = 11 timmar, men ingen viloperiod är minst 8 timmar. Repetera lektion 4 eller 6.",
+      "difficulty": "hard",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "3 § första stycket" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q025",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-003"],
+      "fact_keys": ["REST-FACT-008", "REST-FACT-009", "REST-FACT-012"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L06",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "En förare säger: 'Jag skriver in dygnsvilan efter passet om någon frågar.' Vad är rätt bedömning?",
+      "answer_choices": [
+        { "id": "A", "text": "Det är rätt, eftersom tidboken bara behövs efter kontroll." },
+        { "id": "B", "text": "Det är fel, eftersom anteckningen ska göras innan körningen påbörjas och tidboken ska kunna visas." },
+        { "id": "C", "text": "Det är rätt om passet är kortare än sex timmar." },
+        { "id": "D", "text": "Det är fel bara om bilen används för skolskjuts." }
+      ],
+      "correct_answer_id": "B",
+      "explanation": "Rätt: dygnsvilan ska antecknas före körning och tidboken ska medföras. Repetera lektion 5 eller 6.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "5 och 7 §§" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q026",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-001"],
+      "fact_keys": ["REST-FACT-003"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L01",
+      "question_type": "single_choice",
+      "competencies": ["redogöra"],
+      "prompt": "Vilken skolskjutstransport omfattas av vilotidsförordningens fordonsregel?",
+      "answer_choices": [
+        { "id": "A", "text": "Bil för skolskjutsning som är lämplig för högst nio personer inklusive föraren och avsedd för ändamålet." },
+        { "id": "B", "text": "Alla bussar oavsett storlek och regelverk." },
+        { "id": "C", "text": "Alla privata hämtningar av barn av en förälder." },
+        { "id": "D", "text": "Endast skolresor som sker utomlands." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: förordningen beskriver just bil för skolskjutsning med högst nio personer inklusive föraren och avsedd för ändamålet. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [{ "source_id": "SFS_1994_1297", "exact_reference": "2 § 3" }],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-Q027",
+      "version": 1,
+      "requirement_keys": ["D2-TAXI-032-002"],
+      "fact_keys": ["REST-FACT-023", "REST-FACT-024"],
+      "lesson_key": "D2-TAXI-VILOTIDER-L03",
+      "question_type": "scenario",
+      "competencies": ["bedöma"],
+      "prompt": "Om vägarbetstidslagen är tillämplig: arbetstiden är 10 timmar. Minsta rast enligt huvudregeln är 45 minuter. Hur kan den delas upp?",
+      "answer_choices": [
+        { "id": "A", "text": "Tre perioder om minst 15 minuter vardera." },
+        { "id": "B", "text": "En period om 10 minuter och en om 35 minuter." },
+        { "id": "C", "text": "Ingen rast behövs om föraren kör taxi." },
+        { "id": "D", "text": "Bara en sammanhängande rast på exakt 60 minuter." }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: vid mer än 9 timmars arbetstid krävs minst 45 minuter rast, och rast kan delas i perioder om minst 15 minuter. Repetera lektion 3.",
+      "difficulty": "hard",
+      "source_references": [{ "source_id": "SFS_2005_395", "exact_reference": "18 §" }],
+      "status": "published"
+    }
+  ]
+}

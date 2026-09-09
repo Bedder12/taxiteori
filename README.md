@@ -1,56 +1,85 @@
-# Welcome to your Expo app 👋
+# Taxiteori
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Expo/React Native foundation for a Swedish taxi theory learning app. This milestone implements a content-driven Vilotider vertical slice for Taxiforarlegitimation without presenting the demo legal content as final curriculum.
 
-## Get started
+## What Is Implemented
 
-1. Install dependencies
+- Course hierarchy: Course -> Exam -> Subject -> Topic -> Lesson
+- Official blueprint data for Delprov 1 and Delprov 2
+- Demo vertical slice: Delprov 2 -> Taxitrafiklagstiftning -> Vilotider
+- Structured lesson blocks
+- Versioned single-choice questions with stable keys
+- Checkpoint assessment generation
+- Frozen attempt question snapshots
+- Deterministic scoring and pass/fail calculation
+- Lesson completion facts and derived progress
+- Local demo persistence for the Expo app
+- Supabase/PostgreSQL migration with RLS policies
+- Domain tests for blueprint allocation, selection, snapshots, scoring, and progress
+- Official TSFS curriculum matrix with source-traceable requirements
+- Curriculum coverage/tree documentation
 
-   ```bash
-   npm install
-   ```
+## Install
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```powershell
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Run The App
 
-### Other setup steps
+```powershell
+npm run web
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+For device testing, run `npm start` and open the project in Expo Go.
 
-## Learn more
+## Test
 
-To learn more about developing your project with Expo, look at the following resources:
+```powershell
+npm test
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```powershell
+npm run typecheck
+```
 
-## Join the community
+## Supabase
 
-Join our community of developers creating universal apps.
+Create a Supabase project, then add these environment variables when Supabase client integration is added:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+EXPO_PUBLIC_SUPABASE_URL=
+EXPO_PUBLIC_SUPABASE_ANON_KEY=
+```
+
+Run migrations with the Supabase CLI from this project folder:
+
+```powershell
+supabase link --project-ref your-project-ref
+supabase db push
+```
+
+Seed data lives in `supabase/seed`. The current SQL seed is intentionally an outline because the running app uses equivalent local TypeScript demo data in `packages/domain/src/demoData.ts` until Supabase connection work begins.
+
+## Out Of Scope For This Milestone
+
+- Final legal/taxi curriculum
+- Payments, subscriptions, guarantee features
+- Video UI and media production
+- Full admin CMS
+- AI tutor/explanations
+- Complete question bank for every subject
+- Production Supabase client integration
+- Full mock exam UI for incomplete banks
+
+## Project Structure
+
+- `src/app`: Expo Router screens
+- `src/features/learn`: learning selectors/view-model helpers
+- `src/features/quiz`: quiz review helpers
+- `src/lib`: local demo persistence
+- `packages/domain/src`: domain types and services
+- `packages/domain/tests`: domain behavior tests
+- `supabase/migrations`: database schema and RLS
+- `data/curriculum/requirements.json`: official requirement matrix
+- `docs`: system and domain documentation

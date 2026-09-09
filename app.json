@@ -37,6 +37,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4a8f8089-8505-4113-a0a0-962b69bde692"
+      }
+    },
+    "owner": "taxiteori"
   }
 }

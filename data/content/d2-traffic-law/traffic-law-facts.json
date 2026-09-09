@@ -1,0 +1,1093 @@
+{
+  "metadata": {
+    "subject": "D2_TRAFFIC_LAW",
+    "title": "D2 traffic law verified facts",
+    "verified_at": "2026-09-09",
+    "status": "verified",
+    "policy": "Every legal statement used by lessons and questions must reference one or more fact stable keys."
+  },
+  "sources": [
+    {
+      "source_id": "SFS_1998_1276",
+      "source_title": "Trafikförordning (1998:1276)",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "source_type": "primary_legal_source",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "current_validity": "Trafikförordning (1998:1276); verified 2026-09-09. Primary source for traffic rules, speed, priority, placement, overtaking, stopping, parking and local traffic rules."
+    },
+    {
+      "source_id": "SFS_2007_90",
+      "source_title": "Vägmärkesförordning (2007:90)",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "source_type": "primary_legal_source",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+      "current_validity": "Vägmärkesförordning (2007:90); verified 2026-09-09. Primary source for signs, supplementary plates, signals, road markings and other traffic devices. Riksdagen fulltext notes that symbol images are not included."
+    },
+    {
+      "source_id": "SFS_2001_559",
+      "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "source_type": "primary_legal_source",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+      "current_validity": "Lag (2001:559) om vägtrafikdefinitioner, 2 §; verified 2026-09-09. Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+    },
+    {
+      "source_id": "TS_VAGMARKEN",
+      "source_title": "Vägmärken",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/",
+      "current_validity": "Vägmärkesförordning (2007:90); TSFS 2019:74; TSFS 2010:171; TSFS 2014:30; verified 2026-09-09. Official explanatory material only; not used as primary legal authority."
+    },
+    {
+      "source_id": "TS_VAGMARKERINGAR",
+      "source_title": "Vägmarkeringar",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/",
+      "current_validity": "Vägmärkesförordning (2007:90), 4 kap.; verified 2026-09-09. Official explanatory support for future visual/diagram work."
+    }
+  ],
+  "facts": [
+    {
+      "stable_key": "D2-TRAFFIC-BASIC-FACT-001",
+      "topic_id": "topic_d2_traffic_grundlaggande_trafikregler",
+      "requirement_key": "D2-TRAFFIC-034-001",
+      "fact_text": "Trafikant ska iaktta omsorg och varsamhet som krävs med hänsyn till omständigheterna för att undvika trafikolyckor.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 2 kap. 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-BASIC-FACT-002",
+      "topic_id": "topic_d2_traffic_grundlaggande_trafikregler",
+      "requirement_key": "D2-TRAFFIC-034-001",
+      "fact_text": "Trafikant ska visa särskild hänsyn mot barn, äldre, skolpatruller och personer med funktionshinder eller sjukdom som är till hinder i trafiken.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 2 kap. 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-BASIC-FACT-003",
+      "topic_id": "topic_d2_traffic_grundlaggande_trafikregler",
+      "requirement_key": "D2-TRAFFIC-034-001",
+      "fact_text": "Vägtrafikant ska följa anvisningar för trafiken som meddelas genom vägmärken, vägmarkeringar, trafiksignaler och andra anordningar.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 2 kap. 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-BASIC-FACT-004",
+      "topic_id": "topic_d2_traffic_grundlaggande_trafikregler",
+      "requirement_key": "D2-TRAFFIC-034-001",
+      "fact_text": "Tecken av polisman gäller framför trafiksignal, vägmärke och vägmarkering.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 2 kap. 3 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-YIELD-FACT-001",
+      "topic_id": "topic_d2_traffic_vajnigsregler",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "När två fordons kurser skär varandra har förare väjningsplikt mot fordon som närmar sig från höger, utom i särskilt angivna fall.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 18 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-YIELD-FACT-002",
+      "topic_id": "topic_d2_traffic_vajnigsregler",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare med stopplikt eller stopp på grund av trafiksignal ska stanna vid stopplinje, eller annars omedelbart före signalen eller innan den korsande vägen, leden eller spårområdet.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 19 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-YIELD-FACT-003",
+      "topic_id": "topic_d2_traffic_vajnigsregler",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som kör in på huvudled, motorväg eller motortrafikled från annan väg utan accelerationsfält har väjningsplikt mot fordon på den vägen.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 21 § första stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-YIELD-FACT-004",
+      "topic_id": "topic_d2_traffic_vajnigsregler",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare har väjningsplikt mot korsande fordon när föraren kör in på väg från parkeringsplats, fastighet, bensinstation, liknande område, stig, ägoväg, cykelbana, gågata, gångfartsområde, cykelgata, terräng eller efter att ha korsat gång- eller cykelbana.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 21 § andra stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SPEED-FACT-001",
+      "topic_id": "topic_d2_traffic_hastighet",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Fordonets hastighet ska anpassas till trafiksäkerheten och får aldrig vara högre än att föraren behåller kontroll och kan stanna för varje hinder som går att förutse.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 14 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SPEED-FACT-002",
+      "topic_id": "topic_d2_traffic_hastighet",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare ska hålla tillräckligt låg hastighet bland annat vid nedsatt sikt, övergångsställen, korsande trafik, skarpa kurvor, backkrön, halt väglag, vägarbete, olycksplats och nära barn.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 15 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SPEED-FACT-003",
+      "topic_id": "topic_d2_traffic_hastighet",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare får inte utan giltigt skäl köra med överdrivet låg hastighet, plötsligt bromsa eller på annat sätt hindra andra förares körning.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 16 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SPEED-FACT-004",
+      "topic_id": "topic_d2_traffic_hastighet",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Inom tättbebyggt område är grundregeln högst 50 km/tim, men kommunen får föreskriva 30 eller 40 km/tim om det är motiverat av trafiksäkerhet, framkomlighet eller miljö.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 17 § första och andra stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SPEED-FACT-005",
+      "topic_id": "topic_d2_traffic_hastighet",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Utom tättbebyggt område är bashastigheten högst 70 km/tim om inte annan föreskrift gäller.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 17 § tredje stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-LANE-FACT-001",
+      "topic_id": "topic_d2_traffic_placering_korfalt",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Fordon ska föras i det körfält som är längst till höger i färdriktningen och som är avsett för fordonet, om annat inte följer av regler eller anvisningar.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 7 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-LANE-FACT-002",
+      "topic_id": "topic_d2_traffic_placering_korfalt",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Körfältet får bytas endast om det kan ske utan fara eller onödigt hinder för andra trafikanter.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 43 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-LANE-FACT-003",
+      "topic_id": "topic_d2_traffic_placering_korfalt",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare ska använda körriktningsvisare eller annat tydligt tecken när föraren avser att starta från vägkant, vända, svänga, byta körfält eller flytta fordonet i sidled på annat betydande sätt.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 65 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-LANE-FACT-004",
+      "topic_id": "topic_d2_traffic_placering_korfalt",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare får bara använda körfält eller körbana för fordon i linjetrafik när det följer av regler eller särskild anvisning.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 10 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-JUNCTION-FACT-001",
+      "topic_id": "topic_d2_traffic_korsningar",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "När en förare närmar sig eller kör in i vägkorsning ska körsättet anpassas så att det inte uppstår onödigt hinder för korsande trafik om fordonet tvingas stanna i korsningen.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 20 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-JUNCTION-FACT-002",
+      "topic_id": "topic_d2_traffic_korsningar",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som svänger i vägkorsning ska passera gående eller cyklande som korsar körbanan med låg hastighet och lämna dem tillfälle att passera.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 61 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-JUNCTION-FACT-003",
+      "topic_id": "topic_d2_traffic_korsningar",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som lämnar väg ska anpassa körsättet så att andra trafikanter inte utsätts för fara eller onödigt hinder.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 26 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-JUNCTION-FACT-004",
+      "topic_id": "topic_d2_traffic_korsningar",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som korsar gång- eller cykelbana ska lämna företräde enligt reglerna om utfartssituation när sådan väjning gäller.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 21 § andra stycket 4",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-ROUND-FACT-001",
+      "topic_id": "topic_d2_traffic_cirkulationsplatser",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Påbudsmärke D3 anger cirkulationsplats.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 2 kap. 10 §, märke D3",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-ROUND-FACT-002",
+      "topic_id": "topic_d2_traffic_cirkulationsplatser",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som byter körfält eller annars flyttar fordonet i sidled får göra det endast om det kan ske utan fara eller onödigt hinder.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 43 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-ROUND-FACT-003",
+      "topic_id": "topic_d2_traffic_cirkulationsplatser",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare ska ge tydligt tecken vid betydande sidoförflyttning, till exempel körfältsbyte inför utfart ur cirkulationsplats.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 65 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-ROUND-FACT-004",
+      "topic_id": "topic_d2_traffic_cirkulationsplatser",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Påbudsmärken som anger att viss trafik är påbjuden anger även förbud mot annan trafik, om inte annat är föreskrivet.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 2 kap. 9 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PASS-FACT-001",
+      "topic_id": "topic_d2_traffic_omkorning",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Omkörning ska ske till vänster utom i de fall trafikförordningen tillåter annat.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 31 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PASS-FACT-002",
+      "topic_id": "topic_d2_traffic_omkorning",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som ska köra om ska förvissa sig om att det kan ske utan fara.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 32 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PASS-FACT-003",
+      "topic_id": "topic_d2_traffic_omkorning",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Omkörande förare ska lämna betryggande sidavstånd till den som körs om.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 33 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PASS-FACT-004",
+      "topic_id": "topic_d2_traffic_omkorning",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Omkörning är förbjuden strax före eller i vägkorsning utom i undantag som anges i trafikförordningen.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 38 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PARK-FACT-001",
+      "topic_id": "topic_d2_traffic_stannande_parkering",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Fordon får på väg stannas eller parkeras endast på högra sidan i färdriktningen, med särskilda undantag för bland annat enkelriktad trafik.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 52 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PARK-FACT-002",
+      "topic_id": "topic_d2_traffic_stannande_parkering",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Fordon får inte stannas eller parkeras på eller inom tio meter före övergångsställe, cykelpassage eller cykelöverfart.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 53 § första stycket 1",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PARK-FACT-003",
+      "topic_id": "topic_d2_traffic_stannande_parkering",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Fordon får inte stannas eller parkeras i vägkorsning eller inom tio meter från korsande körbanas närmaste ytterkant.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 53 § första stycket 2",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PARK-FACT-004",
+      "topic_id": "topic_d2_traffic_stannande_parkering",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Fordon får inte parkeras på huvudled.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 55 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VULN-FACT-001",
+      "topic_id": "topic_d2_traffic_gaende_cyklister",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare ska anpassa hastigheten särskilt vid övergångsställen och andra platser där gående korsar vägen.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 15 § 3",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VULN-FACT-002",
+      "topic_id": "topic_d2_traffic_gaende_cyklister",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig barn som uppehåller sig på eller bredvid vägen.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 15 § 11",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VULN-FACT-003",
+      "topic_id": "topic_d2_traffic_gaende_cyklister",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som närmar sig obevakat övergångsställe ska anpassa körningen så att gående som gått ut på eller just ska gå ut på övergångsstället inte utsätts för fara.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 61 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VULN-FACT-004",
+      "topic_id": "topic_d2_traffic_gaende_cyklister",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare som kör ut ur cirkulationsplats eller svänger ska passera cykelpassage med låg hastighet och lämna cyklande och mopedförare tillfälle att passera.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 61 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-TRANSIT-FACT-001",
+      "topic_id": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig spårvagn, buss eller skolskjuts som stannats för passagerares på- eller avstigning.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 15 § 10",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-TRANSIT-FACT-002",
+      "topic_id": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "fact_text": "Fordon får inte stannas eller parkeras på eller inom tio meter före korsande cykelbana, gångbana eller körbana vid vägkorsning enligt parkeringsreglerna.",
+      "source_id": "SFS_1998_1276",
+      "exact_reference": "Trafikförordning (1998:1276), 3 kap. 53 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-TRANSIT-FACT-003",
+      "topic_id": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "requirement_key": "D2-TRAFFIC-034-002",
+      "fact_text": "Vägmärkesförordningen innehåller säkerhetsanordningar i korsningar med järnväg eller spårväg som en särskild anvisningskategori.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 1 kap. 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-TRANSIT-FACT-004",
+      "topic_id": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "requirement_key": "D2-TRAFFIC-034-002",
+      "fact_text": "Vägmärkesförordningen innehåller signaler vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 3 kap. 19-20 §§",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGN-FACT-001",
+      "topic_id": "topic_d2_traffic_vagmarken",
+      "requirement_key": "D2-TRAFFIC-034-002",
+      "fact_text": "Vägmärkesförordningen innehåller bestämmelser om anvisningar för trafik genom vägmärken och tilläggstavlor.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 1 kap. 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGN-FACT-002",
+      "topic_id": "topic_d2_traffic_vagmarken",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Vägmärken delas in i varningsmärken, väjningspliktsmärken, förbudsmärken, påbudsmärken, anvisningsmärken, lokaliseringsmärken och upplysningsmärken.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 2 kap. 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGN-FACT-003",
+      "topic_id": "topic_d2_traffic_vagmarken",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Vägmärken, symboler och tilläggstavlor har den betydelse som framgår av deras namn om inte annat särskilt anges.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 2 kap. 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGN-FACT-004",
+      "topic_id": "topic_d2_traffic_vagmarken",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Varningsmärken varnar för fara och upplyser om farans art.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 2 kap. 4 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGN-FACT-005",
+      "topic_id": "topic_d2_traffic_vagmarken",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Väjningspliktsmärken, förbudsmärken, påbudsmärken och anvisningsmärken får bara sättas upp för regler som följer av angivna författningar eller föreskrifter.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 1 kap. 9 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-MARK-FACT-001",
+      "topic_id": "topic_d2_traffic_vagmarkeringar",
+      "requirement_key": "D2-TRAFFIC-034-002",
+      "fact_text": "Vägmarkeringar delas in i längsgående markeringar, tvärgående markeringar och övriga markeringar.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 4 kap. 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-MARK-FACT-002",
+      "topic_id": "topic_d2_traffic_vagmarkeringar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Vägmarkeringar används för att reglera trafiken eller för att varna eller vägleda trafikanter, separat eller tillsammans med vägmärken eller andra anordningar.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 4 kap. 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-MARK-FACT-003",
+      "topic_id": "topic_d2_traffic_vagmarkeringar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Vägmarkeringar är vita om inte annat anges och kan vara gula vid tillfälligt behov på grund av vägarbete eller motsvarande.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 4 kap. 3 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-MARK-FACT-004",
+      "topic_id": "topic_d2_traffic_vagmarkeringar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "M13 stopplinje anger var fordon ska stannas enligt vägmärke, trafiksignal eller ljussignal.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 4 kap. 8 §, M13",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-MARK-FACT-005",
+      "topic_id": "topic_d2_traffic_vagmarkeringar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "M14 väjningslinje anger den linje som fordon inte bör passera när föraren iakttar väjningsplikt.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 4 kap. 8 §, M14",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGNAL-FACT-001",
+      "topic_id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "requirement_key": "D2-TRAFFIC-034-002",
+      "fact_text": "Trafiksignaler utgörs av flerfärgssignaler, kollektivtrafiksignaler, körfältssignaler, vissa särskilda signaler och signaler för särskild försiktighet.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 3 kap. 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGNAL-FACT-002",
+      "topic_id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Röd fordonssignal betyder stopp och fordon får inte passera stopplinjen eller, om sådan saknas, signalen.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 3 kap. 6 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGNAL-FACT-003",
+      "topic_id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Röd och gul fordonssignal betyder att växling till grönt är omedelbart förestående men har i övrigt samma innebörd som röd.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 3 kap. 6 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGNAL-FACT-004",
+      "topic_id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Blinkande gul signalbild visas vid driftsavbrott eller när anläggning tillfälligt är ur funktion under kortare tid.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 3 kap. 3 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGNAL-FACT-005",
+      "topic_id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "fact_text": "Växelvis blinkande rött ljus vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande betyder stopp.",
+      "source_id": "SFS_2007_90",
+      "exact_reference": "Vägmärkesförordning (2007:90), 3 kap. 19-20 §§",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VEHICLE-FACT-001",
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_key": "D2-TRAFFIC-035-003A1",
+      "fact_text": "Personbil är en bil som är inrättad huvudsakligen för personbefordran och försedd med högst åtta sittplatser utöver förarplatsen.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VEHICLE-FACT-002",
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_key": "D2-TRAFFIC-035-003A2",
+      "fact_text": "Lätt lastbil är en lastbil med totalvikt av högst 3,5 ton.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VEHICLE-FACT-003",
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_key": "D2-TRAFFIC-035-003A3",
+      "fact_text": "Buss är en bil som är inrättad huvudsakligen för personbefordran och försedd med fler än åtta sittplatser utöver förarplatsen.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VEHICLE-FACT-004",
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_key": "D2-TRAFFIC-035-003B1",
+      "fact_text": "Lätt släpfordon är ett släpfordon med totalvikt högst 750 kilogram eller ett släpfordon över 750 kilogram om dragfordonets och släpfordonets sammanlagda totalvikt inte överstiger 3,5 ton.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VEHICLE-FACT-005",
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_key": "D2-TRAFFIC-035-003B2",
+      "fact_text": "Tungt släpfordon är ett annat släpfordon än ett lätt släpfordon.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-WEIGHT-FACT-001",
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_key": "D2-TRAFFIC-035-003C1",
+      "fact_text": "Tjänstevikt för bil är vikten av bilen i normalt fullt driftfärdigt skick med tyngsta karosseri, verktyg, reservhjul, bränsle, smörjolja, vatten och förare.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-WEIGHT-FACT-002",
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_key": "D2-TRAFFIC-035-003C2",
+      "fact_text": "Bruttovikt på fordon är den sammanlagda statiska vikt som samtliga hjul, band eller medar på ett fordon vid ett visst tillfälle för över till vägbanan.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-WEIGHT-FACT-003",
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_key": "D2-TRAFFIC-035-003C3",
+      "fact_text": "Totalvikt är summan av fordonets tjänstevikt och maximilast.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false
+      }
+    },
+    {
+      "stable_key": "D2-TRAFFIC-WEIGHT-FACT-004",
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_key": "D2-TRAFFIC-035-003C4",
+      "fact_text": "Maximilast för motorfordon, traktor, motorredskap, terrängmotorfordon, släpfordon eller sidvagn är skillnaden mellan fordonets totalvikt och tjänstevikt.",
+      "source_id": "SFS_2001_559",
+      "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false
+      }
+    }
+  ]
+}

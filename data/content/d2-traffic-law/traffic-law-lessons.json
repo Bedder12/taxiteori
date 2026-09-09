@@ -1,0 +1,1363 @@
+{
+  "metadata": {
+    "subject": "D2_TRAFFIC_LAW",
+    "title": "D2 traffic law lessons",
+    "status": "published",
+    "verified_at": "2026-09-09",
+    "note": "Source-backed mobile-first lessons. Visual metadata marks topics that need custom diagrams or road scenes later."
+  },
+  "lessons": [
+    {
+      "stable_key": "D2-TRAFFIC-BASIC-L01",
+      "topic_id": "topic_d2_traffic_grundlaggande_trafikregler",
+      "title": "Grundläggande trafikregler",
+      "learning_objectives": [
+        "Känna igen centrala regler i grundläggande trafikregler.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-034-001"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-BASIC-FACT-001",
+        "D2-TRAFFIC-BASIC-FACT-002",
+        "D2-TRAFFIC-BASIC-FACT-003",
+        "D2-TRAFFIC-BASIC-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 2 kap. 1 §",
+            "Trafikförordning (1998:1276), 2 kap. 1 §",
+            "Trafikförordning (1998:1276), 2 kap. 2 §",
+            "Trafikförordning (1998:1276), 2 kap. 3 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Grundläggande trafikregler",
+          "fact_keys": [
+            "D2-TRAFFIC-BASIC-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på grundläggande trafikregler som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-BASIC-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Trafikant ska iaktta omsorg och varsamhet som krävs med hänsyn till omständigheterna för att undvika trafikolyckor.",
+            "Trafikant ska visa särskild hänsyn mot barn, äldre, skolpatruller och personer med funktionshinder eller sjukdom som är till hinder i trafiken.",
+            "Vägtrafikant ska följa anvisningar för trafiken som meddelas genom vägmärken, vägmarkeringar, trafiksignaler och andra anordningar.",
+            "Tecken av polisman gäller framför trafiksignal, vägmärke och vägmarkering."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-BASIC-FACT-001",
+            "D2-TRAFFIC-BASIC-FACT-002",
+            "D2-TRAFFIC-BASIC-FACT-003",
+            "D2-TRAFFIC-BASIC-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-BASIC-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Frågorna i momentet kan lösas med text, men ska fortfarande kunna spåras till källa.",
+          "fact_keys": [
+            "D2-TRAFFIC-BASIC-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-BASIC-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-YIELD-L01",
+      "topic_id": "topic_d2_traffic_vajnigsregler",
+      "title": "Väjningsregler",
+      "learning_objectives": [
+        "Känna igen centrala regler i väjningsregler.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-YIELD-FACT-001",
+        "D2-TRAFFIC-YIELD-FACT-002",
+        "D2-TRAFFIC-YIELD-FACT-003",
+        "D2-TRAFFIC-YIELD-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 18 §",
+            "Trafikförordning (1998:1276), 3 kap. 19 §",
+            "Trafikförordning (1998:1276), 3 kap. 21 § första stycket",
+            "Trafikförordning (1998:1276), 3 kap. 21 § andra stycket"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Väjningsregler",
+          "fact_keys": [
+            "D2-TRAFFIC-YIELD-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på väjningsregler som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-YIELD-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "När två fordons kurser skär varandra har förare väjningsplikt mot fordon som närmar sig från höger, utom i särskilt angivna fall.",
+            "Förare med stopplikt eller stopp på grund av trafiksignal ska stanna vid stopplinje, eller annars omedelbart före signalen eller innan den korsande vägen, leden eller spårområdet.",
+            "Förare som kör in på huvudled, motorväg eller motortrafikled från annan väg utan accelerationsfält har väjningsplikt mot fordon på den vägen.",
+            "Förare har väjningsplikt mot korsande fordon när föraren kör in på väg från parkeringsplats, fastighet, bensinstation, liknande område, stig, ägoväg, cykelbana, gågata, gångfartsområde, cykelgata, terräng eller efter att ha korsat gång- eller cykelbana."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-YIELD-FACT-001",
+            "D2-TRAFFIC-YIELD-FACT-002",
+            "D2-TRAFFIC-YIELD-FACT-003",
+            "D2-TRAFFIC-YIELD-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-YIELD-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-YIELD-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-YIELD-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SPEED-L01",
+      "topic_id": "topic_d2_traffic_hastighet",
+      "title": "Hastighet",
+      "learning_objectives": [
+        "Känna igen centrala regler i hastighet.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-SPEED-FACT-001",
+        "D2-TRAFFIC-SPEED-FACT-002",
+        "D2-TRAFFIC-SPEED-FACT-003",
+        "D2-TRAFFIC-SPEED-FACT-004",
+        "D2-TRAFFIC-SPEED-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 14 §",
+            "Trafikförordning (1998:1276), 3 kap. 15 §",
+            "Trafikförordning (1998:1276), 3 kap. 16 §",
+            "Trafikförordning (1998:1276), 3 kap. 17 § första och andra stycket",
+            "Trafikförordning (1998:1276), 3 kap. 17 § tredje stycket"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Hastighet",
+          "fact_keys": [
+            "D2-TRAFFIC-SPEED-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på hastighet som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-SPEED-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Fordonets hastighet ska anpassas till trafiksäkerheten och får aldrig vara högre än att föraren behåller kontroll och kan stanna för varje hinder som går att förutse.",
+            "Förare ska hålla tillräckligt låg hastighet bland annat vid nedsatt sikt, övergångsställen, korsande trafik, skarpa kurvor, backkrön, halt väglag, vägarbete, olycksplats och nära barn.",
+            "Förare får inte utan giltigt skäl köra med överdrivet låg hastighet, plötsligt bromsa eller på annat sätt hindra andra förares körning.",
+            "Inom tättbebyggt område är grundregeln högst 50 km/tim, men kommunen får föreskriva 30 eller 40 km/tim om det är motiverat av trafiksäkerhet, framkomlighet eller miljö."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-SPEED-FACT-001",
+            "D2-TRAFFIC-SPEED-FACT-002",
+            "D2-TRAFFIC-SPEED-FACT-003",
+            "D2-TRAFFIC-SPEED-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-SPEED-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Frågorna i momentet kan lösas med text, men ska fortfarande kunna spåras till källa.",
+          "fact_keys": [
+            "D2-TRAFFIC-SPEED-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-SPEED-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-LANE-L01",
+      "topic_id": "topic_d2_traffic_placering_korfalt",
+      "title": "Placering och körfält",
+      "learning_objectives": [
+        "Känna igen centrala regler i placering och körfält.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-LANE-FACT-001",
+        "D2-TRAFFIC-LANE-FACT-002",
+        "D2-TRAFFIC-LANE-FACT-003",
+        "D2-TRAFFIC-LANE-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 7 §",
+            "Trafikförordning (1998:1276), 3 kap. 43 §",
+            "Trafikförordning (1998:1276), 3 kap. 65 §",
+            "Trafikförordning (1998:1276), 3 kap. 10 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Placering och körfält",
+          "fact_keys": [
+            "D2-TRAFFIC-LANE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på placering och körfält som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-LANE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Fordon ska föras i det körfält som är längst till höger i färdriktningen och som är avsett för fordonet, om annat inte följer av regler eller anvisningar.",
+            "Körfältet får bytas endast om det kan ske utan fara eller onödigt hinder för andra trafikanter.",
+            "Förare ska använda körriktningsvisare eller annat tydligt tecken när föraren avser att starta från vägkant, vända, svänga, byta körfält eller flytta fordonet i sidled på annat betydande sätt.",
+            "Förare får bara använda körfält eller körbana för fordon i linjetrafik när det följer av regler eller särskild anvisning."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-LANE-FACT-001",
+            "D2-TRAFFIC-LANE-FACT-002",
+            "D2-TRAFFIC-LANE-FACT-003",
+            "D2-TRAFFIC-LANE-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-LANE-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-LANE-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-LANE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-JUNCTION-L01",
+      "topic_id": "topic_d2_traffic_korsningar",
+      "title": "Korsningar",
+      "learning_objectives": [
+        "Känna igen centrala regler i korsningar.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-JUNCTION-FACT-001",
+        "D2-TRAFFIC-JUNCTION-FACT-002",
+        "D2-TRAFFIC-JUNCTION-FACT-003",
+        "D2-TRAFFIC-JUNCTION-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 20 §",
+            "Trafikförordning (1998:1276), 3 kap. 61 §",
+            "Trafikförordning (1998:1276), 3 kap. 26 §",
+            "Trafikförordning (1998:1276), 3 kap. 21 § andra stycket 4"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Korsningar",
+          "fact_keys": [
+            "D2-TRAFFIC-JUNCTION-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på korsningar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-JUNCTION-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "När en förare närmar sig eller kör in i vägkorsning ska körsättet anpassas så att det inte uppstår onödigt hinder för korsande trafik om fordonet tvingas stanna i korsningen.",
+            "Förare som svänger i vägkorsning ska passera gående eller cyklande som korsar körbanan med låg hastighet och lämna dem tillfälle att passera.",
+            "Förare som lämnar väg ska anpassa körsättet så att andra trafikanter inte utsätts för fara eller onödigt hinder.",
+            "Förare som korsar gång- eller cykelbana ska lämna företräde enligt reglerna om utfartssituation när sådan väjning gäller."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-JUNCTION-FACT-001",
+            "D2-TRAFFIC-JUNCTION-FACT-002",
+            "D2-TRAFFIC-JUNCTION-FACT-003",
+            "D2-TRAFFIC-JUNCTION-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-JUNCTION-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-JUNCTION-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-JUNCTION-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-ROUND-L01",
+      "topic_id": "topic_d2_traffic_cirkulationsplatser",
+      "title": "Cirkulationsplatser",
+      "learning_objectives": [
+        "Känna igen centrala regler i cirkulationsplatser.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-001",
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-ROUND-FACT-001",
+        "D2-TRAFFIC-ROUND-FACT-002",
+        "D2-TRAFFIC-ROUND-FACT-003",
+        "D2-TRAFFIC-ROUND-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2007_90",
+          "exact_references": [
+            "Vägmärkesförordning (2007:90), 2 kap. 10 §, märke D3",
+            "Vägmärkesförordning (2007:90), 2 kap. 9 §"
+          ]
+        },
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 43 §",
+            "Trafikförordning (1998:1276), 3 kap. 65 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Cirkulationsplatser",
+          "fact_keys": [
+            "D2-TRAFFIC-ROUND-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på cirkulationsplatser som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-ROUND-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Påbudsmärke D3 anger cirkulationsplats.",
+            "Förare som byter körfält eller annars flyttar fordonet i sidled får göra det endast om det kan ske utan fara eller onödigt hinder.",
+            "Förare ska ge tydligt tecken vid betydande sidoförflyttning, till exempel körfältsbyte inför utfart ur cirkulationsplats.",
+            "Påbudsmärken som anger att viss trafik är påbjuden anger även förbud mot annan trafik, om inte annat är föreskrivet."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-ROUND-FACT-001",
+            "D2-TRAFFIC-ROUND-FACT-002",
+            "D2-TRAFFIC-ROUND-FACT-003",
+            "D2-TRAFFIC-ROUND-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-ROUND-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-ROUND-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-ROUND-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PASS-L01",
+      "topic_id": "topic_d2_traffic_omkorning",
+      "title": "Omkörning",
+      "learning_objectives": [
+        "Känna igen centrala regler i omkörning.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-PASS-FACT-001",
+        "D2-TRAFFIC-PASS-FACT-002",
+        "D2-TRAFFIC-PASS-FACT-003",
+        "D2-TRAFFIC-PASS-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 31 §",
+            "Trafikförordning (1998:1276), 3 kap. 32 §",
+            "Trafikförordning (1998:1276), 3 kap. 33 §",
+            "Trafikförordning (1998:1276), 3 kap. 38 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Omkörning",
+          "fact_keys": [
+            "D2-TRAFFIC-PASS-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på omkörning som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-PASS-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Omkörning ska ske till vänster utom i de fall trafikförordningen tillåter annat.",
+            "Förare som ska köra om ska förvissa sig om att det kan ske utan fara.",
+            "Omkörande förare ska lämna betryggande sidavstånd till den som körs om.",
+            "Omkörning är förbjuden strax före eller i vägkorsning utom i undantag som anges i trafikförordningen."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-PASS-FACT-001",
+            "D2-TRAFFIC-PASS-FACT-002",
+            "D2-TRAFFIC-PASS-FACT-003",
+            "D2-TRAFFIC-PASS-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-PASS-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-PASS-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-PASS-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-PARK-L01",
+      "topic_id": "topic_d2_traffic_stannande_parkering",
+      "title": "Stannande och parkering",
+      "learning_objectives": [
+        "Känna igen centrala regler i stannande och parkering.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-PARK-FACT-001",
+        "D2-TRAFFIC-PARK-FACT-002",
+        "D2-TRAFFIC-PARK-FACT-003",
+        "D2-TRAFFIC-PARK-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 52 §",
+            "Trafikförordning (1998:1276), 3 kap. 53 § första stycket 1",
+            "Trafikförordning (1998:1276), 3 kap. 53 § första stycket 2",
+            "Trafikförordning (1998:1276), 3 kap. 55 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Stannande och parkering",
+          "fact_keys": [
+            "D2-TRAFFIC-PARK-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på stannande och parkering som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-PARK-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Fordon får på väg stannas eller parkeras endast på högra sidan i färdriktningen, med särskilda undantag för bland annat enkelriktad trafik.",
+            "Fordon får inte stannas eller parkeras på eller inom tio meter före övergångsställe, cykelpassage eller cykelöverfart.",
+            "Fordon får inte stannas eller parkeras i vägkorsning eller inom tio meter från korsande körbanas närmaste ytterkant.",
+            "Fordon får inte parkeras på huvudled."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-PARK-FACT-001",
+            "D2-TRAFFIC-PARK-FACT-002",
+            "D2-TRAFFIC-PARK-FACT-003",
+            "D2-TRAFFIC-PARK-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-PARK-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-PARK-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-PARK-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VULN-L01",
+      "topic_id": "topic_d2_traffic_gaende_cyklister",
+      "title": "Gående och cyklister",
+      "learning_objectives": [
+        "Känna igen centrala regler i gående och cyklister.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VULN-FACT-001",
+        "D2-TRAFFIC-VULN-FACT-002",
+        "D2-TRAFFIC-VULN-FACT-003",
+        "D2-TRAFFIC-VULN-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 15 § 3",
+            "Trafikförordning (1998:1276), 3 kap. 15 § 11",
+            "Trafikförordning (1998:1276), 3 kap. 61 §",
+            "Trafikförordning (1998:1276), 3 kap. 61 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Gående och cyklister",
+          "fact_keys": [
+            "D2-TRAFFIC-VULN-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på gående och cyklister som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-VULN-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förare ska anpassa hastigheten särskilt vid övergångsställen och andra platser där gående korsar vägen.",
+            "Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig barn som uppehåller sig på eller bredvid vägen.",
+            "Förare som närmar sig obevakat övergångsställe ska anpassa körningen så att gående som gått ut på eller just ska gå ut på övergångsstället inte utsätts för fara.",
+            "Förare som kör ut ur cirkulationsplats eller svänger ska passera cykelpassage med låg hastighet och lämna cyklande och mopedförare tillfälle att passera."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-VULN-FACT-001",
+            "D2-TRAFFIC-VULN-FACT-002",
+            "D2-TRAFFIC-VULN-FACT-003",
+            "D2-TRAFFIC-VULN-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-VULN-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-VULN-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-VULN-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-TRANSIT-L01",
+      "topic_id": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "title": "Buss, spårväg och järnväg",
+      "learning_objectives": [
+        "Känna igen centrala regler i buss, spårväg och järnväg.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002",
+        "D2-TRAFFIC-034-002"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-TRANSIT-FACT-001",
+        "D2-TRAFFIC-TRANSIT-FACT-002",
+        "D2-TRAFFIC-TRANSIT-FACT-003",
+        "D2-TRAFFIC-TRANSIT-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 3 kap. 15 § 10",
+            "Trafikförordning (1998:1276), 3 kap. 53 §"
+          ]
+        },
+        {
+          "source_id": "SFS_2007_90",
+          "exact_references": [
+            "Vägmärkesförordning (2007:90), 1 kap. 1 §",
+            "Vägmärkesförordning (2007:90), 3 kap. 19-20 §§"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Buss, spårväg och järnväg",
+          "fact_keys": [
+            "D2-TRAFFIC-TRANSIT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på buss, spårväg och järnväg som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-TRANSIT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig spårvagn, buss eller skolskjuts som stannats för passagerares på- eller avstigning.",
+            "Fordon får inte stannas eller parkeras på eller inom tio meter före korsande cykelbana, gångbana eller körbana vid vägkorsning enligt parkeringsreglerna.",
+            "Vägmärkesförordningen innehåller säkerhetsanordningar i korsningar med järnväg eller spårväg som en särskild anvisningskategori.",
+            "Vägmärkesförordningen innehåller signaler vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-TRANSIT-FACT-001",
+            "D2-TRAFFIC-TRANSIT-FACT-002",
+            "D2-TRAFFIC-TRANSIT-FACT-003",
+            "D2-TRAFFIC-TRANSIT-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-TRANSIT-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-TRANSIT-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-TRANSIT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGN-L01",
+      "topic_id": "topic_d2_traffic_vagmarken",
+      "title": "Vägmärken",
+      "learning_objectives": [
+        "Känna igen centrala regler i vägmärken.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-SIGN-FACT-001",
+        "D2-TRAFFIC-SIGN-FACT-002",
+        "D2-TRAFFIC-SIGN-FACT-003",
+        "D2-TRAFFIC-SIGN-FACT-004",
+        "D2-TRAFFIC-SIGN-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2007_90",
+          "exact_references": [
+            "Vägmärkesförordning (2007:90), 1 kap. 1 §",
+            "Vägmärkesförordning (2007:90), 2 kap. 1 §",
+            "Vägmärkesförordning (2007:90), 2 kap. 2 §",
+            "Vägmärkesförordning (2007:90), 2 kap. 4 §",
+            "Vägmärkesförordning (2007:90), 1 kap. 9 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Vägmärken",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGN-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på vägmärken som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGN-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Vägmärkesförordningen innehåller bestämmelser om anvisningar för trafik genom vägmärken och tilläggstavlor.",
+            "Vägmärken delas in i varningsmärken, väjningspliktsmärken, förbudsmärken, påbudsmärken, anvisningsmärken, lokaliseringsmärken och upplysningsmärken.",
+            "Vägmärken, symboler och tilläggstavlor har den betydelse som framgår av deras namn om inte annat särskilt anges.",
+            "Varningsmärken varnar för fara och upplyser om farans art."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-SIGN-FACT-001",
+            "D2-TRAFFIC-SIGN-FACT-002",
+            "D2-TRAFFIC-SIGN-FACT-003",
+            "D2-TRAFFIC-SIGN-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGN-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGN-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGN-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-MARK-L01",
+      "topic_id": "topic_d2_traffic_vagmarkeringar",
+      "title": "Vägmarkeringar",
+      "learning_objectives": [
+        "Känna igen centrala regler i vägmarkeringar.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-MARK-FACT-001",
+        "D2-TRAFFIC-MARK-FACT-002",
+        "D2-TRAFFIC-MARK-FACT-003",
+        "D2-TRAFFIC-MARK-FACT-004",
+        "D2-TRAFFIC-MARK-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2007_90",
+          "exact_references": [
+            "Vägmärkesförordning (2007:90), 4 kap. 1 §",
+            "Vägmärkesförordning (2007:90), 4 kap. 2 §",
+            "Vägmärkesförordning (2007:90), 4 kap. 3 §",
+            "Vägmärkesförordning (2007:90), 4 kap. 8 §, M13",
+            "Vägmärkesförordning (2007:90), 4 kap. 8 §, M14"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Vägmarkeringar",
+          "fact_keys": [
+            "D2-TRAFFIC-MARK-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på vägmarkeringar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-MARK-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Vägmarkeringar delas in i längsgående markeringar, tvärgående markeringar och övriga markeringar.",
+            "Vägmarkeringar används för att reglera trafiken eller för att varna eller vägleda trafikanter, separat eller tillsammans med vägmärken eller andra anordningar.",
+            "Vägmarkeringar är vita om inte annat anges och kan vara gula vid tillfälligt behov på grund av vägarbete eller motsvarande.",
+            "M13 stopplinje anger var fordon ska stannas enligt vägmärke, trafiksignal eller ljussignal."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-MARK-FACT-001",
+            "D2-TRAFFIC-MARK-FACT-002",
+            "D2-TRAFFIC-MARK-FACT-003",
+            "D2-TRAFFIC-MARK-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-MARK-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-MARK-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-MARK-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-SIGNAL-L01",
+      "topic_id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "title": "Trafiksignaler och andra anordningar",
+      "learning_objectives": [
+        "Känna igen centrala regler i trafiksignaler och andra anordningar.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-SIGNAL-FACT-001",
+        "D2-TRAFFIC-SIGNAL-FACT-002",
+        "D2-TRAFFIC-SIGNAL-FACT-003",
+        "D2-TRAFFIC-SIGNAL-FACT-004",
+        "D2-TRAFFIC-SIGNAL-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2007_90",
+          "exact_references": [
+            "Vägmärkesförordning (2007:90), 3 kap. 1 §",
+            "Vägmärkesförordning (2007:90), 3 kap. 6 §",
+            "Vägmärkesförordning (2007:90), 3 kap. 6 §",
+            "Vägmärkesförordning (2007:90), 3 kap. 3 §",
+            "Vägmärkesförordning (2007:90), 3 kap. 19-20 §§"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Trafiksignaler och andra anordningar",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGNAL-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på trafiksignaler och andra anordningar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGNAL-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Trafiksignaler utgörs av flerfärgssignaler, kollektivtrafiksignaler, körfältssignaler, vissa särskilda signaler och signaler för särskild försiktighet.",
+            "Röd fordonssignal betyder stopp och fordon får inte passera stopplinjen eller, om sådan saknas, signalen.",
+            "Röd och gul fordonssignal betyder att växling till grönt är omedelbart förestående men har i övrigt samma innebörd som röd.",
+            "Blinkande gul signalbild visas vid driftsavbrott eller när anläggning tillfälligt är ur funktion under kortare tid."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-SIGNAL-FACT-001",
+            "D2-TRAFFIC-SIGNAL-FACT-002",
+            "D2-TRAFFIC-SIGNAL-FACT-003",
+            "D2-TRAFFIC-SIGNAL-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en bild- eller scenariouppgift ska du först avgöra vilka trafikanter, märken eller markeringar som styr situationen.",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGNAL-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGNAL-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-SIGNAL-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-VEHICLE-L01",
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "title": "Fordonsdefinitioner",
+      "learning_objectives": [
+        "Känna igen centrala regler i fordonsdefinitioner.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003A1",
+        "D2-TRAFFIC-035-003A2",
+        "D2-TRAFFIC-035-003A3",
+        "D2-TRAFFIC-035-003B1",
+        "D2-TRAFFIC-035-003B2"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-001",
+        "D2-TRAFFIC-VEHICLE-FACT-002",
+        "D2-TRAFFIC-VEHICLE-FACT-003",
+        "D2-TRAFFIC-VEHICLE-FACT-004",
+        "D2-TRAFFIC-VEHICLE-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_references": [
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Fordonsdefinitioner",
+          "fact_keys": [
+            "D2-TRAFFIC-VEHICLE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på fordonsdefinitioner som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-VEHICLE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Personbil är en bil som är inrättad huvudsakligen för personbefordran och försedd med högst åtta sittplatser utöver förarplatsen.",
+            "Lätt lastbil är en lastbil med totalvikt av högst 3,5 ton.",
+            "Buss är en bil som är inrättad huvudsakligen för personbefordran och försedd med fler än åtta sittplatser utöver förarplatsen.",
+            "Lätt släpfordon är ett släpfordon med totalvikt högst 750 kilogram eller ett släpfordon över 750 kilogram om dragfordonets och släpfordonets sammanlagda totalvikt inte överstiger 3,5 ton."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-VEHICLE-FACT-001",
+            "D2-TRAFFIC-VEHICLE-FACT-002",
+            "D2-TRAFFIC-VEHICLE-FACT-003",
+            "D2-TRAFFIC-VEHICLE-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en definitionsfråga ska du hålla isär liknande ord och använda den exakta juridiska betydelsen.",
+          "fact_keys": [
+            "D2-TRAFFIC-VEHICLE-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Frågorna i momentet kan lösas med text, men ska fortfarande kunna spåras till källa.",
+          "fact_keys": [
+            "D2-TRAFFIC-VEHICLE-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-VEHICLE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TRAFFIC-WEIGHT-L01",
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "title": "Viktbegrepp",
+      "learning_objectives": [
+        "Känna igen centrala regler i viktbegrepp.",
+        "Kunna välja rätt regel i en enkel trafiksituation."
+      ],
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003C1",
+        "D2-TRAFFIC-035-003C2",
+        "D2-TRAFFIC-035-003C3",
+        "D2-TRAFFIC-035-003C4"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-WEIGHT-FACT-001",
+        "D2-TRAFFIC-WEIGHT-FACT-002",
+        "D2-TRAFFIC-WEIGHT-FACT-003",
+        "D2-TRAFFIC-WEIGHT-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_references": [
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+            "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Viktbegrepp",
+          "fact_keys": [
+            "D2-TRAFFIC-WEIGHT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här momentet tränar du på viktbegrepp som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+          "fact_keys": [
+            "D2-TRAFFIC-WEIGHT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Tjänstevikt för bil är vikten av bilen i normalt fullt driftfärdigt skick med tyngsta karosseri, verktyg, reservhjul, bränsle, smörjolja, vatten och förare.",
+            "Bruttovikt på fordon är den sammanlagda statiska vikt som samtliga hjul, band eller medar på ett fordon vid ett visst tillfälle för över till vägbanan.",
+            "Totalvikt är summan av fordonets tjänstevikt och maximilast.",
+            "Maximilast för motorfordon, traktor, motorredskap, terrängmotorfordon, släpfordon eller sidvagn är skillnaden mellan fordonets totalvikt och tjänstevikt."
+          ],
+          "fact_keys": [
+            "D2-TRAFFIC-WEIGHT-FACT-001",
+            "D2-TRAFFIC-WEIGHT-FACT-002",
+            "D2-TRAFFIC-WEIGHT-FACT-003",
+            "D2-TRAFFIC-WEIGHT-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en definitionsfråga ska du hålla isär liknande ord och använda den exakta juridiska betydelsen.",
+          "fact_keys": [
+            "D2-TRAFFIC-WEIGHT-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Det här momentet är markerat för framtida egna diagram eller vägscener. Ingen extern teoriboksbild används i innehållet.",
+          "fact_keys": [
+            "D2-TRAFFIC-WEIGHT-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera svaret med rätt regel och källa?",
+          "fact_keys": [
+            "D2-TRAFFIC-WEIGHT-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

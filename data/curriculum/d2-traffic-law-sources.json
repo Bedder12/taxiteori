@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "subject": "D2_TRAFFIC_LAW",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map for TSFS 2021:119, 3 kap. 34-35 §§.",
+    "created_at": "2026-09-09",
+    "last_verified_at": "2026-09-09"
+  },
+  "source_catalog": [
+    {
+      "source_key": "SFS_1998_1276",
+      "source_title": "Trafikförordning (1998:1276)",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Trafikförordning (1998:1276)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "relevant_chapter_section": "2 kap.; 3 kap.; 8 kap.; 9 kap.; 10 kap.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary source for traffic rules, speed, priority, placement, overtaking, stopping, parking and local traffic rules."
+    },
+    {
+      "source_key": "SFS_2007_90",
+      "source_title": "Vägmärkesförordning (2007:90)",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Vägmärkesförordning (2007:90)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+      "relevant_chapter_section": "1-7 kap.; bilagda märkesförteckningar i tryckt SFS",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary source for signs, supplementary plates, signals, road markings and other traffic devices. Riksdagen fulltext notes that symbol images are not included."
+    },
+    {
+      "source_key": "SFS_2001_559",
+      "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+      "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+    },
+    {
+      "source_key": "TS_VAGMARKEN",
+      "source_title": "Vägmärken",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Vägmärkesförordning (2007:90); TSFS 2019:74; TSFS 2010:171; TSFS 2014:30",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/",
+      "relevant_chapter_section": "Official overview of sign groups, road markings, signals and traffic devices",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory material only; not used as primary legal authority."
+    },
+    {
+      "source_key": "TS_VAGMARKERINGAR",
+      "source_title": "Vägmarkeringar",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Vägmärkesförordning (2007:90), 4 kap.",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/",
+      "relevant_chapter_section": "Official overview of M-series road markings",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory support for future visual/diagram work."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D2-TRAFFIC-034-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 34 §",
+      "sources": [
+        {
+          "source_key": "SFS_1998_1276",
+          "source_title": "Trafikförordning (1998:1276)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Trafikförordning (1998:1276)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "relevant_chapter_section": "2 kap.; 3 kap.; 8 kap.; 9 kap.; 10 kap.",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for traffic rules, speed, priority, placement, overtaking, stopping, parking and local traffic rules."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-034-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 34 §",
+      "sources": [
+        {
+          "source_key": "SFS_2007_90",
+          "source_title": "Vägmärkesförordning (2007:90)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Vägmärkesförordning (2007:90)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+          "relevant_chapter_section": "1-7 kap.; bilagda märkesförteckningar i tryckt SFS",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for signs, supplementary plates, signals, road markings and other traffic devices. Riksdagen fulltext notes that symbol images are not included."
+        },
+        {
+          "source_key": "TS_VAGMARKEN",
+          "source_title": "Vägmärken",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Vägmärkesförordning (2007:90); TSFS 2019:74; TSFS 2010:171; TSFS 2014:30",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/",
+          "relevant_chapter_section": "Official overview of sign groups, road markings, signals and traffic devices",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory material only; not used as primary legal authority."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 1",
+      "sources": [
+        {
+          "source_key": "SFS_2007_90",
+          "source_title": "Vägmärkesförordning (2007:90)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Vägmärkesförordning (2007:90)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+          "relevant_chapter_section": "1-7 kap.; bilagda märkesförteckningar i tryckt SFS",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for signs, supplementary plates, signals, road markings and other traffic devices. Riksdagen fulltext notes that symbol images are not included."
+        },
+        {
+          "source_key": "TS_VAGMARKEN",
+          "source_title": "Vägmärken",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Vägmärkesförordning (2007:90); TSFS 2019:74; TSFS 2010:171; TSFS 2014:30",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/",
+          "relevant_chapter_section": "Official overview of sign groups, road markings, signals and traffic devices",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory material only; not used as primary legal authority."
+        },
+        {
+          "source_key": "TS_VAGMARKERINGAR",
+          "source_title": "Vägmarkeringar",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Vägmärkesförordning (2007:90), 4 kap.",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/",
+          "relevant_chapter_section": "Official overview of M-series road markings",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory support for future visual/diagram work."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 2",
+      "sources": [
+        {
+          "source_key": "SFS_1998_1276",
+          "source_title": "Trafikförordning (1998:1276)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Trafikförordning (1998:1276)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "relevant_chapter_section": "2 kap.; 3 kap.; 8 kap.; 9 kap.; 10 kap.",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for traffic rules, speed, priority, placement, overtaking, stopping, parking and local traffic rules."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003A1",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 a",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003A2",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 a",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003A3",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 a",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003B1",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 b",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003B2",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 b",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003C1",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 c",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003C2",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 c",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003C3",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 c",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TRAFFIC-035-003C4",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 35 § 3 c",
+      "sources": [
+        {
+          "source_key": "SFS_2001_559",
+          "source_title": "Lag (2001:559) om vägtrafikdefinitioner",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/",
+          "relevant_chapter_section": "2 § fordons- och viktdefinitioner",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary source for vehicle and weight terms used by D2 traffic-law definition requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d2_traffic_grundlaggande_trafikregler",
+      "title": "Grundläggande trafikregler",
+      "requirement_keys": [
+        "D2-TRAFFIC-034-001"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_vajnigsregler",
+      "title": "Väjningsregler",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_hastighet",
+      "title": "Hastighet",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_placering_korfalt",
+      "title": "Placering och körfält",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_korsningar",
+      "title": "Korsningar",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_cirkulationsplatser",
+      "title": "Cirkulationsplatser",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-001",
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_omkorning",
+      "title": "Omkörning",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_stannande_parkering",
+      "title": "Stannande och parkering",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_gaende_cyklister",
+      "title": "Gående och cyklister",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "title": "Buss, spårväg och järnväg",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-002",
+        "D2-TRAFFIC-034-002"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_vagmarken",
+      "title": "Vägmärken",
+      "requirement_keys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_vagmarkeringar",
+      "title": "Vägmarkeringar",
+      "requirement_keys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "title": "Trafiksignaler och andra anordningar",
+      "requirement_keys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "title": "Fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003A1",
+        "D2-TRAFFIC-035-003A2",
+        "D2-TRAFFIC-035-003A3",
+        "D2-TRAFFIC-035-003B1",
+        "D2-TRAFFIC-035-003B2"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "title": "Viktbegrepp",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003C1",
+        "D2-TRAFFIC-035-003C2",
+        "D2-TRAFFIC-035-003C3",
+        "D2-TRAFFIC-035-003C4"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false
+      },
+      "status": "published"
+    }
+  ]
+}

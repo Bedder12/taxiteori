@@ -37,7 +37,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc -p tsconfig.test.json && node .test-dist/packages/domain/tests/runTests.js"
   },
   "private": true
 }

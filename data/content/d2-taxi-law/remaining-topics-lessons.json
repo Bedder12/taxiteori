@@ -1,0 +1,1026 @@
+{
+  "metadata": {
+    "topic": "D2_TAXI_LAW_REMAINING_TOPICS",
+    "title": "Remaining D2 taxi law lessons",
+    "status": "published",
+    "verified_at": "2026-09-09",
+    "note": "Production-oriented authored topic slices. Content is source-backed, but not an official Trafikverket question bank."
+  },
+  "lessons": [
+    {
+      "stable_key": "D2-TAXI-BASIC-L01",
+      "topic_id": "topic_d2_taxi_taxitrafikens_grunder",
+      "title": "Taxitrafikens grunder",
+      "learning_objectives": [
+        "Kunna koppla taxitrafikens grunder till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-030-001"
+      ],
+      "fact_keys": [
+        "BASIC-FACT-001",
+        "BASIC-FACT-002",
+        "BASIC-FACT-003",
+        "BASIC-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 1 kap. 1 §",
+            "Taxitrafiklag (2012:211), 2 kap. 1 §",
+            "Taxitrafiklag (2012:211), 2 kap. 3 §"
+          ]
+        },
+        {
+          "source_id": "SFS_2012_238",
+          "exact_references": [
+            "Taxitrafikförordning (2012:238), 4 kap. 10 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Taxitrafikens grunder",
+          "fact_keys": [
+            "BASIC-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxitrafikens grunder. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "BASIC-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxitrafik är yrkesmässig trafik med personbil eller lätt lastbil där fordon och förare mot betalning ställs till allmänhetens förfogande för persontransport.",
+            "Taxitrafik får bedrivas endast av den som har taxitrafiktillstånd.",
+            "Hos juridiska personer med taxitrafiktillstånd ska det finnas trafikansvariga som ansvarar för att verksamheten bedrivs enligt föreskrifter, god branschsed och på ett trafiksäkert sätt.",
+            "Polismyndigheten utför vägkontroller av att fordon framförs enligt taxitrafiklagen, taxitrafikförordningen och villkor för trafiktillstånd eller taxiförarlegitimation."
+          ],
+          "fact_keys": [
+            "BASIC-FACT-001",
+            "BASIC-FACT-002",
+            "BASIC-FACT-003",
+            "BASIC-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "BASIC-FACT-001",
+            "BASIC-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om taxitrafikens grunder ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "BASIC-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "BASIC-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-TFL-L01",
+      "topic_id": "topic_d2_taxi_taxiforarlegitimation",
+      "title": "Taxiförarlegitimation",
+      "learning_objectives": [
+        "Kunna koppla taxiförarlegitimation till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-031-001"
+      ],
+      "fact_keys": [
+        "TFL-FACT-001",
+        "TFL-FACT-002",
+        "TFL-FACT-003",
+        "TFL-FACT-004",
+        "TFL-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 3 kap. 1 §",
+            "Taxitrafiklag (2012:211), 3 kap. 3 § första stycket",
+            "Taxitrafiklag (2012:211), 3 kap. 10 §",
+            "Taxitrafiklag (2012:211), 3 kap. 12 §"
+          ]
+        },
+        {
+          "source_id": "SFS_2012_238",
+          "exact_references": [
+            "Taxitrafikförordning (2012:238), 3 kap. 13 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Taxiförarlegitimation",
+          "fact_keys": [
+            "TFL-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxiförarlegitimation. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "TFL-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Personbil eller lätt lastbil får föras i taxitrafik endast av den som har giltig taxiförarlegitimation eller tillfälligt utövar taxiföraryrket enligt reglerna om erkännande av yrkeskvalifikationer.",
+            "Taxiförarlegitimation får ges till den som har fyllt 20 år, har B-körkort sedan minst två år eller D-körkort, uppfyller medicinska krav, bedöms lämplig i yrkeskompetens och laglydnad samt har godkänt körprov.",
+            "Taxiförarlegitimation gäller från utlämnandet och endast tillsammans med giltigt körkort.",
+            "Taxiförarlegitimation ska förnyas inom tio år efter utfärdande eller senaste förnyelse med nya uppgifter, och även om den förstörts, kommit bort eller uppgifter ändrats."
+          ],
+          "fact_keys": [
+            "TFL-FACT-001",
+            "TFL-FACT-002",
+            "TFL-FACT-003",
+            "TFL-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "TFL-FACT-001",
+            "TFL-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om taxiförarlegitimation ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "TFL-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "TFL-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-REVOKE-L01",
+      "topic_id": "topic_d2_taxi_aterkallelse",
+      "title": "Återkallelse",
+      "learning_objectives": [
+        "Kunna koppla återkallelse till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-031-002"
+      ],
+      "fact_keys": [
+        "REVOKE-FACT-001",
+        "REVOKE-FACT-002",
+        "REVOKE-FACT-003",
+        "REVOKE-FACT-004",
+        "REVOKE-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 4 kap. 6 § första stycket 1",
+            "Taxitrafiklag (2012:211), 4 kap. 6 § första stycket 2-3",
+            "Taxitrafiklag (2012:211), 4 kap. 6 § andra stycket",
+            "Taxitrafiklag (2012:211), 4 kap. 7 §",
+            "Taxitrafiklag (2012:211), 4 kap. 11 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Återkallelse",
+          "fact_keys": [
+            "REVOKE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller återkallelse. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "REVOKE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiförarlegitimation ska återkallas om innehavaren genom brottslig gärning eller andra missförhållanden visat sig olämplig som taxiförare.",
+            "Taxiförarlegitimation ska återkallas om innehavaren inte längre uppfyller de medicinska kraven eller inte följer föreläggande att ge in läkarintyg.",
+            "Om missförhållandena inte är så allvarliga att taxiförarlegitimationen bör återkallas får varning meddelas i stället.",
+            "Vid återkallelse på grund av olämplighet ska en olämplighetstid på lägst tre och högst fem år bestämmas."
+          ],
+          "fact_keys": [
+            "REVOKE-FACT-001",
+            "REVOKE-FACT-002",
+            "REVOKE-FACT-003",
+            "REVOKE-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "REVOKE-FACT-001",
+            "REVOKE-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om återkallelse ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "REVOKE-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "REVOKE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-TERM-L01",
+      "topic_id": "topic_d2_taxi_begrepp_definitioner",
+      "title": "Begrepp och definitioner",
+      "learning_objectives": [
+        "Kunna koppla begrepp och definitioner till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-031-003"
+      ],
+      "fact_keys": [
+        "TERM-FACT-001",
+        "TERM-FACT-002",
+        "TERM-FACT-003",
+        "TERM-FACT-004",
+        "TERM-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 1 kap. 1 §",
+            "Taxitrafiklag (2012:211), 1 kap. 1 §",
+            "Taxitrafiklag (2012:211), 1 kap. 2 §"
+          ]
+        },
+        {
+          "source_id": "TSFS_2013_41",
+          "exact_references": [
+            "TSFS 2013:41, 2 kap. 1 §",
+            "TSFS 2013:41, 2 kap. 1 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Begrepp och definitioner",
+          "fact_keys": [
+            "TERM-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller begrepp och definitioner. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "TERM-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxitrafik definieras i taxitrafiklagen som yrkesmässig persontransport med personbil eller lätt lastbil där fordon och förare ställs till allmänhetens förfogande mot betalning.",
+            "Taxiförarlegitimation är en handling som ger behörighet att föra fordon i taxitrafik.",
+            "Fordonsuttryck i taxitrafiklagen har samma betydelse som i lagen om vägtrafikdefinitioner.",
+            "I TSFS 2013:41 betyder körpass den tid under vilken en taxiförare använder ett fordon i taxitrafik."
+          ],
+          "fact_keys": [
+            "TERM-FACT-001",
+            "TERM-FACT-002",
+            "TERM-FACT-003",
+            "TERM-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "TERM-FACT-001",
+            "TERM-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om begrepp och definitioner ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "TERM-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "TERM-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-DOC-L01",
+      "topic_id": "topic_d2_taxi_handlingar_kontroller",
+      "title": "Handlingar och kontroller",
+      "learning_objectives": [
+        "Kunna koppla handlingar och kontroller till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-031-004A",
+        "D2-TAXI-031-004B"
+      ],
+      "fact_keys": [
+        "DOC-FACT-001",
+        "DOC-FACT-002",
+        "DOC-FACT-003",
+        "DOC-FACT-004",
+        "DOC-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_238",
+          "exact_references": [
+            "Taxitrafikförordning (2012:238), 3 kap. 13 §",
+            "Taxitrafikförordning (2012:238), 4 kap. 10 §",
+            "Taxitrafikförordning (2012:238), 5 kap. 6 §"
+          ]
+        },
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "Förordning (1994:1297), 7 §"
+          ]
+        },
+        {
+          "source_id": "TSFS_2013_41",
+          "exact_references": [
+            "TSFS 2013:41, 5 kap. 8 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Handlingar och kontroller",
+          "fact_keys": [
+            "DOC-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller handlingar och kontroller. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "DOC-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Giltig taxiförarlegitimation ska medföras i taxitrafik, vara synlig för passagerarna och visas upp för polisman eller bilinspektör på begäran.",
+            "Polismyndigheten utför vägkontroller av att fordon framförs enligt taxitrafiklagen, taxitrafikförordningen och villkor för trafiktillstånd eller taxiförarlegitimation.",
+            "Vid färd med fordon vars registreringsskyltar har tagits om hand ska det finnas bevis i fordonet om polismans medgivande till färden.",
+            "Tidboken ska medföras under färden och lämnas till polisman eller bilinspektör på begäran."
+          ],
+          "fact_keys": [
+            "DOC-FACT-001",
+            "DOC-FACT-002",
+            "DOC-FACT-003",
+            "DOC-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "DOC-FACT-001",
+            "DOC-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om handlingar och kontroller ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "DOC-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "DOC-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-PERMIT-L01",
+      "topic_id": "topic_d2_taxi_taxitrafiktillstand",
+      "title": "Taxitrafiktillstånd",
+      "learning_objectives": [
+        "Kunna koppla taxitrafiktillstånd till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-031-005"
+      ],
+      "fact_keys": [
+        "PERMIT-FACT-001",
+        "PERMIT-FACT-002",
+        "PERMIT-FACT-003",
+        "PERMIT-FACT-004",
+        "PERMIT-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 2 kap. 1 §",
+            "Taxitrafiklag (2012:211), 2 kap. 5 §",
+            "Taxitrafiklag (2012:211), 2 kap. 8 §",
+            "Taxitrafiklag (2012:211), 2 kap. 9 §"
+          ]
+        },
+        {
+          "source_id": "SFS_2012_238",
+          "exact_references": [
+            "Taxitrafikförordning (2012:238), 4 kap. 8 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Taxitrafiktillstånd",
+          "fact_keys": [
+            "PERMIT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxitrafiktillstånd. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "PERMIT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxitrafik får bedrivas endast av den som har taxitrafiktillstånd.",
+            "Taxitrafiktillstånd får endast ges till den som med hänsyn till yrkeskunnande, ekonomiska förhållanden och gott anseende bedöms lämplig att bedriva verksamheten.",
+            "Kravet på yrkeskunnande för taxitrafiktillstånd uppfylls genom godkänt skriftligt prov i yrkeskunnande.",
+            "Som huvudregel anses sökanden ha tillräckliga ekonomiska resurser vid kapital och reserver om minst 100 000 kronor för ett fordon och 50 000 kronor för varje ytterligare fordon."
+          ],
+          "fact_keys": [
+            "PERMIT-FACT-001",
+            "PERMIT-FACT-002",
+            "PERMIT-FACT-003",
+            "PERMIT-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "PERMIT-FACT-001",
+            "PERMIT-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om taxitrafiktillstånd ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "PERMIT-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "PERMIT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-METER-L01",
+      "topic_id": "topic_d2_taxi_taxameter_sarskild_utrustning",
+      "title": "Taxameter och särskild utrustning",
+      "learning_objectives": [
+        "Kunna koppla taxameter och särskild utrustning till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-031-006",
+        "D2-TAXI-031-007"
+      ],
+      "fact_keys": [
+        "METER-FACT-001",
+        "METER-FACT-002",
+        "METER-FACT-003",
+        "METER-FACT-004",
+        "METER-FACT-005",
+        "METER-FACT-006",
+        "METER-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_238",
+          "exact_references": [
+            "Taxitrafikförordning (2012:238), 5 kap. 1 §",
+            "Taxitrafikförordning (2012:238), 5 kap. 2 §",
+            "Taxitrafikförordning (2012:238), 5 kap. 3 §"
+          ]
+        },
+        {
+          "source_id": "TSFS_2013_41",
+          "exact_references": [
+            "TSFS 2013:41, 3 kap. 1 §",
+            "TSFS 2013:41, 3 kap. 3 §",
+            "TSFS 2013:41, 5 kap. 1 §",
+            "TSFS 2013:41, 7 kap. 2 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Taxameter och särskild utrustning",
+          "fact_keys": [
+            "METER-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxameter och särskild utrustning. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "METER-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Ett fordon får användas i taxitrafik endast om det har godkänd och fungerande taxameterutrustning eller sådan särskild utrustning för taxifordon som regelverket anger.",
+            "Ett taxifordon får inte samtidigt vara försett med taxameterutrustning och särskild utrustning för taxifordon.",
+            "Taxameterutrustning ska besiktas senast ett år från installationen eller senaste besiktningen av ett godkänt besiktningsorgan och en kontrollrapport ska upprättas.",
+            "När det finns taxameterutrustning i ett fordon som används i taxitrafik ska taxiföraren kontrollera att den fungerar."
+          ],
+          "fact_keys": [
+            "METER-FACT-001",
+            "METER-FACT-002",
+            "METER-FACT-003",
+            "METER-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "METER-FACT-001",
+            "METER-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om taxameter och särskild utrustning ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "METER-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "METER-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-PRICE-L01",
+      "topic_id": "topic_d2_taxi_prisinformation",
+      "title": "Prisinformation",
+      "learning_objectives": [
+        "Kunna koppla prisinformation till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-031-008"
+      ],
+      "fact_keys": [
+        "PRICE-FACT-001",
+        "PRICE-FACT-002",
+        "PRICE-FACT-003",
+        "PRICE-FACT-004",
+        "PRICE-FACT-005",
+        "PRICE-FACT-006",
+        "PRICE-FACT-007",
+        "PRICE-FACT-008"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 2 kap. 17 §",
+            "Taxitrafiklag (2012:211), 2 kap. 18 §",
+            "Taxitrafiklag (2012:211), 2 kap. 20 §",
+            "Taxitrafiklag (2012:211), 2 kap. 20 § andra stycket"
+          ]
+        },
+        {
+          "source_id": "TSFS_2013_41",
+          "exact_references": [
+            "TSFS 2013:41, 6 kap. 1-2 §§",
+            "TSFS 2013:41, 6 kap. 5 §",
+            "TSFS 2013:41, 6 kap. 11 §",
+            "TSFS 2013:41, 6 kap. 12 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Prisinformation",
+          "fact_keys": [
+            "PRICE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller prisinformation. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "PRICE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Den som har taxitrafiktillstånd och bedriver taxitrafik med taxameterutrustat fordon ska informera om den taxa som tillämpas och lämna prisuppgift enligt taxitrafiklagen.",
+            "Taxan ska vara uppbyggd så att priset enkelt kan bedömas före färden och beräknas efter färden med kännedom om körd sträcka och nyttjad tid.",
+            "Prisuppgift ska ange högsta pris för färden och lämnas om jämförpriset överstiger 1,2 procent av årets prisbasbelopp avrundat nedåt till närmaste tiotal kronor; den behövs inte när fast pris tillämpas.",
+            "Jämförpriset är priset inklusive mervärdesskatt för en 10 kilometer lång transport som varar 15 minuter inklusive eventuell grundavgift."
+          ],
+          "fact_keys": [
+            "PRICE-FACT-001",
+            "PRICE-FACT-002",
+            "PRICE-FACT-003",
+            "PRICE-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "PRICE-FACT-001",
+            "PRICE-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om prisinformation ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "PRICE-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "PRICE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-WORK-L01",
+      "topic_id": "topic_d2_taxi_arbetstid_ansvar",
+      "title": "Arbetstid och ansvar",
+      "learning_objectives": [
+        "Kunna koppla arbetstid och ansvar till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-032-002"
+      ],
+      "fact_keys": [
+        "WORK-FACT-001",
+        "WORK-FACT-002",
+        "WORK-FACT-003",
+        "WORK-FACT-004",
+        "WORK-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2005_395",
+          "exact_references": [
+            "Lag (2005:395), 10 §",
+            "Lag (2005:395), 11 §",
+            "Lag (2005:395), 12 §",
+            "Lag (2005:395), 18 §",
+            "Lag (2005:395), 20 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Arbetstid och ansvar",
+          "fact_keys": [
+            "WORK-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller arbetstid och ansvar. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "WORK-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Sammanlagd arbetstid enligt vägarbetstidslagen är summan av arbetstid som omfattas av lagen, även om arbetet utförs för flera arbetsgivare eller kunder.",
+            "Arbetsgivaren ska skriftligen begära uppgifter från arbetstagaren om arbete för annan arbetsgivare, och arbetstagaren ska lämna uppgifterna skriftligen.",
+            "Sammanlagd arbetstid får vara högst 48 timmar per vecka i genomsnitt under en beräkningsperiod om högst fyra månader och får inte överstiga 60 timmar under någon vecka.",
+            "Arbete får aldrig utföras längre än sex timmar i följd utan rast; rasten ska vara minst 30 minuter vid 6-9 timmars arbetstid och minst 45 minuter när arbetstiden överstiger 9 timmar."
+          ],
+          "fact_keys": [
+            "WORK-FACT-001",
+            "WORK-FACT-002",
+            "WORK-FACT-003",
+            "WORK-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "WORK-FACT-001",
+            "WORK-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om arbetstid och ansvar ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "WORK-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "WORK-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-SCHOOL-L01",
+      "topic_id": "topic_d2_taxi_skolskjuts",
+      "title": "Skolskjuts",
+      "learning_objectives": [
+        "Kunna koppla skolskjuts till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-033-001"
+      ],
+      "fact_keys": [
+        "SCHOOL-FACT-001",
+        "SCHOOL-FACT-002",
+        "SCHOOL-FACT-003",
+        "SCHOOL-FACT-004",
+        "SCHOOL-FACT-005",
+        "SCHOOL-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1970_340",
+          "exact_references": [
+            "Förordning (1970:340), 1 §",
+            "Förordning (1970:340), 2 § första stycket",
+            "Förordning (1970:340), 2 § andra stycket",
+            "Förordning (1970:340), 5 § första stycket",
+            "Förordning (1970:340), 5 § första och tredje stycket",
+            "Förordning (1970:340), 7 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Skolskjuts",
+          "fact_keys": [
+            "SCHOOL-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller skolskjuts. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "SCHOOL-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Skolskjutsning är skjuts till eller från skolan av elever i förskola, förskoleklass, grundskola, gymnasieskola eller motsvarande skola, särskilt ordnad av det allmänna och inte tillfällig.",
+            "Skolskjutsning ska när det gäller tidsplaner och färdvägar ordnas så att kraven på trafiksäkerhet tillgodoses.",
+            "Kommunal nämnd ska verka för att särskilt anordnade hållplatser utformas så att olyckor i möjligaste mån undviks och bestämmer färdvägar och på- eller avstigningsplatser efter föreskrivna samråd.",
+            "När ett fordon används för skolskjutsning ska det vara försett med skylt eller liknande som visar användningen."
+          ],
+          "fact_keys": [
+            "SCHOOL-FACT-001",
+            "SCHOOL-FACT-002",
+            "SCHOOL-FACT-003",
+            "SCHOOL-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "SCHOOL-FACT-001",
+            "SCHOOL-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om skolskjuts ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "SCHOOL-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "SCHOOL-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-SANCTION-L01",
+      "topic_id": "topic_d2_taxi_sanktioner_pafoljder",
+      "title": "Sanktioner och påföljder",
+      "learning_objectives": [
+        "Kunna koppla sanktioner och påföljder till rätt krav och källa.",
+        "Kunna bedöma enkla provscenarier utan att blanda ihop närliggande regler."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-030-001",
+        "D2-TAXI-031-002",
+        "D2-TAXI-032-002",
+        "D2-TAXI-033-001"
+      ],
+      "fact_keys": [
+        "SANCTION-FACT-001",
+        "SANCTION-FACT-002",
+        "SANCTION-FACT-003",
+        "SANCTION-FACT-004",
+        "SANCTION-FACT-005",
+        "SANCTION-FACT-006",
+        "SANCTION-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 5 kap. 1 §",
+            "Taxitrafiklag (2012:211), 5 kap. 4 § första stycket",
+            "Taxitrafiklag (2012:211), 5 kap. 4 § andra stycket",
+            "Taxitrafiklag (2012:211), 5 kap. 7 §"
+          ]
+        },
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "Förordning (1994:1297), 12 § första stycket",
+            "Förordning (1994:1297), 12 § andra stycket"
+          ]
+        },
+        {
+          "source_id": "SFS_1970_340",
+          "exact_references": [
+            "Förordning (1970:340), 7 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Sanktioner och påföljder",
+          "fact_keys": [
+            "SANCTION-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet samlar de regler som provet kan använda när frågan gäller sanktioner och påföljder. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+          "fact_keys": [
+            "SANCTION-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Den som uppsåtligen bedriver taxitrafik utan tillstånd döms för olaga taxitrafik till böter eller fängelse i högst ett år.",
+            "Den som i strid mot kravet på taxiförarlegitimation uppsåtligen för ett fordon döms till böter eller fängelse i högst sex månader.",
+            "Tillståndshavare som uppsåtligen eller av oaktsamhet anlitar förare som saknar taxiförarlegitimation eller rätt att tillfälligt utöva taxiföraryrket döms till samma straff som förare utan legitimation.",
+            "Om ett fordon framförs i strid med taxitrafiklagen, anslutande föreskrifter eller villkor får fortsatt färd hindras enligt klampningslagen."
+          ],
+          "fact_keys": [
+            "SANCTION-FACT-001",
+            "SANCTION-FACT-002",
+            "SANCTION-FACT-003",
+            "SANCTION-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Blanda inte ihop vad föraren ska göra direkt i fordonet med vad tillståndshavare, arbetsgivare, kommun eller myndighet ansvarar för.",
+          "fact_keys": [
+            "SANCTION-FACT-001",
+            "SANCTION-FACT-002"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "I en kontrollfråga om sanktioner och påföljder ska svaret kunna motiveras med den regel som uttryckligen säger vem som ska agera och när.",
+          "fact_keys": [
+            "SANCTION-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut både regeln och ansvarig aktör innan du väljer svar?",
+          "fact_keys": [
+            "SANCTION-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

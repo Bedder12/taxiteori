@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "topic": "D2_TAXI_LAW_VILOTIDER",
+    "title": "Vilotider",
+    "status": "published",
+    "verified_at": "2026-09-09",
+    "note": "Production-quality authored topic slice. Content is source-backed, but not an official Trafikverket question bank."
+  },
+  "lessons": [
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-L01",
+      "title": "Varför finns vilotidsregler?",
+      "learning_objectives": [
+        "Förstå varför vilotidsregler är en trafiksäkerhetsregel, inte bara en administrativ regel.",
+        "Känna igen vilka transporter som omfattas av den svenska vilotidsförordningen."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-032-001"
+      ],
+      "fact_keys": [
+        "REST-FACT-001",
+        "REST-FACT-002",
+        "REST-FACT-003"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "1 §",
+            "2 § 2",
+            "2 § 3"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 5,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Vila skyddar säkerheten",
+          "fact_keys": [
+            "REST-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vilotidsreglerna finns för att en förare inte ska köra när trötthet gör körningen riskabel. För dig som taxiförare är regeln praktisk: innan du kör behöver du kunna bedöma om din senaste vila räcker.",
+          "fact_keys": [
+            "REST-FACT-001"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Reglerna i det här momentet kommer från förordningen om vilotider vid vissa vägtransporter inom landet.",
+          "fact_keys": [
+            "REST-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxi omfattas när bilen används i taxitrafik enligt taxitrafiklagen.",
+            "Vissa skolskjutsar omfattas också när bilen är byggd och utrustad för högst nio personer inklusive föraren.",
+            "Regeln gäller de transporter som förordningen pekar ut, inte alla privata bilresor."
+          ],
+          "fact_keys": [
+            "REST-FACT-002",
+            "REST-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Om du kör ett taxifordon i taxitrafik inför ett kvällspass behöver du kontrollera din närmast föregående vila innan passet börjar.",
+          "fact_keys": [
+            "REST-FACT-002",
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara med egna ord varför vilotid måste kontrolleras före körningen?",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-L02",
+      "title": "Vilotidsbestämmelser",
+      "learning_objectives": [
+        "Redogöra för huvudregeln om dygnsvila.",
+        "Förstå när vilan kan delas upp och vilken tid som inte räknas som vila."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-032-001"
+      ],
+      "fact_keys": [
+        "REST-FACT-004",
+        "REST-FACT-005",
+        "REST-FACT-006",
+        "REST-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "3 § första stycket",
+            "3 § andra stycket a-c",
+            "4 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Huvudregeln: minst 11 timmars dygnsvila",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Inför varje tidpunkt då du utför transport ska du ha haft minst 11 timmars dygnsvila under de föregående 24 timmarna. Tänk därför rullande bakåt från den tid då körningen ska ske.",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Dygnsvilan får vara sammanhängande, eller delas upp i två perioder. Om den delas upp måste minst en av perioderna vara minst 8 timmar.",
+          "fact_keys": [
+            "REST-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Tid då du är tillgänglig för transporter, annat arbete, följer med i bilen under färd eller har jour på arbetsplatsen eller i fordonet är inte dygnsvila.",
+          "fact_keys": [
+            "REST-FACT-006"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Du vilar 8 timmar hemma och senare 3 timmar utan arbete eller jour. Det kan räcka som uppdelad dygnsvila, eftersom en period är minst 8 timmar och den sammanlagda vilan blir 11 timmar.",
+          "fact_keys": [
+            "REST-FACT-004",
+            "REST-FACT-005",
+            "REST-FACT-006"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Tillfälliga avvikelser är bara kopplade till olyckshändelse eller annan särskild omständighet som inte kunde förutses. En stressig planering är inte samma sak som en oförutsebar särskild omständighet.",
+          "fact_keys": [
+            "REST-FACT-007"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-L03",
+      "title": "Arbetstid, förare och arbetsgivare",
+      "learning_objectives": [
+        "Bedöma hur arbetstid och ansvar påverkar förare, arbetsgivare och egenföretagare.",
+        "Skilja mellan dygnsvilans tidbok och vägarbetstidslagens arbetstidsregister."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-032-002"
+      ],
+      "fact_keys": [
+        "REST-FACT-013",
+        "REST-FACT-014",
+        "REST-FACT-015",
+        "REST-FACT-016",
+        "REST-FACT-017",
+        "REST-FACT-018",
+        "REST-FACT-019",
+        "REST-FACT-020",
+        "REST-FACT-021",
+        "REST-FACT-022",
+        "REST-FACT-023",
+        "REST-FACT-024",
+        "REST-FACT-025",
+        "REST-FACT-026"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "8 §",
+            "9 §",
+            "10 §",
+            "12 §"
+          ]
+        },
+        {
+          "source_id": "SFS_2005_395",
+          "exact_references": [
+            "10 §",
+            "11 §",
+            "12 §",
+            "14 §",
+            "15 §",
+            "18 §",
+            "20 §",
+            "22 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Två saker att hålla isär",
+          "fact_keys": [
+            "REST-FACT-008",
+            "REST-FACT-025"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dygnsvilans tidbok visar din vila enligt vilotidsförordningen. Vägarbetstidslagens register handlar om arbetstid som omfattas av den lagen. De kan båda vara viktiga, men de är inte samma sak.",
+          "fact_keys": [
+            "REST-FACT-008",
+            "REST-FACT-025"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Föraren ska kunna visa sin tidbok när polis eller bilinspektör begär det.",
+            "Arbetsgivaren ska ge föraren tidbok utan kostnad och se till att anteckningarna görs.",
+            "Arbetsgivaren ska spara anteckningar minst tolv månader.",
+            "Arbetsgivare och egenföretagare ska registrera arbetstid som omfattas av vägarbetstidslagen minst två år."
+          ],
+          "fact_keys": [
+            "REST-FACT-012",
+            "REST-FACT-013",
+            "REST-FACT-014",
+            "REST-FACT-025"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Om vägarbetstidslagen är tillämplig räknas arbetstid ihop även om arbetet utförs för flera arbetsgivare eller kunder.",
+          "fact_keys": [
+            "REST-FACT-018"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Arbetstid får inte planeras så att den bryter mot rasterna. Huvudregeln är ingen arbetstid längre än sex timmar i följd utan rast.",
+          "fact_keys": [
+            "REST-FACT-023",
+            "REST-FACT-024"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En anställd förare kör taxi på dagen och har annat vägtransportarbete på kvällen. Vid bedömning enligt vägarbetstidslagen kan den sammanlagda arbetstiden behöva räknas ihop.",
+          "fact_keys": [
+            "REST-FACT-018",
+            "REST-FACT-019"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Vem ansvarar för att ge en anställd förare en tidbok: föraren eller arbetsgivaren?",
+          "fact_keys": [
+            "REST-FACT-014"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-L04",
+      "title": "Beräkna dygnsvila",
+      "learning_objectives": [
+        "Beräkna om en förare har tillräcklig dygnsvila i de föregående 24 timmarna.",
+        "Avgöra om en uppdelad vila uppfyller kravet."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-032-001",
+        "D2-TAXI-032-003"
+      ],
+      "fact_keys": [
+        "REST-FACT-004",
+        "REST-FACT-005",
+        "REST-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "3 § första stycket",
+            "3 § andra stycket a-c"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Räkna bakåt 24 timmar",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Börja vid den tid då körningen ska ske. Titta sedan 24 timmar bakåt. I det tidsfönstret ska det finnas minst 11 timmar dygnsvila.",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "worked_example",
+          "title": "Exempel 1: sammanhängande vila",
+          "timeline": [
+            "Måndag 20.00: arbetet slutar",
+            "Tisdag 07.00: planerad körning börjar",
+            "Vila: 20.00-07.00 = 11 timmar"
+          ],
+          "reasoning": "I 24-timmarsperioden före tisdag 07.00 finns 11 timmars sammanhängande dygnsvila.",
+          "final_answer": "Körningen kan börja enligt dygnsviloregeln.",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "worked_example",
+          "title": "Exempel 2: uppdelad vila",
+          "timeline": [
+            "Vila 22.00-06.00 = 8 timmar",
+            "Senare vila 13.00-16.00 = 3 timmar",
+            "Sammanlagd vila = 11 timmar"
+          ],
+          "reasoning": "Vilan är uppdelad i två perioder. En period är minst 8 timmar, och totalen blir 11 timmar.",
+          "final_answer": "Dygnsvilan uppfyller kravet om perioderna i övrigt är faktisk vila.",
+          "fact_keys": [
+            "REST-FACT-004",
+            "REST-FACT-005",
+            "REST-FACT-006"
+          ]
+        },
+        {
+          "type": "worked_example",
+          "title": "Exempel 3: jour räknas inte som vila",
+          "timeline": [
+            "Vila 21.00-05.00 = 8 timmar",
+            "Jour i bilen 05.00-08.00 = räknas inte som vila",
+            "Planerad körning 08.00"
+          ],
+          "reasoning": "Jour i bilen är tid då föraren är tillgänglig och räknas inte som dygnsvila.",
+          "final_answer": "Föraren har inte 11 timmars dygnsvila.",
+          "fact_keys": [
+            "REST-FACT-004",
+            "REST-FACT-006"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-L05",
+      "title": "Anteckna dygnsvila",
+      "learning_objectives": [
+        "Förstå vad tidboken ska visa.",
+        "Känna igen när anteckningar ska göras och visas upp."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-032-003"
+      ],
+      "fact_keys": [
+        "REST-FACT-008",
+        "REST-FACT-009",
+        "REST-FACT-010",
+        "REST-FACT-011",
+        "REST-FACT-012"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "5 §",
+            "6 §",
+            "7 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Tidboken skrivs före körningen",
+          "fact_keys": [
+            "REST-FACT-008",
+            "REST-FACT-009"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Du ska fortlöpande anteckna din dygnsvila i en personlig tidbok. Anteckningen ska göras innan körningen påbörjas och avse den närmast föregående dygnsvilan.",
+          "fact_keys": [
+            "REST-FACT-008",
+            "REST-FACT-009",
+            "REST-FACT-011"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Tidboken är personlig.",
+            "Den ska innehålla anteckningar för de sju senaste dygnen då anteckningsskyldigheten gällde.",
+            "Den ska medföras under färden.",
+            "Den ska lämnas till polisman eller bilinspektör på begäran."
+          ],
+          "fact_keys": [
+            "REST-FACT-011",
+            "REST-FACT-012"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Om du börjar köra klockan 07.00 ska den närmast föregående dygnsvilan redan vara antecknad innan du startar körningen.",
+          "fact_keys": [
+            "REST-FACT-009"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Är du anställd ska motsvarande anteckningar även finnas hos arbetsgivaren.",
+          "fact_keys": [
+            "REST-FACT-010"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Vilken vila ska antecknas före körningen: den planerade kommande vilan eller den närmast föregående dygnsvilan?",
+          "fact_keys": [
+            "REST-FACT-009"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D2-TAXI-VILOTIDER-L06",
+      "title": "Scenarioövningar",
+      "learning_objectives": [
+        "Tillämpa reglerna i realistiska kör- och kontrollsituationer.",
+        "Förklara varför ett svar är rätt utifrån källa, inte magkänsla."
+      ],
+      "requirement_keys": [
+        "D2-TAXI-032-001",
+        "D2-TAXI-032-002",
+        "D2-TAXI-032-003"
+      ],
+      "fact_keys": [
+        "REST-FACT-004",
+        "REST-FACT-005",
+        "REST-FACT-006",
+        "REST-FACT-008",
+        "REST-FACT-009",
+        "REST-FACT-012",
+        "REST-FACT-014",
+        "REST-FACT-020",
+        "REST-FACT-023"
+      ],
+      "source_references": [
+        {
+          "source_id": "SFS_1994_1297",
+          "exact_references": [
+            "3 §",
+            "5 §",
+            "7 §",
+            "9 §"
+          ]
+        },
+        {
+          "source_id": "SFS_2005_395",
+          "exact_references": [
+            "12 §",
+            "18 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 10,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Så tänker du i en fråga",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Hitta starttiden för transporten.",
+            "Räkna 24 timmar bakåt.",
+            "Lägg ihop bara tid som faktiskt räknas som dygnsvila.",
+            "Om vilan är uppdelad: kontrollera att en period är minst 8 timmar.",
+            "Kontrollera om frågan gäller tidbok, arbetsgivaransvar eller arbetstid."
+          ],
+          "fact_keys": [
+            "REST-FACT-004",
+            "REST-FACT-005",
+            "REST-FACT-006",
+            "REST-FACT-009",
+            "REST-FACT-014"
+          ]
+        },
+        {
+          "type": "worked_example",
+          "title": "Scenario: för lite vila",
+          "timeline": [
+            "Arbete slutar 23.30",
+            "Körning ska börja 09.30",
+            "Möjlig vila: 10 timmar"
+          ],
+          "reasoning": "I 24-timmarsperioden före körningen finns bara 10 timmar dygnsvila.",
+          "final_answer": "Föraren ska inte börja köra enligt dygnsviloregeln.",
+          "fact_keys": [
+            "REST-FACT-004"
+          ]
+        },
+        {
+          "type": "worked_example",
+          "title": "Scenario: rast i vägarbetstid",
+          "timeline": [
+            "Arbetspass 08.00-14.30",
+            "Ingen rast",
+            "Arbete pågår längre än sex timmar"
+          ],
+          "reasoning": "När vägarbetstidslagen är tillämplig får arbete aldrig utföras längre än sex timmar i följd utan rast.",
+          "final_answer": "Planeringen behöver brytas av med rast.",
+          "fact_keys": [
+            "REST-FACT-023"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "När du svarar på scenariofrågor: börja alltid med vilken regel frågan testar.",
+          "fact_keys": [
+            "REST-FACT-004",
+            "REST-FACT-023"
+          ]
+        }
+      ]
+    }
+  ]
+}

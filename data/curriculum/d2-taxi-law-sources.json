@@ -1,0 +1,962 @@
+{
+  "metadata": {
+    "subject": "D2_TAXI_LAW",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map and lesson outlines for audited D2_TAXI_LAW curriculum requirements only.",
+    "created_at": "2026-09-09",
+    "last_verified_at": "2026-09-09",
+    "content_policy": "No final educational prose and no question bank are included in this file."
+  },
+  "source_catalog": [
+    {
+      "source_key": "SFS_2012_211",
+      "source_title": "Taxitrafiklag (2012:211)",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Taxitrafiklag (2012:211)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+      "relevant_chapter_section": "1 kap.; 2 kap.; 2 a kap.; 2 b kap.; 3 kap.; 4 kap.; 5 kap.; 7 kap.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary act for taxi definitions, permits, driver legitimacy, price information, revocation, penalties, taxameter data transfer and special equipment."
+    },
+    {
+      "source_key": "SFS_2012_238",
+      "source_title": "Taxitrafikförordning (2012:238)",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Taxitrafikförordning (2012:238)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+      "relevant_chapter_section": "1 kap.; 2 kap.; 3 kap.; 4 kap.; 5 kap.; 6 kap.; 7 kap.; 8 kap.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary regulation connected to taxitrafiklagen, including application details, visible legitimacy, road checks, equipment, reporting and sanctions."
+    },
+    {
+      "source_key": "TSFS_2013_41",
+      "source_title": "Transportstyrelsens föreskrifter om taxitrafik",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2013:41",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2010/details?RuleNumber=2013%3A41&RulePrefix=TSFS",
+      "relevant_chapter_section": "2 kap.; 3 kap.; 5 kap.; 6 kap.; bilaga 1",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Transportstyrelsen identifies the consolidated regulation as containing detailed rules on taxameter use, operating modes, receipts, journey reports, taxameter control and price information. Exact section-level extraction from the consolidated PDF is documented in docs/tsfs-2013-41-extraction.md."
+    },
+    {
+      "source_key": "SFS_1994_1297",
+      "source_title": "Förordning (1994:1297) om vilotider vid vissa vägtransporter inom landet",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Förordning (1994:1297)",
+      "url": "https://data.riksdagen.se/dokument/sfs-1994-1297.html",
+      "relevant_chapter_section": "1-12 §§",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary rest-time rule set for taxi, including scope, daily rest, temporary deviations, time book notes, carrying the book, employer records and penalties."
+    },
+    {
+      "source_key": "SFS_2005_395",
+      "source_title": "Lag (2005:395) om arbetstid vid visst vägtransportarbete",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Lag (2005:395)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2005395-om-arbetstid-vid-visst_sfs-2005-395/",
+      "relevant_chapter_section": "1 §; 10-20 §§; 22-29 §§",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary act for working time concepts, total working time, breaks, record keeping, supervision and sanctions in covered road transport work."
+    },
+    {
+      "source_key": "SFS_1970_340",
+      "source_title": "Förordning (1970:340) om skolskjutsning",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Förordning (1970:340)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1970340-om-skolskjutsning_sfs-1970-340/",
+      "relevant_chapter_section": "1-2 §§; 5 §; 7-9 §§",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary regulation for definition, traffic-safety planning, vehicle signage/equipment, responsibility and penalties in school transport."
+    },
+    {
+      "source_key": "SFS_2010_800",
+      "source_title": "Skollag (2010:800)",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "legal_reference": "Skollag (2010:800)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/skollag-2010800_sfs-2010-800/",
+      "relevant_chapter_section": "9 kap. 15 b §; 10 kap. 32-33 §§; 11 kap. 31-32 §§; 28 kap. 5 och 18 §§",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Primary act for right to school transport and appeal framework; exact school-form boundaries should be kept separate from vehicle/förare rules."
+    },
+    {
+      "source_key": "TRAFIKVERKET_TFL_PROV",
+      "source_title": "Taxiförarlegitimation",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Exam and test information linked to taxiförarlegitimation",
+      "url": "https://www.trafikverket.se/korkort/yrkesprov/taxiforarlegitimation/",
+      "relevant_chapter_section": "Teoriprov; Delprov 2 Lagstiftning; Körprovet",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for how the taxiförarlegitimation tests are structured and what Delprov 2 checks."
+    },
+    {
+      "source_key": "TS_TFL_APPLICATION",
+      "source_title": "Ansökan om taxiförarlegitimation",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Taxitrafiklag (2012:211), 3 kap. 3 §",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforare/ansokan-om-taxiforarlegitimation/",
+      "relevant_chapter_section": "Krav för taxiförarlegitimation",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for eligibility, application proof and Trafikverket test linkage."
+    },
+    {
+      "source_key": "TS_TFL_SUPERVISION",
+      "source_title": "Tillsyn av taxiförare",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Taxitrafiklag (2012:211), 4 kap. 6-12 §§",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforare/tillsyn-av-taxiforare/",
+      "relevant_chapter_section": "Ingripande mot taxiförarlegitimation; frågor och svar om tillsyn",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for warning, revocation, conditions and no-action outcomes after Transportstyrelsen review."
+    },
+    {
+      "source_key": "TS_TAXI_PERMIT_APPLICATION",
+      "source_title": "Ansökan om taxitrafiktillstånd",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Taxitrafiklag (2012:211), 2 kap.; Taxitrafikförordning (2012:238), 2 kap.",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/ansokan-om-trafiktillstand/",
+      "relevant_chapter_section": "Ansökan; ekonomisk redovisning; trafikansvarig; fordonsanmälan",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for permit application and supporting documents."
+    },
+    {
+      "source_key": "TS_TAXI_PERMIT_REQUIREMENTS",
+      "source_title": "Krav för att få taxitrafiktillstånd",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 5, 8-12 §§",
+      "url": "https://transportstyrelsen.se/krav-for-att-fa-trafiktillstand",
+      "relevant_chapter_section": "Yrkeskunnande; ekonomiska resurser; gott anseende",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for core permit suitability requirements."
+    },
+    {
+      "source_key": "TS_TAXAMETER",
+      "source_title": "Taxameter",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Taxitrafikförordning (2012:238), 5 kap. 1-4 §§; TSFS 2013:41",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/taxameter/",
+      "relevant_chapter_section": "Taxameter; Så här ska taxametern användas under körningen; Särskild utrustning för taxifordon",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for approved equipment, inspection, operating modes and receipts."
+    },
+    {
+      "source_key": "TS_SPECIAL_EQUIPMENT",
+      "source_title": "Ny kategori av taxitrafik",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Taxitrafiklag (2012:211), 2 b kap.; Taxitrafikförordning (2012:238), 5 kap. 1-2 §§",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/ny-kategori-av-taxitrafik/",
+      "relevant_chapter_section": "Särskild utrustning för taxifordon; beställningscentral; fast pris",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for taxi without taxameter, beställningscentral connection and fixed-price limits."
+    },
+    {
+      "source_key": "TS_PRICE_INFORMATION",
+      "source_title": "Prisinformation för taxiföretag",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 17-22 §§; Taxitrafikförordning (2012:238), 5 kap. 5 §; TSFS 2013:41",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/prisinformation/",
+      "relevant_chapter_section": "Prisdekaler; jämförpris; tariffparameter; prisuppgift till kunden innan taxiresan startar",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for decals, comparison price, tariff parameters and pre-ride price quote."
+    },
+    {
+      "source_key": "SKOLVERKET_SCHOOL_TRANSPORT",
+      "source_title": "Skolskjuts",
+      "source_type": "official_explanatory_source",
+      "authority": "Skolverket",
+      "legal_reference": "Skollag (2010:800), 9 kap. 15 b §; 10 kap. 32 §; 11 kap. 31 §; Förordning (1970:340)",
+      "url": "https://www.skolverket.se/styrning-och-ansvar/regler-och-ansvar/ansvar-i-skolfragor/skolskjuts",
+      "relevant_chapter_section": "Rätt till skolskjuts; överklagande",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-09",
+      "notes": "Official explanatory source for school transport rights, individual assessment and legal references."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D2-TAXI-030-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 30 §",
+      "sources": [
+        {
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafiklag (2012:211), 1-5 kap.; 7 kap.",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "1 kap. definitioner; 2 kap. tillstånd; 3 kap. legitimation; 4 kap. återkallelse; 5 kap. straff och hindrande; 7 kap. bemyndiganden",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Core legal source for taxi-law rules, sanctions and consequences."
+        },
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 1-8 kap.",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "1 kap. allmänna bestämmelser; 4 kap. kontroll; 7 kap. ansvar; 8 kap. bemyndiganden",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Connected regulation with operational and control details."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 1",
+      "sources": [
+        {
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafiklag (2012:211), 3 kap. 1-13 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "3 kap. krav, prövning, läkarintyg, prov, giltighet, förnyelse och utländskt körkort",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary requirements for obtaining and using taxiförarlegitimation."
+        },
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 3 kap. 1-16 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "3 kap. prövningsmyndighet, prov, utfärdande, medförande, förnyelse",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Operational details for legitimacy issuance, carrying and renewal."
+        },
+        {
+          "source_title": "Ansökan om taxiförarlegitimation",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Taxitrafiklag (2012:211), 3 kap. 3 §",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforare/ansokan-om-taxiforarlegitimation/",
+          "relevant_chapter_section": "Krav för taxiförarlegitimation",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official readable explanation of eligibility criteria."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 2",
+      "sources": [
+        {
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafiklag (2012:211), 4 kap. 6-12 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "4 kap. återkallelse, varning, olämplighetstid, omhändertagande och överlämnande av legitimation",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal basis for when taxiförarlegitimation can be revoked or handled."
+        },
+        {
+          "source_title": "Tillsyn av taxiförare",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Taxitrafiklag (2012:211), 4 kap. 6-12 §§",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforare/tillsyn-av-taxiforare/",
+          "relevant_chapter_section": "Ingripande mot taxiförarlegitimation; frågor och svar om tillsyn",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory source for warning, revocation and olämplighetstid."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 3",
+      "sources": [
+        {
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafiklag (2012:211), 1 kap. 1-3 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "1 kap. ordförklaringar",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Defines taxitrafik, taxiförarlegitimation and links vehicle terms to vägtrafikdefinitioner."
+        },
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 1 kap. 1-3 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "1 kap. allmänna bestämmelser and definition scope",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Clarifies that regulation terms use the same meanings as taxitrafiklagen and vägtrafikdefinitioner."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-004A",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 4",
+      "sources": [
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 3 kap. 13 §; 5 kap. 6 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "3 kap. medförande av taxiförarlegitimation; 5 kap. bevis vid färd efter omhändertagen registreringsskylt",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for documents to carry during taxi operation."
+        },
+        {
+          "source_title": "Förordning (1994:1297) om vilotider vid vissa vägtransporter inom landet",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Förordning (1994:1297), 5-7 §§",
+          "url": "https://data.riksdagen.se/dokument/sfs-1994-1297.html",
+          "relevant_chapter_section": "Anteckningar om dygnsvila and carrying personal time book",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Complements the taxi-specific document requirement where rest-time records apply."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-004B",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 4",
+      "sources": [
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 3 kap. 13 §; 4 kap. 10 §; 5 kap. 6 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "3 kap. legitimacy shown to police/bilinspektör; 4 kap. road checks; 5 kap. proof after seized plate",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for what must be shown during controls."
+        },
+        {
+          "source_title": "Förordning (1994:1297) om vilotider vid vissa vägtransporter inom landet",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Förordning (1994:1297), 7 och 10 §§",
+          "url": "https://data.riksdagen.se/dokument/sfs-1994-1297.html",
+          "relevant_chapter_section": "Driver provides time book; employer provides records and other relevant documents for control",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Control-specific rest-time document source."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-005",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 5",
+      "sources": [
+        {
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 1-16 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "2 kap. tillståndsplikt, prövning, trafikansvariga, ekonomiska resurser, gott anseende and validity",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for taxitrafiktillstånd."
+        },
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 2 kap. 1-10 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "2 kap. prövningsmyndighet, application, vehicle notification, Transportstyrelsen control, road checks",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Regulatory detail for applications and vehicle use."
+        },
+        {
+          "source_title": "Krav för att få taxitrafiktillstånd",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 5, 8-12 §§",
+          "url": "https://transportstyrelsen.se/krav-for-att-fa-trafiktillstand",
+          "relevant_chapter_section": "Yrkeskunnande; ekonomiska resurser; gott anseende",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official teaching support for suitability factors."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-006",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 6",
+      "sources": [
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 5 kap. 1-4 §§; 8 kap. 1 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "5 kap. approved, functioning, controlled, sealed and inspected taxameter equipment",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary regulation for the equipment requirement and annual inspection."
+        },
+        {
+          "source_title": "Transportstyrelsens föreskrifter om taxitrafik",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2013:41, 2-3 kap. and 5 kap.",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2010/details?RuleNumber=2013%3A41&RulePrefix=TSFS",
+          "relevant_chapter_section": "Taxameter use, operating modes, receipts, journey reports and taxameter control",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Exact section-level PDF extraction for taxameter use, reports, control and equipment is documented in docs/tsfs-2013-41-extraction.md."
+        },
+        {
+          "source_title": "Taxameter",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Taxitrafikförordning (2012:238), 5 kap. 1-4 §§; TSFS 2013:41",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/taxameter/",
+          "relevant_chapter_section": "Så här ska taxametern användas under körningen",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory source for driver-facing taxameter use."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-007",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 7",
+      "sources": [
+        {
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafiklag (2012:211), 2 b kap. 1-5 §§; 7 kap. 4 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "2 b kap. beställningscentral and special equipment; 7 kap. bemyndigande",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary act for taxi without taxameter and special equipment duty."
+        },
+        {
+          "source_title": "Taxitrafikförordning (2012:238)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafikförordning (2012:238), 5 kap. 1-2 och 4 §§; 8 kap. 2 a §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafikforordning-2012238_sfs-2012-238/",
+          "relevant_chapter_section": "Special equipment as alternative to taxameter; not both at the same time; control",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary regulation for allowed equipment combinations and controls."
+        },
+        {
+          "source_title": "Ny kategori av taxitrafik",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Taxitrafiklag (2012:211), 2 b kap.; Taxitrafikförordning (2012:238), 5 kap. 1-2 §§",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/ny-kategori-av-taxitrafik/",
+          "relevant_chapter_section": "Särskild utrustning för taxifordon; beställningscentral; fast pris",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory source for the special-equipment taxi category."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-031-008",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 31 § 8",
+      "sources": [
+        {
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 17-22 §§; 2 b kap. 4-5 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "Price information when taxameter is used; fixed-price proof for special-equipment taxi",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary act for tariff, comparison price, binding price quote and price evidence."
+        },
+        {
+          "source_title": "Transportstyrelsens föreskrifter om taxitrafik",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2013:41, 6 kap. and bilaga 1",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2010/details?RuleNumber=2013%3A41&RulePrefix=TSFS",
+          "relevant_chapter_section": "Price information and decal templates",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Exact section-level PDF extraction for price information, comparison price and price-proof handling is documented in docs/tsfs-2013-41-extraction.md."
+        },
+        {
+          "source_title": "Prisinformation för taxiföretag",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 17-22 §§; TSFS 2013:41",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/prisinformation/",
+          "relevant_chapter_section": "Prisdekaler; jämförpris; tariffparameter; prisuppgift till kunden innan taxiresan startar",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory source for passenger-facing price information."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-032-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 32 § 1",
+      "sources": [
+        {
+          "source_title": "Förordning (1994:1297) om vilotider vid vissa vägtransporter inom landet",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Förordning (1994:1297), 1-4 §§; 11-12 §§",
+          "url": "https://data.riksdagen.se/dokument/sfs-1994-1297.html",
+          "relevant_chapter_section": "Scope, daily rest, temporary deviations, exceptions and penalties",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for Swedish taxi rest-time rules."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-032-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 32 § 2",
+      "sources": [
+        {
+          "source_title": "Lag (2005:395) om arbetstid vid visst vägtransportarbete",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Lag (2005:395), 1 §; 10-20 §§; 22-29 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2005395-om-arbetstid-vid-visst_sfs-2005-395/",
+          "relevant_chapter_section": "Scope, total working time, breaks, record keeping, supervision, penalties and overtime fees",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for worker and employer responsibility in road transport working-time law."
+        },
+        {
+          "source_title": "Förordning (1994:1297) om vilotider vid vissa vägtransporter inom landet",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Förordning (1994:1297), 5, 8-10 och 12 §§",
+          "url": "https://data.riksdagen.se/dokument/sfs-1994-1297.html",
+          "relevant_chapter_section": "Driver and employer note-taking and control duties",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Rest-time responsibility source for driver/employer scenarios."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-032-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 32 § 3",
+      "sources": [
+        {
+          "source_title": "Förordning (1994:1297) om vilotider vid vissa vägtransporter inom landet",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Förordning (1994:1297), 3 och 5-7 §§",
+          "url": "https://data.riksdagen.se/dokument/sfs-1994-1297.html",
+          "relevant_chapter_section": "Daily rest calculation and time book recording/carrying",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for calculating and recording dygnsvila."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D2-TAXI-033-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 33 §",
+      "sources": [
+        {
+          "source_title": "Förordning (1970:340) om skolskjutsning",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Förordning (1970:340), 1-2, 5 och 7-8 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1970340-om-skolskjutsning_sfs-1970-340/",
+          "relevant_chapter_section": "Definition, traffic-safety route planning, vehicle equipment/signage, penalties and Transportstyrelsen authority",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for driver- and vehicle-facing school transport rules."
+        },
+        {
+          "source_title": "Skollag (2010:800)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag / Svensk författningssamling",
+          "legal_reference": "Skollag (2010:800), 9 kap. 15 b §; 10 kap. 32-33 §§; 11 kap. 31-32 §§; 28 kap. 5 och 18 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/skollag-2010800_sfs-2010-800/",
+          "relevant_chapter_section": "Right to school transport and appeal routes",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Primary legal source for the public-law school transport entitlement context."
+        },
+        {
+          "source_title": "Skolskjuts",
+          "source_type": "official_explanatory_source",
+          "authority": "Skolverket",
+          "legal_reference": "Skollag (2010:800), 9 kap. 15 b §; 10 kap. 32 §; 11 kap. 31 §; Förordning (1970:340)",
+          "url": "https://www.skolverket.se/styrning-och-ansvar/regler-och-ansvar/ansvar-i-skolfragor/skolskjuts",
+          "relevant_chapter_section": "Rätt till skolskjuts; överklagande",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-09",
+          "notes": "Official explanatory source for school transport entitlement and decisions."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "lesson_outlines": [
+    {
+      "topic": "Taxiförarlegitimation",
+      "lesson_title": "Taxiförarlegitimation: krav, giltighet och användning",
+      "requirement_keys": [
+        "D2-TAXI-031-001"
+      ],
+      "learning_objective": "Apply the legal requirements for who may drive a taxi and how taxiförarlegitimation is issued, carried, shown and renewed.",
+      "authoritative_sources": [
+        "SFS_2012_211",
+        "SFS_2012_238",
+        "TS_TFL_APPLICATION",
+        "TRAFIKVERKET_TFL_PROV"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Requirement to hold valid taxiförarlegitimation or permitted temporary professional recognition.",
+        "Minimum age, driving licence, medical, suitability and test requirements.",
+        "Validity together with driving licence and renewal rules.",
+        "Legitimation must be carried and visible for passengers."
+      ],
+      "scenario_opportunities": [
+        "A driver has valid taxiförarlegitimation but an invalid driving licence.",
+        "A driver with a foreign licence wants to drive a Swedish taxi."
+      ],
+      "calculation_opportunities": [],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Återkallelse",
+      "lesson_title": "Återkallelse, varning och olämplighetstid",
+      "requirement_keys": [
+        "D2-TAXI-031-002"
+      ],
+      "learning_objective": "Identify when taxiförarlegitimation may be revoked and distinguish revocation from warning, condition and no intervention.",
+      "authoritative_sources": [
+        "SFS_2012_211",
+        "SFS_2012_238",
+        "TS_TFL_SUPERVISION"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Legal grounds for intervention against taxiförarlegitimation.",
+        "Warning when conditions do not justify revocation.",
+        "Olämplighetstid after serious cases.",
+        "Police/bilinspektör handling of omhändertagen legitimation."
+      ],
+      "scenario_opportunities": [
+        "Repeated offences after an earlier warning.",
+        "Medical unsuitability or missing medical certificate."
+      ],
+      "calculation_opportunities": [],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Begrepp och definitioner",
+      "lesson_title": "Centrala begrepp i taxitrafiklagstiftningen",
+      "requirement_keys": [
+        "D2-TAXI-031-003"
+      ],
+      "learning_objective": "Recognize and use the central definitions in taxitrafiklagen and taxitrafikförordningen.",
+      "authoritative_sources": [
+        "SFS_2012_211",
+        "SFS_2012_238"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Definition of taxitrafik.",
+        "Definition of taxiförarlegitimation.",
+        "Relationship between taxi terms and vägtrafikdefinitioner.",
+        "Examples that are not considered taxitrafik under the regulation."
+      ],
+      "scenario_opportunities": [
+        "Classify whether a described transport counts as taxitrafik.",
+        "Distinguish taxi transport from private school or workplace-related transport."
+      ],
+      "calculation_opportunities": [],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Handlingar och kontroller",
+      "lesson_title": "Handlingar under färd och vid kontroll",
+      "requirement_keys": [
+        "D2-TAXI-031-004A",
+        "D2-TAXI-031-004B"
+      ],
+      "learning_objective": "Explain which documents must be carried and assess which documents must be shown at a road or vehicle control.",
+      "authoritative_sources": [
+        "SFS_2012_238",
+        "SFS_1994_1297"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Taxiförarlegitimation carried in taxi traffic and shown on request.",
+        "Time book/rest-time records carried when applicable.",
+        "Proof required if driving after seized taxi registration plates with police permission.",
+        "Polismyndigheten road-control role."
+      ],
+      "scenario_opportunities": [
+        "Police asks for documentation during a rest-time control.",
+        "A taxi is moved after plates have been seized."
+      ],
+      "calculation_opportunities": [],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Taxitrafiktillstånd",
+      "lesson_title": "Taxitrafiktillstånd och trafikansvar",
+      "requirement_keys": [
+        "D2-TAXI-031-005"
+      ],
+      "learning_objective": "Describe when taxitrafiktillstånd is required and what suitability, responsibility and vehicle-notification rules surround the permit.",
+      "authoritative_sources": [
+        "SFS_2012_211",
+        "SFS_2012_238",
+        "TS_TAXI_PERMIT_APPLICATION",
+        "TS_TAXI_PERMIT_REQUIREMENTS"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Taxi traffic may be conducted only by someone with taxitrafiktillstånd.",
+        "Transportstyrelsen permit role and Trafikverket test role.",
+        "Yrkeskunnande, economic resources and good reputation.",
+        "Traffic responsible person and vehicle notification before use."
+      ],
+      "scenario_opportunities": [
+        "A company adds vehicles before notifying Transportstyrelsen.",
+        "A permit applicant lacks enough economic resources."
+      ],
+      "calculation_opportunities": [
+        "Capital and reserve requirement: 100000 SEK for first vehicle and 50000 SEK for each additional vehicle."
+      ],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Taxameter och särskild utrustning",
+      "lesson_title": "Taxameterkrav och särskild utrustning",
+      "requirement_keys": [
+        "D2-TAXI-031-006",
+        "D2-TAXI-031-007"
+      ],
+      "learning_objective": "Apply the legal equipment rules for taxameter-equipped taxi traffic and identify when special equipment for taxi vehicles is used.",
+      "authoritative_sources": [
+        "SFS_2012_211",
+        "SFS_2012_238",
+        "TSFS_2013_41",
+        "TS_TAXAMETER",
+        "TS_SPECIAL_EQUIPMENT"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Taxi vehicles must have approved taxameter equipment or special equipment.",
+        "A taxi vehicle may not have both taxameter equipment and special equipment at the same time.",
+        "Taxameter equipment must be controlled, sealed and inspected.",
+        "Special-equipment taxi is tied to a licensed booking centre and fixed-price pre-booking flow.",
+        "Driver taxameter modes, receipts and reports require exact TSFS 2013:41 section extraction before final prose."
+      ],
+      "scenario_opportunities": [
+        "An app-booked taxi has a pre-agreed price but a taxameter is present.",
+        "A vehicle has both taxameter and special equipment installed."
+      ],
+      "calculation_opportunities": [],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Prisinformation",
+      "lesson_title": "Prisinformation, jämförpris och prisuppgift",
+      "requirement_keys": [
+        "D2-TAXI-031-008"
+      ],
+      "learning_objective": "Apply price-information rules before and during taxi journeys, including comparison price and price quote situations.",
+      "authoritative_sources": [
+        "SFS_2012_211",
+        "SFS_2012_238",
+        "TSFS_2013_41",
+        "TS_PRICE_INFORMATION"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Duty to inform passengers about the applicable tariff before the journey.",
+        "Tariff must make price assessable before and calculable after the journey.",
+        "Comparison price definition and threshold for price quote.",
+        "Price evidence must be given and preserved when required.",
+        "Detailed decal templates require exact TSFS 2013:41 section and appendix extraction before final prose."
+      ],
+      "scenario_opportunities": [
+        "Determine if a binding price quote must be given before a journey.",
+        "Choose correct price-information handling for fixed price versus tariff."
+      ],
+      "calculation_opportunities": [
+        "Compute comparison price for a 10 km, 15 minute journey including any start fee.",
+        "Compare the fare's comparison price to the statutory threshold."
+      ],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Vilotider",
+      "lesson_title": "Vilotider och dygnsvila",
+      "requirement_keys": [
+        "D2-TAXI-032-001",
+        "D2-TAXI-032-003"
+      ],
+      "learning_objective": "Explain daily rest requirements and calculate whether a driver's recorded dygnsvila satisfies the rule.",
+      "authoritative_sources": [
+        "SFS_1994_1297"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Which taxi and school-transport vehicles are covered by the rest-time regulation.",
+        "Minimum 11 hours daily rest in the preceding 24-hour period.",
+        "Allowed split rest where one period is at least 8 hours.",
+        "What counts and does not count as daily rest.",
+        "Temporary deviations for unforeseeable special circumstances."
+      ],
+      "scenario_opportunities": [
+        "Check whether a driver may start a shift after split rest.",
+        "Assess an accident-related deviation from normal daily rest."
+      ],
+      "calculation_opportunities": [
+        "Calculate rest in a rolling 24-hour period before a planned transport.",
+        "Validate split-rest examples."
+      ],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Arbetstid och ansvar",
+      "lesson_title": "Arbetstid, registrering och ansvar",
+      "requirement_keys": [
+        "D2-TAXI-032-002"
+      ],
+      "learning_objective": "Assess how working-time legislation affects the duties and responsibilities of drivers, employers and self-employed drivers.",
+      "authoritative_sources": [
+        "SFS_2005_395",
+        "SFS_1994_1297"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Scope of road-transport working-time law.",
+        "Total working-time limits and weekly average principle.",
+        "Breaks, pauses and working-time registration.",
+        "Transportstyrelsen supervision and employer/self-employed sanctions.",
+        "Employer duties for time books and preservation of records under the rest-time regulation."
+      ],
+      "scenario_opportunities": [
+        "A driver works for multiple employers.",
+        "An employer fails to preserve records or provide a time book."
+      ],
+      "calculation_opportunities": [
+        "Assess average weekly working time over a reference period.",
+        "Identify prohibited overtime exposure in a simplified schedule."
+      ],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Skolskjuts",
+      "lesson_title": "Skolskjuts: ansvar, säkerhet och utrustning",
+      "requirement_keys": [
+        "D2-TAXI-033-001"
+      ],
+      "learning_objective": "Explain the core rules for school transport that matter to a taxi driver, including safety planning and vehicle requirements.",
+      "authoritative_sources": [
+        "SFS_1970_340",
+        "SFS_2010_800",
+        "SKOLVERKET_SCHOOL_TRANSPORT"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Definition of skolskjutsning.",
+        "Traffic-safety requirements for routes and pick-up/drop-off places.",
+        "Vehicle signage, door and seat-belt requirements.",
+        "Driver/operator penalties for vehicle-use breaches.",
+        "Basic school-law context for the right to school transport."
+      ],
+      "scenario_opportunities": [
+        "Pick-up/drop-off location creates traffic-safety risk.",
+        "Vehicle used for school transport lacks required sign or door safety."
+      ],
+      "calculation_opportunities": [],
+      "content_status": "outline_only"
+    },
+    {
+      "topic": "Sanktioner och påföljder",
+      "lesson_title": "Sanktioner, straff och hindrande av fortsatt färd",
+      "requirement_keys": [
+        "D2-TAXI-030-001",
+        "D2-TAXI-031-002",
+        "D2-TAXI-032-002",
+        "D2-TAXI-033-001"
+      ],
+      "learning_objective": "Identify the main legal consequences for breaches of taxi, rest-time, working-time and school-transport rules.",
+      "authoritative_sources": [
+        "SFS_2012_211",
+        "SFS_2012_238",
+        "SFS_1994_1297",
+        "SFS_2005_395",
+        "SFS_1970_340",
+        "TS_TFL_SUPERVISION"
+      ],
+      "facts_rules_that_need_to_be_taught": [
+        "Revocation, warning and conditions for taxi permits and driver legitimacy.",
+        "Criminal penalties and hindering continued travel under taxitrafiklagen.",
+        "Rest-time regulation penalties for driver and employer.",
+        "Working-time penalties and overtime fees.",
+        "School-transport penalties for vehicle/equipment breaches."
+      ],
+      "scenario_opportunities": [
+        "Choose likely consequence for a breach: warning, revocation, fine, hindering continued travel or record-control action.",
+        "Separate driver responsibility from permit-holder or employer responsibility."
+      ],
+      "calculation_opportunities": [
+        "Overtime fee concept examples should be kept outline-only until full legal review."
+      ],
+      "content_status": "outline_only"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "topic": "D2_TAXI_LAW_VILOTIDER",
+    "title": "Vilotider verified facts",
+    "verified_at": "2026-09-09",
+    "status": "verified",
+    "policy": "Every legal statement used by lessons and questions must reference one or more fact stable keys."
+  },
+  "sources": [
+    {
+      "source_id": "SFS_1994_1297",
+      "source_title": "Förordning (1994:1297) om vilotider vid vissa vägtransporter inom landet",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "source_type": "primary_legal_source",
+      "url": "https://data.riksdagen.se/dokument/sfs-1994-1297.html",
+      "current_validity": "Ändrad t.o.m. SFS 2014:1259 enligt Riksdagen/SFS, verifierad 2026-09-09."
+    },
+    {
+      "source_id": "SFS_2005_395",
+      "source_title": "Lag (2005:395) om arbetstid vid visst vägtransportarbete",
+      "authority": "Sveriges riksdag / Svensk författningssamling",
+      "source_type": "primary_legal_source",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2005395-om-arbetstid-vid-visst_sfs-2005-395/",
+      "current_validity": "Ändrad t.o.m. SFS 2022:464 enligt Riksdagen/SFS, verifierad 2026-09-09."
+    },
+    {
+      "source_id": "TS_VAGARBETSTID",
+      "source_title": "Regler om vägarbetstid",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/vagarbetstid/regler-om-vagarbetstid/",
+      "current_validity": "Official explanatory page, senast uppdaterad 2026-06-24 enligt Transportstyrelsen, verifierad 2026-09-09."
+    }
+  ],
+  "facts": [
+    {
+      "stable_key": "REST-FACT-001",
+      "requirement_key": "D2-TAXI-032-001",
+      "fact_text": "Förordningen om vilotider gäller vägtransporter i förvärvsverksamhet inom landet med de fordon som anges i förordningen.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 1 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-002",
+      "requirement_key": "D2-TAXI-032-001",
+      "fact_text": "Förordningen gäller bland annat bil som används i taxitrafik enligt taxitrafiklagen.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 2 § 2",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-003",
+      "requirement_key": "D2-TAXI-032-001",
+      "fact_text": "Förordningen gäller även bil som används för skolskjutsning enligt förordningen om skolskjutsning när bilen är konstruerad och utrustad för högst nio personer inklusive föraren och avsedd för detta ändamål.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 2 § 3",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-004",
+      "requirement_key": "D2-TAXI-032-001",
+      "fact_text": "Föraren ska ha haft minst elva timmars dygnsvila under den tjugofyratimmarsperiod som föregår varje tidpunkt då föraren utför transport.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 3 § första stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-005",
+      "requirement_key": "D2-TAXI-032-001",
+      "fact_text": "Dygnsvilan får delas upp i två perioder, men en av perioderna ska vara minst åtta timmar.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 3 § första stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-006",
+      "requirement_key": "D2-TAXI-032-001",
+      "fact_text": "Tid då föraren utför transporter, är tillgänglig för transporter eller annat förvärvsarbete, följer med i bilen under färd eller är tillgänglig på arbetsplatsen eller i fordonet på grund av jour eller liknande räknas inte som dygnsvila.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 3 § andra stycket a-c",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-007",
+      "requirement_key": "D2-TAXI-032-001",
+      "fact_text": "Tillfälliga avvikelser från dygnsvilan får göras vid olyckshändelse eller annan särskild omständighet som inte har kunnat förutses.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 4 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-008",
+      "requirement_key": "D2-TAXI-032-003",
+      "fact_text": "Förare ska fortlöpande göra anteckningar i en tidbok om tiden för dygnsvilan.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 5 § första meningen",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-009",
+      "requirement_key": "D2-TAXI-032-003",
+      "fact_text": "Anteckningen om dygnsvila ska göras innan körningen påbörjas och ange den närmast föregående dygnsvilan.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 5 § andra meningen",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-010",
+      "requirement_key": "D2-TAXI-032-003",
+      "fact_text": "Om föraren är anställd ska motsvarande anteckningar om dygnsvilan även upprättas hos arbetsgivaren.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 5 § tredje meningen",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-011",
+      "requirement_key": "D2-TAXI-032-003",
+      "fact_text": "Tidboken ska vara personlig och innehålla anteckningar för de sju senaste dygnen då föraren varit skyldig att göra anteckningar.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 6 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-012",
+      "requirement_key": "D2-TAXI-032-003",
+      "fact_text": "Tidboken ska medföras under färden och lämnas till polisman eller bilinspektör på begäran.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 7 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-013",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Arbetsgivaren ska bevara sina anteckningar för varje anställd förare i minst tolv månader; samma gäller egenföretagare.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 8 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-014",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Arbetsgivaren ska utan kostnad tillhandahålla varje förare en tidbok och se till att föreskrivna anteckningar görs.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 9 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-015",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Arbetsgivaren ska på begäran lämna gjorda anteckningar och andra handlingar som kan ha betydelse för kontroll av dygnsvilan till polisman eller bilinspektör.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 10 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-016",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Förare som uppsåtligen eller av oaktsamhet bryter mot reglerna om dygnsvila, anteckningar eller medförande av tidbok kan dömas till penningböter.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 12 § första stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-017",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Arbetsgivare som uppsåtligen eller av oaktsamhet bryter mot reglerna om anteckningar, bevarande, tidbok eller kontrollhandlingar kan dömas till penningböter.",
+      "source_id": "SFS_1994_1297",
+      "exact_reference": "Förordning (1994:1297), 12 § andra stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-018",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Sammanlagd arbetstid enligt vägarbetstidslagen är summan av arbetstid som omfattas av lagen, även om arbetet utförs för flera arbetsgivare eller kunder.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 10 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-019",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Arbetsgivaren ska skriftligen begära uppgifter från arbetstagaren om arbete för annan arbetsgivare, och arbetstagaren ska lämna uppgifterna skriftligen.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 11 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-020",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Sammanlagd arbetstid får vara högst 48 timmar per vecka i genomsnitt under en beräkningsperiod om högst fyra månader, och får inte överstiga 60 timmar under någon vecka.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 12 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-021",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Nattarbete enligt vägarbetstidslagen är arbete under någon del av perioden 01.00-05.00.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 14 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-022",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Om nattarbete ingår i en relevant 24-timmarsperiod får arbetstiden under perioden inte överstiga tio timmar, med tillfälligt undantag för oförutsebara särskilda förhållanden.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 15 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-023",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Arbete får aldrig utföras längre än sex timmar i följd utan rast; rasten ska vara minst 30 minuter vid 6-9 timmars arbetstid och minst 45 minuter när arbetstiden överstiger 9 timmar.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 18 § första stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-024",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Rasten får delas upp i flera perioder om minst 15 minuter vardera.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 18 § andra stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-025",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Arbetsgivare och egenföretagare ska registrera all arbetstid som omfattas av vägarbetstidslagen och bevara registren i minst två år.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 20 § första stycket",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "REST-FACT-026",
+      "requirement_key": "D2-TAXI-032-002",
+      "fact_text": "Transportstyrelsen har tillsyn över att vägarbetstidslagen följs och kan begära upplysningar och handlingar från arbetsgivare och egenföretagare.",
+      "source_id": "SFS_2005_395",
+      "exact_reference": "Lag (2005:395), 22 §",
+      "legal_status": "binding_rule",
+      "verified_at": "2026-09-09",
+      "verification_status": "verified"
+    }
+  ]
+}
