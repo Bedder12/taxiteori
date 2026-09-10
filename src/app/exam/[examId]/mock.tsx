@@ -7,17 +7,22 @@ import { Screen } from '@/components/layout/Screen';
 import { QuestionCard } from '@/components/quiz/QuestionCard';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
-import { DEMO_USER_ID, getLearningSnapshot, startMockAttempt, submitAttempt } from '@/lib/learningStore';
+import { DEMO_USER_ID, getLearningSnapshot, getRemainingTimeSeconds, saveAttemptAnswer, startMockAttempt, submitAttempt } from '@/lib/learningStore';
 
 export default function MockExamScreen() {
   const { examId } = useLocalSearchParams<{ examId: string }>();
-  const { repository } = getLearningSnapshot();
+  const { repository, state } = getLearningSnapshot();
   const exam = repository.exams.find((candidate) => candidate.id === examId);
   const blueprint = repository.examBlueprints.find((candidate) => candidate.examId === examId && candidate.type === 'mock_exam' && candidate.active);
   const attempt = useMemo(() => (blueprint ? startMockAttempt(DEMO_USER_ID, blueprint.id) : undefined), [blueprint?.id]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedChoices, setSelectedChoices] = useState<Record<string, string>>({});
-  const [remainingSeconds, setRemainingSeconds] = useState(blueprint?.timeLimitSeconds ?? 0);
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const firstUnanswered = attempt?.questions.findIndex((question) => !state.answers.some((answer) => answer.attemptQuestionId === question.id)) ?? 0;
+    return firstUnanswered < 0 ? 0 : firstUnanswered;
+  });
+  const [selectedChoices, setSelectedChoices] = useState<Record<string, string>>(() => Object.fromEntries(
+    state.answers.filter((answer) => answer.attemptId === attempt?.id).map((answer) => [answer.attemptQuestionId, answer.selectedChoiceId]),
+  ));
+  const [remainingSeconds, setRemainingSeconds] = useState(() => attempt ? getRemainingTimeSeconds(attempt) ?? 0 : 0);
 
   useEffect(() => {
     if (!attempt || !blueprint) return undefined;
@@ -75,7 +80,10 @@ export default function MockExamScreen() {
           question={question}
           totalQuestions={attempt.questions.length}
           selectedChoiceId={selectedChoiceId}
-          onSelectChoice={(choiceId) => setSelectedChoices((current) => ({ ...current, [attemptQuestion.id]: choiceId }))}
+          onSelectChoice={(choiceId) => {
+            saveAttemptAnswer(attempt.id, attemptQuestion.id, choiceId);
+            setSelectedChoices((current) => ({ ...current, [attemptQuestion.id]: choiceId }));
+          }}
         />
       )}
       <View style={styles.actions}>

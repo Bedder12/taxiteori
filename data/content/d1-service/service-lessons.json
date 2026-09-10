@@ -100,7 +100,9 @@
             "D1-SERV-PRO-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SERV-COM-L01",
@@ -213,7 +215,9 @@
             "D1-SERV-COM-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SERV-CONFLICT-L01",
@@ -312,7 +316,9 @@
             "D1-SERV-CONFLICT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SERV-CHILD-L01",
@@ -408,7 +414,9 @@
             "D1-SERV-CHILD-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SERV-ACCESS-L01",
@@ -529,7 +537,9 @@
             "D1-SERV-ACCESS-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SERV-AID-L01",
@@ -639,7 +649,9 @@
             "D1-SERV-AID-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SERV-CLEAN-L01",
@@ -762,7 +774,9 @@
             "D1-SERV-CLEAN-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SERV-PRICE-L01",
@@ -880,7 +894,9 @@
             "D1-SERV-PRICE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

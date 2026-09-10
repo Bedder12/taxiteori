@@ -6,7 +6,7 @@ import { Screen } from '@/components/layout/Screen';
 import { AnswerReviewCard } from '@/components/quiz/AnswerReviewCard';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
-import { getAttemptReview } from '@/features/quiz/selectors';
+import { getAttemptReview, getRevisitRecommendations } from '@/features/quiz/selectors';
 import { getLearningSnapshot } from '@/lib/learningStore';
 
 export default function ResultScreen() {
@@ -19,12 +19,12 @@ export default function ResultScreen() {
   }
 
   const review = getAttemptReview(repository, attempt, state.answers);
+  const revisitRecommendations = getRevisitRecommendations(repository, attempt, state.answers);
   const scoredReview = review.filter((item) => item.attemptQuestion.scoringRole === 'scored');
   const incorrect = scoredReview.filter((item) => !item.answer?.correct);
   const correctCount = scoredReview.length - incorrect.length;
   const isMock = attempt.type === 'mock_exam';
   const assessment = repository.assessments.find((candidate) => candidate.id === attempt.assessmentId);
-  const topicId = assessment?.topicId ?? 'topic_d2_taxi_vilotider';
   const percentage = Math.round((correctCount / Math.max(scoredReview.length, 1)) * 100);
   const subjectBreakdown = repository.subjects
     .filter((subject) => attempt.questions.some((question) => question.subjectId === subject.id && question.scoringRole === 'scored'))
@@ -33,6 +33,13 @@ export default function ResultScreen() {
       const correct = subjectQuestions.filter((question) => state.answers.some((answer) => answer.attemptQuestionId === question.id && answer.correct)).length;
       return { title: subject.title, correct, total: subjectQuestions.length };
     });
+  const resultDestination = isMock
+    ? { pathname: '/prov' }
+    : assessment?.topicId
+      ? { pathname: '/topic/[topicId]', params: { topicId: assessment.topicId } }
+      : assessment?.subjectId
+        ? { pathname: '/subject/[subjectId]', params: { subjectId: assessment.subjectId } }
+        : { pathname: '/prov' };
 
   return (
     <Screen
@@ -63,6 +70,17 @@ export default function ResultScreen() {
         </View>
       )}
 
+      {revisitRecommendations.length > 0 && (
+        <View style={styles.breakdown}>
+          <ThemedText type="subtitle">Rekommenderad repetition</ThemedText>
+          {revisitRecommendations.map((recommendation) => (
+            <ThemedText key={recommendation.lessonId}>
+              {recommendation.title}: {recommendation.revisitReason}
+            </ThemedText>
+          ))}
+        </View>
+      )}
+
       <View style={styles.review}>
         <ThemedText type="subtitle">Gå igenom misstag</ThemedText>
         {incorrect.length === 0 ? (
@@ -72,8 +90,8 @@ export default function ResultScreen() {
         )}
       </View>
 
-      <Link href={{ pathname: '/topic/[topicId]', params: { topicId } } as unknown as Href} asChild>
-        <PrimaryButton>Tillbaka till Vilotider</PrimaryButton>
+      <Link href={resultDestination as unknown as Href} asChild>
+        <PrimaryButton>{isMock ? 'Tillbaka till Prov' : assessment?.topicId ? 'Tillbaka till ämnet' : 'Tillbaka till delprovet'}</PrimaryButton>
       </Link>
     </Screen>
   );

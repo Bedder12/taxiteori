@@ -154,7 +154,16 @@ import {
   testProductReadinessCurriculumAndPublishedReachability,
   testProductReadinessEveryCheckpointAndMockIsReachable,
   testProductReadinessNoOrphanFactsOrPublishedBanks,
+  testProductReadinessLessonMetadataAndRevisitMapping,
+  testProductReadinessSubjectScopedLoaders,
 } from './productReadinessAudit.test';
+import {
+  testP0CheckpointResumeAndAnswerIdempotency,
+  testP0D1AndD2MockResumeUsesFrozenAttempts,
+  testP0FinalizationIsIdempotent,
+  testP0SupabaseMigrationContainsSecurityAndFrozenStateFields,
+  testP0TimedOutAttemptsAreTerminalAndReviewable,
+} from './p0Persistence.test';
 import {
   testVilotiderCalculationQuestionsUseCalculationRequirement,
   testVilotiderCheckpointSelectionAndVersionFreeze,
@@ -300,6 +309,13 @@ const tests = [
   ['product readiness curriculum and published reachability', testProductReadinessCurriculumAndPublishedReachability],
   ['product readiness checkpoints and mocks are reachable', testProductReadinessEveryCheckpointAndMockIsReachable],
   ['product readiness has no orphan facts or invalid published banks', testProductReadinessNoOrphanFactsOrPublishedBanks],
+  ['product readiness lesson metadata and revisit mapping', testProductReadinessLessonMetadataAndRevisitMapping],
+  ['product readiness subject-scoped content loaders', testProductReadinessSubjectScopedLoaders],
+  ['P0 timed out attempts are terminal and reviewable', testP0TimedOutAttemptsAreTerminalAndReviewable],
+  ['P0 checkpoint resume and answer idempotency', testP0CheckpointResumeAndAnswerIdempotency],
+  ['P0 D1 and D2 mock resume uses frozen attempts', testP0D1AndD2MockResumeUsesFrozenAttempts],
+  ['P0 finalization is idempotent', testP0FinalizationIsIdempotent],
+  ['P0 Supabase migration contains security and frozen state fields', testP0SupabaseMigrationContainsSecurityAndFrozenStateFields],
   ['Vilotider facts are verified and sourced', testVilotiderFactsAreVerifiedAndSourced],
   ['Vilotider lessons have requirement and fact links', testVilotiderLessonsHaveRequirementAndFactLinks],
   ['Vilotider questions have full traceability', testVilotiderQuestionsHaveFullTraceability],
@@ -315,7 +331,14 @@ const tests = [
   ['mobile flow results are deterministic', testMobileFlowResultsAreDeterministic],
 ] as const;
 
-for (const [name, run] of tests) {
-  run();
-  console.log(`ok - ${name}`);
+async function runAllTests() {
+  for (const [name, run] of tests) {
+    await run();
+    console.log(`ok - ${name}`);
+  }
 }
+
+runAllTests().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

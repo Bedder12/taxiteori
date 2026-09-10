@@ -96,7 +96,9 @@
             "D1-ECO-ECON-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ECO-FUEL-L01",
@@ -191,7 +193,9 @@
             "D1-ECO-FUEL-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ECO-PLAN-L01",
@@ -286,7 +290,9 @@
             "D1-ECO-PLAN-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ECO-MAINT-L01",
@@ -388,7 +394,9 @@
             "D1-ECO-MAINT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

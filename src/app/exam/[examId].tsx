@@ -26,7 +26,7 @@ export default function ExamScreen() {
           <ThemedText themeColor="textSecondary">Välj ett ämne eller starta ett fullständigt internt övningsprov.</ThemedText>
         </>
       }>
-      {exam.code === 'D1' && (
+      {(exam.code === 'D1' || exam.code === 'D2') && (
         <Link href={{ pathname: '/exam/[examId]/mock', params: { examId } } as unknown as Href} asChild>
           <PrimaryButton>Starta fullständigt övningsprov</PrimaryButton>
         </Link>

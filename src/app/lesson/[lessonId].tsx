@@ -35,6 +35,8 @@ export default function LessonScreen() {
           {view.lesson.estimatedStudyTimeMinutes !== undefined && (
             <ThemedText themeColor="textSecondary">{view.lesson.estimatedStudyTimeMinutes} min läsning</ThemedText>
           )}
+          {view.lesson.summary && <ThemedText themeColor="textSecondary">{view.lesson.summary}</ThemedText>}
+          {view.lesson.prerequisiteLessonKeys?.length ? <ThemedText type="small" themeColor="textSecondary">Bygger vidare på tidigare moment</ThemedText> : null}
           {view.isCompleted && <ThemedText type="small">✓ Moment klart</ThemedText>}
         </>
       }>

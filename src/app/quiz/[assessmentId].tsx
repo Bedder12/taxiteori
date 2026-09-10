@@ -7,15 +7,20 @@ import { Screen } from '@/components/layout/Screen';
 import { QuestionCard } from '@/components/quiz/QuestionCard';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
-import { DEMO_USER_ID, getLearningSnapshot, startCheckpointAttempt, submitAttempt } from '@/lib/learningStore';
+import { DEMO_USER_ID, getLearningSnapshot, saveAttemptAnswer, startCheckpointAttempt, submitAttempt } from '@/lib/learningStore';
 
 export default function QuizScreen() {
   const { assessmentId } = useLocalSearchParams<{ assessmentId: string }>();
-  const { repository } = getLearningSnapshot();
+  const { repository, state } = getLearningSnapshot();
   const assessment = repository.assessments.find((candidate) => candidate.id === assessmentId);
   const attempt = useMemo(() => startCheckpointAttempt(DEMO_USER_ID, assessmentId), [assessmentId]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedChoices, setSelectedChoices] = useState<Record<string, string>>({});
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const firstUnanswered = attempt.questions.findIndex((question) => !state.answers.some((answer) => answer.attemptQuestionId === question.id));
+    return firstUnanswered < 0 ? 0 : firstUnanswered;
+  });
+  const [selectedChoices, setSelectedChoices] = useState<Record<string, string>>(() => Object.fromEntries(
+    state.answers.filter((answer) => answer.attemptId === attempt.id).map((answer) => [answer.attemptQuestionId, answer.selectedChoiceId]),
+  ));
 
   if (!assessment) {
     return <ThemedText>Checkpointen hittades inte.</ThemedText>;
@@ -59,10 +64,10 @@ export default function QuizScreen() {
           totalQuestions={attempt.questions.length}
           selectedChoiceId={selectedChoiceId}
           onSelectChoice={(choiceId) =>
-            setSelectedChoices((current) => ({
-              ...current,
-              [attemptQuestion.id]: choiceId,
-            }))
+            (() => {
+              saveAttemptAnswer(attempt.id, attemptQuestion.id, choiceId);
+              setSelectedChoices((current) => ({ ...current, [attemptQuestion.id]: choiceId }));
+            })()
           }
         />
       )}

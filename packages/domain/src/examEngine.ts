@@ -198,7 +198,7 @@ export function scoreAttempt(
   now = new Date().toISOString(),
   timedOut = false,
 ) {
-  if (attempt.status === 'completed') {
+  if (attempt.status !== 'in_progress') {
     throw new Error('Completed attempts are immutable.');
   }
 
@@ -220,6 +220,7 @@ export function scoreAttempt(
       userId: attempt.userId,
       selectedChoiceId,
       correct: selectedChoiceId === question.correctChoiceId,
+      unanswered: selectedChoiceId === 'timeout',
       answeredAt: now,
     };
   });

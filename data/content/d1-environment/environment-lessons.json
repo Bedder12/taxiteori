@@ -116,7 +116,9 @@
             "D1-ENV-IMPACT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ENV-FUEL-L01",
@@ -232,7 +234,9 @@
             "D1-ENV-FUEL-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ENV-EXHAUST-L01",
@@ -338,7 +342,9 @@
             "D1-ENV-EXHAUST-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ENV-TYRE-L01",
@@ -451,7 +457,9 @@
             "D1-ENV-TYRE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ENV-CARE-L01",
@@ -564,7 +572,9 @@
             "D1-ENV-CARE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ENV-START-L01",
@@ -671,7 +681,9 @@
             "D1-ENV-START-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-ENV-DRIVE-L01",
@@ -783,7 +795,9 @@
             "D1-ENV-DRIVE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

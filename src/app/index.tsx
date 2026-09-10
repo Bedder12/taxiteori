@@ -27,6 +27,12 @@ export default function HomeScreen() {
           <ThemedText themeColor="textSecondary">Välj delprov och fortsätt in i källstödda lagstiftningsmoment.</ThemedText>
         </>
       }>
+      <Link href={'/prov' as Href} asChild>
+        <Pressable style={({ pressed }) => [styles.provLink, pressed && styles.pressed]}>
+          <ThemedText type="subtitle">Prov</ThemedText>
+          <ThemedText themeColor="textSecondary">Fullständiga övningsprov för D1 och D2</ThemedText>
+        </Pressable>
+      </Link>
       {repository.exams.map((exam) => {
         const examSubjects = repository.subjects.filter((subject) => subject.examId === exam.id);
         const completedSubjects = examSubjects.filter((subject) => {
@@ -60,5 +66,12 @@ const styles = StyleSheet.create({
   },
   pressed: {
     opacity: 0.72,
+  },
+  provLink: {
+    borderWidth: 1,
+    borderColor: '#176B49',
+    borderRadius: 8,
+    padding: 16,
+    gap: 4,
   },
 });

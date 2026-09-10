@@ -385,6 +385,7 @@ const allRawLessons = [
 const lessonOrderByTopic = new Map<string, number>();
 
 const lessons: Lesson[] = allRawLessons.map((lesson) => {
+  const metadata = lesson as typeof lesson & { summary?: string; prerequisite_lesson_keys?: string[] };
   const topicId = inferTopicIdFromLesson(lesson);
   const order = (lessonOrderByTopic.get(topicId) ?? 0) + 1;
   lessonOrderByTopic.set(topicId, order);
@@ -400,6 +401,8 @@ const lessons: Lesson[] = allRawLessons.map((lesson) => {
     requirementKeys: lesson.requirement_keys,
     factKeys: lesson.fact_keys,
     estimatedStudyTimeMinutes: lesson.estimated_study_time_minutes,
+    summary: metadata.summary,
+    prerequisiteLessonKeys: metadata.prerequisite_lesson_keys,
     visualMetadata: readAnyMetadata(
       'visual_metadata' in lesson ? lesson.visual_metadata : 'navigation_metadata' in lesson ? lesson.navigation_metadata : undefined,
     ),

@@ -83,7 +83,9 @@
             "REST-FACT-004"
           ]
         }
-      ]
+      ],
+      "summary": "Vilotidsreglerna finns för att en förare inte ska köra när trötthet gör körningen riskabel. För dig som taxiförare är regeln praktisk: innan du kör behöver du kunna bedöma om din senaste vila räcker.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-VILOTIDER-L02",
@@ -158,6 +160,10 @@
             "REST-FACT-007"
           ]
         }
+      ],
+      "summary": "Inför varje tidpunkt då du utför transport ska du ha haft minst 11 timmars dygnsvila under de föregående 24 timmarna. Tänk därför rullande bakåt från den tid då körningen ska ske.",
+      "prerequisite_lesson_keys": [
+        "D2-TAXI-VILOTIDER-L01"
       ]
     },
     {
@@ -274,6 +280,10 @@
             "REST-FACT-014"
           ]
         }
+      ],
+      "summary": "Dygnsvilans tidbok visar din vila enligt vilotidsförordningen. Vägarbetstidslagens register handlar om arbetstid som omfattas av den lagen. De kan båda vara viktiga, men de är inte samma sak.",
+      "prerequisite_lesson_keys": [
+        "D2-TAXI-VILOTIDER-L02"
       ]
     },
     {
@@ -363,6 +373,10 @@
             "REST-FACT-006"
           ]
         }
+      ],
+      "summary": "Börja vid den tid då körningen ska ske. Titta sedan 24 timmar bakåt. I det tidsfönstret ska det finnas minst 11 timmar dygnsvila.",
+      "prerequisite_lesson_keys": [
+        "D2-TAXI-VILOTIDER-L03"
       ]
     },
     {
@@ -446,6 +460,10 @@
             "REST-FACT-009"
           ]
         }
+      ],
+      "summary": "Du ska fortlöpande anteckna din dygnsvila i en personlig tidbok. Anteckningen ska göras innan körningen påbörjas och avse den närmast föregående dygnsvilan.",
+      "prerequisite_lesson_keys": [
+        "D2-TAXI-VILOTIDER-L04"
       ]
     },
     {
@@ -552,6 +570,10 @@
             "REST-FACT-023"
           ]
         }
+      ],
+      "summary": "Tillämpa reglerna i realistiska kör- och kontrollsituationer.",
+      "prerequisite_lesson_keys": [
+        "D2-TAXI-VILOTIDER-L05"
       ]
     }
   ]

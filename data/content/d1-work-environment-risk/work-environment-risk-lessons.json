@@ -112,7 +112,9 @@
             "D1-WORK-WORK-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-WORK-LIFT-L01",
@@ -223,7 +225,9 @@
             "D1-WORK-LIFT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-WORK-POSTURE-L01",
@@ -336,7 +340,9 @@
             "D1-WORK-POSTURE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-WORK-FITNESS-L01",
@@ -451,7 +457,9 @@
             "D1-WORK-FITNESS-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-WORK-RECOVERY-L01",
@@ -560,7 +568,9 @@
             "D1-WORK-RECOVERY-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-WORK-EQUIPMENT-L01",
@@ -663,7 +673,9 @@
             "D1-WORK-EQUIPMENT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

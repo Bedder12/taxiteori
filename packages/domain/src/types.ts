@@ -93,6 +93,8 @@ export type Lesson = {
   requirementKeys?: string[];
   factKeys?: string[];
   estimatedStudyTimeMinutes?: number;
+  summary?: string;
+  prerequisiteLessonKeys?: string[];
   visualMetadata?: VisualMetadata;
 };
 
@@ -223,6 +225,7 @@ export type Answer = {
   userId: string;
   selectedChoiceId: string;
   correct: boolean;
+  unanswered?: boolean;
   answeredAt: string;
   responseTimeMs?: number;
 };

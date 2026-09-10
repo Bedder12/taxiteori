@@ -9,7 +9,7 @@ export function completeLessonFact(userId: string, lessonId: string, completedAt
 }
 
 export function completedAttemptFact(attempt: Attempt): UserProgressFact {
-  if (attempt.status !== 'completed' || attempt.passed === undefined || !attempt.completedAt) {
+  if (!['completed', 'timed_out'].includes(attempt.status) || attempt.passed === undefined || !attempt.completedAt) {
     throw new Error('Attempt must be completed before it can become a progress fact.');
   }
 
@@ -97,7 +97,7 @@ export function getD2StudyState(input: {
   const questionByVersionId = new Map(input.repository.questionVersions.map((question) => [question.id, question]));
   const completedAttemptIds = new Set(
     input.attempts
-      .filter((attempt) => attempt.userId === input.userId && attempt.status === 'completed')
+      .filter((attempt) => attempt.userId === input.userId && ['completed', 'timed_out'].includes(attempt.status))
       .map((attempt) => attempt.id),
   );
   const subjectAccuracy = d2Subjects.map((subject) => {
@@ -122,7 +122,7 @@ export function getD2StudyState(input: {
 
   const mockBlueprintId = input.mockBlueprintId ?? 'blueprint_d2_realistic_full_mock_v1';
   const mockExamPerformance = input.attempts
-    .filter((attempt) => attempt.userId === input.userId && attempt.assessmentId === mockBlueprintId && attempt.status === 'completed')
+    .filter((attempt) => attempt.userId === input.userId && attempt.assessmentId === mockBlueprintId && ['completed', 'timed_out'].includes(attempt.status))
     .map((attempt) => ({
       attemptId: attempt.id,
       score: attempt.score ?? 0,

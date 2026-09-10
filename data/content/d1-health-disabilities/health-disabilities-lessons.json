@@ -98,6 +98,11 @@
             "D1-HEALTH-ROLE-FACT-006"
           ]
         }
+      ],
+      "summary": "I det här ämnet handlar kunskapen om trygg transport. Du behöver förstå vilka praktiska behov som kan uppstå, men du ska inte avgöra vilket tillstånd en passagerare har.",
+      "prerequisite_lesson_keys": [],
+      "learning_objectives": [
+        "I det här ämnet handlar kunskapen om trygg transport. Du behöver förstå vilka praktiska behov som kan uppstå, men du ska inte avgöra vilket tillstånd en passagerare har."
       ]
     },
     {
@@ -208,6 +213,11 @@
             "D1-HEALTH-URGENT-FACT-006"
           ]
         }
+      ],
+      "summary": "Vissa förändringar under resan kan kräva snabb hjälp. Föraren ska då tänka säker plats, lugn kommunikation och rätt hjälp, inte fortsätta som om inget hänt.",
+      "prerequisite_lesson_keys": [],
+      "learning_objectives": [
+        "Vissa förändringar under resan kan kräva snabb hjälp. Föraren ska då tänka säker plats, lugn kommunikation och rätt hjälp, inte fortsätta som om inget hänt."
       ]
     },
     {
@@ -313,6 +323,11 @@
             "D1-HEALTH-MOBILITY-FACT-006"
           ]
         }
+      ],
+      "summary": "Parkinsons sjukdom, MS, CP, stroke och reumatiska sjukdomar nämns i allmänna råden. För taxi betyder det framför allt att i- och urstigning, gångsträcka, tempo och hjälpmedel kan behöva anpassas.",
+      "prerequisite_lesson_keys": [],
+      "learning_objectives": [
+        "Parkinsons sjukdom, MS, CP, stroke och reumatiska sjukdomar nämns i allmänna råden. För taxi betyder det framför allt att i- och urstigning, gångsträcka, tempo och hjälpmedel kan behöva anpassas."
       ]
     },
     {
@@ -420,6 +435,11 @@
             "D1-HEALTH-COG-FACT-006"
           ]
         }
+      ],
+      "summary": "Kognitiva svårigheter kan påverka minne, koncentration, orientering och planering. Föraren kan ofta göra resan tryggare genom tydlig struktur.",
+      "prerequisite_lesson_keys": [],
+      "learning_objectives": [
+        "Kognitiva svårigheter kan påverka minne, koncentration, orientering och planering. Föraren kan ofta göra resan tryggare genom tydlig struktur."
       ]
     },
     {
@@ -520,6 +540,11 @@
             "D1-HEALTH-MENTAL-FACT-006"
           ]
         }
+      ],
+      "summary": "Ångest, psykotiska tillstånd och neuropsykiatriska funktionsnedsättningar anges i allmänna råden. Föraren behöver kunna möta oro, misstänksamhet eller svårigheter med instruktioner på ett tryggt sätt.",
+      "prerequisite_lesson_keys": [],
+      "learning_objectives": [
+        "Ångest, psykotiska tillstånd och neuropsykiatriska funktionsnedsättningar anges i allmänna råden. Föraren behöver kunna möta oro, misstänksamhet eller svårigheter med instruktioner på ett tryggt sätt."
       ]
     },
     {
@@ -603,6 +628,11 @@
             "D1-HEALTH-ADAPT-FACT-006"
           ]
         }
+      ],
+      "summary": "Samma tillstånd kan påverka två personer på helt olika sätt. Därför ska föraren inte använda färdiga antaganden, utan anpassa efter personen, resan och säkerheten.",
+      "prerequisite_lesson_keys": [],
+      "learning_objectives": [
+        "Samma tillstånd kan påverka två personer på helt olika sätt. Därför ska föraren inte använda färdiga antaganden, utan anpassa efter personen, resan och säkerheten."
       ]
     }
   ]

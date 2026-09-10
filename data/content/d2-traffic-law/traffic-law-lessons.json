@@ -93,7 +93,9 @@
             "D2-TRAFFIC-BASIC-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på grundläggande trafikregler som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-YIELD-L01",
@@ -181,7 +183,9 @@
             "D2-TRAFFIC-YIELD-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på väjningsregler som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-SPEED-L01",
@@ -271,7 +275,9 @@
             "D2-TRAFFIC-SPEED-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på hastighet som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-LANE-L01",
@@ -359,7 +365,9 @@
             "D2-TRAFFIC-LANE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på placering och körfält som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-JUNCTION-L01",
@@ -447,7 +455,9 @@
             "D2-TRAFFIC-JUNCTION-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på korsningar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-ROUND-L01",
@@ -541,7 +551,9 @@
             "D2-TRAFFIC-ROUND-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på cirkulationsplatser som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-PASS-L01",
@@ -629,7 +641,9 @@
             "D2-TRAFFIC-PASS-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på omkörning som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-PARK-L01",
@@ -717,7 +731,9 @@
             "D2-TRAFFIC-PARK-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på stannande och parkering som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-VULN-L01",
@@ -805,7 +821,9 @@
             "D2-TRAFFIC-VULN-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på gående och cyklister som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-TRANSIT-L01",
@@ -899,7 +917,9 @@
             "D2-TRAFFIC-TRANSIT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på buss, spårväg och järnväg som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-SIGN-L01",
@@ -990,7 +1010,9 @@
             "D2-TRAFFIC-SIGN-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på vägmärken som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-MARK-L01",
@@ -1081,7 +1103,9 @@
             "D2-TRAFFIC-MARK-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på vägmarkeringar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-SIGNAL-L01",
@@ -1172,7 +1196,9 @@
             "D2-TRAFFIC-SIGNAL-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på trafiksignaler och andra anordningar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-VEHICLE-L01",
@@ -1266,7 +1292,9 @@
             "D2-TRAFFIC-VEHICLE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på fordonsdefinitioner som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TRAFFIC-WEIGHT-L01",
@@ -1357,7 +1385,9 @@
             "D2-TRAFFIC-WEIGHT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I det här momentet tränar du på viktbegrepp som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

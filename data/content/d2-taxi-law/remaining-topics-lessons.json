@@ -94,7 +94,9 @@
             "BASIC-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxitrafikens grunder. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-TFL-L01",
@@ -185,7 +187,9 @@
             "TFL-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxiförarlegitimation. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-REVOKE-L01",
@@ -271,7 +275,9 @@
             "REVOKE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller återkallelse. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-TERM-L01",
@@ -362,7 +368,9 @@
             "TERM-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller begrepp och definitioner. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-DOC-L01",
@@ -459,7 +467,9 @@
             "DOC-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller handlingar och kontroller. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-PERMIT-L01",
@@ -550,7 +560,9 @@
             "PERMIT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxitrafiktillstånd. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-METER-L01",
@@ -646,7 +658,9 @@
             "METER-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxameter och särskild utrustning. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-PRICE-L01",
@@ -743,7 +757,9 @@
             "PRICE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller prisinformation. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-WORK-L01",
@@ -829,7 +845,9 @@
             "WORK-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller arbetstid och ansvar. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-SCHOOL-L01",
@@ -917,7 +935,9 @@
             "SCHOOL-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller skolskjuts. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D2-TAXI-SANCTION-L01",
@@ -1020,7 +1040,9 @@
             "SANCTION-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller sanktioner och påföljder. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

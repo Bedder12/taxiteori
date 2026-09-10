@@ -125,7 +125,9 @@
             "D1-SAFE-TRIP-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SAFE-THREAT-L01",
@@ -237,7 +239,9 @@
             "D1-SAFE-THREAT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SAFE-HLR-L01",
@@ -353,7 +357,9 @@
             "D1-SAFE-HLR-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SAFE-ACCIDENT-L01",
@@ -472,7 +478,9 @@
             "D1-SAFE-ACCIDENT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SAFE-BELT-L01",
@@ -595,7 +603,9 @@
             "D1-SAFE-BELT-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SAFE-LOAD-L01",
@@ -713,7 +723,9 @@
             "D1-SAFE-LOAD-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SAFE-VULN-L01",
@@ -835,7 +847,9 @@
             "D1-SAFE-VULN-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-SAFE-ZERO-L01",
@@ -967,7 +981,9 @@
             "D1-SAFE-ZERO-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

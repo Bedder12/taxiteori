@@ -109,7 +109,9 @@
             "D1-NAV-TOOLS-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-NAV-ORAL-L01",
@@ -204,7 +206,9 @@
             "D1-NAV-ORAL-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-NAV-MAP-L01",
@@ -307,7 +311,9 @@
             "D1-NAV-MAP-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-NAV-CALC-L01",
@@ -411,7 +417,9 @@
             "D1-NAV-CALC-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

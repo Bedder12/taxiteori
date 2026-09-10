@@ -5,6 +5,9 @@ import { resolve } from 'node:path';
 import { getOrderedLessonsForTopic, selectCheckpointQuestions, selectDisplayedQuestionsForBlueprint, selectSubjectCheckpointQuestions } from '../src';
 import { isQuestionEligibleForMock } from '../src/examEngine';
 import { vilotiderRepository } from '../src/vilotiderRepository';
+import { createAttemptSnapshot } from '../src';
+import { getRevisitRecommendations } from '../../../src/features/quiz/selectors';
+import { getLoadedSubjectKeys, loadSubjectContent } from '../src/contentLoader';
 
 type Json = any;
 const root = resolve(__dirname, '../../../../');
@@ -85,4 +88,30 @@ export function testProductReadinessNoOrphanFactsOrPublishedBanks() {
   for (const key of factKeys) assert.ok(referencedFactKeys.has(key), `${key} is an orphan fact.`);
   assert.ok(vilotiderRepository.lessons.every((lesson) => lesson.status !== 'published' || lesson.blocks.length > 0));
   assert.ok(vilotiderRepository.questionVersions.every((question) => question.status !== 'published' || question.prompt.trim().length > 0));
+}
+
+export function testProductReadinessLessonMetadataAndRevisitMapping() {
+  const lessonIds = new Set(vilotiderRepository.lessons.map((lesson) => lesson.id));
+  for (const lesson of vilotiderRepository.lessons.filter((candidate) => candidate.status === 'published')) {
+    assert.ok(lesson.summary?.trim(), `${lesson.id} has no summary.`);
+    assert.ok(lesson.prerequisiteLessonKeys?.every((key) => lessonIds.has(key)), `${lesson.id} has an unknown prerequisite.`);
+    assert.ok(!lesson.prerequisiteLessonKeys?.includes(lesson.id), `${lesson.id} depends on itself.`);
+  }
+
+  const question = vilotiderRepository.questionVersions.find((candidate) => candidate.status === 'published' && candidate.lessonId && candidate.requirementKeys?.length);
+  assert.ok(question);
+  const attempt = createAttemptSnapshot({ userId: 'audit-user', assessmentId: 'audit', type: 'checkpoint', selectedQuestions: [question!], passThreshold: 0.8 });
+  const recommendations = getRevisitRecommendations(vilotiderRepository, attempt, [{ id: 'audit-answer', attemptId: attempt.id, attemptQuestionId: attempt.questions[0].id, userId: 'audit-user', selectedChoiceId: 'wrong', correct: false, answeredAt: '2026-09-10T00:00:00.000Z' }]);
+  assert.equal(recommendations.length, 1);
+  assert.equal(recommendations[0].lessonId, question!.lessonId);
+  assert.ok(recommendations[0].weakRequirementKeys.length > 0);
+  assert.match(recommendations[0].revisitReason, /fel i prov/);
+}
+
+export async function testProductReadinessSubjectScopedLoaders() {
+  assert.equal(getLoadedSubjectKeys().length, 10);
+  for (const subject of getLoadedSubjectKeys()) {
+    const content = await loadSubjectContent(subject);
+    assert.ok(content.facts && content.lessons && content.questions, `${subject} loader returned incomplete content.`);
+  }
 }

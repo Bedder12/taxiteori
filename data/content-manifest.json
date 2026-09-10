@@ -1,0 +1,227 @@
+{
+  "generated_at": "2026-09-10",
+  "entries": [
+    {
+      "subject": "D1_NAVIGATION",
+      "directory": "d1-navigation",
+      "files": [
+        {
+          "path": "data\\content\\d1-navigation\\navigation-facts.json",
+          "bytes": 20621
+        },
+        {
+          "path": "data\\content\\d1-navigation\\navigation-lessons.json",
+          "bytes": 15607
+        },
+        {
+          "path": "data\\questions\\d1-navigation\\navigation-questions.json",
+          "bytes": 98566
+        }
+      ],
+      "total_bytes": 134794
+    },
+    {
+      "subject": "D1_ECO_DRIVING",
+      "directory": "d1-eco-driving",
+      "files": [
+        {
+          "path": "data\\content\\d1-eco-driving\\eco-driving-facts.json",
+          "bytes": 14376
+        },
+        {
+          "path": "data\\content\\d1-eco-driving\\eco-driving-lessons.json",
+          "bytes": 14603
+        },
+        {
+          "path": "data\\questions\\d1-eco-driving\\eco-driving-questions.json",
+          "bytes": 63115
+        }
+      ],
+      "total_bytes": 92094
+    },
+    {
+      "subject": "D1_ENVIRONMENT",
+      "directory": "d1-environment",
+      "files": [
+        {
+          "path": "data\\content\\d1-environment\\environment-facts.json",
+          "bytes": 29948
+        },
+        {
+          "path": "data\\content\\d1-environment\\environment-lessons.json",
+          "bytes": 29266
+        },
+        {
+          "path": "data\\questions\\d1-environment\\environment-questions.json",
+          "bytes": 107682
+        }
+      ],
+      "total_bytes": 166896
+    },
+    {
+      "subject": "D1_SAFETY",
+      "directory": "d1-safety",
+      "files": [
+        {
+          "path": "data\\content\\d1-safety\\safety-facts.json",
+          "bytes": 43372
+        },
+        {
+          "path": "data\\content\\d1-safety\\safety-lessons.json",
+          "bytes": 37397
+        },
+        {
+          "path": "data\\content\\d1-safety\\safety-visuals.json",
+          "bytes": 14587
+        },
+        {
+          "path": "data\\questions\\d1-safety\\safety-questions.json",
+          "bytes": 187364
+        }
+      ],
+      "total_bytes": 282720
+    },
+    {
+      "subject": "D1_SERVICE",
+      "directory": "d1-service",
+      "files": [
+        {
+          "path": "data\\content\\d1-service\\service-facts.json",
+          "bytes": 42444
+        },
+        {
+          "path": "data\\content\\d1-service\\service-lessons.json",
+          "bytes": 34532
+        },
+        {
+          "path": "data\\content\\d1-service\\service-visuals.json",
+          "bytes": 3779
+        },
+        {
+          "path": "data\\questions\\d1-service\\service-questions.json",
+          "bytes": 155939
+        }
+      ],
+      "total_bytes": 236694
+    },
+    {
+      "subject": "D1_HEALTH_DISABILITIES",
+      "directory": "d1-health-disabilities",
+      "files": [
+        {
+          "path": "data\\content\\d1-health-disabilities\\health-disabilities-facts.json",
+          "bytes": 42892
+        },
+        {
+          "path": "data\\content\\d1-health-disabilities\\health-disabilities-lessons.json",
+          "bytes": 21348
+        },
+        {
+          "path": "data\\content\\d1-health-disabilities\\health-disabilities-visuals.json",
+          "bytes": 3473
+        },
+        {
+          "path": "data\\questions\\d1-health-disabilities\\health-disabilities-questions.json",
+          "bytes": 86688
+        }
+      ],
+      "total_bytes": 154401
+    },
+    {
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "directory": "d1-work-environment-risk",
+      "files": [
+        {
+          "path": "data\\content\\d1-work-environment-risk\\work-environment-risk-facts.json",
+          "bytes": 22434
+        },
+        {
+          "path": "data\\content\\d1-work-environment-risk\\work-environment-risk-lessons.json",
+          "bytes": 25634
+        },
+        {
+          "path": "data\\content\\d1-work-environment-risk\\work-environment-risk-visuals.json",
+          "bytes": 5556
+        },
+        {
+          "path": "data\\questions\\d1-work-environment-risk\\work-environment-risk-questions.json",
+          "bytes": 69997
+        }
+      ],
+      "total_bytes": 123621
+    },
+    {
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "directory": "d1-vehicle-knowledge",
+      "files": [
+        {
+          "path": "data\\content\\d1-vehicle-knowledge\\vehicle-facts.json",
+          "bytes": 53269
+        },
+        {
+          "path": "data\\content\\d1-vehicle-knowledge\\vehicle-lessons.json",
+          "bytes": 57686
+        },
+        {
+          "path": "data\\content\\d1-vehicle-knowledge\\vehicle-visuals.json",
+          "bytes": 9085
+        },
+        {
+          "path": "data\\questions\\d1-vehicle-knowledge\\vehicle-questions.json",
+          "bytes": 236099
+        }
+      ],
+      "total_bytes": 356139
+    },
+    {
+      "subject": "D2_TAXI_LAW",
+      "directory": "d2-taxi-law",
+      "files": [
+        {
+          "path": "data\\content\\d2-taxi-law\\remaining-topics-facts.json",
+          "bytes": 36767
+        },
+        {
+          "path": "data\\content\\d2-taxi-law\\remaining-topics-lessons.json",
+          "bytes": 41178
+        },
+        {
+          "path": "data\\content\\d2-taxi-law\\vilotider-facts.json",
+          "bytes": 13807
+        },
+        {
+          "path": "data\\content\\d2-taxi-law\\vilotider-lessons.json",
+          "bytes": 19365
+        },
+        {
+          "path": "data\\questions\\d2-taxi-law\\remaining-topics-questions.json",
+          "bytes": 312310
+        },
+        {
+          "path": "data\\questions\\d2-taxi-law\\vilotider-questions.json",
+          "bytes": 29185
+        }
+      ],
+      "total_bytes": 452612
+    },
+    {
+      "subject": "D2_TRAFFIC_LAW",
+      "directory": "d2-traffic-law",
+      "files": [
+        {
+          "path": "data\\content\\d2-traffic-law\\traffic-law-facts.json",
+          "bytes": 47293
+        },
+        {
+          "path": "data\\content\\d2-traffic-law\\traffic-law-lessons.json",
+          "bytes": 54430
+        },
+        {
+          "path": "data\\questions\\d2-traffic-law\\traffic-law-questions.json",
+          "bytes": 236325
+        }
+      ],
+      "total_bytes": 338048
+    }
+  ]
+}

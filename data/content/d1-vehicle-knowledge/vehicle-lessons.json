@@ -112,7 +112,9 @@
             "D1-VEH-BASIC-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-CHECK-L01",
@@ -224,7 +226,9 @@
             "D1-VEH-CHECK-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-SAFE-L01",
@@ -330,7 +334,9 @@
             "D1-VEH-SAFE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-WARN-L01",
@@ -436,7 +442,9 @@
             "D1-VEH-WARN-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-FLUID-L01",
@@ -546,7 +554,9 @@
             "D1-VEH-FLUID-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-ELEC-L01",
@@ -674,7 +684,9 @@
             "D1-VEH-ELEC-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-STEER-L01",
@@ -798,7 +810,9 @@
             "D1-VEH-STEER-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-BRAKE-L01",
@@ -913,7 +927,9 @@
             "D1-VEH-BRAKE-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-WHEEL-L01",
@@ -1015,7 +1031,9 @@
             "D1-VEH-WHEEL-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-PRESS-L01",
@@ -1124,7 +1142,9 @@
             "D1-VEH-PRESS-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-MARK-L01",
@@ -1230,7 +1250,9 @@
             "D1-VEH-MARK-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-WINTER-L01",
@@ -1342,7 +1364,9 @@
             "D1-VEH-WINTER-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     },
     {
       "stable_key": "D1-VEH-COMBO-L01",
@@ -1457,7 +1481,9 @@
             "D1-VEH-COMBO-FACT-001"
           ]
         }
-      ]
+      ],
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisite_lesson_keys": []
     }
   ]
 }

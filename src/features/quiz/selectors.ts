@@ -20,3 +20,28 @@ export function getAttemptReview(repository: LearningRepository, attempt: Attemp
     };
   });
 }
+
+export function getRevisitRecommendations(repository: LearningRepository, attempt: Attempt, answers: Answer[]) {
+  const incorrect = getAttemptReview(repository, attempt, answers).filter((item) => item.attemptQuestion.scoringRole === 'scored' && !item.answer?.correct);
+  const byLesson = new Map<string, { count: number; requirementKeys: Set<string> }>();
+
+  for (const item of incorrect) {
+    if (!item.question?.lessonId) continue;
+    const current = byLesson.get(item.question.lessonId) ?? { count: 0, requirementKeys: new Set<string>() };
+    current.count += 1;
+    for (const key of item.question.requirementKeys ?? []) current.requirementKeys.add(key);
+    byLesson.set(item.question.lessonId, current);
+  }
+
+  return [...byLesson.entries()]
+    .map(([lessonId, details]) => {
+      const lesson = repository.lessons.find((candidate) => candidate.id === lessonId);
+      return {
+        lessonId,
+        title: lesson?.title ?? lessonId,
+        weakRequirementKeys: [...details.requirementKeys],
+        revisitReason: `Repetera detta moment eftersom ${details.count} av dina fel i provet var kopplade hit.`,
+      };
+    })
+    .sort((left, right) => right.weakRequirementKeys.length - left.weakRequirementKeys.length || left.title.localeCompare(right.title));
+}
