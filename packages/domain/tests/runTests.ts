@@ -166,6 +166,14 @@ import {
   testP0TimedOutAttemptsAreTerminalAndReviewable,
 } from './p0Persistence.test';
 import {
+  testQuestionCoverageV2AllActiveRequirementsRecalculated,
+  testQuestionCoverageV2BacklogRowsAreSufficient,
+  testQuestionCoverageV2CalculationAndVisualGates,
+  testQuestionCoverageV2HasNoExactDuplicates,
+  testQuestionCoverageV2MockBlueprintsAreUnchanged,
+  testQuestionCoverageV2NewQuestionsHaveTraceability,
+} from './questionCoverageAuditV2.test';
+import {
   testVilotiderCalculationQuestionsUseCalculationRequirement,
   testVilotiderCheckpointSelectionAndVersionFreeze,
   testVilotiderFactsAreVerifiedAndSourced,
@@ -318,6 +326,12 @@ const tests = [
   ['P0 D1 and D2 mock resume uses frozen attempts', testP0D1AndD2MockResumeUsesFrozenAttempts],
   ['P0 finalization is idempotent', testP0FinalizationIsIdempotent],
   ['P0 Supabase migration contains security and frozen state fields', testP0SupabaseMigrationContainsSecurityAndFrozenStateFields],
+  ['question coverage v2 backlog rows are sufficient', testQuestionCoverageV2BacklogRowsAreSufficient],
+  ['question coverage v2 new questions have traceability', testQuestionCoverageV2NewQuestionsHaveTraceability],
+  ['question coverage v2 has no exact duplicates', testQuestionCoverageV2HasNoExactDuplicates],
+  ['question coverage v2 calculation and visual gates', testQuestionCoverageV2CalculationAndVisualGates],
+  ['question coverage v2 mock blueprints are unchanged', testQuestionCoverageV2MockBlueprintsAreUnchanged],
+  ['question coverage v2 all active requirements recalculated', testQuestionCoverageV2AllActiveRequirementsRecalculated],
   ['Vilotider facts are verified and sourced', testVilotiderFactsAreVerifiedAndSourced],
   ['Vilotider lessons have requirement and fact links', testVilotiderLessonsHaveRequirementAndFactLinks],
   ['Vilotider questions have full traceability', testVilotiderQuestionsHaveFullTraceability],

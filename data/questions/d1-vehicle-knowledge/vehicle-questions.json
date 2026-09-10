@@ -4,7 +4,7 @@
     "title": "D1 vehicle knowledge question bank",
     "status": "published",
     "created_at": "2026-09-10",
-    "reviewed_at": "2026-09-10",
+    "reviewed_at": "2026-09-11",
     "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
   },
   "topic_checkpoints": [
@@ -5967,6 +5967,1294 @@
         "visual_correctness_depends_on_asset": false
       },
       "visual_asset_id": "veh_tyre_sidewall",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-024-002-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_kontroller_tekniska_uppgifter",
+      "requirement_keys": [
+        "D1-VEH-024-002"
+      ],
+      "fact_keys": [
+        "D1-VEH-CHECK-FACT-004"
+      ],
+      "lesson_key": "D1-VEH-CHECK-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "use",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "USE",
+        "APPLY"
+      ],
+      "prompt": "Du ska kontrollera om taxin får dra en viss släpvagn. Var bör du söka tekniska uppgifter?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "I registreringsbeviset eller Transportstyrelsens fordonsuppgifter."
+        },
+        {
+          "id": "B",
+          "text": "I passagerarens muntliga uppskattning av bilens storlek."
+        },
+        {
+          "id": "C",
+          "text": "På däcksidan enbart, oavsett vilken uppgift som behövs."
+        },
+        {
+          "id": "D",
+          "text": "Genom att prova att köra och se om bilen orkar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: I registreringsbeviset eller Transportstyrelsens fordonsuppgifter. Frågan prövar Hitta nödvändiga tekniska fordonsuppgifter och bygger på TSFS 2021:119, 3 kap. 24 § 2.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 24 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-025-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_vatskor_lackage",
+      "requirement_keys": [
+        "D1-VEH-025-001"
+      ],
+      "fact_keys": [
+        "D1-VEH-FLUID-FACT-001"
+      ],
+      "lesson_key": "D1-VEH-FLUID-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "use",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "USE",
+        "APPLY"
+      ],
+      "prompt": "Du ser en färgad vätskefläck under bilen före första körningen. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Identifiera läckaget innan bilen används vidare."
+        },
+        {
+          "id": "B",
+          "text": "Torka bort fläcken och köra om lamporna fungerar."
+        },
+        {
+          "id": "C",
+          "text": "Anta att alla läckage är vatten från klimatanläggningen."
+        },
+        {
+          "id": "D",
+          "text": "Vänta tills nästa service utan kontroll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Identifiera läckaget innan bilen används vidare. Frågan prövar Identifiera fordonsläckage och bygger på TSFS 2021:119, 3 kap. 25 § 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 25 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-025-003-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_vatskor_lackage",
+      "requirement_keys": [
+        "D1-VEH-025-003"
+      ],
+      "fact_keys": [
+        "D1-VEH-FLUID-FACT-003"
+      ],
+      "lesson_key": "D1-VEH-FLUID-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "KNOW"
+      ],
+      "prompt": "Du ska fylla på en fordonsvätska men är osäker på typ och placering. Vad är rätt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kontrollera fordonets anvisningar och använd rätt vätsketyp."
+        },
+        {
+          "id": "B",
+          "text": "Fyll på den vätska som finns tillgänglig om färgen liknar den gamla."
+        },
+        {
+          "id": "C",
+          "text": "Blanda vätskor för att nivån snabbt ska bli rätt."
+        },
+        {
+          "id": "D",
+          "text": "Hoppa över kontrollen eftersom vätskor inte påverkar trafiksäkerheten."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kontrollera fordonets anvisningar och använd rätt vätsketyp. Frågan prövar Redogöra för kontroll och påfyllning av fordonsvätskor och bygger på TSFS 2021:119, 3 kap. 25 § 3.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 25 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-026-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "requirement_keys": [
+        "D1-VEH-026-001"
+      ],
+      "fact_keys": [
+        "D1-VEH-ELEC-FACT-001"
+      ],
+      "lesson_key": "D1-VEH-ELEC-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "APPLY"
+      ],
+      "prompt": "En säkring har gått och du hittar en säkring med högre amperetal än den gamla. Vad är korrekt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ersätt bara med rätt amperetal enligt fordonets anvisningar."
+        },
+        {
+          "id": "B",
+          "text": "Använd högre amperetal så håller säkringen längre."
+        },
+        {
+          "id": "C",
+          "text": "Sätt i valfri säkring om funktionen startar igen."
+        },
+        {
+          "id": "D",
+          "text": "Kör utan kontroll eftersom säkringar bara påverkar komfort."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ersätt bara med rätt amperetal enligt fordonets anvisningar. Frågan prövar Redogöra för säkringars placering och rätt ampere och bygger på TSFS 2021:119, 3 kap. 26 § 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 26 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-026-002-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "requirement_keys": [
+        "D1-VEH-026-002"
+      ],
+      "fact_keys": [
+        "D1-VEH-ELEC-FACT-002"
+      ],
+      "lesson_key": "D1-VEH-ELEC-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "APPLY"
+      ],
+      "prompt": "Du ska hjälpa till med startkablar på en mörk taxiplats. Vad visar rätt riskförståelse?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Följ fordonens anvisningar och undvik felkoppling eftersom batterier och elsystem kan skadas."
+        },
+        {
+          "id": "B",
+          "text": "Koppla kablarna snabbt i valfri ordning."
+        },
+        {
+          "id": "C",
+          "text": "Låt kablarna ligga löst över rörliga delar medan motorn startas."
+        },
+        {
+          "id": "D",
+          "text": "Använd startkablar även om batteriet ser skadat ut."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Följ fordonens anvisningar och undvik felkoppling eftersom batterier och elsystem kan skadas. Frågan prövar Redogöra för risker med startkablar och bygger på TSFS 2021:119, 3 kap. 26 § 2.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 26 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-026-002-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "requirement_keys": [
+        "D1-VEH-026-002"
+      ],
+      "fact_keys": [
+        "D1-VEH-ELEC-FACT-002"
+      ],
+      "lesson_key": "D1-VEH-ELEC-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "APPLY"
+      ],
+      "prompt": "Ett batteri är sprucket och luktar starkt när någon vill använda startkablar. Vad bör du göra?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Avstå från startförsöket och hantera situationen som en risk."
+        },
+        {
+          "id": "B",
+          "text": "Starta ändå eftersom taxin behöver bli klar snabbt."
+        },
+        {
+          "id": "C",
+          "text": "Hålla kablarna längre tid så batteriet laddas mer."
+        },
+        {
+          "id": "D",
+          "text": "Be en passagerare hålla kablarna på plats."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Avstå från startförsöket och hantera situationen som en risk. Frågan prövar Redogöra för risker med startkablar och bygger på TSFS 2021:119, 3 kap. 26 § 2.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 26 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-026-003-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "requirement_keys": [
+        "D1-VEH-026-003"
+      ],
+      "fact_keys": [
+        "D1-VEH-ELEC-FACT-003"
+      ],
+      "lesson_key": "D1-VEH-ELEC-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "APPLY"
+      ],
+      "prompt": "Vid batterikontroll ser du skadade kablar nära batteriet. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ta skadan på allvar och låt felet hanteras innan bilen används normalt."
+        },
+        {
+          "id": "B",
+          "text": "Dölja kabeln och kontrollera igen efter arbetsdagen."
+        },
+        {
+          "id": "C",
+          "text": "Röra kabeln fram och tillbaka för att se om bilen startar."
+        },
+        {
+          "id": "D",
+          "text": "Köra vidare eftersom batteriet bara behövs vid start."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ta skadan på allvar och låt felet hanteras innan bilen används normalt. Frågan prövar Redogöra för kontroll och hantering av batteri och bygger på TSFS 2021:119, 3 kap. 26 § 3.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 26 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-026-004-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "requirement_keys": [
+        "D1-VEH-026-004"
+      ],
+      "fact_keys": [
+        "D1-VEH-ELEC-FACT-004"
+      ],
+      "lesson_key": "D1-VEH-ELEC-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "APPLY"
+      ],
+      "prompt": "En föreskriven lykta fungerar inte inför kvällskörning. Vad visar rätt förståelse?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Föraren måste säkerställa att bilen visar rätt ljus innan färd."
+        },
+        {
+          "id": "B",
+          "text": "Köra ändå om gatubelysningen är stark."
+        },
+        {
+          "id": "C",
+          "text": "Ersätta kontrollen med varningsblinkers hela resan."
+        },
+        {
+          "id": "D",
+          "text": "Låta kunden bestämma om ljuset räcker."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Föraren måste säkerställa att bilen visar rätt ljus innan färd. Frågan prövar Redogöra för kontroll och byte av glödlampor och bygger på TSFS 2021:119, 3 kap. 26 § 4.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 26 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-026-005-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "requirement_keys": [
+        "D1-VEH-026-005"
+      ],
+      "fact_keys": [
+        "D1-VEH-ELEC-FACT-005"
+      ],
+      "lesson_key": "D1-VEH-ELEC-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "APPLY"
+      ],
+      "prompt": "Du laddar en eltaxi via vanligt vägguttag under lång tid. Vilken risk behöver du förstå?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hög ström och lång laddtid kan innebära brandrisk om elanläggningen inte är avsedd för det."
+        },
+        {
+          "id": "B",
+          "text": "Vanligt vägguttag tar bort alla laddningsrisker."
+        },
+        {
+          "id": "C",
+          "text": "Brandrisk gäller bara när bilen körs."
+        },
+        {
+          "id": "D",
+          "text": "Förlängningssladd gör laddningen säkrare oavsett belastning."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hög ström och lång laddtid kan innebära brandrisk om elanläggningen inte är avsedd för det. Frågan prövar Redogöra för risker vid fordonsladdning och bygger på TSFS 2021:119, 3 kap. 26 § 5.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 26 § 5"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-001"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-001"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Vilken enkel kontroll hör till styrinrättningen före körning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Att reagera på onormalt glapp, kärvhet eller sidodragning vid styrning."
+        },
+        {
+          "id": "B",
+          "text": "Att bara kontrollera bränslenivån."
+        },
+        {
+          "id": "C",
+          "text": "Att bedöma styrningen genom bilens lackskick."
+        },
+        {
+          "id": "D",
+          "text": "Att vänta tills passageraren märker ett problem."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Att reagera på onormalt glapp, kärvhet eller sidodragning vid styrning. Frågan prövar Känna till enklare styrningskontroller och bygger på TSFS 2021:119, 3 kap. 27 § 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-001-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-001"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-001"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Under låg hastighet känns ratten ovanligt trög. Vad visar rätt kunskap om styrkontroll?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stanna och bedöm styrningen som en möjlig säkerhetsbrist."
+        },
+        {
+          "id": "B",
+          "text": "Fortsätt köra eftersom trög styrning brukar lösa sig."
+        },
+        {
+          "id": "C",
+          "text": "Öka farten för att göra ratten lättare."
+        },
+        {
+          "id": "D",
+          "text": "Ignorera känslan om inga varningslampor syns."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stanna och bedöm styrningen som en möjlig säkerhetsbrist. Frågan prövar Känna till enklare styrningskontroller och bygger på TSFS 2021:119, 3 kap. 27 § 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-002-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-002"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-002"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Taxin drar tydligt åt höger på rak väg. Vad tyder det på?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En styrnings- eller hjulrelaterad brist som ska tas på allvar."
+        },
+        {
+          "id": "B",
+          "text": "Att vägen alltid lutar för mycket för taxi."
+        },
+        {
+          "id": "C",
+          "text": "Att problemet saknar betydelse om ratten går att vrida."
+        },
+        {
+          "id": "D",
+          "text": "Att passagerarens vikt automatiskt är orsaken."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En styrnings- eller hjulrelaterad brist som ska tas på allvar. Frågan prövar Känna till fel som kan uppstå i styrinrättningen och bygger på TSFS 2021:119, 3 kap. 27 § 2.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-003-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-003"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-003"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Föraren vrider ratten häftigt vid halt väglag med passagerare i bilen. Vilken följd behöver föraren känna till?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Felaktig styrningshantering kan försämra kontrollen och öka risken för sladd eller obalans."
+        },
+        {
+          "id": "B",
+          "text": "Kraftig styrning gör alltid bilen stabilare."
+        },
+        {
+          "id": "C",
+          "text": "Styrningen påverkar bara komforten."
+        },
+        {
+          "id": "D",
+          "text": "Följden beror bara på bilens färg och modellår."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Felaktig styrningshantering kan försämra kontrollen och öka risken för sladd eller obalans. Frågan prövar Känna till följder av felaktig styrningshantering och bygger på TSFS 2021:119, 3 kap. 27 § 3.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-003-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-003"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-003"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Du upptäcker instabil styrkänsla men fortsätter köra i tät trafik. Vad är riskbedömningen?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fel hantering av styrbrist kan göra bilen svårare att kontrollera i en kritisk situation."
+        },
+        {
+          "id": "B",
+          "text": "Styrbrist blir mindre viktig i tät trafik."
+        },
+        {
+          "id": "C",
+          "text": "Det räcker att hålla ratten lösare."
+        },
+        {
+          "id": "D",
+          "text": "Problemet gäller bara vid parkering."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fel hantering av styrbrist kan göra bilen svårare att kontrollera i en kritisk situation. Frågan prövar Känna till följder av felaktig styrningshantering och bygger på TSFS 2021:119, 3 kap. 27 § 3.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-004A-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-004A"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-004"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Du byter från framhjulsdriven till bakhjulsdriven taxi inför vinterpass. Vad behöver du känna till?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Drivningstyp kan påverka köregenskaper och hur bilen reagerar vid halt väglag."
+        },
+        {
+          "id": "B",
+          "text": "Alla drivningstyper reagerar exakt likadant."
+        },
+        {
+          "id": "C",
+          "text": "Bak-, fram- och fyrhjulsdrift påverkar bara bränsleförbrukning."
+        },
+        {
+          "id": "D",
+          "text": "Drivning saknar betydelse när bilen har antisladdsystem."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Drivningstyp kan påverka köregenskaper och hur bilen reagerar vid halt väglag. Frågan prövar Känna till hur drivning påverkar köregenskaper och bygger på TSFS 2021:119, 3 kap. 27 § 4.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-004A-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-004A"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-004"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "En fyrhjulsdriven taxi accelererar lätt på halt underlag. Vilken slutsats är rimlig?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Drivningen kan hjälpa framkomlighet men tar inte bort behovet av anpassad körning."
+        },
+        {
+          "id": "B",
+          "text": "Fyrhjulsdrift gör bromssträckan riskfri."
+        },
+        {
+          "id": "C",
+          "text": "Fyrhjulsdrift betyder att väglaget kan ignoreras."
+        },
+        {
+          "id": "D",
+          "text": "Drivningen avgör att hög hastighet alltid är lämplig."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Drivningen kan hjälpa framkomlighet men tar inte bort behovet av anpassad körning. Frågan prövar Känna till hur drivning påverkar köregenskaper och bygger på TSFS 2021:119, 3 kap. 27 § 4.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-004B-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-004B"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-005"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Du lastar tungt bagage längst bak i bilen. Vad måste du känna till?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Last och viktfördelning kan påverka köregenskaper och stabilitet."
+        },
+        {
+          "id": "B",
+          "text": "Last påverkar bara bagageutrymmet."
+        },
+        {
+          "id": "C",
+          "text": "Tung last gör alltid styrningen bättre."
+        },
+        {
+          "id": "D",
+          "text": "Viktfördelning saknar betydelse om bilen är ny."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Last och viktfördelning kan påverka köregenskaper och stabilitet. Frågan prövar Känna till hur last och vikt påverkar köregenskaper och bygger på TSFS 2021:119, 3 kap. 27 § 4.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-027-004C-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-004C"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-006"
+      ],
+      "lesson_key": "D1-VEH-STEER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Regn övergår i blötsnö under passet. Vad behöver du känna till om köregenskaper?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Väder och väglag ändrar friktion och sikt, så styrning, hastighet och marginaler måste anpassas."
+        },
+        {
+          "id": "B",
+          "text": "Köregenskaperna är oförändrade så länge däcken är godkända."
+        },
+        {
+          "id": "C",
+          "text": "Sikten påverkar bara passagerarens komfort."
+        },
+        {
+          "id": "D",
+          "text": "Väglag spelar ingen roll för styrningen i låg fart."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Väder och väglag ändrar friktion och sikt, så styrning, hastighet och marginaler måste anpassas. Frågan prövar Känna till hur väder påverkar köregenskaper och bygger på TSFS 2021:119, 3 kap. 27 § 4.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 27 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-028-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_bromssystem",
+      "requirement_keys": [
+        "D1-VEH-028-001"
+      ],
+      "fact_keys": [
+        "D1-VEH-BRAKE-FACT-001"
+      ],
+      "lesson_key": "D1-VEH-BRAKE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "explain",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "EXPLAIN",
+        "APPLY"
+      ],
+      "prompt": "Vilken förklaring passar moderna bromssystem bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "De består av flera funktioner som ska hjälpa föraren att bromsa stabilt men kräver rätt användning och kontroll."
+        },
+        {
+          "id": "B",
+          "text": "De gör att föraren aldrig behöver hålla avstånd."
+        },
+        {
+          "id": "C",
+          "text": "De ersätter behovet av däck med rätt skick."
+        },
+        {
+          "id": "D",
+          "text": "De fungerar oberoende av fel eller varningssignaler."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: De består av flera funktioner som ska hjälpa föraren att bromsa stabilt men kräver rätt användning och kontroll. Frågan prövar Redogöra för bromssystems uppbyggnad och funktion och bygger på TSFS 2021:119, 3 kap. 28 § 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 28 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-028-002-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_bromssystem",
+      "requirement_keys": [
+        "D1-VEH-028-002"
+      ],
+      "fact_keys": [
+        "D1-VEH-BRAKE-FACT-002"
+      ],
+      "lesson_key": "D1-VEH-BRAKE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "use",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "USE",
+        "APPLY"
+      ],
+      "prompt": "En taxi har kort avstånd till bilen framför i tät trafik. Vad är rätt bromsanvändning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Skapa marginal och bromsa mjukt när det går, men tydligt vid fara."
+        },
+        {
+          "id": "B",
+          "text": "Ligga nära och lita på moderna bromssystem."
+        },
+        {
+          "id": "C",
+          "text": "Bromsa sent varje gång för att hålla flödet."
+        },
+        {
+          "id": "D",
+          "text": "Pumpbromsa alltid oavsett bromssystem och väglag."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Skapa marginal och bromsa mjukt när det går, men tydligt vid fara. Frågan prövar Använda bromsar korrekt och bygger på TSFS 2021:119, 3 kap. 28 § 2.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 28 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-028-004-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_bromssystem",
+      "requirement_keys": [
+        "D1-VEH-028-004"
+      ],
+      "fact_keys": [
+        "D1-VEH-BRAKE-FACT-004"
+      ],
+      "lesson_key": "D1-VEH-BRAKE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "perform",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "PERFORM",
+        "APPLY"
+      ],
+      "prompt": "Du gör en enkel bromskontroll och märker avvikande känsla vid provbromsning. Vad är rätt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Se det som en möjlig brist i bromssystemet och låt bilen kontrolleras innan normal körning."
+        },
+        {
+          "id": "B",
+          "text": "Köra vidare om bilen fortfarande stannar någon gång."
+        },
+        {
+          "id": "C",
+          "text": "Ignorera känslan om passageraren inte märker den."
+        },
+        {
+          "id": "D",
+          "text": "Kompensera genom att bromsa hårdare resten av passet."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Se det som en möjlig brist i bromssystemet och låt bilen kontrolleras innan normal körning. Frågan prövar Utföra enklare bromskontroller och bygger på TSFS 2021:119, 3 kap. 28 § 4.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 28 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-029-007B-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_vinterdack_dubbdack",
+      "requirement_keys": [
+        "D1-VEH-029-007B"
+      ],
+      "fact_keys": [
+        "D1-VEH-WINTER-FACT-005"
+      ],
+      "lesson_key": "D1-VEH-WINTER-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "apply",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "APPLY",
+        "APPLY"
+      ],
+      "prompt": "Det är 20 april och vinterväglag befaras under nattpasset. Vad gäller för dubbdäck?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Dubbdäck får användas även efter 15 april om det är eller befaras bli vinterväglag."
+        },
+        {
+          "id": "B",
+          "text": "Dubbdäck är förbjudna efter 15 april oavsett väglag."
+        },
+        {
+          "id": "C",
+          "text": "Dubbdäck får bara användas om kunden begär det."
+        },
+        {
+          "id": "D",
+          "text": "Dubbdäck får alltid blandas med odubbade däck på samma bil."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Dubbdäck får användas även efter 15 april om det är eller befaras bli vinterväglag. Frågan prövar Tillämpa regler om dubbdäck och bygger på Vinterdäck, dubbade vinterdäck.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_VINTERDACK",
+          "exact_reference": "Vinterdäck, dubbade vinterdäck"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-VEH-COVERAGE-D1-VEH-029-007E-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_vehicle_fordonskombinationer_dimensioner",
+      "requirement_keys": [
+        "D1-VEH-029-007E"
+      ],
+      "fact_keys": [
+        "D1-VEH-COMBO-FACT-003"
+      ],
+      "lesson_key": "D1-VEH-COMBO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "apply",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "APPLY",
+        "APPLY"
+      ],
+      "prompt": "Du överväger alternativa fälg- och däckdimensioner på taxin. Vad måste vara uppfyllt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Krav på typgodkännande, belastning, hastighet, fri rörlighet och hastighetsmätarvisning måste uppfyllas."
+        },
+        {
+          "id": "B",
+          "text": "Dimensionen är tillåten bara den ser ut att passa i hjulhuset."
+        },
+        {
+          "id": "C",
+          "text": "Större fälg är alltid tillåten på taxi."
+        },
+        {
+          "id": "D",
+          "text": "Hastighetsmätarens visning saknar betydelse vid dimensionbyte."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Krav på typgodkännande, belastning, hastighet, fri rörlighet och hastighetsmätarvisning måste uppfyllas. Frågan prövar Tillämpa regler om hjul- och däckdimensioner och bygger på TSFS 2021:119, 3 kap. 29 § 7 e.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 29 § 7 e"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
       "visual_correctness_depends_on_asset": false,
       "status": "published"
     }

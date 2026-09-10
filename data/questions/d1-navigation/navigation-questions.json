@@ -4,7 +4,7 @@
     "title": "D1 navigation question bank",
     "status": "published",
     "created_at": "2026-09-10",
-    "reviewed_at": "2026-09-10",
+    "reviewed_at": "2026-09-11",
     "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
   },
   "topic_checkpoints": [
@@ -2897,6 +2897,282 @@
         }
       ],
       "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-003-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Du får en körning till ett område du inte känner till och behöver planera innan start. Vad visar rätt kunskap om färdplaneringshjälpmedel?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Välj lämpliga hjälpmedel, till exempel navigation, karta eller bokningsinformation, och kontrollera rutten innan du kör."
+        },
+        {
+          "id": "B",
+          "text": "Kör iväg direkt och låt passageraren lösa osäkerheter under färden."
+        },
+        {
+          "id": "C",
+          "text": "Använd bara minnet även när adressen är okänd."
+        },
+        {
+          "id": "D",
+          "text": "Avstå från planering eftersom hjälpmedel inte ingår i navigering."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Välj lämpliga hjälpmedel, till exempel navigation, karta eller bokningsinformation, och kontrollera rutten innan du kör. Frågan prövar Känna till olika hjälpmedel för färdplanering och bygger på TSFS 2021:119, 3 kap. 3 § 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder",
+        "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+        "copyright_status": "custom_metadata_only"
+      }
+    },
+    {
+      "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-004-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-004"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "use",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "USE",
+        "APPLY"
+      ],
+      "prompt": "En passagerare beskriver vägen muntligt: efter bron ska du ta andra avfarten och sedan följa skylt mot vårdcentralen. Vad är bäst innan du kör vidare?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Upprepa de viktigaste punkterna och bekräfta att du har förstått färdbeskrivningen."
+        },
+        {
+          "id": "B",
+          "text": "Gissa första möjliga väg för att slippa störa passageraren."
+        },
+        {
+          "id": "C",
+          "text": "Välja kortaste vägen i appen utan att jämföra med beskrivningen."
+        },
+        {
+          "id": "D",
+          "text": "Be passageraren vänta tills du redan passerat avfarten."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Upprepa de viktigaste punkterna och bekräfta att du har förstått färdbeskrivningen. Frågan prövar Hitta till en angiven plats utifrån färdbeskrivning och bygger på TSFS 2021:119, 3 kap. 3 § 2.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder",
+        "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+        "copyright_status": "custom_metadata_only"
+      }
+    },
+    {
+      "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-005-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-005"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "apply",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "APPLY",
+        "APPLY"
+      ],
+      "prompt": "GPS:en föreslår huvudinfarten, men bokningen anger att kunden ska lämnas vid sidoentrén. Hur använder du navigeringsinformationen bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Jämför uppgifterna och planera färdvägen mot rätt entré innan sista svängen."
+        },
+        {
+          "id": "B",
+          "text": "Följ alltid första GPS-förslaget även när bokningen säger något annat."
+        },
+        {
+          "id": "C",
+          "text": "Ignorera bokningsinformationen eftersom den inte är en karta."
+        },
+        {
+          "id": "D",
+          "text": "Stanna långt från målet och låt kunden leta efter entrén själv."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Jämför uppgifterna och planera färdvägen mot rätt entré innan sista svängen. Frågan prövar Hitta och använda navigeringsinformation och bygger på TSFS 2021:119, 3 kap. 3 § 3 a.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 a"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder",
+        "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+        "copyright_status": "custom_metadata_only"
+      }
+    },
+    {
+      "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-007-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-007"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "apply",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "APPLY",
+        "APPLY"
+      ],
+      "prompt": "Du använder en enkel kartskiss där målet ligger norr om parken och infarten bara finns från öster. Vilket agerande visar korrekt kartavläsning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Planera ankomst från östra sidan och kontrollera att målet ligger på rätt sida om parken."
+        },
+        {
+          "id": "B",
+          "text": "Köra mot närmaste gatunamn utan att se var infarten finns."
+        },
+        {
+          "id": "C",
+          "text": "Anta att alla infarter fungerar eftersom målet syns på kartan."
+        },
+        {
+          "id": "D",
+          "text": "Välja sydsidan eftersom den verkar kortare trots att infarten saknas där."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Planera ankomst från östra sidan och kontrollera att målet ligger på rätt sida om parken. Frågan prövar Avläsa en kartbild korrekt och bygger på TSFS 2021:119, 3 kap. 3 § 3 b.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder",
+        "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+        "copyright_status": "custom_metadata_only"
+      }
     }
   ]
 }

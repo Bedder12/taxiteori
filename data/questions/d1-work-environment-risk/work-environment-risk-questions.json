@@ -4,7 +4,7 @@
     "title": "Source-backed scenario question bank",
     "status": "published",
     "created_at": "2026-09-10",
-    "reviewed_at": "2026-09-10",
+    "reviewed_at": "2026-09-11",
     "disclaimer": "Internal practice questions; not Trafikverket's official question bank."
   },
   "topic_checkpoints": [
@@ -1599,6 +1599,586 @@
       "competency": "bedöma och välja säkert agerande",
       "visual_correctness_depends_on_asset": false,
       "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-020-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "requirement_keys": [
+        "D1-WORK-020-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-LIFT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Efter flera körningar har du lyft tunga väskor vridet från bagageutrymmet. Vilken bedömning minskar risken för belastningsskada?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Planera lyftet, stå nära lasten och använda hjälpmedel eller be om hjälp vid behov."
+        },
+        {
+          "id": "B",
+          "text": "Lyfta snabbare så belastningen blir kortvarig."
+        },
+        {
+          "id": "C",
+          "text": "Vrida ryggen mer för att nå längre in."
+        },
+        {
+          "id": "D",
+          "text": "Vänta med åtgärd tills smärta gör körning omöjlig."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Planera lyftet, stå nära lasten och använda hjälpmedel eller be om hjälp vid behov. Frågan prövar Bedöma risker för belastningsskador och bygger på Belastningsergonomi, belastande arbetsställningar och arbetsrörelser.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_reference": "Belastningsergonomi, belastande arbetsställningar och arbetsrörelser"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Efter flera körningar har du lyft tunga väskor vridet från bagageutrymmet. Vilken bedömning minskar risken för belastningsskada"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Du har tagit ett läkemedel som kan göra dig dåsig innan ett arbetspass. Vad visar bäst omdöme?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bedöm påverkan på körförmågan och kör inte om trafiksäkerheten kan påverkas."
+        },
+        {
+          "id": "B",
+          "text": "Kör ändå om läkemedlet är lagligt utskrivet."
+        },
+        {
+          "id": "C",
+          "text": "Låt kunden avgöra om du verkar pigg."
+        },
+        {
+          "id": "D",
+          "text": "Kompensiera med högre musik och öppet fönster."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bedöm påverkan på körförmågan och kör inte om trafiksäkerheten kan påverkas. Frågan prövar Bedöma påverkan från läkemedel och bygger på Läkemedel, körförmåga och medicinska krav.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_MEDICINER_KORNING",
+          "exact_reference": "Läkemedel, körförmåga och medicinska krav"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Du har tagit ett läkemedel som kan göra dig dåsig innan ett arbetspass. Vad visar bäst omdöme"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-002-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "En förare tror att gårdagens droganvändning inte längre påverkar arbetspasset. Vad är rätt riskbedömning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Alkohol och andra droger kan påverka omdöme och körförmåga, så föraren måste avstå om påverkan finns."
+        },
+        {
+          "id": "B",
+          "text": "Det är riskfritt om föraren känner sig van."
+        },
+        {
+          "id": "C",
+          "text": "Påverkan spelar bara roll vid privat körning."
+        },
+        {
+          "id": "D",
+          "text": "Kundens brådska avgör om körningen kan genomföras."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Alkohol och andra droger kan påverka omdöme och körförmåga, så föraren måste avstå om påverkan finns. Frågan prövar Bedöma påverkan från alkohol och andra droger och bygger på Alkohol och påverkan på kroppen och omdömet.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "1177_ALKOHOL_DROGER",
+          "exact_reference": "Alkohol och påverkan på kroppen och omdömet"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "En förare tror att gårdagens droganvändning inte längre påverkar arbetspasset. Vad är rätt riskbedömning"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-004-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-004"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-005"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Efter en lång sjukperiod känner du att reaktion och ork är sämre än vanligt. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bedöm om fysisk kondition påverkar körförmågan innan du tar passagerare."
+        },
+        {
+          "id": "B",
+          "text": "Köra ändå för att träna upp orken under passet."
+        },
+        {
+          "id": "C",
+          "text": "Ta bara korta resor utan annan bedömning."
+        },
+        {
+          "id": "D",
+          "text": "Låta passageraren säga till om körningen verkar osäker."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bedöm om fysisk kondition påverkar körförmågan innan du tar passagerare. Frågan prövar Bedöma påverkan från fysisk kondition och bygger på TSFS 2021:119, 3 kap. 21 § 4.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Efter en lång sjukperiod känner du att reaktion och ork är sämre än vanligt. Vad är bäst"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-004-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-004"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-005"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Du blir snabbt andfådd och får svårt att bära lätt bagage inför arbetspasset. Vad visar rätt riskmedvetenhet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Se fysisk kondition som en faktor som kan påverka både omdöme, ork och trafiksäkerhet."
+        },
+        {
+          "id": "B",
+          "text": "Anta att kondition aldrig påverkar körning i taxi."
+        },
+        {
+          "id": "C",
+          "text": "Köra snabbare så passet blir kortare."
+        },
+        {
+          "id": "D",
+          "text": "Undvika alla raster för att komma hem tidigare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Se fysisk kondition som en faktor som kan påverka både omdöme, ork och trafiksäkerhet. Frågan prövar Bedöma påverkan från fysisk kondition och bygger på TSFS 2021:119, 3 kap. 21 § 4.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Du blir snabbt andfådd och får svårt att bära lätt bagage inför arbetspasset. Vad visar rätt riskmedvetenhet"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-005-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-005"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-006"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Du är starkt upprörd efter ett hotfullt samtal och ska direkt köra en kund. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bedöm om psykisk obalans påverkar uppmärksamhet och beslut innan du kör."
+        },
+        {
+          "id": "B",
+          "text": "Köra direkt så tankarna kommer på annat."
+        },
+        {
+          "id": "C",
+          "text": "Låta irritationen styra körtempot."
+        },
+        {
+          "id": "D",
+          "text": "Berätta för kunden att du måste köra fort för att bli klar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bedöm om psykisk obalans påverkar uppmärksamhet och beslut innan du kör. Frågan prövar Bedöma påverkan från psykisk obalans och bygger på TSFS 2021:119, 3 kap. 21 § 5.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 5"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Du är starkt upprörd efter ett hotfullt samtal och ska direkt köra en kund. Vad är bäst"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-005-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-005"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-006"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Under ett pass märker du att stress och ilska gör dig impulsiv i trafiken. Vad bör du göra?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Pausa och återta kontrollen innan du fortsätter med passagerare."
+        },
+        {
+          "id": "B",
+          "text": "Fortsätta eftersom känslor inte påverkar körbeslut."
+        },
+        {
+          "id": "C",
+          "text": "Ta fler körningar för att tänka på annat."
+        },
+        {
+          "id": "D",
+          "text": "Köra närmare andra fordon för att spara tid."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Pausa och återta kontrollen innan du fortsätter med passagerare. Frågan prövar Bedöma påverkan från psykisk obalans och bygger på TSFS 2021:119, 3 kap. 21 § 5.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 5"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Under ett pass märker du att stress och ilska gör dig impulsiv i trafiken. Vad bör du göra"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-006-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-006"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Du har hoppat över mat och känner dig skakig och okoncentrerad under passet. Vad är rätt bedömning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kosthållning kan påverka omdöme och körförmåga, så du bör pausa och återställa koncentrationen."
+        },
+        {
+          "id": "B",
+          "text": "Fortsätt köra eftersom matvanor inte påverkar trafiksäkerhet."
+        },
+        {
+          "id": "C",
+          "text": "Kör fortare till nästa kund för att hinna äta senare."
+        },
+        {
+          "id": "D",
+          "text": "Låt passageraren hålla koll på trafiken."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kosthållning kan påverka omdöme och körförmåga, så du bör pausa och återställa koncentrationen. Frågan prövar Bedöma påverkan från kosthållning och bygger på TSFS 2021:119, 3 kap. 21 § 6.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 6"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Du har hoppat över mat och känner dig skakig och okoncentrerad under passet. Vad är rätt bedömning"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-006-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-006"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "En förare planerar ett långt pass utan möjlighet till mat eller dryck. Vad är riskmedvetet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Planera för energi och vätska eftersom brist kan påverka koncentration och beslut."
+        },
+        {
+          "id": "B",
+          "text": "Hoppa över pauser för att minska arbetstiden."
+        },
+        {
+          "id": "C",
+          "text": "Äta först efter passet oavsett hur kroppen reagerar."
+        },
+        {
+          "id": "D",
+          "text": "Se kost som en privat fråga utan koppling till körförmåga."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Planera för energi och vätska eftersom brist kan påverka koncentration och beslut. Frågan prövar Bedöma påverkan från kosthållning och bygger på TSFS 2021:119, 3 kap. 21 § 6.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 6"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "En förare planerar ett långt pass utan möjlighet till mat eller dryck. Vad är riskmedvetet"
+    },
+    {
+      "stable_key": "D1-WORK-COVERAGE-D1-WORK-021-007-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-007"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-004"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Du har haft flera sena pass i rad och märker att uppmärksamheten faller. Vad är rätt bedömning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Arbets- och vilocykeln kan påverka omdöme och trafiksäkerhet, så återhämtning behöver prioriteras."
+        },
+        {
+          "id": "B",
+          "text": "Fortsätt tills schemat är slut eftersom trötthet bara är obekvämt."
+        },
+        {
+          "id": "C",
+          "text": "Öka tempot för att hålla dig vaken."
+        },
+        {
+          "id": "D",
+          "text": "Ta fler uppdrag för att undvika passivitet."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Arbets- och vilocykeln kan påverka omdöme och trafiksäkerhet, så återhämtning behöver prioriteras. Frågan prövar Bedöma påverkan från arbets- och vilocykeln och bygger på Trötthet och trafiksäkerhet, arbetstid och återhämtning.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_TRÖTTHET",
+          "exact_reference": "Trötthet och trafiksäkerhet, arbetstid och återhämtning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "competency": "bedöma och välja säkert agerande",
+      "scenario_context": "Du har haft flera sena pass i rad och märker att uppmärksamheten faller. Vad är rätt bedömning"
     }
   ]
 }

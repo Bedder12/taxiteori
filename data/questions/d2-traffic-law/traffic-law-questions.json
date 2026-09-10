@@ -4,7 +4,7 @@
     "title": "D2 traffic law question bank",
     "status": "published",
     "created_at": "2026-09-09",
-    "reviewed_at": "2026-09-09",
+    "reviewed_at": "2026-09-11",
     "disclaimer": "Internal checkpoints and mock questions. These are not Trafikverket's official question bank."
   },
   "topic_checkpoints": [
@@ -6126,6 +6126,677 @@
       "correct_answer_id": "A",
       "explanation": "Rätt: Maximilast för motorfordon, traktor, motorredskap, terrängmotorfordon, släpfordon eller sidvagn är skillnaden mellan fordonets totalvikt och tjänstevikt. Utgå från den uttryckliga regeln och repetera lektion 1.",
       "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003A1-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003A1"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-001"
+      ],
+      "lesson_key": "D2-TRAFFIC-VEHICLE-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "En bil är byggd främst för personbefordran och har 8 sittplatser utöver förarplatsen. Vilken definition passar?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Personbil."
+        },
+        {
+          "id": "B",
+          "text": "Buss."
+        },
+        {
+          "id": "C",
+          "text": "Lätt lastbil."
+        },
+        {
+          "id": "D",
+          "text": "Tung lastbil."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Personbil. 8 sittplatser utöver förarplatsen ger personbil när bilen är inrättad för personbefordran. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "En bil är byggd främst för personbefordran och har 8 sittplatser utöver förarplatsen. Vilken definition passar?"
+        ],
+        "method": "Jämför antal sittplatser utöver förarplatsen med gränsen högst åtta.",
+        "worked_example": "8 sittplatser utöver förarplatsen ger personbil när bilen är inrättad för personbefordran.",
+        "answer": "Personbil."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003A2-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003A2"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-002"
+      ],
+      "lesson_key": "D2-TRAFFIC-VEHICLE-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "En lastbil har totalvikt 3 500 kg. Vilken definition passar?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lätt lastbil."
+        },
+        {
+          "id": "B",
+          "text": "Tung lastbil."
+        },
+        {
+          "id": "C",
+          "text": "Lätt släpfordon."
+        },
+        {
+          "id": "D",
+          "text": "Personbil med släp."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lätt lastbil. 3 500 kg är 3,5 ton och ligger inom lätt lastbil. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "En lastbil har totalvikt 3 500 kg. Vilken definition passar?"
+        ],
+        "method": "Jämför totalvikten med gränsen högst 3,5 ton.",
+        "worked_example": "3 500 kg är 3,5 ton och ligger inom lätt lastbil.",
+        "answer": "Lätt lastbil."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003A3-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003A3"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-003"
+      ],
+      "lesson_key": "D2-TRAFFIC-VEHICLE-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "En bil är byggd för personbefordran och har 10 sittplatser utöver förarplatsen. Vilken definition passar?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Buss."
+        },
+        {
+          "id": "B",
+          "text": "Personbil."
+        },
+        {
+          "id": "C",
+          "text": "Lätt lastbil."
+        },
+        {
+          "id": "D",
+          "text": "Släpfordon."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Buss. 10 är fler än 8, därför är definitionen buss. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "En bil är byggd för personbefordran och har 10 sittplatser utöver förarplatsen. Vilken definition passar?"
+        ],
+        "method": "Räkna sittplatser utöver förarplatsen och jämför med gränsen fler än åtta.",
+        "worked_example": "10 är fler än 8, därför är definitionen buss.",
+        "answer": "Buss."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003B1-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003B1"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-004"
+      ],
+      "lesson_key": "D2-TRAFFIC-VEHICLE-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "Ett släpfordon har totalvikt 700 kg. Hur klassas det?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lätt släpfordon."
+        },
+        {
+          "id": "B",
+          "text": "Tungt släpfordon."
+        },
+        {
+          "id": "C",
+          "text": "Buss."
+        },
+        {
+          "id": "D",
+          "text": "Lätt lastbil."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lätt släpfordon. 700 kg är högst 750 kg och klassas som lätt släpfordon. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "Ett släpfordon har totalvikt 700 kg. Hur klassas det?"
+        ],
+        "method": "Jämför släpfordonets totalvikt med 750 kg-gränsen.",
+        "worked_example": "700 kg är högst 750 kg och klassas som lätt släpfordon.",
+        "answer": "Lätt släpfordon."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003B1-Q002",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003B1"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-004"
+      ],
+      "lesson_key": "D2-TRAFFIC-VEHICLE-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "Ett släp väger över 750 kg i totalvikt. Dragfordonets och släpets sammanlagda totalvikt är 3 400 kg. Hur klassas släpet enligt definitionen?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lätt släpfordon."
+        },
+        {
+          "id": "B",
+          "text": "Tungt släpfordon."
+        },
+        {
+          "id": "C",
+          "text": "Personbil."
+        },
+        {
+          "id": "D",
+          "text": "Motorredskap."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lätt släpfordon. 3 400 kg överstiger inte 3,5 ton, därför ryms släpet i lätt släpfordon. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "hard",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "Ett släp väger över 750 kg i totalvikt. Dragfordonets och släpets sammanlagda totalvikt är 3 400 kg. Hur klassas släpet enligt definitionen?"
+        ],
+        "method": "För släp över 750 kg kontrolleras om sammanlagd totalvikt är högst 3,5 ton.",
+        "worked_example": "3 400 kg överstiger inte 3,5 ton, därför ryms släpet i lätt släpfordon.",
+        "answer": "Lätt släpfordon."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003B2-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003B2"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-005"
+      ],
+      "lesson_key": "D2-TRAFFIC-VEHICLE-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "Ett släp har totalvikt 900 kg och ekipagets sammanlagda totalvikt är 3 800 kg. Hur klassas släpet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tungt släpfordon."
+        },
+        {
+          "id": "B",
+          "text": "Lätt släpfordon."
+        },
+        {
+          "id": "C",
+          "text": "Personbil."
+        },
+        {
+          "id": "D",
+          "text": "Buss."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tungt släpfordon. Släpet är över 750 kg och ekipaget över 3,5 ton, alltså är det inte lätt släpfordon. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "Ett släp har totalvikt 900 kg och ekipagets sammanlagda totalvikt är 3 800 kg. Hur klassas släpet?"
+        ],
+        "method": "Pröva först 750 kg-gränsen och därefter 3,5 tons sammanlagd totalvikt.",
+        "worked_example": "Släpet är över 750 kg och ekipaget över 3,5 ton, alltså är det inte lätt släpfordon.",
+        "answer": "Tungt släpfordon."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003B2-Q002",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_fordonsdefinitioner",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003B2"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-VEHICLE-FACT-005"
+      ],
+      "lesson_key": "D2-TRAFFIC-VEHICLE-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "Ett släpfordon är inte ett lätt släpfordon enligt definitionen. Vilken klassning återstår?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tungt släpfordon."
+        },
+        {
+          "id": "B",
+          "text": "Personbil."
+        },
+        {
+          "id": "C",
+          "text": "Lätt lastbil."
+        },
+        {
+          "id": "D",
+          "text": "Moped."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tungt släpfordon. När lätt släpfordon inte uppfylls är klassningen tungt släpfordon. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "hard",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "Ett släpfordon är inte ett lätt släpfordon enligt definitionen. Vilken klassning återstår?"
+        ],
+        "method": "Använd definitionen att tungt släpfordon är annat släpfordon än lätt släpfordon.",
+        "worked_example": "När lätt släpfordon inte uppfylls är klassningen tungt släpfordon.",
+        "answer": "Tungt släpfordon."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003C1-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003C1"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-WEIGHT-FACT-001"
+      ],
+      "lesson_key": "D2-TRAFFIC-WEIGHT-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "Vilken uppgift hör till tjänstevikt för bil?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bilen i normalt fullt driftfärdigt skick med bland annat förare och bränsle."
+        },
+        {
+          "id": "B",
+          "text": "Bilen med maximal last och alla passagerare."
+        },
+        {
+          "id": "C",
+          "text": "Den vikt bilen har just nu vid vägning med aktuell last."
+        },
+        {
+          "id": "D",
+          "text": "Skillnaden mellan totalvikt och tjänstevikt."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bilen i normalt fullt driftfärdigt skick med bland annat förare och bränsle. Tjänstevikt avser driftfärdigt skick och inkluderar bland annat förare och bränsle. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "Vilken uppgift hör till tjänstevikt för bil?"
+        ],
+        "method": "Identifiera vad som ingår i definitionen av tjänstevikt.",
+        "worked_example": "Tjänstevikt avser driftfärdigt skick och inkluderar bland annat förare och bränsle.",
+        "answer": "Bilen i normalt fullt driftfärdigt skick med bland annat förare och bränsle."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003C2-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003C2"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-WEIGHT-FACT-002"
+      ],
+      "lesson_key": "D2-TRAFFIC-WEIGHT-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "En bil vägs vid vägkanten med aktuell last och passagerare. Vilken vikt beskriver situationen?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bruttovikt."
+        },
+        {
+          "id": "B",
+          "text": "Tjänstevikt."
+        },
+        {
+          "id": "C",
+          "text": "Maximilast."
+        },
+        {
+          "id": "D",
+          "text": "Antal sittplatser."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bruttovikt. Vikten gäller just detta tillfälle och är därför bruttovikt. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "En bil vägs vid vägkanten med aktuell last och passagerare. Vilken vikt beskriver situationen?"
+        ],
+        "method": "Bruttovikt är den statiska vikt fordonet vid ett visst tillfälle för över till vägbanan.",
+        "worked_example": "Vikten gäller just detta tillfälle och är därför bruttovikt.",
+        "answer": "Bruttovikt."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003C3-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003C3"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-WEIGHT-FACT-003"
+      ],
+      "lesson_key": "D2-TRAFFIC-WEIGHT-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "En bil har tjänstevikt 1 820 kg och maximilast 580 kg. Vad är totalvikten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "2 400 kg."
+        },
+        {
+          "id": "B",
+          "text": "1 240 kg."
+        },
+        {
+          "id": "C",
+          "text": "580 kg."
+        },
+        {
+          "id": "D",
+          "text": "1 820 kg."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 2 400 kg. 1 820 + 580 = 2 400 kg. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "En bil har tjänstevikt 1 820 kg och maximilast 580 kg. Vad är totalvikten?"
+        ],
+        "method": "Totalvikt = tjänstevikt + maximilast.",
+        "worked_example": "1 820 + 580 = 2 400 kg.",
+        "answer": "2 400 kg."
+      },
+      "source_references": [
+        {
+          "source_id": "SFS_2001_559",
+          "exact_reference": "Lag (2001:559) om vägtrafikdefinitioner, 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D2-TRAFFIC-COVERAGE-D2-TRAFFIC-035-003C4-Q001",
+      "version": 1,
+      "topic_id": "topic_d2_traffic_viktbegrepp",
+      "requirement_keys": [
+        "D2-TRAFFIC-035-003C4"
+      ],
+      "fact_keys": [
+        "D2-TRAFFIC-WEIGHT-FACT-004"
+      ],
+      "lesson_key": "D2-TRAFFIC-WEIGHT-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "definiera",
+        "beräkna",
+        "tillämpa"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "prompt": "Ett fordon har totalvikt 2 650 kg och tjänstevikt 1 940 kg. Vad är maximilasten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "710 kg."
+        },
+        {
+          "id": "B",
+          "text": "4 590 kg."
+        },
+        {
+          "id": "C",
+          "text": "2 650 kg."
+        },
+        {
+          "id": "D",
+          "text": "1 940 kg."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 710 kg. 2 650 - 1 940 = 710 kg. Detta följer av Lag (2001:559) om vägtrafikdefinitioner, 2 §.",
+      "difficulty": "medium",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_definition_calculation",
+        "inputs": [
+          "Ett fordon har totalvikt 2 650 kg och tjänstevikt 1 940 kg. Vad är maximilasten?"
+        ],
+        "method": "Maximilast = totalvikt - tjänstevikt.",
+        "worked_example": "2 650 - 1 940 = 710 kg.",
+        "answer": "710 kg."
+      },
       "source_references": [
         {
           "source_id": "SFS_2001_559",

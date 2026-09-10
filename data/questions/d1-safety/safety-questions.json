@@ -4,7 +4,7 @@
     "title": "D1 safety question bank",
     "status": "published",
     "created_at": "2026-09-10",
-    "reviewed_at": "2026-09-10",
+    "reviewed_at": "2026-09-11",
     "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
   },
   "topic_checkpoints": [
@@ -4544,6 +4544,398 @@
         "visual_correctness_depends_on_asset": false
       },
       "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-COVERAGE-D1-SAFE-012-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Du ska släppa av en passagerare vid en smal gata med cykelbana och parkerade bilar. Vad är säkrast? Situationen gäller taxiförarens val med passagerare i verklig trafik.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Välj en plats där passageraren kan kliva ur utan att öppna dörren mot passerande trafik."
+        },
+        {
+          "id": "B",
+          "text": "Stanna där bilen råkar vara även om dörren hamnar mot cyklister."
+        },
+        {
+          "id": "C",
+          "text": "Låt passageraren avgöra helt själv medan du står i körfältet."
+        },
+        {
+          "id": "D",
+          "text": "Öppna dörren snabbt så att stoppet blir kort."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Välj en plats där passageraren kan kliva ur utan att öppna dörren mot passerande trafik. Frågan prövar Bedöma risker vid passagerares på- och avstigning och bygger på TSFS 2021:119, 3 kap. 12 § 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-COVERAGE-D1-SAFE-013-003-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "Du kör taxi nära en skola strax efter skoldagens slut. Vilken bedömning är bäst? Situationen gäller taxiförarens val med passagerare i verklig trafik.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Sänk farten och sök aktivt efter barn som kan vara skymda av bilar eller bussar."
+        },
+        {
+          "id": "B",
+          "text": "Håll normal fart eftersom barnen bör se taxin."
+        },
+        {
+          "id": "C",
+          "text": "Titta främst på appen för att hitta nästa uppdrag."
+        },
+        {
+          "id": "D",
+          "text": "Räkna med att övergångsstället gör miljön riskfri."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Sänk farten och sök aktivt efter barn som kan vara skymda av bilar eller bussar. Frågan prövar Bedöma risker i miljöer där barn vistas och bygger på TSFS 2021:119, 3 kap. 13 § 3.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-COVERAGE-D1-SAFE-013-004-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-013-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "APPLY"
+      ],
+      "prompt": "En passagerare med rollator ska kliva av vid en trafikerad hållplats. Vad visar rätt riskbedömning? Situationen gäller taxiförarens val med passagerare i verklig trafik.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ge mer tid och välj en skyddad plats med tillräcklig yta om det kan göras säkert."
+        },
+        {
+          "id": "B",
+          "text": "Släpp av direkt i den trängsta luckan för att undvika kö."
+        },
+        {
+          "id": "C",
+          "text": "Låt passageraren kliva ur mot körbanan eftersom hjälpmedlet syns."
+        },
+        {
+          "id": "D",
+          "text": "Fortsätt tills du hittar en plats långt från målet utan att fråga."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ge mer tid och välj en skyddad plats med tillräcklig yta om det kan göras säkert. Frågan prövar Bedöma trafikproblem för personer med funktionsnedsättning och bygger på TSFS 2021:119, 3 kap. 13 § 4.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-COVERAGE-D1-SAFE-014-002-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-014-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-008"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "undefined",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "undefined",
+        "KNOW"
+      ],
+      "prompt": "En barnstol ska användas i framsätet och bilen har aktiv passagerarkrockkudde. Vad är rätt säkerhetsbedömning? Situationen gäller taxiförarens val med passagerare i verklig trafik.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bakåtvänt barnskydd ska inte placeras där en aktiv passagerarkrockkudde finns."
+        },
+        {
+          "id": "B",
+          "text": "Krockkudden gör alltid framsätet bäst för bakåtvänt barnskydd."
+        },
+        {
+          "id": "C",
+          "text": "Bilbälte räcker, så krockkudden saknar betydelse."
+        },
+        {
+          "id": "D",
+          "text": "Barnskyddets placering spelar ingen roll vid kort taxiresa."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bakåtvänt barnskydd ska inte placeras där en aktiv passagerarkrockkudde finns. Frågan prövar Bedöma skyddseffekt hos inre skyddsutrustning och bygger på Barn som fardas i bil, aktiv passagerarkrockkudde.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_BARN_I_BIL",
+          "exact_reference": "Barn som fardas i bil, aktiv passagerarkrockkudde"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-COVERAGE-D1-SAFE-015-001-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-015-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Vilket val beskriver Nollvisionens huvudmål bäst i taxiförarens trafiksäkerhetsarbete? Situationen gäller taxiförarens val med passagerare i verklig trafik.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Att ingen ska dödas eller skadas allvarligt i vägtrafiken."
+        },
+        {
+          "id": "B",
+          "text": "Att alla resor ska gå så snabbt som möjligt."
+        },
+        {
+          "id": "C",
+          "text": "Att endast förare i yrkestrafik har ansvar för säkerheten."
+        },
+        {
+          "id": "D",
+          "text": "Att olyckor ska accepteras om reglerna följts formellt."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Att ingen ska dödas eller skadas allvarligt i vägtrafiken. Frågan prövar Känna till Nollvisionens mål och inriktning och bygger på Nollvisionen - ingen ska do eller skadas allvarligt i trafiken.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_NOLLVISIONEN",
+          "exact_reference": "Nollvisionen - ingen ska do eller skadas allvarligt i trafiken"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-COVERAGE-D1-SAFE-015-002-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-015-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "Du ligger efter tidtabell men närmar dig ett övergångsställe med skymd sikt. Vad bidrar bäst till Nollvisionen? Situationen gäller taxiförarens val med passagerare i verklig trafik.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Sänka farten, skapa marginal och vara beredd på oskyddade trafikanter."
+        },
+        {
+          "id": "B",
+          "text": "Hålla högre fart för att minska försening."
+        },
+        {
+          "id": "C",
+          "text": "Lita på att gångtrafikanter alltid väntar."
+        },
+        {
+          "id": "D",
+          "text": "Fokusera på nästa bokning i stället för platsens risker."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Sänka farten, skapa marginal och vara beredd på oskyddade trafikanter. Frågan prövar Känna till hur taxiförare kan bidra till Nollvisionen och bygger på TSFS 2021:119, 3 kap. 15 § 2.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 15 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-COVERAGE-D1-SAFE-015-002-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-015-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "know",
+        "coverage_backlog_v2"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "prompt": "En kund vill att du kör fortare genom ett bostadsområde. Vilket svar visar hur taxiförare kan bidra till Nollvisionen? Situationen gäller taxiförarens val med passagerare i verklig trafik.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hålla rätt hastighet och prioritera risken för allvarliga personskador framför tidspress."
+        },
+        {
+          "id": "B",
+          "text": "Öka farten eftersom kunden betalar för resan."
+        },
+        {
+          "id": "C",
+          "text": "Köra snabbare bara så länge bilen har bra bromsar."
+        },
+        {
+          "id": "D",
+          "text": "Låta kunden ta ansvar för hastighetsvalet."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hålla rätt hastighet och prioritera risken för allvarliga personskador framför tidspress. Frågan prövar Känna till hur taxiförare kan bidra till Nollvisionen och bygger på TSFS 2021:119, 3 kap. 15 § 2.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 15 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "requires_road_scene": false
+      },
       "visual_correctness_depends_on_asset": false,
       "status": "published"
     }
