@@ -8,6 +8,18 @@ import remainingQuestionsContent from '../../../data/questions/d2-taxi-law/remai
 import trafficFactsContent from '../../../data/content/d2-traffic-law/traffic-law-facts.json';
 import trafficLessonsContent from '../../../data/content/d2-traffic-law/traffic-law-lessons.json';
 import trafficQuestionsContent from '../../../data/questions/d2-traffic-law/traffic-law-questions.json';
+import navigationFactsContent from '../../../data/content/d1-navigation/navigation-facts.json';
+import navigationLessonsContent from '../../../data/content/d1-navigation/navigation-lessons.json';
+import navigationQuestionsContent from '../../../data/questions/d1-navigation/navigation-questions.json';
+import ecoFactsContent from '../../../data/content/d1-eco-driving/eco-driving-facts.json';
+import ecoLessonsContent from '../../../data/content/d1-eco-driving/eco-driving-lessons.json';
+import ecoQuestionsContent from '../../../data/questions/d1-eco-driving/eco-driving-questions.json';
+import environmentFactsContent from '../../../data/content/d1-environment/environment-facts.json';
+import environmentLessonsContent from '../../../data/content/d1-environment/environment-lessons.json';
+import environmentQuestionsContent from '../../../data/questions/d1-environment/environment-questions.json';
+import vehicleFactsContent from '../../../data/content/d1-vehicle-knowledge/vehicle-facts.json';
+import vehicleLessonsContent from '../../../data/content/d1-vehicle-knowledge/vehicle-lessons.json';
+import vehicleQuestionsContent from '../../../data/questions/d1-vehicle-knowledge/vehicle-questions.json';
 import type {
   Assessment,
   ContentBlock,
@@ -36,6 +48,15 @@ type RawVisualMetadata = {
   requires_image?: boolean;
   requires_diagram?: boolean;
   requires_road_scene?: boolean;
+  requires_map?: boolean;
+  requires_route_scenario?: boolean;
+  requires_oral_route_description?: boolean;
+  requires_distance_estimation?: boolean;
+  requires_travel_time_calculation?: boolean;
+  requires_arrival_time_calculation?: boolean;
+  requires_comparison_visual?: boolean;
+  visual_asset_id?: string;
+  visual_correctness_depends_on_asset?: boolean;
 };
 
 const createdAt = '2026-09-09T00:00:00.000Z';
@@ -66,12 +87,44 @@ const exams: Exam[] = [
 ];
 
 const subjects: Subject[] = [
-  { id: 'subject_d1_sakerhet_beteende', examId: 'exam_d1_sakerhet_beteende', title: 'Säkerhet och beteende', officialQuestionCount: 65, order: 1, status: 'draft' },
+  { id: 'subject_d1_navigation', examId: 'exam_d1_sakerhet_beteende', title: 'Navigering', officialQuestionCount: 10, order: 1, status: 'published' },
+  { id: 'subject_d1_korekonomi', examId: 'exam_d1_sakerhet_beteende', title: 'Körekonomi', officialQuestionCount: 6, order: 2, status: 'published' },
+  { id: 'subject_d1_miljo', examId: 'exam_d1_sakerhet_beteende', title: 'Miljö', officialQuestionCount: 6, order: 3, status: 'published' },
+  { id: 'subject_d1_fordonskannedom', examId: 'exam_d1_sakerhet_beteende', title: 'Fordonskännedom', officialQuestionCount: 7, order: 4, status: 'published' },
+  { id: 'subject_d1_sakerhet_beteende', examId: 'exam_d1_sakerhet_beteende', title: 'Säkerhet och beteende', officialQuestionCount: 65, order: 5, status: 'draft' },
   { id: 'subject_d2_taxitrafiklagstiftning', examId: 'exam_d2_lagstiftning', title: 'Taxitrafiklagstiftning', officialQuestionCount: 23, order: 1, status: 'published' },
   { id: 'subject_d2_trafiklagstiftning', examId: 'exam_d2_lagstiftning', title: 'Trafiklagstiftning', officialQuestionCount: 23, order: 2, status: 'published' },
 ];
 
 const topics: Topic[] = [
+  ...navigationLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_navigation',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
+  ...ecoLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_korekonomi',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
+  ...environmentLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_miljo',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
+  ...vehicleLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_fordonskannedom',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
   {
     id: 'topic_d2_taxi_taxitrafikens_grunder',
     subjectId: 'subject_d2_taxitrafiklagstiftning',
@@ -209,6 +262,15 @@ function toVisualMetadata(metadata?: RawVisualMetadata) {
     requiresImage: metadata.requires_image,
     requiresDiagram: metadata.requires_diagram,
     requiresRoadScene: metadata.requires_road_scene,
+    requiresMap: metadata.requires_map,
+    requiresRouteScenario: metadata.requires_route_scenario,
+    requiresOralRouteDescription: metadata.requires_oral_route_description,
+    requiresDistanceEstimation: metadata.requires_distance_estimation,
+    requiresTravelTimeCalculation: metadata.requires_travel_time_calculation,
+    requiresArrivalTimeCalculation: metadata.requires_arrival_time_calculation,
+    requiresComparisonVisual: metadata.requires_comparison_visual,
+    visualAssetId: metadata.visual_asset_id,
+    visualCorrectnessDependsOnAsset: metadata.visual_correctness_depends_on_asset,
   };
 }
 
@@ -216,7 +278,19 @@ function readVisualMetadata(value: unknown) {
   return toVisualMetadata(value as RawVisualMetadata | undefined);
 }
 
-const allRawSources = [...factsContent.sources, ...remainingFactsContent.sources, ...trafficFactsContent.sources];
+function readAnyMetadata(value: unknown) {
+  return readVisualMetadata(value);
+}
+
+const allRawSources = [
+  ...factsContent.sources,
+  ...remainingFactsContent.sources,
+  ...trafficFactsContent.sources,
+  ...navigationFactsContent.sources,
+  ...ecoFactsContent.sources,
+  ...environmentFactsContent.sources,
+  ...vehicleFactsContent.sources,
+];
 const sources: Source[] = [...new Map(allRawSources.map((source) => [source.source_id, source])).values()].map((source) => ({
   id: source.source_id,
   title: source.source_title,
@@ -230,7 +304,11 @@ const sources: Source[] = [...new Map(allRawSources.map((source) => [source.sour
 type RawLesson =
   | (typeof lessonsContent.lessons)[number]
   | (typeof remainingLessonsContent.lessons)[number]
-  | (typeof trafficLessonsContent.lessons)[number];
+  | (typeof trafficLessonsContent.lessons)[number]
+  | (typeof navigationLessonsContent.lessons)[number]
+  | (typeof ecoLessonsContent.lessons)[number]
+  | (typeof environmentLessonsContent.lessons)[number]
+  | (typeof vehicleLessonsContent.lessons)[number];
 
 function inferTopicIdFromLesson(lesson: RawLesson) {
   if ('topic_id' in lesson && lesson.topic_id) {
@@ -240,7 +318,15 @@ function inferTopicIdFromLesson(lesson: RawLesson) {
   return 'topic_d2_taxi_vilotider';
 }
 
-const allRawLessons = [...remainingLessonsContent.lessons, ...lessonsContent.lessons, ...trafficLessonsContent.lessons];
+const allRawLessons = [
+  ...navigationLessonsContent.lessons,
+  ...ecoLessonsContent.lessons,
+  ...environmentLessonsContent.lessons,
+  ...vehicleLessonsContent.lessons,
+  ...remainingLessonsContent.lessons,
+  ...lessonsContent.lessons,
+  ...trafficLessonsContent.lessons,
+];
 const lessonOrderByTopic = new Map<string, number>();
 
 const lessons: Lesson[] = allRawLessons.map((lesson) => {
@@ -259,14 +345,20 @@ const lessons: Lesson[] = allRawLessons.map((lesson) => {
     requirementKeys: lesson.requirement_keys,
     factKeys: lesson.fact_keys,
     estimatedStudyTimeMinutes: lesson.estimated_study_time_minutes,
-    visualMetadata: readVisualMetadata('visual_metadata' in lesson ? lesson.visual_metadata : undefined),
+    visualMetadata: readAnyMetadata(
+      'visual_metadata' in lesson ? lesson.visual_metadata : 'navigation_metadata' in lesson ? lesson.navigation_metadata : undefined,
+    ),
   };
 });
 
 type RawQuestion =
   | (typeof questionsContent.questions)[number]
   | (typeof remainingQuestionsContent.questions)[number]
-  | (typeof trafficQuestionsContent.questions)[number];
+  | (typeof trafficQuestionsContent.questions)[number]
+  | (typeof navigationQuestionsContent.questions)[number]
+  | (typeof ecoQuestionsContent.questions)[number]
+  | (typeof environmentQuestionsContent.questions)[number]
+  | (typeof vehicleQuestionsContent.questions)[number];
 
 function inferTopicIdFromQuestion(question: RawQuestion) {
   if ('topic_id' in question && question.topic_id) {
@@ -277,19 +369,47 @@ function inferTopicIdFromQuestion(question: RawQuestion) {
 }
 
 function inferSubjectIdFromQuestion(question: RawQuestion) {
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_navigation_')) {
+    return 'subject_d1_navigation';
+  }
+
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_eco_')) {
+    return 'subject_d1_korekonomi';
+  }
+
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_env_')) {
+    return 'subject_d1_miljo';
+  }
+
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_vehicle_')) {
+    return 'subject_d1_fordonskannedom';
+  }
+
   return inferTopicIdFromQuestion(question).startsWith('topic_d2_traffic_')
     ? 'subject_d2_trafiklagstiftning'
     : 'subject_d2_taxitrafiklagstiftning';
 }
 
-const questions: RawQuestion[] = [...remainingQuestionsContent.questions, ...questionsContent.questions, ...trafficQuestionsContent.questions];
+function inferExamIdFromQuestion(question: RawQuestion) {
+  return inferSubjectIdFromQuestion(question).startsWith('subject_d1_') ? 'exam_d1_sakerhet_beteende' : 'exam_d2_lagstiftning';
+}
+
+const questions: RawQuestion[] = [
+  ...navigationQuestionsContent.questions,
+  ...ecoQuestionsContent.questions,
+  ...environmentQuestionsContent.questions,
+  ...vehicleQuestionsContent.questions,
+  ...remainingQuestionsContent.questions,
+  ...questionsContent.questions,
+  ...trafficQuestionsContent.questions,
+];
 
 const questionVersions: QuestionVersion[] = questions.map((question) => ({
   id: `${question.stable_key.toLowerCase()}_v${question.version}`,
   questionId: question.stable_key.toLowerCase(),
   stableKey: question.stable_key,
   version: question.version,
-  examId: 'exam_d2_lagstiftning',
+  examId: inferExamIdFromQuestion(question),
   subjectId: inferSubjectIdFromQuestion(question),
   topicId: inferTopicIdFromQuestion(question),
   lessonId: question.lesson_key,
@@ -307,13 +427,19 @@ const questionVersions: QuestionVersion[] = questions.map((question) => ({
     sourceId: source.source_id,
     exactReference: source.exact_reference,
   })),
-  visualMetadata: readVisualMetadata('visual_metadata' in question ? question.visual_metadata : undefined),
+  visualMetadata: readAnyMetadata(
+    'visual_metadata' in question ? question.visual_metadata : 'navigation_metadata' in question ? question.navigation_metadata : undefined,
+  ),
   status: question.status as QuestionVersion['status'],
   createdAt,
   reviewedAt: questionsContent.metadata.reviewed_at,
 }));
 
 const checkpointExams = [
+  ...navigationQuestionsContent.topic_checkpoints,
+  ...ecoQuestionsContent.topic_checkpoints,
+  ...environmentQuestionsContent.topic_checkpoints,
+  ...vehicleQuestionsContent.topic_checkpoints,
   ...remainingQuestionsContent.checkpoint_exams,
   questionsContent.checkpoint_exam,
   ...trafficQuestionsContent.topic_checkpoints,
@@ -323,7 +449,17 @@ const topicAssessments: Assessment[] = checkpointExams.map((checkpoint) => ({
   id: checkpoint.stable_key,
   type: 'checkpoint',
   title: checkpoint.title,
-  subjectId: checkpoint.topic?.startsWith('topic_d2_traffic_') ? 'subject_d2_trafiklagstiftning' : 'subject_d2_taxitrafiklagstiftning',
+  subjectId: checkpoint.topic?.startsWith('topic_d1_navigation_')
+    ? 'subject_d1_navigation'
+    : checkpoint.topic?.startsWith('topic_d1_eco_')
+      ? 'subject_d1_korekonomi'
+      : checkpoint.topic?.startsWith('topic_d1_env_')
+        ? 'subject_d1_miljo'
+        : checkpoint.topic?.startsWith('topic_d1_vehicle_')
+          ? 'subject_d1_fordonskannedom'
+          : checkpoint.topic?.startsWith('topic_d2_traffic_')
+            ? 'subject_d2_trafiklagstiftning'
+            : 'subject_d2_taxitrafiklagstiftning',
   topicId: checkpoint.topic?.startsWith('topic_') ? checkpoint.topic : 'topic_d2_taxi_vilotider',
   questionCount: checkpoint.question_count,
   passThreshold: checkpoint.pass_threshold,
@@ -331,6 +467,38 @@ const topicAssessments: Assessment[] = checkpointExams.map((checkpoint) => ({
 }));
 
 const assessments: Assessment[] = topicAssessments.concat({
+  id: navigationQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: navigationQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_navigation',
+  questionCount: navigationQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: navigationQuestionsContent.subject_checkpoint.pass_threshold,
+  status: navigationQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
+  id: ecoQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: ecoQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_korekonomi',
+  questionCount: ecoQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: ecoQuestionsContent.subject_checkpoint.pass_threshold,
+  status: ecoQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
+  id: environmentQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: environmentQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_miljo',
+  questionCount: environmentQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: environmentQuestionsContent.subject_checkpoint.pass_threshold,
+  status: environmentQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
+  id: vehicleQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: vehicleQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_fordonskannedom',
+  questionCount: vehicleQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: vehicleQuestionsContent.subject_checkpoint.pass_threshold,
+  status: vehicleQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
   id: trafficQuestionsContent.subject_checkpoint.stable_key,
   type: 'checkpoint',
   title: trafficQuestionsContent.subject_checkpoint.title,
@@ -386,4 +554,8 @@ export const vilotiderRepository = d2TaxiLawRepository;
 export const vilotiderFactRecords = factsContent.facts;
 export const d2TaxiLawFactRecords = [...remainingFactsContent.facts, ...factsContent.facts];
 export const d2TrafficLawFactRecords = trafficFactsContent.facts;
+export const d1NavigationFactRecords = navigationFactsContent.facts;
+export const d1EcoDrivingFactRecords = ecoFactsContent.facts;
+export const d1EnvironmentFactRecords = environmentFactsContent.facts;
+export const d1VehicleKnowledgeFactRecords = vehicleFactsContent.facts;
 export const officialCurriculumRequirements = curriculum.requirements;

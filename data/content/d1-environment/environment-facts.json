@@ -1,0 +1,601 @@
+{
+  "metadata": {
+    "subject": "D1_ENVIRONMENT",
+    "title": "D1 environment verified facts",
+    "verified_at": "2026-09-10",
+    "status": "verified",
+    "policy": "Every statement used by lessons and questions must reference one or more fact stable keys."
+  },
+  "sources": [
+    {
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "authority": "Transportstyrelsen",
+      "source_type": "primary_legal_source",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+      "current_validity": "TSFS 2021:119, 3 kap. 6-9 §§; verified 2026-09-10. Primary curriculum authority for D1 Miljö requirements."
+    },
+    {
+      "source_id": "TS_AVGASER",
+      "source_title": "Avgaser",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Miljo/Luftkvaliet-i-tatorter/Avgaser/",
+      "current_validity": "Official guidance on vehicle exhaust emissions and emission classes; verified 2026-09-10. Official source for exhaust emissions, emission classes and vehicle choice; senast uppdaterad 2025-08-28."
+    },
+    {
+      "source_id": "TS_BULLER",
+      "source_title": "Buller",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/",
+      "current_validity": "Official guidance on traffic noise, vehicle noise and tyre noise; verified 2026-09-10. Official source for vehicle and tyre noise; senast uppdaterad 2026-06-23."
+    },
+    {
+      "source_id": "TS_DACK_PERSONBIL",
+      "source_title": "Krav på däck för personbil",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+      "current_validity": "Official vehicle/tire guidance; verified 2026-09-10. Official source for tyre rules and tyre pressure; senast uppdaterad 2025-11-11."
+    },
+    {
+      "source_id": "EM_DACK_ENERGIMARKNING",
+      "source_title": "Energimärkning av däck",
+      "authority": "Energimyndigheten",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.energimyndigheten.se/effektiv-energianvandning/hushall/nar-du-ska-kopa-nya-produkter/produkter-med-energimarkning/dack/energimarkning-av-dack/",
+      "current_validity": "Official guidance on EU tyre energy labelling; verified 2026-09-10. Official source for environmental properties of tyre types and labels."
+    },
+    {
+      "source_id": "NV_LUFTFORORENINGAR_EFFEKTER",
+      "source_title": "Luftföroreningar och dess effekter",
+      "authority": "Naturvårdsverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.naturvardsverket.se/amnesomraden/luft/luftfororeningar-och-dess-effekter/",
+      "current_validity": "Official guidance on air pollution health and environmental effects; verified 2026-09-10. Official source for air pollution effects; granskad 2026-03-19."
+    },
+    {
+      "source_id": "NV_TRANSPORTER_KLIMAT",
+      "source_title": "Klimatet och transporterna",
+      "authority": "Naturvårdsverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.naturvardsverket.se/amnesomraden/klimatomstallningen/omraden/klimatet-och-transporterna/",
+      "current_validity": "Official climate guidance for transport; verified 2026-09-10. Official source for transport climate impact; granskad 2025-08-11."
+    },
+    {
+      "source_id": "NV_TRANSPORTER_UTSLAPP",
+      "source_title": "Inrikes transporter, utsläpp av växthusgaser",
+      "authority": "Naturvårdsverket",
+      "source_type": "official_statistics_source",
+      "url": "https://www.naturvardsverket.se/data-och-statistik/klimat/vaxthusgaser-utslapp-fran-inrikes-transporter/",
+      "current_validity": "Official statistics on greenhouse gas emissions from domestic transport; verified 2026-09-10. Official statistics source; granskad 2026-06-17."
+    },
+    {
+      "source_id": "EM_DRIVMEDEL",
+      "source_title": "Statistik om biobränslen och drivmedel",
+      "authority": "Energimyndigheten",
+      "source_type": "official_statistics_source",
+      "url": "https://www.energimyndigheten.se/statistik/ovrig-energistatistik/statistik-om-biobranslen-och-drivmedel/",
+      "current_validity": "Official statistics and guidance on fuels and greenhouse gas intensity; verified 2026-09-10. Official energy authority source; senast uppdaterad 2025-06-04."
+    },
+    {
+      "source_id": "TS_SPARSAM_KORNING",
+      "source_title": "Sparsam körning",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+      "current_validity": "Official guidance on economical/environmental driving; verified 2026-09-10. Official guidance page; senast uppdaterad 2026-08-26."
+    },
+    {
+      "source_id": "TRV_HASTIGHET_HALLBARHET",
+      "source_title": "Hastighet och hållbarhet",
+      "authority": "Trafikverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+      "current_validity": "Official road-safety and sustainability guidance; verified 2026-09-10. Official explanatory source for speed, fuel use and emissions; senast uppdaterad 2022-03-31."
+    },
+    {
+      "source_id": "KV_HALLBART_BILAGANDE",
+      "source_title": "Hållbart bilägande",
+      "authority": "Konsumentverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.konsumentverket.se/miljo-och-hallbarhet/hallbart-bilagande/",
+      "current_validity": "Official consumer guidance on sustainable car ownership; verified 2026-09-10. Official consumer authority source for vehicle cleaning and runoff."
+    },
+    {
+      "source_id": "NV_BILSKROTNING",
+      "source_title": "Omhändertagande av uttjänta bilar",
+      "authority": "Naturvårdsverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.naturvardsverket.se/vagledning-och-stod/avfall/bilskrotning/",
+      "current_validity": "Official guidance on end-of-life vehicles and hazardous waste; verified 2026-09-10. Official source for hazardous vehicle components and waste handling."
+    },
+    {
+      "source_id": "NV_SPILLOLJA",
+      "source_title": "Spillolja som bränns i alloljebrännare",
+      "authority": "Naturvårdsverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://prod-egp.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/forbranningsanlaggningar/avfallsforbranning/spillolja-som-branns-i-alloljebrannare/",
+      "current_validity": "Official guidance on waste oil as hazardous waste; verified 2026-09-10. Official source for waste oil environmental handling; granskad 2026-01-16."
+    }
+  ],
+  "facts": [
+    {
+      "stable_key": "D1-ENV-IMPACT-FACT-001",
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_key": "D1-ENV-006-001",
+      "fact_text": "Förarprovet kräver kunskap om hur ett fordon påverkar miljön.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 6 §",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-FACT-002",
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_key": "D1-ENV-006-001",
+      "fact_text": "Transporter påverkar klimatet främst genom utsläpp av växthusgaser från vägtrafik och andra transporter.",
+      "source_id": "NV_TRANSPORTER_KLIMAT",
+      "exact_reference": "Klimatet och transporterna, transporternas klimatpåverkan",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-FACT-003",
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_key": "D1-ENV-006-001",
+      "fact_text": "Huvuddelen av växthusgasutsläppen från inrikes transporter kommer från vägtrafiken, där personbilar dominerar.",
+      "source_id": "NV_TRANSPORTER_UTSLAPP",
+      "exact_reference": "Inrikes transporter, utsläpp av växthusgaser",
+      "legal_or_guidance_status": "official_statistics",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-FACT-004",
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_key": "D1-ENV-006-001",
+      "fact_text": "Vägtrafiken ger även luftföroreningar genom avgaser och partiklar från bromsar, hjul och vägbana.",
+      "source_id": "NV_LUFTFORORENINGAR_EFFEKTER",
+      "exact_reference": "Luftföroreningar och dess effekter, trafiken som källa",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-FACT-005",
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_key": "D1-ENV-006-001",
+      "fact_text": "För en taxiförare påverkas miljöbelastningen av fordonets teknik, bränsle, skick, däck och hur uppdraget körs.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-FACT-001",
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_key": "D1-ENV-007-001",
+      "fact_text": "Förarprovet kräver kunskap om hur motorer, bränslen och andra vätskor påverkar miljö och hälsa.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 7 § 1",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-FACT-002",
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_key": "D1-ENV-007-001",
+      "fact_text": "Förbränning av fossila bränslen är det största bidraget till klimatförändringarna från transporter.",
+      "source_id": "NV_TRANSPORTER_KLIMAT",
+      "exact_reference": "Klimatet och transporterna, fossil bränsleförbränning",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-FACT-003",
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_key": "D1-ENV-007-001",
+      "fact_text": "Drivmedlens klimatpåverkan varierar med biodrivmedelsinblandning, biodrivmedlens livscykelpåverkan och den fossila andelen.",
+      "source_id": "EM_DRIVMEDEL",
+      "exact_reference": "Statistik om biobränslen och drivmedel, drivmedlens klimatpåverkan",
+      "legal_or_guidance_status": "official_statistics",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-FACT-004",
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_key": "D1-ENV-007-001",
+      "fact_text": "Bensin- och dieselbilars avgasutsläpp klassas efter bland annat koloxid, kolväten, kväveoxider och partiklar.",
+      "source_id": "TS_AVGASER",
+      "exact_reference": "Avgaser, Vad betyder utsläppsklasserna?",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-FACT-005",
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_key": "D1-ENV-007-001",
+      "fact_text": "Fordonsvätskor och oljerester ska hanteras så att de inte hamnar i mark, dagvatten eller vattendrag.",
+      "source_id": "KV_HALLBART_BILAGANDE",
+      "exact_reference": "Hållbart bilägande, Tvätta inte bilen på gatan",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-FACT-001",
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_key": "D1-ENV-007-002",
+      "fact_text": "Förarprovet kräver kunskap om hur avgasreningssystem fungerar.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 7 § 2",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-FACT-002",
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_key": "D1-ENV-007-002",
+      "fact_text": "Utsläppsklasserna styrs av avgasutsläpp av koloxid, kolväten, kväveoxider och partiklar; koldioxid ingår inte i själva utsläppsklassen.",
+      "source_id": "TS_AVGASER",
+      "exact_reference": "Avgaser, Vad betyder utsläppsklasserna?",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-FACT-003",
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_key": "D1-ENV-007-002",
+      "fact_text": "Nya lätta fordon måste uppfylla Euro 6-krav för att registreras.",
+      "source_id": "TS_AVGASER",
+      "exact_reference": "Avgaser, Dagens utsläppskrav",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-FACT-004",
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_key": "D1-ENV-007-002",
+      "fact_text": "Katalytisk avgasrening har varit en viktig orsak till minskade utsläpp från vägtrafiken sedan 1990.",
+      "source_id": "NV_LUFTFORORENINGAR_EFFEKTER",
+      "exact_reference": "Utsläpp av luftföroreningar, transportsektorns minskningar",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-FACT-005",
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_key": "D1-ENV-007-002",
+      "fact_text": "En förare ska inte ignorera felindikeringar i avgasreningen, eftersom reningssystemet är en del av fordonets miljöfunktion.",
+      "source_id": "TS_AVGASER",
+      "exact_reference": "Avgaser, dagens utsläppskrav och utsläppsklasser",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-FACT-001",
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_key": "D1-ENV-007-003",
+      "fact_text": "Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 7 § 3",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-FACT-002",
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_key": "D1-ENV-007-003",
+      "fact_text": "Däckens energimärkning visar energieffektivitet, våtgrepp och buller utanför bilen.",
+      "source_id": "EM_DACK_ENERGIMARKNING",
+      "exact_reference": "Energimärkning av däck, den nya energimärkningen",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-FACT-003",
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_key": "D1-ENV-007-003",
+      "fact_text": "Energiklass A på däck betyder lägst rullmotstånd och bäst energieffektivitet på skalan A-E.",
+      "source_id": "EM_DACK_ENERGIMARKNING",
+      "exact_reference": "Energimärkning av däck, Energieffektivitet på skala A-E",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-FACT-004",
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_key": "D1-ENV-007-003",
+      "fact_text": "Nya däck ska normalt vara S-märkta för att uppfylla bullerkrav från kontakten mellan däck och vägbana.",
+      "source_id": "TS_DACK_PERSONBIL",
+      "exact_reference": "Krav på däck för personbil, S-märkning",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-FACT-005",
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_key": "D1-ENV-007-003",
+      "fact_text": "Dubbdäck påverkar buller och kan bidra till höga partikelhalter genom vägslitage.",
+      "source_id": "TS_BULLER",
+      "exact_reference": "Buller, krav på ljudnivå för däck",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-FACT-006",
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_key": "D1-ENV-007-003",
+      "fact_text": "Fel däcktryck kan påverka bränsleförbrukning, däckens livslängd och därmed miljöbelastning.",
+      "source_id": "TS_DACK_PERSONBIL",
+      "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [
+        "D1-ECO-MAINT-FACT-002"
+      ],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-FACT-001",
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_key": "D1-ENV-008-001",
+      "fact_text": "Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 8 §",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-FACT-002",
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_key": "D1-ENV-008-002",
+      "fact_text": "Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 8 §",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-FACT-003",
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_key": "D1-ENV-008-001",
+      "fact_text": "Biltvättmedel, partiklar, tungmetaller och olja kan hamna i dagvatten eller vattendrag om bilen tvättas på gatan.",
+      "source_id": "KV_HALLBART_BILAGANDE",
+      "exact_reference": "Hållbart bilägande, Tvätta inte bilen på gatan",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-FACT-004",
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_key": "D1-ENV-008-002",
+      "fact_text": "Uttjänta bilar klassas som farligt avfall tills de tömts på farliga vätskor och komponenter.",
+      "source_id": "NV_BILSKROTNING",
+      "exact_reference": "Omhändertagande av uttjänta bilar, Vad är farligt avfall?",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-FACT-005",
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_key": "D1-ENV-008-002",
+      "fact_text": "Spillolja är farligt avfall och innehåller mer föroreningar än vanlig eldningsolja.",
+      "source_id": "NV_SPILLOLJA",
+      "exact_reference": "Spillolja som bränns i alloljebrännare",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-FACT-006",
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_key": "D1-ENV-008-001",
+      "fact_text": "Miljöanpassad taxiservice innebär att upptäcka läckage, hantera vätskor rätt och använda tvättplats som är avsedd för fordon.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 8 §",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-START-FACT-001",
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_key": "D1-ENV-009-001",
+      "fact_text": "Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-START-FACT-002",
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_key": "D1-ENV-009-001",
+      "fact_text": "Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-START-FACT-003",
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_key": "D1-ENV-009-001",
+      "fact_text": "Motorvärmare är relevant därför att den kan minska kallstartens miljöeffekt när den används ändamålsenligt.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-START-FACT-004",
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_key": "D1-ENV-009-001",
+      "fact_text": "Hur bilen körs har stor betydelse för utsläpp och buller.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, inledande vägledning",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [
+        "D1-ECO-PLAN-FACT-002"
+      ],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-START-FACT-005",
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_key": "D1-ENV-009-001",
+      "fact_text": "Trafikbuller kan påverka prestation, inlärning och sömn och långvarig exponering kan öka risken för hjärt- och kärlsjukdomar.",
+      "source_id": "TS_BULLER",
+      "exact_reference": "Buller, trafikbuller och hälsa",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-START-FACT-006",
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_key": "D1-ENV-009-001",
+      "fact_text": "Tomgång bör undvikas när den inte behövs, eftersom motorn då ger utsläpp och buller utan att transportera kunden.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-FACT-001",
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_key": "D1-ENV-009-002",
+      "fact_text": "Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 9 § 2",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-FACT-002",
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_key": "D1-ENV-009-002",
+      "fact_text": "Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [
+        "D1-ECO-FUEL-FACT-002"
+      ],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-FACT-003",
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_key": "D1-ENV-009-002",
+      "fact_text": "Trafikverket beskriver att högre hastigheter ger högre bränsleförbrukning och mer koldioxidutsläpp.",
+      "source_id": "TRV_HASTIGHET_HALLBARHET",
+      "exact_reference": "Hastighet och hållbarhet, hastighetens betydelse",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [
+        "D1-ECO-FUEL-FACT-004"
+      ],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-FACT-004",
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_key": "D1-ENV-009-002",
+      "fact_text": "Planerad körning kan minska onödiga stopp, accelerationer och omvägar som ökar bränsleförbrukning och miljöbelastning.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 9 § 2",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-FACT-005",
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_key": "D1-ENV-009-002",
+      "fact_text": "Energieffektiva fordon, hållbara fossilfria drivmedel, begränsade trafikvolymer och elektrifiering är viktiga sätt att minska transporters klimatpåverkan.",
+      "source_id": "NV_TRANSPORTER_KLIMAT",
+      "exact_reference": "Klimatet och transporterna, Hur kan transporters klimatpåverkan minska?",
+      "legal_or_guidance_status": "official_guidance",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-FACT-006",
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_key": "D1-ENV-009-002",
+      "fact_text": "För en taxi ska miljöanpassat vägval väga in kortare körsträcka, jämnare trafikflöde och kundens säkerhet och behov.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 9 § 2",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "cross_subject_fact_links": [],
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    }
+  ]
+}

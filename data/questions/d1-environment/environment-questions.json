@@ -1,0 +1,2838 @@
+{
+  "metadata": {
+    "subject": "D1_ENVIRONMENT",
+    "title": "D1 environment question bank",
+    "status": "published",
+    "created_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
+  },
+  "topic_checkpoints": [
+    {
+      "stable_key": "D1-ENV-IMPACT-CHECKPOINT-001",
+      "title": "Intern checkpoint: Fordonets miljöpåverkan",
+      "type": "checkpoint",
+      "subject": "D1_ENVIRONMENT",
+      "topic": "topic_d1_env_fordonets_miljopaverkan",
+      "eligible_status": "published",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-CHECKPOINT-001",
+      "title": "Intern checkpoint: Motorer, bränslen och fordonsvätskor",
+      "type": "checkpoint",
+      "subject": "D1_ENVIRONMENT",
+      "topic": "topic_d1_env_motorer_branslen_vatskor",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-CHECKPOINT-001",
+      "title": "Intern checkpoint: Avgaser och reningssystem",
+      "type": "checkpoint",
+      "subject": "D1_ENVIRONMENT",
+      "topic": "topic_d1_env_avgaser_reningssystem",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-CHECKPOINT-001",
+      "title": "Intern checkpoint: Däck och miljö",
+      "type": "checkpoint",
+      "subject": "D1_ENVIRONMENT",
+      "topic": "topic_d1_env_dack_och_miljo",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-CHECKPOINT-001",
+      "title": "Intern checkpoint: Miljöanpassad fordonsskötsel",
+      "type": "checkpoint",
+      "subject": "D1_ENVIRONMENT",
+      "topic": "topic_d1_env_fordonsskotsel_restprodukter",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-CHECKPOINT-001",
+      "title": "Intern checkpoint: Start, tomgång och buller",
+      "type": "checkpoint",
+      "subject": "D1_ENVIRONMENT",
+      "topic": "topic_d1_env_start_tomgang_buller",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-CHECKPOINT-001",
+      "title": "Intern checkpoint: Körsätt och vägval",
+      "type": "checkpoint",
+      "subject": "D1_ENVIRONMENT",
+      "topic": "topic_d1_env_korsatt_vagval_miljo",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    }
+  ],
+  "subject_checkpoint": {
+    "stable_key": "D1-ENV-SUBJECT-CHECKPOINT-001",
+    "title": "Intern ämnescheckpoint: Miljö",
+    "type": "checkpoint",
+    "subject": "D1_ENVIRONMENT",
+    "topic": null,
+    "eligible_status": "published",
+    "question_count": 24,
+    "pass_threshold": 0.8,
+    "selection": "broad_sample_across_all_d1_environment_topics",
+    "freeze_question_versions_on_attempt_start": true,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D1-ENV-IMPACT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "IMPACT-miljöfall 1: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver kunskap om hur ett fordon påverkar miljön.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur ett fordon påverkar miljön."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 1: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 1: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 1: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur ett fordon påverkar miljön. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 6 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "IMPACT-miljöfall 2: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Transporter påverkar klimatet främst genom utsläpp av växthusgaser från vägtrafik och andra transporter."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 2: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 2: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 2: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Transporter påverkar klimatet främst genom utsläpp av växthusgaser från vägtrafik och andra transporter. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_reference": "Klimatet och transporterna, transporternas klimatpåverkan"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "IMPACT-miljöfall 3: Vilken bedömning är bäst ur miljösynpunkt? Huvuddelen av växthusgasutsläppen från inrikes transporter kommer från vägtrafiken, där personbilar dominerar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Huvuddelen av växthusgasutsläppen från inrikes transporter kommer från vägtrafiken, där personbilar dominerar."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 3: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 3: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 3: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Huvuddelen av växthusgasutsläppen från inrikes transporter kommer från vägtrafiken, där personbilar dominerar. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "NV_TRANSPORTER_UTSLAPP",
+          "exact_reference": "Inrikes transporter, utsläpp av växthusgaser"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-004"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "IMPACT-miljöfall 4: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vägtrafiken ger även luftföroreningar genom avgaser och partiklar från bromsar, hjul och vägbana."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 4: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 4: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 4: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vägtrafiken ger även luftföroreningar genom avgaser och partiklar från bromsar, hjul och vägbana. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "NV_LUFTFORORENINGAR_EFFEKTER",
+          "exact_reference": "Luftföroreningar och dess effekter, trafiken som källa"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-005"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "IMPACT-miljöfall 5: Vilken bedömning är bäst ur miljösynpunkt? För en taxiförare påverkas miljöbelastningen av fordonets teknik, bränsle, skick, däck och hur uppdraget körs.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "För en taxiförare påverkas miljöbelastningen av fordonets teknik, bränsle, skick, däck och hur uppdraget körs."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 5: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 5: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 5: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: För en taxiförare påverkas miljöbelastningen av fordonets teknik, bränsle, skick, däck och hur uppdraget körs. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 6-9 §§"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "IMPACT-miljöfall 6: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur ett fordon påverkar miljön."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 6: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 6: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 6: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur ett fordon påverkar miljön. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 6 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "IMPACT-miljöfall 7: Vilken bedömning är bäst ur miljösynpunkt? Transporter påverkar klimatet främst genom utsläpp av växthusgaser från vägtrafik och andra transporter.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Transporter påverkar klimatet främst genom utsläpp av växthusgaser från vägtrafik och andra transporter."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 7: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 7: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 7: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Transporter påverkar klimatet främst genom utsläpp av växthusgaser från vägtrafik och andra transporter. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_reference": "Klimatet och transporterna, transporternas klimatpåverkan"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-IMPACT-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-IMPACT-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "IMPACT-miljöfall 8: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Huvuddelen av växthusgasutsläppen från inrikes transporter kommer från vägtrafiken, där personbilar dominerar."
+        },
+        {
+          "id": "B",
+          "text": "IMPACT-miljöfall 8: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "IMPACT-miljöfall 8: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "IMPACT-miljöfall 8: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Huvuddelen av växthusgasutsläppen från inrikes transporter kommer från vägtrafiken, där personbilar dominerar. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "NV_TRANSPORTER_UTSLAPP",
+          "exact_reference": "Inrikes transporter, utsläpp av växthusgaser"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "FUEL-miljöfall 1: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver kunskap om hur motorer, bränslen och andra vätskor påverkar miljö och hälsa.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur motorer, bränslen och andra vätskor påverkar miljö och hälsa."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 1: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 1: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 1: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur motorer, bränslen och andra vätskor påverkar miljö och hälsa. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 7 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "jämföra"
+      ],
+      "prompt": "FUEL-miljöfall 2: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förbränning av fossila bränslen är det största bidraget till klimatförändringarna från transporter."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 2: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 2: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 2: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förbränning av fossila bränslen är det största bidraget till klimatförändringarna från transporter. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_reference": "Klimatet och transporterna, fossil bränsleförbränning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "FUEL-miljöfall 3: Vilken bedömning är bäst ur miljösynpunkt? Drivmedlens klimatpåverkan varierar med biodrivmedelsinblandning, biodrivmedlens livscykelpåverkan och den fossila andelen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Drivmedlens klimatpåverkan varierar med biodrivmedelsinblandning, biodrivmedlens livscykelpåverkan och den fossila andelen."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 3: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 3: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 3: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Drivmedlens klimatpåverkan varierar med biodrivmedelsinblandning, biodrivmedlens livscykelpåverkan och den fossila andelen. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "EM_DRIVMEDEL",
+          "exact_reference": "Statistik om biobränslen och drivmedel, drivmedlens klimatpåverkan"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-004"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "FUEL-miljöfall 4: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bensin- och dieselbilars avgasutsläpp klassas efter bland annat koloxid, kolväten, kväveoxider och partiklar."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 4: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 4: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 4: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bensin- och dieselbilars avgasutsläpp klassas efter bland annat koloxid, kolväten, kväveoxider och partiklar. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_AVGASER",
+          "exact_reference": "Avgaser, Vad betyder utsläppsklasserna?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-005"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "FUEL-miljöfall 5: Vilken bedömning är bäst ur miljösynpunkt? Fordonsvätskor och oljerester ska hanteras så att de inte hamnar i mark, dagvatten eller vattendrag.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fordonsvätskor och oljerester ska hanteras så att de inte hamnar i mark, dagvatten eller vattendrag."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 5: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 5: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 5: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fordonsvätskor och oljerester ska hanteras så att de inte hamnar i mark, dagvatten eller vattendrag. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "KV_HALLBART_BILAGANDE",
+          "exact_reference": "Hållbart bilägande, Tvätta inte bilen på gatan"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "FUEL-miljöfall 6: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur motorer, bränslen och andra vätskor påverkar miljö och hälsa."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 6: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 6: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 6: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur motorer, bränslen och andra vätskor påverkar miljö och hälsa. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 7 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "FUEL-miljöfall 7: Vilken bedömning är bäst ur miljösynpunkt? Förbränning av fossila bränslen är det största bidraget till klimatförändringarna från transporter.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förbränning av fossila bränslen är det största bidraget till klimatförändringarna från transporter."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 7: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 7: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 7: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förbränning av fossila bränslen är det största bidraget till klimatförändringarna från transporter. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_reference": "Klimatet och transporterna, fossil bränsleförbränning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "jämföra"
+      ],
+      "prompt": "FUEL-miljöfall 8: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Drivmedlens klimatpåverkan varierar med biodrivmedelsinblandning, biodrivmedlens livscykelpåverkan och den fossila andelen."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-miljöfall 8: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-miljöfall 8: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-miljöfall 8: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Drivmedlens klimatpåverkan varierar med biodrivmedelsinblandning, biodrivmedlens livscykelpåverkan och den fossila andelen. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "EM_DRIVMEDEL",
+          "exact_reference": "Statistik om biobränslen och drivmedel, drivmedlens klimatpåverkan"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "EXHAUST-miljöfall 1: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver kunskap om hur avgasreningssystem fungerar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur avgasreningssystem fungerar."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 1: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 1: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 1: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur avgasreningssystem fungerar. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 7 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "jämföra"
+      ],
+      "prompt": "EXHAUST-miljöfall 2: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Utsläppsklasserna styrs av avgasutsläpp av koloxid, kolväten, kväveoxider och partiklar; koldioxid ingår inte i själva utsläppsklassen."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 2: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 2: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 2: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Utsläppsklasserna styrs av avgasutsläpp av koloxid, kolväten, kväveoxider och partiklar; koldioxid ingår inte i själva utsläppsklassen. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_AVGASER",
+          "exact_reference": "Avgaser, Vad betyder utsläppsklasserna?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "EXHAUST-miljöfall 3: Vilken bedömning är bäst ur miljösynpunkt? Nya lätta fordon måste uppfylla Euro 6-krav för att registreras.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Nya lätta fordon måste uppfylla Euro 6-krav för att registreras."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 3: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 3: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 3: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Nya lätta fordon måste uppfylla Euro 6-krav för att registreras. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_AVGASER",
+          "exact_reference": "Avgaser, Dagens utsläppskrav"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-004"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "EXHAUST-miljöfall 4: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Katalytisk avgasrening har varit en viktig orsak till minskade utsläpp från vägtrafiken sedan 1990."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 4: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 4: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 4: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Katalytisk avgasrening har varit en viktig orsak till minskade utsläpp från vägtrafiken sedan 1990. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "NV_LUFTFORORENINGAR_EFFEKTER",
+          "exact_reference": "Utsläpp av luftföroreningar, transportsektorns minskningar"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-005"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "EXHAUST-miljöfall 5: Vilken bedömning är bäst ur miljösynpunkt? En förare ska inte ignorera felindikeringar i avgasreningen, eftersom reningssystemet är en del av fordonets miljöfunktion.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En förare ska inte ignorera felindikeringar i avgasreningen, eftersom reningssystemet är en del av fordonets miljöfunktion."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 5: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 5: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 5: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En förare ska inte ignorera felindikeringar i avgasreningen, eftersom reningssystemet är en del av fordonets miljöfunktion. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_AVGASER",
+          "exact_reference": "Avgaser, dagens utsläppskrav och utsläppsklasser"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "EXHAUST-miljöfall 6: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur avgasreningssystem fungerar."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 6: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 6: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 6: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur avgasreningssystem fungerar. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 7 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "EXHAUST-miljöfall 7: Vilken bedömning är bäst ur miljösynpunkt? Utsläppsklasserna styrs av avgasutsläpp av koloxid, kolväten, kväveoxider och partiklar; koldioxid ingår inte i själva utsläppsklassen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Utsläppsklasserna styrs av avgasutsläpp av koloxid, kolväten, kväveoxider och partiklar; koldioxid ingår inte i själva utsläppsklassen."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 7: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 7: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 7: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Utsläppsklasserna styrs av avgasutsläpp av koloxid, kolväten, kväveoxider och partiklar; koldioxid ingår inte i själva utsläppsklassen. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_AVGASER",
+          "exact_reference": "Avgaser, Vad betyder utsläppsklasserna?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-EXHAUST-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "jämföra"
+      ],
+      "prompt": "EXHAUST-miljöfall 8: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Nya lätta fordon måste uppfylla Euro 6-krav för att registreras."
+        },
+        {
+          "id": "B",
+          "text": "EXHAUST-miljöfall 8: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "EXHAUST-miljöfall 8: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "EXHAUST-miljöfall 8: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Nya lätta fordon måste uppfylla Euro 6-krav för att registreras. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_AVGASER",
+          "exact_reference": "Avgaser, Dagens utsläppskrav"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "TYRE-miljöfall 1: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 1: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 1: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 1: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 7 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "jämföra"
+      ],
+      "prompt": "TYRE-miljöfall 2: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Däckens energimärkning visar energieffektivitet, våtgrepp och buller utanför bilen."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 2: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 2: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 2: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Däckens energimärkning visar energieffektivitet, våtgrepp och buller utanför bilen. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "EM_DACK_ENERGIMARKNING",
+          "exact_reference": "Energimärkning av däck, den nya energimärkningen"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "TYRE-miljöfall 3: Vilken bedömning är bäst ur miljösynpunkt? Energiklass A på däck betyder lägst rullmotstånd och bäst energieffektivitet på skalan A-E.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Energiklass A på däck betyder lägst rullmotstånd och bäst energieffektivitet på skalan A-E."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 3: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 3: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 3: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Energiklass A på däck betyder lägst rullmotstånd och bäst energieffektivitet på skalan A-E. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "EM_DACK_ENERGIMARKNING",
+          "exact_reference": "Energimärkning av däck, Energieffektivitet på skala A-E"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-004"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "TYRE-miljöfall 4: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Nya däck ska normalt vara S-märkta för att uppfylla bullerkrav från kontakten mellan däck och vägbana."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 4: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 4: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 4: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Nya däck ska normalt vara S-märkta för att uppfylla bullerkrav från kontakten mellan däck och vägbana. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, S-märkning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-005"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "TYRE-miljöfall 5: Vilken bedömning är bäst ur miljösynpunkt? Dubbdäck påverkar buller och kan bidra till höga partikelhalter genom vägslitage.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Dubbdäck påverkar buller och kan bidra till höga partikelhalter genom vägslitage."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 5: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 5: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 5: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Dubbdäck påverkar buller och kan bidra till höga partikelhalter genom vägslitage. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_BULLER",
+          "exact_reference": "Buller, krav på ljudnivå för däck"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-006"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till"
+      ],
+      "prompt": "TYRE-miljöfall 6: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fel däcktryck kan påverka bränsleförbrukning, däckens livslängd och därmed miljöbelastning."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 6: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 6: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 6: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fel däcktryck kan påverka bränsleförbrukning, däckens livslängd och därmed miljöbelastning. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "TYRE-miljöfall 7: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 7: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 7: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 7: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 7 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-TYRE-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "jämföra"
+      ],
+      "prompt": "TYRE-miljöfall 8: Vilket påstående stämmer med Miljö-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Däckens energimärkning visar energieffektivitet, våtgrepp och buller utanför bilen."
+        },
+        {
+          "id": "B",
+          "text": "TYRE-miljöfall 8: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "TYRE-miljöfall 8: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "TYRE-miljöfall 8: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Däckens energimärkning visar energieffektivitet, våtgrepp och buller utanför bilen. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "EM_DACK_ENERGIMARKNING",
+          "exact_reference": "Energimärkning av däck, den nya energimärkningen"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 1: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 1: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 1: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 1: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 8 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 2: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 2: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 2: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 2: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 8 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 3: Vilken bedömning är bäst ur miljösynpunkt? Biltvättmedel, partiklar, tungmetaller och olja kan hamna i dagvatten eller vattendrag om bilen tvättas på gatan.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Biltvättmedel, partiklar, tungmetaller och olja kan hamna i dagvatten eller vattendrag om bilen tvättas på gatan."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 3: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 3: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 3: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Biltvättmedel, partiklar, tungmetaller och olja kan hamna i dagvatten eller vattendrag om bilen tvättas på gatan. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "KV_HALLBART_BILAGANDE",
+          "exact_reference": "Hållbart bilägande, Tvätta inte bilen på gatan"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-004"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 4: Vilken bedömning är bäst ur miljösynpunkt? Uttjänta bilar klassas som farligt avfall tills de tömts på farliga vätskor och komponenter.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Uttjänta bilar klassas som farligt avfall tills de tömts på farliga vätskor och komponenter."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 4: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 4: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 4: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Uttjänta bilar klassas som farligt avfall tills de tömts på farliga vätskor och komponenter. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "NV_BILSKROTNING",
+          "exact_reference": "Omhändertagande av uttjänta bilar, Vad är farligt avfall?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-005"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 5: Vilken bedömning är bäst ur miljösynpunkt? Spillolja är farligt avfall och innehåller mer föroreningar än vanlig eldningsolja.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Spillolja är farligt avfall och innehåller mer föroreningar än vanlig eldningsolja."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 5: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 5: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 5: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Spillolja är farligt avfall och innehåller mer föroreningar än vanlig eldningsolja. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "NV_SPILLOLJA",
+          "exact_reference": "Spillolja som bränns i alloljebrännare"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-006"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 6: Vilken bedömning är bäst ur miljösynpunkt? Miljöanpassad taxiservice innebär att upptäcka läckage, hantera vätskor rätt och använda tvättplats som är avsedd för fordon.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Miljöanpassad taxiservice innebär att upptäcka läckage, hantera vätskor rätt och använda tvättplats som är avsedd för fordon."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 6: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 6: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 6: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Miljöanpassad taxiservice innebär att upptäcka läckage, hantera vätskor rätt och använda tvättplats som är avsedd för fordon. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 8 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 7: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 7: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 7: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 7: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 8 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-CARE-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "requirement_keys": [
+        "D1-ENV-008-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-CARE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "CARE-miljöfall 8: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand."
+        },
+        {
+          "id": "B",
+          "text": "CARE-miljöfall 8: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "CARE-miljöfall 8: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "CARE-miljöfall 8: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 8 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 1: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 1: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 1: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 1: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 2: Vilken bedömning är bäst ur miljösynpunkt? Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 2: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 2: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 2: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 3: Vilken bedömning är bäst ur miljösynpunkt? Motorvärmare är relevant därför att den kan minska kallstartens miljöeffekt när den används ändamålsenligt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Motorvärmare är relevant därför att den kan minska kallstartens miljöeffekt när den används ändamålsenligt."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 3: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 3: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 3: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Motorvärmare är relevant därför att den kan minska kallstartens miljöeffekt när den används ändamålsenligt. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-004"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 4: Vilken bedömning är bäst ur miljösynpunkt? Hur bilen körs har stor betydelse för utsläpp och buller.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hur bilen körs har stor betydelse för utsläpp och buller."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 4: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 4: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 4: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hur bilen körs har stor betydelse för utsläpp och buller. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-005"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 5: Vilken bedömning är bäst ur miljösynpunkt? Trafikbuller kan påverka prestation, inlärning och sömn och långvarig exponering kan öka risken för hjärt- och kärlsjukdomar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Trafikbuller kan påverka prestation, inlärning och sömn och långvarig exponering kan öka risken för hjärt- och kärlsjukdomar."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 5: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 5: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 5: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Trafikbuller kan påverka prestation, inlärning och sömn och långvarig exponering kan öka risken för hjärt- och kärlsjukdomar. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_BULLER",
+          "exact_reference": "Buller, trafikbuller och hälsa"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-006"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 6: Vilken bedömning är bäst ur miljösynpunkt? Tomgång bör undvikas när den inte behövs, eftersom motorn då ger utsläpp och buller utan att transportera kunden.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tomgång bör undvikas när den inte behövs, eftersom motorn då ger utsläpp och buller utan att transportera kunden."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 6: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 6: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 6: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tomgång bör undvikas när den inte behövs, eftersom motorn då ger utsläpp och buller utan att transportera kunden. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 7: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 7: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 7: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 7: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-START-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-START-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "START-miljöfall 8: Vilken bedömning är bäst ur miljösynpunkt? Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt."
+        },
+        {
+          "id": "B",
+          "text": "START-miljöfall 8: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "START-miljöfall 8: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "START-miljöfall 8: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 1: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 1: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 1: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 1: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 2: Vilken bedömning är bäst ur miljösynpunkt? Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 2: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 2: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 2: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-003"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 3: Vilken bedömning är bäst ur miljösynpunkt? Trafikverket beskriver att högre hastigheter ger högre bränsleförbrukning och mer koldioxidutsläpp.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Trafikverket beskriver att högre hastigheter ger högre bränsleförbrukning och mer koldioxidutsläpp."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 3: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 3: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 3: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Trafikverket beskriver att högre hastigheter ger högre bränsleförbrukning och mer koldioxidutsläpp. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_HALLBARHET",
+          "exact_reference": "Hastighet och hållbarhet, hastighetens betydelse"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-004"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 4: Vilken bedömning är bäst ur miljösynpunkt? Planerad körning kan minska onödiga stopp, accelerationer och omvägar som ökar bränsleförbrukning och miljöbelastning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Planerad körning kan minska onödiga stopp, accelerationer och omvägar som ökar bränsleförbrukning och miljöbelastning."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 4: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 4: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 4: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Planerad körning kan minska onödiga stopp, accelerationer och omvägar som ökar bränsleförbrukning och miljöbelastning. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-005"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 5: Vilken bedömning är bäst ur miljösynpunkt? Energieffektiva fordon, hållbara fossilfria drivmedel, begränsade trafikvolymer och elektrifiering är viktiga sätt att minska transporters klimatpåverkan.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Energieffektiva fordon, hållbara fossilfria drivmedel, begränsade trafikvolymer och elektrifiering är viktiga sätt att minska transporters klimatpåverkan."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 5: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 5: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 5: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Energieffektiva fordon, hållbara fossilfria drivmedel, begränsade trafikvolymer och elektrifiering är viktiga sätt att minska transporters klimatpåverkan. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_reference": "Klimatet och transporterna, Hur kan transporters klimatpåverkan minska?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-006"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 6: Vilken bedömning är bäst ur miljösynpunkt? För en taxi ska miljöanpassat vägval väga in kortare körsträcka, jämnare trafikflöde och kundens säkerhet och behov.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "För en taxi ska miljöanpassat vägval väga in kortare körsträcka, jämnare trafikflöde och kundens säkerhet och behov."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 6: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 6: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 6: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: För en taxi ska miljöanpassat vägval väga in kortare körsträcka, jämnare trafikflöde och kundens säkerhet och behov. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-001"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 7: Vilken bedömning är bäst ur miljösynpunkt? Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 7: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 7: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 7: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 9 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-002"
+      ],
+      "lesson_key": "D1-ENV-DRIVE-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma miljöeffekt"
+      ],
+      "prompt": "DRIVE-miljöfall 8: Vilken bedömning är bäst ur miljösynpunkt? Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle."
+        },
+        {
+          "id": "B",
+          "text": "DRIVE-miljöfall 8: åtgärden är bara en ekonomifråga och saknar miljöeffekt."
+        },
+        {
+          "id": "C",
+          "text": "DRIVE-miljöfall 8: högre hastighet, mer tomgång eller fel avfallshantering är normalt bättre för miljön."
+        },
+        {
+          "id": "D",
+          "text": "DRIVE-miljöfall 8: miljökravet gäller bara privatbilister och inte taxiförare."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle. Frågan testar miljöeffekt och spåras via lektionen till verifierad källa, inte till ett allmänt råd utan källa.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    }
+  ]
+}

@@ -56,6 +56,33 @@ export function selectQuestionsForBlueprint(
   return selected;
 }
 
+export function selectDisplayedQuestionsForBlueprint(
+  blueprint: ExamBlueprint,
+  questionVersions: QuestionVersion[],
+  options: QuestionSelectionOptions = {},
+) {
+  const scoringQuestions = selectQuestionsForBlueprint(blueprint, questionVersions, options);
+  const scoringIds = new Set(scoringQuestions.map((question) => question.id));
+  const seed = `${options.seed ?? blueprint.id}:non-scoring`;
+  const nonScoringCount = blueprint.nonScoringTestQuestionCount ?? 0;
+  const nonScoringQuestions = questionVersions
+    .filter(
+      (question) =>
+        question.status === 'published' &&
+        question.examId === blueprint.examId &&
+        question.contexts.includes('assessment') &&
+        !scoringIds.has(question.id),
+    )
+    .sort((left, right) => orderForSeed(left, seed) - orderForSeed(right, seed))
+    .slice(0, nonScoringCount)
+    .map((question) => ({ ...question, scoringRole: 'non_scoring_simulation' as const }));
+
+  return [
+    ...scoringQuestions.map((question) => ({ ...question, scoringRole: 'scored' as const })),
+    ...nonScoringQuestions,
+  ];
+}
+
 export function selectCheckpointQuestions(
   assessmentId: string,
   subjectId: string,

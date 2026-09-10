@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "subject": "D1_NAVIGATION",
+    "title": "D1 navigation lessons",
+    "status": "published",
+    "verified_at": "2026-09-10",
+    "note": "Source-backed mobile-first lessons. Map metadata marks topics that need custom diagrams or route scenes."
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-NAV-TOOLS-L01",
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "title": "Kartor och navigeringshjälpmedel",
+      "learning_objectives": [
+        "Kunna använda kartor och navigeringshjälpmedel i ett praktiskt taxiuppdrag.",
+        "Kunna välja rätt information, fråga eller beräkning innan färden startar."
+      ],
+      "requirement_keys": [
+        "D1-NAV-002-001",
+        "D1-NAV-003-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-001",
+        "D1-NAV-TOOLS-FACT-002",
+        "D1-NAV-TOOLS-FACT-003",
+        "D1-NAV-TOOLS-FACT-004",
+        "D1-NAV-TOOLS-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 2 §",
+            "TSFS 2021:119, 3 kap. 3 § 1"
+          ]
+        },
+        {
+          "source_id": "LANTMATERIET_MIN_KARTA",
+          "exact_references": [
+            "Min karta, Det här kan du göra i Min karta",
+            "Min karta, Det här kan du göra i Min karta"
+          ]
+        },
+        {
+          "source_id": "TRAFIKVERKET_TRAFFIC_MAP",
+          "exact_references": [
+            "Trafikinformation vägkarta, Hjälp om kartan"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Kartor och navigeringshjälpmedel",
+          "fact_keys": [
+            "D1-NAV-TOOLS-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+          "fact_keys": [
+            "D1-NAV-TOOLS-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt.",
+            "Förarprovet kräver kännedom om hjälpmedel för färdplanering.",
+            "Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige.",
+            "Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala."
+          ],
+          "fact_keys": [
+            "D1-NAV-TOOLS-FACT-001",
+            "D1-NAV-TOOLS-FACT-002",
+            "D1-NAV-TOOLS-FACT-003",
+            "D1-NAV-TOOLS-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Om två rutter är möjliga bör du välja den som bäst matchar uppdragets mål, trafikinformation och kundens behov.",
+          "fact_keys": [
+            "D1-NAV-TOOLS-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Kart- och scenariouppgifter använder egna enkla kartmetadata eller framtida genererade diagram, inte externa teoriboksbilder.",
+          "fact_keys": [
+            "D1-NAV-TOOLS-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara vilket hjälpmedel, vilken fråga eller vilken beräkning som behövs?",
+          "fact_keys": [
+            "D1-NAV-TOOLS-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-L01",
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "title": "Muntlig färdbeskrivning",
+      "learning_objectives": [
+        "Kunna använda muntlig färdbeskrivning i ett praktiskt taxiuppdrag.",
+        "Kunna välja rätt information, fråga eller beräkning innan färden startar."
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-002",
+        "D1-NAV-003-003",
+        "D1-NAV-003-004"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-001",
+        "D1-NAV-ORAL-FACT-002",
+        "D1-NAV-ORAL-FACT-003",
+        "D1-NAV-ORAL-FACT-004",
+        "D1-NAV-ORAL-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 3 § 2",
+            "TSFS 2021:119, 3 kap. 3 § 2",
+            "TSFS 2021:119, 3 kap. 3 § 2",
+            "TSFS 2021:119, 3 kap. 3 § 2",
+            "TSFS 2021:119, 3 kap. 3 § 2"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Muntlig färdbeskrivning",
+          "fact_keys": [
+            "D1-NAV-ORAL-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+          "fact_keys": [
+            "D1-NAV-ORAL-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning.",
+            "Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar.",
+            "Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen.",
+            "En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert."
+          ],
+          "fact_keys": [
+            "D1-NAV-ORAL-FACT-001",
+            "D1-NAV-ORAL-FACT-002",
+            "D1-NAV-ORAL-FACT-003",
+            "D1-NAV-ORAL-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Om kunden säger \"kör mot stationen och ta andra höger efter bron\" bör du bekräfta vilken bro och vilken entré kunden menar.",
+          "fact_keys": [
+            "D1-NAV-ORAL-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Kart- och scenariouppgifter använder egna enkla kartmetadata eller framtida genererade diagram, inte externa teoriboksbilder.",
+          "fact_keys": [
+            "D1-NAV-ORAL-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara vilket hjälpmedel, vilken fråga eller vilken beräkning som behövs?",
+          "fact_keys": [
+            "D1-NAV-ORAL-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-NAV-MAP-L01",
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "title": "Kartläsning och teckenförklaring",
+      "learning_objectives": [
+        "Kunna använda kartläsning och teckenförklaring i ett praktiskt taxiuppdrag.",
+        "Kunna välja rätt information, fråga eller beräkning innan färden startar."
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-005",
+        "D1-NAV-003-006",
+        "D1-NAV-003-007",
+        "D1-NAV-003-008"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-001",
+        "D1-NAV-MAP-FACT-002",
+        "D1-NAV-MAP-FACT-003",
+        "D1-NAV-MAP-FACT-004",
+        "D1-NAV-MAP-FACT-005",
+        "D1-NAV-MAP-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 3 § 3 a",
+            "TSFS 2021:119, 3 kap. 3 § 3 b",
+            "TSFS 2021:119, 3 kap. 3 § 3 b",
+            "TSFS 2021:119, 3 kap. 3 § 3 c",
+            "TSFS 2021:119, 3 kap. 3 § 3 b"
+          ]
+        },
+        {
+          "source_id": "LANTMATERIET_MIN_KARTA_HELP",
+          "exact_references": [
+            "Hjälp och tips till Min karta, Välj kartlager"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Kartläsning och teckenförklaring",
+          "fact_keys": [
+            "D1-NAV-MAP-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+          "fact_keys": [
+            "D1-NAV-MAP-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan hitta och använda navigeringsinformation.",
+            "Förarprovet kräver att föraren kan lokalisera rätt kartbild.",
+            "Förarprovet kräver att föraren kan avläsa en kartbild korrekt.",
+            "Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar."
+          ],
+          "fact_keys": [
+            "D1-NAV-MAP-FACT-001",
+            "D1-NAV-MAP-FACT-002",
+            "D1-NAV-MAP-FACT-003",
+            "D1-NAV-MAP-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Om två rutter är möjliga bör du välja den som bäst matchar uppdragets mål, trafikinformation och kundens behov.",
+          "fact_keys": [
+            "D1-NAV-MAP-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Kart- och scenariouppgifter använder egna enkla kartmetadata eller framtida genererade diagram, inte externa teoriboksbilder.",
+          "fact_keys": [
+            "D1-NAV-MAP-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara vilket hjälpmedel, vilken fråga eller vilken beräkning som behövs?",
+          "fact_keys": [
+            "D1-NAV-MAP-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-NAV-CALC-L01",
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "title": "Avstånd, restid och ankomsttid",
+      "learning_objectives": [
+        "Kunna använda avstånd, restid och ankomsttid i ett praktiskt taxiuppdrag.",
+        "Kunna välja rätt information, fråga eller beräkning innan färden startar."
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-009",
+        "D1-NAV-003-010A",
+        "D1-NAV-003-010B"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-001",
+        "D1-NAV-CALC-FACT-002",
+        "D1-NAV-CALC-FACT-003",
+        "D1-NAV-CALC-FACT-004",
+        "D1-NAV-CALC-FACT-005",
+        "D1-NAV-CALC-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 3 § 3 d",
+            "TSFS 2021:119, 3 kap. 3 § 3 e",
+            "TSFS 2021:119, 3 kap. 3 § 3 e",
+            "TSFS 2021:119, 3 kap. 3 § 3 e",
+            "TSFS 2021:119, 3 kap. 3 § 3 e",
+            "TSFS 2021:119, 3 kap. 3 § 3 d"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Avstånd, restid och ankomsttid",
+          "fact_keys": [
+            "D1-NAV-CALC-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+          "fact_keys": [
+            "D1-NAV-CALC-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan bedöma avstånd.",
+            "Förarprovet kräver att föraren kan beräkna restid.",
+            "Förarprovet kräver att föraren kan beräkna ankomsttid.",
+            "Restid kan beräknas som avstånd dividerat med genomsnittlig hastighet när avstånd och hastighet är givna i uppgiften."
+          ],
+          "fact_keys": [
+            "D1-NAV-CALC-FACT-001",
+            "D1-NAV-CALC-FACT-002",
+            "D1-NAV-CALC-FACT-003",
+            "D1-NAV-CALC-FACT-004"
+          ]
+        },
+        {
+          "type": "worked_example",
+          "title": "Räkna restid",
+          "timeline": [
+            "Sträcka: 18 km",
+            "Genomsnittlig hastighet: 36 km/tim",
+            "18 / 36 timmar = 0,5 timmar"
+          ],
+          "reasoning": "0,5 timmar är 30 minuter. Startar färden 14.10 blir beräknad ankomst 14.40.",
+          "final_answer": "Restiden är 30 minuter och ankomsttiden blir 14.40.",
+          "fact_keys": [
+            "D1-NAV-CALC-FACT-002"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Kart- och scenariouppgifter använder egna enkla kartmetadata eller framtida genererade diagram, inte externa teoriboksbilder.",
+          "fact_keys": [
+            "D1-NAV-CALC-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara vilket hjälpmedel, vilken fråga eller vilken beräkning som behövs?",
+          "fact_keys": [
+            "D1-NAV-CALC-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

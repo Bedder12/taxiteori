@@ -318,6 +318,7 @@ function makeQuestion(topic, facts, index) {
   const fact = facts[index % facts.length];
   const stable = `D2-TAXI-${topic.prefix}-Q${String(index + 1).padStart(3, '0')}`;
   const promptPrefix = index % 3 === 0 ? 'Vilket påstående stämmer?' : index % 3 === 1 ? 'Vad är rätt bedömning i provsituationen?' : 'Vilken regel ska du använda först?';
+  const caseLabel = `${topic.prefix}-kontrollfall ${index + 1}`;
 
   return {
     stable_key: stable,
@@ -328,12 +329,12 @@ function makeQuestion(topic, facts, index) {
     lesson_key: lessonKey(topic),
     question_type: index % 3 === 1 ? 'scenario' : 'single_choice',
     competencies: index % 3 === 1 ? ['bedöma'] : ['redogöra'],
-    prompt: `${promptPrefix} ${fact.fact_text}`,
+    prompt: `${caseLabel}: ${promptPrefix} ${fact.fact_text}`,
     answer_choices: [
       { id: 'A', text: fact.fact_text },
-      { id: 'B', text: 'Regeln gäller bara om kunden själv begär att den ska användas.' },
-      { id: 'C', text: 'Föraren kan alltid välja bort regeln om körningen är kort.' },
-      { id: 'D', text: 'Regeln är endast ett internt råd utan koppling till taxitrafiklagstiftningen.' },
+      { id: 'B', text: `${caseLabel}: regeln gäller bara om kunden själv begär att den ska användas.` },
+      { id: 'C', text: `${caseLabel}: föraren kan alltid välja bort regeln om körningen är kort.` },
+      { id: 'D', text: `${caseLabel}: regeln är endast ett internt råd utan koppling till taxitrafiklagstiftningen.` },
     ],
     correct_answer_id: 'A',
     explanation: `Rätt: ${fact.fact_text} Vanlig feltolkning är att göra regeln frivillig eller flytta ansvaret till fel aktör. Repetera lektion 1.`,

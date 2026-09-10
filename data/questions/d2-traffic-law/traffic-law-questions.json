@@ -238,7 +238,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska iaktta omsorg och varsamhet som krävs med hänsyn till omständigheterna för att undvika trafikolyckor.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska iaktta omsorg och varsamhet som krävs med hänsyn till omständigheterna för att undvika trafikolyckor.",
       "answer_choices": [
         {
           "id": "A",
@@ -246,15 +246,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -288,7 +288,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska visa särskild hänsyn mot barn, äldre, skolpatruller och personer med funktionshinder eller sjukdom som är till hinder i trafiken.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska visa särskild hänsyn mot barn, äldre, skolpatruller och personer med funktionshinder eller sjukdom som är till hinder i trafiken.",
       "answer_choices": [
         {
           "id": "A",
@@ -296,15 +296,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -338,7 +338,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i grundläggande trafikregler? Vägtrafikant ska följa anvisningar för trafiken som meddelas genom vägmärken, vägmarkeringar, trafiksignaler och andra anordningar.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i grundläggande trafikregler? Vägtrafikant ska följa anvisningar för trafiken som meddelas genom vägmärken, vägmarkeringar, trafiksignaler och andra anordningar.",
       "answer_choices": [
         {
           "id": "A",
@@ -346,15 +346,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -388,7 +388,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i grundläggande trafikregler? Tecken av polisman gäller framför trafiksignal, vägmärke och vägmarkering.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i grundläggande trafikregler? Tecken av polisman gäller framför trafiksignal, vägmärke och vägmarkering.",
       "answer_choices": [
         {
           "id": "A",
@@ -396,15 +396,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -438,7 +438,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska iaktta omsorg och varsamhet som krävs med hänsyn till omständigheterna för att undvika trafikolyckor.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska iaktta omsorg och varsamhet som krävs med hänsyn till omständigheterna för att undvika trafikolyckor.",
       "answer_choices": [
         {
           "id": "A",
@@ -446,15 +446,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -488,7 +488,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska visa särskild hänsyn mot barn, äldre, skolpatruller och personer med funktionshinder eller sjukdom som är till hinder i trafiken.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i grundläggande trafikregler? Trafikant ska visa särskild hänsyn mot barn, äldre, skolpatruller och personer med funktionshinder eller sjukdom som är till hinder i trafiken.",
       "answer_choices": [
         {
           "id": "A",
@@ -496,15 +496,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -538,7 +538,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? När två fordons kurser skär varandra har förare väjningsplikt mot fordon som närmar sig från höger, utom i särskilt angivna fall.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i väjningsregler? När två fordons kurser skär varandra har förare väjningsplikt mot fordon som närmar sig från höger, utom i särskilt angivna fall.",
       "answer_choices": [
         {
           "id": "A",
@@ -546,15 +546,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -588,7 +588,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? Förare med stopplikt eller stopp på grund av trafiksignal ska stanna vid stopplinje, eller annars omedelbart före signalen eller innan den korsande vägen, leden eller spårområdet.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i väjningsregler? Förare med stopplikt eller stopp på grund av trafiksignal ska stanna vid stopplinje, eller annars omedelbart före signalen eller innan den korsande vägen, leden eller spårområdet.",
       "answer_choices": [
         {
           "id": "A",
@@ -596,15 +596,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -638,7 +638,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? Förare som kör in på huvudled, motorväg eller motortrafikled från annan väg utan accelerationsfält har väjningsplikt mot fordon på den vägen.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i väjningsregler? Förare som kör in på huvudled, motorväg eller motortrafikled från annan väg utan accelerationsfält har väjningsplikt mot fordon på den vägen.",
       "answer_choices": [
         {
           "id": "A",
@@ -646,15 +646,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -688,7 +688,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? Förare har väjningsplikt mot korsande fordon när föraren kör in på väg från parkeringsplats, fastighet, bensinstation, liknande område, stig, ägoväg, cykelbana, gågata, gångfartsområde, cykelgata, terräng eller efter att ha korsat gång- eller cykelbana.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i väjningsregler? Förare har väjningsplikt mot korsande fordon när föraren kör in på väg från parkeringsplats, fastighet, bensinstation, liknande område, stig, ägoväg, cykelbana, gågata, gångfartsområde, cykelgata, terräng eller efter att ha korsat gång- eller cykelbana.",
       "answer_choices": [
         {
           "id": "A",
@@ -696,15 +696,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -738,7 +738,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? När två fordons kurser skär varandra har förare väjningsplikt mot fordon som närmar sig från höger, utom i särskilt angivna fall.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i väjningsregler? När två fordons kurser skär varandra har förare väjningsplikt mot fordon som närmar sig från höger, utom i särskilt angivna fall.",
       "answer_choices": [
         {
           "id": "A",
@@ -746,15 +746,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -788,7 +788,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? Förare med stopplikt eller stopp på grund av trafiksignal ska stanna vid stopplinje, eller annars omedelbart före signalen eller innan den korsande vägen, leden eller spårområdet.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i väjningsregler? Förare med stopplikt eller stopp på grund av trafiksignal ska stanna vid stopplinje, eller annars omedelbart före signalen eller innan den korsande vägen, leden eller spårområdet.",
       "answer_choices": [
         {
           "id": "A",
@@ -796,15 +796,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -838,7 +838,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? Förare som kör in på huvudled, motorväg eller motortrafikled från annan väg utan accelerationsfält har väjningsplikt mot fordon på den vägen.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i väjningsregler? Förare som kör in på huvudled, motorväg eller motortrafikled från annan väg utan accelerationsfält har väjningsplikt mot fordon på den vägen.",
       "answer_choices": [
         {
           "id": "A",
@@ -846,15 +846,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -888,7 +888,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i väjningsregler? Förare har väjningsplikt mot korsande fordon när föraren kör in på väg från parkeringsplats, fastighet, bensinstation, liknande område, stig, ägoväg, cykelbana, gågata, gångfartsområde, cykelgata, terräng eller efter att ha korsat gång- eller cykelbana.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i väjningsregler? Förare har väjningsplikt mot korsande fordon när föraren kör in på väg från parkeringsplats, fastighet, bensinstation, liknande område, stig, ägoväg, cykelbana, gågata, gångfartsområde, cykelgata, terräng eller efter att ha korsat gång- eller cykelbana.",
       "answer_choices": [
         {
           "id": "A",
@@ -896,15 +896,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -938,7 +938,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Fordonets hastighet ska anpassas till trafiksäkerheten och får aldrig vara högre än att föraren behåller kontroll och kan stanna för varje hinder som går att förutse.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i hastighet? Fordonets hastighet ska anpassas till trafiksäkerheten och får aldrig vara högre än att föraren behåller kontroll och kan stanna för varje hinder som går att förutse.",
       "answer_choices": [
         {
           "id": "A",
@@ -946,15 +946,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -988,7 +988,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Förare ska hålla tillräckligt låg hastighet bland annat vid nedsatt sikt, övergångsställen, korsande trafik, skarpa kurvor, backkrön, halt väglag, vägarbete, olycksplats och nära barn.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i hastighet? Förare ska hålla tillräckligt låg hastighet bland annat vid nedsatt sikt, övergångsställen, korsande trafik, skarpa kurvor, backkrön, halt väglag, vägarbete, olycksplats och nära barn.",
       "answer_choices": [
         {
           "id": "A",
@@ -996,15 +996,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1038,7 +1038,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Förare får inte utan giltigt skäl köra med överdrivet låg hastighet, plötsligt bromsa eller på annat sätt hindra andra förares körning.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i hastighet? Förare får inte utan giltigt skäl köra med överdrivet låg hastighet, plötsligt bromsa eller på annat sätt hindra andra förares körning.",
       "answer_choices": [
         {
           "id": "A",
@@ -1046,15 +1046,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1088,7 +1088,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Inom tättbebyggt område är grundregeln högst 50 km/tim, men kommunen får föreskriva 30 eller 40 km/tim om det är motiverat av trafiksäkerhet, framkomlighet eller miljö.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i hastighet? Inom tättbebyggt område är grundregeln högst 50 km/tim, men kommunen får föreskriva 30 eller 40 km/tim om det är motiverat av trafiksäkerhet, framkomlighet eller miljö.",
       "answer_choices": [
         {
           "id": "A",
@@ -1096,15 +1096,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1138,7 +1138,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Utom tättbebyggt område är bashastigheten högst 70 km/tim om inte annan föreskrift gäller.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i hastighet? Utom tättbebyggt område är bashastigheten högst 70 km/tim om inte annan föreskrift gäller.",
       "answer_choices": [
         {
           "id": "A",
@@ -1146,15 +1146,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1188,7 +1188,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Fordonets hastighet ska anpassas till trafiksäkerheten och får aldrig vara högre än att föraren behåller kontroll och kan stanna för varje hinder som går att förutse.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i hastighet? Fordonets hastighet ska anpassas till trafiksäkerheten och får aldrig vara högre än att föraren behåller kontroll och kan stanna för varje hinder som går att förutse.",
       "answer_choices": [
         {
           "id": "A",
@@ -1196,15 +1196,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1238,7 +1238,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Förare ska hålla tillräckligt låg hastighet bland annat vid nedsatt sikt, övergångsställen, korsande trafik, skarpa kurvor, backkrön, halt väglag, vägarbete, olycksplats och nära barn.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i hastighet? Förare ska hålla tillräckligt låg hastighet bland annat vid nedsatt sikt, övergångsställen, korsande trafik, skarpa kurvor, backkrön, halt väglag, vägarbete, olycksplats och nära barn.",
       "answer_choices": [
         {
           "id": "A",
@@ -1246,15 +1246,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1288,7 +1288,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i hastighet? Förare får inte utan giltigt skäl köra med överdrivet låg hastighet, plötsligt bromsa eller på annat sätt hindra andra förares körning.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i hastighet? Förare får inte utan giltigt skäl köra med överdrivet låg hastighet, plötsligt bromsa eller på annat sätt hindra andra förares körning.",
       "answer_choices": [
         {
           "id": "A",
@@ -1296,15 +1296,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1338,7 +1338,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Fordon ska föras i det körfält som är längst till höger i färdriktningen och som är avsett för fordonet, om annat inte följer av regler eller anvisningar.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i placering och körfält? Fordon ska föras i det körfält som är längst till höger i färdriktningen och som är avsett för fordonet, om annat inte följer av regler eller anvisningar.",
       "answer_choices": [
         {
           "id": "A",
@@ -1346,15 +1346,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1388,7 +1388,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Körfältet får bytas endast om det kan ske utan fara eller onödigt hinder för andra trafikanter.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i placering och körfält? Körfältet får bytas endast om det kan ske utan fara eller onödigt hinder för andra trafikanter.",
       "answer_choices": [
         {
           "id": "A",
@@ -1396,15 +1396,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1438,7 +1438,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Förare ska använda körriktningsvisare eller annat tydligt tecken när föraren avser att starta från vägkant, vända, svänga, byta körfält eller flytta fordonet i sidled på annat betydande sätt.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i placering och körfält? Förare ska använda körriktningsvisare eller annat tydligt tecken när föraren avser att starta från vägkant, vända, svänga, byta körfält eller flytta fordonet i sidled på annat betydande sätt.",
       "answer_choices": [
         {
           "id": "A",
@@ -1446,15 +1446,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1488,7 +1488,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Förare får bara använda körfält eller körbana för fordon i linjetrafik när det följer av regler eller särskild anvisning.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i placering och körfält? Förare får bara använda körfält eller körbana för fordon i linjetrafik när det följer av regler eller särskild anvisning.",
       "answer_choices": [
         {
           "id": "A",
@@ -1496,15 +1496,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1538,7 +1538,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Fordon ska föras i det körfält som är längst till höger i färdriktningen och som är avsett för fordonet, om annat inte följer av regler eller anvisningar.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i placering och körfält? Fordon ska föras i det körfält som är längst till höger i färdriktningen och som är avsett för fordonet, om annat inte följer av regler eller anvisningar.",
       "answer_choices": [
         {
           "id": "A",
@@ -1546,15 +1546,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1588,7 +1588,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Körfältet får bytas endast om det kan ske utan fara eller onödigt hinder för andra trafikanter.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i placering och körfält? Körfältet får bytas endast om det kan ske utan fara eller onödigt hinder för andra trafikanter.",
       "answer_choices": [
         {
           "id": "A",
@@ -1596,15 +1596,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1638,7 +1638,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Förare ska använda körriktningsvisare eller annat tydligt tecken när föraren avser att starta från vägkant, vända, svänga, byta körfält eller flytta fordonet i sidled på annat betydande sätt.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i placering och körfält? Förare ska använda körriktningsvisare eller annat tydligt tecken när föraren avser att starta från vägkant, vända, svänga, byta körfält eller flytta fordonet i sidled på annat betydande sätt.",
       "answer_choices": [
         {
           "id": "A",
@@ -1646,15 +1646,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1688,7 +1688,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i placering och körfält? Förare får bara använda körfält eller körbana för fordon i linjetrafik när det följer av regler eller särskild anvisning.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i placering och körfält? Förare får bara använda körfält eller körbana för fordon i linjetrafik när det följer av regler eller särskild anvisning.",
       "answer_choices": [
         {
           "id": "A",
@@ -1696,15 +1696,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1738,7 +1738,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? När en förare närmar sig eller kör in i vägkorsning ska körsättet anpassas så att det inte uppstår onödigt hinder för korsande trafik om fordonet tvingas stanna i korsningen.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i korsningar? När en förare närmar sig eller kör in i vägkorsning ska körsättet anpassas så att det inte uppstår onödigt hinder för korsande trafik om fordonet tvingas stanna i korsningen.",
       "answer_choices": [
         {
           "id": "A",
@@ -1746,15 +1746,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1788,7 +1788,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? Förare som svänger i vägkorsning ska passera gående eller cyklande som korsar körbanan med låg hastighet och lämna dem tillfälle att passera.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i korsningar? Förare som svänger i vägkorsning ska passera gående eller cyklande som korsar körbanan med låg hastighet och lämna dem tillfälle att passera.",
       "answer_choices": [
         {
           "id": "A",
@@ -1796,15 +1796,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1838,7 +1838,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? Förare som lämnar väg ska anpassa körsättet så att andra trafikanter inte utsätts för fara eller onödigt hinder.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i korsningar? Förare som lämnar väg ska anpassa körsättet så att andra trafikanter inte utsätts för fara eller onödigt hinder.",
       "answer_choices": [
         {
           "id": "A",
@@ -1846,15 +1846,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1888,7 +1888,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? Förare som korsar gång- eller cykelbana ska lämna företräde enligt reglerna om utfartssituation när sådan väjning gäller.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i korsningar? Förare som korsar gång- eller cykelbana ska lämna företräde enligt reglerna om utfartssituation när sådan väjning gäller.",
       "answer_choices": [
         {
           "id": "A",
@@ -1896,15 +1896,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1938,7 +1938,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? När en förare närmar sig eller kör in i vägkorsning ska körsättet anpassas så att det inte uppstår onödigt hinder för korsande trafik om fordonet tvingas stanna i korsningen.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i korsningar? När en förare närmar sig eller kör in i vägkorsning ska körsättet anpassas så att det inte uppstår onödigt hinder för korsande trafik om fordonet tvingas stanna i korsningen.",
       "answer_choices": [
         {
           "id": "A",
@@ -1946,15 +1946,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -1988,7 +1988,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? Förare som svänger i vägkorsning ska passera gående eller cyklande som korsar körbanan med låg hastighet och lämna dem tillfälle att passera.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i korsningar? Förare som svänger i vägkorsning ska passera gående eller cyklande som korsar körbanan med låg hastighet och lämna dem tillfälle att passera.",
       "answer_choices": [
         {
           "id": "A",
@@ -1996,15 +1996,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2038,7 +2038,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? Förare som lämnar väg ska anpassa körsättet så att andra trafikanter inte utsätts för fara eller onödigt hinder.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i korsningar? Förare som lämnar väg ska anpassa körsättet så att andra trafikanter inte utsätts för fara eller onödigt hinder.",
       "answer_choices": [
         {
           "id": "A",
@@ -2046,15 +2046,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2088,7 +2088,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i korsningar? Förare som korsar gång- eller cykelbana ska lämna företräde enligt reglerna om utfartssituation när sådan väjning gäller.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i korsningar? Förare som korsar gång- eller cykelbana ska lämna företräde enligt reglerna om utfartssituation när sådan väjning gäller.",
       "answer_choices": [
         {
           "id": "A",
@@ -2096,15 +2096,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2138,7 +2138,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärke D3 anger cirkulationsplats.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärke D3 anger cirkulationsplats.",
       "answer_choices": [
         {
           "id": "A",
@@ -2146,15 +2146,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2188,7 +2188,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Förare som byter körfält eller annars flyttar fordonet i sidled får göra det endast om det kan ske utan fara eller onödigt hinder.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i cirkulationsplatser? Förare som byter körfält eller annars flyttar fordonet i sidled får göra det endast om det kan ske utan fara eller onödigt hinder.",
       "answer_choices": [
         {
           "id": "A",
@@ -2196,15 +2196,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2238,7 +2238,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Förare ska ge tydligt tecken vid betydande sidoförflyttning, till exempel körfältsbyte inför utfart ur cirkulationsplats.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i cirkulationsplatser? Förare ska ge tydligt tecken vid betydande sidoförflyttning, till exempel körfältsbyte inför utfart ur cirkulationsplats.",
       "answer_choices": [
         {
           "id": "A",
@@ -2246,15 +2246,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2288,7 +2288,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärken som anger att viss trafik är påbjuden anger även förbud mot annan trafik, om inte annat är föreskrivet.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärken som anger att viss trafik är påbjuden anger även förbud mot annan trafik, om inte annat är föreskrivet.",
       "answer_choices": [
         {
           "id": "A",
@@ -2296,15 +2296,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2338,7 +2338,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärke D3 anger cirkulationsplats.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärke D3 anger cirkulationsplats.",
       "answer_choices": [
         {
           "id": "A",
@@ -2346,15 +2346,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2388,7 +2388,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Förare som byter körfält eller annars flyttar fordonet i sidled får göra det endast om det kan ske utan fara eller onödigt hinder.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i cirkulationsplatser? Förare som byter körfält eller annars flyttar fordonet i sidled får göra det endast om det kan ske utan fara eller onödigt hinder.",
       "answer_choices": [
         {
           "id": "A",
@@ -2396,15 +2396,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2438,7 +2438,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Förare ska ge tydligt tecken vid betydande sidoförflyttning, till exempel körfältsbyte inför utfart ur cirkulationsplats.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i cirkulationsplatser? Förare ska ge tydligt tecken vid betydande sidoförflyttning, till exempel körfältsbyte inför utfart ur cirkulationsplats.",
       "answer_choices": [
         {
           "id": "A",
@@ -2446,15 +2446,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2488,7 +2488,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärken som anger att viss trafik är påbjuden anger även förbud mot annan trafik, om inte annat är föreskrivet.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i cirkulationsplatser? Påbudsmärken som anger att viss trafik är påbjuden anger även förbud mot annan trafik, om inte annat är föreskrivet.",
       "answer_choices": [
         {
           "id": "A",
@@ -2496,15 +2496,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2538,7 +2538,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Omkörning ska ske till vänster utom i de fall trafikförordningen tillåter annat.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i omkörning? Omkörning ska ske till vänster utom i de fall trafikförordningen tillåter annat.",
       "answer_choices": [
         {
           "id": "A",
@@ -2546,15 +2546,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2588,7 +2588,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Förare som ska köra om ska förvissa sig om att det kan ske utan fara.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i omkörning? Förare som ska köra om ska förvissa sig om att det kan ske utan fara.",
       "answer_choices": [
         {
           "id": "A",
@@ -2596,15 +2596,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2638,7 +2638,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Omkörande förare ska lämna betryggande sidavstånd till den som körs om.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i omkörning? Omkörande förare ska lämna betryggande sidavstånd till den som körs om.",
       "answer_choices": [
         {
           "id": "A",
@@ -2646,15 +2646,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2688,7 +2688,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Omkörning är förbjuden strax före eller i vägkorsning utom i undantag som anges i trafikförordningen.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i omkörning? Omkörning är förbjuden strax före eller i vägkorsning utom i undantag som anges i trafikförordningen.",
       "answer_choices": [
         {
           "id": "A",
@@ -2696,15 +2696,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2738,7 +2738,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Omkörning ska ske till vänster utom i de fall trafikförordningen tillåter annat.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i omkörning? Omkörning ska ske till vänster utom i de fall trafikförordningen tillåter annat.",
       "answer_choices": [
         {
           "id": "A",
@@ -2746,15 +2746,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2788,7 +2788,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Förare som ska köra om ska förvissa sig om att det kan ske utan fara.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i omkörning? Förare som ska köra om ska förvissa sig om att det kan ske utan fara.",
       "answer_choices": [
         {
           "id": "A",
@@ -2796,15 +2796,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2838,7 +2838,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Omkörande förare ska lämna betryggande sidavstånd till den som körs om.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i omkörning? Omkörande förare ska lämna betryggande sidavstånd till den som körs om.",
       "answer_choices": [
         {
           "id": "A",
@@ -2846,15 +2846,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2888,7 +2888,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i omkörning? Omkörning är förbjuden strax före eller i vägkorsning utom i undantag som anges i trafikförordningen.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i omkörning? Omkörning är förbjuden strax före eller i vägkorsning utom i undantag som anges i trafikförordningen.",
       "answer_choices": [
         {
           "id": "A",
@@ -2896,15 +2896,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2938,7 +2938,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får på väg stannas eller parkeras endast på högra sidan i färdriktningen, med särskilda undantag för bland annat enkelriktad trafik.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i stannande och parkering? Fordon får på väg stannas eller parkeras endast på högra sidan i färdriktningen, med särskilda undantag för bland annat enkelriktad trafik.",
       "answer_choices": [
         {
           "id": "A",
@@ -2946,15 +2946,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -2988,7 +2988,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras på eller inom tio meter före övergångsställe, cykelpassage eller cykelöverfart.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras på eller inom tio meter före övergångsställe, cykelpassage eller cykelöverfart.",
       "answer_choices": [
         {
           "id": "A",
@@ -2996,15 +2996,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3038,7 +3038,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras i vägkorsning eller inom tio meter från korsande körbanas närmaste ytterkant.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras i vägkorsning eller inom tio meter från korsande körbanas närmaste ytterkant.",
       "answer_choices": [
         {
           "id": "A",
@@ -3046,15 +3046,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3088,7 +3088,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får inte parkeras på huvudled.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i stannande och parkering? Fordon får inte parkeras på huvudled.",
       "answer_choices": [
         {
           "id": "A",
@@ -3096,15 +3096,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3138,7 +3138,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får på väg stannas eller parkeras endast på högra sidan i färdriktningen, med särskilda undantag för bland annat enkelriktad trafik.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i stannande och parkering? Fordon får på väg stannas eller parkeras endast på högra sidan i färdriktningen, med särskilda undantag för bland annat enkelriktad trafik.",
       "answer_choices": [
         {
           "id": "A",
@@ -3146,15 +3146,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3188,7 +3188,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras på eller inom tio meter före övergångsställe, cykelpassage eller cykelöverfart.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras på eller inom tio meter före övergångsställe, cykelpassage eller cykelöverfart.",
       "answer_choices": [
         {
           "id": "A",
@@ -3196,15 +3196,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3238,7 +3238,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras i vägkorsning eller inom tio meter från korsande körbanas närmaste ytterkant.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i stannande och parkering? Fordon får inte stannas eller parkeras i vägkorsning eller inom tio meter från korsande körbanas närmaste ytterkant.",
       "answer_choices": [
         {
           "id": "A",
@@ -3246,15 +3246,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3288,7 +3288,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i stannande och parkering? Fordon får inte parkeras på huvudled.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i stannande och parkering? Fordon får inte parkeras på huvudled.",
       "answer_choices": [
         {
           "id": "A",
@@ -3296,15 +3296,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3338,7 +3338,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare ska anpassa hastigheten särskilt vid övergångsställen och andra platser där gående korsar vägen.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i gående och cyklister? Förare ska anpassa hastigheten särskilt vid övergångsställen och andra platser där gående korsar vägen.",
       "answer_choices": [
         {
           "id": "A",
@@ -3346,15 +3346,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3388,7 +3388,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig barn som uppehåller sig på eller bredvid vägen.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i gående och cyklister? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig barn som uppehåller sig på eller bredvid vägen.",
       "answer_choices": [
         {
           "id": "A",
@@ -3396,15 +3396,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3438,7 +3438,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare som närmar sig obevakat övergångsställe ska anpassa körningen så att gående som gått ut på eller just ska gå ut på övergångsstället inte utsätts för fara.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i gående och cyklister? Förare som närmar sig obevakat övergångsställe ska anpassa körningen så att gående som gått ut på eller just ska gå ut på övergångsstället inte utsätts för fara.",
       "answer_choices": [
         {
           "id": "A",
@@ -3446,15 +3446,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3488,7 +3488,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare som kör ut ur cirkulationsplats eller svänger ska passera cykelpassage med låg hastighet och lämna cyklande och mopedförare tillfälle att passera.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i gående och cyklister? Förare som kör ut ur cirkulationsplats eller svänger ska passera cykelpassage med låg hastighet och lämna cyklande och mopedförare tillfälle att passera.",
       "answer_choices": [
         {
           "id": "A",
@@ -3496,15 +3496,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3538,7 +3538,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare ska anpassa hastigheten särskilt vid övergångsställen och andra platser där gående korsar vägen.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i gående och cyklister? Förare ska anpassa hastigheten särskilt vid övergångsställen och andra platser där gående korsar vägen.",
       "answer_choices": [
         {
           "id": "A",
@@ -3546,15 +3546,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3588,7 +3588,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig barn som uppehåller sig på eller bredvid vägen.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i gående och cyklister? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig barn som uppehåller sig på eller bredvid vägen.",
       "answer_choices": [
         {
           "id": "A",
@@ -3596,15 +3596,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3638,7 +3638,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare som närmar sig obevakat övergångsställe ska anpassa körningen så att gående som gått ut på eller just ska gå ut på övergångsstället inte utsätts för fara.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i gående och cyklister? Förare som närmar sig obevakat övergångsställe ska anpassa körningen så att gående som gått ut på eller just ska gå ut på övergångsstället inte utsätts för fara.",
       "answer_choices": [
         {
           "id": "A",
@@ -3646,15 +3646,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3688,7 +3688,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i gående och cyklister? Förare som kör ut ur cirkulationsplats eller svänger ska passera cykelpassage med låg hastighet och lämna cyklande och mopedförare tillfälle att passera.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i gående och cyklister? Förare som kör ut ur cirkulationsplats eller svänger ska passera cykelpassage med låg hastighet och lämna cyklande och mopedförare tillfälle att passera.",
       "answer_choices": [
         {
           "id": "A",
@@ -3696,15 +3696,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3738,7 +3738,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig spårvagn, buss eller skolskjuts som stannats för passagerares på- eller avstigning.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i buss, spårväg och järnväg? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig spårvagn, buss eller skolskjuts som stannats för passagerares på- eller avstigning.",
       "answer_choices": [
         {
           "id": "A",
@@ -3746,15 +3746,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3788,7 +3788,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Fordon får inte stannas eller parkeras på eller inom tio meter före korsande cykelbana, gångbana eller körbana vid vägkorsning enligt parkeringsreglerna.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i buss, spårväg och järnväg? Fordon får inte stannas eller parkeras på eller inom tio meter före korsande cykelbana, gångbana eller körbana vid vägkorsning enligt parkeringsreglerna.",
       "answer_choices": [
         {
           "id": "A",
@@ -3796,15 +3796,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3838,7 +3838,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller säkerhetsanordningar i korsningar med järnväg eller spårväg som en särskild anvisningskategori.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller säkerhetsanordningar i korsningar med järnväg eller spårväg som en särskild anvisningskategori.",
       "answer_choices": [
         {
           "id": "A",
@@ -3846,15 +3846,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3888,7 +3888,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller signaler vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller signaler vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande.",
       "answer_choices": [
         {
           "id": "A",
@@ -3896,15 +3896,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3938,7 +3938,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig spårvagn, buss eller skolskjuts som stannats för passagerares på- eller avstigning.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i buss, spårväg och järnväg? Förare ska hålla tillräckligt låg hastighet när fordonet närmar sig spårvagn, buss eller skolskjuts som stannats för passagerares på- eller avstigning.",
       "answer_choices": [
         {
           "id": "A",
@@ -3946,15 +3946,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -3988,7 +3988,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Fordon får inte stannas eller parkeras på eller inom tio meter före korsande cykelbana, gångbana eller körbana vid vägkorsning enligt parkeringsreglerna.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i buss, spårväg och järnväg? Fordon får inte stannas eller parkeras på eller inom tio meter före korsande cykelbana, gångbana eller körbana vid vägkorsning enligt parkeringsreglerna.",
       "answer_choices": [
         {
           "id": "A",
@@ -3996,15 +3996,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4038,7 +4038,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller säkerhetsanordningar i korsningar med järnväg eller spårväg som en särskild anvisningskategori.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller säkerhetsanordningar i korsningar med järnväg eller spårväg som en särskild anvisningskategori.",
       "answer_choices": [
         {
           "id": "A",
@@ -4046,15 +4046,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4088,7 +4088,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller signaler vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i buss, spårväg och järnväg? Vägmärkesförordningen innehåller signaler vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande.",
       "answer_choices": [
         {
           "id": "A",
@@ -4096,15 +4096,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4138,7 +4138,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Vägmärkesförordningen innehåller bestämmelser om anvisningar för trafik genom vägmärken och tilläggstavlor.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i vägmärken? Vägmärkesförordningen innehåller bestämmelser om anvisningar för trafik genom vägmärken och tilläggstavlor.",
       "answer_choices": [
         {
           "id": "A",
@@ -4146,15 +4146,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4188,7 +4188,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Vägmärken delas in i varningsmärken, väjningspliktsmärken, förbudsmärken, påbudsmärken, anvisningsmärken, lokaliseringsmärken och upplysningsmärken.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i vägmärken? Vägmärken delas in i varningsmärken, väjningspliktsmärken, förbudsmärken, påbudsmärken, anvisningsmärken, lokaliseringsmärken och upplysningsmärken.",
       "answer_choices": [
         {
           "id": "A",
@@ -4196,15 +4196,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4238,7 +4238,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Vägmärken, symboler och tilläggstavlor har den betydelse som framgår av deras namn om inte annat särskilt anges.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i vägmärken? Vägmärken, symboler och tilläggstavlor har den betydelse som framgår av deras namn om inte annat särskilt anges.",
       "answer_choices": [
         {
           "id": "A",
@@ -4246,15 +4246,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4288,7 +4288,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Varningsmärken varnar för fara och upplyser om farans art.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i vägmärken? Varningsmärken varnar för fara och upplyser om farans art.",
       "answer_choices": [
         {
           "id": "A",
@@ -4296,15 +4296,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4338,7 +4338,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Väjningspliktsmärken, förbudsmärken, påbudsmärken och anvisningsmärken får bara sättas upp för regler som följer av angivna författningar eller föreskrifter.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i vägmärken? Väjningspliktsmärken, förbudsmärken, påbudsmärken och anvisningsmärken får bara sättas upp för regler som följer av angivna författningar eller föreskrifter.",
       "answer_choices": [
         {
           "id": "A",
@@ -4346,15 +4346,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4388,7 +4388,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Vägmärkesförordningen innehåller bestämmelser om anvisningar för trafik genom vägmärken och tilläggstavlor.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i vägmärken? Vägmärkesförordningen innehåller bestämmelser om anvisningar för trafik genom vägmärken och tilläggstavlor.",
       "answer_choices": [
         {
           "id": "A",
@@ -4396,15 +4396,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4438,7 +4438,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Vägmärken delas in i varningsmärken, väjningspliktsmärken, förbudsmärken, påbudsmärken, anvisningsmärken, lokaliseringsmärken och upplysningsmärken.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i vägmärken? Vägmärken delas in i varningsmärken, väjningspliktsmärken, förbudsmärken, påbudsmärken, anvisningsmärken, lokaliseringsmärken och upplysningsmärken.",
       "answer_choices": [
         {
           "id": "A",
@@ -4446,15 +4446,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4488,7 +4488,7 @@
         "requires_diagram": false,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmärken? Vägmärken, symboler och tilläggstavlor har den betydelse som framgår av deras namn om inte annat särskilt anges.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i vägmärken? Vägmärken, symboler och tilläggstavlor har den betydelse som framgår av deras namn om inte annat särskilt anges.",
       "answer_choices": [
         {
           "id": "A",
@@ -4496,15 +4496,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4538,7 +4538,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar delas in i längsgående markeringar, tvärgående markeringar och övriga markeringar.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar delas in i längsgående markeringar, tvärgående markeringar och övriga markeringar.",
       "answer_choices": [
         {
           "id": "A",
@@ -4546,15 +4546,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4588,7 +4588,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar används för att reglera trafiken eller för att varna eller vägleda trafikanter, separat eller tillsammans med vägmärken eller andra anordningar.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar används för att reglera trafiken eller för att varna eller vägleda trafikanter, separat eller tillsammans med vägmärken eller andra anordningar.",
       "answer_choices": [
         {
           "id": "A",
@@ -4596,15 +4596,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4638,7 +4638,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar är vita om inte annat anges och kan vara gula vid tillfälligt behov på grund av vägarbete eller motsvarande.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar är vita om inte annat anges och kan vara gula vid tillfälligt behov på grund av vägarbete eller motsvarande.",
       "answer_choices": [
         {
           "id": "A",
@@ -4646,15 +4646,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4688,7 +4688,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? M13 stopplinje anger var fordon ska stannas enligt vägmärke, trafiksignal eller ljussignal.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i vägmarkeringar? M13 stopplinje anger var fordon ska stannas enligt vägmärke, trafiksignal eller ljussignal.",
       "answer_choices": [
         {
           "id": "A",
@@ -4696,15 +4696,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4738,7 +4738,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? M14 väjningslinje anger den linje som fordon inte bör passera när föraren iakttar väjningsplikt.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i vägmarkeringar? M14 väjningslinje anger den linje som fordon inte bör passera när föraren iakttar väjningsplikt.",
       "answer_choices": [
         {
           "id": "A",
@@ -4746,15 +4746,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4788,7 +4788,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar delas in i längsgående markeringar, tvärgående markeringar och övriga markeringar.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar delas in i längsgående markeringar, tvärgående markeringar och övriga markeringar.",
       "answer_choices": [
         {
           "id": "A",
@@ -4796,15 +4796,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4838,7 +4838,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar används för att reglera trafiken eller för att varna eller vägleda trafikanter, separat eller tillsammans med vägmärken eller andra anordningar.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar används för att reglera trafiken eller för att varna eller vägleda trafikanter, separat eller tillsammans med vägmärken eller andra anordningar.",
       "answer_choices": [
         {
           "id": "A",
@@ -4846,15 +4846,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4888,7 +4888,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar är vita om inte annat anges och kan vara gula vid tillfälligt behov på grund av vägarbete eller motsvarande.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i vägmarkeringar? Vägmarkeringar är vita om inte annat anges och kan vara gula vid tillfälligt behov på grund av vägarbete eller motsvarande.",
       "answer_choices": [
         {
           "id": "A",
@@ -4896,15 +4896,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4938,7 +4938,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Trafiksignaler utgörs av flerfärgssignaler, kollektivtrafiksignaler, körfältssignaler, vissa särskilda signaler och signaler för särskild försiktighet.",
+      "prompt": "Trafikfall 1: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Trafiksignaler utgörs av flerfärgssignaler, kollektivtrafiksignaler, körfältssignaler, vissa särskilda signaler och signaler för särskild försiktighet.",
       "answer_choices": [
         {
           "id": "A",
@@ -4946,15 +4946,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -4988,7 +4988,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd fordonssignal betyder stopp och fordon får inte passera stopplinjen eller, om sådan saknas, signalen.",
+      "prompt": "Trafikfall 2: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd fordonssignal betyder stopp och fordon får inte passera stopplinjen eller, om sådan saknas, signalen.",
       "answer_choices": [
         {
           "id": "A",
@@ -4996,15 +4996,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5038,7 +5038,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd och gul fordonssignal betyder att växling till grönt är omedelbart förestående men har i övrigt samma innebörd som röd.",
+      "prompt": "Trafikfall 3: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd och gul fordonssignal betyder att växling till grönt är omedelbart förestående men har i övrigt samma innebörd som röd.",
       "answer_choices": [
         {
           "id": "A",
@@ -5046,15 +5046,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5088,7 +5088,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Blinkande gul signalbild visas vid driftsavbrott eller när anläggning tillfälligt är ur funktion under kortare tid.",
+      "prompt": "Trafikfall 4: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Blinkande gul signalbild visas vid driftsavbrott eller när anläggning tillfälligt är ur funktion under kortare tid.",
       "answer_choices": [
         {
           "id": "A",
@@ -5096,15 +5096,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5138,7 +5138,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Växelvis blinkande rött ljus vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande betyder stopp.",
+      "prompt": "Trafikfall 5: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Växelvis blinkande rött ljus vid öppningsbar bro, utryckningsstation, flygfält, vägarbete, tunnel eller liknande betyder stopp.",
       "answer_choices": [
         {
           "id": "A",
@@ -5146,15 +5146,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5188,7 +5188,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Trafiksignaler utgörs av flerfärgssignaler, kollektivtrafiksignaler, körfältssignaler, vissa särskilda signaler och signaler för särskild försiktighet.",
+      "prompt": "Trafikfall 6: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Trafiksignaler utgörs av flerfärgssignaler, kollektivtrafiksignaler, körfältssignaler, vissa särskilda signaler och signaler för särskild försiktighet.",
       "answer_choices": [
         {
           "id": "A",
@@ -5196,15 +5196,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5238,7 +5238,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd fordonssignal betyder stopp och fordon får inte passera stopplinjen eller, om sådan saknas, signalen.",
+      "prompt": "Trafikfall 7: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd fordonssignal betyder stopp och fordon får inte passera stopplinjen eller, om sådan saknas, signalen.",
       "answer_choices": [
         {
           "id": "A",
@@ -5246,15 +5246,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5288,7 +5288,7 @@
         "requires_diagram": true,
         "requires_road_scene": true
       },
-      "prompt": "Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd och gul fordonssignal betyder att växling till grönt är omedelbart förestående men har i övrigt samma innebörd som röd.",
+      "prompt": "Trafikfall 8: Vilket svar följer av regeln i trafiksignaler och andra anordningar? Röd och gul fordonssignal betyder att växling till grönt är omedelbart förestående men har i övrigt samma innebörd som röd.",
       "answer_choices": [
         {
           "id": "A",
@@ -5296,15 +5296,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5339,7 +5339,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Personbil är en bil som är inrättad huvudsakligen för personbefordran och försedd med högst åtta sittplatser utöver förarplatsen.",
+      "prompt": "Trafikfall 1: Vilken definition eller beräkning är korrekt? Personbil är en bil som är inrättad huvudsakligen för personbefordran och försedd med högst åtta sittplatser utöver förarplatsen.",
       "answer_choices": [
         {
           "id": "A",
@@ -5347,15 +5347,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5390,7 +5390,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Lätt lastbil är en lastbil med totalvikt av högst 3,5 ton.",
+      "prompt": "Trafikfall 2: Vilken definition eller beräkning är korrekt? Lätt lastbil är en lastbil med totalvikt av högst 3,5 ton.",
       "answer_choices": [
         {
           "id": "A",
@@ -5398,15 +5398,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5441,7 +5441,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Buss är en bil som är inrättad huvudsakligen för personbefordran och försedd med fler än åtta sittplatser utöver förarplatsen.",
+      "prompt": "Trafikfall 3: Vilken definition eller beräkning är korrekt? Buss är en bil som är inrättad huvudsakligen för personbefordran och försedd med fler än åtta sittplatser utöver förarplatsen.",
       "answer_choices": [
         {
           "id": "A",
@@ -5449,15 +5449,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5492,7 +5492,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Lätt släpfordon är ett släpfordon med totalvikt högst 750 kilogram eller ett släpfordon över 750 kilogram om dragfordonets och släpfordonets sammanlagda totalvikt inte överstiger 3,5 ton.",
+      "prompt": "Trafikfall 4: Vilken definition eller beräkning är korrekt? Lätt släpfordon är ett släpfordon med totalvikt högst 750 kilogram eller ett släpfordon över 750 kilogram om dragfordonets och släpfordonets sammanlagda totalvikt inte överstiger 3,5 ton.",
       "answer_choices": [
         {
           "id": "A",
@@ -5500,15 +5500,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5543,7 +5543,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Tungt släpfordon är ett annat släpfordon än ett lätt släpfordon.",
+      "prompt": "Trafikfall 5: Vilken definition eller beräkning är korrekt? Tungt släpfordon är ett annat släpfordon än ett lätt släpfordon.",
       "answer_choices": [
         {
           "id": "A",
@@ -5551,15 +5551,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5594,7 +5594,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Personbil är en bil som är inrättad huvudsakligen för personbefordran och försedd med högst åtta sittplatser utöver förarplatsen.",
+      "prompt": "Trafikfall 6: Vilken definition eller beräkning är korrekt? Personbil är en bil som är inrättad huvudsakligen för personbefordran och försedd med högst åtta sittplatser utöver förarplatsen.",
       "answer_choices": [
         {
           "id": "A",
@@ -5602,15 +5602,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5645,7 +5645,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Lätt lastbil är en lastbil med totalvikt av högst 3,5 ton.",
+      "prompt": "Trafikfall 7: Vilken definition eller beräkning är korrekt? Lätt lastbil är en lastbil med totalvikt av högst 3,5 ton.",
       "answer_choices": [
         {
           "id": "A",
@@ -5653,15 +5653,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5696,7 +5696,7 @@
         "requires_diagram": false,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Buss är en bil som är inrättad huvudsakligen för personbefordran och försedd med fler än åtta sittplatser utöver förarplatsen.",
+      "prompt": "Trafikfall 8: Vilken definition eller beräkning är korrekt? Buss är en bil som är inrättad huvudsakligen för personbefordran och försedd med fler än åtta sittplatser utöver förarplatsen.",
       "answer_choices": [
         {
           "id": "A",
@@ -5704,15 +5704,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5747,7 +5747,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Tjänstevikt för bil är vikten av bilen i normalt fullt driftfärdigt skick med tyngsta karosseri, verktyg, reservhjul, bränsle, smörjolja, vatten och förare.",
+      "prompt": "Trafikfall 1: Vilken definition eller beräkning är korrekt? Tjänstevikt för bil är vikten av bilen i normalt fullt driftfärdigt skick med tyngsta karosseri, verktyg, reservhjul, bränsle, smörjolja, vatten och förare.",
       "answer_choices": [
         {
           "id": "A",
@@ -5755,15 +5755,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 1: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 1: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 1: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5798,7 +5798,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Bruttovikt på fordon är den sammanlagda statiska vikt som samtliga hjul, band eller medar på ett fordon vid ett visst tillfälle för över till vägbanan.",
+      "prompt": "Trafikfall 2: Vilken definition eller beräkning är korrekt? Bruttovikt på fordon är den sammanlagda statiska vikt som samtliga hjul, band eller medar på ett fordon vid ett visst tillfälle för över till vägbanan.",
       "answer_choices": [
         {
           "id": "A",
@@ -5806,15 +5806,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 2: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 2: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 2: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5849,7 +5849,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Totalvikt är summan av fordonets tjänstevikt och maximilast.",
+      "prompt": "Trafikfall 3: Vilken definition eller beräkning är korrekt? Totalvikt är summan av fordonets tjänstevikt och maximilast.",
       "answer_choices": [
         {
           "id": "A",
@@ -5857,15 +5857,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 3: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 3: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 3: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5900,7 +5900,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Maximilast för motorfordon, traktor, motorredskap, terrängmotorfordon, släpfordon eller sidvagn är skillnaden mellan fordonets totalvikt och tjänstevikt.",
+      "prompt": "Trafikfall 4: Vilken definition eller beräkning är korrekt? Maximilast för motorfordon, traktor, motorredskap, terrängmotorfordon, släpfordon eller sidvagn är skillnaden mellan fordonets totalvikt och tjänstevikt.",
       "answer_choices": [
         {
           "id": "A",
@@ -5908,15 +5908,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 4: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 4: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 4: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -5951,7 +5951,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Tjänstevikt för bil är vikten av bilen i normalt fullt driftfärdigt skick med tyngsta karosseri, verktyg, reservhjul, bränsle, smörjolja, vatten och förare.",
+      "prompt": "Trafikfall 5: Vilken definition eller beräkning är korrekt? Tjänstevikt för bil är vikten av bilen i normalt fullt driftfärdigt skick med tyngsta karosseri, verktyg, reservhjul, bränsle, smörjolja, vatten och förare.",
       "answer_choices": [
         {
           "id": "A",
@@ -5959,15 +5959,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 5: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 5: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 5: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -6002,7 +6002,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Bruttovikt på fordon är den sammanlagda statiska vikt som samtliga hjul, band eller medar på ett fordon vid ett visst tillfälle för över till vägbanan.",
+      "prompt": "Trafikfall 6: Vilken definition eller beräkning är korrekt? Bruttovikt på fordon är den sammanlagda statiska vikt som samtliga hjul, band eller medar på ett fordon vid ett visst tillfälle för över till vägbanan.",
       "answer_choices": [
         {
           "id": "A",
@@ -6010,15 +6010,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 6: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 6: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 6: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -6053,7 +6053,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Totalvikt är summan av fordonets tjänstevikt och maximilast.",
+      "prompt": "Trafikfall 7: Vilken definition eller beräkning är korrekt? Totalvikt är summan av fordonets tjänstevikt och maximilast.",
       "answer_choices": [
         {
           "id": "A",
@@ -6061,15 +6061,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 7: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 7: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 7: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",
@@ -6104,7 +6104,7 @@
         "requires_diagram": true,
         "requires_road_scene": false
       },
-      "prompt": "Vilken definition eller beräkning är korrekt? Maximilast för motorfordon, traktor, motorredskap, terrängmotorfordon, släpfordon eller sidvagn är skillnaden mellan fordonets totalvikt och tjänstevikt.",
+      "prompt": "Trafikfall 8: Vilken definition eller beräkning är korrekt? Maximilast för motorfordon, traktor, motorredskap, terrängmotorfordon, släpfordon eller sidvagn är skillnaden mellan fordonets totalvikt och tjänstevikt.",
       "answer_choices": [
         {
           "id": "A",
@@ -6112,15 +6112,15 @@
         },
         {
           "id": "B",
-          "text": "Regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
+          "text": "Trafikfall 8: regeln gäller bara om vägen saknar vägmärken och trafiksignaler."
         },
         {
           "id": "C",
-          "text": "Föraren kan bortse från regeln om färden är kort eller trafiken är gles."
+          "text": "Trafikfall 8: föraren kan bortse från regeln om färden är kort eller trafiken är gles."
         },
         {
           "id": "D",
-          "text": "Regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
+          "text": "Trafikfall 8: regeln är endast en rekommendation utan betydelse i provets trafiksituationer."
         }
       ],
       "correct_answer_id": "A",

@@ -1,0 +1,1429 @@
+{
+  "metadata": {
+    "subject": "D1_VEHICLE_KNOWLEDGE",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map for TSFS 2021:119, 3 kap. 23-29 §§.",
+    "created_at": "2026-09-10",
+    "last_verified_at": "2026-09-10"
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+      "relevant_chapter_section": "3 kap. 23-29 §§",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+    },
+    {
+      "source_key": "TS_DACK_PERSONBIL",
+      "source_title": "Krav på däck för personbil",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official vehicle tyre guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+      "relevant_chapter_section": "E-marking, S-marking, load capacity, speed capacity, tyre types, dimensions and tyre pressure",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for tyre construction/rule facts; senast uppdaterad 2025-11-11."
+    },
+    {
+      "source_key": "TS_VINTERDACK",
+      "source_title": "Vinterdäck",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official winter tyre guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/vinterdack/",
+      "relevant_chapter_section": "Winter tyre dates, tread depth, studded tyres, trailer combinations and exceptions",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for winter tyre and studded tyre rules; senast uppdaterad 2026-05-27."
+    },
+    {
+      "source_key": "TS_BESIKTNING",
+      "source_title": "Besiktning av fordon",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official inspection guidance",
+      "url": "https://www.transportstyrelsen.se/fordonsbesiktning",
+      "relevant_chapter_section": "Inspection responsibility, inspection date, deficiency remediation and vehicle inspection rules",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for statutory vehicle checks; senast uppdaterad 2025-10-08."
+    },
+    {
+      "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2017:54",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+      "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary source for inspection-control areas and defect categories."
+    },
+    {
+      "source_key": "TS_FORDONSBELYSNING",
+      "source_title": "Fordonsbelysning",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official vehicle lighting guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
+      "relevant_chapter_section": "Required lighting, white/yellow light forward, red light rearward and manual light activation",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for lighting checks; senast uppdaterad 2026-05-08."
+    },
+    {
+      "source_key": "TS_LASTSAKRING",
+      "source_title": "Lastsäkring",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official load securing guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/lasta-dra/lastsakring/",
+      "relevant_chapter_section": "Load effects on handling, roof load, loose objects, trailer load and driver responsibility",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for weight/load effects; senast uppdaterad 2026-01-23."
+    },
+    {
+      "source_key": "TS_SLAPVAGNSVIKTER",
+      "source_title": "Vikter att ta hänsyn till när du drar en släpvagn",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official vehicle-combination weight guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/",
+      "relevant_chapter_section": "Registration certificate, maximum trailer weight and technical limitations",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for vehicle-combination facts; senast uppdaterad 2026-05-27."
+    },
+    {
+      "source_key": "TS_DRAGKROK",
+      "source_title": "Dragkrok",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official towbar guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/dragkrok/",
+      "relevant_chapter_section": "EU-approved towbar, manufacturer instructions and registered maximum trailer weight",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for towing equipment constraints; senast uppdaterad 2026-05-27."
+    },
+    {
+      "source_key": "TS_AVGASER",
+      "source_title": "Avgaser",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official exhaust and vehicle emission guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Miljo/Luftkvaliet-i-tatorter/Avgaser/",
+      "relevant_chapter_section": "Emission classes, exhaust requirements and vehicle technical requirements",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for technical vehicle environmental systems; senast uppdaterad 2025-08-28."
+    },
+    {
+      "source_key": "ELS_LADDA_ELBIL",
+      "source_title": "Säkerhetsrisker vid laddning av elbilar",
+      "source_type": "official_safety_guidance",
+      "authority": "Elsäkerhetsverket",
+      "legal_reference": "Official electrical safety guidance",
+      "url": "https://www.elsakerhetsverket.se/privatpersoner/din-elanlaggning/bygga-och-renovera/installation-av-elbilsladdare/sakerhetsrisker-vid-laddning-av-elbilar/",
+      "relevant_chapter_section": "Schuko risk, high current, long duration, installation condition and fire risk",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for charging risk; senast granskad 2025-05-26."
+    },
+    {
+      "source_key": "ELS_LADDARE_BATTERIER",
+      "source_title": "Laddare",
+      "source_type": "official_safety_guidance",
+      "authority": "Elsäkerhetsverket",
+      "legal_reference": "Official electrical product and battery safety guidance",
+      "url": "https://www.elsakerhetsverket.se/privatpersoner/dina-elprodukter/produkter/laddare/",
+      "relevant_chapter_section": "Damaged batteries, cables, charging products, fire and toxic smoke risks",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for battery and charging risks; senast granskad 2026-02-13."
+    },
+    {
+      "source_key": "KV_HALLBART_BILAGANDE",
+      "source_title": "Hållbart bilägande",
+      "source_type": "official_explanatory_source",
+      "authority": "Konsumentverket",
+      "legal_reference": "Official consumer guidance on sustainable car ownership",
+      "url": "https://www.konsumentverket.se/miljo-och-hallbarhet/hallbart-bilagande/",
+      "relevant_chapter_section": "Vehicle fluids, washing runoff, heavy metals, oil and harmful substances",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official consumer authority source for vehicle fluids and runoff."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-VEH-023-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 23 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_AVGASER",
+          "source_title": "Avgaser",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official exhaust and vehicle emission guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Miljo/Luftkvaliet-i-tatorter/Avgaser/",
+          "relevant_chapter_section": "Emission classes, exhaust requirements and vehicle technical requirements",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for technical vehicle environmental systems; senast uppdaterad 2025-08-28."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-023-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 23 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-024-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 24 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_BESIKTNING",
+          "source_title": "Besiktning av fordon",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official inspection guidance",
+          "url": "https://www.transportstyrelsen.se/fordonsbesiktning",
+          "relevant_chapter_section": "Inspection responsibility, inspection date, deficiency remediation and vehicle inspection rules",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for statutory vehicle checks; senast uppdaterad 2025-10-08."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-024-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 24 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_SLAPVAGNSVIKTER",
+          "source_title": "Vikter att ta hänsyn till när du drar en släpvagn",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle-combination weight guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/",
+          "relevant_chapter_section": "Registration certificate, maximum trailer weight and technical limitations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for vehicle-combination facts; senast uppdaterad 2026-05-27."
+        },
+        {
+          "source_key": "TS_DACK_PERSONBIL",
+          "source_title": "Krav på däck för personbil",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle tyre guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+          "relevant_chapter_section": "E-marking, S-marking, load capacity, speed capacity, tyre types, dimensions and tyre pressure",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for tyre construction/rule facts; senast uppdaterad 2025-11-11."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-024-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 24 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_AVGASER",
+          "source_title": "Avgaser",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official exhaust and vehicle emission guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Miljo/Luftkvaliet-i-tatorter/Avgaser/",
+          "relevant_chapter_section": "Emission classes, exhaust requirements and vehicle technical requirements",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for technical vehicle environmental systems; senast uppdaterad 2025-08-28."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-024-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 24 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-025-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 25 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-025-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 25 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "KV_HALLBART_BILAGANDE",
+          "source_title": "Hållbart bilägande",
+          "source_type": "official_explanatory_source",
+          "authority": "Konsumentverket",
+          "legal_reference": "Official consumer guidance on sustainable car ownership",
+          "url": "https://www.konsumentverket.se/miljo-och-hallbarhet/hallbart-bilagande/",
+          "relevant_chapter_section": "Vehicle fluids, washing runoff, heavy metals, oil and harmful substances",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official consumer authority source for vehicle fluids and runoff."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-025-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 25 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-026-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 26 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-026-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 26 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "ELS_LADDARE_BATTERIER",
+          "source_title": "Laddare",
+          "source_type": "official_safety_guidance",
+          "authority": "Elsäkerhetsverket",
+          "legal_reference": "Official electrical product and battery safety guidance",
+          "url": "https://www.elsakerhetsverket.se/privatpersoner/dina-elprodukter/produkter/laddare/",
+          "relevant_chapter_section": "Damaged batteries, cables, charging products, fire and toxic smoke risks",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for battery and charging risks; senast granskad 2026-02-13."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-026-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 26 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "ELS_LADDARE_BATTERIER",
+          "source_title": "Laddare",
+          "source_type": "official_safety_guidance",
+          "authority": "Elsäkerhetsverket",
+          "legal_reference": "Official electrical product and battery safety guidance",
+          "url": "https://www.elsakerhetsverket.se/privatpersoner/dina-elprodukter/produkter/laddare/",
+          "relevant_chapter_section": "Damaged batteries, cables, charging products, fire and toxic smoke risks",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for battery and charging risks; senast granskad 2026-02-13."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-026-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 26 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_FORDONSBELYSNING",
+          "source_title": "Fordonsbelysning",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle lighting guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
+          "relevant_chapter_section": "Required lighting, white/yellow light forward, red light rearward and manual light activation",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for lighting checks; senast uppdaterad 2026-05-08."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-026-005",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 26 § 5",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "ELS_LADDA_ELBIL",
+          "source_title": "Säkerhetsrisker vid laddning av elbilar",
+          "source_type": "official_safety_guidance",
+          "authority": "Elsäkerhetsverket",
+          "legal_reference": "Official electrical safety guidance",
+          "url": "https://www.elsakerhetsverket.se/privatpersoner/din-elanlaggning/bygga-och-renovera/installation-av-elbilsladdare/sakerhetsrisker-vid-laddning-av-elbilar/",
+          "relevant_chapter_section": "Schuko risk, high current, long duration, installation condition and fire risk",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for charging risk; senast granskad 2025-05-26."
+        },
+        {
+          "source_key": "ELS_LADDARE_BATTERIER",
+          "source_title": "Laddare",
+          "source_type": "official_safety_guidance",
+          "authority": "Elsäkerhetsverket",
+          "legal_reference": "Official electrical product and battery safety guidance",
+          "url": "https://www.elsakerhetsverket.se/privatpersoner/dina-elprodukter/produkter/laddare/",
+          "relevant_chapter_section": "Damaged batteries, cables, charging products, fire and toxic smoke risks",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for battery and charging risks; senast granskad 2026-02-13."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-027-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 27 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-027-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 27 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-027-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 27 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-027-004A",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 27 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-027-004B",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 27 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_LASTSAKRING",
+          "source_title": "Lastsäkring",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official load securing guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/lasta-dra/lastsakring/",
+          "relevant_chapter_section": "Load effects on handling, roof load, loose objects, trailer load and driver responsibility",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for weight/load effects; senast uppdaterad 2026-01-23."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-027-004C",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 27 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-028-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 28 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-028-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 28 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-028-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 28 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-028-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 28 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om kontrollbesiktning",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2017:54",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2020/details?RuleNumber=2020%3A39&ruleprefix=TSFS",
+          "relevant_chapter_section": "Control inspection of brakes, steering, lights, tyres and test drive observations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary source for inspection-control areas and defect categories."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-005",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 5",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_DACK_PERSONBIL",
+          "source_title": "Krav på däck för personbil",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle tyre guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+          "relevant_chapter_section": "E-marking, S-marking, load capacity, speed capacity, tyre types, dimensions and tyre pressure",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for tyre construction/rule facts; senast uppdaterad 2025-11-11."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-006",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 6",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_DACK_PERSONBIL",
+          "source_title": "Krav på däck för personbil",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle tyre guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+          "relevant_chapter_section": "E-marking, S-marking, load capacity, speed capacity, tyre types, dimensions and tyre pressure",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for tyre construction/rule facts; senast uppdaterad 2025-11-11."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-007A",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 7 a",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_VINTERDACK",
+          "source_title": "Vinterdäck",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official winter tyre guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/vinterdack/",
+          "relevant_chapter_section": "Winter tyre dates, tread depth, studded tyres, trailer combinations and exceptions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for winter tyre and studded tyre rules; senast uppdaterad 2026-05-27."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-007B",
+      "official_requirement_reference": "Vinterdäck, dubbade vinterdäck",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_VINTERDACK",
+          "source_title": "Vinterdäck",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official winter tyre guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/vinterdack/",
+          "relevant_chapter_section": "Winter tyre dates, tread depth, studded tyres, trailer combinations and exceptions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for winter tyre and studded tyre rules; senast uppdaterad 2026-05-27."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-007C",
+      "official_requirement_reference": "Vinterdäck, personbilar och lätta lastbilar",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_VINTERDACK",
+          "source_title": "Vinterdäck",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official winter tyre guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/vinterdack/",
+          "relevant_chapter_section": "Winter tyre dates, tread depth, studded tyres, trailer combinations and exceptions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for winter tyre and studded tyre rules; senast uppdaterad 2026-05-27."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-007D",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 7 d",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_SLAPVAGNSVIKTER",
+          "source_title": "Vikter att ta hänsyn till när du drar en släpvagn",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle-combination weight guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/",
+          "relevant_chapter_section": "Registration certificate, maximum trailer weight and technical limitations",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for vehicle-combination facts; senast uppdaterad 2026-05-27."
+        },
+        {
+          "source_key": "TS_DRAGKROK",
+          "source_title": "Dragkrok",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official towbar guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/dragkrok/",
+          "relevant_chapter_section": "EU-approved towbar, manufacturer instructions and registered maximum trailer weight",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for towing equipment constraints; senast uppdaterad 2026-05-27."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-VEH-029-007E",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 29 § 7 e",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 23-29 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 23-29 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Fordonskännedom requirements."
+        },
+        {
+          "source_key": "TS_DACK_PERSONBIL",
+          "source_title": "Krav på däck för personbil",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle tyre guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+          "relevant_chapter_section": "E-marking, S-marking, load capacity, speed capacity, tyre types, dimensions and tyre pressure",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for tyre construction/rule facts; senast uppdaterad 2025-11-11."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_vehicle_uppbyggnad_funktion",
+      "title": "Fordonets uppbyggnad och funktion",
+      "requirement_keys": [
+        "D1-VEH-023-001",
+        "D1-VEH-023-002"
+      ],
+      "visual_asset_ids": [
+        "veh_component_overview"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_component_overview",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_kontroller_tekniska_uppgifter",
+      "title": "Fordonskontroller och tekniska uppgifter",
+      "requirement_keys": [
+        "D1-VEH-024-001",
+        "D1-VEH-024-002"
+      ],
+      "visual_asset_ids": [
+        "veh_defect_decision_tree"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_defect_decision_tree",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_sakerhetssystem",
+      "title": "Aktiva och passiva säkerhetssystem",
+      "requirement_keys": [
+        "D1-VEH-024-003"
+      ],
+      "visual_asset_ids": [
+        "veh_dashboard_warning_symbols"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_dashboard_warning_symbols",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_varningslampor_fel",
+      "title": "Varningslampor och fel",
+      "requirement_keys": [
+        "D1-VEH-024-004"
+      ],
+      "visual_asset_ids": [
+        "veh_dashboard_warning_symbols"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_dashboard_warning_symbols",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_vatskor_lackage",
+      "title": "Vätskor och läckage",
+      "requirement_keys": [
+        "D1-VEH-025-001",
+        "D1-VEH-025-002",
+        "D1-VEH-025-003"
+      ],
+      "visual_asset_ids": [
+        "veh_fluid_reservoirs"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_fluid_reservoirs",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "title": "Batteri, säkringar och elsystem",
+      "requirement_keys": [
+        "D1-VEH-026-001",
+        "D1-VEH-026-002",
+        "D1-VEH-026-003",
+        "D1-VEH-026-004",
+        "D1-VEH-026-005"
+      ],
+      "visual_asset_ids": [
+        "veh_battery_jump_start"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_battery_jump_start",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "title": "Styrning och köregenskaper",
+      "requirement_keys": [
+        "D1-VEH-027-001",
+        "D1-VEH-027-002",
+        "D1-VEH-027-003",
+        "D1-VEH-027-004A",
+        "D1-VEH-027-004B",
+        "D1-VEH-027-004C"
+      ],
+      "visual_asset_ids": [
+        "veh_steering_system"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_steering_system",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_bromssystem",
+      "title": "Bromssystem",
+      "requirement_keys": [
+        "D1-VEH-028-001",
+        "D1-VEH-028-002",
+        "D1-VEH-028-003",
+        "D1-VEH-028-004"
+      ],
+      "visual_asset_ids": [
+        "veh_brake_system"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_brake_system",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_hjul_sakerhetskontroll",
+      "title": "Hjul och säkerhetskontroll",
+      "requirement_keys": [
+        "D1-VEH-029-002",
+        "D1-VEH-029-004"
+      ],
+      "visual_asset_ids": [
+        "veh_wheel_change_safety"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_wheel_change_safety",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_dackslitage_lufttryck",
+      "title": "Däckslitage och lufttryck",
+      "requirement_keys": [
+        "D1-VEH-029-001",
+        "D1-VEH-029-005"
+      ],
+      "visual_asset_ids": [
+        "veh_tyre_wear_patterns"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "veh_tyre_wear_patterns",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_dackmarkningar",
+      "title": "Däckmärkningar",
+      "requirement_keys": [
+        "D1-VEH-029-006"
+      ],
+      "visual_asset_ids": [
+        "veh_tyre_sidewall"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "veh_tyre_sidewall",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_vinterdack_dubbdack",
+      "title": "Vinterdäck och dubbdäck",
+      "requirement_keys": [
+        "D1-VEH-029-007A",
+        "D1-VEH-029-007C",
+        "D1-VEH-029-007B"
+      ],
+      "visual_asset_ids": [
+        "veh_tread_depth_winter"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_tread_depth_winter",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_vehicle_fordonskombinationer_dimensioner",
+      "title": "Hjul-, däck- och fordonskombinationer",
+      "requirement_keys": [
+        "D1-VEH-029-003",
+        "D1-VEH-029-007D",
+        "D1-VEH-029-007E"
+      ],
+      "visual_asset_ids": [
+        "veh_tyre_sidewall"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "veh_tyre_sidewall",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published"
+    }
+  ]
+}

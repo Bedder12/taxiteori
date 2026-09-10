@@ -1,0 +1,1463 @@
+{
+  "metadata": {
+    "subject": "D1_VEHICLE_KNOWLEDGE",
+    "title": "D1 vehicle knowledge lessons",
+    "status": "published",
+    "verified_at": "2026-09-10",
+    "note": "Source-backed mobile-first lessons for taxi-driver vehicle knowledge."
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-VEH-BASIC-L01",
+      "topic_id": "topic_d1_vehicle_uppbyggnad_funktion",
+      "title": "Fordonets uppbyggnad och funktion",
+      "learning_objectives": [
+        "Kunna koppla fordonets uppbyggnad och funktion till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-023-001",
+        "D1-VEH-023-002"
+      ],
+      "fact_keys": [
+        "D1-VEH-BASIC-FACT-001",
+        "D1-VEH-BASIC-FACT-002",
+        "D1-VEH-BASIC-FACT-003",
+        "D1-VEH-BASIC-FACT-004",
+        "D1-VEH-BASIC-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 23 §",
+            "TSFS 2021:119, 3 kap. 23 §",
+            "TSFS 2021:119, 3 kap. 23 §",
+            "TSFS 2021:119, 3 kap. 23-24 §§"
+          ]
+        },
+        {
+          "source_id": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "exact_references": [
+            "TSFS 2017:54, kontrollområden för styrning, bromsar, belysning och hjul"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_component_overview",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Fordonets uppbyggnad och funktion",
+          "fact_keys": [
+            "D1-VEH-BASIC-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-BASIC-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver förståelse för personbilars och lätta lastbilars uppbyggnad, funktion och fordonslagstiftning.",
+            "Personbil och lätt lastbil ska förstås som fordon med flera samverkande system: drivlina, styrning, bromsar, elsystem, hjul och däck.",
+            "Föraren ska kunna avgöra fordonsbrister, hur fel kan avhjälpas och vilka åtgärder som bör vidtas när fel uppstår.",
+            "Ett fel som påverkar styrning, bromsar, hjul eller belysning ska bedömas som trafiksäkerhetskritiskt tills det kontrollerats.",
+            "Modellspecifika uppgifter om var delar sitter och hur enklare åtgärder görs ska hämtas från fordonets dokumentation eller verkstad."
+          ],
+          "fact_keys": [
+            "D1-VEH-BASIC-FACT-001",
+            "D1-VEH-BASIC-FACT-002",
+            "D1-VEH-BASIC-FACT-003",
+            "D1-VEH-BASIC-FACT-004",
+            "D1-VEH-BASIC-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-BASIC-FACT-005"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-BASIC-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-BASIC-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-BASIC-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-CHECK-L01",
+      "topic_id": "topic_d1_vehicle_kontroller_tekniska_uppgifter",
+      "title": "Fordonskontroller och tekniska uppgifter",
+      "learning_objectives": [
+        "Kunna koppla fordonskontroller och tekniska uppgifter till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-024-001",
+        "D1-VEH-024-002"
+      ],
+      "fact_keys": [
+        "D1-VEH-CHECK-FACT-001",
+        "D1-VEH-CHECK-FACT-002",
+        "D1-VEH-CHECK-FACT-003",
+        "D1-VEH-CHECK-FACT-004",
+        "D1-VEH-CHECK-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 24 § 1",
+            "TSFS 2021:119, 3 kap. 24 § 2"
+          ]
+        },
+        {
+          "source_id": "TS_BESIKTNING",
+          "exact_references": [
+            "Besiktning av fordon, kontrollbesiktning i rätt tid",
+            "Besiktning av fordon, föreläggande och efterkontroll"
+          ]
+        },
+        {
+          "source_id": "TS_SLAPVAGNSVIKTER",
+          "exact_references": [
+            "Vikter att ta hänsyn till när du drar en släpvagn, registreringsbevis och e-tjänster"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_defect_decision_tree",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Fordonskontroller och tekniska uppgifter",
+          "fact_keys": [
+            "D1-VEH-CHECK-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-CHECK-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan redogöra för kontroller enligt fordonslagstiftningen.",
+            "Fordonsägaren eller brukaren ansvarar för att fordonet kontrollbesiktas i rätt tid.",
+            "Om brister upptäcks vid besiktning ska de åtgärdas snarast; utebliven efterkontroll kan leda till körförbud.",
+            "Förarprovet kräver att föraren kan ta reda på fakta och tekniska uppgifter om fordonet.",
+            "Tekniska uppgifter som släpvagnsvikt, däckdimension och axelbelastning finns i registreringsbevis eller Transportstyrelsens fordonsuppgifter."
+          ],
+          "fact_keys": [
+            "D1-VEH-CHECK-FACT-001",
+            "D1-VEH-CHECK-FACT-002",
+            "D1-VEH-CHECK-FACT-003",
+            "D1-VEH-CHECK-FACT-004",
+            "D1-VEH-CHECK-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-CHECK-FACT-005"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-CHECK-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-CHECK-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-CHECK-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-SAFE-L01",
+      "topic_id": "topic_d1_vehicle_sakerhetssystem",
+      "title": "Aktiva och passiva säkerhetssystem",
+      "learning_objectives": [
+        "Kunna koppla aktiva och passiva säkerhetssystem till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-024-003"
+      ],
+      "fact_keys": [
+        "D1-VEH-SAFE-FACT-001",
+        "D1-VEH-SAFE-FACT-002",
+        "D1-VEH-SAFE-FACT-003",
+        "D1-VEH-SAFE-FACT-004",
+        "D1-VEH-SAFE-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 24 § 3",
+            "TSFS 2021:119, 3 kap. 24 § 3",
+            "TSFS 2021:119, 3 kap. 24 § 3",
+            "TSFS 2021:119, 3 kap. 23-24 §§"
+          ]
+        },
+        {
+          "source_id": "TS_AVGASER",
+          "exact_references": [
+            "Fordonsimport och ursprungskontroll, tekniska krav vid registrering"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_dashboard_warning_symbols",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Aktiva och passiva säkerhetssystem",
+          "fact_keys": [
+            "D1-VEH-SAFE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-SAFE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan redogöra för aktiva och passiva system och deras funktion.",
+            "Aktiva säkerhetssystem hjälper föraren att undvika olyckor, till exempel genom stöd för bromsning, stabilitet eller sikt.",
+            "Passiva säkerhetssystem minskar skador när en olycka inträffar, till exempel bälte, krockkudde och karossens skyddande konstruktion.",
+            "Registreringsbesiktning och typgodkännande omfattar tekniska krav på bland annat bromsar, avgasrening och krocksäkerhet.",
+            "Ett stödsystem ersätter inte förarens ansvar att kontrollera fordonets skick och anpassa körningen."
+          ],
+          "fact_keys": [
+            "D1-VEH-SAFE-FACT-001",
+            "D1-VEH-SAFE-FACT-002",
+            "D1-VEH-SAFE-FACT-003",
+            "D1-VEH-SAFE-FACT-004",
+            "D1-VEH-SAFE-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-SAFE-FACT-005"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-SAFE-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-SAFE-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-SAFE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-WARN-L01",
+      "topic_id": "topic_d1_vehicle_varningslampor_fel",
+      "title": "Varningslampor och fel",
+      "learning_objectives": [
+        "Kunna koppla varningslampor och fel till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-024-004"
+      ],
+      "fact_keys": [
+        "D1-VEH-WARN-FACT-001",
+        "D1-VEH-WARN-FACT-002",
+        "D1-VEH-WARN-FACT-003",
+        "D1-VEH-WARN-FACT-004",
+        "D1-VEH-WARN-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 24 § 4",
+            "TSFS 2021:119, 3 kap. 24 § 4",
+            "TSFS 2021:119, 3 kap. 24 § 4",
+            "TSFS 2021:119, 3 kap. 23-24 §§"
+          ]
+        },
+        {
+          "source_id": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "exact_references": [
+            "TSFS 2017:54, bilaga 1, provkörning och felindikationer"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_dashboard_warning_symbols",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Varningslampor och fel",
+          "fact_keys": [
+            "D1-VEH-WARN-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-WARN-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan bedöma åtgärder när indikeringar varnar eller fel uppstår.",
+            "Röd varning eller tydlig påverkan på broms, styrning, laddning eller motortemperatur ska leda till omedelbar försiktig åtgärd och kontroll.",
+            "Gul varning kräver att föraren kontrollerar instruktionsbok eller fordonsinformation och planerar åtgärd innan felet förvärras.",
+            "Felindikationer vid provkörning kan ligga till grund för fortsatt kontroll vid kontrollbesiktning.",
+            "En taxi ska inte sättas i trafik med ett känt fel som kan påverka säkerhet, kontrollbarhet eller föreskriven utrustning."
+          ],
+          "fact_keys": [
+            "D1-VEH-WARN-FACT-001",
+            "D1-VEH-WARN-FACT-002",
+            "D1-VEH-WARN-FACT-003",
+            "D1-VEH-WARN-FACT-004",
+            "D1-VEH-WARN-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-WARN-FACT-005"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-WARN-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-WARN-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-WARN-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-FLUID-L01",
+      "topic_id": "topic_d1_vehicle_vatskor_lackage",
+      "title": "Vätskor och läckage",
+      "learning_objectives": [
+        "Kunna koppla vätskor och läckage till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-025-001",
+        "D1-VEH-025-002",
+        "D1-VEH-025-003"
+      ],
+      "fact_keys": [
+        "D1-VEH-FLUID-FACT-001",
+        "D1-VEH-FLUID-FACT-002",
+        "D1-VEH-FLUID-FACT-003",
+        "D1-VEH-FLUID-FACT-004",
+        "D1-VEH-FLUID-FACT-005",
+        "D1-VEH-FLUID-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 25 § 1",
+            "TSFS 2021:119, 3 kap. 25 § 2",
+            "TSFS 2021:119, 3 kap. 25 § 3",
+            "TSFS 2021:119, 3 kap. 25 § 2",
+            "TSFS 2021:119, 3 kap. 25 § 3"
+          ]
+        },
+        {
+          "source_id": "KV_HALLBART_BILAGANDE",
+          "exact_references": [
+            "Hållbart bilägande, Tvätta inte bilen på gatan"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_fluid_reservoirs",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Vätskor och läckage",
+          "fact_keys": [
+            "D1-VEH-FLUID-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-FLUID-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan identifiera olika läckage.",
+            "Förarprovet kräver kunskap om risker med olika läckage.",
+            "Förarprovet kräver att föraren kan redogöra för kontroll och påfyllning av fordonsvätskor.",
+            "Läckage av bränsle, olja, kylvätska eller bromsvätska kan innebära brand-, miljö- eller trafiksäkerhetsrisk.",
+            "Påfyllning av vätskor ska göras med rätt vätsketyp och enligt fordonets anvisningar, eftersom nivåer och placering varierar mellan modeller."
+          ],
+          "fact_keys": [
+            "D1-VEH-FLUID-FACT-001",
+            "D1-VEH-FLUID-FACT-002",
+            "D1-VEH-FLUID-FACT-003",
+            "D1-VEH-FLUID-FACT-004",
+            "D1-VEH-FLUID-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-FLUID-FACT-006"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-FLUID-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-FLUID-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-FLUID-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-ELEC-L01",
+      "topic_id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "title": "Batteri, säkringar och elsystem",
+      "learning_objectives": [
+        "Kunna koppla batteri, säkringar och elsystem till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-026-001",
+        "D1-VEH-026-002",
+        "D1-VEH-026-003",
+        "D1-VEH-026-004",
+        "D1-VEH-026-005"
+      ],
+      "fact_keys": [
+        "D1-VEH-ELEC-FACT-001",
+        "D1-VEH-ELEC-FACT-002",
+        "D1-VEH-ELEC-FACT-003",
+        "D1-VEH-ELEC-FACT-004",
+        "D1-VEH-ELEC-FACT-005",
+        "D1-VEH-ELEC-FACT-006",
+        "D1-VEH-ELEC-FACT-007",
+        "D1-VEH-ELEC-FACT-008",
+        "D1-VEH-ELEC-FACT-009"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 26 § 1",
+            "TSFS 2021:119, 3 kap. 26 § 2",
+            "TSFS 2021:119, 3 kap. 26 § 3",
+            "TSFS 2021:119, 3 kap. 26 § 4",
+            "TSFS 2021:119, 3 kap. 26 § 5",
+            "TSFS 2021:119, 3 kap. 26 § 1"
+          ]
+        },
+        {
+          "source_id": "TS_FORDONSBELYSNING",
+          "exact_references": [
+            "Fordonsbelysning, föreskriven belysning"
+          ]
+        },
+        {
+          "source_id": "ELS_LADDA_ELBIL",
+          "exact_references": [
+            "Säkerhetsrisker vid laddning av elbilar, Schuko och brandrisk"
+          ]
+        },
+        {
+          "source_id": "ELS_LADDARE_BATTERIER",
+          "exact_references": [
+            "Laddare, felaktiga/skadade batterier och kablar"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_battery_jump_start",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Batteri, säkringar och elsystem",
+          "fact_keys": [
+            "D1-VEH-ELEC-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-ELEC-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan redogöra för säkringars placering och rätt ampere.",
+            "Förarprovet kräver att föraren kan redogöra för risker vid användning av startkablar.",
+            "Förarprovet kräver att föraren kan redogöra för kontroll och hantering av batteri.",
+            "Förarprovet kräver att föraren kan redogöra för kontroll och byte av glödlampor.",
+            "Förarprovet kräver att föraren kan redogöra för risker vid laddning av fordon."
+          ],
+          "fact_keys": [
+            "D1-VEH-ELEC-FACT-001",
+            "D1-VEH-ELEC-FACT-002",
+            "D1-VEH-ELEC-FACT-003",
+            "D1-VEH-ELEC-FACT-004",
+            "D1-VEH-ELEC-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-ELEC-FACT-009"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-ELEC-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-ELEC-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-ELEC-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-STEER-L01",
+      "topic_id": "topic_d1_vehicle_styrning_koregenskaper",
+      "title": "Styrning och köregenskaper",
+      "learning_objectives": [
+        "Kunna koppla styrning och köregenskaper till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-027-001",
+        "D1-VEH-027-002",
+        "D1-VEH-027-003",
+        "D1-VEH-027-004A",
+        "D1-VEH-027-004B",
+        "D1-VEH-027-004C"
+      ],
+      "fact_keys": [
+        "D1-VEH-STEER-FACT-001",
+        "D1-VEH-STEER-FACT-002",
+        "D1-VEH-STEER-FACT-003",
+        "D1-VEH-STEER-FACT-004",
+        "D1-VEH-STEER-FACT-005",
+        "D1-VEH-STEER-FACT-006",
+        "D1-VEH-STEER-FACT-007",
+        "D1-VEH-STEER-FACT-008",
+        "D1-VEH-STEER-FACT-009"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 27 § 1",
+            "TSFS 2021:119, 3 kap. 27 § 2",
+            "TSFS 2021:119, 3 kap. 27 § 3",
+            "TSFS 2021:119, 3 kap. 27 § 4",
+            "TSFS 2021:119, 3 kap. 27 § 4",
+            "TSFS 2021:119, 3 kap. 27 § 4",
+            "TSFS 2021:119, 3 kap. 27 § 4"
+          ]
+        },
+        {
+          "source_id": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "exact_references": [
+            "TSFS 2017:54, bilaga 1, provkörning och styrningsbrister"
+          ]
+        },
+        {
+          "source_id": "TS_LASTSAKRING",
+          "exact_references": [
+            "Lastsäkring, risk vid fel lastning"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_steering_system",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Styrning och köregenskaper",
+          "fact_keys": [
+            "D1-VEH-STEER-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-STEER-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om enklare kontroller av styrinrättningen.",
+            "Förarprovet kräver kunskap om felaktigheter som kan uppstå i styrinrättningen.",
+            "Förarprovet kräver kunskap om följder av felaktig hantering av styrinrättningen.",
+            "Förarprovet kräver kunskap om hur fram-, bak- och fyrhjulsdrift påverkar köregenskaper.",
+            "Förarprovet kräver kunskap om hur last- och viktförhållanden påverkar köregenskaper."
+          ],
+          "fact_keys": [
+            "D1-VEH-STEER-FACT-001",
+            "D1-VEH-STEER-FACT-002",
+            "D1-VEH-STEER-FACT-003",
+            "D1-VEH-STEER-FACT-004",
+            "D1-VEH-STEER-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-STEER-FACT-009"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-STEER-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-STEER-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-STEER-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-BRAKE-L01",
+      "topic_id": "topic_d1_vehicle_bromssystem",
+      "title": "Bromssystem",
+      "learning_objectives": [
+        "Kunna koppla bromssystem till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-028-001",
+        "D1-VEH-028-002",
+        "D1-VEH-028-003",
+        "D1-VEH-028-004"
+      ],
+      "fact_keys": [
+        "D1-VEH-BRAKE-FACT-001",
+        "D1-VEH-BRAKE-FACT-002",
+        "D1-VEH-BRAKE-FACT-003",
+        "D1-VEH-BRAKE-FACT-004",
+        "D1-VEH-BRAKE-FACT-005",
+        "D1-VEH-BRAKE-FACT-006",
+        "D1-VEH-BRAKE-FACT-007",
+        "D1-VEH-BRAKE-FACT-008"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 28 § 1",
+            "TSFS 2021:119, 3 kap. 28 § 2",
+            "TSFS 2021:119, 3 kap. 28 § 3",
+            "TSFS 2021:119, 3 kap. 28 § 4",
+            "TSFS 2021:119, 3 kap. 28 § 2",
+            "TSFS 2021:119, 3 kap. 28 § 3"
+          ]
+        },
+        {
+          "source_id": "TSFS_2017_54_KONTROLLBESIKTNING",
+          "exact_references": [
+            "TSFS 2017:54, bilaga 1, bromskontroll",
+            "TSFS 2017:54, bilaga 1, bromssystem"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_brake_system",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Bromssystem",
+          "fact_keys": [
+            "D1-VEH-BRAKE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-BRAKE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan redogöra för moderna bromssystems uppbyggnad och funktion.",
+            "Förarprovet kräver att föraren kan använda fordonets bromsar på rätt sätt.",
+            "Förarprovet kräver att föraren kan redogöra för felaktigheter som kan uppstå på bromssystem.",
+            "Förarprovet kräver att föraren kan utföra enklare kontroller av bromssystem.",
+            "Ojämn bromsverkan, pulsering, anliggande broms eller bromsläckage är brister som kan konstateras vid kontrollbesiktning."
+          ],
+          "fact_keys": [
+            "D1-VEH-BRAKE-FACT-001",
+            "D1-VEH-BRAKE-FACT-002",
+            "D1-VEH-BRAKE-FACT-003",
+            "D1-VEH-BRAKE-FACT-004",
+            "D1-VEH-BRAKE-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-BRAKE-FACT-008"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-BRAKE-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-BRAKE-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-BRAKE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-WHEEL-L01",
+      "topic_id": "topic_d1_vehicle_hjul_sakerhetskontroll",
+      "title": "Hjul och säkerhetskontroll",
+      "learning_objectives": [
+        "Kunna koppla hjul och säkerhetskontroll till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-002",
+        "D1-VEH-029-004"
+      ],
+      "fact_keys": [
+        "D1-VEH-WHEEL-FACT-001",
+        "D1-VEH-WHEEL-FACT-002",
+        "D1-VEH-WHEEL-FACT-003",
+        "D1-VEH-WHEEL-FACT-004",
+        "D1-VEH-WHEEL-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 29 § 2",
+            "TSFS 2021:119, 3 kap. 29 § 4",
+            "TSFS 2021:119, 3 kap. 29 § 4",
+            "TSFS 2021:119, 3 kap. 29 § 2",
+            "TSFS 2021:119, 3 kap. 29 § 4"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_wheel_change_safety",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Hjul och säkerhetskontroll",
+          "fact_keys": [
+            "D1-VEH-WHEEL-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-WHEEL-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om risker vid hjulbyte.",
+            "Förarprovet kräver att föraren kan redogöra för säkerhetskontroller på hjulen.",
+            "Hjulens fastsättning, synliga skador, däckens kondition och korrekt lufttryck ingår i praktisk hjulkontroll.",
+            "Vid hjulbyte ska bilen stå stabilt och lyftas enligt fordonets anvisningar; fel lyftpunkt eller osäker plats kan göra arbetet farligt.",
+            "Efter hjulbyte behöver föraren försäkra sig om att hjulen sitter korrekt innan bilen används i uppdrag."
+          ],
+          "fact_keys": [
+            "D1-VEH-WHEEL-FACT-001",
+            "D1-VEH-WHEEL-FACT-002",
+            "D1-VEH-WHEEL-FACT-003",
+            "D1-VEH-WHEEL-FACT-004",
+            "D1-VEH-WHEEL-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-WHEEL-FACT-005"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-WHEEL-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-WHEEL-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-WHEEL-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-PRESS-L01",
+      "topic_id": "topic_d1_vehicle_dackslitage_lufttryck",
+      "title": "Däckslitage och lufttryck",
+      "learning_objectives": [
+        "Kunna koppla däckslitage och lufttryck till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-001",
+        "D1-VEH-029-005"
+      ],
+      "fact_keys": [
+        "D1-VEH-PRESS-FACT-001",
+        "D1-VEH-PRESS-FACT-002",
+        "D1-VEH-PRESS-FACT-003",
+        "D1-VEH-PRESS-FACT-004",
+        "D1-VEH-PRESS-FACT-005",
+        "D1-VEH-PRESS-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 29 § 1",
+            "TSFS 2021:119, 3 kap. 29 § 5",
+            "TSFS 2021:119, 3 kap. 29 § 1"
+          ]
+        },
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_references": [
+            "Krav på däck för personbil, Kolla däckens lufttryck ofta",
+            "Krav på däck för personbil, Kolla däckens lufttryck ofta",
+            "Krav på däck för personbil, alternativa dimensioner och hastighetsmätare"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "veh_tyre_wear_patterns",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Däckslitage och lufttryck",
+          "fact_keys": [
+            "D1-VEH-PRESS-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-PRESS-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om orsaker till onormalt däckslitage.",
+            "Förarprovet kräver att föraren kan bedöma hur däck, lufttryck och hjulens kondition påverkar fordon och taxameterutrustning.",
+            "Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd.",
+            "Rätt däcktryck för bilen finns i fordonets instruktionsbok eller tekniska uppgifter.",
+            "Onormalt däckslitage kan tyda på fel lufttryck, fel hjulinställning, skadade komponenter eller olämplig körning."
+          ],
+          "fact_keys": [
+            "D1-VEH-PRESS-FACT-001",
+            "D1-VEH-PRESS-FACT-002",
+            "D1-VEH-PRESS-FACT-003",
+            "D1-VEH-PRESS-FACT-004",
+            "D1-VEH-PRESS-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-PRESS-FACT-006"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-PRESS-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-PRESS-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-PRESS-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-MARK-L01",
+      "topic_id": "topic_d1_vehicle_dackmarkningar",
+      "title": "Däckmärkningar",
+      "learning_objectives": [
+        "Kunna koppla däckmärkningar till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-006"
+      ],
+      "fact_keys": [
+        "D1-VEH-MARK-FACT-001",
+        "D1-VEH-MARK-FACT-002",
+        "D1-VEH-MARK-FACT-003",
+        "D1-VEH-MARK-FACT-004",
+        "D1-VEH-MARK-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 29 § 6"
+          ]
+        },
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_references": [
+            "Krav på däck för personbil, E-märkning",
+            "Krav på däck för personbil, S-märkning",
+            "Krav på däck för personbil, belastningsförmåga",
+            "Krav på däck för personbil, hastighetskapacitet"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "veh_tyre_sidewall",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Däckmärkningar",
+          "fact_keys": [
+            "D1-VEH-MARK-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-MARK-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om märkningar på typgodkända däck.",
+            "Nya däck ska normalt vara E-märkta och typgodkända enligt gällande reglementen.",
+            "Nya däck som tagits i bruk efter den 1 oktober 2009 ska normalt vara S-märkta för bullerkrav.",
+            "E-märkta däck anger belastningskod på däckets sida.",
+            "På E-märkta däck anges hastighetskapacitet med en beteckning på däckets sida."
+          ],
+          "fact_keys": [
+            "D1-VEH-MARK-FACT-001",
+            "D1-VEH-MARK-FACT-002",
+            "D1-VEH-MARK-FACT-003",
+            "D1-VEH-MARK-FACT-004",
+            "D1-VEH-MARK-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-MARK-FACT-005"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-MARK-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-MARK-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-MARK-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-WINTER-L01",
+      "topic_id": "topic_d1_vehicle_vinterdack_dubbdack",
+      "title": "Vinterdäck och dubbdäck",
+      "learning_objectives": [
+        "Kunna koppla vinterdäck och dubbdäck till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-007A",
+        "D1-VEH-029-007C",
+        "D1-VEH-029-007B"
+      ],
+      "fact_keys": [
+        "D1-VEH-WINTER-FACT-001",
+        "D1-VEH-WINTER-FACT-002",
+        "D1-VEH-WINTER-FACT-003",
+        "D1-VEH-WINTER-FACT-004",
+        "D1-VEH-WINTER-FACT-005",
+        "D1-VEH-WINTER-FACT-006",
+        "D1-VEH-WINTER-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 29 § 7 a"
+          ]
+        },
+        {
+          "source_id": "TS_VINTERDACK",
+          "exact_references": [
+            "Vinterdäck, personbilar och lätta lastbilar",
+            "Vinterdäck, minsta mönsterdjup",
+            "Vinterdäck, vinterväglag",
+            "Vinterdäck, dubbade vinterdäck",
+            "Vinterdäck, dubbfria vinterdäck",
+            "Vinterdäck, dubbade vinterdäck"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "veh_tread_depth_winter",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Vinterdäck och dubbdäck",
+          "fact_keys": [
+            "D1-VEH-WINTER-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-WINTER-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan tillämpa regler om mönsterdjup.",
+            "Personbilar och lätta lastbilar ska ha vinterdäck eller likvärdig utrustning 1 december-31 mars när det är vinterväglag.",
+            "Minsta mönsterdjup under vinterdäckskravet är 3 mm för personbil och lätt lastbil upp till 3 500 kg.",
+            "Vinterväglag innebär snö, is, snömodd eller frost på någon del av vägen; Polisen avgör om vinterväglag råder på plats.",
+            "Dubbdäck får användas 1 oktober-15 april och även annan tid om det är eller befaras bli vinterväglag."
+          ],
+          "fact_keys": [
+            "D1-VEH-WINTER-FACT-001",
+            "D1-VEH-WINTER-FACT-002",
+            "D1-VEH-WINTER-FACT-003",
+            "D1-VEH-WINTER-FACT-004",
+            "D1-VEH-WINTER-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-WINTER-FACT-007"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-WINTER-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-WINTER-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-WINTER-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-VEH-COMBO-L01",
+      "topic_id": "topic_d1_vehicle_fordonskombinationer_dimensioner",
+      "title": "Hjul-, däck- och fordonskombinationer",
+      "learning_objectives": [
+        "Kunna koppla hjul-, däck- och fordonskombinationer till säker taxikörning.",
+        "Kunna avgöra när information ska hämtas i fordonsuppgifter, instruktionsbok eller via verkstad."
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-003",
+        "D1-VEH-029-007D",
+        "D1-VEH-029-007E"
+      ],
+      "fact_keys": [
+        "D1-VEH-COMBO-FACT-001",
+        "D1-VEH-COMBO-FACT-002",
+        "D1-VEH-COMBO-FACT-003",
+        "D1-VEH-COMBO-FACT-004",
+        "D1-VEH-COMBO-FACT-005",
+        "D1-VEH-COMBO-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 29 § 3",
+            "TSFS 2021:119, 3 kap. 29 § 7 d",
+            "TSFS 2021:119, 3 kap. 29 § 7 e",
+            "TSFS 2021:119, 3 kap. 29 § 3"
+          ]
+        },
+        {
+          "source_id": "TS_SLAPVAGNSVIKTER",
+          "exact_references": [
+            "Vikter att ta hänsyn till när du drar en släpvagn"
+          ]
+        },
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_references": [
+            "Krav på däck för personbil, alternativa dimensioner"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "veh_tyre_sidewall",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Hjul-, däck- och fordonskombinationer",
+          "fact_keys": [
+            "D1-VEH-COMBO-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+          "fact_keys": [
+            "D1-VEH-COMBO-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om nödhjul och punkteringsspray.",
+            "Förarprovet kräver att föraren kan tillämpa regler om olika fordonskombinationer.",
+            "Förarprovet kräver att föraren kan tillämpa regler om hjul- och däckdimensioner.",
+            "Bilens högsta tillåtna släpvagnsvikt och fordonskombinationens vikter framgår av registreringsbevis eller Transportstyrelsens e-tjänster.",
+            "Alternativa däck- och fälgdimensioner får användas bara om krav på typgodkännande, belastning, hastighet, fri rörlighet och hastighetsmätarvisning uppfylls."
+          ],
+          "fact_keys": [
+            "D1-VEH-COMBO-FACT-001",
+            "D1-VEH-COMBO-FACT-002",
+            "D1-VEH-COMBO-FACT-003",
+            "D1-VEH-COMBO-FACT-004",
+            "D1-VEH-COMBO-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Tekniska lösningar varierar mellan fordonsmodeller. Använd därför alltid bilens egna anvisningar när placering, påfyllning eller arbetsordning är modellspecifik.",
+          "fact_keys": [
+            "D1-VEH-COMBO-FACT-006"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett taxipass upptäcker du en varning, ett läckage eller ett onormalt ljud. Rätt första steg är att bedöma risk, kontrollera information och avstå körning om säkerheten kan påverkas.",
+          "fact_keys": [
+            "D1-VEH-COMBO-FACT-003"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gissa inte vid broms-, styrnings-, hjul- eller elfel. Fordonet ska kontrolleras innan det används om felet kan påverka säkerheten.",
+          "fact_keys": [
+            "D1-VEH-COMBO-FACT-004"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du avgöra om detta är en kontrollfråga, en åtgärdsfråga eller en fråga för verkstad?",
+          "fact_keys": [
+            "D1-VEH-COMBO-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

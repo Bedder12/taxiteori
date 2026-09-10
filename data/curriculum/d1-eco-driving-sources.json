@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "subject": "D1_ECO_DRIVING",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map for TSFS 2021:119, 3 kap. 4-5 §§.",
+    "created_at": "2026-09-10",
+    "last_verified_at": "2026-09-10"
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 4-5 §§",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+      "relevant_chapter_section": "3 kap. 4 § och 5 § 1-3",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 Körekonomi requirements."
+    },
+    {
+      "source_key": "TS_SPARSAM_KORNING",
+      "source_title": "Sparsam körning",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official guidance on sparsam körning",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+      "relevant_chapter_section": "Right tire pressure, speed limits, removing roof rack/roof box, speed effect on fuel use and driving-test relevance",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official guidance page, senast uppdaterad 2026-08-26."
+    },
+    {
+      "source_key": "TRV_HASTIGHET_HALLBARHET",
+      "source_title": "Hastighet och hållbarhet",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official road-safety and sustainability guidance",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+      "relevant_chapter_section": "Relationship between speed, fuel consumption and carbon dioxide emissions",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official explanatory source, senast uppdaterad 2022-03-31."
+    },
+    {
+      "source_key": "TS_DACK_PERSONBIL",
+      "source_title": "Krav på däck för personbil",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official vehicle/tire guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+      "relevant_chapter_section": "Tire type, load capacity, dimensions and checking tire pressure",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for tire pressure, driving properties, fuel consumption and tire life; senast uppdaterad 2025-11-11."
+    },
+    {
+      "source_key": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+      "source_title": "Åtgärder som inte kräver en investering",
+      "source_type": "official_explanatory_source",
+      "authority": "Energimyndigheten",
+      "legal_reference": "Official energy-efficiency guidance for companies",
+      "url": "https://www.energimyndigheten.se/guide-for-energieffektiva-foretag/genomfor-och-finansiera-atgarder/genomforande-av-investeringsfria-atgarder/atgarder-som-inte-kraver-en-investering/",
+      "relevant_chapter_section": "Åtgärder för transporter: sparsam körning, reduced fuel consumption, lower service/maintenance costs, logistics planning and route optimisation",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official energy authority guidance; senast uppdaterad 2025-05-14."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-ECO-004-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 4 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 4-5 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 4 § och 5 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Körekonomi requirements."
+        },
+        {
+          "source_key": "TS_SPARSAM_KORNING",
+          "source_title": "Sparsam körning",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on sparsam körning",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "relevant_chapter_section": "Right tire pressure, speed limits, removing roof rack/roof box, speed effect on fuel use and driving-test relevance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official guidance page, senast uppdaterad 2026-08-26."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ECO-005-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 5 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 4-5 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 4 § och 5 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Körekonomi requirements."
+        },
+        {
+          "source_key": "TS_SPARSAM_KORNING",
+          "source_title": "Sparsam körning",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on sparsam körning",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "relevant_chapter_section": "Right tire pressure, speed limits, removing roof rack/roof box, speed effect on fuel use and driving-test relevance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official guidance page, senast uppdaterad 2026-08-26."
+        },
+        {
+          "source_key": "TRV_HASTIGHET_HALLBARHET",
+          "source_title": "Hastighet och hållbarhet",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety and sustainability guidance",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+          "relevant_chapter_section": "Relationship between speed, fuel consumption and carbon dioxide emissions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official explanatory source, senast uppdaterad 2022-03-31."
+        },
+        {
+          "source_key": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+          "source_title": "Åtgärder som inte kräver en investering",
+          "source_type": "official_explanatory_source",
+          "authority": "Energimyndigheten",
+          "legal_reference": "Official energy-efficiency guidance for companies",
+          "url": "https://www.energimyndigheten.se/guide-for-energieffektiva-foretag/genomfor-och-finansiera-atgarder/genomforande-av-investeringsfria-atgarder/atgarder-som-inte-kraver-en-investering/",
+          "relevant_chapter_section": "Åtgärder för transporter: sparsam körning, reduced fuel consumption, lower service/maintenance costs, logistics planning and route optimisation",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official energy authority guidance; senast uppdaterad 2025-05-14."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ECO-005-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 5 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 4-5 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 4 § och 5 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Körekonomi requirements."
+        },
+        {
+          "source_key": "TS_SPARSAM_KORNING",
+          "source_title": "Sparsam körning",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on sparsam körning",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "relevant_chapter_section": "Right tire pressure, speed limits, removing roof rack/roof box, speed effect on fuel use and driving-test relevance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official guidance page, senast uppdaterad 2026-08-26."
+        },
+        {
+          "source_key": "TRV_HASTIGHET_HALLBARHET",
+          "source_title": "Hastighet och hållbarhet",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety and sustainability guidance",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+          "relevant_chapter_section": "Relationship between speed, fuel consumption and carbon dioxide emissions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official explanatory source, senast uppdaterad 2022-03-31."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ECO-005-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 5 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 4-5 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 4 § och 5 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Körekonomi requirements."
+        },
+        {
+          "source_key": "TS_DACK_PERSONBIL",
+          "source_title": "Krav på däck för personbil",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle/tire guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+          "relevant_chapter_section": "Tire type, load capacity, dimensions and checking tire pressure",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for tire pressure, driving properties, fuel consumption and tire life; senast uppdaterad 2025-11-11."
+        },
+        {
+          "source_key": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+          "source_title": "Åtgärder som inte kräver en investering",
+          "source_type": "official_explanatory_source",
+          "authority": "Energimyndigheten",
+          "legal_reference": "Official energy-efficiency guidance for companies",
+          "url": "https://www.energimyndigheten.se/guide-for-energieffektiva-foretag/genomfor-och-finansiera-atgarder/genomforande-av-investeringsfria-atgarder/atgarder-som-inte-kraver-en-investering/",
+          "relevant_chapter_section": "Åtgärder för transporter: sparsam körning, reduced fuel consumption, lower service/maintenance costs, logistics planning and route optimisation",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official energy authority guidance; senast uppdaterad 2025-05-14."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "title": "Ekonomisk körning",
+      "requirement_keys": [
+        "D1-ECO-004-001",
+        "D1-ECO-005-001"
+      ],
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "title": "Bränsleförbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "title": "Planering och körsätt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "title": "Fordonsunderhåll och körekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "status": "published"
+    }
+  ]
+}

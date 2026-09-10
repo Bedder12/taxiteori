@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "subject": "D1_ECO_DRIVING",
+    "title": "D1 eco-driving lessons",
+    "status": "published",
+    "verified_at": "2026-09-10",
+    "note": "Source-backed mobile-first lessons for taxi-driver use cases."
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-ECO-ECON-L01",
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "title": "Ekonomisk körning",
+      "learning_objectives": [
+        "Förstå hur ekonomisk körning påverkar taxiuppdragets kostnader.",
+        "Kunna välja ett körsätt eller en fordonsåtgärd som stödjer god körekonomi."
+      ],
+      "requirement_keys": [
+        "D1-ECO-004-001",
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-001",
+        "D1-ECO-ECON-FACT-002",
+        "D1-ECO-ECON-FACT-003",
+        "D1-ECO-ECON-FACT-004",
+        "D1-ECO-ECON-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 4 §",
+            "TSFS 2021:119, 3 kap. 5 § 1",
+            "TSFS 2021:119, 3 kap. 4-5 §§"
+          ]
+        },
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_references": [
+            "Sparsam körning, Sparsam körning i förarprovet och förarutbildningen",
+            "Sparsam körning, inledande vägledning"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Ekonomisk körning",
+          "fact_keys": [
+            "D1-ECO-ECON-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+          "fact_keys": [
+            "D1-ECO-ECON-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås.",
+            "Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning.",
+            "Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen.",
+            "Rätt lufttryck i däcken, att hålla hastighetsgränserna och att ta bort takräcke eller takbox när de inte behövs är exempel på sparsam körning."
+          ],
+          "fact_keys": [
+            "D1-ECO-ECON-FACT-001",
+            "D1-ECO-ECON-FACT-002",
+            "D1-ECO-ECON-FACT-003",
+            "D1-ECO-ECON-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När två rimliga färdvägar finns väljer du den som minskar onödiga stopp och omvägar, samtidigt som kundens önskemål och trafiksäkerheten respekteras.",
+          "fact_keys": [
+            "D1-ECO-ECON-FACT-002"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Körekonomi får aldrig användas som skäl för att köra för fort, för nära eller på annat sätt osäkert.",
+          "fact_keys": [
+            "D1-ECO-ECON-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du koppla åtgärden till lägre förbrukning eller bättre fordonsdrift?",
+          "fact_keys": [
+            "D1-ECO-ECON-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-L01",
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "title": "Bränsleförbrukning",
+      "learning_objectives": [
+        "Förstå hur bränsleförbrukning påverkar taxiuppdragets kostnader.",
+        "Kunna välja ett körsätt eller en fordonsåtgärd som stödjer god körekonomi."
+      ],
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-001",
+        "D1-ECO-FUEL-FACT-002",
+        "D1-ECO-FUEL-FACT-003",
+        "D1-ECO-FUEL-FACT-004",
+        "D1-ECO-FUEL-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 5 § 2"
+          ]
+        },
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_references": [
+            "Sparsam körning, hastighet och bränsleförbrukning",
+            "Sparsam körning, hastighet och bränsleförbrukning",
+            "Sparsam körning, inledande vägledning"
+          ]
+        },
+        {
+          "source_id": "TRV_HASTIGHET_HALLBARHET",
+          "exact_references": [
+            "Hastighet och hållbarhet, hastighetens betydelse"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Bränsleförbrukning",
+          "fact_keys": [
+            "D1-ECO-FUEL-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+          "fact_keys": [
+            "D1-ECO-FUEL-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning.",
+            "Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt.",
+            "Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil.",
+            "Trafikverket beskriver ett tydligt samband mellan bränsleförbrukning och koldioxidutsläpp, där högre hastighet ger större bränsleförbrukning och mer utsläpp."
+          ],
+          "fact_keys": [
+            "D1-ECO-FUEL-FACT-001",
+            "D1-ECO-FUEL-FACT-002",
+            "D1-ECO-FUEL-FACT-003",
+            "D1-ECO-FUEL-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När två rimliga färdvägar finns väljer du den som minskar onödiga stopp och omvägar, samtidigt som kundens önskemål och trafiksäkerheten respekteras.",
+          "fact_keys": [
+            "D1-ECO-FUEL-FACT-002"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Körekonomi får aldrig användas som skäl för att köra för fort, för nära eller på annat sätt osäkert.",
+          "fact_keys": [
+            "D1-ECO-FUEL-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du koppla åtgärden till lägre förbrukning eller bättre fordonsdrift?",
+          "fact_keys": [
+            "D1-ECO-FUEL-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-L01",
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "title": "Planering och körsätt",
+      "learning_objectives": [
+        "Förstå hur planering och körsätt påverkar taxiuppdragets kostnader.",
+        "Kunna välja ett körsätt eller en fordonsåtgärd som stödjer god körekonomi."
+      ],
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-001",
+        "D1-ECO-PLAN-FACT-002",
+        "D1-ECO-PLAN-FACT-003",
+        "D1-ECO-PLAN-FACT-004",
+        "D1-ECO-PLAN-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 5 § 1"
+          ]
+        },
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_references": [
+            "Sparsam körning, inledande vägledning",
+            "Sparsam körning, inledande vägledning"
+          ]
+        },
+        {
+          "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+          "exact_references": [
+            "Åtgärder för transporter",
+            "Åtgärder för transporter: logistikplanera och ruttoptimera"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Planering och körsätt",
+          "fact_keys": [
+            "D1-ECO-PLAN-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+          "fact_keys": [
+            "D1-ECO-PLAN-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips.",
+            "Körsättet har stor betydelse för utsläpp och buller.",
+            "Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning.",
+            "Logistikplanering och ruttoptimering anges av Energimyndigheten som transportåtgärder för energieffektivisering."
+          ],
+          "fact_keys": [
+            "D1-ECO-PLAN-FACT-001",
+            "D1-ECO-PLAN-FACT-002",
+            "D1-ECO-PLAN-FACT-003",
+            "D1-ECO-PLAN-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När två rimliga färdvägar finns väljer du den som minskar onödiga stopp och omvägar, samtidigt som kundens önskemål och trafiksäkerheten respekteras.",
+          "fact_keys": [
+            "D1-ECO-PLAN-FACT-002"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Körekonomi får aldrig användas som skäl för att köra för fort, för nära eller på annat sätt osäkert.",
+          "fact_keys": [
+            "D1-ECO-PLAN-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du koppla åtgärden till lägre förbrukning eller bättre fordonsdrift?",
+          "fact_keys": [
+            "D1-ECO-PLAN-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-L01",
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "title": "Fordonsunderhåll och körekonomi",
+      "learning_objectives": [
+        "Förstå hur fordonsunderhåll och körekonomi påverkar taxiuppdragets kostnader.",
+        "Kunna välja ett körsätt eller en fordonsåtgärd som stödjer god körekonomi."
+      ],
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-001",
+        "D1-ECO-MAINT-FACT-002",
+        "D1-ECO-MAINT-FACT-003",
+        "D1-ECO-MAINT-FACT-004",
+        "D1-ECO-MAINT-FACT-005",
+        "D1-ECO-MAINT-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 5 § 3"
+          ]
+        },
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_references": [
+            "Krav på däck för personbil, Kolla däckens lufttryck ofta",
+            "Krav på däck för personbil, Kolla däckens lufttryck ofta",
+            "Krav på däck för personbil, Belastningsförmåga"
+          ]
+        },
+        {
+          "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+          "exact_references": [
+            "Åtgärder för transporter"
+          ]
+        },
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_references": [
+            "Sparsam körning, inledande vägledning"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Fordonsunderhåll och körekonomi",
+          "fact_keys": [
+            "D1-ECO-MAINT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+          "fact_keys": [
+            "D1-ECO-MAINT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi.",
+            "Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd.",
+            "Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning.",
+            "Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning."
+          ],
+          "fact_keys": [
+            "D1-ECO-MAINT-FACT-001",
+            "D1-ECO-MAINT-FACT-002",
+            "D1-ECO-MAINT-FACT-003",
+            "D1-ECO-MAINT-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Inför ett långt pass kontrollerar du däcktryck och tar bort utrustning som inte behövs. Det är en förebyggande åtgärd, inte bara en verkstadsfråga.",
+          "fact_keys": [
+            "D1-ECO-MAINT-FACT-002"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Körekonomi får aldrig användas som skäl för att köra för fort, för nära eller på annat sätt osäkert.",
+          "fact_keys": [
+            "D1-ECO-MAINT-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du koppla åtgärden till lägre förbrukning eller bättre fordonsdrift?",
+          "fact_keys": [
+            "D1-ECO-MAINT-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

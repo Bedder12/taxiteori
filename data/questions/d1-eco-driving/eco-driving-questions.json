@@ -1,0 +1,1609 @@
+{
+  "metadata": {
+    "subject": "D1_ECO_DRIVING",
+    "title": "D1 eco-driving question bank",
+    "status": "published",
+    "created_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
+  },
+  "topic_checkpoints": [
+    {
+      "stable_key": "D1-ECO-ECON-CHECKPOINT-001",
+      "title": "Intern checkpoint: Ekonomisk körning",
+      "type": "checkpoint",
+      "subject": "D1_ECO_DRIVING",
+      "topic": "topic_d1_eco_ekonomisk_korning",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-CHECKPOINT-001",
+      "title": "Intern checkpoint: Bränsleförbrukning",
+      "type": "checkpoint",
+      "subject": "D1_ECO_DRIVING",
+      "topic": "topic_d1_eco_bransleforbrukning",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-CHECKPOINT-001",
+      "title": "Intern checkpoint: Planering och körsätt",
+      "type": "checkpoint",
+      "subject": "D1_ECO_DRIVING",
+      "topic": "topic_d1_eco_planering_korsatt",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-CHECKPOINT-001",
+      "title": "Intern checkpoint: Fordonsunderhåll och körekonomi",
+      "type": "checkpoint",
+      "subject": "D1_ECO_DRIVING",
+      "topic": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "eligible_status": "published",
+      "question_count": 8,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    }
+  ],
+  "subject_checkpoint": {
+    "stable_key": "D1-ECO-SUBJECT-CHECKPOINT-001",
+    "title": "Intern ämnescheckpoint: Körekonomi",
+    "type": "checkpoint",
+    "subject": "D1_ECO_DRIVING",
+    "topic": null,
+    "eligible_status": "published",
+    "question_count": 20,
+    "pass_threshold": 0.8,
+    "selection": "broad_sample_across_all_d1_eco_driving_topics",
+    "freeze_question_versions_on_attempt_start": true,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D1-ECO-ECON-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-004-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "ECON-fall 1: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 1: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 1: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 1: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 4 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "ECON-fall 2: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 2: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 2: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 2: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 1"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-004-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "ECON-fall 3: Vilket svar stämmer bäst för körekonomi? Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 3: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 3: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 3: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, Sparsam körning i förarprovet och förarutbildningen"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-004"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "ECON-fall 4: Vilket svar stämmer bäst för körekonomi? Rätt lufttryck i däcken, att hålla hastighetsgränserna och att ta bort takräcke eller takbox när de inte behövs är exempel på sparsam körning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Rätt lufttryck i däcken, att hålla hastighetsgränserna och att ta bort takräcke eller takbox när de inte behövs är exempel på sparsam körning."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 4: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 4: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 4: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Rätt lufttryck i däcken, att hålla hastighetsgränserna och att ta bort takräcke eller takbox när de inte behövs är exempel på sparsam körning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-005"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "ECON-fall 5: Vilket svar stämmer bäst för körekonomi? För en taxiförare innebär god körekonomi att köra mjukt, planerat och utan onödiga energiförluster samtidigt som säkerhet och regelkrav går först.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "För en taxiförare innebär god körekonomi att köra mjukt, planerat och utan onödiga energiförluster samtidigt som säkerhet och regelkrav går först."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 5: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 5: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 5: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: För en taxiförare innebär god körekonomi att köra mjukt, planerat och utan onödiga energiförluster samtidigt som säkerhet och regelkrav går först. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 4-5 §§"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-004-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "ECON-fall 6: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 6: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 6: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 6: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 4 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "ECON-fall 7: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 7: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 7: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 7: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 1"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_keys": [
+        "D1-ECO-004-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-ECON-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-ECON-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "ECON-fall 8: Vilket svar stämmer bäst för körekonomi? Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen."
+        },
+        {
+          "id": "B",
+          "text": "ECON-fall 8: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "ECON-fall 8: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "ECON-fall 8: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, Sparsam körning i förarprovet och förarutbildningen"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "FUEL-fall 1: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 1: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 1: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 1: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "FUEL-fall 2: Vilket svar stämmer bäst för körekonomi? Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 2: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 2: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 2: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "FUEL-fall 3: Vilket svar stämmer bäst för körekonomi? Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 3: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 3: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 3: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-004"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "FUEL-fall 4: Vilket svar stämmer bäst för körekonomi? Trafikverket beskriver ett tydligt samband mellan bränsleförbrukning och koldioxidutsläpp, där högre hastighet ger större bränsleförbrukning och mer utsläpp.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Trafikverket beskriver ett tydligt samband mellan bränsleförbrukning och koldioxidutsläpp, där högre hastighet ger större bränsleförbrukning och mer utsläpp."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 4: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 4: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 4: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Trafikverket beskriver ett tydligt samband mellan bränsleförbrukning och koldioxidutsläpp, där högre hastighet ger större bränsleförbrukning och mer utsläpp. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_HALLBARHET",
+          "exact_reference": "Hastighet och hållbarhet, hastighetens betydelse"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-005"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "FUEL-fall 5: Vilket svar stämmer bäst för körekonomi? Onödig last och yttre utrustning som takräcke eller takbox när den inte behövs kan öka energiförlusterna och försämra körekonomin.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Onödig last och yttre utrustning som takräcke eller takbox när den inte behövs kan öka energiförlusterna och försämra körekonomin."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 5: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 5: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 5: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Onödig last och yttre utrustning som takräcke eller takbox när den inte behövs kan öka energiförlusterna och försämra körekonomin. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "FUEL-fall 6: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 6: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 6: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 6: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "FUEL-fall 7: Vilket svar stämmer bäst för körekonomi? Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 7: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 7: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 7: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_keys": [
+        "D1-ECO-005-002"
+      ],
+      "fact_keys": [
+        "D1-ECO-FUEL-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-FUEL-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "redogöra"
+      ],
+      "prompt": "FUEL-fall 8: Vilket svar stämmer bäst för körekonomi? Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil."
+        },
+        {
+          "id": "B",
+          "text": "FUEL-fall 8: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "FUEL-fall 8: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "FUEL-fall 8: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 1: Vilket svar stämmer bäst för körekonomi? Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 1: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 1: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 1: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 1"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 2: Vilket svar stämmer bäst för körekonomi? Körsättet har stor betydelse för utsläpp och buller.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Körsättet har stor betydelse för utsläpp och buller."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 2: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 2: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 2: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Körsättet har stor betydelse för utsläpp och buller. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 3: Vilket svar stämmer bäst för körekonomi? Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 3: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 3: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 3: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-004"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 4: Vilket svar stämmer bäst för körekonomi? Logistikplanering och ruttoptimering anges av Energimyndigheten som transportåtgärder för energieffektivisering.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Logistikplanering och ruttoptimering anges av Energimyndigheten som transportåtgärder för energieffektivisering."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 4: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 4: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 4: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Logistikplanering och ruttoptimering anges av Energimyndigheten som transportåtgärder för energieffektivisering. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+          "exact_reference": "Åtgärder för transporter"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-005"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 5: Vilket svar stämmer bäst för körekonomi? För en taxi kan god planering minska tomkörning, felkörning och onödiga stopp, vilket stödjer både effektivt uppdrag och körekonomi.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "För en taxi kan god planering minska tomkörning, felkörning och onödiga stopp, vilket stödjer både effektivt uppdrag och körekonomi."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 5: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 5: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 5: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: För en taxi kan god planering minska tomkörning, felkörning och onödiga stopp, vilket stödjer både effektivt uppdrag och körekonomi. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+          "exact_reference": "Åtgärder för transporter: logistikplanera och ruttoptimera"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 6: Vilket svar stämmer bäst för körekonomi? Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 6: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 6: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 6: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 1"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 7: Vilket svar stämmer bäst för körekonomi? Körsättet har stor betydelse för utsläpp och buller.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Körsättet har stor betydelse för utsläpp och buller."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 7: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 7: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 7: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Körsättet har stor betydelse för utsläpp och buller. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_keys": [
+        "D1-ECO-005-001"
+      ],
+      "fact_keys": [
+        "D1-ECO-PLAN-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-PLAN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "PLAN-fall 8: Vilket svar stämmer bäst för körekonomi? Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning."
+        },
+        {
+          "id": "B",
+          "text": "PLAN-fall 8: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "PLAN-fall 8: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "PLAN-fall 8: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 1: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 1: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 1: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 1: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 3"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 2: Vilket svar stämmer bäst för körekonomi? Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 2: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 2: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 2: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 3: Vilket svar stämmer bäst för körekonomi? Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 3: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 3: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 3: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-004"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 4: Vilket svar stämmer bäst för körekonomi? Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 4: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 4: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 4: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, Belastningsförmåga"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-005"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 5: Vilket svar stämmer bäst för körekonomi? Sparsam körning kan enligt Energimyndigheten minska bränsleförbrukning och kostnader för service och underhåll.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Sparsam körning kan enligt Energimyndigheten minska bränsleförbrukning och kostnader för service och underhåll."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 5: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 5: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 5: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Sparsam körning kan enligt Energimyndigheten minska bränsleförbrukning och kostnader för service och underhåll. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+          "exact_reference": "Åtgärder för transporter"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-006"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 6: Vilket svar stämmer bäst för körekonomi? Förebyggande kontroll av däck, last och onödig yttre utrustning är praktiska fordonsåtgärder som stödjer god körekonomi.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förebyggande kontroll av däck, last och onödig yttre utrustning är praktiska fordonsåtgärder som stödjer god körekonomi."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 6: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 6: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 6: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förebyggande kontroll av däck, last och onödig yttre utrustning är praktiska fordonsåtgärder som stödjer god körekonomi. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_reference": "Sparsam körning, inledande vägledning"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-001"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 7: Vilket svar stämmer bäst för körekonomi? Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 7: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 7: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 7: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 5 § 3"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-002"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 8: Vilket svar stämmer bäst för körekonomi? Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 8: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 8: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 8: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-003"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 9: Vilket svar stämmer bäst för körekonomi? Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 9: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 9: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 9: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_keys": [
+        "D1-ECO-005-003"
+      ],
+      "fact_keys": [
+        "D1-ECO-MAINT-FACT-004"
+      ],
+      "lesson_key": "D1-ECO-MAINT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma"
+      ],
+      "prompt": "MAINT-fall 10: Vilket svar stämmer bäst för körekonomi? Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning."
+        },
+        {
+          "id": "B",
+          "text": "MAINT-fall 10: körekonomi betyder alltid att välja högsta möjliga hastighet för att bli klar snabbare."
+        },
+        {
+          "id": "C",
+          "text": "MAINT-fall 10: fordonskontroller påverkar inte bränsleförbrukning eller driftskostnad."
+        },
+        {
+          "id": "D",
+          "text": "MAINT-fall 10: sparsam körning gäller inte när bilen används som taxi."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning. Svaret följer av den verifierade källan och kopplar åtgärden till bränsleförbrukning, drift eller provkrav. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_reference": "Krav på däck för personbil, Belastningsförmåga"
+        }
+      ],
+      "status": "published"
+    }
+  ]
+}

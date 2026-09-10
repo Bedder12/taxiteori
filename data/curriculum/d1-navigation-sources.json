@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "subject": "D1_NAVIGATION",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map for TSFS 2021:119, 3 kap. 2-3 §§.",
+    "created_at": "2026-09-10",
+    "last_verified_at": "2026-09-10"
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+      "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 Navigering requirements."
+    },
+    {
+      "source_key": "LANTMATERIET_MIN_KARTA",
+      "source_title": "Min karta",
+      "source_type": "official_explanatory_source",
+      "authority": "Lantmäteriet",
+      "legal_reference": "Official map service guidance",
+      "url": "https://www.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/?epslanguage=sv",
+      "relevant_chapter_section": "Söka platser/adresser, mäta sträcka, kartlager och utskrift i valfri skala",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for map-tool capabilities used as practical navigation support. No copyrighted map screenshots are embedded."
+    },
+    {
+      "source_key": "LANTMATERIET_MIN_KARTA_HELP",
+      "source_title": "Hjälp och tips till Min karta",
+      "source_type": "official_explanatory_source",
+      "authority": "Lantmäteriet",
+      "legal_reference": "Official map service help",
+      "url": "https://www2.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/hjalp-och-tips-till-min-karta/",
+      "relevant_chapter_section": "Position, koordinatsökning, kartlager and GPS accuracy caveats",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official support for search, position and layer use in navigation scenarios."
+    },
+    {
+      "source_key": "TRAFIKVERKET_TRAFFIC_MAP",
+      "source_title": "Trafikinformation vägkarta",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official traffic information map",
+      "url": "https://www.trafikverket.se/trafikinformation/vag/",
+      "relevant_chapter_section": "Traffic state, roadworks, restrictions, rest areas, cameras, road weather, ferries and road condition layers",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for live road information useful when planning efficient taxi routes."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-NAV-002-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 2 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        },
+        {
+          "source_key": "LANTMATERIET_MIN_KARTA",
+          "source_title": "Min karta",
+          "source_type": "official_explanatory_source",
+          "authority": "Lantmäteriet",
+          "legal_reference": "Official map service guidance",
+          "url": "https://www.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/?epslanguage=sv",
+          "relevant_chapter_section": "Söka platser/adresser, mäta sträcka, kartlager och utskrift i valfri skala",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for map-tool capabilities used as practical navigation support. No copyrighted map screenshots are embedded."
+        },
+        {
+          "source_key": "TRAFIKVERKET_TRAFFIC_MAP",
+          "source_title": "Trafikinformation vägkarta",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official traffic information map",
+          "url": "https://www.trafikverket.se/trafikinformation/vag/",
+          "relevant_chapter_section": "Traffic state, roadworks, restrictions, rest areas, cameras, road weather, ferries and road condition layers",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for live road information useful when planning efficient taxi routes."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        },
+        {
+          "source_key": "LANTMATERIET_MIN_KARTA",
+          "source_title": "Min karta",
+          "source_type": "official_explanatory_source",
+          "authority": "Lantmäteriet",
+          "legal_reference": "Official map service guidance",
+          "url": "https://www.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/?epslanguage=sv",
+          "relevant_chapter_section": "Söka platser/adresser, mäta sträcka, kartlager och utskrift i valfri skala",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for map-tool capabilities used as practical navigation support. No copyrighted map screenshots are embedded."
+        },
+        {
+          "source_key": "TRAFIKVERKET_TRAFFIC_MAP",
+          "source_title": "Trafikinformation vägkarta",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official traffic information map",
+          "url": "https://www.trafikverket.se/trafikinformation/vag/",
+          "relevant_chapter_section": "Traffic state, roadworks, restrictions, rest areas, cameras, road weather, ferries and road condition layers",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for live road information useful when planning efficient taxi routes."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-005",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 3 a",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        },
+        {
+          "source_key": "LANTMATERIET_MIN_KARTA_HELP",
+          "source_title": "Hjälp och tips till Min karta",
+          "source_type": "official_explanatory_source",
+          "authority": "Lantmäteriet",
+          "legal_reference": "Official map service help",
+          "url": "https://www2.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/hjalp-och-tips-till-min-karta/",
+          "relevant_chapter_section": "Position, koordinatsökning, kartlager and GPS accuracy caveats",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official support for search, position and layer use in navigation scenarios."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-006",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 3 b",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        },
+        {
+          "source_key": "LANTMATERIET_MIN_KARTA_HELP",
+          "source_title": "Hjälp och tips till Min karta",
+          "source_type": "official_explanatory_source",
+          "authority": "Lantmäteriet",
+          "legal_reference": "Official map service help",
+          "url": "https://www2.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/hjalp-och-tips-till-min-karta/",
+          "relevant_chapter_section": "Position, koordinatsökning, kartlager and GPS accuracy caveats",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official support for search, position and layer use in navigation scenarios."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-007",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 3 b",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        },
+        {
+          "source_key": "LANTMATERIET_MIN_KARTA_HELP",
+          "source_title": "Hjälp och tips till Min karta",
+          "source_type": "official_explanatory_source",
+          "authority": "Lantmäteriet",
+          "legal_reference": "Official map service help",
+          "url": "https://www2.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/hjalp-och-tips-till-min-karta/",
+          "relevant_chapter_section": "Position, koordinatsökning, kartlager and GPS accuracy caveats",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official support for search, position and layer use in navigation scenarios."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-008",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 3 c",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        },
+        {
+          "source_key": "LANTMATERIET_MIN_KARTA_HELP",
+          "source_title": "Hjälp och tips till Min karta",
+          "source_type": "official_explanatory_source",
+          "authority": "Lantmäteriet",
+          "legal_reference": "Official map service help",
+          "url": "https://www2.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/hjalp-och-tips-till-min-karta/",
+          "relevant_chapter_section": "Position, koordinatsökning, kartlager and GPS accuracy caveats",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official support for search, position and layer use in navigation scenarios."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-009",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 3 d",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-010A",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 3 e",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-NAV-003-010B",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 3 § 3 e",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 2-3 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 2 § och 3 kap. 3 § 1-3",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Navigering requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "title": "Kartor och navigeringshjälpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001",
+        "D1-NAV-003-001"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "title": "Muntlig färdbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-002",
+        "D1-NAV-003-003",
+        "D1-NAV-003-004"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "title": "Kartläsning och teckenförklaring",
+      "requirement_keys": [
+        "D1-NAV-003-005",
+        "D1-NAV-003-006",
+        "D1-NAV-003-007",
+        "D1-NAV-003-008"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "title": "Avstånd, restid och ankomsttid",
+      "requirement_keys": [
+        "D1-NAV-003-009",
+        "D1-NAV-003-010A",
+        "D1-NAV-003-010B"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "status": "published"
+    }
+  ]
+}

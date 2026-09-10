@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "subject": "D1_ECO_DRIVING",
+    "title": "D1 eco-driving verified facts",
+    "verified_at": "2026-09-10",
+    "status": "verified",
+    "policy": "Every statement used by lessons and questions must reference one or more fact stable keys."
+  },
+  "sources": [
+    {
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "authority": "Transportstyrelsen",
+      "source_type": "primary_legal_source",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+      "current_validity": "TSFS 2021:119, 3 kap. 4-5 §§; verified 2026-09-10. Primary curriculum authority for D1 Körekonomi requirements."
+    },
+    {
+      "source_id": "TS_SPARSAM_KORNING",
+      "source_title": "Sparsam körning",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+      "current_validity": "Official guidance on sparsam körning; verified 2026-09-10. Official guidance page, senast uppdaterad 2026-08-26."
+    },
+    {
+      "source_id": "TRV_HASTIGHET_HALLBARHET",
+      "source_title": "Hastighet och hållbarhet",
+      "authority": "Trafikverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+      "current_validity": "Official road-safety and sustainability guidance; verified 2026-09-10. Official explanatory source, senast uppdaterad 2022-03-31."
+    },
+    {
+      "source_id": "TS_DACK_PERSONBIL",
+      "source_title": "Krav på däck för personbil",
+      "authority": "Transportstyrelsen",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+      "current_validity": "Official vehicle/tire guidance; verified 2026-09-10. Official source for tire pressure, driving properties, fuel consumption and tire life; senast uppdaterad 2025-11-11."
+    },
+    {
+      "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+      "source_title": "Åtgärder som inte kräver en investering",
+      "authority": "Energimyndigheten",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.energimyndigheten.se/guide-for-energieffektiva-foretag/genomfor-och-finansiera-atgarder/genomforande-av-investeringsfria-atgarder/atgarder-som-inte-kraver-en-investering/",
+      "current_validity": "Official energy-efficiency guidance for companies; verified 2026-09-10. Official energy authority guidance; senast uppdaterad 2025-05-14."
+    }
+  ],
+  "facts": [
+    {
+      "stable_key": "D1-ECO-ECON-FACT-001",
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_key": "D1-ECO-004-001",
+      "fact_text": "Förarprovet kräver kunskap om hur bästa körekonomin kan uppnås.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 4 §",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-FACT-002",
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "Förarprovet kräver att föraren kan redogöra för faktorer som främjar ekonomisk körning.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 5 § 1",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-FACT-003",
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_key": "D1-ECO-004-001",
+      "fact_text": "Sparsam körning handlar om körteknik för lägre bränsleförbrukning och ingår i helhetsbedömningen av körningen.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, Sparsam körning i förarprovet och förarutbildningen",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-FACT-004",
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "Rätt lufttryck i däcken, att hålla hastighetsgränserna och att ta bort takräcke eller takbox när de inte behövs är exempel på sparsam körning.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, inledande vägledning",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-ECON-FACT-005",
+      "topic_id": "topic_d1_eco_ekonomisk_korning",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "För en taxiförare innebär god körekonomi att köra mjukt, planerat och utan onödiga energiförluster samtidigt som säkerhet och regelkrav går först.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 4-5 §§",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-FACT-001",
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_key": "D1-ECO-005-002",
+      "fact_text": "Förarprovet kräver att föraren kan redogöra för andra faktorer som påverkar bränsleförbrukning.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 5 § 2",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-FACT-002",
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_key": "D1-ECO-005-002",
+      "fact_text": "Bränsleförbrukningen påverkas av hastigheten; ju fortare bilen körs, desto mer bränsle går åt.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-FACT-003",
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_key": "D1-ECO-005-002",
+      "fact_text": "Transportstyrelsen anger att varje 10 km/tim högre hastighet över 70-75 km/tim ökar bränsleförbrukningen med ungefär 0,5-1,0 deciliter per mil.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, hastighet och bränsleförbrukning",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-FACT-004",
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_key": "D1-ECO-005-002",
+      "fact_text": "Trafikverket beskriver ett tydligt samband mellan bränsleförbrukning och koldioxidutsläpp, där högre hastighet ger större bränsleförbrukning och mer utsläpp.",
+      "source_id": "TRV_HASTIGHET_HALLBARHET",
+      "exact_reference": "Hastighet och hållbarhet, hastighetens betydelse",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-FUEL-FACT-005",
+      "topic_id": "topic_d1_eco_bransleforbrukning",
+      "requirement_key": "D1-ECO-005-002",
+      "fact_text": "Onödig last och yttre utrustning som takräcke eller takbox när den inte behövs kan öka energiförlusterna och försämra körekonomin.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, inledande vägledning",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-FACT-001",
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "Faktorer som främjar ekonomisk körning ska kunna förklaras, inte bara kännas igen som lösa tips.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 5 § 1",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-FACT-002",
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "Körsättet har stor betydelse för utsläpp och buller.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, inledande vägledning",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-FACT-003",
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "Att hålla hastighetsgränserna är både ett sparsam-körning-råd och en del av att undvika onödigt hög bränsleförbrukning.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, inledande vägledning",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-FACT-004",
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "Logistikplanering och ruttoptimering anges av Energimyndigheten som transportåtgärder för energieffektivisering.",
+      "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+      "exact_reference": "Åtgärder för transporter",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-PLAN-FACT-005",
+      "topic_id": "topic_d1_eco_planering_korsatt",
+      "requirement_key": "D1-ECO-005-001",
+      "fact_text": "För en taxi kan god planering minska tomkörning, felkörning och onödiga stopp, vilket stödjer både effektivt uppdrag och körekonomi.",
+      "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+      "exact_reference": "Åtgärder för transporter: logistikplanera och ruttoptimera",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-FACT-001",
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_key": "D1-ECO-005-003",
+      "fact_text": "Förarprovet kräver att föraren kan bedöma sambandet mellan förebyggande fordonsunderhåll och god körekonomi.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 5 § 3",
+      "legal_or_guidance_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-FACT-002",
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_key": "D1-ECO-005-003",
+      "fact_text": "Fel däcktryck kan påverka köregenskaper, bränsleförbrukning och däckens livslängd.",
+      "source_id": "TS_DACK_PERSONBIL",
+      "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-FACT-003",
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_key": "D1-ECO-005-003",
+      "fact_text": "Rätt däcktryck för däcken till bilen finns i bilens instruktionsbok enligt Transportstyrelsens vägledning.",
+      "source_id": "TS_DACK_PERSONBIL",
+      "exact_reference": "Krav på däck för personbil, Kolla däckens lufttryck ofta",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-FACT-004",
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_key": "D1-ECO-005-003",
+      "fact_text": "Däck ska ha belastningsförmåga som motsvarar bilens största tillåtna axelbelastning.",
+      "source_id": "TS_DACK_PERSONBIL",
+      "exact_reference": "Krav på däck för personbil, Belastningsförmåga",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-FACT-005",
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_key": "D1-ECO-005-003",
+      "fact_text": "Sparsam körning kan enligt Energimyndigheten minska bränsleförbrukning och kostnader för service och underhåll.",
+      "source_id": "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+      "exact_reference": "Åtgärder för transporter",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    },
+    {
+      "stable_key": "D1-ECO-MAINT-FACT-006",
+      "topic_id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "requirement_key": "D1-ECO-005-003",
+      "fact_text": "Förebyggande kontroll av däck, last och onödig yttre utrustning är praktiska fordonsåtgärder som stödjer god körekonomi.",
+      "source_id": "TS_SPARSAM_KORNING",
+      "exact_reference": "Sparsam körning, inledande vägledning",
+      "legal_or_guidance_status": "official_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified"
+    }
+  ]
+}

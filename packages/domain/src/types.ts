@@ -39,6 +39,15 @@ export type VisualMetadata = {
   requiresImage?: boolean;
   requiresDiagram?: boolean;
   requiresRoadScene?: boolean;
+  requiresMap?: boolean;
+  requiresRouteScenario?: boolean;
+  requiresOralRouteDescription?: boolean;
+  requiresDistanceEstimation?: boolean;
+  requiresTravelTimeCalculation?: boolean;
+  requiresArrivalTimeCalculation?: boolean;
+  requiresComparisonVisual?: boolean;
+  visualAssetId?: string;
+  visualCorrectnessDependsOnAsset?: boolean;
 };
 
 export type Course = {
@@ -124,6 +133,7 @@ export type QuestionVersion = {
   factKeys?: string[];
   sourceReferences?: { sourceId: string; exactReference: string }[];
   visualMetadata?: VisualMetadata;
+  scoringRole?: 'scored' | 'non_scoring_simulation';
   status: ContentStatus;
   createdAt: string;
   reviewedAt?: string;

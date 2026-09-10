@@ -1,0 +1,789 @@
+{
+  "metadata": {
+    "subject": "D1_ENVIRONMENT",
+    "title": "D1 environment lessons",
+    "status": "published",
+    "verified_at": "2026-09-10",
+    "note": "Source-backed mobile-first lessons for taxi-driver environmental competency."
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-ENV-IMPACT-L01",
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "title": "Fordonets miljöpåverkan",
+      "learning_objectives": [
+        "Förstå hur fordonets miljöpåverkan påverkar miljö, hälsa eller utsläpp.",
+        "Kunna välja ett taxiförarbeteende som minskar miljöpåverkan utan att försämra säkerheten."
+      ],
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-IMPACT-FACT-001",
+        "D1-ENV-IMPACT-FACT-002",
+        "D1-ENV-IMPACT-FACT-003",
+        "D1-ENV-IMPACT-FACT-004",
+        "D1-ENV-IMPACT-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 6 §",
+            "TSFS 2021:119, 3 kap. 6-9 §§"
+          ]
+        },
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_references": [
+            "Klimatet och transporterna, transporternas klimatpåverkan"
+          ]
+        },
+        {
+          "source_id": "NV_TRANSPORTER_UTSLAPP",
+          "exact_references": [
+            "Inrikes transporter, utsläpp av växthusgaser"
+          ]
+        },
+        {
+          "source_id": "NV_LUFTFORORENINGAR_EFFEKTER",
+          "exact_references": [
+            "Luftföroreningar och dess effekter, trafiken som källa"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Fordonets miljöpåverkan",
+          "fact_keys": [
+            "D1-ENV-IMPACT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+          "fact_keys": [
+            "D1-ENV-IMPACT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om hur ett fordon påverkar miljön.",
+            "Transporter påverkar klimatet främst genom utsläpp av växthusgaser från vägtrafik och andra transporter.",
+            "Huvuddelen av växthusgasutsläppen från inrikes transporter kommer från vägtrafiken, där personbilar dominerar.",
+            "Vägtrafiken ger även luftföroreningar genom avgaser och partiklar från bromsar, hjul och vägbana."
+          ],
+          "fact_keys": [
+            "D1-ENV-IMPACT-FACT-001",
+            "D1-ENV-IMPACT-FACT-002",
+            "D1-ENV-IMPACT-FACT-003",
+            "D1-ENV-IMPACT-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "En taxiförare behöver förstå vilken åtgärd som minskar utsläpp eller buller i den aktuella situationen.",
+          "fact_keys": [
+            "D1-ENV-IMPACT-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När du väljer och kör taxi påverkas miljöbelastningen av fordonets teknik, bränsle, skick och hur uppdraget körs.",
+          "fact_keys": [
+            "D1-ENV-IMPACT-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Miljöanpassad körning får aldrig bli ett skäl att bryta trafikregler eller välja ett osäkert beteende.",
+          "fact_keys": [
+            "D1-ENV-IMPACT-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara miljöeffekten, inte bara peka ut en sparsam åtgärd?",
+          "fact_keys": [
+            "D1-ENV-IMPACT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ENV-FUEL-L01",
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "title": "Motorer, bränslen och fordonsvätskor",
+      "learning_objectives": [
+        "Förstå hur motorer, bränslen och fordonsvätskor påverkar miljö, hälsa eller utsläpp.",
+        "Kunna välja ett taxiförarbeteende som minskar miljöpåverkan utan att försämra säkerheten."
+      ],
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-FUEL-FACT-001",
+        "D1-ENV-FUEL-FACT-002",
+        "D1-ENV-FUEL-FACT-003",
+        "D1-ENV-FUEL-FACT-004",
+        "D1-ENV-FUEL-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 7 § 1"
+          ]
+        },
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_references": [
+            "Klimatet och transporterna, fossil bränsleförbränning"
+          ]
+        },
+        {
+          "source_id": "EM_DRIVMEDEL",
+          "exact_references": [
+            "Statistik om biobränslen och drivmedel, drivmedlens klimatpåverkan"
+          ]
+        },
+        {
+          "source_id": "TS_AVGASER",
+          "exact_references": [
+            "Avgaser, Vad betyder utsläppsklasserna?"
+          ]
+        },
+        {
+          "source_id": "KV_HALLBART_BILAGANDE",
+          "exact_references": [
+            "Hållbart bilägande, Tvätta inte bilen på gatan"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Motorer, bränslen och fordonsvätskor",
+          "fact_keys": [
+            "D1-ENV-FUEL-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+          "fact_keys": [
+            "D1-ENV-FUEL-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om hur motorer, bränslen och andra vätskor påverkar miljö och hälsa.",
+            "Förbränning av fossila bränslen är det största bidraget till klimatförändringarna från transporter.",
+            "Drivmedlens klimatpåverkan varierar med biodrivmedelsinblandning, biodrivmedlens livscykelpåverkan och den fossila andelen.",
+            "Bensin- och dieselbilars avgasutsläpp klassas efter bland annat koloxid, kolväten, kväveoxider och partiklar."
+          ],
+          "fact_keys": [
+            "D1-ENV-FUEL-FACT-001",
+            "D1-ENV-FUEL-FACT-002",
+            "D1-ENV-FUEL-FACT-003",
+            "D1-ENV-FUEL-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "En taxiförare behöver förstå vilken åtgärd som minskar utsläpp eller buller i den aktuella situationen.",
+          "fact_keys": [
+            "D1-ENV-FUEL-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När du väljer och kör taxi påverkas miljöbelastningen av fordonets teknik, bränsle, skick och hur uppdraget körs.",
+          "fact_keys": [
+            "D1-ENV-FUEL-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Miljöanpassad körning får aldrig bli ett skäl att bryta trafikregler eller välja ett osäkert beteende.",
+          "fact_keys": [
+            "D1-ENV-FUEL-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara miljöeffekten, inte bara peka ut en sparsam åtgärd?",
+          "fact_keys": [
+            "D1-ENV-FUEL-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ENV-EXHAUST-L01",
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "title": "Avgaser och reningssystem",
+      "learning_objectives": [
+        "Förstå hur avgaser och reningssystem påverkar miljö, hälsa eller utsläpp.",
+        "Kunna välja ett taxiförarbeteende som minskar miljöpåverkan utan att försämra säkerheten."
+      ],
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-EXHAUST-FACT-001",
+        "D1-ENV-EXHAUST-FACT-002",
+        "D1-ENV-EXHAUST-FACT-003",
+        "D1-ENV-EXHAUST-FACT-004",
+        "D1-ENV-EXHAUST-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 7 § 2"
+          ]
+        },
+        {
+          "source_id": "TS_AVGASER",
+          "exact_references": [
+            "Avgaser, Vad betyder utsläppsklasserna?",
+            "Avgaser, Dagens utsläppskrav",
+            "Avgaser, dagens utsläppskrav och utsläppsklasser"
+          ]
+        },
+        {
+          "source_id": "NV_LUFTFORORENINGAR_EFFEKTER",
+          "exact_references": [
+            "Utsläpp av luftföroreningar, transportsektorns minskningar"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Avgaser och reningssystem",
+          "fact_keys": [
+            "D1-ENV-EXHAUST-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+          "fact_keys": [
+            "D1-ENV-EXHAUST-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver kunskap om hur avgasreningssystem fungerar.",
+            "Utsläppsklasserna styrs av avgasutsläpp av koloxid, kolväten, kväveoxider och partiklar; koldioxid ingår inte i själva utsläppsklassen.",
+            "Nya lätta fordon måste uppfylla Euro 6-krav för att registreras.",
+            "Katalytisk avgasrening har varit en viktig orsak till minskade utsläpp från vägtrafiken sedan 1990."
+          ],
+          "fact_keys": [
+            "D1-ENV-EXHAUST-FACT-001",
+            "D1-ENV-EXHAUST-FACT-002",
+            "D1-ENV-EXHAUST-FACT-003",
+            "D1-ENV-EXHAUST-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "En taxiförare behöver förstå vilken åtgärd som minskar utsläpp eller buller i den aktuella situationen.",
+          "fact_keys": [
+            "D1-ENV-EXHAUST-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Om bilen visar fel i avgasreningen behandlar du det som ett miljöproblem, inte bara som en servicepåminnelse.",
+          "fact_keys": [
+            "D1-ENV-EXHAUST-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Miljöanpassad körning får aldrig bli ett skäl att bryta trafikregler eller välja ett osäkert beteende.",
+          "fact_keys": [
+            "D1-ENV-EXHAUST-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara miljöeffekten, inte bara peka ut en sparsam åtgärd?",
+          "fact_keys": [
+            "D1-ENV-EXHAUST-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ENV-TYRE-L01",
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "title": "Däck och miljö",
+      "learning_objectives": [
+        "Förstå hur däck och miljö påverkar miljö, hälsa eller utsläpp.",
+        "Kunna välja ett taxiförarbeteende som minskar miljöpåverkan utan att försämra säkerheten."
+      ],
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "fact_keys": [
+        "D1-ENV-TYRE-FACT-001",
+        "D1-ENV-TYRE-FACT-002",
+        "D1-ENV-TYRE-FACT-003",
+        "D1-ENV-TYRE-FACT-004",
+        "D1-ENV-TYRE-FACT-005",
+        "D1-ENV-TYRE-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 7 § 3"
+          ]
+        },
+        {
+          "source_id": "EM_DACK_ENERGIMARKNING",
+          "exact_references": [
+            "Energimärkning av däck, den nya energimärkningen",
+            "Energimärkning av däck, Energieffektivitet på skala A-E"
+          ]
+        },
+        {
+          "source_id": "TS_DACK_PERSONBIL",
+          "exact_references": [
+            "Krav på däck för personbil, S-märkning",
+            "Krav på däck för personbil, Kolla däckens lufttryck ofta"
+          ]
+        },
+        {
+          "source_id": "TS_BULLER",
+          "exact_references": [
+            "Buller, krav på ljudnivå för däck"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Däck och miljö",
+          "fact_keys": [
+            "D1-ENV-TYRE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+          "fact_keys": [
+            "D1-ENV-TYRE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan redogöra för miljöegenskaper hos olika däcktyper.",
+            "Däckens energimärkning visar energieffektivitet, våtgrepp och buller utanför bilen.",
+            "Energiklass A på däck betyder lägst rullmotstånd och bäst energieffektivitet på skalan A-E.",
+            "Nya däck ska normalt vara S-märkta för att uppfylla bullerkrav från kontakten mellan däck och vägbana."
+          ],
+          "fact_keys": [
+            "D1-ENV-TYRE-FACT-001",
+            "D1-ENV-TYRE-FACT-002",
+            "D1-ENV-TYRE-FACT-003",
+            "D1-ENV-TYRE-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Däckval handlar både om säkerhet och miljö: rullmotstånd, buller, slitagepartiklar och vinteregenskaper måste vägas ihop.",
+          "fact_keys": [
+            "D1-ENV-TYRE-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När däcken ska bytas jämför du inte bara pris och grepp, utan även energimärkning, buller och rätt däcktryck.",
+          "fact_keys": [
+            "D1-ENV-TYRE-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Miljöanpassad körning får aldrig bli ett skäl att bryta trafikregler eller välja ett osäkert beteende.",
+          "fact_keys": [
+            "D1-ENV-TYRE-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara miljöeffekten, inte bara peka ut en sparsam åtgärd?",
+          "fact_keys": [
+            "D1-ENV-TYRE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ENV-CARE-L01",
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "title": "Miljöanpassad fordonsskötsel",
+      "learning_objectives": [
+        "Förstå hur miljöanpassad fordonsskötsel påverkar miljö, hälsa eller utsläpp.",
+        "Kunna välja ett taxiförarbeteende som minskar miljöpåverkan utan att försämra säkerheten."
+      ],
+      "requirement_keys": [
+        "D1-ENV-008-001",
+        "D1-ENV-008-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-CARE-FACT-001",
+        "D1-ENV-CARE-FACT-002",
+        "D1-ENV-CARE-FACT-003",
+        "D1-ENV-CARE-FACT-004",
+        "D1-ENV-CARE-FACT-005",
+        "D1-ENV-CARE-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 8 §",
+            "TSFS 2021:119, 3 kap. 8 §",
+            "TSFS 2021:119, 3 kap. 8 §"
+          ]
+        },
+        {
+          "source_id": "KV_HALLBART_BILAGANDE",
+          "exact_references": [
+            "Hållbart bilägande, Tvätta inte bilen på gatan"
+          ]
+        },
+        {
+          "source_id": "NV_BILSKROTNING",
+          "exact_references": [
+            "Omhändertagande av uttjänta bilar, Vad är farligt avfall?"
+          ]
+        },
+        {
+          "source_id": "NV_SPILLOLJA",
+          "exact_references": [
+            "Spillolja som bränns i alloljebrännare"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Miljöanpassad fordonsskötsel",
+          "fact_keys": [
+            "D1-ENV-CARE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+          "fact_keys": [
+            "D1-ENV-CARE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan redogöra för fordonsskötsel som minimerar miljöpåverkan.",
+            "Förarprovet kräver att föraren kan redogöra för hur restprodukter från rengöring, service och reparation tas om hand.",
+            "Biltvättmedel, partiklar, tungmetaller och olja kan hamna i dagvatten eller vattendrag om bilen tvättas på gatan.",
+            "Uttjänta bilar klassas som farligt avfall tills de tömts på farliga vätskor och komponenter."
+          ],
+          "fact_keys": [
+            "D1-ENV-CARE-FACT-001",
+            "D1-ENV-CARE-FACT-002",
+            "D1-ENV-CARE-FACT-003",
+            "D1-ENV-CARE-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Rengöring och service blir miljöfrågor när vätskor, oljerester, tungmetaller eller kemikalier riskerar att hamna i dagvatten eller natur.",
+          "fact_keys": [
+            "D1-ENV-CARE-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När bilen behöver tvättas använder du tvätthall eller anläggning avsedd för fordon, så att smutsigt vatten kan tas om hand.",
+          "fact_keys": [
+            "D1-ENV-CARE-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Miljöanpassad körning får aldrig bli ett skäl att bryta trafikregler eller välja ett osäkert beteende.",
+          "fact_keys": [
+            "D1-ENV-CARE-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara miljöeffekten, inte bara peka ut en sparsam åtgärd?",
+          "fact_keys": [
+            "D1-ENV-CARE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ENV-START-L01",
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "title": "Start, tomgång och buller",
+      "learning_objectives": [
+        "Förstå hur start, tomgång och buller påverkar miljö, hälsa eller utsläpp.",
+        "Kunna välja ett taxiförarbeteende som minskar miljöpåverkan utan att försämra säkerheten."
+      ],
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "fact_keys": [
+        "D1-ENV-START-FACT-001",
+        "D1-ENV-START-FACT-002",
+        "D1-ENV-START-FACT-003",
+        "D1-ENV-START-FACT-004",
+        "D1-ENV-START-FACT-005",
+        "D1-ENV-START-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 9 § 1",
+            "TSFS 2021:119, 3 kap. 9 § 1",
+            "TSFS 2021:119, 3 kap. 9 § 1",
+            "TSFS 2021:119, 3 kap. 9 § 1"
+          ]
+        },
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_references": [
+            "Sparsam körning, inledande vägledning"
+          ]
+        },
+        {
+          "source_id": "TS_BULLER",
+          "exact_references": [
+            "Buller, trafikbuller och hälsa"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Start, tomgång och buller",
+          "fact_keys": [
+            "D1-ENV-START-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+          "fact_keys": [
+            "D1-ENV-START-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan bedöma miljöeffekter av kallstart, varmstart, motorvärmare, tomgång och buller.",
+            "Kallstart ger större miljöbelastning än varmstart eftersom motorn och avgasreningen inte har nått effektiv drift direkt.",
+            "Motorvärmare är relevant därför att den kan minska kallstartens miljöeffekt när den används ändamålsenligt.",
+            "Hur bilen körs har stor betydelse för utsläpp och buller."
+          ],
+          "fact_keys": [
+            "D1-ENV-START-FACT-001",
+            "D1-ENV-START-FACT-002",
+            "D1-ENV-START-FACT-003",
+            "D1-ENV-START-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "En taxiförare behöver förstå vilken åtgärd som minskar utsläpp eller buller i den aktuella situationen.",
+          "fact_keys": [
+            "D1-ENV-START-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Vid väntan på kund stänger du av motorn när bilen inte behöver vara igång. Det minskar utsläpp och buller på platsen.",
+          "fact_keys": [
+            "D1-ENV-START-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Miljöanpassad körning får aldrig bli ett skäl att bryta trafikregler eller välja ett osäkert beteende.",
+          "fact_keys": [
+            "D1-ENV-START-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara miljöeffekten, inte bara peka ut en sparsam åtgärd?",
+          "fact_keys": [
+            "D1-ENV-START-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-ENV-DRIVE-L01",
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "title": "Körsätt och vägval",
+      "learning_objectives": [
+        "Förstå hur körsätt och vägval påverkar miljö, hälsa eller utsläpp.",
+        "Kunna välja ett taxiförarbeteende som minskar miljöpåverkan utan att försämra säkerheten."
+      ],
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "fact_keys": [
+        "D1-ENV-DRIVE-FACT-001",
+        "D1-ENV-DRIVE-FACT-002",
+        "D1-ENV-DRIVE-FACT-003",
+        "D1-ENV-DRIVE-FACT-004",
+        "D1-ENV-DRIVE-FACT-005",
+        "D1-ENV-DRIVE-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 9 § 2",
+            "TSFS 2021:119, 3 kap. 9 § 2",
+            "TSFS 2021:119, 3 kap. 9 § 2"
+          ]
+        },
+        {
+          "source_id": "TS_SPARSAM_KORNING",
+          "exact_references": [
+            "Sparsam körning, hastighet och bränsleförbrukning"
+          ]
+        },
+        {
+          "source_id": "TRV_HASTIGHET_HALLBARHET",
+          "exact_references": [
+            "Hastighet och hållbarhet, hastighetens betydelse"
+          ]
+        },
+        {
+          "source_id": "NV_TRANSPORTER_KLIMAT",
+          "exact_references": [
+            "Klimatet och transporterna, Hur kan transporters klimatpåverkan minska?"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Körsätt och vägval",
+          "fact_keys": [
+            "D1-ENV-DRIVE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+          "fact_keys": [
+            "D1-ENV-DRIVE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Förarprovet kräver att föraren kan bedöma hur hastighet, växelval, acceleration, planerad körning och vägval påverkar bränsleförbrukning och miljö.",
+            "Högre hastighet ökar bränsleförbrukningen och ger därmed större utsläpp från fordon som använder förbränningsbränsle.",
+            "Trafikverket beskriver att högre hastigheter ger högre bränsleförbrukning och mer koldioxidutsläpp.",
+            "Planerad körning kan minska onödiga stopp, accelerationer och omvägar som ökar bränsleförbrukning och miljöbelastning."
+          ],
+          "fact_keys": [
+            "D1-ENV-DRIVE-FACT-001",
+            "D1-ENV-DRIVE-FACT-002",
+            "D1-ENV-DRIVE-FACT-003",
+            "D1-ENV-DRIVE-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "En taxiförare behöver förstå vilken åtgärd som minskar utsläpp eller buller i den aktuella situationen.",
+          "fact_keys": [
+            "D1-ENV-DRIVE-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Du väljer en jämnare väg med färre stopp i stället för en något kortare men ryckig väg genom tät trafik. Miljövinsten ligger i färre onödiga accelerationer och lägre förbrukning.",
+          "fact_keys": [
+            "D1-ENV-DRIVE-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Miljöanpassad körning får aldrig bli ett skäl att bryta trafikregler eller välja ett osäkert beteende.",
+          "fact_keys": [
+            "D1-ENV-DRIVE-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du förklara miljöeffekten, inte bara peka ut en sparsam åtgärd?",
+          "fact_keys": [
+            "D1-ENV-DRIVE-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

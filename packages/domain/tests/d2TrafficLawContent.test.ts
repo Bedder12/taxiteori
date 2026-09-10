@@ -8,6 +8,7 @@ import {
   createAttemptSnapshot,
   getD2StudyState,
   selectCheckpointQuestions,
+  selectDisplayedQuestionsForBlueprint,
   selectQuestionsForBlueprint,
   selectSubjectCheckpointQuestions,
 } from '../src';
@@ -326,6 +327,20 @@ export function testD2FullMockExamBlueprintMatchesOfficialScoring() {
   assert.equal(blueprint!.passingScore, 34);
   assert.equal(blueprint!.timeLimitSeconds, 3000);
   assert.match(blueprint!.label ?? '', /not an official Trafikverket exam/);
+
+  for (const seed of ['mock-1', 'mock-2', 'mock-3']) {
+    const displayed = selectDisplayedQuestionsForBlueprint(blueprint!, d2TaxiLawRepository.questionVersions, { seed });
+    const scored = displayed.filter((question) => question.scoringRole === 'scored');
+    const nonScoring = displayed.filter((question) => question.scoringRole === 'non_scoring_simulation');
+
+    assert.equal(displayed.length, 50);
+    assert.equal(scored.length, 46);
+    assert.equal(nonScoring.length, 4);
+    assert.equal(new Set(displayed.map((question) => question.id)).size, 50);
+    assert.equal(scored.filter((question) => question.subjectId === 'subject_d2_taxitrafiklagstiftning').length, 23);
+    assert.equal(scored.filter((question) => question.subjectId === 'subject_d2_trafiklagstiftning').length, 23);
+    assert.ok(new Set(scored.map((question) => question.topicId)).size >= 10);
+  }
 }
 
 export function testD2FullMockQuestionVersionsFreezeAtAttemptStart() {
@@ -393,7 +408,7 @@ export function testD2StudyStateKeepsCompletionMasteryAndMockPerformanceSeparate
     repository: d2TaxiLawRepository,
     userId: 'user_1',
     facts: [
-      completeLessonFact('user_1', d2TaxiLawRepository.lessons[0].id),
+      completeLessonFact('user_1', d2TaxiLawRepository.lessons.find((lesson) => lesson.topicId.startsWith('topic_d2_'))!.id),
       completedAttemptFact(checkpointAttempt),
       completedAttemptFact(mockAttempt),
     ],

@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "subject": "D1_VEHICLE_KNOWLEDGE",
+    "title": "D1 vehicle knowledge visual asset manifest",
+    "status": "placeholder_metadata",
+    "created_at": "2026-09-10",
+    "note": "Structured placeholders only. No copyrighted visual assets are included."
+  },
+  "visuals": [
+    {
+      "visual_id": "veh_component_overview",
+      "visual_type": "component_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Fordonets uppbyggnad",
+      "elements_must_be_shown": [
+        "motor/drivlina",
+        "styrning",
+        "bromsar",
+        "elsystem",
+        "hjul/däck"
+      ],
+      "labels_required": [
+        "motor/drivlina",
+        "styrning",
+        "bromsar",
+        "elsystem",
+        "hjul/däck"
+      ],
+      "requirement_keys": [
+        "D1-VEH-023-001"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_defect_decision_tree",
+      "visual_type": "component_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Felbedömning och åtgärd",
+      "elements_must_be_shown": [
+        "kör vidare",
+        "åtgärda snarast",
+        "avbryt körning",
+        "verkstad/bärgning"
+      ],
+      "labels_required": [
+        "kör vidare",
+        "åtgärda snarast",
+        "avbryt körning",
+        "verkstad/bärgning"
+      ],
+      "requirement_keys": [
+        "D1-VEH-023-002"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_dashboard_warning_symbols",
+      "visual_type": "dashboard_warning_symbol_image",
+      "status": "placeholder_metadata",
+      "purpose": "Varningsindikeringar",
+      "elements_must_be_shown": [
+        "röd varning",
+        "gul varning",
+        "broms",
+        "batteri/laddning",
+        "motor/avgas"
+      ],
+      "labels_required": [
+        "röd varning",
+        "gul varning",
+        "broms",
+        "batteri/laddning",
+        "motor/avgas"
+      ],
+      "requirement_keys": [
+        "D1-VEH-024-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_fluid_reservoirs",
+      "visual_type": "fluid_reservoir_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Vätskor och läckage",
+      "elements_must_be_shown": [
+        "olja",
+        "kylvätska",
+        "bromsvätska",
+        "spolarvätska",
+        "läckage under bil"
+      ],
+      "labels_required": [
+        "olja",
+        "kylvätska",
+        "bromsvätska",
+        "spolarvätska",
+        "läckage under bil"
+      ],
+      "requirement_keys": [
+        "D1-VEH-025-001",
+        "D1-VEH-025-003"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_fuse_panel",
+      "visual_type": "component_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Säkringar",
+      "elements_must_be_shown": [
+        "säkringshållare",
+        "amperetal",
+        "instruktionsbok/schema"
+      ],
+      "labels_required": [
+        "säkringshållare",
+        "amperetal",
+        "instruktionsbok/schema"
+      ],
+      "requirement_keys": [
+        "D1-VEH-026-001"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_battery_jump_start",
+      "visual_type": "battery_jump_start_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Batteri och startkablar",
+      "elements_must_be_shown": [
+        "plus/minus",
+        "jordpunkt",
+        "skadad kabel",
+        "gnistrisk"
+      ],
+      "labels_required": [
+        "plus/minus",
+        "jordpunkt",
+        "skadad kabel",
+        "gnistrisk"
+      ],
+      "requirement_keys": [
+        "D1-VEH-026-002",
+        "D1-VEH-026-003"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_drivetrain_types",
+      "visual_type": "drivetrain_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Fram-, bak- och fyrhjulsdrift",
+      "elements_must_be_shown": [
+        "framdrift",
+        "bakdrift",
+        "fyrhjulsdrift",
+        "väglag"
+      ],
+      "labels_required": [
+        "framdrift",
+        "bakdrift",
+        "fyrhjulsdrift",
+        "väglag"
+      ],
+      "requirement_keys": [
+        "D1-VEH-027-004A"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_steering_system",
+      "visual_type": "steering_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Styrning och fel",
+      "elements_must_be_shown": [
+        "ratt",
+        "hjulupphängning",
+        "glapp",
+        "sidodragning"
+      ],
+      "labels_required": [
+        "ratt",
+        "hjulupphängning",
+        "glapp",
+        "sidodragning"
+      ],
+      "requirement_keys": [
+        "D1-VEH-027-001",
+        "D1-VEH-027-002"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_brake_system",
+      "visual_type": "brake_system_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Bromssystem",
+      "elements_must_be_shown": [
+        "pedal",
+        "bromsvätska",
+        "bromsskiva",
+        "bromsbelägg",
+        "ojämn bromsverkan"
+      ],
+      "labels_required": [
+        "pedal",
+        "bromsvätska",
+        "bromsskiva",
+        "bromsbelägg",
+        "ojämn bromsverkan"
+      ],
+      "requirement_keys": [
+        "D1-VEH-028-001"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_wheel_change_safety",
+      "visual_type": "component_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Säkert hjulbyte",
+      "elements_must_be_shown": [
+        "plan yta",
+        "domkraftspunkt",
+        "hjulbultar",
+        "efterkontroll"
+      ],
+      "labels_required": [
+        "plan yta",
+        "domkraftspunkt",
+        "hjulbultar",
+        "efterkontroll"
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-002",
+        "D1-VEH-029-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_tyre_wear_patterns",
+      "visual_type": "tyre_wear_pattern",
+      "status": "placeholder_metadata",
+      "purpose": "Däckslitage",
+      "elements_must_be_shown": [
+        "mittslitage",
+        "kantsslitage",
+        "ojämnt slitage",
+        "lufttryck"
+      ],
+      "labels_required": [
+        "mittslitage",
+        "kantsslitage",
+        "ojämnt slitage",
+        "lufttryck"
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-001",
+        "D1-VEH-029-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_tyre_sidewall",
+      "visual_type": "tyre_sidewall_illustration",
+      "status": "placeholder_metadata",
+      "purpose": "Däckmärkning",
+      "elements_must_be_shown": [
+        "dimension",
+        "belastningskod",
+        "hastighetskod",
+        "E-märkning"
+      ],
+      "labels_required": [
+        "dimension",
+        "belastningskod",
+        "hastighetskod",
+        "E-märkning"
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-006",
+        "D1-VEH-029-007E"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    },
+    {
+      "visual_id": "veh_tread_depth_winter",
+      "visual_type": "tread_depth_illustration",
+      "status": "placeholder_metadata",
+      "purpose": "Mönsterdjup och vinterdäck",
+      "elements_must_be_shown": [
+        "1,6 mm",
+        "3 mm",
+        "alptopp/snöflinga",
+        "dubbdäcksperiod"
+      ],
+      "labels_required": [
+        "1,6 mm",
+        "3 mm",
+        "alptopp/snöflinga",
+        "dubbdäcksperiod"
+      ],
+      "requirement_keys": [
+        "D1-VEH-029-007A",
+        "D1-VEH-029-007B",
+        "D1-VEH-029-007C"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not use copyrighted theory-book diagrams."
+    }
+  ]
+}

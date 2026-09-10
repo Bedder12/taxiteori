@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "subject": "D1_NAVIGATION",
+    "title": "D1 navigation verified facts",
+    "verified_at": "2026-09-10",
+    "status": "verified",
+    "policy": "Every statement used by lessons and questions must reference one or more fact stable keys."
+  },
+  "sources": [
+    {
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "authority": "Transportstyrelsen",
+      "source_type": "primary_legal_source",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+      "current_validity": "TSFS 2021:119, 3 kap. 2-3 §§; verified 2026-09-10. Primary curriculum authority for D1 Navigering requirements."
+    },
+    {
+      "source_id": "LANTMATERIET_MIN_KARTA",
+      "source_title": "Min karta",
+      "authority": "Lantmäteriet",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/?epslanguage=sv",
+      "current_validity": "Official map service guidance; verified 2026-09-10. Official source for map-tool capabilities used as practical navigation support. No copyrighted map screenshots are embedded."
+    },
+    {
+      "source_id": "LANTMATERIET_MIN_KARTA_HELP",
+      "source_title": "Hjälp och tips till Min karta",
+      "authority": "Lantmäteriet",
+      "source_type": "official_explanatory_source",
+      "url": "https://www2.lantmateriet.se/sv/kartor/vara-karttjanster/min-karta/hjalp-och-tips-till-min-karta/",
+      "current_validity": "Official map service help; verified 2026-09-10. Official support for search, position and layer use in navigation scenarios."
+    },
+    {
+      "source_id": "TRAFIKVERKET_TRAFFIC_MAP",
+      "source_title": "Trafikinformation vägkarta",
+      "authority": "Trafikverket",
+      "source_type": "official_explanatory_source",
+      "url": "https://www.trafikverket.se/trafikinformation/vag/",
+      "current_validity": "Official traffic information map; verified 2026-09-10. Official source for live road information useful when planning efficient taxi routes."
+    }
+  ],
+  "facts": [
+    {
+      "stable_key": "D1-NAV-TOOLS-FACT-001",
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_key": "D1-NAV-002-001",
+      "fact_text": "Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 2 §",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-FACT-002",
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_key": "D1-NAV-003-001",
+      "fact_text": "Förarprovet kräver kännedom om hjälpmedel för färdplanering.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 1",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-FACT-003",
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_key": "D1-NAV-002-001",
+      "fact_text": "Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige.",
+      "source_id": "LANTMATERIET_MIN_KARTA",
+      "exact_reference": "Min karta, Det här kan du göra i Min karta",
+      "legal_status": "official_practical_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-FACT-004",
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_key": "D1-NAV-002-001",
+      "fact_text": "Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala.",
+      "source_id": "LANTMATERIET_MIN_KARTA",
+      "exact_reference": "Min karta, Det här kan du göra i Min karta",
+      "legal_status": "official_practical_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-FACT-005",
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_key": "D1-NAV-002-001",
+      "fact_text": "Trafikverkets vägkarta kan visa trafikläget, vägarbeten, restriktioner, rastplatser, vägväder, vägfärjor och väglagsinformation.",
+      "source_id": "TRAFIKVERKET_TRAFFIC_MAP",
+      "exact_reference": "Trafikinformation vägkarta, Hjälp om kartan",
+      "legal_status": "official_practical_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-FACT-001",
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_key": "D1-NAV-003-002",
+      "fact_text": "Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-FACT-002",
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_key": "D1-NAV-003-003",
+      "fact_text": "Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-FACT-003",
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_key": "D1-NAV-003-004",
+      "fact_text": "Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-FACT-004",
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_key": "D1-NAV-003-002",
+      "fact_text": "En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-FACT-005",
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_key": "D1-NAV-003-003",
+      "fact_text": "Kompletterande frågor bör klargöra osäkra hållpunkter, gatunamn, infart, entré eller önskad påstignings- och avstigningsplats.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-MAP-FACT-001",
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_key": "D1-NAV-003-005",
+      "fact_text": "Förarprovet kräver att föraren kan hitta och använda navigeringsinformation.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 a",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-MAP-FACT-002",
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_key": "D1-NAV-003-006",
+      "fact_text": "Förarprovet kräver att föraren kan lokalisera rätt kartbild.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-MAP-FACT-003",
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_key": "D1-NAV-003-007",
+      "fact_text": "Förarprovet kräver att föraren kan avläsa en kartbild korrekt.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-MAP-FACT-004",
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_key": "D1-NAV-003-008",
+      "fact_text": "Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 c",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-MAP-FACT-005",
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_key": "D1-NAV-003-006",
+      "fact_text": "En rätt kartbild väljs genom att matcha plats, riktning, skala och relevanta hållpunkter med uppdraget.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-MAP-FACT-006",
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_key": "D1-NAV-003-008",
+      "fact_text": "Kartlager och teckenförklaringar hjälper föraren att tolka vägar, bebyggelse, hinder, vatten, grönområden och andra kartobjekt.",
+      "source_id": "LANTMATERIET_MIN_KARTA_HELP",
+      "exact_reference": "Hjälp och tips till Min karta, Välj kartlager",
+      "legal_status": "official_practical_guidance",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      }
+    },
+    {
+      "stable_key": "D1-NAV-CALC-FACT-001",
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_key": "D1-NAV-003-009",
+      "fact_text": "Förarprovet kräver att föraren kan bedöma avstånd.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      }
+    },
+    {
+      "stable_key": "D1-NAV-CALC-FACT-002",
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_key": "D1-NAV-003-010A",
+      "fact_text": "Förarprovet kräver att föraren kan beräkna restid.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      }
+    },
+    {
+      "stable_key": "D1-NAV-CALC-FACT-003",
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_key": "D1-NAV-003-010B",
+      "fact_text": "Förarprovet kräver att föraren kan beräkna ankomsttid.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      }
+    },
+    {
+      "stable_key": "D1-NAV-CALC-FACT-004",
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_key": "D1-NAV-003-010A",
+      "fact_text": "Restid kan beräknas som avstånd dividerat med genomsnittlig hastighet när avstånd och hastighet är givna i uppgiften.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      }
+    },
+    {
+      "stable_key": "D1-NAV-CALC-FACT-005",
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_key": "D1-NAV-003-010B",
+      "fact_text": "Ankomsttid beräknas genom att lägga beräknad restid till avgångstid och ta hänsyn till minuter som passerar hel timme.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      }
+    },
+    {
+      "stable_key": "D1-NAV-CALC-FACT-006",
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_key": "D1-NAV-003-009",
+      "fact_text": "När en karta eller uppgift anger delsträckor kan total sträcka bedömas genom att delsträckorna summeras.",
+      "source_id": "TSFS_2021_119_CONSOLIDATED",
+      "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d",
+      "legal_status": "binding_curriculum_requirement",
+      "verified_at": "2026-09-10",
+      "verification_status": "verified",
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "metadata": {
+    "subject": "D1_ENVIRONMENT",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map for TSFS 2021:119, 3 kap. 6-9 §§.",
+    "created_at": "2026-09-10",
+    "last_verified_at": "2026-09-10"
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+      "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 Miljö requirements."
+    },
+    {
+      "source_key": "TS_AVGASER",
+      "source_title": "Avgaser",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official guidance on vehicle exhaust emissions and emission classes",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Miljo/Luftkvaliet-i-tatorter/Avgaser/",
+      "relevant_chapter_section": "Emission classes, CO, HC, NOx, particles, Euro 5/Euro 6 and exhaust requirements",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for exhaust emissions, emission classes and vehicle choice; senast uppdaterad 2025-08-28."
+    },
+    {
+      "source_key": "TS_BULLER",
+      "source_title": "Buller",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official guidance on traffic noise, vehicle noise and tyre noise",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/",
+      "relevant_chapter_section": "Traffic noise health effects, electric vehicles at low speed, tyre/road noise and S-marking",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for vehicle and tyre noise; senast uppdaterad 2026-06-23."
+    },
+    {
+      "source_key": "TS_DACK_PERSONBIL",
+      "source_title": "Krav på däck för personbil",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official vehicle/tire guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+      "relevant_chapter_section": "E-marking, S-marking, tyre types, load capacity and tyre pressure",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for tyre rules and tyre pressure; senast uppdaterad 2025-11-11."
+    },
+    {
+      "source_key": "EM_DACK_ENERGIMARKNING",
+      "source_title": "Energimärkning av däck",
+      "source_type": "official_explanatory_source",
+      "authority": "Energimyndigheten",
+      "legal_reference": "Official guidance on EU tyre energy labelling",
+      "url": "https://www.energimyndigheten.se/effektiv-energianvandning/hushall/nar-du-ska-kopa-nya-produkter/produkter-med-energimarkning/dack/energimarkning-av-dack/",
+      "relevant_chapter_section": "Energy efficiency, wet grip, snow/ice grip and external rolling noise",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for environmental properties of tyre types and labels."
+    },
+    {
+      "source_key": "NV_LUFTFORORENINGAR_EFFEKTER",
+      "source_title": "Luftföroreningar och dess effekter",
+      "source_type": "official_explanatory_source",
+      "authority": "Naturvårdsverket",
+      "legal_reference": "Official guidance on air pollution health and environmental effects",
+      "url": "https://www.naturvardsverket.se/amnesomraden/luft/luftfororeningar-och-dess-effekter/",
+      "relevant_chapter_section": "Traffic as source of gases and particles; health and environmental effects",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for air pollution effects; granskad 2026-03-19."
+    },
+    {
+      "source_key": "NV_TRANSPORTER_KLIMAT",
+      "source_title": "Klimatet och transporterna",
+      "source_type": "official_explanatory_source",
+      "authority": "Naturvårdsverket",
+      "legal_reference": "Official climate guidance for transport",
+      "url": "https://www.naturvardsverket.se/amnesomraden/klimatomstallningen/omraden/klimatet-och-transporterna/",
+      "relevant_chapter_section": "Transport climate impact, traffic volume, energy efficiency, fossil-free fuels and electrification",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for transport climate impact; granskad 2025-08-11."
+    },
+    {
+      "source_key": "NV_TRANSPORTER_UTSLAPP",
+      "source_title": "Inrikes transporter, utsläpp av växthusgaser",
+      "source_type": "official_statistics_source",
+      "authority": "Naturvårdsverket",
+      "legal_reference": "Official statistics on greenhouse gas emissions from domestic transport",
+      "url": "https://www.naturvardsverket.se/data-och-statistik/klimat/vaxthusgaser-utslapp-fran-inrikes-transporter/",
+      "relevant_chapter_section": "Road traffic, passenger cars, traffic volume, biofuels, vehicle efficiency and electrification",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official statistics source; granskad 2026-06-17."
+    },
+    {
+      "source_key": "EM_DRIVMEDEL",
+      "source_title": "Statistik om biobränslen och drivmedel",
+      "source_type": "official_statistics_source",
+      "authority": "Energimyndigheten",
+      "legal_reference": "Official statistics and guidance on fuels and greenhouse gas intensity",
+      "url": "https://www.energimyndigheten.se/statistik/ovrig-energistatistik/statistik-om-biobranslen-och-drivmedel/",
+      "relevant_chapter_section": "Fuel greenhouse gas emissions, renewable share, biofuel blending and lifecycle perspective",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official energy authority source; senast uppdaterad 2025-06-04."
+    },
+    {
+      "source_key": "TS_SPARSAM_KORNING",
+      "source_title": "Sparsam körning",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official guidance on economical/environmental driving",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+      "relevant_chapter_section": "Driving style, emissions, noise, tyre pressure, speed and fuel consumption",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official guidance page; senast uppdaterad 2026-08-26."
+    },
+    {
+      "source_key": "TRV_HASTIGHET_HALLBARHET",
+      "source_title": "Hastighet och hållbarhet",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official road-safety and sustainability guidance",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+      "relevant_chapter_section": "Relationship between speed, fuel consumption and carbon dioxide emissions",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official explanatory source for speed, fuel use and emissions; senast uppdaterad 2022-03-31."
+    },
+    {
+      "source_key": "KV_HALLBART_BILAGANDE",
+      "source_title": "Hållbart bilägande",
+      "source_type": "official_explanatory_source",
+      "authority": "Konsumentverket",
+      "legal_reference": "Official consumer guidance on sustainable car ownership",
+      "url": "https://www.konsumentverket.se/miljo-och-hallbarhet/hallbart-bilagande/",
+      "relevant_chapter_section": "Do not wash the car on the street; chemicals, particles, heavy metals and oil",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official consumer authority source for vehicle cleaning and runoff."
+    },
+    {
+      "source_key": "NV_BILSKROTNING",
+      "source_title": "Omhändertagande av uttjänta bilar",
+      "source_type": "official_explanatory_source",
+      "authority": "Naturvårdsverket",
+      "legal_reference": "Official guidance on end-of-life vehicles and hazardous waste",
+      "url": "https://www.naturvardsverket.se/vagledning-och-stod/avfall/bilskrotning/",
+      "relevant_chapter_section": "End-of-life vehicles as hazardous waste; oils, batteries, electronics and metals",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for hazardous vehicle components and waste handling."
+    },
+    {
+      "source_key": "NV_SPILLOLJA",
+      "source_title": "Spillolja som bränns i alloljebrännare",
+      "source_type": "official_explanatory_source",
+      "authority": "Naturvårdsverket",
+      "legal_reference": "Official guidance on waste oil as hazardous waste",
+      "url": "https://prod-egp.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/forbranningsanlaggningar/avfallsforbranning/spillolja-som-branns-i-alloljebrannare/",
+      "relevant_chapter_section": "Waste oil contains pollutants and is hazardous waste",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for waste oil environmental handling; granskad 2026-01-16."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-ENV-006-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 6 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "NV_TRANSPORTER_KLIMAT",
+          "source_title": "Klimatet och transporterna",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official climate guidance for transport",
+          "url": "https://www.naturvardsverket.se/amnesomraden/klimatomstallningen/omraden/klimatet-och-transporterna/",
+          "relevant_chapter_section": "Transport climate impact, traffic volume, energy efficiency, fossil-free fuels and electrification",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for transport climate impact; granskad 2025-08-11."
+        },
+        {
+          "source_key": "NV_TRANSPORTER_UTSLAPP",
+          "source_title": "Inrikes transporter, utsläpp av växthusgaser",
+          "source_type": "official_statistics_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official statistics on greenhouse gas emissions from domestic transport",
+          "url": "https://www.naturvardsverket.se/data-och-statistik/klimat/vaxthusgaser-utslapp-fran-inrikes-transporter/",
+          "relevant_chapter_section": "Road traffic, passenger cars, traffic volume, biofuels, vehicle efficiency and electrification",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official statistics source; granskad 2026-06-17."
+        },
+        {
+          "source_key": "NV_LUFTFORORENINGAR_EFFEKTER",
+          "source_title": "Luftföroreningar och dess effekter",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official guidance on air pollution health and environmental effects",
+          "url": "https://www.naturvardsverket.se/amnesomraden/luft/luftfororeningar-och-dess-effekter/",
+          "relevant_chapter_section": "Traffic as source of gases and particles; health and environmental effects",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for air pollution effects; granskad 2026-03-19."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ENV-007-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 7 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "TS_AVGASER",
+          "source_title": "Avgaser",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on vehicle exhaust emissions and emission classes",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Miljo/Luftkvaliet-i-tatorter/Avgaser/",
+          "relevant_chapter_section": "Emission classes, CO, HC, NOx, particles, Euro 5/Euro 6 and exhaust requirements",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for exhaust emissions, emission classes and vehicle choice; senast uppdaterad 2025-08-28."
+        },
+        {
+          "source_key": "NV_TRANSPORTER_KLIMAT",
+          "source_title": "Klimatet och transporterna",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official climate guidance for transport",
+          "url": "https://www.naturvardsverket.se/amnesomraden/klimatomstallningen/omraden/klimatet-och-transporterna/",
+          "relevant_chapter_section": "Transport climate impact, traffic volume, energy efficiency, fossil-free fuels and electrification",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for transport climate impact; granskad 2025-08-11."
+        },
+        {
+          "source_key": "EM_DRIVMEDEL",
+          "source_title": "Statistik om biobränslen och drivmedel",
+          "source_type": "official_statistics_source",
+          "authority": "Energimyndigheten",
+          "legal_reference": "Official statistics and guidance on fuels and greenhouse gas intensity",
+          "url": "https://www.energimyndigheten.se/statistik/ovrig-energistatistik/statistik-om-biobranslen-och-drivmedel/",
+          "relevant_chapter_section": "Fuel greenhouse gas emissions, renewable share, biofuel blending and lifecycle perspective",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official energy authority source; senast uppdaterad 2025-06-04."
+        },
+        {
+          "source_key": "KV_HALLBART_BILAGANDE",
+          "source_title": "Hållbart bilägande",
+          "source_type": "official_explanatory_source",
+          "authority": "Konsumentverket",
+          "legal_reference": "Official consumer guidance on sustainable car ownership",
+          "url": "https://www.konsumentverket.se/miljo-och-hallbarhet/hallbart-bilagande/",
+          "relevant_chapter_section": "Do not wash the car on the street; chemicals, particles, heavy metals and oil",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official consumer authority source for vehicle cleaning and runoff."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ENV-007-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 7 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "TS_AVGASER",
+          "source_title": "Avgaser",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on vehicle exhaust emissions and emission classes",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Miljo/Luftkvaliet-i-tatorter/Avgaser/",
+          "relevant_chapter_section": "Emission classes, CO, HC, NOx, particles, Euro 5/Euro 6 and exhaust requirements",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for exhaust emissions, emission classes and vehicle choice; senast uppdaterad 2025-08-28."
+        },
+        {
+          "source_key": "NV_LUFTFORORENINGAR_EFFEKTER",
+          "source_title": "Luftföroreningar och dess effekter",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official guidance on air pollution health and environmental effects",
+          "url": "https://www.naturvardsverket.se/amnesomraden/luft/luftfororeningar-och-dess-effekter/",
+          "relevant_chapter_section": "Traffic as source of gases and particles; health and environmental effects",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for air pollution effects; granskad 2026-03-19."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ENV-007-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 7 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "TS_DACK_PERSONBIL",
+          "source_title": "Krav på däck för personbil",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official vehicle/tire guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/Dackbyte-pa-personbil/",
+          "relevant_chapter_section": "E-marking, S-marking, tyre types, load capacity and tyre pressure",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for tyre rules and tyre pressure; senast uppdaterad 2025-11-11."
+        },
+        {
+          "source_key": "EM_DACK_ENERGIMARKNING",
+          "source_title": "Energimärkning av däck",
+          "source_type": "official_explanatory_source",
+          "authority": "Energimyndigheten",
+          "legal_reference": "Official guidance on EU tyre energy labelling",
+          "url": "https://www.energimyndigheten.se/effektiv-energianvandning/hushall/nar-du-ska-kopa-nya-produkter/produkter-med-energimarkning/dack/energimarkning-av-dack/",
+          "relevant_chapter_section": "Energy efficiency, wet grip, snow/ice grip and external rolling noise",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for environmental properties of tyre types and labels."
+        },
+        {
+          "source_key": "TS_BULLER",
+          "source_title": "Buller",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on traffic noise, vehicle noise and tyre noise",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/",
+          "relevant_chapter_section": "Traffic noise health effects, electric vehicles at low speed, tyre/road noise and S-marking",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for vehicle and tyre noise; senast uppdaterad 2026-06-23."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ENV-008-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 8 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "KV_HALLBART_BILAGANDE",
+          "source_title": "Hållbart bilägande",
+          "source_type": "official_explanatory_source",
+          "authority": "Konsumentverket",
+          "legal_reference": "Official consumer guidance on sustainable car ownership",
+          "url": "https://www.konsumentverket.se/miljo-och-hallbarhet/hallbart-bilagande/",
+          "relevant_chapter_section": "Do not wash the car on the street; chemicals, particles, heavy metals and oil",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official consumer authority source for vehicle cleaning and runoff."
+        },
+        {
+          "source_key": "NV_BILSKROTNING",
+          "source_title": "Omhändertagande av uttjänta bilar",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official guidance on end-of-life vehicles and hazardous waste",
+          "url": "https://www.naturvardsverket.se/vagledning-och-stod/avfall/bilskrotning/",
+          "relevant_chapter_section": "End-of-life vehicles as hazardous waste; oils, batteries, electronics and metals",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for hazardous vehicle components and waste handling."
+        },
+        {
+          "source_key": "NV_SPILLOLJA",
+          "source_title": "Spillolja som bränns i alloljebrännare",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official guidance on waste oil as hazardous waste",
+          "url": "https://prod-egp.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/forbranningsanlaggningar/avfallsforbranning/spillolja-som-branns-i-alloljebrannare/",
+          "relevant_chapter_section": "Waste oil contains pollutants and is hazardous waste",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for waste oil environmental handling; granskad 2026-01-16."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ENV-008-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 8 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "KV_HALLBART_BILAGANDE",
+          "source_title": "Hållbart bilägande",
+          "source_type": "official_explanatory_source",
+          "authority": "Konsumentverket",
+          "legal_reference": "Official consumer guidance on sustainable car ownership",
+          "url": "https://www.konsumentverket.se/miljo-och-hallbarhet/hallbart-bilagande/",
+          "relevant_chapter_section": "Do not wash the car on the street; chemicals, particles, heavy metals and oil",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official consumer authority source for vehicle cleaning and runoff."
+        },
+        {
+          "source_key": "NV_BILSKROTNING",
+          "source_title": "Omhändertagande av uttjänta bilar",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official guidance on end-of-life vehicles and hazardous waste",
+          "url": "https://www.naturvardsverket.se/vagledning-och-stod/avfall/bilskrotning/",
+          "relevant_chapter_section": "End-of-life vehicles as hazardous waste; oils, batteries, electronics and metals",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for hazardous vehicle components and waste handling."
+        },
+        {
+          "source_key": "NV_SPILLOLJA",
+          "source_title": "Spillolja som bränns i alloljebrännare",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official guidance on waste oil as hazardous waste",
+          "url": "https://prod-egp.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/forbranningsanlaggningar/avfallsforbranning/spillolja-som-branns-i-alloljebrannare/",
+          "relevant_chapter_section": "Waste oil contains pollutants and is hazardous waste",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for waste oil environmental handling; granskad 2026-01-16."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ENV-009-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 9 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "TS_SPARSAM_KORNING",
+          "source_title": "Sparsam körning",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on economical/environmental driving",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "relevant_chapter_section": "Driving style, emissions, noise, tyre pressure, speed and fuel consumption",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official guidance page; senast uppdaterad 2026-08-26."
+        },
+        {
+          "source_key": "TS_BULLER",
+          "source_title": "Buller",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on traffic noise, vehicle noise and tyre noise",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/",
+          "relevant_chapter_section": "Traffic noise health effects, electric vehicles at low speed, tyre/road noise and S-marking",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for vehicle and tyre noise; senast uppdaterad 2026-06-23."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-ENV-009-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 9 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 6-9 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/ts-foreskrifter-i-nummerordning/2011/details?RuleNumber=2021%3A119&RulePrefix=TSFS",
+          "relevant_chapter_section": "3 kap. 6 §, 7 § 1-3, 8 § och 9 § 1-2",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Miljö requirements."
+        },
+        {
+          "source_key": "TS_SPARSAM_KORNING",
+          "source_title": "Sparsam körning",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on economical/environmental driving",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "relevant_chapter_section": "Driving style, emissions, noise, tyre pressure, speed and fuel consumption",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official guidance page; senast uppdaterad 2026-08-26."
+        },
+        {
+          "source_key": "TRV_HASTIGHET_HALLBARHET",
+          "source_title": "Hastighet och hållbarhet",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety and sustainability guidance",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+          "relevant_chapter_section": "Relationship between speed, fuel consumption and carbon dioxide emissions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official explanatory source for speed, fuel use and emissions; senast uppdaterad 2022-03-31."
+        },
+        {
+          "source_key": "NV_TRANSPORTER_KLIMAT",
+          "source_title": "Klimatet och transporterna",
+          "source_type": "official_explanatory_source",
+          "authority": "Naturvårdsverket",
+          "legal_reference": "Official climate guidance for transport",
+          "url": "https://www.naturvardsverket.se/amnesomraden/klimatomstallningen/omraden/klimatet-och-transporterna/",
+          "relevant_chapter_section": "Transport climate impact, traffic volume, energy efficiency, fossil-free fuels and electrification",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for transport climate impact; granskad 2025-08-11."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_env_fordonets_miljopaverkan",
+      "title": "Fordonets miljöpåverkan",
+      "requirement_keys": [
+        "D1-ENV-006-001"
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_env_motorer_branslen_vatskor",
+      "title": "Motorer, bränslen och fordonsvätskor",
+      "requirement_keys": [
+        "D1-ENV-007-001"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_env_avgaser_reningssystem",
+      "title": "Avgaser och reningssystem",
+      "requirement_keys": [
+        "D1-ENV-007-002"
+      ],
+      "visual_metadata": {
+        "requires_diagram": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_env_dack_och_miljo",
+      "title": "Däck och miljö",
+      "requirement_keys": [
+        "D1-ENV-007-003"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_comparison_visual": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "title": "Miljöanpassad fordonsskötsel",
+      "requirement_keys": [
+        "D1-ENV-008-001",
+        "D1-ENV-008-002"
+      ],
+      "visual_metadata": {
+        "requires_image": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_env_start_tomgang_buller",
+      "title": "Start, tomgång och buller",
+      "requirement_keys": [
+        "D1-ENV-009-001"
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    },
+    {
+      "topic_id": "topic_d1_env_korsatt_vagval_miljo",
+      "title": "Körsätt och vägval",
+      "requirement_keys": [
+        "D1-ENV-009-002"
+      ],
+      "visual_metadata": {
+        "requires_diagram": true
+      },
+      "status": "published"
+    }
+  ]
+}

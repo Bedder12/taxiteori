@@ -1,0 +1,2902 @@
+{
+  "metadata": {
+    "subject": "D1_NAVIGATION",
+    "title": "D1 navigation question bank",
+    "status": "published",
+    "created_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
+  },
+  "topic_checkpoints": [
+    {
+      "stable_key": "D1-NAV-TOOLS-CHECKPOINT-001",
+      "title": "Intern checkpoint: Kartor och navigeringshjälpmedel",
+      "type": "checkpoint",
+      "subject": "D1_NAVIGATION",
+      "topic": "topic_d1_navigation_navigeringshjalpmedel",
+      "eligible_status": "published",
+      "question_count": 8,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-CHECKPOINT-001",
+      "title": "Intern checkpoint: Muntlig färdbeskrivning",
+      "type": "checkpoint",
+      "subject": "D1_NAVIGATION",
+      "topic": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "eligible_status": "published",
+      "question_count": 8,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-CHECKPOINT-001",
+      "title": "Intern checkpoint: Kartläsning och teckenförklaring",
+      "type": "checkpoint",
+      "subject": "D1_NAVIGATION",
+      "topic": "topic_d1_navigation_kartlasning",
+      "eligible_status": "published",
+      "question_count": 8,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-CHECKPOINT-001",
+      "title": "Intern checkpoint: Avstånd, restid och ankomsttid",
+      "type": "checkpoint",
+      "subject": "D1_NAVIGATION",
+      "topic": "topic_d1_navigation_avstand_restid_ankomst",
+      "eligible_status": "published",
+      "question_count": 10,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    }
+  ],
+  "subject_checkpoint": {
+    "stable_key": "D1-NAV-SUBJECT-CHECKPOINT-001",
+    "title": "Intern ämnescheckpoint: Navigering",
+    "type": "checkpoint",
+    "subject": "D1_NAVIGATION",
+    "topic": null,
+    "eligible_status": "published",
+    "question_count": 24,
+    "pass_threshold": 0.8,
+    "selection": "broad_sample_across_all_d1_navigation_topics",
+    "freeze_question_versions_on_attempt_start": true,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D1-NAV-TOOLS-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "TOOLS-fall 1: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 1: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 1: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 1: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-003-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "TOOLS-fall 2: Vilket svar passar navigeringskravet? Förarprovet kräver kännedom om hjälpmedel för färdplanering.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kännedom om hjälpmedel för färdplanering."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 2: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 2: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 2: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kännedom om hjälpmedel för färdplanering. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 1"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "TOOLS-fall 3: Vilket svar passar navigeringskravet? Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 3: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 3: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 3: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "LANTMATERIET_MIN_KARTA",
+          "exact_reference": "Min karta, Det här kan du göra i Min karta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "TOOLS-fall 4: Vilket svar passar navigeringskravet? Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 4: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 4: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 4: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "LANTMATERIET_MIN_KARTA",
+          "exact_reference": "Min karta, Det här kan du göra i Min karta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-005"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "TOOLS-fall 5: Vilket svar passar navigeringskravet? Trafikverkets vägkarta kan visa trafikläget, vägarbeten, restriktioner, rastplatser, vägväder, vägfärjor och väglagsinformation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Trafikverkets vägkarta kan visa trafikläget, vägarbeten, restriktioner, rastplatser, vägväder, vägfärjor och väglagsinformation."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 5: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 5: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 5: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Trafikverkets vägkarta kan visa trafikläget, vägarbeten, restriktioner, rastplatser, vägväder, vägfärjor och väglagsinformation. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRAFIKVERKET_TRAFFIC_MAP",
+          "exact_reference": "Trafikinformation vägkarta, Hjälp om kartan"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "TOOLS-fall 6: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 6: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 6: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 6: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan använda kartor, navigationssystem och andra hjälpmedel för att utföra köruppdrag effektivt. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 2 §"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-003-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "TOOLS-fall 7: Vilket svar passar navigeringskravet? Förarprovet kräver kännedom om hjälpmedel för färdplanering.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver kännedom om hjälpmedel för färdplanering."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 7: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 7: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 7: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver kännedom om hjälpmedel för färdplanering. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 1"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "TOOLS-fall 8: Vilket svar passar navigeringskravet? Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 8: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 8: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 8: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lantmäteriets Min karta kan användas för att söka platser, adresser och fastigheter samt visa detaljerade kartor och flygbilder över hela Sverige. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "LANTMATERIET_MIN_KARTA",
+          "exact_reference": "Min karta, Det här kan du göra i Min karta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "TOOLS-fall 9: Vilket svar passar navigeringskravet? Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 9: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 9: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 9: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Min karta har funktioner för att mäta sträcka, välja kartlager, visa position och skriva ut eller spara karta i valfri skala. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "LANTMATERIET_MIN_KARTA",
+          "exact_reference": "Min karta, Det här kan du göra i Min karta"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-TOOLS-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_navigeringshjalpmedel",
+      "requirement_keys": [
+        "D1-NAV-002-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-005"
+      ],
+      "lesson_key": "D1-NAV-TOOLS-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "TOOLS-fall 10: Vilket svar passar navigeringskravet? Trafikverkets vägkarta kan visa trafikläget, vägarbeten, restriktioner, rastplatser, vägväder, vägfärjor och väglagsinformation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Trafikverkets vägkarta kan visa trafikläget, vägarbeten, restriktioner, rastplatser, vägväder, vägfärjor och väglagsinformation."
+        },
+        {
+          "id": "B",
+          "text": "TOOLS-fall 10: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "TOOLS-fall 10: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "TOOLS-fall 10: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Trafikverkets vägkarta kan visa trafikläget, vägarbeten, restriktioner, rastplatser, vägväder, vägfärjor och väglagsinformation. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TRAFIKVERKET_TRAFFIC_MAP",
+          "exact_reference": "Trafikinformation vägkarta, Hjälp om kartan"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-002"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "ORAL-fall 1: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 1: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 1: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 1: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-003"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "ORAL-fall 2: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 2: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 2: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 2: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-004"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "ORAL-fall 3: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 3: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 3: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 3: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-002"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "ORAL-fall 4: Vilket svar passar navigeringskravet? En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 4: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 4: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 4: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-003"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-005"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "ORAL-fall 5: Vilket svar passar navigeringskravet? Kompletterande frågor bör klargöra osäkra hållpunkter, gatunamn, infart, entré eller önskad påstignings- och avstigningsplats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kompletterande frågor bör klargöra osäkra hållpunkter, gatunamn, infart, entré eller önskad påstignings- och avstigningsplats."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 5: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 5: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 5: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kompletterande frågor bör klargöra osäkra hållpunkter, gatunamn, infart, entré eller önskad påstignings- och avstigningsplats. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-002"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "ORAL-fall 6: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 6: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 6: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 6: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan ta emot en muntlig färdbeskrivning. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-003"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "ORAL-fall 7: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 7: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 7: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 7: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan ställa kompletterande frågor när en färdbeskrivning är oklar. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-004"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "ORAL-fall 8: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 8: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 8: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 8: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan hitta till en angiven plats utifrån färdbeskrivningen. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-002"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "ORAL-fall 9: Vilket svar passar navigeringskravet? En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 9: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 9: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 9: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En muntlig färdbeskrivning behöver normalt brytas ner i startpunkt, riktning, hållpunkter, svängar och målpunkt för att kunna följas säkert. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-ORAL-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "requirement_keys": [
+        "D1-NAV-003-003"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-005"
+      ],
+      "lesson_key": "D1-NAV-ORAL-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": true,
+        "requires_distance_estimation": false,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "ORAL-fall 10: Vilket svar passar navigeringskravet? Kompletterande frågor bör klargöra osäkra hållpunkter, gatunamn, infart, entré eller önskad påstignings- och avstigningsplats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kompletterande frågor bör klargöra osäkra hållpunkter, gatunamn, infart, entré eller önskad påstignings- och avstigningsplats."
+        },
+        {
+          "id": "B",
+          "text": "ORAL-fall 10: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "ORAL-fall 10: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "ORAL-fall 10: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kompletterande frågor bör klargöra osäkra hållpunkter, gatunamn, infart, entré eller önskad påstignings- och avstigningsplats. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-005"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "MAP-fall 1: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan hitta och använda navigeringsinformation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan hitta och använda navigeringsinformation."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 1: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 1: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 1: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan hitta och använda navigeringsinformation. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 a"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-006"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "MAP-fall 2: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan lokalisera rätt kartbild.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan lokalisera rätt kartbild."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 2: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 2: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 2: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan lokalisera rätt kartbild. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-007"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "MAP-fall 3: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan avläsa en kartbild korrekt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan avläsa en kartbild korrekt."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 3: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 3: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 3: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan avläsa en kartbild korrekt. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-008"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "MAP-fall 4: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 4: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 4: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 4: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 c"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-006"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-005"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "MAP-fall 5: Vilket svar passar navigeringskravet? En rätt kartbild väljs genom att matcha plats, riktning, skala och relevanta hållpunkter med uppdraget.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En rätt kartbild väljs genom att matcha plats, riktning, skala och relevanta hållpunkter med uppdraget."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 5: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 5: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 5: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En rätt kartbild väljs genom att matcha plats, riktning, skala och relevanta hållpunkter med uppdraget. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-008"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-006"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "MAP-fall 6: Vilket svar passar navigeringskravet? Kartlager och teckenförklaringar hjälper föraren att tolka vägar, bebyggelse, hinder, vatten, grönområden och andra kartobjekt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kartlager och teckenförklaringar hjälper föraren att tolka vägar, bebyggelse, hinder, vatten, grönområden och andra kartobjekt."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 6: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 6: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 6: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kartlager och teckenförklaringar hjälper föraren att tolka vägar, bebyggelse, hinder, vatten, grönområden och andra kartobjekt. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "LANTMATERIET_MIN_KARTA_HELP",
+          "exact_reference": "Hjälp och tips till Min karta, Välj kartlager"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-005"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "MAP-fall 7: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan hitta och använda navigeringsinformation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan hitta och använda navigeringsinformation."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 7: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 7: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 7: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan hitta och använda navigeringsinformation. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 a"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-006"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "MAP-fall 8: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan lokalisera rätt kartbild.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan lokalisera rätt kartbild."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 8: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 8: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 8: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan lokalisera rätt kartbild. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-007"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "MAP-fall 9: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan avläsa en kartbild korrekt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan avläsa en kartbild korrekt."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 9: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 9: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 9: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan avläsa en kartbild korrekt. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-MAP-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_kartlasning",
+      "requirement_keys": [
+        "D1-NAV-003-008"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-MAP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "använda"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": false,
+        "requires_arrival_time_calculation": false
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "MAP-fall 10: Vilket svar passar navigeringskravet? Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar."
+        },
+        {
+          "id": "B",
+          "text": "MAP-fall 10: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "MAP-fall 10: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "MAP-fall 10: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Förarprovet kräver att föraren kan förstå och använda kartors teckenförklaringar. Svaret följer av navigeringskravet och den verifierade källan. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 c"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-009"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "CALC-fall 1: En schematisk rutt är 18 km och medelhastigheten är 36 km/tim. Hur lång är restiden?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "30 minuter."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 1: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 1: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 1: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 30 minuter. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010A"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "CALC-fall 2: En schematisk rutt är 24 km och medelhastigheten är 48 km/tim. Om start är 09.20, när blir ankomsten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "09.50."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 2: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 2: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 2: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 09.50. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010B"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "CALC-fall 3: En schematisk rutt är 18 km och medelhastigheten är 36 km/tim. Hur lång är restiden?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "30 minuter."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 3: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 3: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 3: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 30 minuter. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010A"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "CALC-fall 4: En schematisk rutt är 24 km och medelhastigheten är 48 km/tim. Om start är 09.20, när blir ankomsten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "09.50."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 4: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 4: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 4: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 09.50. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010B"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-005"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "CALC-fall 5: En schematisk rutt är 18 km och medelhastigheten är 36 km/tim. Hur lång är restiden?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "30 minuter."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 5: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 5: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 5: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 30 minuter. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-009"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-006"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "CALC-fall 6: En schematisk rutt är 24 km och medelhastigheten är 48 km/tim. Om start är 09.20, när blir ankomsten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "09.50."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 6: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 6: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 6: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 09.50. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-009"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-001"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "CALC-fall 7: En schematisk rutt är 18 km och medelhastigheten är 36 km/tim. Hur lång är restiden?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "30 minuter."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 7: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 7: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 7: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 30 minuter. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010A"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-002"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "CALC-fall 8: En schematisk rutt är 24 km och medelhastigheten är 48 km/tim. Om start är 09.20, när blir ankomsten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "09.50."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 8: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 8: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 8: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 09.50. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010B"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-003"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "CALC-fall 9: En schematisk rutt är 18 km och medelhastigheten är 36 km/tim. Hur lång är restiden?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "30 minuter."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 9: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 9: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 9: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 30 minuter. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010A"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-004"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_grid_center_route",
+        "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+        "nodes": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station",
+          "Sjukhus"
+        ],
+        "route": [
+          "Start",
+          "Torg",
+          "Bro",
+          "Station"
+        ]
+      },
+      "prompt": "CALC-fall 10: En schematisk rutt är 24 km och medelhastigheten är 48 km/tim. Om start är 09.20, när blir ankomsten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "09.50."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 10: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 10: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 10: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 09.50. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q011",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-010B"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-005"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_suburb_route",
+        "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+        "nodes": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ],
+        "route": [
+          "Hållplats",
+          "Park",
+          "Skola",
+          "Entré"
+        ]
+      },
+      "prompt": "CALC-fall 11: En schematisk rutt är 18 km och medelhastigheten är 36 km/tim. Hur lång är restiden?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "30 minuter."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 11: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 11: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 11: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 30 minuter. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-NAV-CALC-Q012",
+      "version": 1,
+      "topic_id": "topic_d1_navigation_avstand_restid_ankomst",
+      "requirement_keys": [
+        "D1-NAV-003-009"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-006"
+      ],
+      "lesson_key": "D1-NAV-CALC-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "beräkna"
+      ],
+      "navigation_metadata": {
+        "requires_map": true,
+        "requires_route_scenario": true,
+        "requires_oral_route_description": false,
+        "requires_distance_estimation": true,
+        "requires_travel_time_calculation": true,
+        "requires_arrival_time_calculation": true
+      },
+      "map_metadata": {
+        "id": "simple_distance_segments",
+        "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+        "segments_km": [
+          4,
+          6,
+          8
+        ]
+      },
+      "prompt": "CALC-fall 12: En schematisk rutt är 24 km och medelhastigheten är 48 km/tim. Om start är 09.20, när blir ankomsten?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "09.50."
+        },
+        {
+          "id": "B",
+          "text": "CALC-fall 12: välj första möjliga väg utan att kontrollera uppdragets mål eller information."
+        },
+        {
+          "id": "C",
+          "text": "CALC-fall 12: använd bara minnet även när plats, färdväg eller tid är oklar."
+        },
+        {
+          "id": "D",
+          "text": "CALC-fall 12: avbryt planeringen eftersom navigering inte ingår i förarens uppgift."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: 09.50. Beräkningen följer av uppgiftens sträcka, hastighet och tid. Repetera lektion 1.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
+        }
+      ],
+      "status": "published"
+    }
+  ]
+}

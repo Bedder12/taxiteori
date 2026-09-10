@@ -385,6 +385,7 @@ function makeQuestion(topic, index) {
   const topicFacts = facts.filter((fact) => fact.topic_id === topicId(topic));
   const fact = topicFacts[index % topicFacts.length];
   const type = topic.visual.requires_image && index % 4 === 0 ? 'scenario' : fact.requirement_key.includes('003') ? 'calculation' : index % 2 === 0 ? 'scenario' : 'single_choice';
+  const caseLabel = `Trafikfall ${index + 1}`;
 
   return {
     stable_key: `D2-TRAFFIC-${topic.prefix}-Q${String(index + 1).padStart(3, '0')}`,
@@ -398,13 +399,13 @@ function makeQuestion(topic, index) {
     visual_metadata: topic.visual,
     prompt:
       type === 'calculation'
-        ? `Vilken definition eller beräkning är korrekt? ${fact.fact_text}`
-        : `Vilket svar följer av regeln i ${topic.title.toLowerCase()}? ${fact.fact_text}`,
+        ? `${caseLabel}: Vilken definition eller beräkning är korrekt? ${fact.fact_text}`
+        : `${caseLabel}: Vilket svar följer av regeln i ${topic.title.toLowerCase()}? ${fact.fact_text}`,
     answer_choices: [
       { id: 'A', text: fact.fact_text },
-      { id: 'B', text: 'Regeln gäller bara om vägen saknar vägmärken och trafiksignaler.' },
-      { id: 'C', text: 'Föraren kan bortse från regeln om färden är kort eller trafiken är gles.' },
-      { id: 'D', text: 'Regeln är endast en rekommendation utan betydelse i provets trafiksituationer.' },
+      { id: 'B', text: `${caseLabel}: regeln gäller bara om vägen saknar vägmärken och trafiksignaler.` },
+      { id: 'C', text: `${caseLabel}: föraren kan bortse från regeln om färden är kort eller trafiken är gles.` },
+      { id: 'D', text: `${caseLabel}: regeln är endast en rekommendation utan betydelse i provets trafiksituationer.` },
     ],
     correct_answer_id: 'A',
     explanation: `Rätt: ${fact.fact_text} Utgå från den uttryckliga regeln och repetera lektion 1.`,
