@@ -1,0 +1,973 @@
+{
+  "metadata": {
+    "subject": "D1_SAFETY",
+    "title": "D1 safety lessons",
+    "status": "published",
+    "verified_at": "2026-09-10",
+    "note": "Source-backed mobile-first lessons for taxi-driver safety competency."
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-SAFE-TRIP-L01",
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "title": "Trygg och saker taxiresa",
+      "learning_objectives": [
+        "Kunna använda trygg och saker taxiresa i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-010-001",
+        "D1-SAFE-010-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-002",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-004",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 10 §",
+            "TSFS 2021:119, 3 kap. 10 §",
+            "TSFS 2021:119, 3 kap. 10 §"
+          ]
+        },
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_references": [
+            "Trafikforordning (1998:1276), 3 kap. 14 §"
+          ]
+        },
+        {
+          "source_id": "TRV_HALKA",
+          "exact_references": [
+            "Pa glid? Nej!, rad till trafikant vid halka"
+          ]
+        },
+        {
+          "source_id": "TRV_SNO_OVADER",
+          "exact_references": [
+            "Rad till trafikant vid sno och besvarligt vaglag"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Trygg och saker taxiresa",
+          "fact_keys": [
+            "D1-SAFE-TRIP-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-TRIP-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska ta ansvar for egen, passagerares och andra medtrafikanters sakerhet i samband med farden.",
+            "Koruuppdraget ska utforas sa att passageraren upplever resan som trygg, saker och bekvam.",
+            "Saker taxikorning innebar att hastighet, avstand, placering och stoppplats anpassas efter trafikmiljon och passagerarens situation.",
+            "Bekvam korning far inte ske pa bekostnad av trafiksakerhet; mjuka manovrer, tydlig kommunikation och god framforhallning ska stodja samma sakra fard.",
+            "Vid morker, regn, sno eller halka behover foraren minska risken genom lagre fart, storre avstand och battre placering."
+          ],
+          "fact_keys": [
+            "D1-SAFE-TRIP-FACT-001",
+            "D1-SAFE-TRIP-FACT-002",
+            "D1-SAFE-TRIP-FACT-003",
+            "D1-SAFE-TRIP-FACT-004",
+            "D1-SAFE-TRIP-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Säkerhetsbedömningen ska väga in både passageraren i bilen och andra trafikanter utanför bilen.",
+          "fact_keys": [
+            "D1-SAFE-TRIP-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Du hämtar en passagerare vid en mörk gata med cykelbana intill kantstenen. Välj stoppplats och öppning av dörrar så att både passageraren och andra trafikanter skyddas.",
+          "fact_keys": [
+            "D1-SAFE-TRIP-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-TRIP-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-TRIP-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-L01",
+      "topic_id": "topic_d1_safety_hot_vald",
+      "title": "Hot och vald i taxiarbetet",
+      "learning_objectives": [
+        "Kunna använda hot och vald i taxiarbetet i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-001",
+        "D1-SAFE-THREAT-FACT-002",
+        "D1-SAFE-THREAT-FACT-003",
+        "D1-SAFE-THREAT-FACT-004",
+        "D1-SAFE-THREAT-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 11 § 1"
+          ]
+        },
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_references": [
+            "Vald och hot om vald, arbete med manniskor",
+            "Vald och hot om vald, forebyggande arbete och rutiner"
+          ]
+        },
+        {
+          "source_id": "AV_HOT_VALD_RUTINER",
+          "exact_references": [
+            "Forebygg och hantera risken for ohalsa i samband med hot och vald",
+            "Rutiner kring rapportering, stod och instruktioner"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Hot och vald i taxiarbetet",
+          "fact_keys": [
+            "D1-SAFE-THREAT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-THREAT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska kunna bedoma lampligt agerande i situationer som kan innebara hot och vald i arbetet.",
+            "Arbete med mycket direktkontakt med manniskor kan innebara risk for hot och vald.",
+            "Hot- och valdsrisker ska hanteras genom kanda rutiner, instruktioner och rapportering av tillbud.",
+            "I en hotfull taxissituation ar forarens forsta sakerhetsmal att undvika upptrappning och ta sig ur situationen utan att utsatta sig sjalv, passagerare eller andra for fara.",
+            "Efter hot, vald eller tillbud ska handelsen rapporteras enligt arbetsplatsens rutiner sa att stod och forebyggande atgarder kan sattas in."
+          ],
+          "fact_keys": [
+            "D1-SAFE-THREAT-FACT-001",
+            "D1-SAFE-THREAT-FACT-002",
+            "D1-SAFE-THREAT-FACT-003",
+            "D1-SAFE-THREAT-FACT-004",
+            "D1-SAFE-THREAT-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Säkerhetsbedömningen ska väga in både passageraren i bilen och andra trafikanter utanför bilen.",
+          "fact_keys": [
+            "D1-SAFE-THREAT-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En passagerare blir hotfull när resan ska avslutas. Din uppgift är att inte trappa upp situationen, följa rutiner och lämna eller larma när säkerheten kräver det.",
+          "fact_keys": [
+            "D1-SAFE-THREAT-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-THREAT-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-THREAT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-L01",
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "title": "Forsta hjalpen och HLR",
+      "learning_objectives": [
+        "Kunna använda forsta hjalpen och hlr i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-001",
+        "D1-SAFE-HLR-FACT-002",
+        "D1-SAFE-HLR-FACT-003",
+        "D1-SAFE-HLR-FACT-004",
+        "D1-SAFE-HLR-FACT-005",
+        "D1-SAFE-HLR-FACT-006",
+        "D1-SAFE-HLR-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 11 § 2"
+          ]
+        },
+        {
+          "source_id": "1177_HLR",
+          "exact_references": [
+            "Hjart-lungraddning, innan du borjar",
+            "Hjart-lungraddning, Ring 112",
+            "Nar ska jag starta hjart-lungraddning?",
+            "Nar ska jag inte ge hjart-lungraddning?"
+          ]
+        },
+        {
+          "source_id": "VARDHANDBOKEN_HLR_TEKNIK",
+          "exact_references": [
+            "Teknik vid HLR 30:2",
+            "Teknik vid HLR 30:2"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Forsta hjalpen och HLR",
+          "fact_keys": [
+            "D1-SAFE-HLR-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-HLR-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska kunna tillampa forsta hjalpen och hjart-lungraddning.",
+            "Innan HLR pabrorjas ska platsen vara saker for bade hjalparen och personen som behover hjalp.",
+            "Om en person ar medvetslos och inte gar att vacka ska 112 larmas direkt.",
+            "Om personen inte reagerar och inte andas normalt ska hjartstopp antas och HLR startas omedelbart.",
+            "HLR pa vuxen bestar av 30 brostkompressioner och 2 inblasningar i cykler."
+          ],
+          "fact_keys": [
+            "D1-SAFE-HLR-FACT-001",
+            "D1-SAFE-HLR-FACT-002",
+            "D1-SAFE-HLR-FACT-003",
+            "D1-SAFE-HLR-FACT-004",
+            "D1-SAFE-HLR-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "HLR-frågor ska följa aktuell medicinsk vägledning. Vid verklig händelse följer du alltid 112-operatörens instruktioner.",
+          "fact_keys": [
+            "D1-SAFE-HLR-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Du kommer fram till en person som ligger livlös. Kontrollera först att platsen är säker, larma 112 och följ larmoperatörens instruktioner.",
+          "fact_keys": [
+            "D1-SAFE-HLR-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-HLR-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-HLR-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-L01",
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "title": "Olycksplats och nodsituation pa vag",
+      "learning_objectives": [
+        "Kunna använda olycksplats och nodsituation pa vag i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-011-003",
+        "D1-SAFE-011-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-001",
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-003",
+        "D1-SAFE-ACCIDENT-FACT-004",
+        "D1-SAFE-ACCIDENT-FACT-005",
+        "D1-SAFE-ACCIDENT-FACT-006",
+        "D1-SAFE-ACCIDENT-FACT-007",
+        "D1-SAFE-ACCIDENT-FACT-008"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 11 § 3",
+            "TSFS 2021:119, 3 kap. 11 § 4"
+          ]
+        },
+        {
+          "source_id": "POLISEN_TRAFIKOLYCKOR",
+          "exact_references": [
+            "Sa kan du hjalpa till vid trafikolyckor, punkt 2",
+            "Sa kan du hjalpa till vid trafikolyckor, punkterna 3 och 6",
+            "Sa kan du hjalpa till vid trafikolyckor, punkt 4",
+            "Respektera anvisningarna"
+          ]
+        },
+        {
+          "source_id": "TRV_VARNA_LAMNA_LARMA",
+          "exact_references": [
+            "Varna, lamna, larma",
+            "Lamna bilen och vagen"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Olycksplats och nodsituation pa vag",
+          "fact_keys": [
+            "D1-SAFE-ACCIDENT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-ACCIDENT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska kunna redogora for hur man agerar nar man kommer forst till en olycksplats.",
+            "Taxiforaren ska kunna tillampa kunskap om risker vid atgarder under nodsituation pa vagen.",
+            "Vid trafikolycka ska den som hjalper till parkera sa sakert som mojligt och inte sjalv riskera att bli pakord eller hindra trafiken.",
+            "Vid trafikolycka ska 112 larmas nar hjalp behovs och uppgifter om plats, handelse och skadade samlas for raddningspersonalen.",
+            "Andra trafikanter ska varnas med varningsblinkers och liknande sa att de inte kor in i olyckan."
+          ],
+          "fact_keys": [
+            "D1-SAFE-ACCIDENT-FACT-001",
+            "D1-SAFE-ACCIDENT-FACT-002",
+            "D1-SAFE-ACCIDENT-FACT-003",
+            "D1-SAFE-ACCIDENT-FACT-004",
+            "D1-SAFE-ACCIDENT-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Säkerhetsbedömningen ska väga in både passageraren i bilen och andra trafikanter utanför bilen.",
+          "fact_keys": [
+            "D1-SAFE-ACCIDENT-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Du är först framme vid en olycka på en landsväg. Parkera säkert, varna andra, larma 112 och skapa överblick utan att utsätta dig själv för ny fara.",
+          "fact_keys": [
+            "D1-SAFE-ACCIDENT-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-ACCIDENT-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-ACCIDENT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-L01",
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "title": "Passagerare, balte och barnskydd",
+      "learning_objectives": [
+        "Kunna använda passagerare, balte och barnskydd i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-012-001",
+        "D1-SAFE-012-002",
+        "D1-SAFE-012-003",
+        "D1-SAFE-014-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-001",
+        "D1-SAFE-BELT-FACT-002",
+        "D1-SAFE-BELT-FACT-003",
+        "D1-SAFE-BELT-FACT-004",
+        "D1-SAFE-BELT-FACT-005",
+        "D1-SAFE-BELT-FACT-006",
+        "D1-SAFE-BELT-FACT-007",
+        "D1-SAFE-BELT-FACT-008",
+        "D1-SAFE-BELT-FACT-009"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 12 § 1",
+            "TSFS 2021:119, 3 kap. 12 § 2",
+            "TSFS 2021:119, 3 kap. 14 § 2"
+          ]
+        },
+        {
+          "source_id": "TS_BALTESREGLER",
+          "exact_references": [
+            "Baltesregler, nar du aker personbil",
+            "Baltesregler, ansvar for passagerare under femton ar",
+            "Baltesregler, huvudregel for barn kortare an 135 cm",
+            "Baltesregler, taxiundantag for barn yngre an tre ar"
+          ]
+        },
+        {
+          "source_id": "TRV_BARN_I_BIL",
+          "exact_references": [
+            "Barn som fardas i bil, regler och rekommendationer",
+            "Barn som fardas i bil, aktiv passagerarkrockkudde"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Passagerare, balte och barnskydd",
+          "fact_keys": [
+            "D1-SAFE-BELT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-BELT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska kunna bedoma risker vid passagerares pa- och avstigning.",
+            "Taxiforaren ska kunna anvanda skyddsutrustning for barn i bil.",
+            "Alla som aker i personbil ska sitta pa plats med bilbalte om sadan finns och anvanda baltet.",
+            "Foraren ska se till att passagerare under 15 ar anvander bilbalte eller annan sarskild skyddsanordning.",
+            "Barn kortare an 135 cm ska som huvudregel anvanda sarskild skyddsanordning, till exempel babyskydd, bilbarnstol, baltesstol eller balteskudde."
+          ],
+          "fact_keys": [
+            "D1-SAFE-BELT-FACT-001",
+            "D1-SAFE-BELT-FACT-002",
+            "D1-SAFE-BELT-FACT-003",
+            "D1-SAFE-BELT-FACT-004",
+            "D1-SAFE-BELT-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Säkerhetsbedömningen ska väga in både passageraren i bilen och andra trafikanter utanför bilen.",
+          "fact_keys": [
+            "D1-SAFE-BELT-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En familj beställer taxi med små barn. Säkerheten avgörs av rätt plats, rätt skyddsanordning och att bälten används korrekt.",
+          "fact_keys": [
+            "D1-SAFE-BELT-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-BELT-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-BELT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-L01",
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "title": "Hjalpmedel, rullstol och last",
+      "learning_objectives": [
+        "Kunna använda hjalpmedel, rullstol och last i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-012-004",
+        "D1-SAFE-012-005",
+        "D1-SAFE-013-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-001",
+        "D1-SAFE-LOAD-FACT-002",
+        "D1-SAFE-LOAD-FACT-003",
+        "D1-SAFE-LOAD-FACT-004",
+        "D1-SAFE-LOAD-FACT-005",
+        "D1-SAFE-LOAD-FACT-006",
+        "D1-SAFE-LOAD-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 12 § 4",
+            "TSFS 2021:119, 3 kap. 12 § 5",
+            "TSFS 2021:119, 3 kap. 12 § 4",
+            "TSFS 2021:119, 3 kap. 13 § 4"
+          ]
+        },
+        {
+          "source_id": "TS_LASTSAKRING",
+          "exact_references": [
+            "Lastsakring, forarens ansvar och risk med fel last",
+            "Lastsakring, losa foremal i bilen"
+          ]
+        },
+        {
+          "source_id": "TS_LASTA_RATT",
+          "exact_references": [
+            "Att lasta ratt, lastsakring framat/bakat/sidorna"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 7,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Hjalpmedel, rullstol och last",
+          "fact_keys": [
+            "D1-SAFE-LOAD-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-LOAD-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska kunna anvanda bilbalten och hjalpmedel samt satta fast rullstolar och barar vid transporter av personer med funktionsnedsattningar.",
+            "Taxiforaren ska kunna tillampa bestammelserna om lastsakring av gods i personbil och latt lastbil.",
+            "Foraren ansvarar for att lasten ar sakrad sa att den inte orsakar fara eller forsamrar korningen.",
+            "Lost bagage i kupen kan skada passagerare eller forare vid hard inbromsning eller kollision.",
+            "Last ska sakras framat, bakat och at sidorna; lastsakringen ska motsta minst 80 procent av lastens vikt framat och halva vikten bakat och at sidorna."
+          ],
+          "fact_keys": [
+            "D1-SAFE-LOAD-FACT-001",
+            "D1-SAFE-LOAD-FACT-002",
+            "D1-SAFE-LOAD-FACT-003",
+            "D1-SAFE-LOAD-FACT-004",
+            "D1-SAFE-LOAD-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Säkerhetsbedömningen ska väga in både passageraren i bilen och andra trafikanter utanför bilen.",
+          "fact_keys": [
+            "D1-SAFE-LOAD-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En passagerare har rullstol och flera väskor. Färden får inte starta förrän personen, hjälpmedlet och lasten är säkrade.",
+          "fact_keys": [
+            "D1-SAFE-LOAD-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-LOAD-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-LOAD-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-L01",
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "title": "Barn och oskyddade trafikanter",
+      "learning_objectives": [
+        "Kunna använda barn och oskyddade trafikanter i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-013-001",
+        "D1-SAFE-013-002",
+        "D1-SAFE-013-003",
+        "D1-SAFE-013-004",
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-001",
+        "D1-SAFE-VULN-FACT-002",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-004",
+        "D1-SAFE-VULN-FACT-005",
+        "D1-SAFE-VULN-FACT-006",
+        "D1-SAFE-VULN-FACT-007",
+        "D1-SAFE-VULN-FACT-008"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 13 § 1",
+            "TSFS 2021:119, 3 kap. 13 § 2",
+            "TSFS 2021:119, 3 kap. 13 § 3",
+            "TSFS 2021:119, 3 kap. 13 § 4",
+            "TSFS 2021:119, 3 kap. 13 § 2",
+            "TSFS 2021:119, 3 kap. 13 § 3"
+          ]
+        },
+        {
+          "source_id": "TRV_BARN_I_BIL",
+          "exact_references": [
+            "Barn som fardas i bil, barn har sarskilda behov"
+          ]
+        },
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_references": [
+            "Lagre fart ger kortare stoppstracka"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Barn och oskyddade trafikanter",
+          "fact_keys": [
+            "D1-SAFE-VULN-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-VULN-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska kunna redogora for risker som barn utsatts for i trafiken.",
+            "Taxiforaren ska kunna redogora for hur barns mognad paverkar deras formaga att hantera trafikrisker.",
+            "Taxiforaren ska kunna bedoma vad man ska vara uppmarksam pa i miljoer dar barn vistas.",
+            "Taxiforaren ska kunna bedoma trafikproblem for personer med funktionsnedsattning.",
+            "Barn ar mer sarbara an vuxna i bilolyckor eftersom storlek och anatomi skiljer sig fran vuxnas."
+          ],
+          "fact_keys": [
+            "D1-SAFE-VULN-FACT-001",
+            "D1-SAFE-VULN-FACT-002",
+            "D1-SAFE-VULN-FACT-003",
+            "D1-SAFE-VULN-FACT-004",
+            "D1-SAFE-VULN-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Säkerhetsbedömningen ska väga in både passageraren i bilen och andra trafikanter utanför bilen.",
+          "fact_keys": [
+            "D1-SAFE-VULN-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Du kör vid en skola där sikten delvis skyms av parkerade bilar. Räkna med att barn kan röra sig impulsivt och välj fart därefter.",
+          "fact_keys": [
+            "D1-SAFE-VULN-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-VULN-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-VULN-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-L01",
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "title": "Hastighet, krockvald och Nollvisionen",
+      "learning_objectives": [
+        "Kunna använda hastighet, krockvald och nollvisionen i realistiska taxisituationer.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning."
+      ],
+      "requirement_keys": [
+        "D1-SAFE-014-001",
+        "D1-SAFE-015-001",
+        "D1-SAFE-015-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-001",
+        "D1-SAFE-ZERO-FACT-002",
+        "D1-SAFE-ZERO-FACT-003",
+        "D1-SAFE-ZERO-FACT-004",
+        "D1-SAFE-ZERO-FACT-005",
+        "D1-SAFE-ZERO-FACT-006",
+        "D1-SAFE-ZERO-FACT-007",
+        "D1-SAFE-ZERO-FACT-008",
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 14 § 1",
+            "TSFS 2021:119, 3 kap. 15 § 2"
+          ]
+        },
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_references": [
+            "Hastighet och krockvald, inledning",
+            "Hastighet och krockvald, hog hastighet och kontroll",
+            "Lagre fart ger kortare stoppstracka",
+            "Lagre fart ger kortare stoppstracka"
+          ]
+        },
+        {
+          "source_id": "TRV_HASTIGHETSGRANSER",
+          "exact_references": [
+            "Hastighetsgranser pa vag, ratt hastighet"
+          ]
+        },
+        {
+          "source_id": "TRV_NOLLVISIONEN",
+          "exact_references": [
+            "Nollvisionen - ingen ska do eller skadas allvarligt i trafiken"
+          ]
+        },
+        {
+          "source_id": "TS_NOLLVISIONEN",
+          "exact_references": [
+            "Nollvisionen, sakerhetsfilosofi och fokus pa personskador"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Hastighet, krockvald och Nollvisionen",
+          "fact_keys": [
+            "D1-SAFE-ZERO-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+          "fact_keys": [
+            "D1-SAFE-ZERO-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiforaren ska kunna bedoma sambandet mellan hastighet, kollisionshastighet och risk for personskador.",
+            "Hastigheten ar avgorande for hur allvarliga konsekvenserna blir vid en olycka.",
+            "Hogre hastighet gor det svarare att behalla kontroll, upptacka andra trafikanter och hinna reagera i tid.",
+            "Stoppstrackan blir langre ju hogre hastighet fordonet har.",
+            "Enligt Trafikverket motsvarar det ungefar ett fall fran tredje vaningen att bli pakord i 50 km/tim som gaende eller cyklist."
+          ],
+          "fact_keys": [
+            "D1-SAFE-ZERO-FACT-001",
+            "D1-SAFE-ZERO-FACT-002",
+            "D1-SAFE-ZERO-FACT-003",
+            "D1-SAFE-ZERO-FACT-004",
+            "D1-SAFE-ZERO-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Hastighetsfrågor här handlar om personskador och krockvåld, inte om att räkna fram exakta fysikvärden.",
+          "fact_keys": [
+            "D1-SAFE-ZERO-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "När kunden har bråttom ska föraren ändå prioritera rätt hastighet. Skillnaden i krockvåld kan vara avgörande för om någon skadas allvarligt.",
+          "fact_keys": [
+            "D1-SAFE-ZERO-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Starta inte, fortsätt inte och improvisera inte om situationen saknar säker marginal. Gör platsen säker, följ rutiner och larma när risknivån kräver det.",
+          "fact_keys": [
+            "D1-SAFE-ZERO-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du motivera vilket handlingsalternativ som minskar risken mest i just den här situationen?",
+          "fact_keys": [
+            "D1-SAFE-ZERO-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

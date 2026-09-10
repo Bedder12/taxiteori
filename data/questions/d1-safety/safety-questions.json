@@ -1,0 +1,4551 @@
+{
+  "metadata": {
+    "subject": "D1_SAFETY",
+    "title": "D1 safety question bank",
+    "status": "published",
+    "created_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
+  },
+  "topic_checkpoints": [
+    {
+      "stable_key": "D1-SAFE-TRIP-CHECKPOINT-001",
+      "title": "Intern checkpoint: Trygg och saker taxiresa",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_trygg_saker_resa",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-CHECKPOINT-001",
+      "title": "Intern checkpoint: Hot och vald i taxiarbetet",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_hot_vald",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-CHECKPOINT-001",
+      "title": "Intern checkpoint: Forsta hjalpen och HLR",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_forsta_hjalpen_hlr",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-CHECKPOINT-001",
+      "title": "Intern checkpoint: Olycksplats och nodsituation pa vag",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_olycksplats_nodsituation",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-CHECKPOINT-001",
+      "title": "Intern checkpoint: Passagerare, balte och barnskydd",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_passagerare_balte_barn",
+      "eligible_status": "published",
+      "question_count": 8,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-CHECKPOINT-001",
+      "title": "Intern checkpoint: Hjalpmedel, rullstol och last",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_hjalpmedel_last",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-CHECKPOINT-001",
+      "title": "Intern checkpoint: Barn och oskyddade trafikanter",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-CHECKPOINT-001",
+      "title": "Intern checkpoint: Hastighet, krockvald och Nollvisionen",
+      "type": "checkpoint",
+      "subject": "D1_SAFETY",
+      "topic": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "eligible_status": "published",
+      "question_count": 8,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    }
+  ],
+  "subject_checkpoint": {
+    "stable_key": "D1-SAFE-SUBJECT-CHECKPOINT-001",
+    "title": "Intern ämnescheckpoint: Säkerhet",
+    "type": "checkpoint",
+    "subject": "D1_SAFETY",
+    "topic": null,
+    "eligible_status": "published",
+    "question_count": 30,
+    "pass_threshold": 0.8,
+    "selection": "broad_sample_across_all_d1_safety_topics",
+    "freeze_question_versions_on_attempt_start": true,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D1-SAFE-TRIP-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska ta ansvar for egen, passagerares och andra medtrafikanters sakerhet i samband med farden.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska ta ansvar for egen, passagerares och andra medtrafikanters sakerhet i samband med farden."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska ta ansvar for egen, passagerares och andra medtrafikanters sakerhet i samband med farden. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 10 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Koruuppdraget ska utforas sa att passageraren upplever resan som trygg, saker och bekvam.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Koruuppdraget ska utforas sa att passageraren upplever resan som trygg, saker och bekvam."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Koruuppdraget ska utforas sa att passageraren upplever resan som trygg, saker och bekvam. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 10 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Saker taxikorning innebar att hastighet, avstand, placering och stoppplats anpassas efter trafikmiljon och passagerarens situation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Saker taxikorning innebar att hastighet, avstand, placering och stoppplats anpassas efter trafikmiljon och passagerarens situation."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Saker taxikorning innebar att hastighet, avstand, placering och stoppplats anpassas efter trafikmiljon och passagerarens situation. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_reference": "Trafikforordning (1998:1276), 3 kap. 14 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 4: Vilken bedömning är säkrast i taxiförarens situation? Bekvam korning far inte ske pa bekostnad av trafiksakerhet; mjuka manovrer, tydlig kommunikation och god framforhallning ska stodja samma sakra fard.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bekvam korning far inte ske pa bekostnad av trafiksakerhet; mjuka manovrer, tydlig kommunikation och god framforhallning ska stodja samma sakra fard."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bekvam korning far inte ske pa bekostnad av trafiksakerhet; mjuka manovrer, tydlig kommunikation och god framforhallning ska stodja samma sakra fard. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 10 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 5: Vilken bedömning är säkrast i taxiförarens situation? Vid morker, regn, sno eller halka behover foraren minska risken genom lagre fart, storre avstand och battre placering.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid morker, regn, sno eller halka behover foraren minska risken genom lagre fart, storre avstand och battre placering."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid morker, regn, sno eller halka behover foraren minska risken genom lagre fart, storre avstand och battre placering. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_HALKA",
+          "exact_reference": "Pa glid? Nej!, rad till trafikant vid halka"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-006"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Vid sno, snorok eller nedsatt sikt bor foraren kora langsammare, halla avstand och undvika onodiga riskmoment.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid sno, snorok eller nedsatt sikt bor foraren kora langsammare, halla avstand och undvika onodiga riskmoment."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid sno, snorok eller nedsatt sikt bor foraren kora langsammare, halla avstand och undvika onodiga riskmoment. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_SNO_OVADER",
+          "exact_reference": "Rad till trafikant vid sno och besvarligt vaglag"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 7: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska ta ansvar for egen, passagerares och andra medtrafikanters sakerhet i samband med farden.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska ta ansvar for egen, passagerares och andra medtrafikanters sakerhet i samband med farden."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska ta ansvar for egen, passagerares och andra medtrafikanters sakerhet i samband med farden. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 10 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Koruuppdraget ska utforas sa att passageraren upplever resan som trygg, saker och bekvam.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Koruuppdraget ska utforas sa att passageraren upplever resan som trygg, saker och bekvam."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Koruuppdraget ska utforas sa att passageraren upplever resan som trygg, saker och bekvam. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 10 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-TRIP-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "requirement_keys": [
+        "D1-SAFE-010-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-TRIP-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "TRIP-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? Saker taxikorning innebar att hastighet, avstand, placering och stoppplats anpassas efter trafikmiljon och passagerarens situation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Saker taxikorning innebar att hastighet, avstand, placering och stoppplats anpassas efter trafikmiljon och passagerarens situation."
+        },
+        {
+          "id": "B",
+          "text": "TRIP-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "TRIP-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "TRIP-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Saker taxikorning innebar att hastighet, avstand, placering och stoppplats anpassas efter trafikmiljon och passagerarens situation. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "SFS_1998_1276",
+          "exact_reference": "Trafikforordning (1998:1276), 3 kap. 14 §"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna bedoma lampligt agerande i situationer som kan innebara hot och vald i arbetet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma lampligt agerande i situationer som kan innebara hot och vald i arbetet."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma lampligt agerande i situationer som kan innebara hot och vald i arbetet. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Arbete med mycket direktkontakt med manniskor kan innebara risk for hot och vald.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Arbete med mycket direktkontakt med manniskor kan innebara risk for hot och vald."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Arbete med mycket direktkontakt med manniskor kan innebara risk for hot och vald. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Vald och hot om vald, arbete med manniskor"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Hot- och valdsrisker ska hanteras genom kanda rutiner, instruktioner och rapportering av tillbud.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hot- och valdsrisker ska hanteras genom kanda rutiner, instruktioner och rapportering av tillbud."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hot- och valdsrisker ska hanteras genom kanda rutiner, instruktioner och rapportering av tillbud. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD_RUTINER",
+          "exact_reference": "Forebygg och hantera risken for ohalsa i samband med hot och vald"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 4: Vilken bedömning är säkrast i taxiförarens situation? I en hotfull taxissituation ar forarens forsta sakerhetsmal att undvika upptrappning och ta sig ur situationen utan att utsatta sig sjalv, passagerare eller andra for fara.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "I en hotfull taxissituation ar forarens forsta sakerhetsmal att undvika upptrappning och ta sig ur situationen utan att utsatta sig sjalv, passagerare eller andra for fara."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: I en hotfull taxissituation ar forarens forsta sakerhetsmal att undvika upptrappning och ta sig ur situationen utan att utsatta sig sjalv, passagerare eller andra for fara. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Vald och hot om vald, forebyggande arbete och rutiner"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 5: Vilken bedömning är säkrast i taxiförarens situation? Efter hot, vald eller tillbud ska handelsen rapporteras enligt arbetsplatsens rutiner sa att stod och forebyggande atgarder kan sattas in.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Efter hot, vald eller tillbud ska handelsen rapporteras enligt arbetsplatsens rutiner sa att stod och forebyggande atgarder kan sattas in."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Efter hot, vald eller tillbud ska handelsen rapporteras enligt arbetsplatsens rutiner sa att stod och forebyggande atgarder kan sattas in. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD_RUTINER",
+          "exact_reference": "Rutiner kring rapportering, stod och instruktioner"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna bedoma lampligt agerande i situationer som kan innebara hot och vald i arbetet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma lampligt agerande i situationer som kan innebara hot och vald i arbetet."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma lampligt agerande i situationer som kan innebara hot och vald i arbetet. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 7: Vilken bedömning är säkrast i taxiförarens situation? Arbete med mycket direktkontakt med manniskor kan innebara risk for hot och vald.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Arbete med mycket direktkontakt med manniskor kan innebara risk for hot och vald."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Arbete med mycket direktkontakt med manniskor kan innebara risk for hot och vald. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Vald och hot om vald, arbete med manniskor"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Hot- och valdsrisker ska hanteras genom kanda rutiner, instruktioner och rapportering av tillbud.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hot- och valdsrisker ska hanteras genom kanda rutiner, instruktioner och rapportering av tillbud."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hot- och valdsrisker ska hanteras genom kanda rutiner, instruktioner och rapportering av tillbud. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD_RUTINER",
+          "exact_reference": "Forebygg och hantera risken for ohalsa i samband med hot och vald"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-THREAT-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hot_vald",
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-THREAT-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-THREAT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "THREAT-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? I en hotfull taxissituation ar forarens forsta sakerhetsmal att undvika upptrappning och ta sig ur situationen utan att utsatta sig sjalv, passagerare eller andra for fara.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "I en hotfull taxissituation ar forarens forsta sakerhetsmal att undvika upptrappning och ta sig ur situationen utan att utsatta sig sjalv, passagerare eller andra for fara."
+        },
+        {
+          "id": "B",
+          "text": "THREAT-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "THREAT-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "THREAT-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: I en hotfull taxissituation ar forarens forsta sakerhetsmal att undvika upptrappning och ta sig ur situationen utan att utsatta sig sjalv, passagerare eller andra for fara. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Vald och hot om vald, forebyggande arbete och rutiner"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_pickup_dropoff_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna tillampa forsta hjalpen och hjart-lungraddning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna tillampa forsta hjalpen och hjart-lungraddning."
+        },
+        {
+          "id": "B",
+          "text": "HLR-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna tillampa forsta hjalpen och hjart-lungraddning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Innan HLR pabrorjas ska platsen vara saker for bade hjalparen och personen som behover hjalp.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Innan HLR pabrorjas ska platsen vara saker for bade hjalparen och personen som behover hjalp."
+        },
+        {
+          "id": "B",
+          "text": "HLR-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Innan HLR pabrorjas ska platsen vara saker for bade hjalparen och personen som behover hjalp. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "1177_HLR",
+          "exact_reference": "Hjart-lungraddning, innan du borjar"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Om en person ar medvetslos och inte gar att vacka ska 112 larmas direkt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Om en person ar medvetslos och inte gar att vacka ska 112 larmas direkt."
+        },
+        {
+          "id": "B",
+          "text": "HLR-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Om en person ar medvetslos och inte gar att vacka ska 112 larmas direkt. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "1177_HLR",
+          "exact_reference": "Hjart-lungraddning, Ring 112"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 4: Vilken bedömning är säkrast i taxiförarens situation? Om personen inte reagerar och inte andas normalt ska hjartstopp antas och HLR startas omedelbart.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Om personen inte reagerar och inte andas normalt ska hjartstopp antas och HLR startas omedelbart."
+        },
+        {
+          "id": "B",
+          "text": "HLR-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Om personen inte reagerar och inte andas normalt ska hjartstopp antas och HLR startas omedelbart. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "1177_HLR",
+          "exact_reference": "Nar ska jag starta hjart-lungraddning?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 5: Vilken bedömning är säkrast i taxiförarens situation? HLR pa vuxen bestar av 30 brostkompressioner och 2 inblasningar i cykler.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "HLR pa vuxen bestar av 30 brostkompressioner och 2 inblasningar i cykler."
+        },
+        {
+          "id": "B",
+          "text": "HLR-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: HLR pa vuxen bestar av 30 brostkompressioner och 2 inblasningar i cykler. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "VARDHANDBOKEN_HLR_TEKNIK",
+          "exact_reference": "Teknik vid HLR 30:2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-006"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Kompressioner vid vuxen-HLR ska ges i takt cirka 100-120 per minut enligt medicinsk vagledning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kompressioner vid vuxen-HLR ska ges i takt cirka 100-120 per minut enligt medicinsk vagledning."
+        },
+        {
+          "id": "B",
+          "text": "HLR-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kompressioner vid vuxen-HLR ska ges i takt cirka 100-120 per minut enligt medicinsk vagledning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "VARDHANDBOKEN_HLR_TEKNIK",
+          "exact_reference": "Teknik vid HLR 30:2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 7: Vilken bedömning är säkrast i taxiförarens situation? Om en medvetslos person andas normalt ska HLR inte startas; personen ska laggas i stabilt sidolage och overvakas tills hjalp kommer.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Om en medvetslos person andas normalt ska HLR inte startas; personen ska laggas i stabilt sidolage och overvakas tills hjalp kommer."
+        },
+        {
+          "id": "B",
+          "text": "HLR-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Om en medvetslos person andas normalt ska HLR inte startas; personen ska laggas i stabilt sidolage och overvakas tills hjalp kommer. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "1177_HLR",
+          "exact_reference": "Nar ska jag inte ge hjart-lungraddning?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna tillampa forsta hjalpen och hjart-lungraddning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna tillampa forsta hjalpen och hjart-lungraddning."
+        },
+        {
+          "id": "B",
+          "text": "HLR-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna tillampa forsta hjalpen och hjart-lungraddning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-HLR-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-HLR-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-HLR-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "HLR-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? Innan HLR pabrorjas ska platsen vara saker for bade hjalparen och personen som behover hjalp.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Innan HLR pabrorjas ska platsen vara saker for bade hjalparen och personen som behover hjalp."
+        },
+        {
+          "id": "B",
+          "text": "HLR-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "HLR-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "HLR-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Innan HLR pabrorjas ska platsen vara saker for bade hjalparen och personen som behover hjalp. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "1177_HLR",
+          "exact_reference": "Hjart-lungraddning, innan du borjar"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna redogora for hur man agerar nar man kommer forst till en olycksplats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna redogora for hur man agerar nar man kommer forst till en olycksplats."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna redogora for hur man agerar nar man kommer forst till en olycksplats. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna tillampa kunskap om risker vid atgarder under nodsituation pa vagen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna tillampa kunskap om risker vid atgarder under nodsituation pa vagen."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna tillampa kunskap om risker vid atgarder under nodsituation pa vagen. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Vid trafikolycka ska den som hjalper till parkera sa sakert som mojligt och inte sjalv riskera att bli pakord eller hindra trafiken.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid trafikolycka ska den som hjalper till parkera sa sakert som mojligt och inte sjalv riskera att bli pakord eller hindra trafiken."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid trafikolycka ska den som hjalper till parkera sa sakert som mojligt och inte sjalv riskera att bli pakord eller hindra trafiken. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "POLISEN_TRAFIKOLYCKOR",
+          "exact_reference": "Sa kan du hjalpa till vid trafikolyckor, punkt 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 4: Vilken bedömning är säkrast i taxiförarens situation? Vid trafikolycka ska 112 larmas nar hjalp behovs och uppgifter om plats, handelse och skadade samlas for raddningspersonalen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid trafikolycka ska 112 larmas nar hjalp behovs och uppgifter om plats, handelse och skadade samlas for raddningspersonalen."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid trafikolycka ska 112 larmas nar hjalp behovs och uppgifter om plats, handelse och skadade samlas for raddningspersonalen. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "POLISEN_TRAFIKOLYCKOR",
+          "exact_reference": "Sa kan du hjalpa till vid trafikolyckor, punkterna 3 och 6"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 5: Vilken bedömning är säkrast i taxiförarens situation? Andra trafikanter ska varnas med varningsblinkers och liknande sa att de inte kor in i olyckan.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Andra trafikanter ska varnas med varningsblinkers och liknande sa att de inte kor in i olyckan."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Andra trafikanter ska varnas med varningsblinkers och liknande sa att de inte kor in i olyckan. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "POLISEN_TRAFIKOLYCKOR",
+          "exact_reference": "Sa kan du hjalpa till vid trafikolyckor, punkt 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-006"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Anvisningar fran polis och raddningstjanst ska foljas pa olycksplatsen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Anvisningar fran polis och raddningstjanst ska foljas pa olycksplatsen."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Anvisningar fran polis och raddningstjanst ska foljas pa olycksplatsen. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "POLISEN_TRAFIKOLYCKOR",
+          "exact_reference": "Respektera anvisningarna"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 7: Vilken bedömning är säkrast i taxiförarens situation? Vid stopp pa motorvag eller 2+1-vag ar huvudprincipen att varna, lamna bil och vag samt larma; vid fara for liv rings 112.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid stopp pa motorvag eller 2+1-vag ar huvudprincipen att varna, lamna bil och vag samt larma; vid fara for liv rings 112."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid stopp pa motorvag eller 2+1-vag ar huvudprincipen att varna, lamna bil och vag samt larma; vid fara for liv rings 112. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_VARNA_LAMNA_LARMA",
+          "exact_reference": "Varna, lamna, larma"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-008"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Passagerare ska inte hallas kvar i eller nara en utsatt bil om en sakrare plats utanfor vagbanan finns.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Passagerare ska inte hallas kvar i eller nara en utsatt bil om en sakrare plats utanfor vagbanan finns."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Passagerare ska inte hallas kvar i eller nara en utsatt bil om en sakrare plats utanfor vagbanan finns. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TRV_VARNA_LAMNA_LARMA",
+          "exact_reference": "Lamna bilen och vagen"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna redogora for hur man agerar nar man kommer forst till en olycksplats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna redogora for hur man agerar nar man kommer forst till en olycksplats."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna redogora for hur man agerar nar man kommer forst till en olycksplats. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ACCIDENT-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "requirement_keys": [
+        "D1-SAFE-011-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-ACCIDENT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ACCIDENT-säkerhetsfall 10: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna tillampa kunskap om risker vid atgarder under nodsituation pa vagen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna tillampa kunskap om risker vid atgarder under nodsituation pa vagen."
+        },
+        {
+          "id": "B",
+          "text": "ACCIDENT-10: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ACCIDENT-10: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ACCIDENT-10: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna tillampa kunskap om risker vid atgarder under nodsituation pa vagen. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 11 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_accident_scene_diagram",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna bedoma risker vid passagerares pa- och avstigning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma risker vid passagerares pa- och avstigning."
+        },
+        {
+          "id": "B",
+          "text": "BELT-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma risker vid passagerares pa- och avstigning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna anvanda skyddsutrustning for barn i bil.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna anvanda skyddsutrustning for barn i bil."
+        },
+        {
+          "id": "B",
+          "text": "BELT-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna anvanda skyddsutrustning for barn i bil. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Alla som aker i personbil ska sitta pa plats med bilbalte om sadan finns och anvanda baltet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Alla som aker i personbil ska sitta pa plats med bilbalte om sadan finns och anvanda baltet."
+        },
+        {
+          "id": "B",
+          "text": "BELT-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Alla som aker i personbil ska sitta pa plats med bilbalte om sadan finns och anvanda baltet. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_BALTESREGLER",
+          "exact_reference": "Baltesregler, nar du aker personbil"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till/redogöra"
+      ],
+      "prompt": "BELT-säkerhetsfall 4: Vilket påstående stämmer med Säkerhet-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Foraren ska se till att passagerare under 15 ar anvander bilbalte eller annan sarskild skyddsanordning."
+        },
+        {
+          "id": "B",
+          "text": "BELT-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Foraren ska se till att passagerare under 15 ar anvander bilbalte eller annan sarskild skyddsanordning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_BALTESREGLER",
+          "exact_reference": "Baltesregler, ansvar for passagerare under femton ar"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 5: Vilken bedömning är säkrast i taxiförarens situation? Barn kortare an 135 cm ska som huvudregel anvanda sarskild skyddsanordning, till exempel babyskydd, bilbarnstol, baltesstol eller balteskudde.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Barn kortare an 135 cm ska som huvudregel anvanda sarskild skyddsanordning, till exempel babyskydd, bilbarnstol, baltesstol eller balteskudde."
+        },
+        {
+          "id": "B",
+          "text": "BELT-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Barn kortare an 135 cm ska som huvudregel anvanda sarskild skyddsanordning, till exempel babyskydd, bilbarnstol, baltesstol eller balteskudde. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_BALTESREGLER",
+          "exact_reference": "Baltesregler, huvudregel for barn kortare an 135 cm"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-006"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Barn under tre ar far vid tillfallig kort taxifard aka utan sarskild skyddsanordning bara om barnet inte sitter i framsatet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Barn under tre ar far vid tillfallig kort taxifard aka utan sarskild skyddsanordning bara om barnet inte sitter i framsatet."
+        },
+        {
+          "id": "B",
+          "text": "BELT-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Barn under tre ar far vid tillfallig kort taxifard aka utan sarskild skyddsanordning bara om barnet inte sitter i framsatet. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_BALTESREGLER",
+          "exact_reference": "Baltesregler, taxiundantag for barn yngre an tre ar"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 7: Vilken bedömning är säkrast i taxiförarens situation? Trafikverket rekommenderar att barn aker bakatvant till minst fyra-fem ars alder, garna langre.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Trafikverket rekommenderar att barn aker bakatvant till minst fyra-fem ars alder, garna langre."
+        },
+        {
+          "id": "B",
+          "text": "BELT-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Trafikverket rekommenderar att barn aker bakatvant till minst fyra-fem ars alder, garna langre. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_BARN_I_BIL",
+          "exact_reference": "Barn som fardas i bil, regler och rekommendationer"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-014-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-008"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Barn i bakatvanda skyddssystem ska inte placeras vid aktiv passagerarkrockkudde om krockkudden inte ar ur funktion.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Barn i bakatvanda skyddssystem ska inte placeras vid aktiv passagerarkrockkudde om krockkudden inte ar ur funktion."
+        },
+        {
+          "id": "B",
+          "text": "BELT-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Barn i bakatvanda skyddssystem ska inte placeras vid aktiv passagerarkrockkudde om krockkudden inte ar ur funktion. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TRV_BARN_I_BIL",
+          "exact_reference": "Barn som fardas i bil, aktiv passagerarkrockkudde"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-014-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-009"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? Bilbalte, barnskydd, huvudstod och krockkudde hor till bilens inre skyddsutrustning och kan minska skador nar kollisionen inte kan undvikas.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bilbalte, barnskydd, huvudstod och krockkudde hor till bilens inre skyddsutrustning och kan minska skador nar kollisionen inte kan undvikas."
+        },
+        {
+          "id": "B",
+          "text": "BELT-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bilbalte, barnskydd, huvudstod och krockkudde hor till bilens inre skyddsutrustning och kan minska skador nar kollisionen inte kan undvikas. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 14 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 10: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna bedoma risker vid passagerares pa- och avstigning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma risker vid passagerares pa- och avstigning."
+        },
+        {
+          "id": "B",
+          "text": "BELT-10: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-10: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-10: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma risker vid passagerares pa- och avstigning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q011",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 11: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna anvanda skyddsutrustning for barn i bil.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna anvanda skyddsutrustning for barn i bil."
+        },
+        {
+          "id": "B",
+          "text": "BELT-11: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-11: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-11: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna anvanda skyddsutrustning for barn i bil. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-BELT-Q012",
+      "version": 1,
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "requirement_keys": [
+        "D1-SAFE-012-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-BELT-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "BELT-säkerhetsfall 12: Vilken bedömning är säkrast i taxiförarens situation? Alla som aker i personbil ska sitta pa plats med bilbalte om sadan finns och anvanda baltet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Alla som aker i personbil ska sitta pa plats med bilbalte om sadan finns och anvanda baltet."
+        },
+        {
+          "id": "B",
+          "text": "BELT-12: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "BELT-12: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "BELT-12: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Alla som aker i personbil ska sitta pa plats med bilbalte om sadan finns och anvanda baltet. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_BALTESREGLER",
+          "exact_reference": "Baltesregler, nar du aker personbil"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_child_restraint_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna anvanda bilbalten och hjalpmedel samt satta fast rullstolar och barar vid transporter av personer med funktionsnedsattningar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna anvanda bilbalten och hjalpmedel samt satta fast rullstolar och barar vid transporter av personer med funktionsnedsattningar."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna anvanda bilbalten och hjalpmedel samt satta fast rullstolar och barar vid transporter av personer med funktionsnedsattningar. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-005"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna tillampa bestammelserna om lastsakring av gods i personbil och latt lastbil.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna tillampa bestammelserna om lastsakring av gods i personbil och latt lastbil."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna tillampa bestammelserna om lastsakring av gods i personbil och latt lastbil. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 5"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-005"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Foraren ansvarar for att lasten ar sakrad sa att den inte orsakar fara eller forsamrar korningen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Foraren ansvarar for att lasten ar sakrad sa att den inte orsakar fara eller forsamrar korningen."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Foraren ansvarar for att lasten ar sakrad sa att den inte orsakar fara eller forsamrar korningen. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_LASTSAKRING",
+          "exact_reference": "Lastsakring, forarens ansvar och risk med fel last"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-005"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 4: Vilken bedömning är säkrast i taxiförarens situation? Lost bagage i kupen kan skada passagerare eller forare vid hard inbromsning eller kollision.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lost bagage i kupen kan skada passagerare eller forare vid hard inbromsning eller kollision."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lost bagage i kupen kan skada passagerare eller forare vid hard inbromsning eller kollision. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_LASTSAKRING",
+          "exact_reference": "Lastsakring, losa foremal i bilen"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-005"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 5: Vilken bedömning är säkrast i taxiförarens situation? Last ska sakras framat, bakat och at sidorna; lastsakringen ska motsta minst 80 procent av lastens vikt framat och halva vikten bakat och at sidorna.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Last ska sakras framat, bakat och at sidorna; lastsakringen ska motsta minst 80 procent av lastens vikt framat och halva vikten bakat och at sidorna."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Last ska sakras framat, bakat och at sidorna; lastsakringen ska motsta minst 80 procent av lastens vikt framat och halva vikten bakat och at sidorna. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_LASTA_RATT",
+          "exact_reference": "Att lasta ratt, lastsakring framat/bakat/sidorna"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-006"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Rullstol, bar och andra hjalpmedel ska sakras enligt fordonets och utrustningens anvisningar innan farden borjar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Rullstol, bar och andra hjalpmedel ska sakras enligt fordonets och utrustningens anvisningar innan farden borjar."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Rullstol, bar och andra hjalpmedel ska sakras enligt fordonets och utrustningens anvisningar innan farden borjar. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-013-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 7: Vilken bedömning är säkrast i taxiförarens situation? Personer med funktionsnedsattning kan behova mer tid, yta och skyddad plats vid pa- och avstigning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Personer med funktionsnedsattning kan behova mer tid, yta och skyddad plats vid pa- och avstigning."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Personer med funktionsnedsattning kan behova mer tid, yta och skyddad plats vid pa- och avstigning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna anvanda bilbalten och hjalpmedel samt satta fast rullstolar och barar vid transporter av personer med funktionsnedsattningar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna anvanda bilbalten och hjalpmedel samt satta fast rullstolar och barar vid transporter av personer med funktionsnedsattningar."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna anvanda bilbalten och hjalpmedel samt satta fast rullstolar och barar vid transporter av personer med funktionsnedsattningar. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-LOAD-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "requirement_keys": [
+        "D1-SAFE-012-005"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-LOAD-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "LOAD-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna tillampa bestammelserna om lastsakring av gods i personbil och latt lastbil.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna tillampa bestammelserna om lastsakring av gods i personbil och latt lastbil."
+        },
+        {
+          "id": "B",
+          "text": "LOAD-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "LOAD-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "LOAD-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna tillampa bestammelserna om lastsakring av gods i personbil och latt lastbil. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 12 § 5"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_wheelchair_stretcher_securement",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna redogora for risker som barn utsatts for i trafiken.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna redogora for risker som barn utsatts for i trafiken."
+        },
+        {
+          "id": "B",
+          "text": "VULN-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna redogora for risker som barn utsatts for i trafiken. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna redogora for hur barns mognad paverkar deras formaga att hantera trafikrisker.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna redogora for hur barns mognad paverkar deras formaga att hantera trafikrisker."
+        },
+        {
+          "id": "B",
+          "text": "VULN-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna redogora for hur barns mognad paverkar deras formaga att hantera trafikrisker. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna bedoma vad man ska vara uppmarksam pa i miljoer dar barn vistas.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma vad man ska vara uppmarksam pa i miljoer dar barn vistas."
+        },
+        {
+          "id": "B",
+          "text": "VULN-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma vad man ska vara uppmarksam pa i miljoer dar barn vistas. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 4: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna bedoma trafikproblem for personer med funktionsnedsattning.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma trafikproblem for personer med funktionsnedsattning."
+        },
+        {
+          "id": "B",
+          "text": "VULN-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma trafikproblem for personer med funktionsnedsattning. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 5: Vilken bedömning är säkrast i taxiförarens situation? Barn ar mer sarbara an vuxna i bilolyckor eftersom storlek och anatomi skiljer sig fran vuxnas.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Barn ar mer sarbara an vuxna i bilolyckor eftersom storlek och anatomi skiljer sig fran vuxnas."
+        },
+        {
+          "id": "B",
+          "text": "VULN-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Barn ar mer sarbara an vuxna i bilolyckor eftersom storlek och anatomi skiljer sig fran vuxnas. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_BARN_I_BIL",
+          "exact_reference": "Barn som fardas i bil, barn har sarskilda behov"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-006"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Barns begransade mognad gor att foraren ska rakna med impulsiva rorelser och bristande riskbedomning nara skolor, bostadsomraden och parkerade bilar.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Barns begransade mognad gor att foraren ska rakna med impulsiva rorelser och bristande riskbedomning nara skolor, bostadsomraden och parkerade bilar."
+        },
+        {
+          "id": "B",
+          "text": "VULN-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Barns begransade mognad gor att foraren ska rakna med impulsiva rorelser och bristande riskbedomning nara skolor, bostadsomraden och parkerade bilar. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 7: Vilken bedömning är säkrast i taxiförarens situation? Miljoer dar barn vistas kraver lag fart, beredskap och aktiv sokning efter skymda barn vid trottoarer, overgangsstallen, hallar och parkerade fordon.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Miljoer dar barn vistas kraver lag fart, beredskap och aktiv sokning efter skymda barn vid trottoarer, overgangsstallen, hallar och parkerade fordon."
+        },
+        {
+          "id": "B",
+          "text": "VULN-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Miljoer dar barn vistas kraver lag fart, beredskap och aktiv sokning efter skymda barn vid trottoarer, overgangsstallen, hallar och parkerade fordon. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-008"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Pa vagar med oskyddade trafikanter ar lagre hastighet viktig eftersom foraren far kortare stoppstracka och mer tid att reagera.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Pa vagar med oskyddade trafikanter ar lagre hastighet viktig eftersom foraren far kortare stoppstracka och mer tid att reagera."
+        },
+        {
+          "id": "B",
+          "text": "VULN-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Pa vagar med oskyddade trafikanter ar lagre hastighet viktig eftersom foraren far kortare stoppstracka och mer tid att reagera. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_reference": "Lagre fart ger kortare stoppstracka"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna redogora for risker som barn utsatts for i trafiken.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna redogora for risker som barn utsatts for i trafiken."
+        },
+        {
+          "id": "B",
+          "text": "VULN-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna redogora for risker som barn utsatts for i trafiken. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-VULN-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "requirement_keys": [
+        "D1-SAFE-013-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-VULN-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "VULN-säkerhetsfall 10: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna redogora for hur barns mognad paverkar deras formaga att hantera trafikrisker.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna redogora for hur barns mognad paverkar deras formaga att hantera trafikrisker."
+        },
+        {
+          "id": "B",
+          "text": "VULN-10: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "VULN-10: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "VULN-10: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna redogora for hur barns mognad paverkar deras formaga att hantera trafikrisker. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 13 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_children_road_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 1: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren ska kunna bedoma sambandet mellan hastighet, kollisionshastighet och risk for personskador.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma sambandet mellan hastighet, kollisionshastighet och risk for personskador."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-1: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-1: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-1: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma sambandet mellan hastighet, kollisionshastighet och risk for personskador. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 14 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 2: Vilken bedömning är säkrast i taxiförarens situation? Hastigheten ar avgorande for hur allvarliga konsekvenserna blir vid en olycka.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hastigheten ar avgorande for hur allvarliga konsekvenserna blir vid en olycka."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-2: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-2: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-2: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hastigheten ar avgorande for hur allvarliga konsekvenserna blir vid en olycka. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_reference": "Hastighet och krockvald, inledning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 3: Vilken bedömning är säkrast i taxiförarens situation? Hogre hastighet gor det svarare att behalla kontroll, upptacka andra trafikanter och hinna reagera i tid.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hogre hastighet gor det svarare att behalla kontroll, upptacka andra trafikanter och hinna reagera i tid."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-3: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-3: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-3: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hogre hastighet gor det svarare att behalla kontroll, upptacka andra trafikanter och hinna reagera i tid. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_reference": "Hastighet och krockvald, hog hastighet och kontroll"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-004"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 4: Vilken bedömning är säkrast i taxiförarens situation? Stoppstrackan blir langre ju hogre hastighet fordonet har.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stoppstrackan blir langre ju hogre hastighet fordonet har."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-4: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-4: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-4: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stoppstrackan blir langre ju hogre hastighet fordonet har. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_reference": "Lagre fart ger kortare stoppstracka"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-005"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "bedöma samband/estimation"
+      ],
+      "prompt": "ZERO-säkerhetsfall 5: Du kör taxi nära ett övergångsställe och överväger om du ska hålla högre fart för att vinna tid. Vilken säkerhetsbedömning stöds av källorna?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Enligt Trafikverket motsvarar det ungefar ett fall fran tredje vaningen att bli pakord i 50 km/tim som gaende eller cyklist."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-5: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-5: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-5: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Enligt Trafikverket motsvarar det ungefar ett fall fran tredje vaningen att bli pakord i 50 km/tim som gaende eller cyklist. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_reference": "Lagre fart ger kortare stoppstracka"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "calculation_metadata": {
+        "teaching_status": "pedagogical_estimate",
+        "inputs": [
+          "högre hastighet",
+          "oförändrad trafikmiljö"
+        ],
+        "method": "Bedöm riktning och säkerhetskonsekvens, inte exakt fysikformel.",
+        "worked_example": "När hastigheten höjs blir stoppsträckan längre och kollisionsvåldet större. Rätt säkerhetsval är att sänka farten i miljö med oskyddade trafikanter.",
+        "answer": "Enligt Trafikverket motsvarar det ungefar ett fall fran tredje vaningen att bli pakord i 50 km/tim som gaende eller cyklist."
+      }
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-006"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 6: Vilken bedömning är säkrast i taxiförarens situation? Vagens utformning och manniskokroppens tolerans for krockvald ar viktiga grunder for sakra hastighetsgranser.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vagens utformning och manniskokroppens tolerans for krockvald ar viktiga grunder for sakra hastighetsgranser."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-6: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-6: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-6: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vagens utformning och manniskokroppens tolerans for krockvald ar viktiga grunder for sakra hastighetsgranser. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHETSGRANSER",
+          "exact_reference": "Hastighetsgranser pa vag, ratt hastighet"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-015-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-007"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "single_choice",
+      "competencies": [
+        "känna till/redogöra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 7: Vilket påstående stämmer med Säkerhet-kravet?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Nollvisionens huvudmal ar att ingen ska dodas eller skadas allvarligt i vagtrafiken."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-7: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-7: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-7: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Nollvisionens huvudmal ar att ingen ska dodas eller skadas allvarligt i vagtrafiken. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_NOLLVISIONEN",
+          "exact_reference": "Nollvisionen - ingen ska do eller skadas allvarligt i trafiken"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-015-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-008"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 8: Vilken bedömning är säkrast i taxiförarens situation? Nollvisionen utgar fran att olyckor kan ske men att trafiksystemet ska minska risken for allvarliga personskador.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Nollvisionen utgar fran att olyckor kan ske men att trafiksystemet ska minska risken for allvarliga personskador."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-8: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-8: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-8: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Nollvisionen utgar fran att olyckor kan ske men att trafiksystemet ska minska risken for allvarliga personskador. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_NOLLVISIONEN",
+          "exact_reference": "Nollvisionen, sakerhetsfilosofi och fokus pa personskador"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-015-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 9: Vilken bedömning är säkrast i taxiförarens situation? Taxiforaren bidrar till Nollvisionen genom att halla ratt hastighet, anvanda skyddssystem, skydda passagerare och visa sarskild hansyn till oskyddade trafikanter.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren bidrar till Nollvisionen genom att halla ratt hastighet, anvanda skyddssystem, skydda passagerare och visa sarskild hansyn till oskyddade trafikanter."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-9: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-9: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-9: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren bidrar till Nollvisionen genom att halla ratt hastighet, anvanda skyddssystem, skydda passagerare och visa sarskild hansyn till oskyddade trafikanter. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 15 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-001"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "calculation",
+      "competencies": [
+        "bedöma samband/estimation"
+      ],
+      "prompt": "ZERO-säkerhetsfall 10: Du kör taxi nära ett övergångsställe och överväger om du ska hålla högre fart för att vinna tid. Vilken säkerhetsbedömning stöds av källorna?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiforaren ska kunna bedoma sambandet mellan hastighet, kollisionshastighet och risk for personskador."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-10: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-10: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-10: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiforaren ska kunna bedoma sambandet mellan hastighet, kollisionshastighet och risk for personskador. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 14 § 1"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "calculation_metadata": {
+        "teaching_status": "pedagogical_estimate",
+        "inputs": [
+          "högre hastighet",
+          "oförändrad trafikmiljö"
+        ],
+        "method": "Bedöm riktning och säkerhetskonsekvens, inte exakt fysikformel.",
+        "worked_example": "När hastigheten höjs blir stoppsträckan längre och kollisionsvåldet större. Rätt säkerhetsval är att sänka farten i miljö med oskyddade trafikanter.",
+        "answer": "Taxiforaren ska kunna bedoma sambandet mellan hastighet, kollisionshastighet och risk for personskador."
+      }
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q011",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-002"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 11: Vilken bedömning är säkrast i taxiförarens situation? Hastigheten ar avgorande for hur allvarliga konsekvenserna blir vid en olycka.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hastigheten ar avgorande for hur allvarliga konsekvenserna blir vid en olycka."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-11: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-11: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-11: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hastigheten ar avgorande for hur allvarliga konsekvenserna blir vid en olycka. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_reference": "Hastighet och krockvald, inledning"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SAFE-ZERO-Q012",
+      "version": 1,
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-003"
+      ],
+      "lesson_key": "D1-SAFE-ZERO-L01",
+      "question_type": "scenario",
+      "competencies": [
+        "bedöma/tillämpa/utföra"
+      ],
+      "prompt": "ZERO-säkerhetsfall 12: Vilken bedömning är säkrast i taxiförarens situation? Hogre hastighet gor det svarare att behalla kontroll, upptacka andra trafikanter och hinna reagera i tid.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hogre hastighet gor det svarare att behalla kontroll, upptacka andra trafikanter och hinna reagera i tid."
+        },
+        {
+          "id": "B",
+          "text": "ZERO-12: prioritera att uppdraget blir snabbt klart även om riskerna vid platsen ökar."
+        },
+        {
+          "id": "C",
+          "text": "ZERO-12: anta att ansvaret alltid ligger på passageraren eller andra trafikanter i stället för på taxiförarens bedömning."
+        },
+        {
+          "id": "D",
+          "text": "ZERO-12: vänta med åtgärd tills något redan har hänt, eftersom förebyggande säkerhetsarbete inte hör till taxiförarens roll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hogre hastighet gor det svarare att behalla kontroll, upptacka andra trafikanter och hinna reagera i tid. Förklaringen bygger på lektionens verifierade säkerhetsfaktum och knyter frågan till krav, källa och taxisituation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TRV_HASTIGHET_KROCKVALD",
+          "exact_reference": "Hastighet och krockvald, hog hastighet och kontroll"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "safe_stopping_distance_visual",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    }
+  ]
+}

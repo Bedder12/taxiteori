@@ -3,16 +3,22 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { getOrderedLessonsForTopic, selectCheckpointQuestions, selectSubjectCheckpointQuestions } from '../src';
-import { d1VehicleKnowledgeFactRecords, d2TaxiLawRepository } from '../src/vilotiderRepository';
+import { d1HealthDisabilitiesFactRecords, d2TaxiLawRepository } from '../src/vilotiderRepository';
 
 type Curriculum = {
-  requirements: { stable_key: string; subject: string; active: boolean; competency_type?: string }[];
+  requirements: {
+    stable_key: string;
+    subject: string;
+    active: boolean;
+    legal_status?: string;
+    competency_type?: string;
+  }[];
 };
 
 type VisualMetadata = {
   requires_image?: boolean;
   requires_diagram?: boolean;
-  requires_comparison_visual?: boolean;
+  requires_road_scene?: boolean;
   visual_asset_id?: string;
   visual_correctness_depends_on_asset?: boolean;
 };
@@ -24,7 +30,6 @@ type SourceMap = {
     sources: { source_key: string; source_type: string; source_status: string }[];
     overall_status: string;
   }[];
-  pedagogical_topics: { topic_id: string; visual_asset_ids: string[]; visual_metadata: VisualMetadata; status: string }[];
 };
 
 type FactsFile = {
@@ -33,11 +38,13 @@ type FactsFile = {
     stable_key: string;
     topic_id: string;
     requirement_key: string;
+    text: string;
     source_id: string;
     exact_reference: string;
     verification_status: string;
+    authority_status: string;
     legal_or_guidance_status: string;
-    cross_subject_fact_links?: string[];
+    medical_scope: string;
   }[];
 };
 
@@ -48,7 +55,7 @@ type LessonsFile = {
     requirement_keys: string[];
     fact_keys: string[];
     source_references: { source_id: string; exact_references: string[] }[];
-    visual_metadata: VisualMetadata;
+    visual_metadata?: VisualMetadata;
     status: string;
     content_blocks: { text?: string; items?: string[]; fact_keys?: string[] }[];
   }[];
@@ -64,6 +71,7 @@ type QuestionsFile = {
     fact_keys: string[];
     lesson_key: string;
     question_type: string;
+    competency_tags: string[];
     prompt: string;
     answer_choices: { id: string; text: string }[];
     correct_answer_id: string;
@@ -72,6 +80,8 @@ type QuestionsFile = {
     visual_metadata?: VisualMetadata;
     visual_asset_id?: string;
     visual_correctness_depends_on_asset?: boolean;
+    medical_scope: string;
+    diagnostic_style: boolean;
     status: string;
   }[];
 };
@@ -84,6 +94,7 @@ type VisualsFile = {
     elements_must_be_shown: string[];
     labels_required: string[];
     requirement_keys: string[];
+    fact_keys: string[];
     correctness_depends_on_visual: boolean;
   }[];
 };
@@ -98,37 +109,29 @@ function loadCurriculum() {
 }
 
 function loadSourceMap() {
-  return loadJson<SourceMap>('data/curriculum/d1-vehicle-knowledge-sources.json');
+  return loadJson<SourceMap>('data/curriculum/d1-health-disabilities-sources.json');
 }
 
 function loadFacts() {
-  return loadJson<FactsFile>('data/content/d1-vehicle-knowledge/vehicle-facts.json');
+  return loadJson<FactsFile>('data/content/d1-health-disabilities/health-disabilities-facts.json');
 }
 
 function loadLessons() {
-  return loadJson<LessonsFile>('data/content/d1-vehicle-knowledge/vehicle-lessons.json');
+  return loadJson<LessonsFile>('data/content/d1-health-disabilities/health-disabilities-lessons.json');
 }
 
 function loadQuestions() {
-  return loadJson<QuestionsFile>('data/questions/d1-vehicle-knowledge/vehicle-questions.json');
+  return loadJson<QuestionsFile>('data/questions/d1-health-disabilities/health-disabilities-questions.json');
 }
 
 function loadVisuals() {
-  return loadJson<VisualsFile>('data/content/d1-vehicle-knowledge/vehicle-visuals.json');
-}
-
-function loadEcoQuestions() {
-  return loadJson<QuestionsFile>('data/questions/d1-eco-driving/eco-driving-questions.json');
-}
-
-function loadEnvironmentQuestions() {
-  return loadJson<QuestionsFile>('data/questions/d1-environment/environment-questions.json');
+  return loadJson<VisualsFile>('data/content/d1-health-disabilities/health-disabilities-visuals.json');
 }
 
 function requirementKeys() {
   return new Set(
     loadCurriculum()
-      .requirements.filter((requirement) => requirement.active && requirement.subject === 'D1_VEHICLE_KNOWLEDGE')
+      .requirements.filter((requirement) => requirement.active && requirement.subject === 'D1_HEALTH_DISABILITIES')
       .map((requirement) => requirement.stable_key),
   );
 }
@@ -146,16 +149,16 @@ function assertNoDuplicates(values: string[], label: string) {
   }
 }
 
-export function testD1VehicleKnowledgeRequirementsHaveSourceMappings() {
+export function testD1HealthDisabilitiesRequirementsHaveSourceMappings() {
   const requirements = requirementKeys();
   const sourceMap = loadSourceMap();
   const sourceIds = new Set(sourceMap.source_catalog.map((source) => source.source_key));
   const mappedKeys = new Set(sourceMap.requirement_source_map.map((mapping) => mapping.requirement_key));
 
-  assert.equal(requirements.size, 35);
+  assert.equal(requirements.size, 5);
 
   for (const key of requirements) {
-    assert.ok(mappedKeys.has(key), `${key} has no vehicle-knowledge source mapping.`);
+    assert.ok(mappedKeys.has(key), `${key} has no health/disability source mapping.`);
   }
 
   for (const mapping of sourceMap.requirement_source_map) {
@@ -168,42 +171,43 @@ export function testD1VehicleKnowledgeRequirementsHaveSourceMappings() {
   }
 }
 
-export function testD1VehicleKnowledgeFactsAreVerifiedAndSourced() {
+export function testD1HealthDisabilitiesFactsAreVerifiedAndAuthorityTagged() {
   const requirements = requirementKeys();
   const sourceIds = new Set(loadFacts().sources.map((source) => source.source_id));
+  const allowed = new Set(['binding_rule', 'general_advice', 'authoritative_medical_guidance', 'pedagogical_application']);
 
-  assertNoDuplicates(loadFacts().facts.map((fact) => fact.stable_key), 'vehicle fact stable key');
+  assertNoDuplicates(loadFacts().facts.map((fact) => fact.stable_key), 'health/disability fact stable key');
 
   for (const fact of loadFacts().facts) {
     assert.ok(requirements.has(fact.requirement_key), `${fact.stable_key} points to an unknown requirement.`);
     assert.ok(sourceIds.has(fact.source_id), `${fact.stable_key} points to an unknown source.`);
+    assert.ok(fact.text.trim().length > 0, `${fact.stable_key} has no text.`);
     assert.ok(fact.exact_reference.trim().length > 0, `${fact.stable_key} has no exact source reference.`);
     assert.equal(fact.verification_status, 'verified', `${fact.stable_key} is not verified.`);
-    assert.ok(fact.legal_or_guidance_status.length > 0, `${fact.stable_key} has no legal/guidance status.`);
+    assert.ok(allowed.has(fact.authority_status), `${fact.stable_key} has unsupported authority status ${fact.authority_status}.`);
+    assert.equal(fact.medical_scope, 'practical_transport_awareness', `${fact.stable_key} drifts beyond transport awareness.`);
+    if (fact.requirement_key.includes('-GA-') && fact.source_id === 'TSFS_2021_119_CONSOLIDATED' && fact.exact_reference.startsWith('Allmänna råd')) {
+      assert.equal(fact.authority_status, 'general_advice', `${fact.stable_key} should preserve allmänna råd metadata.`);
+      assert.equal(fact.legal_or_guidance_status, 'general_advice', `${fact.stable_key} should preserve general-advice legal status.`);
+    }
   }
 }
 
-export function testD1VehicleKnowledgeLessonsHaveTraceabilityAndVisualAssets() {
+export function testD1HealthDisabilitiesLessonsHaveTraceability() {
   const facts = new Set(loadFacts().facts.map((fact) => fact.stable_key));
   const requirements = requirementKeys();
-  const visualIds = new Set(loadVisuals().visuals.map((visual) => visual.visual_id));
 
   for (const lesson of loadLessons().lessons) {
     assert.equal(lesson.status, 'published', `${lesson.stable_key} is not published.`);
     assert.ok(lesson.requirement_keys.length > 0, `${lesson.stable_key} has no requirements.`);
     assert.ok(lesson.fact_keys.length > 0, `${lesson.stable_key} has no facts.`);
     assert.ok(lesson.source_references.length > 0, `${lesson.stable_key} has no sources.`);
-    assert.ok(lesson.visual_metadata.requires_image || lesson.visual_metadata.requires_diagram, `${lesson.stable_key} should carry visual metadata.`);
-    assert.ok(lesson.visual_metadata.visual_asset_id && visualIds.has(lesson.visual_metadata.visual_asset_id), `${lesson.stable_key} has no visual manifest link.`);
-
     for (const key of lesson.requirement_keys) {
       assert.ok(requirements.has(key), `${lesson.stable_key} points to unknown requirement ${key}.`);
     }
-
     for (const key of lesson.fact_keys) {
       assert.ok(facts.has(key), `${lesson.stable_key} points to unknown fact ${key}.`);
     }
-
     for (const block of lesson.content_blocks) {
       assert.ok(block.text || block.items?.length, `${lesson.stable_key} has an empty block.`);
       assert.ok(block.fact_keys?.length, `${lesson.stable_key} has a block without fact links.`);
@@ -211,24 +215,30 @@ export function testD1VehicleKnowledgeLessonsHaveTraceabilityAndVisualAssets() {
   }
 }
 
-export function testD1VehicleKnowledgeVisualManifestIsStructured() {
-  const requirements = requirementKeys();
+export function testD1HealthDisabilitiesVisualsArePlaceholdersAndNonBlocking() {
+  const questions = loadQuestions().questions;
+  const visualIds = new Set(loadVisuals().visuals.map((visual) => visual.visual_id));
+  const visualQuestions = questions.filter((question) => question.visual_metadata?.requires_image || question.visual_metadata?.requires_road_scene);
+
+  assert.ok(visualQuestions.length > 0);
+  assert.ok(visualQuestions.length < questions.length, 'Health/disability should not mark every question visual-dependent.');
 
   for (const visual of loadVisuals().visuals) {
+    assert.equal(visual.status, 'placeholder_metadata', `${visual.visual_id} should be placeholder metadata.`);
     assert.ok(visual.purpose.trim().length > 0, `${visual.visual_id} has no purpose.`);
     assert.ok(visual.elements_must_be_shown.length > 0, `${visual.visual_id} has no required elements.`);
-    assert.ok(visual.labels_required.length > 0, `${visual.visual_id} has no labels.`);
-    assert.equal(visual.correctness_depends_on_visual, false, `${visual.visual_id} should not be required for published question correctness yet.`);
-    for (const requirementKey of visual.requirement_keys) {
-      assert.ok(requirements.has(requirementKey), `${visual.visual_id} points to unknown requirement ${requirementKey}.`);
-    }
+    assert.equal(visual.correctness_depends_on_visual, false, `${visual.visual_id} should not be required for published correctness.`);
+  }
+
+  for (const question of visualQuestions) {
+    assert.ok(question.visual_asset_id && visualIds.has(question.visual_asset_id), `${question.stable_key} has no visual asset reference.`);
+    assert.equal(question.visual_correctness_depends_on_asset, false, `${question.stable_key} depends on a placeholder visual.`);
   }
 }
 
-export function testD1VehicleKnowledgeQuestionsHaveFullTraceabilityAndVisualAssets() {
+export function testD1HealthDisabilitiesQuestionsHaveFullTraceabilityAndNoMedicalDrift() {
   const facts = new Map(loadFacts().facts.map((fact) => [fact.stable_key, fact]));
   const lessons = new Map(loadLessons().lessons.map((lesson) => [lesson.stable_key, lesson]));
-  const visualIds = new Set(loadVisuals().visuals.map((visual) => visual.visual_id));
 
   for (const question of loadQuestions().questions) {
     const lesson = lessons.get(question.lesson_key);
@@ -237,12 +247,10 @@ export function testD1VehicleKnowledgeQuestionsHaveFullTraceabilityAndVisualAsse
     assert.equal(question.topic_id, lesson!.topic_id, `${question.stable_key} topic does not match lesson.`);
     assert.ok(question.explanation.includes('Rätt:'), `${question.stable_key} explanation does not support the answer.`);
     assert.equal(question.answer_choices.filter((choice) => choice.id === question.correct_answer_id).length, 1, `${question.stable_key} has no single correct answer.`);
-
-    if (question.visual_metadata?.requires_image || question.visual_metadata?.requires_diagram) {
-      assert.ok(question.visual_asset_id && visualIds.has(question.visual_asset_id), `${question.stable_key} has no visual asset reference.`);
-      assert.equal(question.visual_correctness_depends_on_asset, false, `${question.stable_key} depends on a placeholder visual.`);
-    }
-
+    assert.equal(question.medical_scope, 'practical_transport_awareness', `${question.stable_key} exceeds practical transport scope.`);
+    assert.equal(question.diagnostic_style, false, `${question.stable_key} is marked as diagnostic style.`);
+    assert.ok(!/vilken sjukdom|vad lider|diagnos/i.test(question.prompt), `${question.stable_key} asks for medical identification.`);
+    assert.ok(!/behandla|medicinera|läkemedelsdos|botar/i.test(question.prompt + question.explanation), `${question.stable_key} drifts into medical treatment.`);
     for (const factKey of question.fact_keys) {
       const fact = facts.get(factKey);
       assert.ok(fact, `${question.stable_key} points to unknown fact ${factKey}.`);
@@ -256,59 +264,46 @@ export function testD1VehicleKnowledgeQuestionsHaveFullTraceabilityAndVisualAsse
   }
 }
 
-export function testD1VehicleKnowledgeQuestionBankHasNoDuplicates() {
+export function testD1HealthDisabilitiesQuestionBankHasNoDuplicates() {
   const questions = loadQuestions().questions;
-  assertNoDuplicates(questions.map((question) => question.stable_key), 'vehicle question stable key');
-  assertNoDuplicates(questions.map((question) => question.prompt), 'vehicle prompt');
+  assertNoDuplicates(questions.map((question) => question.stable_key), 'health/disability question stable key');
+  assertNoDuplicates(questions.map((question) => question.prompt), 'health/disability prompt');
   assertNoDuplicates(
     questions.map((question) => question.answer_choices.map((choice) => normalize(choice.text)).sort().join(' | ')),
-    'vehicle answer set',
+    'health/disability answer set',
   );
 }
 
-export function testD1VehicleKnowledgeQuestionTypesMatchCompetencies() {
-  const requirementByKey = new Map(
-    loadCurriculum()
-      .requirements.filter((requirement) => requirement.subject === 'D1_VEHICLE_KNOWLEDGE')
-      .map((requirement) => [requirement.stable_key, requirement]),
-  );
-
+export function testD1HealthDisabilitiesQuestionTypesMatchCompetencies() {
   for (const question of loadQuestions().questions) {
+    assert.ok(['single_choice', 'scenario'].includes(question.question_type), `${question.stable_key} uses unsupported type ${question.question_type}.`);
     assert.notEqual(question.question_type, 'calculation', `${question.stable_key} should not be a calculation question.`);
-    for (const requirementKey of question.requirement_keys) {
-      const competency = requirementByKey.get(requirementKey)?.competency_type;
-      if (competency === 'USE' || competency === 'PERFORM' || competency === 'APPLY') {
-        assert.equal(question.question_type, 'scenario', `${question.stable_key} should be practical/scenario based.`);
-      }
-    }
+    assert.ok(question.competency_tags.some((tag) => ['KNOW', 'APPLY', 'ASSESS', 'USE'].includes(tag)), `${question.stable_key} lacks aligned competency tags.`);
   }
 }
 
-export function testD1VehicleKnowledgeCrossSubjectDuplicateGate() {
-  const vehicleQuestions = loadQuestions().questions;
-  const otherQuestions = [...loadEcoQuestions().questions, ...loadEnvironmentQuestions().questions];
-  const otherPrompts = new Set(otherQuestions.map((question) => normalize(question.prompt)));
-  const otherAnswers = new Set(otherQuestions.map((question) => normalize(question.answer_choices.find((choice) => choice.id === question.correct_answer_id)?.text ?? '')));
+export function testD1HealthDisabilitiesCrossSubjectBoundary() {
+  const healthQuestions = loadQuestions().questions;
+  const otherSubjects = [
+    'data/questions/d1-service/service-questions.json',
+    'data/questions/d1-safety/safety-questions.json',
+    'data/questions/d1-vehicle-knowledge/vehicle-questions.json',
+  ].flatMap((path) => loadJson<QuestionsFile>(path).questions);
+  const otherPrompts = new Set(otherSubjects.map((question) => normalize(question.prompt)));
 
-  for (const question of vehicleQuestions) {
+  for (const question of healthQuestions) {
     assert.ok(!otherPrompts.has(normalize(question.prompt)), `${question.stable_key} duplicates another D1 prompt.`);
-    const correctAnswer = normalize(question.answer_choices.find((choice) => choice.id === question.correct_answer_id)?.text ?? '');
-    if (otherAnswers.has(correctAnswer)) {
-      assert.ok(
-        question.prompt.toLowerCase().includes('fordons') || question.explanation.toLowerCase().includes('fordons'),
-        `${question.stable_key} repeats another D1 rule without a vehicle-knowledge angle.`,
-      );
-    }
+    assert.ok(!/handikappad|rullstolsbunden|galen|psykfall|senil|cp-skadad|autist\b|diabetiker\b/i.test(question.prompt), `${question.stable_key} uses unsuitable terminology.`);
   }
 }
 
-export function testD1VehicleKnowledgeTopicAndSubjectCheckpointsSelectEligibleQuestions() {
+export function testD1HealthDisabilitiesTopicAndSubjectCheckpointsSelectEligibleQuestions() {
   const questions = loadQuestions();
 
   for (const checkpoint of questions.topic_checkpoints) {
     const selected = selectCheckpointQuestions(
       checkpoint.stable_key,
-      'subject_d1_fordonskannedom',
+      'subject_d1_sjukdomar',
       checkpoint.topic,
       checkpoint.question_count,
       d2TaxiLawRepository.questionVersions,
@@ -321,19 +316,19 @@ export function testD1VehicleKnowledgeTopicAndSubjectCheckpointsSelectEligibleQu
 
   const subjectSelected = selectSubjectCheckpointQuestions(
     questions.subject_checkpoint.stable_key,
-    'subject_d1_fordonskannedom',
+    'subject_d1_sjukdomar',
     questions.subject_checkpoint.question_count,
     d2TaxiLawRepository.questionVersions,
   );
 
   assert.equal(subjectSelected.length, questions.subject_checkpoint.question_count);
   assert.equal(new Set(subjectSelected.map((question) => question.stableKey)).size, subjectSelected.length);
-  assert.ok(new Set(subjectSelected.map((question) => question.topicId)).size >= 10);
+  assert.ok(new Set(subjectSelected.map((question) => question.topicId)).size >= 5);
 }
 
-export function testD1VehicleKnowledgePluggaIntegrationAndScope() {
-  const subject = d2TaxiLawRepository.subjects.find((candidate) => candidate.id === 'subject_d1_fordonskannedom');
-  const topics = d2TaxiLawRepository.topics.filter((topic) => topic.subjectId === 'subject_d1_fordonskannedom');
+export function testD1HealthDisabilitiesPluggaIntegrationAndScope() {
+  const subject = d2TaxiLawRepository.subjects.find((candidate) => candidate.id === 'subject_d1_sjukdomar');
+  const topics = d2TaxiLawRepository.topics.filter((topic) => topic.subjectId === 'subject_d1_sjukdomar');
   const firstTopicLessons = getOrderedLessonsForTopic(d2TaxiLawRepository, topics[0].id);
   const publishedD1Subjects = d2TaxiLawRepository.subjects
     .filter((candidate) => candidate.examId === 'exam_d1_sakerhet_beteende' && candidate.status === 'published')
@@ -351,8 +346,8 @@ export function testD1VehicleKnowledgePluggaIntegrationAndScope() {
     'subject_d1_sakerhet',
     'subject_d1_sjukdomar',
   ]);
-  assert.equal(topics.length, 13);
+  assert.equal(topics.length, 6);
   assert.equal(firstTopicLessons.length, 1);
-  assert.equal(d1VehicleKnowledgeFactRecords.length, 81);
-  assert.ok(d2TaxiLawRepository.assessments.some((assessment) => assessment.id === 'D1-VEH-SUBJECT-CHECKPOINT-001'));
+  assert.equal(d1HealthDisabilitiesFactRecords.length, 41);
+  assert.ok(d2TaxiLawRepository.assessments.some((assessment) => assessment.id === 'D1-HEALTH-SUBJECT-CHECKPOINT-001'));
 }

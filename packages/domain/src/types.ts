@@ -3,7 +3,7 @@ export type ExamCode = 'D1' | 'D2';
 export type QuestionType = 'single_choice' | 'scenario' | 'calculation';
 export type QuestionContext = 'checkpoint' | 'practice' | 'assessment';
 export type AttemptType = 'checkpoint' | 'mock_exam' | 'practice';
-export type AttemptStatus = 'in_progress' | 'completed';
+export type AttemptStatus = 'in_progress' | 'completed' | 'timed_out';
 export type BlockType =
   | 'heading'
   | 'paragraph'
@@ -151,6 +151,16 @@ export type ExamBlueprint = {
   nonScoringTestQuestionCount?: number;
   totalDisplayedQuestionCount?: number;
   label?: string;
+  version?: number;
+  status?: ContentStatus;
+  officialStructure?: {
+    scoringQuestionCount: number;
+    passingScore: number;
+    nonScoringTestQuestionCount: number;
+    totalDisplayedQuestionCount: number;
+    timeLimitSeconds: number;
+  };
+  disclaimer?: string;
   active: boolean;
   subjects: ExamBlueprintSubject[];
 };
@@ -182,6 +192,8 @@ export type AttemptQuestion = {
   stableKey: string;
   version: number;
   order: number;
+  subjectId: string;
+  scoringRole: 'scored' | 'non_scoring_simulation';
 };
 
 export type Attempt = {
@@ -194,7 +206,12 @@ export type Attempt = {
   status: AttemptStatus;
   score?: number;
   totalQuestions: number;
+  scoringQuestionCount?: number;
   passThreshold: number;
+  passingScore?: number;
+  blueprintVersion?: number;
+  timeLimitSeconds?: number;
+  timedOut?: boolean;
   passed?: boolean;
   questions: AttemptQuestion[];
 };

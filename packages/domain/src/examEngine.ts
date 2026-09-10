@@ -31,6 +31,15 @@ export function getBlueprintAllocation(blueprint: ExamBlueprint) {
   }));
 }
 
+export function isQuestionEligibleForMock(question: QuestionVersion) {
+  return question.status === 'published'
+    && question.contexts.includes('assessment')
+    && Boolean(question.requirementKeys?.length)
+    && Boolean(question.factKeys?.length)
+    && Boolean(question.sourceReferences?.length)
+    && question.visualMetadata?.visualCorrectnessDependsOnAsset !== true;
+}
+
 export function selectQuestionsForBlueprint(
   blueprint: ExamBlueprint,
   questionVersions: QuestionVersion[],
@@ -43,7 +52,7 @@ export function selectQuestionsForBlueprint(
     const eligible = questionVersions
       .filter(
         (question) =>
-          question.status === 'published' &&
+          isQuestionEligibleForMock(question) &&
           question.examId === blueprint.examId &&
           question.subjectId === blueprintSubject.subjectId &&
           question.contexts.includes('assessment'),
@@ -68,7 +77,7 @@ export function selectDisplayedQuestionsForBlueprint(
   const nonScoringQuestions = questionVersions
     .filter(
       (question) =>
-        question.status === 'published' &&
+        isQuestionEligibleForMock(question) &&
         question.examId === blueprint.examId &&
         question.contexts.includes('assessment') &&
         !scoringIds.has(question.id),
@@ -80,7 +89,7 @@ export function selectDisplayedQuestionsForBlueprint(
   return [
     ...scoringQuestions.map((question) => ({ ...question, scoringRole: 'scored' as const })),
     ...nonScoringQuestions,
-  ];
+  ].sort((left, right) => orderForSeed(left, `${options.seed ?? blueprint.id}:display`) - orderForSeed(right, `${options.seed ?? blueprint.id}:display`));
 }
 
 export function selectCheckpointQuestions(
@@ -146,6 +155,9 @@ export function createAttemptSnapshot(input: {
   type: Attempt['type'];
   selectedQuestions: QuestionVersion[];
   passThreshold: number;
+  passingScore?: number;
+  blueprintVersion?: number;
+  timeLimitSeconds?: number;
   startedAt?: string;
 }) {
   const attemptId = createId('attempt');
@@ -157,6 +169,8 @@ export function createAttemptSnapshot(input: {
     stableKey: question.stableKey,
     version: question.version,
     order: index + 1,
+    subjectId: question.subjectId,
+    scoringRole: question.scoringRole ?? 'scored',
   }));
 
   return {
@@ -167,7 +181,12 @@ export function createAttemptSnapshot(input: {
     startedAt: input.startedAt ?? new Date().toISOString(),
     status: 'in_progress',
     totalQuestions: questions.length,
+    scoringQuestionCount: questions.filter((question) => question.scoringRole === 'scored').length,
     passThreshold: input.passThreshold,
+    passingScore: input.passingScore,
+    blueprintVersion: input.blueprintVersion,
+    timeLimitSeconds: input.timeLimitSeconds,
+    timedOut: false,
     questions,
   } satisfies Attempt;
 }
@@ -177,6 +196,7 @@ export function scoreAttempt(
   questionVersions: QuestionVersion[],
   selectedChoicesByAttemptQuestionId: Record<string, string>,
   now = new Date().toISOString(),
+  timedOut = false,
 ) {
   if (attempt.status === 'completed') {
     throw new Error('Completed attempts are immutable.');
@@ -204,14 +224,27 @@ export function scoreAttempt(
     };
   });
 
-  const score = answers.filter((answer) => answer.correct).length;
+  const scoredQuestionIds = new Set(attempt.questions.filter((question) => question.scoringRole === 'scored').map((question) => question.id));
+  const scoredAnswers = answers.filter((answer) => scoredQuestionIds.has(answer.attemptQuestionId));
+  const score = scoredAnswers.filter((answer) => answer.correct).length;
+  const subjectBreakdown = attempt.questions.reduce<Record<string, { correct: number; total: number }>>((breakdown, attemptQuestion) => {
+    if (attemptQuestion.scoringRole !== 'scored') return breakdown;
+    const subject = breakdown[attemptQuestion.subjectId] ?? { correct: 0, total: 0 };
+    subject.total += 1;
+    if (answers.find((answer) => answer.attemptQuestionId === attemptQuestion.id)?.correct) subject.correct += 1;
+    breakdown[attemptQuestion.subjectId] = subject;
+    return breakdown;
+  }, {});
   const completedAttempt: Attempt = {
     ...attempt,
-    status: 'completed',
+    status: timedOut ? 'timed_out' : 'completed',
     completedAt: now,
     score,
-    passed: score / Math.max(answers.length, 1) >= attempt.passThreshold,
+    passed: attempt.passingScore !== undefined
+      ? score >= attempt.passingScore
+      : score / Math.max(scoredAnswers.length, 1) >= attempt.passThreshold,
+    timedOut,
   };
 
-  return { attempt: completedAttempt, answers };
+  return { attempt: completedAttempt, answers, subjectBreakdown };
 }

@@ -1,0 +1,1122 @@
+{
+  "metadata": {
+    "subject": "D1_SAFETY",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map for TSFS 2021:119, 3 kap. 10-15 §§.",
+    "created_at": "2026-09-10",
+    "last_verified_at": "2026-09-10"
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+      "relevant_chapter_section": "3 kap. 10-15 §§",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+    },
+    {
+      "source_key": "SFS_1998_1276",
+      "source_title": "Trafikforordning (1998:1276)",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag",
+      "legal_reference": "Trafikforordning (1998:1276), 3 kap. 14 § och 4 kap. 10 §",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "relevant_chapter_section": "Hastighetsanpassning och skyddsanordningar",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary legal source for speed adaptation and restraint duties."
+    },
+    {
+      "source_key": "TS_BALTESREGLER",
+      "source_title": "Baltesregler",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official guidance on seat belts and child restraints",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+      "relevant_chapter_section": "Seat belt use, children under 15, child restraints and taxi exceptions",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for belt and child-restraint rules; crawled current 2026-09-10."
+    },
+    {
+      "source_key": "TRV_BARN_I_BIL",
+      "source_title": "Barn som fardas i bil",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official road-safety guidance on children in cars",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/",
+      "relevant_chapter_section": "Child vulnerability, rear-facing recommendation, active passenger airbag and 135/140 cm guidance",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for passenger-child injury risk and safe placement; updated 2026-01-29."
+    },
+    {
+      "source_key": "TRV_HASTIGHET_KROCKVALD",
+      "source_title": "Hastighet och krockvald",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official road-safety guidance on speed and crash violence",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/",
+      "relevant_chapter_section": "Speed, stopping distance, vulnerable road users and injury risk",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for speed/collision consequences; crawled current 2026-09-10."
+    },
+    {
+      "source_key": "TRV_HASTIGHETSGRANSER",
+      "source_title": "Hastighetsgranser pa vag",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official guidance on safe speed limits",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/",
+      "relevant_chapter_section": "Road design, human tolerance to crash violence and speed-limit rationale",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for relation between infrastructure, speed and injury prevention; updated 2025-12-09."
+    },
+    {
+      "source_key": "TRV_NOLLVISIONEN",
+      "source_title": "Nollvisionen pa tva minuter",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official guidance on Vision Zero principles",
+      "url": "https://bransch.trafikverket.se/tjanster/Utbildningar/nollvisionen-for-vagtrafik---webbutbildning/nollvisionen-pa-tva-minuter/",
+      "relevant_chapter_section": "No deaths or serious injuries, human limitations, shared responsibility",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for Nollvisionen principles; crawled current 2026-09-10."
+    },
+    {
+      "source_key": "TS_NOLLVISIONEN",
+      "source_title": "Nollvisionen",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official accident-statistics guidance on Nollvisionen",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/statistik-inom-vagtrafik/olycksstatistik/statistik-over-vagtrafikolyckor/nollvisionen/",
+      "relevant_chapter_section": "Traffic injuries, changed safety philosophy and Strada context",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for Vision Zero target and safety philosophy; crawled current 2026-09-10."
+    },
+    {
+      "source_key": "POLISEN_TRAFIKOLYCKOR",
+      "source_title": "Trafikolyckor - polisens arbete",
+      "source_type": "official_explanatory_source",
+      "authority": "Polismyndigheten",
+      "legal_reference": "Official guidance on actions at traffic accidents",
+      "url": "https://polisen.se/om-polisen/polisens-arbete/trafikolyckor/",
+      "relevant_chapter_section": "Safe parking, call 112, warn others, overview and follow rescue personnel instructions",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for accident-scene help actions; reviewed 2025-04-07."
+    },
+    {
+      "source_key": "TRV_VARNA_LAMNA_LARMA",
+      "source_title": "Om du far stopp pa bilen - varna, lamna och larma",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official guidance on roadside emergency stop",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+      "relevant_chapter_section": "Warn with hazard lights/triangle, leave vehicle/road, call roadside assistance or 112 at life danger",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for emergency stop risk; crawled current 2026-09-10."
+    },
+    {
+      "source_key": "TRV_HALKA",
+      "source_title": "Pa glid? Nej! Sa jobbar vi mot halka",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official guidance on slippery road conditions",
+      "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/2025/2025-11/pa-glid-nej-sa-jobbar-vi-mot-halka-i-stockholmstrakten/",
+      "relevant_chapter_section": "Frost, black ice, patchy ice, speed reduction and increased following distance",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official guidance for road/weather-condition scenarios; published 2025-11-21."
+    },
+    {
+      "source_key": "TRV_SNO_OVADER",
+      "source_title": "Snon ar pa vag - maste du ge dig ut i trafiken?",
+      "source_type": "official_explanatory_source",
+      "authority": "Trafikverket",
+      "legal_reference": "Official guidance on snow, reduced visibility and traffic disruption",
+      "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/20262/2026-01/snon-ar-pa-vag--maste-du-ge-dig-ut-i-trafiken/",
+      "relevant_chapter_section": "Snow, slippery roads, reduced visibility, lower speed, distance and emergency equipment",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official winter driving scenario source; published 2026-01."
+    },
+    {
+      "source_key": "TS_LASTSAKRING",
+      "source_title": "Lastsakring",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official load securing guidance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/lasta-dra/lastsakring/",
+      "relevant_chapter_section": "Driver responsibility, loose objects, roof load and handling effects",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for load safety; updated 2026-01-23."
+    },
+    {
+      "source_key": "TS_LASTA_RATT",
+      "source_title": "Att lasta ratt",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official load securing force guidance and TSFS 2017:25 reference",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Yrkestrafik/Gods-och-buss/Matt-och-vikt/Att-lasta-ratt/",
+      "relevant_chapter_section": "Load must be secured forward, rearward and sideways; 80 percent forward and half rearward/sideways",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for numeric load-securing requirements; updated 2026-04-14."
+    },
+    {
+      "source_key": "AV_HOT_VALD",
+      "source_title": "Vald och hot om vald",
+      "source_type": "official_work_environment_guidance",
+      "authority": "Arbetsmiljoverket",
+      "legal_reference": "Official guidance on violence and threats at work",
+      "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/",
+      "relevant_chapter_section": "Risk assessment, routines, worker instructions and direct-contact work",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for threat/violence risk handling; crawled current 2026-09-10."
+    },
+    {
+      "source_key": "AV_HOT_VALD_RUTINER",
+      "source_title": "Hot och vald och annan otillaten paverkan mot myndigheter",
+      "source_type": "official_work_environment_guidance",
+      "authority": "Arbetsmiljoverket",
+      "legal_reference": "Official guidance on routines, support and instruction for threat situations",
+      "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/inspektioner-utredningar-och-kontroller/inspektion/aktuella-inspektioner/hot-och-vald-mot-myndigheter/",
+      "relevant_chapter_section": "Known security routines, reporting, support and sufficient instructions",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for work-safety routines; updated 2026-02-11."
+    },
+    {
+      "source_key": "1177_HLR",
+      "source_title": "Hjart-lungraddning - HLR",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vardguiden",
+      "legal_reference": "National healthcare guidance on CPR",
+      "url": "https://www.1177.se/Stockholm/olyckor--skador/akuta-rad---forsta-hjalpen/hjart-lungraddning-hlr/",
+      "relevant_chapter_section": "Secure scene, check consciousness, call 112, check normal breathing and start HLR",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Authoritative medical guidance; updated 2026-05-25."
+    },
+    {
+      "source_key": "VARDHANDBOKEN_HLR_TEKNIK",
+      "source_title": "Teknik vid HLR 30:2",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "Vardhandboken",
+      "legal_reference": "Healthcare handbook guidance on CPR technique",
+      "url": "https://www.vardhandboken.se/vard-och-behandling/hjart-lungraddning/teknik/",
+      "relevant_chapter_section": "30 compressions, 2 breaths, 100-120/minute and minimizing interruptions",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Authoritative medical technique source; approved 2022-04-11."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-SAFE-010-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 10 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "SFS_1998_1276",
+          "source_title": "Trafikforordning (1998:1276)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag",
+          "legal_reference": "Trafikforordning (1998:1276), 3 kap. 14 § och 4 kap. 10 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "relevant_chapter_section": "Hastighetsanpassning och skyddsanordningar",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary legal source for speed adaptation and restraint duties."
+        },
+        {
+          "source_key": "TRV_HALKA",
+          "source_title": "Pa glid? Nej! Sa jobbar vi mot halka",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on slippery road conditions",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/2025/2025-11/pa-glid-nej-sa-jobbar-vi-mot-halka-i-stockholmstrakten/",
+          "relevant_chapter_section": "Frost, black ice, patchy ice, speed reduction and increased following distance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official guidance for road/weather-condition scenarios; published 2025-11-21."
+        },
+        {
+          "source_key": "TRV_SNO_OVADER",
+          "source_title": "Snon ar pa vag - maste du ge dig ut i trafiken?",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on snow, reduced visibility and traffic disruption",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/20262/2026-01/snon-ar-pa-vag--maste-du-ge-dig-ut-i-trafiken/",
+          "relevant_chapter_section": "Snow, slippery roads, reduced visibility, lower speed, distance and emergency equipment",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official winter driving scenario source; published 2026-01."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-010-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 10 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-011-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 11 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "AV_HOT_VALD",
+          "source_title": "Vald och hot om vald",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljoverket",
+          "legal_reference": "Official guidance on violence and threats at work",
+          "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/",
+          "relevant_chapter_section": "Risk assessment, routines, worker instructions and direct-contact work",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for threat/violence risk handling; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "AV_HOT_VALD_RUTINER",
+          "source_title": "Hot och vald och annan otillaten paverkan mot myndigheter",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljoverket",
+          "legal_reference": "Official guidance on routines, support and instruction for threat situations",
+          "url": "https://www.av.se/arbetsmiljoarbete-och-inspektioner/inspektioner-utredningar-och-kontroller/inspektion/aktuella-inspektioner/hot-och-vald-mot-myndigheter/",
+          "relevant_chapter_section": "Known security routines, reporting, support and sufficient instructions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for work-safety routines; updated 2026-02-11."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-011-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 11 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "1177_HLR",
+          "source_title": "Hjart-lungraddning - HLR",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vardguiden",
+          "legal_reference": "National healthcare guidance on CPR",
+          "url": "https://www.1177.se/Stockholm/olyckor--skador/akuta-rad---forsta-hjalpen/hjart-lungraddning-hlr/",
+          "relevant_chapter_section": "Secure scene, check consciousness, call 112, check normal breathing and start HLR",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Authoritative medical guidance; updated 2026-05-25."
+        },
+        {
+          "source_key": "VARDHANDBOKEN_HLR_TEKNIK",
+          "source_title": "Teknik vid HLR 30:2",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "Vardhandboken",
+          "legal_reference": "Healthcare handbook guidance on CPR technique",
+          "url": "https://www.vardhandboken.se/vard-och-behandling/hjart-lungraddning/teknik/",
+          "relevant_chapter_section": "30 compressions, 2 breaths, 100-120/minute and minimizing interruptions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Authoritative medical technique source; approved 2022-04-11."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-011-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 11 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "POLISEN_TRAFIKOLYCKOR",
+          "source_title": "Trafikolyckor - polisens arbete",
+          "source_type": "official_explanatory_source",
+          "authority": "Polismyndigheten",
+          "legal_reference": "Official guidance on actions at traffic accidents",
+          "url": "https://polisen.se/om-polisen/polisens-arbete/trafikolyckor/",
+          "relevant_chapter_section": "Safe parking, call 112, warn others, overview and follow rescue personnel instructions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for accident-scene help actions; reviewed 2025-04-07."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-011-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 11 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TRV_VARNA_LAMNA_LARMA",
+          "source_title": "Om du far stopp pa bilen - varna, lamna och larma",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on roadside emergency stop",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+          "relevant_chapter_section": "Warn with hazard lights/triangle, leave vehicle/road, call roadside assistance or 112 at life danger",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for emergency stop risk; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "TRV_HALKA",
+          "source_title": "Pa glid? Nej! Sa jobbar vi mot halka",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on slippery road conditions",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/2025/2025-11/pa-glid-nej-sa-jobbar-vi-mot-halka-i-stockholmstrakten/",
+          "relevant_chapter_section": "Frost, black ice, patchy ice, speed reduction and increased following distance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official guidance for road/weather-condition scenarios; published 2025-11-21."
+        },
+        {
+          "source_key": "TRV_SNO_OVADER",
+          "source_title": "Snon ar pa vag - maste du ge dig ut i trafiken?",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on snow, reduced visibility and traffic disruption",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/20262/2026-01/snon-ar-pa-vag--maste-du-ge-dig-ut-i-trafiken/",
+          "relevant_chapter_section": "Snow, slippery roads, reduced visibility, lower speed, distance and emergency equipment",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official winter driving scenario source; published 2026-01."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-012-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 12 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-012-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 12 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TS_BALTESREGLER",
+          "source_title": "Baltesregler",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on seat belts and child restraints",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+          "relevant_chapter_section": "Seat belt use, children under 15, child restraints and taxi exceptions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for belt and child-restraint rules; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "TRV_BARN_I_BIL",
+          "source_title": "Barn som fardas i bil",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety guidance on children in cars",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/",
+          "relevant_chapter_section": "Child vulnerability, rear-facing recommendation, active passenger airbag and 135/140 cm guidance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for passenger-child injury risk and safe placement; updated 2026-01-29."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-012-003",
+      "official_requirement_reference": "Baltesregler, nar du aker personbil",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "SFS_1998_1276",
+          "source_title": "Trafikforordning (1998:1276)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag",
+          "legal_reference": "Trafikforordning (1998:1276), 3 kap. 14 § och 4 kap. 10 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "relevant_chapter_section": "Hastighetsanpassning och skyddsanordningar",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary legal source for speed adaptation and restraint duties."
+        },
+        {
+          "source_key": "TS_BALTESREGLER",
+          "source_title": "Baltesregler",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on seat belts and child restraints",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+          "relevant_chapter_section": "Seat belt use, children under 15, child restraints and taxi exceptions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for belt and child-restraint rules; crawled current 2026-09-10."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-012-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 12 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-012-005",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 12 § 5",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TS_LASTSAKRING",
+          "source_title": "Lastsakring",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official load securing guidance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/lasta-dra/lastsakring/",
+          "relevant_chapter_section": "Driver responsibility, loose objects, roof load and handling effects",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for load safety; updated 2026-01-23."
+        },
+        {
+          "source_key": "TS_LASTA_RATT",
+          "source_title": "Att lasta ratt",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official load securing force guidance and TSFS 2017:25 reference",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Yrkestrafik/Gods-och-buss/Matt-och-vikt/Att-lasta-ratt/",
+          "relevant_chapter_section": "Load must be secured forward, rearward and sideways; 80 percent forward and half rearward/sideways",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for numeric load-securing requirements; updated 2026-04-14."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-013-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 13 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TRV_BARN_I_BIL",
+          "source_title": "Barn som fardas i bil",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety guidance on children in cars",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/",
+          "relevant_chapter_section": "Child vulnerability, rear-facing recommendation, active passenger airbag and 135/140 cm guidance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for passenger-child injury risk and safe placement; updated 2026-01-29."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-013-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 13 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-013-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 13 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TRV_HASTIGHET_KROCKVALD",
+          "source_title": "Hastighet och krockvald",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety guidance on speed and crash violence",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/",
+          "relevant_chapter_section": "Speed, stopping distance, vulnerable road users and injury risk",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for speed/collision consequences; crawled current 2026-09-10."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-013-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 13 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-014-001",
+      "official_requirement_reference": "Lagre fart ger kortare stoppstracka",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "SFS_1998_1276",
+          "source_title": "Trafikforordning (1998:1276)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag",
+          "legal_reference": "Trafikforordning (1998:1276), 3 kap. 14 § och 4 kap. 10 §",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "relevant_chapter_section": "Hastighetsanpassning och skyddsanordningar",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary legal source for speed adaptation and restraint duties."
+        },
+        {
+          "source_key": "TRV_HASTIGHET_KROCKVALD",
+          "source_title": "Hastighet och krockvald",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety guidance on speed and crash violence",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/",
+          "relevant_chapter_section": "Speed, stopping distance, vulnerable road users and injury risk",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for speed/collision consequences; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "TRV_HASTIGHETSGRANSER",
+          "source_title": "Hastighetsgranser pa vag",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on safe speed limits",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/",
+          "relevant_chapter_section": "Road design, human tolerance to crash violence and speed-limit rationale",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for relation between infrastructure, speed and injury prevention; updated 2025-12-09."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-014-002",
+      "official_requirement_reference": "Barn som fardas i bil, aktiv passagerarkrockkudde",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TS_BALTESREGLER",
+          "source_title": "Baltesregler",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on seat belts and child restraints",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+          "relevant_chapter_section": "Seat belt use, children under 15, child restraints and taxi exceptions",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for belt and child-restraint rules; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "TRV_BARN_I_BIL",
+          "source_title": "Barn som fardas i bil",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety guidance on children in cars",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/",
+          "relevant_chapter_section": "Child vulnerability, rear-facing recommendation, active passenger airbag and 135/140 cm guidance",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for passenger-child injury risk and safe placement; updated 2026-01-29."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-015-001",
+      "official_requirement_reference": "Nollvisionen - ingen ska do eller skadas allvarligt i trafiken",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TRV_NOLLVISIONEN",
+          "source_title": "Nollvisionen pa tva minuter",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on Vision Zero principles",
+          "url": "https://bransch.trafikverket.se/tjanster/Utbildningar/nollvisionen-for-vagtrafik---webbutbildning/nollvisionen-pa-tva-minuter/",
+          "relevant_chapter_section": "No deaths or serious injuries, human limitations, shared responsibility",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for Nollvisionen principles; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "TS_NOLLVISIONEN",
+          "source_title": "Nollvisionen",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official accident-statistics guidance on Nollvisionen",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/statistik-inom-vagtrafik/olycksstatistik/statistik-over-vagtrafikolyckor/nollvisionen/",
+          "relevant_chapter_section": "Traffic injuries, changed safety philosophy and Strada context",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for Vision Zero target and safety philosophy; crawled current 2026-09-10."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SAFE-015-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 15 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens foreskrifter och allmanna rad om taxiforarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 10-15 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 10-15 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Sakerhet requirements."
+        },
+        {
+          "source_key": "TRV_NOLLVISIONEN",
+          "source_title": "Nollvisionen pa tva minuter",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official guidance on Vision Zero principles",
+          "url": "https://bransch.trafikverket.se/tjanster/Utbildningar/nollvisionen-for-vagtrafik---webbutbildning/nollvisionen-pa-tva-minuter/",
+          "relevant_chapter_section": "No deaths or serious injuries, human limitations, shared responsibility",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for Nollvisionen principles; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "TS_NOLLVISIONEN",
+          "source_title": "Nollvisionen",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official accident-statistics guidance on Nollvisionen",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/statistik-och-analys/statistik-inom-vagtrafik/olycksstatistik/statistik-over-vagtrafikolyckor/nollvisionen/",
+          "relevant_chapter_section": "Traffic injuries, changed safety philosophy and Strada context",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for Vision Zero target and safety philosophy; crawled current 2026-09-10."
+        },
+        {
+          "source_key": "TRV_HASTIGHET_KROCKVALD",
+          "source_title": "Hastighet och krockvald",
+          "source_type": "official_explanatory_source",
+          "authority": "Trafikverket",
+          "legal_reference": "Official road-safety guidance on speed and crash violence",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/",
+          "relevant_chapter_section": "Speed, stopping distance, vulnerable road users and injury risk",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for speed/collision consequences; crawled current 2026-09-10."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_safety_trygg_saker_resa",
+      "title": "Trygg och saker taxiresa",
+      "order": 1,
+      "requirement_keys": [
+        "D1-SAFE-010-001",
+        "D1-SAFE-010-002"
+      ],
+      "visual_asset_ids": [
+        "safe_pickup_dropoff_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_safety_hot_vald",
+      "title": "Hot och vald i taxiarbetet",
+      "order": 2,
+      "requirement_keys": [
+        "D1-SAFE-011-001"
+      ],
+      "visual_asset_ids": [
+        "safe_pickup_dropoff_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_pickup_dropoff_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "title": "Forsta hjalpen och HLR",
+      "order": 3,
+      "requirement_keys": [
+        "D1-SAFE-011-002"
+      ],
+      "visual_asset_ids": [
+        "safe_accident_scene_diagram"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_safety_olycksplats_nodsituation",
+      "title": "Olycksplats och nodsituation pa vag",
+      "order": 4,
+      "requirement_keys": [
+        "D1-SAFE-011-003",
+        "D1-SAFE-011-004"
+      ],
+      "visual_asset_ids": [
+        "safe_accident_scene_diagram"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_accident_scene_diagram",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_safety_passagerare_balte_barn",
+      "title": "Passagerare, balte och barnskydd",
+      "order": 5,
+      "requirement_keys": [
+        "D1-SAFE-012-001",
+        "D1-SAFE-012-002",
+        "D1-SAFE-012-003",
+        "D1-SAFE-014-002"
+      ],
+      "visual_asset_ids": [
+        "safe_child_restraint_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_child_restraint_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_safety_hjalpmedel_last",
+      "title": "Hjalpmedel, rullstol och last",
+      "order": 6,
+      "requirement_keys": [
+        "D1-SAFE-012-004",
+        "D1-SAFE-012-005",
+        "D1-SAFE-013-004"
+      ],
+      "visual_asset_ids": [
+        "safe_wheelchair_stretcher_securement"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_wheelchair_stretcher_securement",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "title": "Barn och oskyddade trafikanter",
+      "order": 7,
+      "requirement_keys": [
+        "D1-SAFE-013-001",
+        "D1-SAFE-013-002",
+        "D1-SAFE-013-003",
+        "D1-SAFE-013-004",
+        "D1-SAFE-014-001"
+      ],
+      "visual_asset_ids": [
+        "safe_children_road_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": true,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "safe_children_road_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "title": "Hastighet, krockvald och Nollvisionen",
+      "order": 8,
+      "requirement_keys": [
+        "D1-SAFE-014-001",
+        "D1-SAFE-015-001",
+        "D1-SAFE-015-002"
+      ],
+      "visual_asset_ids": [
+        "safe_stopping_distance_visual"
+      ],
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": true,
+        "requires_road_scene": false,
+        "requires_comparison_visual": true,
+        "visual_asset_id": "safe_stopping_distance_visual",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    }
+  ]
+}

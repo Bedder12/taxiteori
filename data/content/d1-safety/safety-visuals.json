@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "subject": "D1_SAFETY",
+    "title": "D1 safety visual and road-scene manifest",
+    "status": "placeholder_metadata",
+    "created_at": "2026-09-10",
+    "note": "Structured placeholders only. No copyrighted visual assets are included."
+  },
+  "visuals": [
+    {
+      "visual_id": "safe_pickup_dropoff_scene",
+      "visual_type": "road_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Saker pa- och avstigning",
+      "facts_represented": [
+        "D1-SAFE-BELT-FACT-001"
+      ],
+      "elements_must_be_shown": [
+        "taxi vid kantsten",
+        "cykelbana",
+        "gangbana",
+        "oppnad dorr",
+        "passagerare"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "labels_required": [
+        "taxi vid kantsten",
+        "cykelbana",
+        "gangbana",
+        "oppnad dorr",
+        "passagerare"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-012-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-001"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_child_restraint_scene",
+      "visual_type": "passenger_restraint_illustration",
+      "status": "placeholder_metadata",
+      "purpose": "Barnskydd och placering",
+      "facts_represented": [
+        "D1-SAFE-BELT-FACT-002",
+        "D1-SAFE-BELT-FACT-005",
+        "D1-SAFE-BELT-FACT-006",
+        "D1-SAFE-BELT-FACT-007",
+        "D1-SAFE-BELT-FACT-008",
+        "D1-SAFE-BELT-FACT-009"
+      ],
+      "elements_must_be_shown": [
+        "barnstol",
+        "baksate",
+        "bilbalte",
+        "aktiv krockkudde markerad"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "labels_required": [
+        "barnstol",
+        "baksate",
+        "bilbalte",
+        "aktiv krockkudde markerad"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-012-002",
+        "D1-SAFE-014-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-BELT-FACT-002",
+        "D1-SAFE-BELT-FACT-005",
+        "D1-SAFE-BELT-FACT-006",
+        "D1-SAFE-BELT-FACT-007",
+        "D1-SAFE-BELT-FACT-008",
+        "D1-SAFE-BELT-FACT-009"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_wheelchair_stretcher_securement",
+      "visual_type": "passenger_restraint_illustration",
+      "status": "placeholder_metadata",
+      "purpose": "Fastspanning av hjalpmedel",
+      "facts_represented": [
+        "D1-SAFE-LOAD-FACT-001",
+        "D1-SAFE-LOAD-FACT-006"
+      ],
+      "elements_must_be_shown": [
+        "rullstol",
+        "fastspanning",
+        "passagerarbalte",
+        "forankringspunkter"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "labels_required": [
+        "rullstol",
+        "fastspanning",
+        "passagerarbalte",
+        "forankringspunkter"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-012-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-001",
+        "D1-SAFE-LOAD-FACT-006"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_load_luggage_scene",
+      "visual_type": "loading_luggage_illustration",
+      "status": "placeholder_metadata",
+      "purpose": "Last och lost bagage",
+      "facts_represented": [
+        "D1-SAFE-LOAD-FACT-002",
+        "D1-SAFE-LOAD-FACT-003",
+        "D1-SAFE-LOAD-FACT-004",
+        "D1-SAFE-LOAD-FACT-005"
+      ],
+      "elements_must_be_shown": [
+        "resvaskor",
+        "lastnat/rem",
+        "bagageutrymme",
+        "fri sikt"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "labels_required": [
+        "resvaskor",
+        "lastnat/rem",
+        "bagageutrymme",
+        "fri sikt"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-012-005"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-002",
+        "D1-SAFE-LOAD-FACT-003",
+        "D1-SAFE-LOAD-FACT-004",
+        "D1-SAFE-LOAD-FACT-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_accident_scene_diagram",
+      "visual_type": "accident_scene_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Forsta atgarder vid olycksplats",
+      "facts_represented": [
+        "D1-SAFE-ACCIDENT-FACT-001",
+        "D1-SAFE-ACCIDENT-FACT-003",
+        "D1-SAFE-ACCIDENT-FACT-004",
+        "D1-SAFE-ACCIDENT-FACT-005",
+        "D1-SAFE-ACCIDENT-FACT-006"
+      ],
+      "elements_must_be_shown": [
+        "egen bil sakert parkerad",
+        "varningsblinkers",
+        "varningstriangel",
+        "112",
+        "skadade personer"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "labels_required": [
+        "egen bil sakert parkerad",
+        "varningsblinkers",
+        "varningstriangel",
+        "112",
+        "skadade personer"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-011-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-001",
+        "D1-SAFE-ACCIDENT-FACT-003",
+        "D1-SAFE-ACCIDENT-FACT-004",
+        "D1-SAFE-ACCIDENT-FACT-005",
+        "D1-SAFE-ACCIDENT-FACT-006"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_roadside_stop_scene",
+      "visual_type": "accident_scene_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Nodstopp pa motorvag eller 2+1-vag",
+      "facts_represented": [
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-007",
+        "D1-SAFE-ACCIDENT-FACT-008"
+      ],
+      "elements_must_be_shown": [
+        "vagren",
+        "barriar",
+        "passagerare bakom skydd",
+        "varningstriangel",
+        "telefon"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "labels_required": [
+        "vagren",
+        "barriar",
+        "passagerare bakom skydd",
+        "varningstriangel",
+        "telefon"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-011-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-007",
+        "D1-SAFE-ACCIDENT-FACT-008"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_stopping_distance_visual",
+      "visual_type": "stopping_distance_visualization",
+      "status": "placeholder_metadata",
+      "purpose": "Hastighet, reaktion och stoppstracka",
+      "facts_represented": [
+        "D1-SAFE-VULN-FACT-008",
+        "D1-SAFE-ZERO-FACT-001",
+        "D1-SAFE-ZERO-FACT-002",
+        "D1-SAFE-ZERO-FACT-003",
+        "D1-SAFE-ZERO-FACT-004",
+        "D1-SAFE-ZERO-FACT-005"
+      ],
+      "elements_must_be_shown": [
+        "30 km/tim",
+        "50 km/tim",
+        "langre stoppstracka",
+        "gaende/cyklist"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "labels_required": [
+        "30 km/tim",
+        "50 km/tim",
+        "langre stoppstracka",
+        "gaende/cyklist"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-014-001"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-008",
+        "D1-SAFE-ZERO-FACT-001",
+        "D1-SAFE-ZERO-FACT-002",
+        "D1-SAFE-ZERO-FACT-003",
+        "D1-SAFE-ZERO-FACT-004",
+        "D1-SAFE-ZERO-FACT-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_night_visibility_scene",
+      "visual_type": "night_driving_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Morker och synbarhet",
+      "facts_represented": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-007"
+      ],
+      "elements_must_be_shown": [
+        "taxi i morker",
+        "reflex",
+        "gangtrafikant",
+        "mote",
+        "reducerad sikt"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "labels_required": [
+        "taxi i morker",
+        "reflex",
+        "gangtrafikant",
+        "mote",
+        "reducerad sikt"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-010-001",
+        "D1-SAFE-013-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-007"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_weather_road_condition_scene",
+      "visual_type": "weather_road_condition_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Regn, sno och halka",
+      "facts_represented": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006",
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-007"
+      ],
+      "elements_must_be_shown": [
+        "vat vag",
+        "snorok",
+        "svart halka",
+        "langt avstand",
+        "lagre fart"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "labels_required": [
+        "vat vag",
+        "snorok",
+        "svart halka",
+        "langt avstand",
+        "lagre fart"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-010-001",
+        "D1-SAFE-011-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006",
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-007"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_children_road_scene",
+      "visual_type": "pedestrian_cyclist_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Barn i trafikmiljo",
+      "facts_represented": [
+        "D1-SAFE-VULN-FACT-001",
+        "D1-SAFE-VULN-FACT-002",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-005",
+        "D1-SAFE-VULN-FACT-006",
+        "D1-SAFE-VULN-FACT-007"
+      ],
+      "elements_must_be_shown": [
+        "skola",
+        "parkering",
+        "barn vid overgangsstalle",
+        "skymd sikt",
+        "taxi"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "labels_required": [
+        "skola",
+        "parkering",
+        "barn vid overgangsstalle",
+        "skymd sikt",
+        "taxi"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-013-001",
+        "D1-SAFE-013-002",
+        "D1-SAFE-013-003"
+      ],
+      "fact_keys": [
+        "D1-SAFE-VULN-FACT-001",
+        "D1-SAFE-VULN-FACT-002",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-005",
+        "D1-SAFE-VULN-FACT-006",
+        "D1-SAFE-VULN-FACT-007"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_disability_access_scene",
+      "visual_type": "road_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Passagerare med funktionsnedsattning i trafikmiljo",
+      "facts_represented": [
+        "D1-SAFE-LOAD-FACT-007",
+        "D1-SAFE-VULN-FACT-004"
+      ],
+      "elements_must_be_shown": [
+        "rullator",
+        "trottoarkant",
+        "ramp",
+        "extra utrymme",
+        "taxi"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "labels_required": [
+        "rullator",
+        "trottoarkant",
+        "ramp",
+        "extra utrymme",
+        "taxi"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-013-004"
+      ],
+      "fact_keys": [
+        "D1-SAFE-LOAD-FACT-007",
+        "D1-SAFE-VULN-FACT-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    },
+    {
+      "visual_id": "safe_zero_vision_diagram",
+      "visual_type": "comparison_diagram",
+      "status": "placeholder_metadata",
+      "purpose": "Nollvisionens ansvar och mal",
+      "facts_represented": [
+        "D1-SAFE-ZERO-FACT-007",
+        "D1-SAFE-ZERO-FACT-008",
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "elements_must_be_shown": [
+        "manniskans begransningar",
+        "saker hastighet",
+        "fordon",
+        "vagmiljo",
+        "delat ansvar"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "labels_required": [
+        "manniskans begransningar",
+        "saker hastighet",
+        "fordon",
+        "vagmiljo",
+        "delat ansvar"
+      ],
+      "requirement_keys": [
+        "D1-SAFE-015-001",
+        "D1-SAFE-015-002"
+      ],
+      "fact_keys": [
+        "D1-SAFE-ZERO-FACT-007",
+        "D1-SAFE-ZERO-FACT-008",
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Do not publish future visual-only questions until an owned/generated asset exists."
+    }
+  ]
+}

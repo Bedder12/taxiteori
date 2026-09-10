@@ -1,0 +1,2462 @@
+{
+  "metadata": {
+    "subject": "D1_HEALTH_DISABILITIES",
+    "title": "Sjukdomar och funktionsnedsättningar",
+    "verified_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "status": "published",
+    "requirement_count": 5,
+    "architecture": "existing_vilotider_learning_pipeline",
+    "exclusions": [
+      "no medical diagnosis",
+      "no treatment instruction beyond emergency/help boundary",
+      "no other D1 subjects",
+      "no full D1 mock exam"
+    ]
+  },
+  "topic_checkpoints": [
+    {
+      "stable_key": "D1-HEALTH-ROLE-CHECKPOINT-001",
+      "title": "Förarens roll och gränser - checkpoint",
+      "topic": "topic_d1_health_forarens-roll-granser",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-CHECKPOINT-001",
+      "title": "Akuta förändringar under resan - checkpoint",
+      "topic": "topic_d1_health_akuta-forandringar-under-resan",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-CHECKPOINT-001",
+      "title": "Rörelse, balans och ork - checkpoint",
+      "topic": "topic_d1_health_rorelse-balans-ork",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-CHECKPOINT-001",
+      "title": "Kognition, minne och orientering - checkpoint",
+      "topic": "topic_d1_health_kognition-minne-orientering",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-CHECKPOINT-001",
+      "title": "Psykisk och neuropsykiatrisk påverkan - checkpoint",
+      "topic": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-CHECKPOINT-001",
+      "title": "Individuella behov och trygg transport - checkpoint",
+      "topic": "topic_d1_health_individuella-behov-trygg-transport",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "status": "published"
+    }
+  ],
+  "subject_checkpoint": {
+    "stable_key": "D1-HEALTH-SUBJECT-CHECKPOINT-001",
+    "title": "Sjukdomar och funktionsnedsättningar - ämnescheckpoint",
+    "subject": "D1_HEALTH_DISABILITIES",
+    "question_count": 18,
+    "pass_threshold": 0.8,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D1-HEALTH-ROLE-Q-001",
+      "version": 1,
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "lesson_key": "D1-HEALTH-ROLE-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-001",
+        "D1-HEALTH-ROLE-FACT-002"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "En kund berättar att hen ibland behöver extra tid för att förstå instruktioner. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fråga lugnt vilken hjälp kunden vill ha och bekräfta nästa steg."
+        },
+        {
+          "id": "B",
+          "text": "Försöka avgöra vilket tillstånd kunden har innan resan startar."
+        },
+        {
+          "id": "C",
+          "text": "Ge många instruktioner samtidigt för att spara tid."
+        },
+        {
+          "id": "D",
+          "text": "Vända dig bara till en anhörig även om kunden själv svarar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fråga lugnt vilken hjälp kunden vill ha och bekräfta nästa steg. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ROLE-Q-002",
+      "version": 1,
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "lesson_key": "D1-HEALTH-ROLE-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-002",
+        "D1-HEALTH-ROLE-FACT-003"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "Du märker att en passagerare verkar osäker på vart resan ska gå. Vad bör du göra?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kontrollera bokningen och bekräfta adressen kort och respektfullt."
+        },
+        {
+          "id": "B",
+          "text": "Fortsätta köra tills passageraren säger stopp."
+        },
+        {
+          "id": "C",
+          "text": "Fråga andra kunder i kön vad de tror."
+        },
+        {
+          "id": "D",
+          "text": "Kommentera högt att passageraren verkar förvirrad."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kontrollera bokningen och bekräfta adressen kort och respektfullt. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ROLE-Q-003",
+      "version": 1,
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "lesson_key": "D1-HEALTH-ROLE-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-003",
+        "D1-HEALTH-ROLE-FACT-004"
+      ],
+      "question_type": "single_choice",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "Vilken beskrivning passar bäst förarens roll i detta ämne?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Att känna igen praktiska behov och skapa trygg transport."
+        },
+        {
+          "id": "B",
+          "text": "Att fastställa vilket sjukdomstillstånd passageraren har."
+        },
+        {
+          "id": "C",
+          "text": "Att ge medicinska råd om läkemedel."
+        },
+        {
+          "id": "D",
+          "text": "Att välja bort alla resor där kunden verkar osäker."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Att känna igen praktiska behov och skapa trygg transport. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och Hjälpmedel för kognitivt stöd: planering, orientering, kommunikation.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_reference": "Hjälpmedel för kognitivt stöd: planering, orientering, kommunikation"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ROLE-Q-004",
+      "version": 1,
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "lesson_key": "D1-HEALTH-ROLE-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-004",
+        "D1-HEALTH-ROLE-FACT-005"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "En ledsagare svarar snabbt åt passageraren, men passageraren verkar vilja säga något. Hur agerar du?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ge passageraren tid och fråga hur personen vill kommunicera."
+        },
+        {
+          "id": "B",
+          "text": "Tala bara med ledsagaren eftersom det går snabbast."
+        },
+        {
+          "id": "C",
+          "text": "Avbryt passageraren för att hålla tidtabellen."
+        },
+        {
+          "id": "D",
+          "text": "Be ledsagaren bestämma alla detaljer utan kontroll."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ge passageraren tid och fråga hur personen vill kommunicera. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Hjälpmedel för kognitivt stöd: planering, orientering, kommunikation och Närstående till någon med en demenssjukdom: tålamod, tid och respekt.",
+      "source_references": [
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_reference": "Hjälpmedel för kognitivt stöd: planering, orientering, kommunikation"
+        },
+        {
+          "source_id": "1177_DEMENS_NARSTAENDE",
+          "exact_reference": "Närstående till någon med en demenssjukdom: tålamod, tid och respekt"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ROLE-Q-005",
+      "version": 1,
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "lesson_key": "D1-HEALTH-ROLE-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-005",
+        "D1-HEALTH-ROLE-FACT-006"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare berättar privat om sin sjukdom under färden. Vad är korrekt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hantera uppgiften diskret och använd den bara om den behövs för trygg hjälp."
+        },
+        {
+          "id": "B",
+          "text": "Berätta för nästa kund för att förklara försening."
+        },
+        {
+          "id": "C",
+          "text": "Skriva upp uppgiften för framtida körningar utan skäl."
+        },
+        {
+          "id": "D",
+          "text": "Diskutera uppgiften med kollegor som allmän information."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hantera uppgiften diskret och använd den bara om den behövs för trygg hjälp. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Närstående till någon med en demenssjukdom: tålamod, tid och respekt och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "1177_DEMENS_NARSTAENDE",
+          "exact_reference": "Närstående till någon med en demenssjukdom: tålamod, tid och respekt"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ROLE-Q-006",
+      "version": 1,
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "lesson_key": "D1-HEALTH-ROLE-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-001",
+        "D1-HEALTH-ROLE-FACT-002"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "medium",
+      "prompt": "En passagerare svarar långsamt när du frågar om hjälp behövs. Vad visar god kunskap?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vänta in svaret och ge tid utan att pressa."
+        },
+        {
+          "id": "B",
+          "text": "Tolka tystnad som att ingen hjälp behövs."
+        },
+        {
+          "id": "C",
+          "text": "Höja rösten direkt för att skynda på."
+        },
+        {
+          "id": "D",
+          "text": "Ta tag i passageraren utan att fråga."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vänta in svaret och ge tid utan att pressa. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ROLE-Q-007",
+      "version": 1,
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "lesson_key": "D1-HEALTH-ROLE-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-002",
+        "D1-HEALTH-ROLE-FACT-003"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "medium",
+      "prompt": "Varför är korta, tydliga frågor viktiga vid oklara behov?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "De gör nästa steg begripligt utan att föraren behöver tolka tillståndet."
+        },
+        {
+          "id": "B",
+          "text": "De gör att föraren kan slippa fråga igen."
+        },
+        {
+          "id": "C",
+          "text": "De ersätter behovet av passagerarens samtycke."
+        },
+        {
+          "id": "D",
+          "text": "De gör medicinsk bedömning möjlig i bilen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: De gör nästa steg begripligt utan att föraren behöver tolka tillståndet. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-Q-001",
+      "version": 1,
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "lesson_key": "D1-HEALTH-URGENT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-002",
+        "D1-HEALTH-URGENT-FACT-003"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "Under färden får en passagerare plötsligt svårt att tala och ena sidan av ansiktet hänger. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stanna säkert och ring 112 direkt."
+        },
+        {
+          "id": "B",
+          "text": "Köra klart resan eftersom det kan gå över."
+        },
+        {
+          "id": "C",
+          "text": "Be passageraren vila och ringa senare."
+        },
+        {
+          "id": "D",
+          "text": "Söka information på telefonen medan du kör."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stanna säkert och ring 112 direkt. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Insulinkänning: förvirring/dåsighet och hjälp att höja blodsocker och Astma: symtom och faktorer som kan förvärra.",
+      "source_references": [
+        {
+          "source_id": "1177_INSULINKANNING",
+          "exact_reference": "Insulinkänning: förvirring/dåsighet och hjälp att höja blodsocker"
+        },
+        {
+          "source_id": "1177_ASTMA",
+          "exact_reference": "Astma: symtom och faktorer som kan förvärra"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_urgent_help_decision_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-Q-002",
+      "version": 1,
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "lesson_key": "D1-HEALTH-URGENT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-003",
+        "D1-HEALTH-URGENT-FACT-004"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare får ett krampanfall i bilen. Vad ska du undvika?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Att stoppa något i passagerarens mun."
+        },
+        {
+          "id": "B",
+          "text": "Att skydda personen från hårda föremål."
+        },
+        {
+          "id": "C",
+          "text": "Att ta tiden på anfallet."
+        },
+        {
+          "id": "D",
+          "text": "Att ringa 112 vid långvarigt anfall."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Att stoppa något i passagerarens mun. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Astma: symtom och faktorer som kan förvärra och Epilepsi: hjälp under anfall.",
+      "source_references": [
+        {
+          "source_id": "1177_ASTMA",
+          "exact_reference": "Astma: symtom och faktorer som kan förvärra"
+        },
+        {
+          "source_id": "1177_EPILEPSI",
+          "exact_reference": "Epilepsi: hjälp under anfall"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_urgent_help_decision_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-Q-003",
+      "version": 1,
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "lesson_key": "D1-HEALTH-URGENT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-004",
+        "D1-HEALTH-URGENT-FACT-005"
+      ],
+      "question_type": "single_choice",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "En person med astmabesvär säger att stark parfym i bilen gör andningen sämre. Vad är klokast?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ventilera om möjligt och minska doftpåverkan utan att ifrågasätta personen."
+        },
+        {
+          "id": "B",
+          "text": "Säga att doften inte kan påverka resan."
+        },
+        {
+          "id": "C",
+          "text": "Be personen andas mindre djupt och fortsätta."
+        },
+        {
+          "id": "D",
+          "text": "Spraya mer doft för att dölja lukten."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ventilera om möjligt och minska doftpåverkan utan att ifrågasätta personen. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Epilepsi: hjälp under anfall och Epilepsi: när 112 ska ringas.",
+      "source_references": [
+        {
+          "source_id": "1177_EPILEPSI",
+          "exact_reference": "Epilepsi: hjälp under anfall"
+        },
+        {
+          "source_id": "1177_EPILEPSI",
+          "exact_reference": "Epilepsi: när 112 ska ringas"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_urgent_help_decision_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-Q-004",
+      "version": 1,
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "lesson_key": "D1-HEALTH-URGENT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-005",
+        "D1-HEALTH-URGENT-FACT-006"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare blir dåsig och förvirrad och säger att hen har diabetes. Vad är lämpligt om personen kan äta eller dricka?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hjälpa personen att få något som höjer blodsockret och tillkalla hjälp vid behov."
+        },
+        {
+          "id": "B",
+          "text": "Fortsätta resan utan paus för att inte skapa oro."
+        },
+        {
+          "id": "C",
+          "text": "Be personen själv lösa det efter ankomst."
+        },
+        {
+          "id": "D",
+          "text": "Ge råd om insulinmängd."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hjälpa personen att få något som höjer blodsockret och tillkalla hjälp vid behov. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Epilepsi: när 112 ska ringas och Stroke: ring 112 direkt vid misstanke.",
+      "source_references": [
+        {
+          "source_id": "1177_EPILEPSI",
+          "exact_reference": "Epilepsi: när 112 ska ringas"
+        },
+        {
+          "source_id": "1177_STROKE",
+          "exact_reference": "Stroke: ring 112 direkt vid misstanke"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_urgent_help_decision_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-Q-005",
+      "version": 1,
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "lesson_key": "D1-HEALTH-URGENT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-006",
+        "D1-HEALTH-URGENT-FACT-007"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "Ett krampanfall fortsätter i fem minuter. Vad är rätt prioritering?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ring 112."
+        },
+        {
+          "id": "B",
+          "text": "Vänta tills resan är framme."
+        },
+        {
+          "id": "C",
+          "text": "Håll fast armar och ben hårt."
+        },
+        {
+          "id": "D",
+          "text": "Lägg något i munnen så personen inte biter sig."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ring 112. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Stroke: ring 112 direkt vid misstanke och Anafylaxi: akut försämring och behov av snabb hjälp.",
+      "source_references": [
+        {
+          "source_id": "1177_STROKE",
+          "exact_reference": "Stroke: ring 112 direkt vid misstanke"
+        },
+        {
+          "source_id": "1177_ANAFYLAXI",
+          "exact_reference": "Anafylaxi: akut försämring och behov av snabb hjälp"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_urgent_help_decision_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-Q-006",
+      "version": 1,
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "lesson_key": "D1-HEALTH-URGENT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-001",
+        "D1-HEALTH-URGENT-FACT-002"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "medium",
+      "prompt": "En passagerare får snabbt svullnad och andningspåverkan efter matkontakt. Hur ska du tänka?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stanna säkert och sök akut hjälp."
+        },
+        {
+          "id": "B",
+          "text": "Köra vidare om destinationen är nära."
+        },
+        {
+          "id": "C",
+          "text": "Fråga andra passagerare vad orsaken är."
+        },
+        {
+          "id": "D",
+          "text": "Be personen sova tills besvären minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stanna säkert och sök akut hjälp. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Allmänna råd till TSFS 2021:119, 3 kap. 18 § och Insulinkänning: förvirring/dåsighet och hjälp att höja blodsocker.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "1177_INSULINKANNING",
+          "exact_reference": "Insulinkänning: förvirring/dåsighet och hjälp att höja blodsocker"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_urgent_help_decision_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-Q-007",
+      "version": 1,
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "lesson_key": "D1-HEALTH-URGENT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-002",
+        "D1-HEALTH-URGENT-FACT-003"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "medium",
+      "prompt": "Vilken situation gör det mest motiverat att avbryta resan för hjälp?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Passageraren får plötsliga neurologiska tecken eller kraftig andningspåverkan."
+        },
+        {
+          "id": "B",
+          "text": "Passageraren frågar om annan musik."
+        },
+        {
+          "id": "C",
+          "text": "Passageraren vill kontrollera kvittot."
+        },
+        {
+          "id": "D",
+          "text": "Passageraren ber om tystnad i bilen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Passageraren får plötsliga neurologiska tecken eller kraftig andningspåverkan. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Insulinkänning: förvirring/dåsighet och hjälp att höja blodsocker och Astma: symtom och faktorer som kan förvärra.",
+      "source_references": [
+        {
+          "source_id": "1177_INSULINKANNING",
+          "exact_reference": "Insulinkänning: förvirring/dåsighet och hjälp att höja blodsocker"
+        },
+        {
+          "source_id": "1177_ASTMA",
+          "exact_reference": "Astma: symtom och faktorer som kan förvärra"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_urgent_help_decision_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-Q-001",
+      "version": 1,
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "lesson_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-003",
+        "D1-HEALTH-MOBILITY-FACT-004"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare med Parkinson rör sig mycket långsamt vid bilen. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ge extra tid och fråga vilken hjälp som önskas."
+        },
+        {
+          "id": "B",
+          "text": "Dra snabbt in personen i bilen för att spara tid."
+        },
+        {
+          "id": "C",
+          "text": "Säga att långsam rörelse stoppar upp trafiken."
+        },
+        {
+          "id": "D",
+          "text": "Lämna dörren stängd tills passageraren skyndar sig."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ge extra tid och fråga vilken hjälp som önskas. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Multipel skleros: gång, balans, syn, trötthet och kognition och Cerebral pares: rörelsepåverkan varierar.",
+      "source_references": [
+        {
+          "source_id": "1177_MS",
+          "exact_reference": "Multipel skleros: gång, balans, syn, trötthet och kognition"
+        },
+        {
+          "source_id": "1177_CP",
+          "exact_reference": "Cerebral pares: rörelsepåverkan varierar"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_boarding_mobility_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-Q-002",
+      "version": 1,
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "lesson_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-004",
+        "D1-HEALTH-MOBILITY-FACT-005"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare med MS säger att orken är låg och vill bli avsläppt nära entrén. Vad bör du göra?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Välja en säker och så nära avlämningsplats som möjligt."
+        },
+        {
+          "id": "B",
+          "text": "Stanna långt bort för att undvika omväg."
+        },
+        {
+          "id": "C",
+          "text": "Förklara att trötthet inte påverkar taxiresan."
+        },
+        {
+          "id": "D",
+          "text": "Be passageraren gå sista biten utan diskussion."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Välja en säker och så nära avlämningsplats som möjligt. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Cerebral pares: rörelsepåverkan varierar och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "1177_CP",
+          "exact_reference": "Cerebral pares: rörelsepåverkan varierar"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_boarding_mobility_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-Q-003",
+      "version": 1,
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "lesson_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-005",
+        "D1-HEALTH-MOBILITY-FACT-006"
+      ],
+      "question_type": "single_choice",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare använder rollator. Vad är rätt sätt att hjälpa?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fråga hur hjälpmedlet ska hanteras innan du lyfter eller flyttar det."
+        },
+        {
+          "id": "B",
+          "text": "Fälla ihop hjälpmedlet utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "Lägga hjälpmedlet där det riskerar att skadas."
+        },
+        {
+          "id": "D",
+          "text": "Be passageraren lämna hjälpmedlet kvar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fråga hur hjälpmedlet ska hanteras innan du lyfter eller flyttar det. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och Cerebral pares: hjälpmedel och varierande behov.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "1177_CP",
+          "exact_reference": "Cerebral pares: hjälpmedel och varierande behov"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_boarding_mobility_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-Q-004",
+      "version": 1,
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "lesson_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-006",
+        "D1-HEALTH-MOBILITY-FACT-007"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "Varför behöver föraren förstå att rörelseförmåga kan variera?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "För att anpassa tempo, parkering och hjälp efter situationen."
+        },
+        {
+          "id": "B",
+          "text": "För att kunna rangordna passagerare efter behov."
+        },
+        {
+          "id": "C",
+          "text": "För att slippa fråga passageraren."
+        },
+        {
+          "id": "D",
+          "text": "För att själv bestämma hur kroppen fungerar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: För att anpassa tempo, parkering och hjälp efter situationen. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Cerebral pares: hjälpmedel och varierande behov och Stroke: påverkan på rörelse, tal, känsel och syn.",
+      "source_references": [
+        {
+          "source_id": "1177_CP",
+          "exact_reference": "Cerebral pares: hjälpmedel och varierande behov"
+        },
+        {
+          "source_id": "1177_STROKE",
+          "exact_reference": "Stroke: påverkan på rörelse, tal, känsel och syn"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_boarding_mobility_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-Q-005",
+      "version": 1,
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "lesson_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-001",
+        "D1-HEALTH-MOBILITY-FACT-002"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare med CP talar otydligt men visar tydligt med handen hur hen vill sitta. Vad gör du?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bekräftar önskemålet och frågar lugnt om något mer behövs."
+        },
+        {
+          "id": "B",
+          "text": "Antar att passageraren inte kan bestämma själv."
+        },
+        {
+          "id": "C",
+          "text": "Pratar bara med nästa person i kön."
+        },
+        {
+          "id": "D",
+          "text": "Ignorerar gesten eftersom talet är otydligt."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bekräftar önskemålet och frågar lugnt om något mer behövs. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Allmänna råd till TSFS 2021:119, 3 kap. 18 § och Parkinsons sjukdom: rörelse, balans och tal kan påverkas.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "1177_PARKINSON",
+          "exact_reference": "Parkinsons sjukdom: rörelse, balans och tal kan påverkas"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_boarding_mobility_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-Q-006",
+      "version": 1,
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "lesson_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-002",
+        "D1-HEALTH-MOBILITY-FACT-003"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "medium",
+      "prompt": "Efter stroke kan en passagerare behöva hjälp med både tal och balans. Vilket svar är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Anpassa stödet efter det personen visar eller säger just då."
+        },
+        {
+          "id": "B",
+          "text": "Utgå från att alla efter stroke behöver samma hjälp."
+        },
+        {
+          "id": "C",
+          "text": "Fokusera bara på talet och bortse från balansen."
+        },
+        {
+          "id": "D",
+          "text": "Kräva att personen går snabbt för att visa att resan fungerar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Anpassa stödet efter det personen visar eller säger just då. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Parkinsons sjukdom: rörelse, balans och tal kan påverkas och Multipel skleros: gång, balans, syn, trötthet och kognition.",
+      "source_references": [
+        {
+          "source_id": "1177_PARKINSON",
+          "exact_reference": "Parkinsons sjukdom: rörelse, balans och tal kan påverkas"
+        },
+        {
+          "source_id": "1177_MS",
+          "exact_reference": "Multipel skleros: gång, balans, syn, trötthet och kognition"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_boarding_mobility_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-Q-007",
+      "version": 1,
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "lesson_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-003",
+        "D1-HEALTH-MOBILITY-FACT-004"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "medium",
+      "prompt": "Vilket val minskar risken vid i- och urstigning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stanna stabilt och ge passageraren tid innan rörelse påbörjas."
+        },
+        {
+          "id": "B",
+          "text": "Stanna där dörren öppnas rakt ut i trafik."
+        },
+        {
+          "id": "C",
+          "text": "Rusa momentet så bilen snabbt kan lämna platsen."
+        },
+        {
+          "id": "D",
+          "text": "Lyfta personen utan föregående fråga."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stanna stabilt och ge passageraren tid innan rörelse påbörjas. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Multipel skleros: gång, balans, syn, trötthet och kognition och Cerebral pares: rörelsepåverkan varierar.",
+      "source_references": [
+        {
+          "source_id": "1177_MS",
+          "exact_reference": "Multipel skleros: gång, balans, syn, trötthet och kognition"
+        },
+        {
+          "source_id": "1177_CP",
+          "exact_reference": "Cerebral pares: rörelsepåverkan varierar"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_boarding_mobility_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-Q-001",
+      "version": 1,
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "lesson_key": "D1-HEALTH-COG-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-004",
+        "D1-HEALTH-COG-FACT-005"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare tappar bort sig i vilken entré som är rätt. Vad hjälper mest?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Visa eller läs upp adressen och ta ett steg i taget."
+        },
+        {
+          "id": "B",
+          "text": "Ge en lång förklaring om hela området."
+        },
+        {
+          "id": "C",
+          "text": "Bli irriterad och be kunden bestämma snabbare."
+        },
+        {
+          "id": "D",
+          "text": "Köra till en annan adress utan bekräftelse."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Visa eller läs upp adressen och ta ett steg i taget. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Närstående till någon med en demenssjukdom: tålamod och tid och ADHD: koncentration, impulskontroll, planering och tid.",
+      "source_references": [
+        {
+          "source_id": "1177_DEMENS_NARSTAENDE",
+          "exact_reference": "Närstående till någon med en demenssjukdom: tålamod och tid"
+        },
+        {
+          "source_id": "1177_ADHD",
+          "exact_reference": "ADHD: koncentration, impulskontroll, planering och tid"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_cognitive_support_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-Q-002",
+      "version": 1,
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "lesson_key": "D1-HEALTH-COG-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-005",
+        "D1-HEALTH-COG-FACT-006"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "Varför kan skriftlig eller visuell bekräftelse vara användbar?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Den kan stödja minne, planering och orientering."
+        },
+        {
+          "id": "B",
+          "text": "Den gör att föraren slipper prata respektfullt."
+        },
+        {
+          "id": "C",
+          "text": "Den ersätter alla säkerhetskontroller."
+        },
+        {
+          "id": "D",
+          "text": "Den visar att passageraren inte får välja själv."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Den kan stödja minne, planering och orientering. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i ADHD: koncentration, impulskontroll, planering och tid och Autism med intellektuell funktionsnedsättning: struktur och visuellt stöd.",
+      "source_references": [
+        {
+          "source_id": "1177_ADHD",
+          "exact_reference": "ADHD: koncentration, impulskontroll, planering och tid"
+        },
+        {
+          "source_id": "1177_AUTISM_IF",
+          "exact_reference": "Autism med intellektuell funktionsnedsättning: struktur och visuellt stöd"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_cognitive_support_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-Q-003",
+      "version": 1,
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "lesson_key": "D1-HEALTH-COG-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-004",
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-006",
+        "D1-HEALTH-COG-FACT-007"
+      ],
+      "question_type": "single_choice",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "En person med demenssjukdom tar tid på sig att svara. Vad är lämpligt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ge tålamod, vänta in svaret och undvik stress."
+        },
+        {
+          "id": "B",
+          "text": "Pressa fram ett snabbt beslut."
+        },
+        {
+          "id": "C",
+          "text": "Argumentera om varför personen minns fel."
+        },
+        {
+          "id": "D",
+          "text": "Avsluta resan direkt utan att fråga."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ge tålamod, vänta in svaret och undvik stress. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Autism med intellektuell funktionsnedsättning: struktur och visuellt stöd och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "1177_AUTISM_IF",
+          "exact_reference": "Autism med intellektuell funktionsnedsättning: struktur och visuellt stöd"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_cognitive_support_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-Q-004",
+      "version": 1,
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "lesson_key": "D1-HEALTH-COG-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-001",
+        "D1-HEALTH-COG-FACT-002"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare blir osäker när du ger flera instruktioner samtidigt. Vad ändrar du?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Dela upp informationen och ge en sak i taget."
+        },
+        {
+          "id": "B",
+          "text": "Upprepa allt snabbare."
+        },
+        {
+          "id": "C",
+          "text": "Sluta informera helt."
+        },
+        {
+          "id": "D",
+          "text": "Be passageraren skynda sig."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Dela upp informationen och ge en sak i taget. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Allmänna råd till TSFS 2021:119, 3 kap. 18 § och Hjälpmedel för kognitivt stöd: exempel på kognitiva svårigheter.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_reference": "Hjälpmedel för kognitivt stöd: exempel på kognitiva svårigheter"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_cognitive_support_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-Q-005",
+      "version": 1,
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "lesson_key": "D1-HEALTH-COG-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-002",
+        "D1-HEALTH-COG-FACT-003"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "easy",
+      "prompt": "Vilken praktisk svårighet kan kognitiv påverkan skapa under en taxiresa?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Svårt att orientera sig eller planera nästa steg."
+        },
+        {
+          "id": "B",
+          "text": "Automatiskt behov av fysisk lyftassistans."
+        },
+        {
+          "id": "C",
+          "text": "Oförmåga att betala i alla situationer."
+        },
+        {
+          "id": "D",
+          "text": "Alltid fullständig tystnad under resan."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Svårt att orientera sig eller planera nästa steg. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Hjälpmedel för kognitivt stöd: exempel på kognitiva svårigheter och Hjälpmedel för kognitivt stöd: planering och kommunikation.",
+      "source_references": [
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_reference": "Hjälpmedel för kognitivt stöd: exempel på kognitiva svårigheter"
+        },
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_reference": "Hjälpmedel för kognitivt stöd: planering och kommunikation"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_cognitive_support_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-Q-006",
+      "version": 1,
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "lesson_key": "D1-HEALTH-COG-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-003",
+        "D1-HEALTH-COG-FACT-004"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "medium",
+      "prompt": "En bokning innehåller särskild avlämningsinformation. Passageraren verkar osäker. Vad gör du?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bekräftar informationen kort och frågar om den stämmer."
+        },
+        {
+          "id": "B",
+          "text": "Hoppar över avlämningsinformationen."
+        },
+        {
+          "id": "C",
+          "text": "Låter taxametern avgöra platsen."
+        },
+        {
+          "id": "D",
+          "text": "Vägrar avlämning nära målet."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bekräftar informationen kort och frågar om den stämmer. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Hjälpmedel för kognitivt stöd: planering och kommunikation och Närstående till någon med en demenssjukdom: tålamod och tid.",
+      "source_references": [
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_reference": "Hjälpmedel för kognitivt stöd: planering och kommunikation"
+        },
+        {
+          "source_id": "1177_DEMENS_NARSTAENDE",
+          "exact_reference": "Närstående till någon med en demenssjukdom: tålamod och tid"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_cognitive_support_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-Q-007",
+      "version": 1,
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "lesson_key": "D1-HEALTH-COG-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-004",
+        "D1-HEALTH-COG-FACT-005"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "difficulty": "medium",
+      "prompt": "Vilket bemötande passar bäst när någon har svårt att hitta ord?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lyssna, ge tid och använd korta kontrollfrågor."
+        },
+        {
+          "id": "B",
+          "text": "Fylla i alla svar utan kontroll."
+        },
+        {
+          "id": "C",
+          "text": "Höja tempot i samtalet."
+        },
+        {
+          "id": "D",
+          "text": "Kommentera att personen pratar långsamt."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lyssna, ge tid och använd korta kontrollfrågor. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Närstående till någon med en demenssjukdom: tålamod och tid och ADHD: koncentration, impulskontroll, planering och tid.",
+      "source_references": [
+        {
+          "source_id": "1177_DEMENS_NARSTAENDE",
+          "exact_reference": "Närstående till någon med en demenssjukdom: tålamod och tid"
+        },
+        {
+          "source_id": "1177_ADHD",
+          "exact_reference": "ADHD: koncentration, impulskontroll, planering och tid"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "health_cognitive_support_scene",
+      "visual_correctness_depends_on_asset": false
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-Q-001",
+      "version": 1,
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "lesson_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-003",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-005",
+        "D1-HEALTH-MENTAL-FACT-006"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare får stark panik och vill att bilen stannar en stund. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stanna säkert om möjligt, håll dig lugn och fråga om nästa steg."
+        },
+        {
+          "id": "B",
+          "text": "Säga att panik aldrig är farligt och fortsätta."
+        },
+        {
+          "id": "C",
+          "text": "Argumentera om att personen överdriver."
+        },
+        {
+          "id": "D",
+          "text": "Låsa dörrarna tills resan är klar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stanna säkert om möjligt, håll dig lugn och fråga om nästa steg. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Psykos och psykossjukdomar: bemötande vid förändrad verklighetsuppfattning och ADHD: planering, tid och instruktioner.",
+      "source_references": [
+        {
+          "source_id": "1177_PSYKOS",
+          "exact_reference": "Psykos och psykossjukdomar: bemötande vid förändrad verklighetsuppfattning"
+        },
+        {
+          "source_id": "1177_ADHD",
+          "exact_reference": "ADHD: planering, tid och instruktioner"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-Q-002",
+      "version": 1,
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "lesson_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-006",
+        "D1-HEALTH-MENTAL-FACT-007"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare verkar rädd och säger att någon följer efter bilen. Vad bör föraren undvika?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Att argumentera hårt om att upplevelsen är fel."
+        },
+        {
+          "id": "B",
+          "text": "Att hålla rösten lugn."
+        },
+        {
+          "id": "C",
+          "text": "Att stanna säkert vid behov."
+        },
+        {
+          "id": "D",
+          "text": "Att beskriva nästa praktiska steg."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Att argumentera hårt om att upplevelsen är fel. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i ADHD: planering, tid och instruktioner och Autism med intellektuell funktionsnedsättning: struktur och tydlighet.",
+      "source_references": [
+        {
+          "source_id": "1177_ADHD",
+          "exact_reference": "ADHD: planering, tid och instruktioner"
+        },
+        {
+          "source_id": "1177_AUTISM_IF",
+          "exact_reference": "Autism med intellektuell funktionsnedsättning: struktur och tydlighet"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-Q-003",
+      "version": 1,
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "lesson_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-003",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-001",
+        "D1-HEALTH-MENTAL-FACT-002"
+      ],
+      "question_type": "single_choice",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "En kund med ADHD tappar tråden när du förklarar flera moment. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ge korta instruktioner i tydlig ordning."
+        },
+        {
+          "id": "B",
+          "text": "Lägga till fler detaljer samtidigt."
+        },
+        {
+          "id": "C",
+          "text": "Bli tyst och låta kunden gissa."
+        },
+        {
+          "id": "D",
+          "text": "Säga att kunden måste koncentrera sig bättre."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ge korta instruktioner i tydlig ordning. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Allmänna råd till TSFS 2021:119, 3 kap. 18 § och Allmänna råd till TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-Q-004",
+      "version": 1,
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "lesson_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-004",
+        "D1-HEALTH-018-GA-003"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-002",
+        "D1-HEALTH-MENTAL-FACT-003"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "Varför är förutsägbarhet viktig för vissa neuropsykiatriska behov?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Den kan minska stress och göra resans moment tydligare."
+        },
+        {
+          "id": "B",
+          "text": "Den gör att alla kunder ska behandlas exakt lika."
+        },
+        {
+          "id": "C",
+          "text": "Den ersätter trafiksäkerheten."
+        },
+        {
+          "id": "D",
+          "text": "Den låter föraren bortse från kundens önskemål."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Den kan minska stress och göra resans moment tydligare. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Allmänna råd till TSFS 2021:119, 3 kap. 18 § och Paniksyndrom: panikattack och lugnande åtgärder.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "1177_PANIKSYNDROM",
+          "exact_reference": "Paniksyndrom: panikattack och lugnande åtgärder"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-Q-005",
+      "version": 1,
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "lesson_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-003"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-003",
+        "D1-HEALTH-MENTAL-FACT-004"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare upprepar samma fråga många gånger. Vad är lämpligt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Svara kort och konsekvent utan att håna eller stressa."
+        },
+        {
+          "id": "B",
+          "text": "Säga att frågan redan är besvarad och vägra mer samtal."
+        },
+        {
+          "id": "C",
+          "text": "Byta destination utan att informera."
+        },
+        {
+          "id": "D",
+          "text": "Be passageraren gå ur direkt."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Svara kort och konsekvent utan att håna eller stressa. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Paniksyndrom: panikattack och lugnande åtgärder och Psykos och psykossjukdomar: vanliga upplevelser.",
+      "source_references": [
+        {
+          "source_id": "1177_PANIKSYNDROM",
+          "exact_reference": "Paniksyndrom: panikattack och lugnande åtgärder"
+        },
+        {
+          "source_id": "1177_PSYKOS",
+          "exact_reference": "Psykos och psykossjukdomar: vanliga upplevelser"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-Q-006",
+      "version": 1,
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "lesson_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-003"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-004",
+        "D1-HEALTH-MENTAL-FACT-005"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "medium",
+      "prompt": "Vilket svar är bäst om passageraren blir misstänksam mot dig?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Håll fokus på trygghet, destination och valbara nästa steg."
+        },
+        {
+          "id": "B",
+          "text": "Försök vinna en diskussion om upplevelsen."
+        },
+        {
+          "id": "C",
+          "text": "Skämta om passagerarens oro."
+        },
+        {
+          "id": "D",
+          "text": "Fortsätt köra fortare så resan tar slut."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Håll fokus på trygghet, destination och valbara nästa steg. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Psykos och psykossjukdomar: vanliga upplevelser och Psykos och psykossjukdomar: bemötande vid förändrad verklighetsuppfattning.",
+      "source_references": [
+        {
+          "source_id": "1177_PSYKOS",
+          "exact_reference": "Psykos och psykossjukdomar: vanliga upplevelser"
+        },
+        {
+          "source_id": "1177_PSYKOS",
+          "exact_reference": "Psykos och psykossjukdomar: bemötande vid förändrad verklighetsuppfattning"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-Q-007",
+      "version": 1,
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "lesson_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-003",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-005",
+        "D1-HEALTH-MENTAL-FACT-006"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "difficulty": "medium",
+      "prompt": "Vad är viktigast vid psykisk oro i bilen?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Lugn kommunikation och säker hantering av situationen."
+        },
+        {
+          "id": "B",
+          "text": "Att sätta en etikett på tillståndet."
+        },
+        {
+          "id": "C",
+          "text": "Att övertyga passageraren om att allt är inbillat."
+        },
+        {
+          "id": "D",
+          "text": "Att ignorera alla önskemål tills resan är slut."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Lugn kommunikation och säker hantering av situationen. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Psykos och psykossjukdomar: bemötande vid förändrad verklighetsuppfattning och ADHD: planering, tid och instruktioner.",
+      "source_references": [
+        {
+          "source_id": "1177_PSYKOS",
+          "exact_reference": "Psykos och psykossjukdomar: bemötande vid förändrad verklighetsuppfattning"
+        },
+        {
+          "source_id": "1177_ADHD",
+          "exact_reference": "ADHD: planering, tid och instruktioner"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-Q-001",
+      "version": 1,
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "lesson_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-006",
+        "D1-HEALTH-ADAPT-FACT-007"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "Två passagerare har samma nämnda funktionsnedsättning men ber om olika hjälp. Vad visar rätt förståelse?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Behoven är individuella, så föraren frågar och anpassar efter personen."
+        },
+        {
+          "id": "B",
+          "text": "Samma tillstånd betyder alltid samma hjälp."
+        },
+        {
+          "id": "C",
+          "text": "Den ena passageraren måste ha fel."
+        },
+        {
+          "id": "D",
+          "text": "Föraren ska välja standardhjälp utan fråga."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Behoven är individuella, så föraren frågar och anpassar efter personen. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-Q-002",
+      "version": 1,
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "lesson_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-001",
+        "D1-HEALTH-ADAPT-FACT-002"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare med allergikänslighet ber dig undvika doftspray i bilen. Vad är rimligt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Respektera önskemålet och minska onödig doftpåverkan."
+        },
+        {
+          "id": "B",
+          "text": "Använda mer spray för att bilen ska kännas fräsch."
+        },
+        {
+          "id": "C",
+          "text": "Säga att allergi inte gäller i taxi."
+        },
+        {
+          "id": "D",
+          "text": "Vägra resan utan att bedöma situationen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Respektera önskemålet och minska onödig doftpåverkan. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-Q-003",
+      "version": 1,
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "lesson_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-002",
+        "D1-HEALTH-ADAPT-FACT-003"
+      ],
+      "question_type": "single_choice",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "En anhörig följer med, men passageraren själv kan svara på frågor. Vad bör du göra?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bekräfta passagerarens egna önskemål när det är möjligt."
+        },
+        {
+          "id": "B",
+          "text": "Endast fråga anhörig om allt."
+        },
+        {
+          "id": "C",
+          "text": "Bortse från båda och bestäm själv."
+        },
+        {
+          "id": "D",
+          "text": "Be anhörig lämna bilen direkt."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bekräfta passagerarens egna önskemål när det är möjligt. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 § och allmänna råd.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-Q-004",
+      "version": 1,
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "lesson_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002",
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-003",
+        "D1-HEALTH-ADAPT-FACT-004"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "Vilket uttryck beskriver bäst trygg assistans?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tid, respekt, tydliga frågor och rätt hjälp när situationen kräver det."
+        },
+        {
+          "id": "B",
+          "text": "Snabba antaganden och samma rutiner för alla."
+        },
+        {
+          "id": "C",
+          "text": "Medicinska råd under färden."
+        },
+        {
+          "id": "D",
+          "text": "Att undvika kontakt med passageraren."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tid, respekt, tydliga frågor och rätt hjälp när situationen kräver det. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och allmänna råd och Astma: rök, dofter och luft kan förvärra besvär.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd"
+        },
+        {
+          "source_id": "1177_ASTMA",
+          "exact_reference": "Astma: rök, dofter och luft kan förvärra besvär"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-Q-005",
+      "version": 1,
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "lesson_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-004",
+        "D1-HEALTH-ADAPT-FACT-005"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "easy",
+      "prompt": "En passagerare börjar må sämre och resan känns inte trygg att fortsätta. Vad är bäst?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Avbryt på säker plats och tillkalla hjälp enligt läget."
+        },
+        {
+          "id": "B",
+          "text": "Köra snabbare till destinationen oavsett läge."
+        },
+        {
+          "id": "C",
+          "text": "Säga åt passageraren att vänta tyst."
+        },
+        {
+          "id": "D",
+          "text": "Fortsätta för att inte påverka körschemat."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Avbryt på säker plats och tillkalla hjälp enligt läget. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i Astma: rök, dofter och luft kan förvärra besvär och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "1177_ASTMA",
+          "exact_reference": "Astma: rök, dofter och luft kan förvärra besvär"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-Q-006",
+      "version": 1,
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "lesson_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-005",
+        "D1-HEALTH-ADAPT-FACT-006"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "medium",
+      "prompt": "Varför ska föraren undvika antaganden om funktionsnedsättning?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "För att praktiska behov varierar och passageraren ofta själv vet vilket stöd som behövs."
+        },
+        {
+          "id": "B",
+          "text": "För att alla hjälpbehov är omöjliga att hantera."
+        },
+        {
+          "id": "C",
+          "text": "För att frågor alltid gör situationen sämre."
+        },
+        {
+          "id": "D",
+          "text": "För att ledsagare alltid ska fatta alla beslut."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: För att praktiska behov varierar och passageraren ofta själv vet vilket stöd som behövs. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-Q-007",
+      "version": 1,
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "lesson_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-006",
+        "D1-HEALTH-ADAPT-FACT-007"
+      ],
+      "question_type": "scenario",
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "difficulty": "medium",
+      "prompt": "En passagerare vill ha hjälp till dörren men säger att väskan ska bäras på ett särskilt sätt. Vad gör du?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Följer önskemålet om det kan göras säkert."
+        },
+        {
+          "id": "B",
+          "text": "Bär väskan på ditt vanliga sätt oavsett instruktion."
+        },
+        {
+          "id": "C",
+          "text": "Säger att kunden inte får styra hjälpens utförande."
+        },
+        {
+          "id": "D",
+          "text": "Lämnar väskan vid bilen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Följer önskemålet om det kan göras säkert. Föraren ska använda kunskap om sjukdomar och funktionsnedsättningar för trygg praktisk assistans, med stöd i TSFS 2021:119, 3 kap. 18 § och TSFS 2021:119, 3 kap. 18 §.",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 §"
+        }
+      ],
+      "medical_scope": "practical_transport_awareness",
+      "diagnostic_style": false,
+      "status": "published"
+    }
+  ]
+}

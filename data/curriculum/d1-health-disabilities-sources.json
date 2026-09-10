@@ -1,0 +1,543 @@
+{
+  "metadata": {
+    "subject": "D1_HEALTH_DISABILITIES",
+    "title": "Sjukdomar och funktionsnedsättningar",
+    "verified_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "status": "published",
+    "requirement_count": 5,
+    "architecture": "existing_vilotider_learning_pipeline",
+    "exclusions": [
+      "no medical diagnosis",
+      "no treatment instruction beyond emergency/help boundary",
+      "no other D1 subjects",
+      "no full D1 mock exam"
+    ]
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd till 18 §",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+      "relevant_chapter_section": "3 kap. 18 § och allmänna råd",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 Sjukdomar och funktionsnedsättningar."
+    },
+    {
+      "source_key": "1177_INSULINKANNING",
+      "source_title": "Insulinkänning",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on low blood sugar",
+      "url": "https://www.1177.se/Stockholm/sjukdomar--besvar/diabetes/insulinkanning//",
+      "relevant_chapter_section": "Confusion/drowsiness may indicate low blood sugar; help with sugar if possible; seek emergency care if needed.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used only for practical awareness during taxi transport."
+    },
+    {
+      "source_key": "1177_ASTMA",
+      "source_title": "Astma",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on asthma",
+      "url": "https://www.1177.se/Stockholm/sjukdomar--besvar/lungor-och-luftvagar/andningssvarigheter-och-andningsuppehall/astma//",
+      "relevant_chapter_section": "Asthma attacks can worsen breathing; smoke, strong scents and cold air can worsen symptoms; call 112 if breathing is very difficult despite medication.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for transport environment and urgent-help boundaries."
+    },
+    {
+      "source_key": "1177_EPILEPSI",
+      "source_title": "Epilepsi",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on epilepsy",
+      "url": "https://www.1177.se/sjukdomar--besvar/hjarna-och-nerver/yrsel-svimning-och-kramper/epilepsi/",
+      "relevant_chapter_section": "During a seizure: protect from injury, time the seizure, do not put anything in the mouth, call 112 if it lasts five minutes or longer or recovery is poor.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used only for safe response during a ride."
+    },
+    {
+      "source_key": "1177_STROKE",
+      "source_title": "Stroke",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on stroke",
+      "url": "https://www.1177.se/sjukdomar--besvar/hjarna-och-nerver/stroke-och-blodkarl-i-hjarnan/stroke/",
+      "relevant_chapter_section": "Suspected stroke requires calling 112 immediately, even if symptoms are mild or pass.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for urgent-help taxi scenarios."
+    },
+    {
+      "source_key": "1177_PARKINSON",
+      "source_title": "Parkinsons sjukdom",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on Parkinsons disease",
+      "url": "https://www.1177.se/Stockholm/sjukdomar--besvar/hjarna-och-nerver/nerver/parkinsons-sjukdom/",
+      "relevant_chapter_section": "Movement may be slower, starting movement can be difficult, balance and speech can be affected; symptoms vary.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for mobility and communication awareness."
+    },
+    {
+      "source_key": "1177_MS",
+      "source_title": "Multipel skleros - MS",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on MS",
+      "url": "https://www.1177.se/sjukdomar--besvar/hjarna-och-nerver/nerver/multipel-skleros--ms/",
+      "relevant_chapter_section": "MS can affect walking, balance, vision, memory, concentration and fatigue; symptoms vary.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for practical support awareness."
+    },
+    {
+      "source_key": "1177_CP",
+      "source_title": "Cerebral pares - CP",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on CP",
+      "url": "https://www.1177.se/sjukdomar--besvar/hjarna-och-nerver/nerver/cerebral-pares--cp/",
+      "relevant_chapter_section": "CP affects movement in varying ways and can involve muscle tension, involuntary movements, balance issues and communication aids.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for assistance and communication scenarios."
+    },
+    {
+      "source_key": "1177_KOGNITIVT_STOD",
+      "source_title": "Hjälpmedel för kognitivt stöd",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on cognitive support aids",
+      "url": "https://www.1177.se/Vasterbotten/undersokning-behandling/hjalpmedel/hjalpmedel-for-kognition-och-kommunikation/hjalpmedel-for-kognitivt-stod/",
+      "relevant_chapter_section": "Cognitive difficulty can affect memory, concentration, orientation, planning and communication; aids can support planning, reminders and orientation.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for practical support during transport."
+    },
+    {
+      "source_key": "1177_DEMENS_NARSTAENDE",
+      "source_title": "Närstående till någon med en demenssjukdom",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden/Vårdhandboken",
+      "legal_reference": "Healthcare guidance for support around dementia",
+      "url": "https://www.vardhandboken.se/externa-sidor/1177/narstaende-till-nagon-med-en-demenssjukdom/",
+      "relevant_chapter_section": "Patience, time, respect and avoiding argument can support a person with dementia.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used narrowly for respectful route/passenger communication."
+    },
+    {
+      "source_key": "1177_PSYKOS",
+      "source_title": "Psykos och psykossjukdomar",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on psychosis",
+      "url": "https://www.1177.se/sjukdomar--besvar/psykiska-sjukdomar-och-besvar/psykos-och-vanforestallningar/psykos-och-psykossjukdomar/",
+      "relevant_chapter_section": "Psychosis can involve interpreting reality differently, hearing voices, feeling persecuted and difficulty planning or caring for oneself.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used only for calm, non-confrontational transport response."
+    },
+    {
+      "source_key": "1177_PANIKSYNDROM",
+      "source_title": "Paniksyndrom",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on panic attacks",
+      "url": "https://www.1177.se/Stockholm/sjukdomar--besvar/psykiska-sjukdomar-och-besvar/angest/paniksyndrom/",
+      "relevant_chapter_section": "Panic attacks are frightening, often last minutes and pass; calm breathing and a calm environment can help.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for calm taxi response, not treatment."
+    },
+    {
+      "source_key": "1177_ADHD",
+      "source_title": "ADHD",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Healthcare guidance on ADHD",
+      "url": "https://www.1177.se/stockholm/sjukdomar--besvar/hjarna-och-nerver/neuropsykiatriska-funktionsnedsattningar/adhd/",
+      "relevant_chapter_section": "ADHD can affect concentration, impulse control, planning, time and following instructions; needs vary.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for communication and planning awareness."
+    },
+    {
+      "source_key": "1177_AUTISM_IF",
+      "source_title": "Autism med intellektuell funktionsnedsättning",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden/Vårdpersonal",
+      "legal_reference": "Healthcare guidance on autism with intellectual disability",
+      "url": "https://vardpersonal.1177.se/kunskapsstod/kliniska-kunskapsstod/autism-med-intellektuell-funktionsnedsattning/?globalregion=19&selectionCode=profession_primarvard",
+      "relevant_chapter_section": "Structure, routines, clear language and visual support can be important; verbal understanding varies.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used narrowly for practical communication and predictability."
+    },
+    {
+      "source_key": "1177_ANAFYLAXI",
+      "source_title": "Anafylaxi",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden/Vårdpersonal",
+      "legal_reference": "Healthcare guidance on severe allergic reaction",
+      "url": "https://vardpersonal.1177.se/kunskapsstod/kliniska-kunskapsstod/anafylaxi/?region=stockholm&selectionCode=profession_primarvard",
+      "relevant_chapter_section": "Severe allergic reaction can worsen quickly and require urgent medical help.",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used only for urgent-help boundary."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-HEALTH-018-001",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd till 18 §",
+          "source_status": "VERIFIED",
+          "verification_notes": "Primary curriculum authority for D1 Sjukdomar och funktionsnedsättningar."
+        },
+        {
+          "source_key": "1177_KOGNITIVT_STOD",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on cognitive support aids",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for practical support during transport."
+        },
+        {
+          "source_key": "1177_DEMENS_NARSTAENDE",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden/Vårdhandboken",
+          "exact_reference": "Healthcare guidance for support around dementia",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used narrowly for respectful route/passenger communication."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Source expansion verified for practical taxi-driver awareness, not medical diagnosis or treatment."
+    },
+    {
+      "requirement_key": "D1-HEALTH-018-GA-001",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd till 18 §",
+          "source_status": "VERIFIED",
+          "verification_notes": "Primary curriculum authority for D1 Sjukdomar och funktionsnedsättningar."
+        },
+        {
+          "source_key": "1177_INSULINKANNING",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on low blood sugar",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used only for practical awareness during taxi transport."
+        },
+        {
+          "source_key": "1177_ASTMA",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on asthma",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for transport environment and urgent-help boundaries."
+        },
+        {
+          "source_key": "1177_EPILEPSI",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on epilepsy",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used only for safe response during a ride."
+        },
+        {
+          "source_key": "1177_STROKE",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on stroke",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for urgent-help taxi scenarios."
+        },
+        {
+          "source_key": "1177_ANAFYLAXI",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden/Vårdpersonal",
+          "exact_reference": "Healthcare guidance on severe allergic reaction",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used only for urgent-help boundary."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Source expansion verified for practical taxi-driver awareness, not medical diagnosis or treatment."
+    },
+    {
+      "requirement_key": "D1-HEALTH-018-GA-002",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd till 18 §",
+          "source_status": "VERIFIED",
+          "verification_notes": "Primary curriculum authority for D1 Sjukdomar och funktionsnedsättningar."
+        },
+        {
+          "source_key": "1177_PARKINSON",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on Parkinsons disease",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for mobility and communication awareness."
+        },
+        {
+          "source_key": "1177_MS",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on MS",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for practical support awareness."
+        },
+        {
+          "source_key": "1177_CP",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on CP",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for assistance and communication scenarios."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Source expansion verified for practical taxi-driver awareness, not medical diagnosis or treatment."
+    },
+    {
+      "requirement_key": "D1-HEALTH-018-GA-003",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd till 18 §",
+          "source_status": "VERIFIED",
+          "verification_notes": "Primary curriculum authority for D1 Sjukdomar och funktionsnedsättningar."
+        },
+        {
+          "source_key": "1177_PANIKSYNDROM",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on panic attacks",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for calm taxi response, not treatment."
+        },
+        {
+          "source_key": "1177_PSYKOS",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on psychosis",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used only for calm, non-confrontational transport response."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Source expansion verified for practical taxi-driver awareness, not medical diagnosis or treatment."
+    },
+    {
+      "requirement_key": "D1-HEALTH-018-GA-004",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "exact_reference": "TSFS 2021:119, 3 kap. 18 § och allmänna råd till 18 §",
+          "source_status": "VERIFIED",
+          "verification_notes": "Primary curriculum authority for D1 Sjukdomar och funktionsnedsättningar."
+        },
+        {
+          "source_key": "1177_ADHD",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on ADHD",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for communication and planning awareness."
+        },
+        {
+          "source_key": "1177_AUTISM_IF",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden/Vårdpersonal",
+          "exact_reference": "Healthcare guidance on autism with intellectual disability",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used narrowly for practical communication and predictability."
+        },
+        {
+          "source_key": "1177_KOGNITIVT_STOD",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "exact_reference": "Healthcare guidance on cognitive support aids",
+          "source_status": "VERIFIED",
+          "verification_notes": "Used for practical support during transport."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Source expansion verified for practical taxi-driver awareness, not medical diagnosis or treatment."
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "title": "Förarens roll och gränser",
+      "order": 1,
+      "official_curriculum_category": false,
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "source_keys": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_KOGNITIVT_STOD",
+        "1177_DEMENS_NARSTAENDE"
+      ],
+      "visual_asset_ids": [],
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "status": "published",
+      "notes": "Pedagogical grouping derived from TSFS 2021:119, 3 kap. 18 § and supporting 1177 guidance."
+    },
+    {
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "title": "Akuta förändringar under resan",
+      "order": 2,
+      "official_curriculum_category": false,
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "source_keys": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_INSULINKANNING",
+        "1177_ASTMA",
+        "1177_EPILEPSI",
+        "1177_STROKE",
+        "1177_ANAFYLAXI"
+      ],
+      "visual_asset_ids": [
+        "health_urgent_help_decision_scene"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "status": "published",
+      "notes": "Pedagogical grouping derived from TSFS 2021:119, 3 kap. 18 § and supporting 1177 guidance."
+    },
+    {
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "title": "Rörelse, balans och ork",
+      "order": 3,
+      "official_curriculum_category": false,
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "source_keys": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_PARKINSON",
+        "1177_MS",
+        "1177_CP",
+        "1177_STROKE"
+      ],
+      "visual_asset_ids": [
+        "health_boarding_mobility_scene"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "status": "published",
+      "notes": "Pedagogical grouping derived from TSFS 2021:119, 3 kap. 18 § and supporting 1177 guidance."
+    },
+    {
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "title": "Kognition, minne och orientering",
+      "order": 4,
+      "official_curriculum_category": false,
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "source_keys": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_KOGNITIVT_STOD",
+        "1177_DEMENS_NARSTAENDE",
+        "1177_ADHD",
+        "1177_AUTISM_IF"
+      ],
+      "visual_asset_ids": [
+        "health_cognitive_support_scene"
+      ],
+      "competency_tags": [
+        "KNOW",
+        "APPLY"
+      ],
+      "status": "published",
+      "notes": "Pedagogical grouping derived from TSFS 2021:119, 3 kap. 18 § and supporting 1177 guidance."
+    },
+    {
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "title": "Psykisk och neuropsykiatrisk påverkan",
+      "order": 5,
+      "official_curriculum_category": false,
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-003",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "source_keys": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_PANIKSYNDROM",
+        "1177_PSYKOS",
+        "1177_ADHD",
+        "1177_AUTISM_IF"
+      ],
+      "visual_asset_ids": [],
+      "competency_tags": [
+        "KNOW",
+        "ASSESS"
+      ],
+      "status": "published",
+      "notes": "Pedagogical grouping derived from TSFS 2021:119, 3 kap. 18 § and supporting 1177 guidance."
+    },
+    {
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "title": "Individuella behov och trygg transport",
+      "order": 6,
+      "official_curriculum_category": false,
+      "requirement_keys": [
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-002",
+        "D1-HEALTH-018-GA-001"
+      ],
+      "source_keys": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_ASTMA"
+      ],
+      "visual_asset_ids": [],
+      "competency_tags": [
+        "KNOW",
+        "USE"
+      ],
+      "status": "published",
+      "notes": "Pedagogical grouping derived from TSFS 2021:119, 3 kap. 18 § and supporting 1177 guidance."
+    }
+  ]
+}

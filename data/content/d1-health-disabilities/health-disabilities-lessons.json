@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "subject": "D1_HEALTH_DISABILITIES",
+    "title": "Sjukdomar och funktionsnedsättningar",
+    "verified_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "status": "published",
+    "requirement_count": 5,
+    "architecture": "existing_vilotider_learning_pipeline",
+    "exclusions": [
+      "no medical diagnosis",
+      "no treatment instruction beyond emergency/help boundary",
+      "no other D1 subjects",
+      "no full D1 mock exam"
+    ]
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-HEALTH-ROLE-LESSON-001",
+      "topic_id": "topic_d1_health_forarens-roll-granser",
+      "title": "Förarens roll och gränser",
+      "requirement_keys": [
+        "D1-HEALTH-018-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-001",
+        "D1-HEALTH-ROLE-FACT-002",
+        "D1-HEALTH-ROLE-FACT-003",
+        "D1-HEALTH-ROLE-FACT-004",
+        "D1-HEALTH-ROLE-FACT-005",
+        "D1-HEALTH-ROLE-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 18 §"
+          ]
+        },
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_references": [
+            "Hjälpmedel för kognitivt stöd: planering, orientering, kommunikation"
+          ]
+        },
+        {
+          "source_id": "1177_DEMENS_NARSTAENDE",
+          "exact_references": [
+            "Närstående till någon med en demenssjukdom: tålamod, tid och respekt"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 5,
+      "mobile_first": true,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Föraren ska känna till, inte fastställa tillstånd",
+          "fact_keys": [
+            "D1-HEALTH-ROLE-FACT-001",
+            "D1-HEALTH-ROLE-FACT-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I det här ämnet handlar kunskapen om trygg transport. Du behöver förstå vilka praktiska behov som kan uppstå, men du ska inte avgöra vilket tillstånd en passagerare har.",
+          "fact_keys": [
+            "D1-HEALTH-ROLE-FACT-002",
+            "D1-HEALTH-ROLE-FACT-003"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Fråga vad passageraren vill ha hjälp med.",
+            "Ge tid för svar och bekräfta nästa steg.",
+            "Dela bara information som behövs för uppdragets säkerhet."
+          ],
+          "fact_keys": [
+            "D1-HEALTH-ROLE-FACT-003",
+            "D1-HEALTH-ROLE-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En passagerare verkar osäker på adressen. Ett bra svar är att lugnt kontrollera bokningen, läsa upp adressen kort och fråga om den stämmer.",
+          "fact_keys": [
+            "D1-HEALTH-ROLE-FACT-004",
+            "D1-HEALTH-ROLE-FACT-005"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du skilja mellan praktisk assistans och att försöka fastställa passagerarens tillstånd?",
+          "fact_keys": [
+            "D1-HEALTH-ROLE-FACT-005",
+            "D1-HEALTH-ROLE-FACT-006"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-HEALTH-URGENT-LESSON-001",
+      "topic_id": "topic_d1_health_akuta-forandringar-under-resan",
+      "title": "Akuta förändringar under resan",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-001",
+        "D1-HEALTH-URGENT-FACT-002",
+        "D1-HEALTH-URGENT-FACT-003",
+        "D1-HEALTH-URGENT-FACT-004",
+        "D1-HEALTH-URGENT-FACT-005",
+        "D1-HEALTH-URGENT-FACT-006",
+        "D1-HEALTH-URGENT-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+          ]
+        },
+        {
+          "source_id": "1177_INSULINKANNING",
+          "exact_references": [
+            "Insulinkänning: förvirring/dåsighet och hjälp att höja blodsocker"
+          ]
+        },
+        {
+          "source_id": "1177_ASTMA",
+          "exact_references": [
+            "Astma: symtom och faktorer som kan förvärra"
+          ]
+        },
+        {
+          "source_id": "1177_EPILEPSI",
+          "exact_references": [
+            "Epilepsi: hjälp under anfall",
+            "Epilepsi: när 112 ska ringas"
+          ]
+        },
+        {
+          "source_id": "1177_STROKE",
+          "exact_references": [
+            "Stroke: ring 112 direkt vid misstanke"
+          ]
+        },
+        {
+          "source_id": "1177_ANAFYLAXI",
+          "exact_references": [
+            "Anafylaxi: akut försämring och behov av snabb hjälp"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 5,
+      "mobile_first": true,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_urgent_help_decision_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "När resan behöver pausas eller avbrytas",
+          "fact_keys": [
+            "D1-HEALTH-URGENT-FACT-001",
+            "D1-HEALTH-URGENT-FACT-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vissa förändringar under resan kan kräva snabb hjälp. Föraren ska då tänka säker plats, lugn kommunikation och rätt hjälp, inte fortsätta som om inget hänt.",
+          "fact_keys": [
+            "D1-HEALTH-URGENT-FACT-002",
+            "D1-HEALTH-URGENT-FACT-003"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Misstänkt stroke: ring 112 direkt.",
+            "Krampanfall: skydda från skada, ta tiden och stoppa inget i munnen.",
+            "Mycket svår andning eller snabb allergisk försämring: prioritera akut hjälp."
+          ],
+          "fact_keys": [
+            "D1-HEALTH-URGENT-FACT-003",
+            "D1-HEALTH-URGENT-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Fortsätt inte köra när passagerarens tillstånd gör resan osäker. Stanna säkert innan du agerar.",
+          "fact_keys": [
+            "D1-HEALTH-URGENT-FACT-004",
+            "D1-HEALTH-URGENT-FACT-005"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Vet du när 112 och säker stoppplats är viktigare än att hinna till destinationen?",
+          "fact_keys": [
+            "D1-HEALTH-URGENT-FACT-005",
+            "D1-HEALTH-URGENT-FACT-006"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-HEALTH-MOBILITY-LESSON-001",
+      "topic_id": "topic_d1_health_rorelse-balans-ork",
+      "title": "Rörelse, balans och ork",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-001",
+        "D1-HEALTH-MOBILITY-FACT-002",
+        "D1-HEALTH-MOBILITY-FACT-003",
+        "D1-HEALTH-MOBILITY-FACT-004",
+        "D1-HEALTH-MOBILITY-FACT-005",
+        "D1-HEALTH-MOBILITY-FACT-006",
+        "D1-HEALTH-MOBILITY-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "Allmänna råd till TSFS 2021:119, 3 kap. 18 §",
+            "TSFS 2021:119, 3 kap. 18 §"
+          ]
+        },
+        {
+          "source_id": "1177_PARKINSON",
+          "exact_references": [
+            "Parkinsons sjukdom: rörelse, balans och tal kan påverkas"
+          ]
+        },
+        {
+          "source_id": "1177_MS",
+          "exact_references": [
+            "Multipel skleros: gång, balans, syn, trötthet och kognition"
+          ]
+        },
+        {
+          "source_id": "1177_CP",
+          "exact_references": [
+            "Cerebral pares: rörelsepåverkan varierar",
+            "Cerebral pares: hjälpmedel och varierande behov"
+          ]
+        },
+        {
+          "source_id": "1177_STROKE",
+          "exact_references": [
+            "Stroke: påverkan på rörelse, tal, känsel och syn"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 5,
+      "mobile_first": true,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_boarding_mobility_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Rörelse, balans och ork påverkar resans praktiska delar",
+          "fact_keys": [
+            "D1-HEALTH-MOBILITY-FACT-001",
+            "D1-HEALTH-MOBILITY-FACT-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Parkinsons sjukdom, MS, CP, stroke och reumatiska sjukdomar nämns i allmänna råden. För taxi betyder det framför allt att i- och urstigning, gångsträcka, tempo och hjälpmedel kan behöva anpassas.",
+          "fact_keys": [
+            "D1-HEALTH-MOBILITY-FACT-002",
+            "D1-HEALTH-MOBILITY-FACT-003"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Parkera så stabilt och nära som möjligt utan att skapa trafikfara.",
+            "Fråga innan du tar tag i personen eller hjälpmedlet.",
+            "Ge extra tid och stressa inte vid dörren."
+          ],
+          "fact_keys": [
+            "D1-HEALTH-MOBILITY-FACT-003",
+            "D1-HEALTH-MOBILITY-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En passagerare med rollator rör sig långsamt. Du öppnar dörren, frågar hur personen vill göra och väntar tills passageraren är redo.",
+          "fact_keys": [
+            "D1-HEALTH-MOBILITY-FACT-004",
+            "D1-HEALTH-MOBILITY-FACT-005"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du välja stöd som gör i- och urstigning tryggare utan att ta över?",
+          "fact_keys": [
+            "D1-HEALTH-MOBILITY-FACT-005",
+            "D1-HEALTH-MOBILITY-FACT-006"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-HEALTH-COG-LESSON-001",
+      "topic_id": "topic_d1_health_kognition-minne-orientering",
+      "title": "Kognition, minne och orientering",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-COG-FACT-001",
+        "D1-HEALTH-COG-FACT-002",
+        "D1-HEALTH-COG-FACT-003",
+        "D1-HEALTH-COG-FACT-004",
+        "D1-HEALTH-COG-FACT-005",
+        "D1-HEALTH-COG-FACT-006",
+        "D1-HEALTH-COG-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "Allmänna råd till TSFS 2021:119, 3 kap. 18 §",
+            "TSFS 2021:119, 3 kap. 18 §"
+          ]
+        },
+        {
+          "source_id": "1177_KOGNITIVT_STOD",
+          "exact_references": [
+            "Hjälpmedel för kognitivt stöd: exempel på kognitiva svårigheter",
+            "Hjälpmedel för kognitivt stöd: planering och kommunikation"
+          ]
+        },
+        {
+          "source_id": "1177_DEMENS_NARSTAENDE",
+          "exact_references": [
+            "Närstående till någon med en demenssjukdom: tålamod och tid"
+          ]
+        },
+        {
+          "source_id": "1177_ADHD",
+          "exact_references": [
+            "ADHD: koncentration, impulskontroll, planering och tid"
+          ]
+        },
+        {
+          "source_id": "1177_AUTISM_IF",
+          "exact_references": [
+            "Autism med intellektuell funktionsnedsättning: struktur och visuellt stöd"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 5,
+      "mobile_first": true,
+      "status": "published",
+      "visual_metadata": {
+        "requires_image": true,
+        "visual_asset_id": "health_cognitive_support_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Korta besked hjälper när minne eller orientering påverkas",
+          "fact_keys": [
+            "D1-HEALTH-COG-FACT-001",
+            "D1-HEALTH-COG-FACT-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kognitiva svårigheter kan påverka minne, koncentration, orientering och planering. Föraren kan ofta göra resan tryggare genom tydlig struktur.",
+          "fact_keys": [
+            "D1-HEALTH-COG-FACT-002",
+            "D1-HEALTH-COG-FACT-003"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Ge en instruktion i taget.",
+            "Bekräfta adress och avlämningsplats kort.",
+            "Använd lugnt tempo och ge tid för svar."
+          ],
+          "fact_keys": [
+            "D1-HEALTH-COG-FACT-003",
+            "D1-HEALTH-COG-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Visuellt stöd kan vara så enkelt som att visa adressen i bokningen eller skriva ett kort meddelande.",
+          "fact_keys": [
+            "D1-HEALTH-COG-FACT-004",
+            "D1-HEALTH-COG-FACT-005"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du göra resan tydlig utan att tala ned till passageraren?",
+          "fact_keys": [
+            "D1-HEALTH-COG-FACT-005",
+            "D1-HEALTH-COG-FACT-006"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-HEALTH-MENTAL-LESSON-001",
+      "topic_id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "title": "Psykisk och neuropsykiatrisk påverkan",
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-003",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MENTAL-FACT-001",
+        "D1-HEALTH-MENTAL-FACT-002",
+        "D1-HEALTH-MENTAL-FACT-003",
+        "D1-HEALTH-MENTAL-FACT-004",
+        "D1-HEALTH-MENTAL-FACT-005",
+        "D1-HEALTH-MENTAL-FACT-006",
+        "D1-HEALTH-MENTAL-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "Allmänna råd till TSFS 2021:119, 3 kap. 18 §"
+          ]
+        },
+        {
+          "source_id": "1177_PANIKSYNDROM",
+          "exact_references": [
+            "Paniksyndrom: panikattack och lugnande åtgärder"
+          ]
+        },
+        {
+          "source_id": "1177_PSYKOS",
+          "exact_references": [
+            "Psykos och psykossjukdomar: vanliga upplevelser",
+            "Psykos och psykossjukdomar: bemötande vid förändrad verklighetsuppfattning"
+          ]
+        },
+        {
+          "source_id": "1177_ADHD",
+          "exact_references": [
+            "ADHD: planering, tid och instruktioner"
+          ]
+        },
+        {
+          "source_id": "1177_AUTISM_IF",
+          "exact_references": [
+            "Autism med intellektuell funktionsnedsättning: struktur och tydlighet"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 5,
+      "mobile_first": true,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Lugn och förutsägbarhet vid stark oro",
+          "fact_keys": [
+            "D1-HEALTH-MENTAL-FACT-001",
+            "D1-HEALTH-MENTAL-FACT-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ångest, psykotiska tillstånd och neuropsykiatriska funktionsnedsättningar anges i allmänna råden. Föraren behöver kunna möta oro, misstänksamhet eller svårigheter med instruktioner på ett tryggt sätt.",
+          "fact_keys": [
+            "D1-HEALTH-MENTAL-FACT-002",
+            "D1-HEALTH-MENTAL-FACT-003"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Undvik att argumentera om passagerarens upplevelse.",
+            "Håll röst och ordval lugna.",
+            "Beskriv nästa praktiska steg tydligt."
+          ],
+          "fact_keys": [
+            "D1-HEALTH-MENTAL-FACT-003",
+            "D1-HEALTH-MENTAL-FACT-004"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En passagerare blir rädd och vill veta var bilen är. Du stannar om det behövs, förklarar lugnt var ni är och frågar om personen vill fortsätta eller kontakta någon.",
+          "fact_keys": [
+            "D1-HEALTH-MENTAL-FACT-004",
+            "D1-HEALTH-MENTAL-FACT-005"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du minska stress i situationen utan att diskutera om passageraren har rätt eller fel?",
+          "fact_keys": [
+            "D1-HEALTH-MENTAL-FACT-005",
+            "D1-HEALTH-MENTAL-FACT-006"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-HEALTH-ADAPT-LESSON-001",
+      "topic_id": "topic_d1_health_individuella-behov-trygg-transport",
+      "title": "Individuella behov och trygg transport",
+      "requirement_keys": [
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-002",
+        "D1-HEALTH-018-GA-001"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ADAPT-FACT-001",
+        "D1-HEALTH-ADAPT-FACT-002",
+        "D1-HEALTH-ADAPT-FACT-003",
+        "D1-HEALTH-ADAPT-FACT-004",
+        "D1-HEALTH-ADAPT-FACT-005",
+        "D1-HEALTH-ADAPT-FACT-006",
+        "D1-HEALTH-ADAPT-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 18 §",
+            "TSFS 2021:119, 3 kap. 18 § och allmänna råd"
+          ]
+        },
+        {
+          "source_id": "1177_ASTMA",
+          "exact_references": [
+            "Astma: rök, dofter och luft kan förvärra besvär"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 5,
+      "mobile_first": true,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Utgå från individen",
+          "fact_keys": [
+            "D1-HEALTH-ADAPT-FACT-001",
+            "D1-HEALTH-ADAPT-FACT-002"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Samma tillstånd kan påverka två personer på helt olika sätt. Därför ska föraren inte använda färdiga antaganden, utan anpassa efter personen, resan och säkerheten.",
+          "fact_keys": [
+            "D1-HEALTH-ADAPT-FACT-002",
+            "D1-HEALTH-ADAPT-FACT-003"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Bekräfta passagerarens egna önskemål även när en ledsagare finns med.",
+            "Tänk på luftmiljö vid astma eller allergikänslighet.",
+            "Avbryt på säker plats om resan inte längre kan genomföras tryggt."
+          ],
+          "fact_keys": [
+            "D1-HEALTH-ADAPT-FACT-003",
+            "D1-HEALTH-ADAPT-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Bra assistans är ofta enkel: tid, tydliga frågor, respekt och rätt hjälp när läget kräver det.",
+          "fact_keys": [
+            "D1-HEALTH-ADAPT-FACT-004",
+            "D1-HEALTH-ADAPT-FACT-005"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du välja individuellt stöd utan att förenkla bort säkerheten?",
+          "fact_keys": [
+            "D1-HEALTH-ADAPT-FACT-005",
+            "D1-HEALTH-ADAPT-FACT-006"
+          ]
+        }
+      ]
+    }
+  ]
+}

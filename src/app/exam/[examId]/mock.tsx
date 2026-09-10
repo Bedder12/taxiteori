@@ -1,0 +1,92 @@
+import { type Href, router, useLocalSearchParams } from 'expo-router';
+import { useEffect, useMemo, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
+
+import { PrimaryButton } from '@/components/layout/PrimaryButton';
+import { Screen } from '@/components/layout/Screen';
+import { QuestionCard } from '@/components/quiz/QuestionCard';
+import { ThemedText } from '@/components/themed-text';
+import { Spacing } from '@/constants/theme';
+import { DEMO_USER_ID, getLearningSnapshot, startMockAttempt, submitAttempt } from '@/lib/learningStore';
+
+export default function MockExamScreen() {
+  const { examId } = useLocalSearchParams<{ examId: string }>();
+  const { repository } = getLearningSnapshot();
+  const exam = repository.exams.find((candidate) => candidate.id === examId);
+  const blueprint = repository.examBlueprints.find((candidate) => candidate.examId === examId && candidate.type === 'mock_exam' && candidate.active);
+  const attempt = useMemo(() => (blueprint ? startMockAttempt(DEMO_USER_ID, blueprint.id) : undefined), [blueprint?.id]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedChoices, setSelectedChoices] = useState<Record<string, string>>({});
+  const [remainingSeconds, setRemainingSeconds] = useState(blueprint?.timeLimitSeconds ?? 0);
+
+  useEffect(() => {
+    if (!attempt || !blueprint) return undefined;
+    const timer = setInterval(() => {
+      setRemainingSeconds((current) => Math.max(current - 1, 0));
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [attempt, blueprint]);
+
+  useEffect(() => {
+    if (!attempt || remainingSeconds !== 0) return;
+    const timeoutChoices = Object.fromEntries(attempt.questions.map((question) => [question.id, selectedChoices[question.id] ?? 'timeout']));
+    submitAttempt(attempt.id, timeoutChoices, true);
+    router.replace({ pathname: '/result/[attemptId]', params: { attemptId: attempt.id } } as unknown as Href);
+  }, [attempt, remainingSeconds, selectedChoices]);
+
+  if (!exam || !blueprint || !attempt) {
+    return <ThemedText>Övningsprovet hittades inte.</ThemedText>;
+  }
+
+  const attemptQuestion = attempt.questions[currentIndex];
+  const question = repository.questionVersions.find((candidate) => candidate.id === attemptQuestion?.questionVersionId);
+  const selectedChoiceId = attemptQuestion ? selectedChoices[attemptQuestion.id] : undefined;
+  const isLastQuestion = currentIndex === attempt.questions.length - 1;
+  const minutes = Math.floor(remainingSeconds / 60).toString().padStart(2, '0');
+  const seconds = (remainingSeconds % 60).toString().padStart(2, '0');
+
+  function finish() {
+    if (!attempt) return;
+    const result = submitAttempt(attempt.id, selectedChoices);
+    router.replace({ pathname: '/result/[attemptId]', params: { attemptId: result.attempt.id } } as unknown as Href);
+  }
+
+  function handleNext() {
+    if (!attemptQuestion || !selectedChoiceId) return;
+    if (isLastQuestion) {
+      finish();
+      return;
+    }
+    setCurrentIndex((index) => index + 1);
+  }
+
+  return (
+    <Screen
+      header={
+        <>
+          <ThemedText type="small" themeColor="textSecondary">Internt realistiskt övningsprov</ThemedText>
+          <ThemedText type="title">{exam.title}</ThemedText>
+          <ThemedText themeColor="textSecondary">Fråga {currentIndex + 1} av {attempt.questions.length} · Tid {minutes}:{seconds}</ThemedText>
+        </>
+      }>
+      {question && attemptQuestion && (
+        <QuestionCard
+          attemptQuestion={attemptQuestion}
+          question={question}
+          totalQuestions={attempt.questions.length}
+          selectedChoiceId={selectedChoiceId}
+          onSelectChoice={(choiceId) => setSelectedChoices((current) => ({ ...current, [attemptQuestion.id]: choiceId }))}
+        />
+      )}
+      <View style={styles.actions}>
+        <PrimaryButton disabled={!selectedChoiceId} onPress={handleNext}>
+          {isLastQuestion ? 'Lämna in provet' : 'Nästa fråga'}
+        </PrimaryButton>
+      </View>
+    </Screen>
+  );
+}
+
+const styles = StyleSheet.create({
+  actions: { gap: Spacing.two },
+});

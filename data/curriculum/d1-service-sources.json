@@ -1,0 +1,787 @@
+{
+  "metadata": {
+    "subject": "D1_SERVICE",
+    "phase": "source_expansion",
+    "language": "sv",
+    "scope": "Authoritative source map for TSFS 2021:119, 3 kap. 16-17 §§.",
+    "created_at": "2026-09-10",
+    "last_verified_at": "2026-09-10"
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+      "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 Bemötande requirements."
+    },
+    {
+      "source_key": "DO_BRISTANDE_TILLGANGLIGHET",
+      "source_title": "Bristande tillgänglighet är en form av diskriminering",
+      "source_type": "official_legal_guidance",
+      "authority": "Diskrimineringsombudsmannen",
+      "legal_reference": "Official guidance on reasonable accessibility measures",
+      "url": "https://www.do.se/diskriminerad/olika-former-av-diskriminering/bristande-tillganglighet-ar-diskriminering",
+      "relevant_chapter_section": "Support, personal service, information, communication and comparable access",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for accessibility framing; updated 2026-09-03."
+    },
+    {
+      "source_key": "DO_TILLGANGLIGHET_FAQ",
+      "source_title": "Kan jag anmäla till DO om en verksamhet brister när det gäller tillgänglighet?",
+      "source_type": "official_legal_guidance",
+      "authority": "Diskrimineringsombudsmannen",
+      "legal_reference": "Official guidance on examples of reasonable accessibility measures",
+      "url": "https://www.do.se/rattsfall-beslut-lagar-stodmaterial/fragor-och-svar-om-diskriminering/diskriminering/kan-jag-anmala-till-do-om-en-verksamhet-brister-nar-det-galler-tillganglighet",
+      "relevant_chapter_section": "Examples: reading aloud, guiding a person, moving obstacles",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for practical accessibility examples; updated 2026-04-01."
+    },
+    {
+      "source_key": "MFD_START",
+      "source_title": "Myndigheten för delaktighet",
+      "source_type": "official_explanatory_source",
+      "authority": "Myndigheten för delaktighet",
+      "legal_reference": "Official disability-policy authority context",
+      "url": "https://www.mfd.se/",
+      "relevant_chapter_section": "Accessibility, participation, support and knowledge in disability policy",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official authority context for participation and accessible services."
+    },
+    {
+      "source_key": "AV_HOT_VALD",
+      "source_title": "Våld och hot om våld",
+      "source_type": "official_work_environment_guidance",
+      "authority": "Arbetsmiljöverket",
+      "legal_reference": "Official guidance on threats in direct-contact work",
+      "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/",
+      "relevant_chapter_section": "Direct contact with people, routines and preventing escalation",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used only for conflict/passenger handling boundary, not broader work-risk subject."
+    },
+    {
+      "source_key": "1177_DOFTO",
+      "source_title": "Doftöverkänslighet",
+      "source_type": "authoritative_medical_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Authoritative healthcare guidance on sensitivity to scents",
+      "url": "https://www.1177.se/sjukdomar--besvar/allergier-och-overkanslighet/doftoverkanslighet/",
+      "relevant_chapter_section": "Smoke, perfume, cleaning products and symptoms from scent sensitivity",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used narrowly for D1_SERVICE scent/smoke/allergen passenger-impact requirement; updated 2026 context."
+    },
+    {
+      "source_key": "FHM_ROKFRIA_MILJOER",
+      "source_title": "Rökfria miljöer med stöd i lagen",
+      "source_type": "official_legal_guidance",
+      "authority": "Folkhälsomyndigheten",
+      "legal_reference": "Lag (2018:2088) om tobak och liknande produkter, 6 kap. 2 §",
+      "url": "https://www.folkhalsomyndigheten.se/regler-och-tillsyn/tillsynsvagledning-och-stod/tillsynsvagledning-for-tobak-och-liknande-produkter-samt-tobaksfria-nikotinprodukter/vagledning-for-tillsyn-over-rokfria-miljoer/rokfria-miljoer-med-stod-i-lagen/",
+      "relevant_chapter_section": "Taxi in general as collective transport; smoke-free environments",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for smoking-ban requirement in taxi/collective transport context."
+    },
+    {
+      "source_key": "FHM_ROKFRIA_UTOMHUS",
+      "source_title": "Rökfria utomhusmiljöer",
+      "source_type": "official_legal_guidance",
+      "authority": "Folkhälsomyndigheten",
+      "legal_reference": "Official guidance on smoke-free outdoor areas",
+      "url": "https://www.folkhalsomyndigheten.se/regler-och-tillsyn/tillsynsvagledning-och-stod/tillsynsvagledning-for-tobak-och-liknande-produkter-samt-tobaksfria-nikotinprodukter/vagledning-for-tillsyn-over-rokfria-miljoer/rokfria-miljoer-med-stod-i-lagen/rokfria-utomhusmiljoer/",
+      "relevant_chapter_section": "Public-transport outdoor areas and purpose of smoke-free environments",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Supports passenger-sensitive response around taxi zones and smoke exposure."
+    },
+    {
+      "source_key": "TS_PRISINFORMATION_TAXI",
+      "source_title": "Prisinformation för taxikunder",
+      "source_type": "official_explanatory_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Official guidance on taxi price information and binding price quote",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/Taxi/prisinformation-taxi/",
+      "relevant_chapter_section": "Comparison price, free pricing, binding price quote over 700 kronor and receipt",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official source for taxi price-information calculations; updated 2025-01-01."
+    },
+    {
+      "source_key": "SFS_2012_211",
+      "source_title": "Taxitrafiklag (2012:211)",
+      "source_type": "primary_legal_source",
+      "authority": "Sveriges riksdag",
+      "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 17-22 §§",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+      "relevant_chapter_section": "Taxi fare, price information, comparison price and binding price quote",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary legal source for the approximate-price requirement."
+    },
+    {
+      "source_key": "KV_TAXI_PRIS",
+      "source_title": "Taxi - vad gäller kring pris?",
+      "source_type": "official_consumer_guidance",
+      "authority": "Konsumentverket",
+      "legal_reference": "Official consumer guidance on taxi prices",
+      "url": "https://www.konsumentverket.se/varor-och-tjanster/taxi/",
+      "relevant_chapter_section": "Free pricing, price information on vehicle exterior and consumer complaints",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Official consumer source; reviewed 2026-09-02."
+    },
+    {
+      "source_key": "KV_TAXI_PRESS_2026",
+      "source_title": "Stor ökning av anmälningar om taxiresor",
+      "source_type": "official_consumer_guidance",
+      "authority": "Konsumentverket",
+      "legal_reference": "Official explanation of comparison price and binding price quote threshold",
+      "url": "https://www.konsumentverket.se/pressmeddelande/stor-okning-av-anmalningar-om-taxiresor-resor-1-400-kronor-dyrare-an-forvantat/",
+      "relevant_chapter_section": "Comparison price is 10 km/15 min; binding quote threshold is 1.2 percent of price base amount, about 700 kr in 2026",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for current 2026 threshold context and misunderstanding-risk explanation."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-SERV-016-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 16 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-016-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 16 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "DO_BRISTANDE_TILLGANGLIGHET",
+          "source_title": "Bristande tillgänglighet är en form av diskriminering",
+          "source_type": "official_legal_guidance",
+          "authority": "Diskrimineringsombudsmannen",
+          "legal_reference": "Official guidance on reasonable accessibility measures",
+          "url": "https://www.do.se/diskriminerad/olika-former-av-diskriminering/bristande-tillganglighet-ar-diskriminering",
+          "relevant_chapter_section": "Support, personal service, information, communication and comparable access",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for accessibility framing; updated 2026-09-03."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-016-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 16 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "DO_BRISTANDE_TILLGANGLIGHET",
+          "source_title": "Bristande tillgänglighet är en form av diskriminering",
+          "source_type": "official_legal_guidance",
+          "authority": "Diskrimineringsombudsmannen",
+          "legal_reference": "Official guidance on reasonable accessibility measures",
+          "url": "https://www.do.se/diskriminerad/olika-former-av-diskriminering/bristande-tillganglighet-ar-diskriminering",
+          "relevant_chapter_section": "Support, personal service, information, communication and comparable access",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for accessibility framing; updated 2026-09-03."
+        },
+        {
+          "source_key": "DO_TILLGANGLIGHET_FAQ",
+          "source_title": "Kan jag anmäla till DO om en verksamhet brister när det gäller tillgänglighet?",
+          "source_type": "official_legal_guidance",
+          "authority": "Diskrimineringsombudsmannen",
+          "legal_reference": "Official guidance on examples of reasonable accessibility measures",
+          "url": "https://www.do.se/rattsfall-beslut-lagar-stodmaterial/fragor-och-svar-om-diskriminering/diskriminering/kan-jag-anmala-till-do-om-en-verksamhet-brister-nar-det-galler-tillganglighet",
+          "relevant_chapter_section": "Examples: reading aloud, guiding a person, moving obstacles",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for practical accessibility examples; updated 2026-04-01."
+        },
+        {
+          "source_key": "MFD_START",
+          "source_title": "Myndigheten för delaktighet",
+          "source_type": "official_explanatory_source",
+          "authority": "Myndigheten för delaktighet",
+          "legal_reference": "Official disability-policy authority context",
+          "url": "https://www.mfd.se/",
+          "relevant_chapter_section": "Accessibility, participation, support and knowledge in disability policy",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official authority context for participation and accessible services."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "AV_HOT_VALD",
+          "source_title": "Våld och hot om våld",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Official guidance on threats in direct-contact work",
+          "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/",
+          "relevant_chapter_section": "Direct contact with people, routines and preventing escalation",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Used only for conflict/passenger handling boundary, not broader work-risk subject."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-002A",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-002B",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "DO_TILLGANGLIGHET_FAQ",
+          "source_title": "Kan jag anmäla till DO om en verksamhet brister när det gäller tillgänglighet?",
+          "source_type": "official_legal_guidance",
+          "authority": "Diskrimineringsombudsmannen",
+          "legal_reference": "Official guidance on examples of reasonable accessibility measures",
+          "url": "https://www.do.se/rattsfall-beslut-lagar-stodmaterial/fragor-och-svar-om-diskriminering/diskriminering/kan-jag-anmala-till-do-om-en-verksamhet-brister-nar-det-galler-tillganglighet",
+          "relevant_chapter_section": "Examples: reading aloud, guiding a person, moving obstacles",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for practical accessibility examples; updated 2026-04-01."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-002C",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "DO_BRISTANDE_TILLGANGLIGHET",
+          "source_title": "Bristande tillgänglighet är en form av diskriminering",
+          "source_type": "official_legal_guidance",
+          "authority": "Diskrimineringsombudsmannen",
+          "legal_reference": "Official guidance on reasonable accessibility measures",
+          "url": "https://www.do.se/diskriminerad/olika-former-av-diskriminering/bristande-tillganglighet-ar-diskriminering",
+          "relevant_chapter_section": "Support, personal service, information, communication and comparable access",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for accessibility framing; updated 2026-09-03."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-002D",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "DO_TILLGANGLIGHET_FAQ",
+          "source_title": "Kan jag anmäla till DO om en verksamhet brister när det gäller tillgänglighet?",
+          "source_type": "official_legal_guidance",
+          "authority": "Diskrimineringsombudsmannen",
+          "legal_reference": "Official guidance on examples of reasonable accessibility measures",
+          "url": "https://www.do.se/rattsfall-beslut-lagar-stodmaterial/fragor-och-svar-om-diskriminering/diskriminering/kan-jag-anmala-till-do-om-en-verksamhet-brister-nar-det-galler-tillganglighet",
+          "relevant_chapter_section": "Examples: reading aloud, guiding a person, moving obstacles",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for practical accessibility examples; updated 2026-04-01."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-005",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 5",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "1177_DOFTO",
+          "source_title": "Doftöverkänslighet",
+          "source_type": "authoritative_medical_guidance",
+          "authority": "1177 Vårdguiden",
+          "legal_reference": "Authoritative healthcare guidance on sensitivity to scents",
+          "url": "https://www.1177.se/sjukdomar--besvar/allergier-och-overkanslighet/doftoverkanslighet/",
+          "relevant_chapter_section": "Smoke, perfume, cleaning products and symptoms from scent sensitivity",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Used narrowly for D1_SERVICE scent/smoke/allergen passenger-impact requirement; updated 2026 context."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-006",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 6",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "FHM_ROKFRIA_MILJOER",
+          "source_title": "Rökfria miljöer med stöd i lagen",
+          "source_type": "official_legal_guidance",
+          "authority": "Folkhälsomyndigheten",
+          "legal_reference": "Lag (2018:2088) om tobak och liknande produkter, 6 kap. 2 §",
+          "url": "https://www.folkhalsomyndigheten.se/regler-och-tillsyn/tillsynsvagledning-och-stod/tillsynsvagledning-for-tobak-och-liknande-produkter-samt-tobaksfria-nikotinprodukter/vagledning-for-tillsyn-over-rokfria-miljoer/rokfria-miljoer-med-stod-i-lagen/",
+          "relevant_chapter_section": "Taxi in general as collective transport; smoke-free environments",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for smoking-ban requirement in taxi/collective transport context."
+        },
+        {
+          "source_key": "FHM_ROKFRIA_UTOMHUS",
+          "source_title": "Rökfria utomhusmiljöer",
+          "source_type": "official_legal_guidance",
+          "authority": "Folkhälsomyndigheten",
+          "legal_reference": "Official guidance on smoke-free outdoor areas",
+          "url": "https://www.folkhalsomyndigheten.se/regler-och-tillsyn/tillsynsvagledning-och-stod/tillsynsvagledning-for-tobak-och-liknande-produkter-samt-tobaksfria-nikotinprodukter/vagledning-for-tillsyn-over-rokfria-miljoer/rokfria-miljoer-med-stod-i-lagen/rokfria-utomhusmiljoer/",
+          "relevant_chapter_section": "Public-transport outdoor areas and purpose of smoke-free environments",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Supports passenger-sensitive response around taxi zones and smoke exposure."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-007",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 7",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "DO_TILLGANGLIGHET_FAQ",
+          "source_title": "Kan jag anmäla till DO om en verksamhet brister när det gäller tillgänglighet?",
+          "source_type": "official_legal_guidance",
+          "authority": "Diskrimineringsombudsmannen",
+          "legal_reference": "Official guidance on examples of reasonable accessibility measures",
+          "url": "https://www.do.se/rattsfall-beslut-lagar-stodmaterial/fragor-och-svar-om-diskriminering/diskriminering/kan-jag-anmala-till-do-om-en-verksamhet-brister-nar-det-galler-tillganglighet",
+          "relevant_chapter_section": "Examples: reading aloud, guiding a person, moving obstacles",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for practical accessibility examples; updated 2026-04-01."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    },
+    {
+      "requirement_key": "D1-SERV-017-008",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 17 § 8",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 16-17 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "3 kap. 16 § 1-3 och 17 § 1-8",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 Bemötande requirements."
+        },
+        {
+          "source_key": "SFS_2012_211",
+          "source_title": "Taxitrafiklag (2012:211)",
+          "source_type": "primary_legal_source",
+          "authority": "Sveriges riksdag",
+          "legal_reference": "Taxitrafiklag (2012:211), 2 kap. 17-22 §§",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/taxitrafiklag-2012211_sfs-2012-211/",
+          "relevant_chapter_section": "Taxi fare, price information, comparison price and binding price quote",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary legal source for the approximate-price requirement."
+        },
+        {
+          "source_key": "TS_PRISINFORMATION_TAXI",
+          "source_title": "Prisinformation för taxikunder",
+          "source_type": "official_explanatory_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Official guidance on taxi price information and binding price quote",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/Taxi/prisinformation-taxi/",
+          "relevant_chapter_section": "Comparison price, free pricing, binding price quote over 700 kronor and receipt",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official source for taxi price-information calculations; updated 2025-01-01."
+        },
+        {
+          "source_key": "KV_TAXI_PRIS",
+          "source_title": "Taxi - vad gäller kring pris?",
+          "source_type": "official_consumer_guidance",
+          "authority": "Konsumentverket",
+          "legal_reference": "Official consumer guidance on taxi prices",
+          "url": "https://www.konsumentverket.se/varor-och-tjanster/taxi/",
+          "relevant_chapter_section": "Free pricing, price information on vehicle exterior and consumer complaints",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Official consumer source; reviewed 2026-09-02."
+        },
+        {
+          "source_key": "KV_TAXI_PRESS_2026",
+          "source_title": "Stor ökning av anmälningar om taxiresor",
+          "source_type": "official_consumer_guidance",
+          "authority": "Konsumentverket",
+          "legal_reference": "Official explanation of comparison price and binding price quote threshold",
+          "url": "https://www.konsumentverket.se/pressmeddelande/stor-okning-av-anmalningar-om-taxiresor-resor-1-400-kronor-dyrare-an-forvantat/",
+          "relevant_chapter_section": "Comparison price is 10 km/15 min; binding quote threshold is 1.2 percent of price base amount, about 700 kr in 2026",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Used for current 2026 threshold context and misunderstanding-risk explanation."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED"
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "title": "Professionellt bemötande och diskretion",
+      "order": 1,
+      "requirement_keys": [
+        "D1-SERV-016-001",
+        "D1-SERV-016-003"
+      ],
+      "visual_asset_ids": [],
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "title": "Kommunikation om behov och önskemål",
+      "order": 2,
+      "requirement_keys": [
+        "D1-SERV-016-002",
+        "D1-SERV-016-003"
+      ],
+      "visual_asset_ids": [
+        "serv_communication_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "title": "Svåra passagerarsituationer",
+      "order": 3,
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "visual_asset_ids": [],
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "title": "Barn, ledsagare och självbestämmande",
+      "order": 4,
+      "requirement_keys": [
+        "D1-SERV-017-002A",
+        "D1-SERV-017-003",
+        "D1-SERV-016-003"
+      ],
+      "visual_asset_ids": [],
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "title": "Syn, hörsel och anpassad kommunikation",
+      "order": 5,
+      "requirement_keys": [
+        "D1-SERV-017-002B",
+        "D1-SERV-017-002C",
+        "D1-SERV-016-003"
+      ],
+      "visual_asset_ids": [
+        "serv_communication_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "title": "Rörelseförmåga och hjälpmedel",
+      "order": 6,
+      "requirement_keys": [
+        "D1-SERV-017-002D",
+        "D1-SERV-017-007"
+      ],
+      "visual_asset_ids": [
+        "serv_wheelchair_aid_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "title": "Rent fordon, dofter och rök",
+      "order": 7,
+      "requirement_keys": [
+        "D1-SERV-017-004",
+        "D1-SERV-017-005",
+        "D1-SERV-017-006"
+      ],
+      "visual_asset_ids": [
+        "serv_luggage_cleanliness_scene"
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    },
+    {
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "title": "Prisinformation och ungefärligt pris",
+      "order": 8,
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "visual_asset_ids": [],
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen heading."
+    }
+  ]
+}

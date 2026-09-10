@@ -3,15 +3,22 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { getOrderedLessonsForTopic, selectCheckpointQuestions, selectSubjectCheckpointQuestions } from '../src';
-import { d1VehicleKnowledgeFactRecords, d2TaxiLawRepository } from '../src/vilotiderRepository';
+import { d1SafetyFactRecords, d2TaxiLawRepository } from '../src/vilotiderRepository';
 
 type Curriculum = {
-  requirements: { stable_key: string; subject: string; active: boolean; competency_type?: string }[];
+  requirements: {
+    stable_key: string;
+    subject: string;
+    active: boolean;
+    competency_type?: string;
+    requires_calculation?: boolean;
+  }[];
 };
 
 type VisualMetadata = {
   requires_image?: boolean;
   requires_diagram?: boolean;
+  requires_road_scene?: boolean;
   requires_comparison_visual?: boolean;
   visual_asset_id?: string;
   visual_correctness_depends_on_asset?: boolean;
@@ -72,6 +79,13 @@ type QuestionsFile = {
     visual_metadata?: VisualMetadata;
     visual_asset_id?: string;
     visual_correctness_depends_on_asset?: boolean;
+    calculation_metadata?: {
+      teaching_status: string;
+      inputs: string[];
+      method: string;
+      worked_example: string;
+      answer: string;
+    };
     status: string;
   }[];
 };
@@ -82,8 +96,10 @@ type VisualsFile = {
     status: string;
     purpose: string;
     elements_must_be_shown: string[];
+    required_road_configuration: string;
     labels_required: string[];
     requirement_keys: string[];
+    fact_keys: string[];
     correctness_depends_on_visual: boolean;
   }[];
 };
@@ -98,37 +114,29 @@ function loadCurriculum() {
 }
 
 function loadSourceMap() {
-  return loadJson<SourceMap>('data/curriculum/d1-vehicle-knowledge-sources.json');
+  return loadJson<SourceMap>('data/curriculum/d1-safety-sources.json');
 }
 
 function loadFacts() {
-  return loadJson<FactsFile>('data/content/d1-vehicle-knowledge/vehicle-facts.json');
+  return loadJson<FactsFile>('data/content/d1-safety/safety-facts.json');
 }
 
 function loadLessons() {
-  return loadJson<LessonsFile>('data/content/d1-vehicle-knowledge/vehicle-lessons.json');
+  return loadJson<LessonsFile>('data/content/d1-safety/safety-lessons.json');
 }
 
 function loadQuestions() {
-  return loadJson<QuestionsFile>('data/questions/d1-vehicle-knowledge/vehicle-questions.json');
+  return loadJson<QuestionsFile>('data/questions/d1-safety/safety-questions.json');
 }
 
 function loadVisuals() {
-  return loadJson<VisualsFile>('data/content/d1-vehicle-knowledge/vehicle-visuals.json');
-}
-
-function loadEcoQuestions() {
-  return loadJson<QuestionsFile>('data/questions/d1-eco-driving/eco-driving-questions.json');
-}
-
-function loadEnvironmentQuestions() {
-  return loadJson<QuestionsFile>('data/questions/d1-environment/environment-questions.json');
+  return loadJson<VisualsFile>('data/content/d1-safety/safety-visuals.json');
 }
 
 function requirementKeys() {
   return new Set(
     loadCurriculum()
-      .requirements.filter((requirement) => requirement.active && requirement.subject === 'D1_VEHICLE_KNOWLEDGE')
+      .requirements.filter((requirement) => requirement.active && requirement.subject === 'D1_SAFETY')
       .map((requirement) => requirement.stable_key),
   );
 }
@@ -146,16 +154,16 @@ function assertNoDuplicates(values: string[], label: string) {
   }
 }
 
-export function testD1VehicleKnowledgeRequirementsHaveSourceMappings() {
+export function testD1SafetyRequirementsHaveSourceMappings() {
   const requirements = requirementKeys();
   const sourceMap = loadSourceMap();
   const sourceIds = new Set(sourceMap.source_catalog.map((source) => source.source_key));
   const mappedKeys = new Set(sourceMap.requirement_source_map.map((mapping) => mapping.requirement_key));
 
-  assert.equal(requirements.size, 35);
+  assert.equal(requirements.size, 19);
 
   for (const key of requirements) {
-    assert.ok(mappedKeys.has(key), `${key} has no vehicle-knowledge source mapping.`);
+    assert.ok(mappedKeys.has(key), `${key} has no safety source mapping.`);
   }
 
   for (const mapping of sourceMap.requirement_source_map) {
@@ -168,11 +176,11 @@ export function testD1VehicleKnowledgeRequirementsHaveSourceMappings() {
   }
 }
 
-export function testD1VehicleKnowledgeFactsAreVerifiedAndSourced() {
+export function testD1SafetyFactsAreVerifiedAndSourced() {
   const requirements = requirementKeys();
   const sourceIds = new Set(loadFacts().sources.map((source) => source.source_id));
 
-  assertNoDuplicates(loadFacts().facts.map((fact) => fact.stable_key), 'vehicle fact stable key');
+  assertNoDuplicates(loadFacts().facts.map((fact) => fact.stable_key), 'safety fact stable key');
 
   for (const fact of loadFacts().facts) {
     assert.ok(requirements.has(fact.requirement_key), `${fact.stable_key} points to an unknown requirement.`);
@@ -183,7 +191,7 @@ export function testD1VehicleKnowledgeFactsAreVerifiedAndSourced() {
   }
 }
 
-export function testD1VehicleKnowledgeLessonsHaveTraceabilityAndVisualAssets() {
+export function testD1SafetyLessonsHaveTraceabilityAndVisualAssets() {
   const facts = new Set(loadFacts().facts.map((fact) => fact.stable_key));
   const requirements = requirementKeys();
   const visualIds = new Set(loadVisuals().visuals.map((visual) => visual.visual_id));
@@ -193,7 +201,6 @@ export function testD1VehicleKnowledgeLessonsHaveTraceabilityAndVisualAssets() {
     assert.ok(lesson.requirement_keys.length > 0, `${lesson.stable_key} has no requirements.`);
     assert.ok(lesson.fact_keys.length > 0, `${lesson.stable_key} has no facts.`);
     assert.ok(lesson.source_references.length > 0, `${lesson.stable_key} has no sources.`);
-    assert.ok(lesson.visual_metadata.requires_image || lesson.visual_metadata.requires_diagram, `${lesson.stable_key} should carry visual metadata.`);
     assert.ok(lesson.visual_metadata.visual_asset_id && visualIds.has(lesson.visual_metadata.visual_asset_id), `${lesson.stable_key} has no visual manifest link.`);
 
     for (const key of lesson.requirement_keys) {
@@ -211,21 +218,26 @@ export function testD1VehicleKnowledgeLessonsHaveTraceabilityAndVisualAssets() {
   }
 }
 
-export function testD1VehicleKnowledgeVisualManifestIsStructured() {
+export function testD1SafetyVisualManifestIsStructured() {
   const requirements = requirementKeys();
+  const facts = new Set(loadFacts().facts.map((fact) => fact.stable_key));
 
   for (const visual of loadVisuals().visuals) {
     assert.ok(visual.purpose.trim().length > 0, `${visual.visual_id} has no purpose.`);
     assert.ok(visual.elements_must_be_shown.length > 0, `${visual.visual_id} has no required elements.`);
+    assert.ok(visual.required_road_configuration.trim().length > 0, `${visual.visual_id} has no road/diagram configuration.`);
     assert.ok(visual.labels_required.length > 0, `${visual.visual_id} has no labels.`);
     assert.equal(visual.correctness_depends_on_visual, false, `${visual.visual_id} should not be required for published question correctness yet.`);
     for (const requirementKey of visual.requirement_keys) {
       assert.ok(requirements.has(requirementKey), `${visual.visual_id} points to unknown requirement ${requirementKey}.`);
     }
+    for (const factKey of visual.fact_keys) {
+      assert.ok(facts.has(factKey), `${visual.visual_id} points to unknown fact ${factKey}.`);
+    }
   }
 }
 
-export function testD1VehicleKnowledgeQuestionsHaveFullTraceabilityAndVisualAssets() {
+export function testD1SafetyQuestionsHaveFullTraceabilityAndVisualAssets() {
   const facts = new Map(loadFacts().facts.map((fact) => [fact.stable_key, fact]));
   const lessons = new Map(loadLessons().lessons.map((lesson) => [lesson.stable_key, lesson]));
   const visualIds = new Set(loadVisuals().visuals.map((visual) => visual.visual_id));
@@ -238,7 +250,7 @@ export function testD1VehicleKnowledgeQuestionsHaveFullTraceabilityAndVisualAsse
     assert.ok(question.explanation.includes('Rätt:'), `${question.stable_key} explanation does not support the answer.`);
     assert.equal(question.answer_choices.filter((choice) => choice.id === question.correct_answer_id).length, 1, `${question.stable_key} has no single correct answer.`);
 
-    if (question.visual_metadata?.requires_image || question.visual_metadata?.requires_diagram) {
+    if (question.visual_metadata?.requires_image || question.visual_metadata?.requires_diagram || question.visual_metadata?.requires_road_scene) {
       assert.ok(question.visual_asset_id && visualIds.has(question.visual_asset_id), `${question.stable_key} has no visual asset reference.`);
       assert.equal(question.visual_correctness_depends_on_asset, false, `${question.stable_key} depends on a placeholder visual.`);
     }
@@ -256,59 +268,84 @@ export function testD1VehicleKnowledgeQuestionsHaveFullTraceabilityAndVisualAsse
   }
 }
 
-export function testD1VehicleKnowledgeQuestionBankHasNoDuplicates() {
+export function testD1SafetyQuestionBankHasNoDuplicates() {
   const questions = loadQuestions().questions;
-  assertNoDuplicates(questions.map((question) => question.stable_key), 'vehicle question stable key');
-  assertNoDuplicates(questions.map((question) => question.prompt), 'vehicle prompt');
+  assertNoDuplicates(questions.map((question) => question.stable_key), 'safety question stable key');
+  assertNoDuplicates(questions.map((question) => question.prompt), 'safety prompt');
   assertNoDuplicates(
     questions.map((question) => question.answer_choices.map((choice) => normalize(choice.text)).sort().join(' | ')),
-    'vehicle answer set',
+    'safety answer set',
   );
 }
 
-export function testD1VehicleKnowledgeQuestionTypesMatchCompetencies() {
+export function testD1SafetyQuestionTypesMatchCompetencies() {
   const requirementByKey = new Map(
     loadCurriculum()
-      .requirements.filter((requirement) => requirement.subject === 'D1_VEHICLE_KNOWLEDGE')
+      .requirements.filter((requirement) => requirement.subject === 'D1_SAFETY')
       .map((requirement) => [requirement.stable_key, requirement]),
   );
 
   for (const question of loadQuestions().questions) {
-    assert.notEqual(question.question_type, 'calculation', `${question.stable_key} should not be a calculation question.`);
     for (const requirementKey of question.requirement_keys) {
-      const competency = requirementByKey.get(requirementKey)?.competency_type;
-      if (competency === 'USE' || competency === 'PERFORM' || competency === 'APPLY') {
+      const requirement = requirementByKey.get(requirementKey);
+      if (requirement?.requires_calculation) {
+        assert.ok(['calculation', 'scenario'].includes(question.question_type), `${question.stable_key} should assess speed relationship practically.`);
+      }
+      if (requirement?.competency_type === 'USE' || requirement?.competency_type === 'PERFORM' || requirement?.competency_type === 'APPLY') {
         assert.equal(question.question_type, 'scenario', `${question.stable_key} should be practical/scenario based.`);
       }
     }
   }
 }
 
-export function testD1VehicleKnowledgeCrossSubjectDuplicateGate() {
-  const vehicleQuestions = loadQuestions().questions;
-  const otherQuestions = [...loadEcoQuestions().questions, ...loadEnvironmentQuestions().questions];
-  const otherPrompts = new Set(otherQuestions.map((question) => normalize(question.prompt)));
-  const otherAnswers = new Set(otherQuestions.map((question) => normalize(question.answer_choices.find((choice) => choice.id === question.correct_answer_id)?.text ?? '')));
+export function testD1SafetyScenarioQuestionsIncludeSufficientContext() {
+  for (const question of loadQuestions().questions.filter((candidate) => candidate.question_type === 'scenario')) {
+    assert.match(question.prompt, /taxi|taxiförarens|passagerare|olycka|väg|trafik|barn|kör/i, `${question.stable_key} lacks scenario context.`);
+    assert.ok(question.prompt.length > 90, `${question.stable_key} scenario is too thin.`);
+  }
+}
 
-  for (const question of vehicleQuestions) {
+export function testD1SafetyCalculationQuestionsHaveSupportedMetadata() {
+  const calculationQuestions = loadQuestions().questions.filter((question) => question.question_type === 'calculation');
+  assert.ok(calculationQuestions.length > 0, 'Expected at least one speed relationship calculation/estimation question.');
+  for (const question of calculationQuestions) {
+    assert.ok(question.requirement_keys.includes('D1-SAFE-014-001'), `${question.stable_key} calculation is not tied to the speed/injury requirement.`);
+    assert.equal(question.calculation_metadata?.teaching_status, 'pedagogical_estimate', `${question.stable_key} has no teaching-status guard.`);
+    assert.ok(question.calculation_metadata.inputs.length > 0, `${question.stable_key} has no calculation inputs.`);
+    assert.ok(question.calculation_metadata.method.length > 0, `${question.stable_key} has no calculation method.`);
+  }
+}
+
+export function testD1SafetyCrossSubjectDuplicateGate() {
+  const safetyQuestions = loadQuestions().questions;
+  const otherSubjects = [
+    'data/questions/d1-navigation/navigation-questions.json',
+    'data/questions/d1-eco-driving/eco-driving-questions.json',
+    'data/questions/d1-environment/environment-questions.json',
+    'data/questions/d1-vehicle-knowledge/vehicle-questions.json',
+  ].flatMap((path) => loadJson<QuestionsFile>(path).questions);
+  const otherPrompts = new Set(otherSubjects.map((question) => normalize(question.prompt)));
+  const otherAnswers = new Set(otherSubjects.map((question) => normalize(question.answer_choices.find((choice) => choice.id === question.correct_answer_id)?.text ?? '')));
+
+  for (const question of safetyQuestions) {
     assert.ok(!otherPrompts.has(normalize(question.prompt)), `${question.stable_key} duplicates another D1 prompt.`);
     const correctAnswer = normalize(question.answer_choices.find((choice) => choice.id === question.correct_answer_id)?.text ?? '');
     if (otherAnswers.has(correctAnswer)) {
       assert.ok(
-        question.prompt.toLowerCase().includes('fordons') || question.explanation.toLowerCase().includes('fordons'),
-        `${question.stable_key} repeats another D1 rule without a vehicle-knowledge angle.`,
+        question.prompt.toLowerCase().includes('säker') || question.explanation.toLowerCase().includes('säker'),
+        `${question.stable_key} repeats another D1 rule without a safety angle.`,
       );
     }
   }
 }
 
-export function testD1VehicleKnowledgeTopicAndSubjectCheckpointsSelectEligibleQuestions() {
+export function testD1SafetyTopicAndSubjectCheckpointsSelectEligibleQuestions() {
   const questions = loadQuestions();
 
   for (const checkpoint of questions.topic_checkpoints) {
     const selected = selectCheckpointQuestions(
       checkpoint.stable_key,
-      'subject_d1_fordonskannedom',
+      'subject_d1_sakerhet',
       checkpoint.topic,
       checkpoint.question_count,
       d2TaxiLawRepository.questionVersions,
@@ -321,19 +358,20 @@ export function testD1VehicleKnowledgeTopicAndSubjectCheckpointsSelectEligibleQu
 
   const subjectSelected = selectSubjectCheckpointQuestions(
     questions.subject_checkpoint.stable_key,
-    'subject_d1_fordonskannedom',
+    'subject_d1_sakerhet',
     questions.subject_checkpoint.question_count,
     d2TaxiLawRepository.questionVersions,
   );
 
   assert.equal(subjectSelected.length, questions.subject_checkpoint.question_count);
   assert.equal(new Set(subjectSelected.map((question) => question.stableKey)).size, subjectSelected.length);
-  assert.ok(new Set(subjectSelected.map((question) => question.topicId)).size >= 10);
+  assert.ok(new Set(subjectSelected.map((question) => question.topicId)).size >= 6);
+  assert.ok(new Set(subjectSelected.map((question) => question.type)).size >= 2);
 }
 
-export function testD1VehicleKnowledgePluggaIntegrationAndScope() {
-  const subject = d2TaxiLawRepository.subjects.find((candidate) => candidate.id === 'subject_d1_fordonskannedom');
-  const topics = d2TaxiLawRepository.topics.filter((topic) => topic.subjectId === 'subject_d1_fordonskannedom');
+export function testD1SafetyPluggaIntegrationAndScope() {
+  const subject = d2TaxiLawRepository.subjects.find((candidate) => candidate.id === 'subject_d1_sakerhet');
+  const topics = d2TaxiLawRepository.topics.filter((topic) => topic.subjectId === 'subject_d1_sakerhet');
   const firstTopicLessons = getOrderedLessonsForTopic(d2TaxiLawRepository, topics[0].id);
   const publishedD1Subjects = d2TaxiLawRepository.subjects
     .filter((candidate) => candidate.examId === 'exam_d1_sakerhet_beteende' && candidate.status === 'published')
@@ -351,8 +389,8 @@ export function testD1VehicleKnowledgePluggaIntegrationAndScope() {
     'subject_d1_sakerhet',
     'subject_d1_sjukdomar',
   ]);
-  assert.equal(topics.length, 13);
+  assert.equal(topics.length, 8);
   assert.equal(firstTopicLessons.length, 1);
-  assert.equal(d1VehicleKnowledgeFactRecords.length, 81);
-  assert.ok(d2TaxiLawRepository.assessments.some((assessment) => assessment.id === 'D1-VEH-SUBJECT-CHECKPOINT-001'));
+  assert.equal(d1SafetyFactRecords.length, 59);
+  assert.ok(d2TaxiLawRepository.assessments.some((assessment) => assessment.id === 'D1-SAFE-SUBJECT-CHECKPOINT-001'));
 }

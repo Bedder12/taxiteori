@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "subject": "D1_HEALTH_DISABILITIES",
+    "title": "Sjukdomar och funktionsnedsättningar",
+    "verified_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "status": "published",
+    "requirement_count": 5,
+    "architecture": "existing_vilotider_learning_pipeline",
+    "exclusions": [
+      "no medical diagnosis",
+      "no treatment instruction beyond emergency/help boundary",
+      "no other D1 subjects",
+      "no full D1 mock exam"
+    ]
+  },
+  "visuals": [
+    {
+      "visual_id": "health_boarding_mobility_scene",
+      "visual_type": "mobility_assistance_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.",
+      "elements_must_be_shown": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare med hjälpmedel",
+        "förare som frågar innan stöd ges"
+      ],
+      "labels_required": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare med hjälpmedel",
+        "förare som frågar innan stöd ges"
+      ],
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-001",
+        "D1-HEALTH-MOBILITY-FACT-002",
+        "D1-HEALTH-MOBILITY-FACT-003"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone."
+    },
+    {
+      "visual_id": "health_cognitive_support_scene",
+      "visual_type": "cognitive_support_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.",
+      "elements_must_be_shown": [
+        "kort textmeddelande",
+        "adressbekräftelse",
+        "lugn miljö",
+        "förare som ger en sak i taget"
+      ],
+      "labels_required": [
+        "kort textmeddelande",
+        "adressbekräftelse",
+        "lugn miljö",
+        "förare som ger en sak i taget"
+      ],
+      "requirement_keys": [
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-ROLE-FACT-001",
+        "D1-HEALTH-ROLE-FACT-002",
+        "D1-HEALTH-ROLE-FACT-003"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone."
+    },
+    {
+      "visual_id": "health_urgent_help_decision_scene",
+      "visual_type": "urgent_help_decision_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.",
+      "elements_must_be_shown": [
+        "säker stoppplats",
+        "telefon 112",
+        "förare som håller avstånd från trafik",
+        "passagerare med akut försämring"
+      ],
+      "labels_required": [
+        "säker stoppplats",
+        "telefon 112",
+        "förare som håller avstånd från trafik",
+        "passagerare med akut försämring"
+      ],
+      "requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-GA-003"
+      ],
+      "fact_keys": [
+        "D1-HEALTH-URGENT-FACT-001",
+        "D1-HEALTH-URGENT-FACT-002",
+        "D1-HEALTH-URGENT-FACT-003"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone."
+    }
+  ]
+}

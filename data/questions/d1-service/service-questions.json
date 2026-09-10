@@ -1,0 +1,3946 @@
+{
+  "metadata": {
+    "subject": "D1_SERVICE",
+    "title": "D1 service question bank",
+    "status": "published",
+    "created_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "disclaimer": "Internal checkpoints and practice questions. These are not Trafikverket's official question bank."
+  },
+  "topic_checkpoints": [
+    {
+      "stable_key": "D1-SERV-PRO-CHECKPOINT-001",
+      "title": "Intern checkpoint: Professionellt bemötande och diskretion",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_professionellt_bemotande",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-CHECKPOINT-001",
+      "title": "Intern checkpoint: Kommunikation om behov och önskemål",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_kommunikation_onskemal",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-CHECKPOINT-001",
+      "title": "Intern checkpoint: Svåra passagerarsituationer",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_svara_passagerarsituationer",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-CHECKPOINT-001",
+      "title": "Intern checkpoint: Barn, ledsagare och självbestämmande",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-CHECKPOINT-001",
+      "title": "Intern checkpoint: Syn, hörsel och anpassad kommunikation",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_syn_horsel_kommunikation",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-CHECKPOINT-001",
+      "title": "Intern checkpoint: Rörelseförmåga och hjälpmedel",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-CHECKPOINT-001",
+      "title": "Intern checkpoint: Rent fordon, dofter och rök",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_rent_fordon_dofter_rok",
+      "eligible_status": "published",
+      "question_count": 7,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-CHECKPOINT-001",
+      "title": "Intern checkpoint: Prisinformation och ungefärligt pris",
+      "type": "checkpoint",
+      "subject": "D1_SERVICE",
+      "topic": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "eligible_status": "published",
+      "question_count": 8,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    }
+  ],
+  "subject_checkpoint": {
+    "stable_key": "D1-SERV-SUBJECT-CHECKPOINT-001",
+    "title": "Intern ämnescheckpoint: Bemötande",
+    "type": "checkpoint",
+    "subject": "D1_SERVICE",
+    "topic": null,
+    "eligible_status": "published",
+    "question_count": 30,
+    "pass_threshold": 0.8,
+    "selection": "broad_sample_across_all_d1_service_topics",
+    "freeze_question_versions_on_attempt_start": true,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D1-SERV-PRO-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska förstå innebörden av att vara serviceinriktad och vikten av diskretion.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska förstå innebörden av att vara serviceinriktad och vikten av diskretion."
+        },
+        {
+          "id": "B",
+          "text": "PRO-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska förstå innebörden av att vara serviceinriktad och vikten av diskretion. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRO-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 2: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Diskretion i taxiarbetet innebär att inte sprida, kommentera eller utnyttja privat information som föraren får genom uppdraget.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Diskretion i taxiarbetet innebär att inte sprida, kommentera eller utnyttja privat information som föraren får genom uppdraget."
+        },
+        {
+          "id": "B",
+          "text": "PRO-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Diskretion i taxiarbetet innebär att inte sprida, kommentera eller utnyttja privat information som föraren får genom uppdraget. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRO-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Serviceinriktning innebär att göra resan tydlig, trygg och respektfull utan att ta över passagerarens självbestämmande.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Serviceinriktning innebär att göra resan tydlig, trygg och respektfull utan att ta över passagerarens självbestämmande."
+        },
+        {
+          "id": "B",
+          "text": "PRO-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Serviceinriktning innebär att göra resan tydlig, trygg och respektfull utan att ta över passagerarens självbestämmande. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1 och 16 § 3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRO-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 4: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Olika människor kan ha olika förutsättningar och behov, och bemötandet ska utgå från den enskilda passagerarens situation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Olika människor kan ha olika förutsättningar och behov, och bemötandet ska utgå från den enskilda passagerarens situation."
+        },
+        {
+          "id": "B",
+          "text": "PRO-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Olika människor kan ha olika förutsättningar och behov, och bemötandet ska utgå från den enskilda passagerarens situation. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRO-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Ett professionellt bemötande kombinerar vänlighet med tydliga gränser, trafiksäkerhet och respekt för kundens integritet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ett professionellt bemötande kombinerar vänlighet med tydliga gränser, trafiksäkerhet och respekt för kundens integritet."
+        },
+        {
+          "id": "B",
+          "text": "PRO-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ett professionellt bemötande kombinerar vänlighet med tydliga gränser, trafiksäkerhet och respekt för kundens integritet. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1-3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRO-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 6: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska förstå innebörden av att vara serviceinriktad och vikten av diskretion.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska förstå innebörden av att vara serviceinriktad och vikten av diskretion."
+        },
+        {
+          "id": "B",
+          "text": "PRO-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska förstå innebörden av att vara serviceinriktad och vikten av diskretion. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRO-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Diskretion i taxiarbetet innebär att inte sprida, kommentera eller utnyttja privat information som föraren får genom uppdraget.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Diskretion i taxiarbetet innebär att inte sprida, kommentera eller utnyttja privat information som föraren får genom uppdraget."
+        },
+        {
+          "id": "B",
+          "text": "PRO-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Diskretion i taxiarbetet innebär att inte sprida, kommentera eller utnyttja privat information som föraren får genom uppdraget. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRO-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "requirement_keys": [
+        "D1-SERV-016-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-PRO-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRO-bemötandefall 8: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Serviceinriktning innebär att göra resan tydlig, trygg och respektfull utan att ta över passagerarens självbestämmande.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Serviceinriktning innebär att göra resan tydlig, trygg och respektfull utan att ta över passagerarens självbestämmande."
+        },
+        {
+          "id": "B",
+          "text": "PRO-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRO-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRO-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Serviceinriktning innebär att göra resan tydlig, trygg och respektfull utan att ta över passagerarens självbestämmande. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1 och 16 § 3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-002"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna kommunicera med passagerare för att tillmötesgå deras behov och önskemål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna kommunicera med passagerare för att tillmötesgå deras behov och önskemål."
+        },
+        {
+          "id": "B",
+          "text": "COM-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna kommunicera med passagerare för att tillmötesgå deras behov och önskemål. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-002"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 2: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? När ett önskemål är oklart bör föraren fråga kort och bekräfta vad kunden vill innan färden fortsätter.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "När ett önskemål är oklart bör föraren fråga kort och bekräfta vad kunden vill innan färden fortsätter."
+        },
+        {
+          "id": "B",
+          "text": "COM-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: När ett önskemål är oklart bör föraren fråga kort och bekräfta vad kunden vill innan färden fortsätter. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-002"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Kommunikationen ska vara saklig och begriplig även när kunden är stressad, osäker eller har svårt att förstå instruktionen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kommunikationen ska vara saklig och begriplig även när kunden är stressad, osäker eller har svårt att förstå instruktionen."
+        },
+        {
+          "id": "B",
+          "text": "COM-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kommunikationen ska vara saklig och begriplig även när kunden är stressad, osäker eller har svårt att förstå instruktionen. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 2-3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 4: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Tillgänglighet kan handla om information, kommunikation, stöd och personlig service.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tillgänglighet kan handla om information, kommunikation, stöd och personlig service."
+        },
+        {
+          "id": "B",
+          "text": "COM-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tillgänglighet kan handla om information, kommunikation, stöd och personlig service. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "DO_BRISTANDE_TILLGANGLIGHET",
+          "exact_reference": "Vilka tillgänglighetsåtgärder är rimliga att begära?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Enklare tillgänglighetsåtgärder kan vara att läsa upp information, ledsaga en person eller flytta sådant som står i vägen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Enklare tillgänglighetsåtgärder kan vara att läsa upp information, ledsaga en person eller flytta sådant som står i vägen."
+        },
+        {
+          "id": "B",
+          "text": "COM-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Enklare tillgänglighetsåtgärder kan vara att läsa upp information, ledsaga en person eller flytta sådant som står i vägen. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "DO_TILLGANGLIGHET_FAQ",
+          "exact_reference": "Exempel på skäliga tillgänglighetsåtgärder"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-002"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 6: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna kommunicera med passagerare för att tillmötesgå deras behov och önskemål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna kommunicera med passagerare för att tillmötesgå deras behov och önskemål."
+        },
+        {
+          "id": "B",
+          "text": "COM-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna kommunicera med passagerare för att tillmötesgå deras behov och önskemål. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-002"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? När ett önskemål är oklart bör föraren fråga kort och bekräfta vad kunden vill innan färden fortsätter.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "När ett önskemål är oklart bör föraren fråga kort och bekräfta vad kunden vill innan färden fortsätter."
+        },
+        {
+          "id": "B",
+          "text": "COM-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: När ett önskemål är oklart bör föraren fråga kort och bekräfta vad kunden vill innan färden fortsätter. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-COM-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "requirement_keys": [
+        "D1-SERV-016-002"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-COM-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "COM-bemötandefall 8: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Kommunikationen ska vara saklig och begriplig även när kunden är stressad, osäker eller har svårt att förstå instruktionen.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Kommunikationen ska vara saklig och begriplig även när kunden är stressad, osäker eller har svårt att förstå instruktionen."
+        },
+        {
+          "id": "B",
+          "text": "COM-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "COM-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "COM-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Kommunikationen ska vara saklig och begriplig även när kunden är stressad, osäker eller har svårt att förstå instruktionen. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 2-3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna redogöra för lämpliga sätt att hantera situationer med alkohol- eller drogpåverkade passagerare.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna redogöra för lämpliga sätt att hantera situationer med alkohol- eller drogpåverkade passagerare."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna redogöra för lämpliga sätt att hantera situationer med alkohol- eller drogpåverkade passagerare. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 2: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Vid påverkad eller irriterad passagerare bör föraren hålla kommunikationen lugn, konkret och inriktad på nästa säkra steg.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid påverkad eller irriterad passagerare bör föraren hålla kommunikationen lugn, konkret och inriktad på nästa säkra steg."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid påverkad eller irriterad passagerare bör föraren hålla kommunikationen lugn, konkret och inriktad på nästa säkra steg. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Arbete med direktkontakt med människor kan innebära risk för hot och våld, vilket gör rutiner och tydliga gränser viktiga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Arbete med direktkontakt med människor kan innebära risk för hot och våld, vilket gör rutiner och tydliga gränser viktiga."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Arbete med direktkontakt med människor kan innebära risk för hot och våld, vilket gör rutiner och tydliga gränser viktiga. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Våld och hot om våld, arbete med människor"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 4: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Ett lämpligt bemötande av en påverkad passagerare ska undvika upptrappning och samtidigt skydda förare, passagerare och trafiksäkerhet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ett lämpligt bemötande av en påverkad passagerare ska undvika upptrappning och samtidigt skydda förare, passagerare och trafiksäkerhet."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ett lämpligt bemötande av en påverkad passagerare ska undvika upptrappning och samtidigt skydda förare, passagerare och trafiksäkerhet. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Våld och hot om våld, förebyggande arbete"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Om ett bemötandeproblem blir en säkerhetsrisk ska säkerhetsrutiner och larmmöjligheter prioriteras före serviceambition.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Om ett bemötandeproblem blir en säkerhetsrisk ska säkerhetsrutiner och larmmöjligheter prioriteras före serviceambition."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Om ett bemötandeproblem blir en säkerhetsrisk ska säkerhetsrutiner och larmmöjligheter prioriteras före serviceambition. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Våld och hot om våld, risker i arbetet"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 6: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna redogöra för lämpliga sätt att hantera situationer med alkohol- eller drogpåverkade passagerare.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna redogöra för lämpliga sätt att hantera situationer med alkohol- eller drogpåverkade passagerare."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna redogöra för lämpliga sätt att hantera situationer med alkohol- eller drogpåverkade passagerare. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Vid påverkad eller irriterad passagerare bör föraren hålla kommunikationen lugn, konkret och inriktad på nästa säkra steg.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid påverkad eller irriterad passagerare bör föraren hålla kommunikationen lugn, konkret och inriktad på nästa säkra steg."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid påverkad eller irriterad passagerare bör föraren hålla kommunikationen lugn, konkret och inriktad på nästa säkra steg. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 1"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-CONFLICT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "conflict_handling",
+        "service"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CONFLICT-bemötandefall 8: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Arbete med direktkontakt med människor kan innebära risk för hot och våld, vilket gör rutiner och tydliga gränser viktiga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Arbete med direktkontakt med människor kan innebära risk för hot och våld, vilket gör rutiner och tydliga gränser viktiga."
+        },
+        {
+          "id": "B",
+          "text": "CONFLICT-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CONFLICT-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CONFLICT-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Arbete med direktkontakt med människor kan innebära risk för hot och våld, vilket gör rutiner och tydliga gränser viktiga. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Våld och hot om våld, arbete med människor"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-017-002A"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma barns behov och vara lyhörd för krav på service.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma barns behov och vara lyhörd för krav på service."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma barns behov och vara lyhörd för krav på service. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-017-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 2: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma hur passagerare ska bemötas när ledsagare medföljer.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma hur passagerare ska bemötas när ledsagare medföljer."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma hur passagerare ska bemötas när ledsagare medföljer. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-017-002A"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? När barn reser ska föraren kommunicera på ett tydligt sätt med ansvarig vuxen och samtidigt bemöta barnet respektfullt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "När barn reser ska föraren kommunicera på ett tydligt sätt med ansvarig vuxen och samtidigt bemöta barnet respektfullt."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: När barn reser ska föraren kommunicera på ett tydligt sätt med ansvarig vuxen och samtidigt bemöta barnet respektfullt. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-017-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 4: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? När ledsagare följer med ska föraren inte automatiskt tala förbi passageraren, utan fråga hur passageraren vill kommunicera.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "När ledsagare följer med ska föraren inte automatiskt tala förbi passageraren, utan fråga hur passageraren vill kommunicera."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: När ledsagare följer med ska föraren inte automatiskt tala förbi passageraren, utan fråga hur passageraren vill kommunicera. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 3 och 17 § 3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Respekt för olika förutsättningar innebär att passagerarens egna önskemål ska bekräftas när det är möjligt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Respekt för olika förutsättningar innebär att passagerarens egna önskemål ska bekräftas när det är möjligt."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Respekt för olika förutsättningar innebär att passagerarens egna önskemål ska bekräftas när det är möjligt. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-017-002A"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 6: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma barns behov och vara lyhörd för krav på service.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma barns behov och vara lyhörd för krav på service."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma barns behov och vara lyhörd för krav på service. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-017-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma hur passagerare ska bemötas när ledsagare medföljer.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma hur passagerare ska bemötas när ledsagare medföljer."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma hur passagerare ska bemötas när ledsagare medföljer. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 3"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "requirement_keys": [
+        "D1-SERV-017-002A"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-CHILD-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CHILD-bemötandefall 8: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? När barn reser ska föraren kommunicera på ett tydligt sätt med ansvarig vuxen och samtidigt bemöta barnet respektfullt.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "När barn reser ska föraren kommunicera på ett tydligt sätt med ansvarig vuxen och samtidigt bemöta barnet respektfullt."
+        },
+        {
+          "id": "B",
+          "text": "CHILD-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CHILD-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CHILD-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: När barn reser ska föraren kommunicera på ett tydligt sätt med ansvarig vuxen och samtidigt bemöta barnet respektfullt. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-017-002B"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt syn.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt syn."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt syn. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-017-002C"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 2: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt hörsel.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt hörsel."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt hörsel. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-017-002B"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Vid nedsatt syn kan bemötandet behöva vara mer muntligt beskrivande: presentera dig, ange bilens placering och fråga om stöd önskas.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid nedsatt syn kan bemötandet behöva vara mer muntligt beskrivande: presentera dig, ange bilens placering och fråga om stöd önskas."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid nedsatt syn kan bemötandet behöva vara mer muntligt beskrivande: presentera dig, ange bilens placering och fråga om stöd önskas. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "DO_TILLGANGLIGHET_FAQ",
+          "exact_reference": "Exempel: läsa upp information och ledsaga en person"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-017-002C"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 4: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Vid nedsatt hörsel kan föraren behöva bekräfta information skriftligt, tydligt visuellt eller genom korta kontroller att budskapet uppfattats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid nedsatt hörsel kan föraren behöva bekräfta information skriftligt, tydligt visuellt eller genom korta kontroller att budskapet uppfattats."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid nedsatt hörsel kan föraren behöva bekräfta information skriftligt, tydligt visuellt eller genom korta kontroller att budskapet uppfattats. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "DO_BRISTANDE_TILLGANGLIGHET",
+          "exact_reference": "Tillgänglighet: information och kommunikation"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Anpassad kommunikation ska bygga på passagerarens uttryckta behov, inte på antaganden om personens förmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Anpassad kommunikation ska bygga på passagerarens uttryckta behov, inte på antaganden om personens förmåga."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Anpassad kommunikation ska bygga på passagerarens uttryckta behov, inte på antaganden om personens förmåga. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 3"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-006"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 6: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? MFD är kunskapsmyndighet inom funktionshindersområdet och lyfter tillgänglighet och delaktighet som centrala mål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "MFD är kunskapsmyndighet inom funktionshindersområdet och lyfter tillgänglighet och delaktighet som centrala mål."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: MFD är kunskapsmyndighet inom funktionshindersområdet och lyfter tillgänglighet och delaktighet som centrala mål. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "MFD_START",
+          "exact_reference": "Startsidan, myndighetens uppdrag"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-017-002B"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt syn.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt syn."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt syn. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-017-002C"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 8: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt hörsel.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt hörsel."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt hörsel. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "requirement_keys": [
+        "D1-SERV-017-002B"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-ACCESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "communication",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "ACCESS-bemötandefall 9: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Vid nedsatt syn kan bemötandet behöva vara mer muntligt beskrivande: presentera dig, ange bilens placering och fråga om stöd önskas.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid nedsatt syn kan bemötandet behöva vara mer muntligt beskrivande: presentera dig, ange bilens placering och fråga om stöd önskas."
+        },
+        {
+          "id": "B",
+          "text": "ACCESS-9: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "ACCESS-9: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "ACCESS-9: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid nedsatt syn kan bemötandet behöva vara mer muntligt beskrivande: presentera dig, ange bilens placering och fråga om stöd önskas. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "DO_TILLGANGLIGHET_FAQ",
+          "exact_reference": "Exempel: läsa upp information och ledsaga en person"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_communication_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-002D"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt rörelseförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt rörelseförmåga."
+        },
+        {
+          "id": "B",
+          "text": "AID-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt rörelseförmåga. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 2: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna hantera rullstolar, rollatorer och andra hjälpmedel som passagerare använder.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna hantera rullstolar, rollatorer och andra hjälpmedel som passagerare använder."
+        },
+        {
+          "id": "B",
+          "text": "AID-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna hantera rullstolar, rollatorer och andra hjälpmedel som passagerare använder. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 7"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-002D"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Vid nedsatt rörelseförmåga bör föraren välja en plats för på- eller avstigning som ger tid, utrymme och minskar stress.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid nedsatt rörelseförmåga bör föraren välja en plats för på- eller avstigning som ger tid, utrymme och minskar stress."
+        },
+        {
+          "id": "B",
+          "text": "AID-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid nedsatt rörelseförmåga bör föraren välja en plats för på- eller avstigning som ger tid, utrymme och minskar stress. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 4: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Föraren bör fråga innan hjälpmedel flyttas eller hanteras, eftersom hjälpmedlet är en del av passagerarens självständighet.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Föraren bör fråga innan hjälpmedel flyttas eller hanteras, eftersom hjälpmedlet är en del av passagerarens självständighet."
+        },
+        {
+          "id": "B",
+          "text": "AID-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Föraren bör fråga innan hjälpmedel flyttas eller hanteras, eftersom hjälpmedlet är en del av passagerarens självständighet. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 3 och 17 § 7"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Tillgänglig personlig service kan innebära att ledsaga, flytta hinder eller hjälpa till praktiskt när åtgärden är rimlig och önskad.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tillgänglig personlig service kan innebära att ledsaga, flytta hinder eller hjälpa till praktiskt när åtgärden är rimlig och önskad."
+        },
+        {
+          "id": "B",
+          "text": "AID-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tillgänglig personlig service kan innebära att ledsaga, flytta hinder eller hjälpa till praktiskt när åtgärden är rimlig och önskad. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "DO_TILLGANGLIGHET_FAQ",
+          "exact_reference": "Exempel på skäliga tillgänglighetsåtgärder"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-006"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 6: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Bemötandefrågor om hjälpmedel ska hålla fokus på kommunikation, praktisk hjälp och respekt, inte på detaljerad hälsokunskap.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Bemötandefrågor om hjälpmedel ska hålla fokus på kommunikation, praktisk hjälp och respekt, inte på detaljerad hälsokunskap."
+        },
+        {
+          "id": "B",
+          "text": "AID-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Bemötandefrågor om hjälpmedel ska hålla fokus på kommunikation, praktisk hjälp och respekt, inte på detaljerad hälsokunskap. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16-17 §§"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-002D"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt rörelseförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt rörelseförmåga."
+        },
+        {
+          "id": "B",
+          "text": "AID-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt rörelseförmåga. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 8: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna hantera rullstolar, rollatorer och andra hjälpmedel som passagerare använder.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna hantera rullstolar, rollatorer och andra hjälpmedel som passagerare använder."
+        },
+        {
+          "id": "B",
+          "text": "AID-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna hantera rullstolar, rollatorer och andra hjälpmedel som passagerare använder. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 7"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-AID-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "requirement_keys": [
+        "D1-SERV-017-002D"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-AID-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "passenger_assistance",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "AID-bemötandefall 9: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Vid nedsatt rörelseförmåga bör föraren välja en plats för på- eller avstigning som ger tid, utrymme och minskar stress.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid nedsatt rörelseförmåga bör föraren välja en plats för på- eller avstigning som ger tid, utrymme och minskar stress."
+        },
+        {
+          "id": "B",
+          "text": "AID-9: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "AID-9: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "AID-9: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid nedsatt rörelseförmåga bör föraren välja en plats för på- eller avstigning som ger tid, utrymme och minskar stress. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 2"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_wheelchair_aid_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-004"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma vikten av ett rent fordon.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma vikten av ett rent fordon."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma vikten av ett rent fordon. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-005"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 2: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma hur starka dofter, tobaksrök och allergiframkallande ämnen kan påverka passagerare.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma hur starka dofter, tobaksrök och allergiframkallande ämnen kan påverka passagerare."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma hur starka dofter, tobaksrök och allergiframkallande ämnen kan påverka passagerare. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 5"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-006"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna redogöra för lagstiftningen om rökförbud.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna redogöra för lagstiftningen om rökförbud."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna redogöra för lagstiftningen om rökförbud. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 6"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-005"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 4: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Doftöverkänslighet kan ge besvär av exempelvis cigarettrök, avgaser, parfym, rengöringsmedel eller tvättmedel.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Doftöverkänslighet kan ge besvär av exempelvis cigarettrök, avgaser, parfym, rengöringsmedel eller tvättmedel."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Doftöverkänslighet kan ge besvär av exempelvis cigarettrök, avgaser, parfym, rengöringsmedel eller tvättmedel. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "1177_DOFTO",
+          "exact_reference": "Doftöverkänslighet, vad är doftöverkänslighet?"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-006"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Rökning är förbjuden på färdmedel i inrikes kollektivtrafik; Folkhälsomyndigheten anger att taxi i allmänhet omfattas.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Rökning är förbjuden på färdmedel i inrikes kollektivtrafik; Folkhälsomyndigheten anger att taxi i allmänhet omfattas."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Rökning är förbjuden på färdmedel i inrikes kollektivtrafik; Folkhälsomyndigheten anger att taxi i allmänhet omfattas. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "FHM_ROKFRIA_MILJOER",
+          "exact_reference": "Kollektivtrafik, inomhusmiljöer"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-006"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-006"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 6: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Rökförbud gäller även på vissa utomhusområden som används av resande med kollektivtrafik, exempelvis taxizoner när de omfattas av reglerna.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Rökförbud gäller även på vissa utomhusområden som används av resande med kollektivtrafik, exempelvis taxizoner när de omfattas av reglerna."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Rökförbud gäller även på vissa utomhusområden som används av resande med kollektivtrafik, exempelvis taxizoner när de omfattas av reglerna. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "FHM_ROKFRIA_UTOMHUS",
+          "exact_reference": "Taxizoner och rökräckvidd"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-004"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-007"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Ett rent fordon är en del av passagerarens upplevelse av trygg, respektfull och professionell service.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ett rent fordon är en del av passagerarens upplevelse av trygg, respektfull och professionell service."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ett rent fordon är en del av passagerarens upplevelse av trygg, respektfull och professionell service. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 16 § 1 och 17 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-004"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 8: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma vikten av ett rent fordon.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma vikten av ett rent fordon."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma vikten av ett rent fordon. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 4"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "requirement_keys": [
+        "D1-SERV-017-005"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-CLEAN-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "adaptation"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "CLEAN-bemötandefall 9: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna bedöma hur starka dofter, tobaksrök och allergiframkallande ämnen kan påverka passagerare.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna bedöma hur starka dofter, tobaksrök och allergiframkallande ämnen kan påverka passagerare."
+        },
+        {
+          "id": "B",
+          "text": "CLEAN-9: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "CLEAN-9: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "CLEAN-9: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna bedöma hur starka dofter, tobaksrök och allergiframkallande ämnen kan påverka passagerare. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 5"
+        }
+      ],
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "serv_luggage_cleanliness_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRICE-bemötandefall 1: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxiföraren ska kunna beräkna det ungefärliga priset på en resa utifrån fordonets prisinformation.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna beräkna det ungefärliga priset på en resa utifrån fordonets prisinformation."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-1: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-1: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-1: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna beräkna det ungefärliga priset på en resa utifrån fordonets prisinformation. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 8"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "calculation",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "beräkna/förklara ungefärligt pris"
+      ],
+      "prompt": "PRICE-bemötandefall 2: En kund ber om ungefärligt pris före avfärd. Vilket svar använder prisinformationen på ett korrekt och begripligt sätt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Jämförpriset för taxi avser en typresa på 10 kilometer som tar 15 minuter inklusive eventuell grundavgift."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-2: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-2: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-2: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Jämförpriset för taxi avser en typresa på 10 kilometer som tar 15 minuter inklusive eventuell grundavgift. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_reference": "Taxitrafiklag (2012:211), 2 kap. 20 §"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_price_estimate",
+        "inputs": [
+          "jämförpris för 10 km/15 min",
+          "uppskattad resa i samma nivå eller bindande prisuppgift om tillämpligt"
+        ],
+        "method": "Använd prisinformationen för en ungefärlig kundförklaring och skilj uppskattning från fast eller bindande pris.",
+        "worked_example": "Om prisinformationen visar jämförpris för en typresa förklarar föraren att faktisk resa påverkas av sträcka, tid och eventuella avgifter.",
+        "answer": "Jämförpriset för taxi avser en typresa på 10 kilometer som tar 15 minuter inklusive eventuell grundavgift."
+      }
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRICE-bemötandefall 3: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Taxipriser är fria och kan variera mellan företag, vilket gör tydlig prisinformation viktig före resan.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxipriser är fria och kan variera mellan företag, vilket gör tydlig prisinformation viktig före resan."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-3: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-3: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-3: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxipriser är fria och kan variera mellan företag, vilket gör tydlig prisinformation viktig före resan. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_PRISINFORMATION_TAXI",
+          "exact_reference": "Prisinformation för taxikunder, Fri prissättning råder"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-004"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "calculation",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "beräkna/förklara ungefärligt pris"
+      ],
+      "prompt": "PRICE-bemötandefall 4: En kund ber om ungefärligt pris före avfärd. Vilket svar använder prisinformationen på ett korrekt och begripligt sätt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Om jämförpriset överstiger 700 kronor ska föraren lämna en bindande prisuppgift innan resan, om fast pris inte används."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-4: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-4: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-4: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Om jämförpriset överstiger 700 kronor ska föraren lämna en bindande prisuppgift innan resan, om fast pris inte används. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TS_PRISINFORMATION_TAXI",
+          "exact_reference": "Prisuppgift till kunden innan taxiresan startar"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_price_estimate",
+        "inputs": [
+          "jämförpris för 10 km/15 min",
+          "uppskattad resa i samma nivå eller bindande prisuppgift om tillämpligt"
+        ],
+        "method": "Använd prisinformationen för en ungefärlig kundförklaring och skilj uppskattning från fast eller bindande pris.",
+        "worked_example": "Om prisinformationen visar jämförpris för en typresa förklarar föraren att faktisk resa påverkas av sträcka, tid och eventuella avgifter.",
+        "answer": "Om jämförpriset överstiger 700 kronor ska föraren lämna en bindande prisuppgift innan resan, om fast pris inte används."
+      }
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-005"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRICE-bemötandefall 5: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? En prisuppgift ska ange högsta pris för färden och ett bevis om prisuppgiften ska lämnas till passageraren före färden.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En prisuppgift ska ange högsta pris för färden och ett bevis om prisuppgiften ska lämnas till passageraren före färden."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-5: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-5: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-5: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En prisuppgift ska ange högsta pris för färden och ett bevis om prisuppgiften ska lämnas till passageraren före färden. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_reference": "Taxitrafiklag (2012:211), 2 kap. 20-21 §§"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-006"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "calculation",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "beräkna/förklara ungefärligt pris"
+      ],
+      "prompt": "PRICE-bemötandefall 6: En kund ber om ungefärligt pris före avfärd. Vilket svar använder prisinformationen på ett korrekt och begripligt sätt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Konsumentverket betonar att många resenärer missförstår jämförpris och bindande prisuppgift, så föraren behöver kunna förklara skillnaden enkelt."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-6: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-6: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-6: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Konsumentverket betonar att många resenärer missförstår jämförpris och bindande prisuppgift, så föraren behöver kunna förklara skillnaden enkelt. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "KV_TAXI_PRESS_2026",
+          "exact_reference": "Fakta - Jämförpris"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_price_estimate",
+        "inputs": [
+          "jämförpris för 10 km/15 min",
+          "uppskattad resa i samma nivå eller bindande prisuppgift om tillämpligt"
+        ],
+        "method": "Använd prisinformationen för en ungefärlig kundförklaring och skilj uppskattning från fast eller bindande pris.",
+        "worked_example": "Om prisinformationen visar jämförpris för en typresa förklarar föraren att faktisk resa påverkas av sträcka, tid och eventuella avgifter.",
+        "answer": "Konsumentverket betonar att många resenärer missförstår jämförpris och bindande prisuppgift, så föraren behöver kunna förklara skillnaden enkelt."
+      }
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q007",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-007"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRICE-bemötandefall 7: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? En ungefärlig prisbedömning utifrån prisinformationen ska presenteras som en uppskattning om den inte är en bindande prisuppgift eller ett fast pris.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En ungefärlig prisbedömning utifrån prisinformationen ska presenteras som en uppskattning om den inte är en bindande prisuppgift eller ett fast pris."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-7: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-7: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-7: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En ungefärlig prisbedömning utifrån prisinformationen ska presenteras som en uppskattning om den inte är en bindande prisuppgift eller ett fast pris. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "KV_TAXI_PRIS",
+          "exact_reference": "Taxi - vad gäller kring pris?, taxiresor och prisnivå"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q008",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-001"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "calculation",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "beräkna/förklara ungefärligt pris"
+      ],
+      "prompt": "PRICE-bemötandefall 8: En kund ber om ungefärligt pris före avfärd. Vilket svar använder prisinformationen på ett korrekt och begripligt sätt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiföraren ska kunna beräkna det ungefärliga priset på en resa utifrån fordonets prisinformation."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-8: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-8: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-8: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiföraren ska kunna beräkna det ungefärliga priset på en resa utifrån fordonets prisinformation. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 17 § 8"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_price_estimate",
+        "inputs": [
+          "jämförpris för 10 km/15 min",
+          "uppskattad resa i samma nivå eller bindande prisuppgift om tillämpligt"
+        ],
+        "method": "Använd prisinformationen för en ungefärlig kundförklaring och skilj uppskattning från fast eller bindande pris.",
+        "worked_example": "Om prisinformationen visar jämförpris för en typresa förklarar föraren att faktisk resa påverkas av sträcka, tid och eventuella avgifter.",
+        "answer": "Taxiföraren ska kunna beräkna det ungefärliga priset på en resa utifrån fordonets prisinformation."
+      }
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q009",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-002"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "bedöma/kommunicera/anpassa"
+      ],
+      "prompt": "PRICE-bemötandefall 9: En taxikund har ett konkret behov under resan. Vilket bemötande är bäst? Jämförpriset för taxi avser en typresa på 10 kilometer som tar 15 minuter inklusive eventuell grundavgift.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Jämförpriset för taxi avser en typresa på 10 kilometer som tar 15 minuter inklusive eventuell grundavgift."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-9: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-9: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-9: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Jämförpriset för taxi avser en typresa på 10 kilometer som tar 15 minuter inklusive eventuell grundavgift. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "SFS_2012_211",
+          "exact_reference": "Taxitrafiklag (2012:211), 2 kap. 20 §"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-Q010",
+      "version": 1,
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-003"
+      ],
+      "lesson_key": "D1-SERV-PRICE-L01",
+      "question_type": "calculation",
+      "competency_tags": [
+        "service",
+        "communication"
+      ],
+      "competencies": [
+        "beräkna/förklara ungefärligt pris"
+      ],
+      "prompt": "PRICE-bemötandefall 10: En kund ber om ungefärligt pris före avfärd. Vilket svar använder prisinformationen på ett korrekt och begripligt sätt?",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxipriser är fria och kan variera mellan företag, vilket gör tydlig prisinformation viktig före resan."
+        },
+        {
+          "id": "B",
+          "text": "PRICE-10: anta vad kunden behöver och genomför hjälpen utan att fråga."
+        },
+        {
+          "id": "C",
+          "text": "PRICE-10: ge samma svar till alla kunder även när kunden uttrycker ett annat behov."
+        },
+        {
+          "id": "D",
+          "text": "PRICE-10: flytta fokus till förarens bekvämlighet i stället för tydlig kommunikation och respektfull service."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxipriser är fria och kan variera mellan företag, vilket gör tydlig prisinformation viktig före resan. Svaret är bäst eftersom det knyter bemötandet till verifierat krav, källa och kundens uttryckta situation.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TS_PRISINFORMATION_TAXI",
+          "exact_reference": "Prisinformation för taxikunder, Fri prissättning råder"
+        }
+      ],
+      "visual_correctness_depends_on_asset": false,
+      "status": "published",
+      "calculation_metadata": {
+        "teaching_status": "source_backed_price_estimate",
+        "inputs": [
+          "jämförpris för 10 km/15 min",
+          "uppskattad resa i samma nivå eller bindande prisuppgift om tillämpligt"
+        ],
+        "method": "Använd prisinformationen för en ungefärlig kundförklaring och skilj uppskattning från fast eller bindande pris.",
+        "worked_example": "Om prisinformationen visar jämförpris för en typresa förklarar föraren att faktisk resa påverkas av sträcka, tid och eventuella avgifter.",
+        "answer": "Taxipriser är fria och kan variera mellan företag, vilket gör tydlig prisinformation viktig före resan."
+      }
+    }
+  ]
+}

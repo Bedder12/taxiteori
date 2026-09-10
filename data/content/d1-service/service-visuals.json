@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "subject": "D1_SERVICE",
+    "title": "D1 service visual manifest",
+    "status": "placeholder_metadata",
+    "created_at": "2026-09-10",
+    "note": "Structured placeholders only. No copyrighted visual assets are included."
+  },
+  "visuals": [
+    {
+      "visual_id": "serv_entry_assistance_scene",
+      "visual_type": "vehicle_entry_assistance_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Stöd vid in- och urstigning",
+      "elements_must_be_shown": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare",
+        "förare som frågar först"
+      ],
+      "labels_required": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare",
+        "förare som frågar först"
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-002D",
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-001",
+        "D1-SERV-AID-FACT-002",
+        "D1-SERV-AID-FACT-003",
+        "D1-SERV-AID-FACT-004",
+        "D1-SERV-AID-FACT-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+    },
+    {
+      "visual_id": "serv_wheelchair_aid_scene",
+      "visual_type": "wheelchair_loading_situation",
+      "status": "placeholder_metadata",
+      "purpose": "Hjälpmedel och praktisk hantering",
+      "elements_must_be_shown": [
+        "rullstol",
+        "rollator",
+        "bagageutrymme",
+        "förankring utan detaljmedicin"
+      ],
+      "labels_required": [
+        "rullstol",
+        "rollator",
+        "bagageutrymme",
+        "förankring utan detaljmedicin"
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-002",
+        "D1-SERV-AID-FACT-004",
+        "D1-SERV-AID-FACT-005",
+        "D1-SERV-AID-FACT-006"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+    },
+    {
+      "visual_id": "serv_luggage_cleanliness_scene",
+      "visual_type": "luggage_and_clean_vehicle_scene",
+      "status": "placeholder_metadata",
+      "purpose": "Rent fordon och bagagehjälp",
+      "elements_must_be_shown": [
+        "rent säte",
+        "bagage",
+        "fri golvyta",
+        "diskret förare"
+      ],
+      "labels_required": [
+        "rent säte",
+        "bagage",
+        "fri golvyta",
+        "diskret förare"
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-004"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-001",
+        "D1-SERV-CLEAN-FACT-007"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+    },
+    {
+      "visual_id": "serv_communication_scene",
+      "visual_type": "communication_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Kommunikation utan antaganden",
+      "elements_must_be_shown": [
+        "förare",
+        "passagerare",
+        "kort fråga",
+        "bekräftelse av önskemål"
+      ],
+      "labels_required": [
+        "förare",
+        "passagerare",
+        "kort fråga",
+        "bekräftelse av önskemål"
+      ],
+      "requirement_keys": [
+        "D1-SERV-016-002",
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-004",
+        "D1-SERV-COM-FACT-001",
+        "D1-SERV-COM-FACT-002",
+        "D1-SERV-COM-FACT-003",
+        "D1-SERV-COM-FACT-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+    }
+  ]
+}

@@ -330,7 +330,16 @@ export function testD1EnvironmentPluggaIntegrationAndScope() {
     .sort();
 
   assert.equal(subject?.status, 'published');
-  assert.deepEqual(publishedD1Subjects, ['subject_d1_fordonskannedom', 'subject_d1_korekonomi', 'subject_d1_miljo', 'subject_d1_navigation']);
+  assert.deepEqual(publishedD1Subjects, [
+    'subject_d1_arbetsmiljo',
+    'subject_d1_bemotande',
+    'subject_d1_fordonskannedom',
+    'subject_d1_korekonomi',
+    'subject_d1_miljo',
+    'subject_d1_navigation',
+    'subject_d1_sakerhet',
+    'subject_d1_sjukdomar',
+  ]);
   assert.equal(topics.length, 7);
   assert.equal(firstTopicLessons.length, 1);
   assert.equal(d1EnvironmentFactRecords.length, 39);

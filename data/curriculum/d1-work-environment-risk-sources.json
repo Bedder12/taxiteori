@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "subject": "D1_WORK_ENVIRONMENT_RISK",
+    "phase": "source_expansion",
+    "language": "sv",
+    "active_requirement_count": 12,
+    "scope": "TSFS 2021:119, 3 kap. 19-22 §§",
+    "created_at": "2026-09-10",
+    "last_verified_at": "2026-09-10"
+  },
+  "source_catalog": [
+    {
+      "source_key": "TSFS_2021_119_CONSOLIDATED",
+      "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+      "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+    },
+    {
+      "source_key": "AV_BELASTNINGSERGONOMI",
+      "source_title": "Belastningsergonomi",
+      "source_type": "official_work_environment_guidance",
+      "authority": "Arbetsmiljöverket",
+      "legal_reference": "Belastningsergonomi, risker och förebyggande arbete",
+      "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/",
+      "relevant_chapter_section": "Belastningsergonomi, risker och förebyggande arbete",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Occupational risks from lifting, repetitive work, awkward positions and recovery."
+    },
+    {
+      "source_key": "AV_ARBETSDON",
+      "source_title": "Arbetsställningar och arbetsrörelser",
+      "source_type": "official_work_environment_guidance",
+      "authority": "Arbetsmiljöverket",
+      "legal_reference": "Arbetsställningar och arbetsrörelser",
+      "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/arbetsstallningar-och-arbetsrorelser/",
+      "relevant_chapter_section": "Arbetsställningar och arbetsrörelser",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Practical guidance on posture, variation and reducing physical load."
+    },
+    {
+      "source_key": "AV_HOT_VALD",
+      "source_title": "Våld och hot om våld",
+      "source_type": "official_work_environment_guidance",
+      "authority": "Arbetsmiljöverket",
+      "legal_reference": "Våld och hot om våld i arbetsmiljön",
+      "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/",
+      "relevant_chapter_section": "Våld och hot om våld i arbetsmiljön",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Relevant to lone work, difficult passengers, routines and incident reporting."
+    },
+    {
+      "source_key": "TRV_TRÖTTHET",
+      "source_title": "Trötthet i trafiken",
+      "source_type": "official_road_safety_guidance",
+      "authority": "Trafikverket",
+      "legal_reference": "Trötthet och trafiksäkerhet",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/trafikant/trotthet/",
+      "relevant_chapter_section": "Trötthet och trafiksäkerhet",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Documented risk effects of fatigue and the need to stop when driving ability is affected."
+    },
+    {
+      "source_key": "TS_MEDICINER_KORNING",
+      "source_title": "Läkemedel och bilkörning",
+      "source_type": "official_transport_guidance",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Läkemedel, körförmåga och trafiksäkerhet",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/korkortsregler/medicinska-krav/",
+      "relevant_chapter_section": "Läkemedel, körförmåga och trafiksäkerhet",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Driver must assess effects and follow warnings and healthcare advice; no unsupported dosage claims."
+    },
+    {
+      "source_key": "1177_ALKOHOL_DROGER",
+      "source_title": "Alkohol och droger",
+      "source_type": "authoritative_health_guidance",
+      "authority": "1177 Vårdguiden",
+      "legal_reference": "Alkohol, droger och körförmåga",
+      "url": "https://www.1177.se/liv--halsa/beroende-och-skadligt-bruk/alkohol/",
+      "relevant_chapter_section": "Alkohol, droger och körförmåga",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Used for documented impairment effects, not as a substitute for legal limits."
+    },
+    {
+      "source_key": "TSFS_MOBILTELEFON",
+      "source_title": "Användning av kommunikationsutrustning under färd",
+      "source_type": "primary_legal_source",
+      "authority": "Transportstyrelsen",
+      "legal_reference": "Trafikförordning (1998:1276), 4 kap. 10 e §",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/mobiltelefon-och-annan-kommunikationsutrustning/",
+      "relevant_chapter_section": "Trafikförordning (1998:1276), 4 kap. 10 e §",
+      "source_status": "VERIFIED",
+      "last_verified_at": "2026-09-10",
+      "notes": "Legal rule and official explanation for mobile phone and communication equipment use."
+    }
+  ],
+  "requirement_source_map": [
+    {
+      "requirement_key": "D1-WORK-019-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 19 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "AV_BELASTNINGSERGONOMI",
+          "source_title": "Belastningsergonomi",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Belastningsergonomi, risker och förebyggande arbete",
+          "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/",
+          "relevant_chapter_section": "Belastningsergonomi, risker och förebyggande arbete",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Occupational risks from lifting, repetitive work, awkward positions and recovery."
+        },
+        {
+          "source_key": "AV_HOT_VALD",
+          "source_title": "Våld och hot om våld",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Våld och hot om våld i arbetsmiljön",
+          "url": "https://www.av.se/halsa-och-sakerhet/vald-och-hot-om-vald/",
+          "relevant_chapter_section": "Våld och hot om våld i arbetsmiljön",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Relevant to lone work, difficult passengers, routines and incident reporting."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-020-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 20 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "AV_BELASTNINGSERGONOMI",
+          "source_title": "Belastningsergonomi",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Belastningsergonomi, risker och förebyggande arbete",
+          "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/",
+          "relevant_chapter_section": "Belastningsergonomi, risker och förebyggande arbete",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Occupational risks from lifting, repetitive work, awkward positions and recovery."
+        },
+        {
+          "source_key": "AV_ARBETSDON",
+          "source_title": "Arbetsställningar och arbetsrörelser",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Arbetsställningar och arbetsrörelser",
+          "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/arbetsstallningar-och-arbetsrorelser/",
+          "relevant_chapter_section": "Arbetsställningar och arbetsrörelser",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Practical guidance on posture, variation and reducing physical load."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-020-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 20 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "AV_BELASTNINGSERGONOMI",
+          "source_title": "Belastningsergonomi",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Belastningsergonomi, risker och förebyggande arbete",
+          "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/",
+          "relevant_chapter_section": "Belastningsergonomi, risker och förebyggande arbete",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Occupational risks from lifting, repetitive work, awkward positions and recovery."
+        },
+        {
+          "source_key": "AV_ARBETSDON",
+          "source_title": "Arbetsställningar och arbetsrörelser",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Arbetsställningar och arbetsrörelser",
+          "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/arbetsstallningar-och-arbetsrorelser/",
+          "relevant_chapter_section": "Arbetsställningar och arbetsrörelser",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Practical guidance on posture, variation and reducing physical load."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-020-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 20 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "AV_ARBETSDON",
+          "source_title": "Arbetsställningar och arbetsrörelser",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Arbetsställningar och arbetsrörelser",
+          "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/arbetsstallningar-och-arbetsrorelser/",
+          "relevant_chapter_section": "Arbetsställningar och arbetsrörelser",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Practical guidance on posture, variation and reducing physical load."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-021-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 21 § 1",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "TS_MEDICINER_KORNING",
+          "source_title": "Läkemedel och bilkörning",
+          "source_type": "official_transport_guidance",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Läkemedel, körförmåga och trafiksäkerhet",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/korkortsregler/medicinska-krav/",
+          "relevant_chapter_section": "Läkemedel, körförmåga och trafiksäkerhet",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Driver must assess effects and follow warnings and healthcare advice; no unsupported dosage claims."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-021-002",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 21 § 2",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "1177_ALKOHOL_DROGER",
+          "source_title": "Alkohol och droger",
+          "source_type": "authoritative_health_guidance",
+          "authority": "1177 Vårdguiden",
+          "legal_reference": "Alkohol, droger och körförmåga",
+          "url": "https://www.1177.se/liv--halsa/beroende-och-skadligt-bruk/alkohol/",
+          "relevant_chapter_section": "Alkohol, droger och körförmåga",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Used for documented impairment effects, not as a substitute for legal limits."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-021-003",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 21 § 3",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "TRV_TRÖTTHET",
+          "source_title": "Trötthet i trafiken",
+          "source_type": "official_road_safety_guidance",
+          "authority": "Trafikverket",
+          "legal_reference": "Trötthet och trafiksäkerhet",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/trafikant/trotthet/",
+          "relevant_chapter_section": "Trötthet och trafiksäkerhet",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Documented risk effects of fatigue and the need to stop when driving ability is affected."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-021-004",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 21 § 4",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "AV_BELASTNINGSERGONOMI",
+          "source_title": "Belastningsergonomi",
+          "source_type": "official_work_environment_guidance",
+          "authority": "Arbetsmiljöverket",
+          "legal_reference": "Belastningsergonomi, risker och förebyggande arbete",
+          "url": "https://www.av.se/halsa-och-sakerhet/belastningsergonomi/",
+          "relevant_chapter_section": "Belastningsergonomi, risker och förebyggande arbete",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Occupational risks from lifting, repetitive work, awkward positions and recovery."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-021-005",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 21 § 5",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "TRV_TRÖTTHET",
+          "source_title": "Trötthet i trafiken",
+          "source_type": "official_road_safety_guidance",
+          "authority": "Trafikverket",
+          "legal_reference": "Trötthet och trafiksäkerhet",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/trafikant/trotthet/",
+          "relevant_chapter_section": "Trötthet och trafiksäkerhet",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Documented risk effects of fatigue and the need to stop when driving ability is affected."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-021-006",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 21 § 6",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "TRV_TRÖTTHET",
+          "source_title": "Trötthet i trafiken",
+          "source_type": "official_road_safety_guidance",
+          "authority": "Trafikverket",
+          "legal_reference": "Trötthet och trafiksäkerhet",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/trafikant/trotthet/",
+          "relevant_chapter_section": "Trötthet och trafiksäkerhet",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Documented risk effects of fatigue and the need to stop when driving ability is affected."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-021-007",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 21 § 7",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "TRV_TRÖTTHET",
+          "source_title": "Trötthet i trafiken",
+          "source_type": "official_road_safety_guidance",
+          "authority": "Trafikverket",
+          "legal_reference": "Trötthet och trafiksäkerhet",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/trafikant/trotthet/",
+          "relevant_chapter_section": "Trötthet och trafiksäkerhet",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Documented risk effects of fatigue and the need to stop when driving ability is affected."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    },
+    {
+      "requirement_key": "D1-WORK-022-001",
+      "official_requirement_reference": "TSFS 2021:119, 3 kap. 22 §",
+      "sources": [
+        {
+          "source_key": "TSFS_2021_119_CONSOLIDATED",
+          "source_title": "Transportstyrelsens föreskrifter och allmänna råd om taxiförarlegitimation",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/forfattningssamling/sok-ts-foreskrifter/details?RuleNumber=2023%3A35&ruleprefix=TSFS",
+          "relevant_chapter_section": "TSFS 2021:119, 3 kap. 19-22 §§",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Primary curriculum authority for D1 work environment, judgement and risk awareness."
+        },
+        {
+          "source_key": "TSFS_MOBILTELEFON",
+          "source_title": "Användning av kommunikationsutrustning under färd",
+          "source_type": "primary_legal_source",
+          "authority": "Transportstyrelsen",
+          "legal_reference": "Trafikförordning (1998:1276), 4 kap. 10 e §",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/mobiltelefon-och-annan-kommunikationsutrustning/",
+          "relevant_chapter_section": "Trafikförordning (1998:1276), 4 kap. 10 e §",
+          "source_status": "VERIFIED",
+          "last_verified_at": "2026-09-10",
+          "notes": "Legal rule and official explanation for mobile phone and communication equipment use."
+        }
+      ],
+      "overall_status": "FULLY_SOURCED",
+      "notes": "Binding curriculum requirement is kept distinct from occupational-safety or practical guidance."
+    }
+  ],
+  "pedagogical_topics": [
+    {
+      "topic_id": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "title": "Arbetsrisker i taxiarbetet",
+      "order": 1,
+      "requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "visual_asset_ids": [
+        "work_environment_risk_map"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen topic name."
+    },
+    {
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "title": "Belastning, lyft och hjälpmedel",
+      "order": 2,
+      "requirement_keys": [
+        "D1-WORK-020-001",
+        "D1-WORK-020-002"
+      ],
+      "visual_asset_ids": [
+        "work_lifting_posture"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen topic name."
+    },
+    {
+      "topic_id": "topic_d1_work_korstallning_och_variation",
+      "title": "Körställning och variation",
+      "order": 3,
+      "requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "visual_asset_ids": [
+        "work_driver_posture"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen topic name."
+    },
+    {
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "title": "Påverkan och körförmåga",
+      "order": 4,
+      "requirement_keys": [
+        "D1-WORK-021-001",
+        "D1-WORK-021-002",
+        "D1-WORK-021-004",
+        "D1-WORK-021-005"
+      ],
+      "visual_asset_ids": [
+        "work_impairment_decision"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen topic name."
+    },
+    {
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "title": "Trötthet, stress och arbetscykel",
+      "order": 5,
+      "requirement_keys": [
+        "D1-WORK-021-003",
+        "D1-WORK-021-006",
+        "D1-WORK-021-007"
+      ],
+      "visual_asset_ids": [
+        "work_night_shift_decision"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen topic name."
+    },
+    {
+      "topic_id": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "title": "Utrustning och riskmedvetenhet under färd",
+      "order": 6,
+      "requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "visual_asset_ids": [
+        "work_distraction_scene"
+      ],
+      "status": "published",
+      "notes": "Internal pedagogical grouping, not an official Transportstyrelsen topic name."
+    }
+  ]
+}

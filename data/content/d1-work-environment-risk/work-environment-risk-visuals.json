@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "subject": "D1_WORK_ENVIRONMENT_RISK",
+    "status": "placeholder_metadata",
+    "created_at": "2026-09-10",
+    "note": "Visual metadata only; published questions remain answerable without an asset."
+  },
+  "visuals": [
+    {
+      "visual_id": "work_environment_risk_map",
+      "visual_type": "work_environment_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Visual metadata för arbetsrisker i taxiarbetet.",
+      "elements_must_be_shown": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "labels_required": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-WORK-FACT-001",
+        "D1-WORK-WORK-FACT-002",
+        "D1-WORK-WORK-FACT-003",
+        "D1-WORK-WORK-FACT-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+    },
+    {
+      "visual_id": "work_lifting_posture",
+      "visual_type": "work_environment_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Visual metadata för belastning, lyft och hjälpmedel.",
+      "elements_must_be_shown": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "labels_required": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "requirement_keys": [
+        "D1-WORK-020-001",
+        "D1-WORK-020-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-001",
+        "D1-WORK-LIFT-FACT-002",
+        "D1-WORK-LIFT-FACT-003",
+        "D1-WORK-LIFT-FACT-004",
+        "D1-WORK-LIFT-FACT-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+    },
+    {
+      "visual_id": "work_driver_posture",
+      "visual_type": "work_environment_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Visual metadata för körställning och variation.",
+      "elements_must_be_shown": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "labels_required": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-POSTURE-FACT-001",
+        "D1-WORK-POSTURE-FACT-002",
+        "D1-WORK-POSTURE-FACT-003",
+        "D1-WORK-POSTURE-FACT-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+    },
+    {
+      "visual_id": "work_impairment_decision",
+      "visual_type": "work_environment_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Visual metadata för påverkan och körförmåga.",
+      "elements_must_be_shown": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "labels_required": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "requirement_keys": [
+        "D1-WORK-021-001",
+        "D1-WORK-021-002",
+        "D1-WORK-021-004",
+        "D1-WORK-021-005"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-001",
+        "D1-WORK-FITNESS-FACT-002",
+        "D1-WORK-FITNESS-FACT-003",
+        "D1-WORK-FITNESS-FACT-004",
+        "D1-WORK-FITNESS-FACT-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+    },
+    {
+      "visual_id": "work_night_shift_decision",
+      "visual_type": "work_environment_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Visual metadata för trötthet, stress och arbetscykel.",
+      "elements_must_be_shown": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "labels_required": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "requirement_keys": [
+        "D1-WORK-021-003",
+        "D1-WORK-021-006",
+        "D1-WORK-021-007"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-001",
+        "D1-WORK-RECOVERY-FACT-002",
+        "D1-WORK-RECOVERY-FACT-003",
+        "D1-WORK-RECOVERY-FACT-004",
+        "D1-WORK-RECOVERY-FACT-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+    },
+    {
+      "visual_id": "work_distraction_scene",
+      "visual_type": "distraction_scenario",
+      "status": "placeholder_metadata",
+      "purpose": "Visual metadata för utrustning och riskmedvetenhet under färd.",
+      "elements_must_be_shown": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "labels_required": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-EQUIPMENT-FACT-001",
+        "D1-WORK-EQUIPMENT-FACT-002",
+        "D1-WORK-EQUIPMENT-FACT-003",
+        "D1-WORK-EQUIPMENT-FACT-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+    }
+  ]
+}

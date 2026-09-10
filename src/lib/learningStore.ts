@@ -4,6 +4,7 @@ import {
   createAttemptSnapshot,
   scoreAttempt,
   selectCheckpointQuestions,
+  selectDisplayedQuestionsForBlueprint,
   selectSubjectCheckpointQuestions,
   type Answer,
   type Attempt,
@@ -119,14 +120,42 @@ export function startCheckpointAttempt(userId: string, assessmentId: string) {
   return attempt;
 }
 
-export function submitAttempt(attemptId: string, selectedChoicesByAttemptQuestionId: Record<string, string>) {
+export function startMockAttempt(userId: string, blueprintId: string) {
+  const blueprint = vilotiderRepository.examBlueprints.find((candidate) => candidate.id === blueprintId);
+  if (!blueprint || blueprint.type !== 'mock_exam') {
+    throw new Error(`Mock blueprint ${blueprintId} was not found.`);
+  }
+
+  const selectedQuestions = selectDisplayedQuestionsForBlueprint(blueprint, vilotiderRepository.questionVersions, {
+    seed: `${blueprint.id}:${Date.now()}`,
+  });
+  if (selectedQuestions.length !== blueprint.totalDisplayedQuestionCount) {
+    throw new Error(`Mock blueprint ${blueprintId} could not select its full question set.`);
+  }
+
+  const attempt = createAttemptSnapshot({
+    userId,
+    assessmentId: blueprint.id,
+    type: 'mock_exam',
+    selectedQuestions,
+    passThreshold: blueprint.passThreshold,
+    passingScore: blueprint.passingScore,
+    blueprintVersion: blueprint.version,
+    timeLimitSeconds: blueprint.timeLimitSeconds,
+  });
+  const state = readState();
+  writeState({ ...state, attempts: [...state.attempts, attempt] });
+  return attempt;
+}
+
+export function submitAttempt(attemptId: string, selectedChoicesByAttemptQuestionId: Record<string, string>, timedOut = false) {
   const state = readState();
   const attempt = state.attempts.find((candidate) => candidate.id === attemptId);
   if (!attempt) {
     throw new Error(`Attempt ${attemptId} was not found.`);
   }
 
-  const result = scoreAttempt(attempt, vilotiderRepository.questionVersions, selectedChoicesByAttemptQuestionId);
+  const result = scoreAttempt(attempt, vilotiderRepository.questionVersions, selectedChoicesByAttemptQuestionId, new Date().toISOString(), timedOut);
   const nextState = {
     ...state,
     attempts: state.attempts.map((candidate) => (candidate.id === attemptId ? result.attempt : candidate)),

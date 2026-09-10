@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { Screen } from '@/components/layout/Screen';
 import { SubjectCard } from '@/components/learning/SubjectCard';
+import { PrimaryButton } from '@/components/layout/PrimaryButton';
 import { ThemedText } from '@/components/themed-text';
 import { getSubjectProgress } from '../../../packages/domain/src';
 import { DEMO_USER_ID, getLearningSnapshot } from '@/lib/learningStore';
@@ -22,9 +23,14 @@ export default function ExamScreen() {
       header={
         <>
           <ThemedText type="title">{exam.title}</ThemedText>
-          <ThemedText themeColor="textSecondary">Taxitrafiklagstiftning innehåller den första fungerande Vilotider-slicen.</ThemedText>
+          <ThemedText themeColor="textSecondary">Välj ett ämne eller starta ett fullständigt internt övningsprov.</ThemedText>
         </>
       }>
+      {exam.code === 'D1' && (
+        <Link href={{ pathname: '/exam/[examId]/mock', params: { examId } } as unknown as Href} asChild>
+          <PrimaryButton>Starta fullständigt övningsprov</PrimaryButton>
+        </Link>
+      )}
       {subjects.map((subject) => {
         const topics = repository.topics.filter((topic) => topic.subjectId === subject.id);
         const checkpointAssessment = repository.assessments.find((assessment) => assessment.subjectId === subject.id);

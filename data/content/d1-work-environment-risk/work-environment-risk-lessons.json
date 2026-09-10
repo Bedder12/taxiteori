@@ -1,0 +1,669 @@
+{
+  "metadata": {
+    "subject": "D1_WORK_ENVIRONMENT_RISK",
+    "title": "Mobile-first lessons",
+    "status": "published",
+    "verified_at": "2026-09-10"
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-WORK-WORK-L01",
+      "topic_id": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "title": "Arbetsrisker i taxiarbetet",
+      "learning_objectives": [
+        "Kunna identifiera arbetsrisker i taxiarbetet i en taxisituation.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning.",
+        "Kunna välja ett säkert beslut när tid, kundtryck eller arbetsförhållanden skapar risk."
+      ],
+      "requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-WORK-FACT-001",
+        "D1-WORK-WORK-FACT-002",
+        "D1-WORK-WORK-FACT-003",
+        "D1-WORK-WORK-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_references": [
+            "Belastningsergonomi, risker i arbetet"
+          ]
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 19 §"
+          ]
+        },
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_references": [
+            "Våld och hot om våld, förebyggande arbete",
+            "Våld och hot om våld, arbete med människor och ensamarbete"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_environment_risk_map",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Arbetsrisker i taxiarbetet",
+          "fact_keys": [
+            "D1-WORK-WORK-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka.",
+          "fact_keys": [
+            "D1-WORK-WORK-FACT-001",
+            "D1-WORK-WORK-FACT-002"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiförarens arbete kan innebära upprepade i- och urstigningar, långvarigt sittande, lyft, tidspress, ensamarbete och kontakt med personer i pressade situationer.",
+            "Arbetsrisker behöver uppmärksammas före och under arbetspasset så att arbetsmetod, paus eller uppdrag kan ändras innan säkerheten påverkas.",
+            "Hot och våld i arbete med direktkontakt ska förebyggas med kända rutiner, instruktioner och rapportering av tillbud.",
+            "Ensamarbete och nattarbete kan minska möjligheten att snabbt få stöd och gör planering av kontaktvägar och avbrott viktig."
+          ],
+          "fact_keys": [
+            "D1-WORK-WORK-FACT-001",
+            "D1-WORK-WORK-FACT-002",
+            "D1-WORK-WORK-FACT-003",
+            "D1-WORK-WORK-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett myndighetsråd eller en pedagogisk tillämpning ska inte läsas som en ny lagregel. Vid osäkerhet väljer föraren marginal och avbryter när körförmågan påverkas.",
+          "fact_keys": [
+            "D1-WORK-WORK-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Beslutspunkt: Vilket alternativ minskar risken här, även om det innebär att kunden får vänta eller att uppdraget måste lämnas över?",
+          "fact_keys": [
+            "D1-WORK-WORK-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Lös inte ett arbetsproblem genom att skapa en ny trafiksäkerhetsrisk.",
+          "fact_keys": [
+            "D1-WORK-WORK-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du beskriva vilket beslut som är säkrast och varför?",
+          "fact_keys": [
+            "D1-WORK-WORK-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-WORK-LIFT-L01",
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "title": "Belastning, lyft och hjälpmedel",
+      "learning_objectives": [
+        "Kunna identifiera belastning, lyft och hjälpmedel i en taxisituation.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning.",
+        "Kunna välja ett säkert beslut när tid, kundtryck eller arbetsförhållanden skapar risk."
+      ],
+      "requirement_keys": [
+        "D1-WORK-020-001",
+        "D1-WORK-020-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-001",
+        "D1-WORK-LIFT-FACT-002",
+        "D1-WORK-LIFT-FACT-003",
+        "D1-WORK-LIFT-FACT-004",
+        "D1-WORK-LIFT-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_references": [
+            "Belastningsergonomi, belastande arbetsställningar och arbetsrörelser",
+            "Belastningsergonomi, upprepad och långvarig belastning",
+            "Belastningsergonomi, hjälpmedel och organisering"
+          ]
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 20 § 2"
+          ]
+        },
+        {
+          "source_id": "AV_ARBETSDON",
+          "exact_references": [
+            "Arbetsställningar och arbetsrörelser, planera arbetsrörelsen"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_lifting_posture",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Belastning, lyft och hjälpmedel",
+          "fact_keys": [
+            "D1-WORK-LIFT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+          "fact_keys": [
+            "D1-WORK-LIFT-FACT-001",
+            "D1-WORK-LIFT-FACT-002"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Belastningsrisken ökar när lyft sker långt från kroppen, med vriden rygg, i trångt utrymme eller utan möjlighet att variera arbetet.",
+            "Upprepade lyft och många in- och urstigningar under ett pass kan ge sammanlagd belastning även när varje enskilt moment känns hanterbart.",
+            "Vid förflyttning av passagerare ska föraren använda tillgängliga hjälpmedel och be om hjälp när uppgiften inte kan göras säkert ensam.",
+            "Ett säkrare lyft planeras med stabilt underlag, nära arbetsavstånd och tydlig kommunikation med passageraren."
+          ],
+          "fact_keys": [
+            "D1-WORK-LIFT-FACT-001",
+            "D1-WORK-LIFT-FACT-002",
+            "D1-WORK-LIFT-FACT-003",
+            "D1-WORK-LIFT-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett myndighetsråd eller en pedagogisk tillämpning ska inte läsas som en ny lagregel. Vid osäkerhet väljer föraren marginal och avbryter när körförmågan påverkas.",
+          "fact_keys": [
+            "D1-WORK-LIFT-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Beslutspunkt: Vilket alternativ minskar risken här, även om det innebär att kunden får vänta eller att uppdraget måste lämnas över?",
+          "fact_keys": [
+            "D1-WORK-LIFT-FACT-005"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Lös inte ett arbetsproblem genom att skapa en ny trafiksäkerhetsrisk.",
+          "fact_keys": [
+            "D1-WORK-LIFT-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du beskriva vilket beslut som är säkrast och varför?",
+          "fact_keys": [
+            "D1-WORK-LIFT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-WORK-POSTURE-L01",
+      "topic_id": "topic_d1_work_korstallning_och_variation",
+      "title": "Körställning och variation",
+      "learning_objectives": [
+        "Kunna identifiera körställning och variation i en taxisituation.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning.",
+        "Kunna välja ett säkert beslut när tid, kundtryck eller arbetsförhållanden skapar risk."
+      ],
+      "requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-POSTURE-FACT-001",
+        "D1-WORK-POSTURE-FACT-002",
+        "D1-WORK-POSTURE-FACT-003",
+        "D1-WORK-POSTURE-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 20 § 3"
+          ]
+        },
+        {
+          "source_id": "AV_ARBETSDON",
+          "exact_references": [
+            "Arbetsställningar och arbetsrörelser, anpassa arbetsplatsen"
+          ]
+        },
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_references": [
+            "Belastningsergonomi, långvarigt sittande och variation"
+          ]
+        },
+        {
+          "source_id": "TSFS_MOBILTELEFON",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 4 kap. 10 e §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_driver_posture",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Körställning och variation",
+          "fact_keys": [
+            "D1-WORK-POSTURE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel.",
+          "fact_keys": [
+            "D1-WORK-POSTURE-FACT-001",
+            "D1-WORK-POSTURE-FACT-002"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "En rätt körställning ger föraren kontroll över reglage och sikt utan att kroppen behöver hållas i en onödigt spänd eller vriden position.",
+            "Stol, ratt, speglar och nackstöd ska ställas in så att föraren når reglagen, ser runt fordonet och kan arbeta med stöd för kroppen.",
+            "Långvarigt sittande i samma ställning gör variation, korta avbrott och möjlighet att justera arbetsplatsen viktig.",
+            "En förare ska inte lösa en obekväm körställning genom att sträcka sig efter utrustning under pågående körning."
+          ],
+          "fact_keys": [
+            "D1-WORK-POSTURE-FACT-001",
+            "D1-WORK-POSTURE-FACT-002",
+            "D1-WORK-POSTURE-FACT-003",
+            "D1-WORK-POSTURE-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett myndighetsråd eller en pedagogisk tillämpning ska inte läsas som en ny lagregel. Vid osäkerhet väljer föraren marginal och avbryter när körförmågan påverkas.",
+          "fact_keys": [
+            "D1-WORK-POSTURE-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Beslutspunkt: Vilket alternativ minskar risken här, även om det innebär att kunden får vänta eller att uppdraget måste lämnas över?",
+          "fact_keys": [
+            "D1-WORK-POSTURE-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Lös inte ett arbetsproblem genom att skapa en ny trafiksäkerhetsrisk.",
+          "fact_keys": [
+            "D1-WORK-POSTURE-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du beskriva vilket beslut som är säkrast och varför?",
+          "fact_keys": [
+            "D1-WORK-POSTURE-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-L01",
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "title": "Påverkan och körförmåga",
+      "learning_objectives": [
+        "Kunna identifiera påverkan och körförmåga i en taxisituation.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning.",
+        "Kunna välja ett säkert beslut när tid, kundtryck eller arbetsförhållanden skapar risk."
+      ],
+      "requirement_keys": [
+        "D1-WORK-021-001",
+        "D1-WORK-021-002",
+        "D1-WORK-021-004",
+        "D1-WORK-021-005"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-001",
+        "D1-WORK-FITNESS-FACT-002",
+        "D1-WORK-FITNESS-FACT-003",
+        "D1-WORK-FITNESS-FACT-004",
+        "D1-WORK-FITNESS-FACT-005",
+        "D1-WORK-FITNESS-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TS_MEDICINER_KORNING",
+          "exact_references": [
+            "Läkemedel, körförmåga och medicinska krav",
+            "Medicinska krav och läkemedel"
+          ]
+        },
+        {
+          "source_id": "1177_ALKOHOL_DROGER",
+          "exact_references": [
+            "Alkohol och påverkan på kroppen och omdömet"
+          ]
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 21 § 2",
+            "TSFS 2021:119, 3 kap. 21 § 4",
+            "TSFS 2021:119, 3 kap. 21 § 5"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_impairment_decision",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Påverkan och körförmåga",
+          "fact_keys": [
+            "D1-WORK-FITNESS-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+          "fact_keys": [
+            "D1-WORK-FITNESS-FACT-001",
+            "D1-WORK-FITNESS-FACT-002"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Läkemedel kan påverka exempelvis vakenhet, reaktionsförmåga eller omdöme; föraren ska läsa varningar och bedöma sin körförmåga.",
+            "Vid osäkerhet om ett läkemedels påverkan ska föraren söka individuell rådgivning och inte chansa med en körning.",
+            "Alkohol och andra droger kan försämra omdöme, uppmärksamhet, reaktion och förmåga att värdera risker.",
+            "En förare ska inte köra efter alkohol eller droger även om föraren själv upplever sig som kapabel."
+          ],
+          "fact_keys": [
+            "D1-WORK-FITNESS-FACT-001",
+            "D1-WORK-FITNESS-FACT-002",
+            "D1-WORK-FITNESS-FACT-003",
+            "D1-WORK-FITNESS-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett myndighetsråd eller en pedagogisk tillämpning ska inte läsas som en ny lagregel. Vid osäkerhet väljer föraren marginal och avbryter när körförmågan påverkas.",
+          "fact_keys": [
+            "D1-WORK-FITNESS-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Beslutspunkt: Vilket alternativ minskar risken här, även om det innebär att kunden får vänta eller att uppdraget måste lämnas över?",
+          "fact_keys": [
+            "D1-WORK-FITNESS-FACT-006"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Kör inte vidare på en chansning när påverkan eller trötthet försämrar din förmåga.",
+          "fact_keys": [
+            "D1-WORK-FITNESS-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du beskriva vilket beslut som är säkrast och varför?",
+          "fact_keys": [
+            "D1-WORK-FITNESS-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-L01",
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "title": "Trötthet, stress och arbetscykel",
+      "learning_objectives": [
+        "Kunna identifiera trötthet, stress och arbetscykel i en taxisituation.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning.",
+        "Kunna välja ett säkert beslut när tid, kundtryck eller arbetsförhållanden skapar risk."
+      ],
+      "requirement_keys": [
+        "D1-WORK-021-003",
+        "D1-WORK-021-006",
+        "D1-WORK-021-007"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-001",
+        "D1-WORK-RECOVERY-FACT-002",
+        "D1-WORK-RECOVERY-FACT-003",
+        "D1-WORK-RECOVERY-FACT-004",
+        "D1-WORK-RECOVERY-FACT-005",
+        "D1-WORK-RECOVERY-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TRV_TRÖTTHET",
+          "exact_references": [
+            "Trötthet och trafiksäkerhet",
+            "Trötthet och trafiksäkerhet, åtgärder",
+            "Trötthet och trafiksäkerhet, arbetstid och återhämtning",
+            "Trötthet och trafiksäkerhet, praktisk riskbedömning"
+          ]
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 21 § 6",
+            "TSFS 2021:119, 3 kap. 21 § 7"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_night_shift_decision",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Trötthet, stress och arbetscykel",
+          "fact_keys": [
+            "D1-WORK-RECOVERY-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+          "fact_keys": [
+            "D1-WORK-RECOVERY-FACT-001",
+            "D1-WORK-RECOVERY-FACT-002"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Trötthet kan försämra uppmärksamhet, reaktion och omdöme och kan göra att föraren missar risker.",
+            "När tröttheten påverkar körförmågan är det säkra beslutet att avbryta eller ta en ordentlig återhämtning innan körningen fortsätter.",
+            "Oregelbundna måltider eller att inte ha ätit kan påverka ork och koncentration; föraren behöver planera arbetsdagen så att körförmågan inte försämras.",
+            "Långa pass, nattarbete och för kort återhämtning kan öka trötthet och minska marginalerna i trafiken."
+          ],
+          "fact_keys": [
+            "D1-WORK-RECOVERY-FACT-001",
+            "D1-WORK-RECOVERY-FACT-002",
+            "D1-WORK-RECOVERY-FACT-003",
+            "D1-WORK-RECOVERY-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett myndighetsråd eller en pedagogisk tillämpning ska inte läsas som en ny lagregel. Vid osäkerhet väljer föraren marginal och avbryter när körförmågan påverkas.",
+          "fact_keys": [
+            "D1-WORK-RECOVERY-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Beslutspunkt: Vilket alternativ minskar risken här, även om det innebär att kunden får vänta eller att uppdraget måste lämnas över?",
+          "fact_keys": [
+            "D1-WORK-RECOVERY-FACT-006"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Kör inte vidare på en chansning när påverkan eller trötthet försämrar din förmåga.",
+          "fact_keys": [
+            "D1-WORK-RECOVERY-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du beskriva vilket beslut som är säkrast och varför?",
+          "fact_keys": [
+            "D1-WORK-RECOVERY-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-WORK-EQUIPMENT-L01",
+      "topic_id": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "title": "Utrustning och riskmedvetenhet under färd",
+      "learning_objectives": [
+        "Kunna identifiera utrustning och riskmedvetenhet under färd i en taxisituation.",
+        "Kunna skilja mellan bindande krav, myndighetsvägledning och praktisk riskbedömning.",
+        "Kunna välja ett säkert beslut när tid, kundtryck eller arbetsförhållanden skapar risk."
+      ],
+      "requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-EQUIPMENT-FACT-001",
+        "D1-WORK-EQUIPMENT-FACT-002",
+        "D1-WORK-EQUIPMENT-FACT-003",
+        "D1-WORK-EQUIPMENT-FACT-004"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_MOBILTELEFON",
+          "exact_references": [
+            "Trafikförordning (1998:1276), 4 kap. 10 e §",
+            "Trafikförordning (1998:1276), 4 kap. 10 e §"
+          ]
+        },
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 22 §",
+            "TSFS 2021:119, 3 kap. 22 §"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 8,
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_distraction_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Utrustning och riskmedvetenhet under färd",
+          "fact_keys": [
+            "D1-WORK-EQUIPMENT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras.",
+          "fact_keys": [
+            "D1-WORK-EQUIPMENT-FACT-001",
+            "D1-WORK-EQUIPMENT-FACT-002"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Mobiltelefon, kommunikationsutrustning, taxameter och navigation får inte användas på ett sätt som gör körningen farlig eller tar uppmärksamheten från trafiken.",
+            "Föraren ska planera in knapptryckningar och adresskontroller när fordonet står säkert, inte lösa dem genom att titta bort under körning.",
+            "En kunds krav på snabb omplanering ändrar inte förarens ansvar att behålla uppmärksamheten på körningen.",
+            "Riskmedveten användning av utrustning innebär att föraren avstår från åtgärden när den inte kan göras utan att körningen påverkas."
+          ],
+          "fact_keys": [
+            "D1-WORK-EQUIPMENT-FACT-001",
+            "D1-WORK-EQUIPMENT-FACT-002",
+            "D1-WORK-EQUIPMENT-FACT-003",
+            "D1-WORK-EQUIPMENT-FACT-004"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett myndighetsråd eller en pedagogisk tillämpning ska inte läsas som en ny lagregel. Vid osäkerhet väljer föraren marginal och avbryter när körförmågan påverkas.",
+          "fact_keys": [
+            "D1-WORK-EQUIPMENT-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Beslutspunkt: Vilket alternativ minskar risken här, även om det innebär att kunden får vänta eller att uppdraget måste lämnas över?",
+          "fact_keys": [
+            "D1-WORK-EQUIPMENT-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Lös inte ett arbetsproblem genom att skapa en ny trafiksäkerhetsrisk.",
+          "fact_keys": [
+            "D1-WORK-EQUIPMENT-FACT-001"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du beskriva vilket beslut som är säkrast och varför?",
+          "fact_keys": [
+            "D1-WORK-EQUIPMENT-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

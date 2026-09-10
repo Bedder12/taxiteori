@@ -1,0 +1,886 @@
+{
+  "metadata": {
+    "subject": "D1_SERVICE",
+    "title": "D1 service lessons",
+    "status": "published",
+    "verified_at": "2026-09-10",
+    "note": "Source-backed mobile-first lessons for taxi-driver service and passenger communication competency."
+  },
+  "lessons": [
+    {
+      "stable_key": "D1-SERV-PRO-L01",
+      "topic_id": "topic_d1_service_professionellt_bemotande",
+      "title": "Professionellt bemötande och diskretion",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till professionellt bemötande och diskretion.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-016-001",
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRO-FACT-001",
+        "D1-SERV-PRO-FACT-002",
+        "D1-SERV-PRO-FACT-003",
+        "D1-SERV-PRO-FACT-004",
+        "D1-SERV-PRO-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 16 § 1",
+            "TSFS 2021:119, 3 kap. 16 § 1",
+            "TSFS 2021:119, 3 kap. 16 § 1 och 16 § 3",
+            "TSFS 2021:119, 3 kap. 16 § 3",
+            "TSFS 2021:119, 3 kap. 16 § 1-3"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Professionellt bemötande och diskretion",
+          "fact_keys": [
+            "D1-SERV-PRO-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-PRO-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska förstå innebörden av att vara serviceinriktad och vikten av diskretion.",
+            "Diskretion i taxiarbetet innebär att inte sprida, kommentera eller utnyttja privat information som föraren får genom uppdraget.",
+            "Serviceinriktning innebär att göra resan tydlig, trygg och respektfull utan att ta över passagerarens självbestämmande.",
+            "Olika människor kan ha olika förutsättningar och behov, och bemötandet ska utgå från den enskilda passagerarens situation.",
+            "Ett professionellt bemötande kombinerar vänlighet med tydliga gränser, trafiksäkerhet och respekt för kundens integritet."
+          ],
+          "fact_keys": [
+            "D1-SERV-PRO-FACT-001",
+            "D1-SERV-PRO-FACT-002",
+            "D1-SERV-PRO-FACT-003",
+            "D1-SERV-PRO-FACT-004",
+            "D1-SERV-PRO-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett bra svar är konkret: fråga, bekräfta, förklara eller agera på ett sätt som minskar missförstånd.",
+          "fact_keys": [
+            "D1-SERV-PRO-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En kund pratar i telefon om privata ärenden. Du kommenterar inte samtalet och berättar inte vidare vad du hört.",
+          "fact_keys": [
+            "D1-SERV-PRO-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-PRO-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-PRO-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SERV-COM-L01",
+      "topic_id": "topic_d1_service_kommunikation_onskemal",
+      "title": "Kommunikation om behov och önskemål",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till kommunikation om behov och önskemål.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-016-002",
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-COM-FACT-001",
+        "D1-SERV-COM-FACT-002",
+        "D1-SERV-COM-FACT-003",
+        "D1-SERV-COM-FACT-004",
+        "D1-SERV-COM-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 16 § 2",
+            "TSFS 2021:119, 3 kap. 16 § 2",
+            "TSFS 2021:119, 3 kap. 16 § 2-3"
+          ]
+        },
+        {
+          "source_id": "DO_BRISTANDE_TILLGANGLIGHET",
+          "exact_references": [
+            "Vilka tillgänglighetsåtgärder är rimliga att begära?"
+          ]
+        },
+        {
+          "source_id": "DO_TILLGANGLIGHET_FAQ",
+          "exact_references": [
+            "Exempel på skäliga tillgänglighetsåtgärder"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Kommunikation om behov och önskemål",
+          "fact_keys": [
+            "D1-SERV-COM-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-COM-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska kunna kommunicera med passagerare för att tillmötesgå deras behov och önskemål.",
+            "När ett önskemål är oklart bör föraren fråga kort och bekräfta vad kunden vill innan färden fortsätter.",
+            "Kommunikationen ska vara saklig och begriplig även när kunden är stressad, osäker eller har svårt att förstå instruktionen.",
+            "Tillgänglighet kan handla om information, kommunikation, stöd och personlig service.",
+            "Enklare tillgänglighetsåtgärder kan vara att läsa upp information, ledsaga en person eller flytta sådant som står i vägen."
+          ],
+          "fact_keys": [
+            "D1-SERV-COM-FACT-001",
+            "D1-SERV-COM-FACT-002",
+            "D1-SERV-COM-FACT-003",
+            "D1-SERV-COM-FACT-004",
+            "D1-SERV-COM-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett bra svar är konkret: fråga, bekräfta, förklara eller agera på ett sätt som minskar missförstånd.",
+          "fact_keys": [
+            "D1-SERV-COM-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Kunden säger bara att hen vill åka \"snabbaste vägen\". Du bekräftar om kunden menar kortast tid, inte lägst pris eller särskild väg.",
+          "fact_keys": [
+            "D1-SERV-COM-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-COM-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-COM-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SERV-CONFLICT-L01",
+      "topic_id": "topic_d1_service_svara_passagerarsituationer",
+      "title": "Svåra passagerarsituationer",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till svåra passagerarsituationer.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-001"
+      ],
+      "fact_keys": [
+        "D1-SERV-CONFLICT-FACT-001",
+        "D1-SERV-CONFLICT-FACT-002",
+        "D1-SERV-CONFLICT-FACT-003",
+        "D1-SERV-CONFLICT-FACT-004",
+        "D1-SERV-CONFLICT-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 17 § 1",
+            "TSFS 2021:119, 3 kap. 17 § 1"
+          ]
+        },
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_references": [
+            "Våld och hot om våld, arbete med människor",
+            "Våld och hot om våld, förebyggande arbete",
+            "Våld och hot om våld, risker i arbetet"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Svåra passagerarsituationer",
+          "fact_keys": [
+            "D1-SERV-CONFLICT-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-CONFLICT-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska kunna redogöra för lämpliga sätt att hantera situationer med alkohol- eller drogpåverkade passagerare.",
+            "Vid påverkad eller irriterad passagerare bör föraren hålla kommunikationen lugn, konkret och inriktad på nästa säkra steg.",
+            "Arbete med direktkontakt med människor kan innebära risk för hot och våld, vilket gör rutiner och tydliga gränser viktiga.",
+            "Ett lämpligt bemötande av en påverkad passagerare ska undvika upptrappning och samtidigt skydda förare, passagerare och trafiksäkerhet.",
+            "Om ett bemötandeproblem blir en säkerhetsrisk ska säkerhetsrutiner och larmmöjligheter prioriteras före serviceambition."
+          ],
+          "fact_keys": [
+            "D1-SERV-CONFLICT-FACT-001",
+            "D1-SERV-CONFLICT-FACT-002",
+            "D1-SERV-CONFLICT-FACT-003",
+            "D1-SERV-CONFLICT-FACT-004",
+            "D1-SERV-CONFLICT-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett bra svar är konkret: fråga, bekräfta, förklara eller agera på ett sätt som minskar missförstånd.",
+          "fact_keys": [
+            "D1-SERV-CONFLICT-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En påverkad passagerare blir irriterad över betalningen. Du håller låg röst, ger konkret information och undviker att argumentera om personen.",
+          "fact_keys": [
+            "D1-SERV-CONFLICT-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-CONFLICT-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-CONFLICT-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SERV-CHILD-L01",
+      "topic_id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "title": "Barn, ledsagare och självbestämmande",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till barn, ledsagare och självbestämmande.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-002A",
+        "D1-SERV-017-003",
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-CHILD-FACT-001",
+        "D1-SERV-CHILD-FACT-002",
+        "D1-SERV-CHILD-FACT-003",
+        "D1-SERV-CHILD-FACT-004",
+        "D1-SERV-CHILD-FACT-005"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 17 § 2",
+            "TSFS 2021:119, 3 kap. 17 § 3",
+            "TSFS 2021:119, 3 kap. 17 § 2",
+            "TSFS 2021:119, 3 kap. 16 § 3 och 17 § 3",
+            "TSFS 2021:119, 3 kap. 16 § 3"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Barn, ledsagare och självbestämmande",
+          "fact_keys": [
+            "D1-SERV-CHILD-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-CHILD-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska kunna bedöma barns behov och vara lyhörd för krav på service.",
+            "Taxiföraren ska kunna bedöma hur passagerare ska bemötas när ledsagare medföljer.",
+            "När barn reser ska föraren kommunicera på ett tydligt sätt med ansvarig vuxen och samtidigt bemöta barnet respektfullt.",
+            "När ledsagare följer med ska föraren inte automatiskt tala förbi passageraren, utan fråga hur passageraren vill kommunicera.",
+            "Respekt för olika förutsättningar innebär att passagerarens egna önskemål ska bekräftas när det är möjligt."
+          ],
+          "fact_keys": [
+            "D1-SERV-CHILD-FACT-001",
+            "D1-SERV-CHILD-FACT-002",
+            "D1-SERV-CHILD-FACT-003",
+            "D1-SERV-CHILD-FACT-004",
+            "D1-SERV-CHILD-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett bra svar är konkret: fråga, bekräfta, förklara eller agera på ett sätt som minskar missförstånd.",
+          "fact_keys": [
+            "D1-SERV-CHILD-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Ett barn reser med vuxen. Du förklarar kort för den vuxna vad som behövs och bemöter barnet direkt när det gäller enkla frågor.",
+          "fact_keys": [
+            "D1-SERV-CHILD-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-CHILD-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-CHILD-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SERV-ACCESS-L01",
+      "topic_id": "topic_d1_service_syn_horsel_kommunikation",
+      "title": "Syn, hörsel och anpassad kommunikation",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till syn, hörsel och anpassad kommunikation.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-002B",
+        "D1-SERV-017-002C",
+        "D1-SERV-016-003"
+      ],
+      "fact_keys": [
+        "D1-SERV-ACCESS-FACT-001",
+        "D1-SERV-ACCESS-FACT-002",
+        "D1-SERV-ACCESS-FACT-003",
+        "D1-SERV-ACCESS-FACT-004",
+        "D1-SERV-ACCESS-FACT-005",
+        "D1-SERV-ACCESS-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 17 § 2",
+            "TSFS 2021:119, 3 kap. 17 § 2",
+            "TSFS 2021:119, 3 kap. 16 § 3"
+          ]
+        },
+        {
+          "source_id": "DO_TILLGANGLIGHET_FAQ",
+          "exact_references": [
+            "Exempel: läsa upp information och ledsaga en person"
+          ]
+        },
+        {
+          "source_id": "DO_BRISTANDE_TILLGANGLIGHET",
+          "exact_references": [
+            "Tillgänglighet: information och kommunikation"
+          ]
+        },
+        {
+          "source_id": "MFD_START",
+          "exact_references": [
+            "Startsidan, myndighetens uppdrag"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_communication_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Syn, hörsel och anpassad kommunikation",
+          "fact_keys": [
+            "D1-SERV-ACCESS-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-ACCESS-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt syn.",
+            "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt hörsel.",
+            "Vid nedsatt syn kan bemötandet behöva vara mer muntligt beskrivande: presentera dig, ange bilens placering och fråga om stöd önskas.",
+            "Vid nedsatt hörsel kan föraren behöva bekräfta information skriftligt, tydligt visuellt eller genom korta kontroller att budskapet uppfattats.",
+            "Anpassad kommunikation ska bygga på passagerarens uttryckta behov, inte på antaganden om personens förmåga."
+          ],
+          "fact_keys": [
+            "D1-SERV-ACCESS-FACT-001",
+            "D1-SERV-ACCESS-FACT-002",
+            "D1-SERV-ACCESS-FACT-003",
+            "D1-SERV-ACCESS-FACT-004",
+            "D1-SERV-ACCESS-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Här lärs bemötande och praktisk anpassning. Diagnoser, symptom och sjukdomskunskap hör till ett senare ämne.",
+          "fact_keys": [
+            "D1-SERV-ACCESS-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En passagerare verkar inte höra vad du säger. Du vänder dig mot personen, talar tydligt och erbjuder att visa eller skriva informationen.",
+          "fact_keys": [
+            "D1-SERV-ACCESS-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-ACCESS-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-ACCESS-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SERV-AID-L01",
+      "topic_id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "title": "Rörelseförmåga och hjälpmedel",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till rörelseförmåga och hjälpmedel.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-002D",
+        "D1-SERV-017-007"
+      ],
+      "fact_keys": [
+        "D1-SERV-AID-FACT-001",
+        "D1-SERV-AID-FACT-002",
+        "D1-SERV-AID-FACT-003",
+        "D1-SERV-AID-FACT-004",
+        "D1-SERV-AID-FACT-005",
+        "D1-SERV-AID-FACT-006"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 17 § 2",
+            "TSFS 2021:119, 3 kap. 17 § 7",
+            "TSFS 2021:119, 3 kap. 17 § 2",
+            "TSFS 2021:119, 3 kap. 16 § 3 och 17 § 7",
+            "TSFS 2021:119, 3 kap. 16-17 §§"
+          ]
+        },
+        {
+          "source_id": "DO_TILLGANGLIGHET_FAQ",
+          "exact_references": [
+            "Exempel på skäliga tillgänglighetsåtgärder"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_wheelchair_aid_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Rörelseförmåga och hjälpmedel",
+          "fact_keys": [
+            "D1-SERV-AID-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-AID-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska kunna bedöma behov hos passagerare med nedsatt rörelseförmåga.",
+            "Taxiföraren ska kunna hantera rullstolar, rollatorer och andra hjälpmedel som passagerare använder.",
+            "Vid nedsatt rörelseförmåga bör föraren välja en plats för på- eller avstigning som ger tid, utrymme och minskar stress.",
+            "Föraren bör fråga innan hjälpmedel flyttas eller hanteras, eftersom hjälpmedlet är en del av passagerarens självständighet.",
+            "Tillgänglig personlig service kan innebära att ledsaga, flytta hinder eller hjälpa till praktiskt när åtgärden är rimlig och önskad."
+          ],
+          "fact_keys": [
+            "D1-SERV-AID-FACT-001",
+            "D1-SERV-AID-FACT-002",
+            "D1-SERV-AID-FACT-003",
+            "D1-SERV-AID-FACT-004",
+            "D1-SERV-AID-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Här lärs bemötande och praktisk anpassning. Diagnoser, symptom och sjukdomskunskap hör till ett senare ämne.",
+          "fact_keys": [
+            "D1-SERV-AID-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En passagerare använder rollator. Du frågar först om och hur personen vill ha hjälp innan du flyttar hjälpmedlet.",
+          "fact_keys": [
+            "D1-SERV-AID-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-AID-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-AID-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SERV-CLEAN-L01",
+      "topic_id": "topic_d1_service_rent_fordon_dofter_rok",
+      "title": "Rent fordon, dofter och rök",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till rent fordon, dofter och rök.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-004",
+        "D1-SERV-017-005",
+        "D1-SERV-017-006"
+      ],
+      "fact_keys": [
+        "D1-SERV-CLEAN-FACT-001",
+        "D1-SERV-CLEAN-FACT-002",
+        "D1-SERV-CLEAN-FACT-003",
+        "D1-SERV-CLEAN-FACT-004",
+        "D1-SERV-CLEAN-FACT-005",
+        "D1-SERV-CLEAN-FACT-006",
+        "D1-SERV-CLEAN-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 17 § 4",
+            "TSFS 2021:119, 3 kap. 17 § 5",
+            "TSFS 2021:119, 3 kap. 17 § 6",
+            "TSFS 2021:119, 3 kap. 16 § 1 och 17 § 4"
+          ]
+        },
+        {
+          "source_id": "1177_DOFTO",
+          "exact_references": [
+            "Doftöverkänslighet, vad är doftöverkänslighet?"
+          ]
+        },
+        {
+          "source_id": "FHM_ROKFRIA_MILJOER",
+          "exact_references": [
+            "Kollektivtrafik, inomhusmiljöer"
+          ]
+        },
+        {
+          "source_id": "FHM_ROKFRIA_UTOMHUS",
+          "exact_references": [
+            "Taxizoner och rökräckvidd"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 6,
+      "visual_metadata": {
+        "requires_image": true,
+        "requires_diagram": false,
+        "requires_road_scene": false,
+        "requires_comparison_visual": false,
+        "visual_asset_id": "serv_luggage_cleanliness_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Rent fordon, dofter och rök",
+          "fact_keys": [
+            "D1-SERV-CLEAN-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-CLEAN-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska kunna bedöma vikten av ett rent fordon.",
+            "Taxiföraren ska kunna bedöma hur starka dofter, tobaksrök och allergiframkallande ämnen kan påverka passagerare.",
+            "Taxiföraren ska kunna redogöra för lagstiftningen om rökförbud.",
+            "Doftöverkänslighet kan ge besvär av exempelvis cigarettrök, avgaser, parfym, rengöringsmedel eller tvättmedel.",
+            "Rökning är förbjuden på färdmedel i inrikes kollektivtrafik; Folkhälsomyndigheten anger att taxi i allmänhet omfattas."
+          ],
+          "fact_keys": [
+            "D1-SERV-CLEAN-FACT-001",
+            "D1-SERV-CLEAN-FACT-002",
+            "D1-SERV-CLEAN-FACT-003",
+            "D1-SERV-CLEAN-FACT-004",
+            "D1-SERV-CLEAN-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Ett bra svar är konkret: fråga, bekräfta, förklara eller agera på ett sätt som minskar missförstånd.",
+          "fact_keys": [
+            "D1-SERV-CLEAN-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "En kund säger att stark parfym ger besvär. Du vädrar om möjligt, undviker doftspray och förklarar lugnt vad du kan göra.",
+          "fact_keys": [
+            "D1-SERV-CLEAN-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-CLEAN-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-CLEAN-FACT-001"
+          ]
+        }
+      ]
+    },
+    {
+      "stable_key": "D1-SERV-PRICE-L01",
+      "topic_id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "title": "Prisinformation och ungefärligt pris",
+      "learning_objectives": [
+        "Kunna välja ett professionellt bemötande i situationer kopplade till prisinformation och ungefärligt pris.",
+        "Kunna skilja mellan bindande regel, myndighetsvägledning och pedagogisk tillämpning."
+      ],
+      "requirement_keys": [
+        "D1-SERV-017-008"
+      ],
+      "fact_keys": [
+        "D1-SERV-PRICE-FACT-001",
+        "D1-SERV-PRICE-FACT-002",
+        "D1-SERV-PRICE-FACT-003",
+        "D1-SERV-PRICE-FACT-004",
+        "D1-SERV-PRICE-FACT-005",
+        "D1-SERV-PRICE-FACT-006",
+        "D1-SERV-PRICE-FACT-007"
+      ],
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_references": [
+            "TSFS 2021:119, 3 kap. 17 § 8"
+          ]
+        },
+        {
+          "source_id": "SFS_2012_211",
+          "exact_references": [
+            "Taxitrafiklag (2012:211), 2 kap. 20 §",
+            "Taxitrafiklag (2012:211), 2 kap. 20-21 §§"
+          ]
+        },
+        {
+          "source_id": "TS_PRISINFORMATION_TAXI",
+          "exact_references": [
+            "Prisinformation för taxikunder, Fri prissättning råder",
+            "Prisuppgift till kunden innan taxiresan startar"
+          ]
+        },
+        {
+          "source_id": "KV_TAXI_PRESS_2026",
+          "exact_references": [
+            "Fakta - Jämförpris"
+          ]
+        },
+        {
+          "source_id": "KV_TAXI_PRIS",
+          "exact_references": [
+            "Taxi - vad gäller kring pris?, taxiresor och prisnivå"
+          ]
+        }
+      ],
+      "estimated_study_time_minutes": 9,
+      "status": "published",
+      "content_blocks": [
+        {
+          "type": "heading",
+          "text": "Prisinformation och ungefärligt pris",
+          "fact_keys": [
+            "D1-SERV-PRICE-FACT-001"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+          "fact_keys": [
+            "D1-SERV-PRICE-FACT-001"
+          ]
+        },
+        {
+          "type": "bullet_list",
+          "items": [
+            "Taxiföraren ska kunna beräkna det ungefärliga priset på en resa utifrån fordonets prisinformation.",
+            "Jämförpriset för taxi avser en typresa på 10 kilometer som tar 15 minuter inklusive eventuell grundavgift.",
+            "Taxipriser är fria och kan variera mellan företag, vilket gör tydlig prisinformation viktig före resan.",
+            "Om jämförpriset överstiger 700 kronor ska föraren lämna en bindande prisuppgift innan resan, om fast pris inte används.",
+            "En prisuppgift ska ange högsta pris för färden och ett bevis om prisuppgiften ska lämnas till passageraren före färden."
+          ],
+          "fact_keys": [
+            "D1-SERV-PRICE-FACT-001",
+            "D1-SERV-PRICE-FACT-002",
+            "D1-SERV-PRICE-FACT-003",
+            "D1-SERV-PRICE-FACT-004",
+            "D1-SERV-PRICE-FACT-005"
+          ]
+        },
+        {
+          "type": "info",
+          "text": "Prisfrågor i Bemötande testar att kunna förklara och uppskatta pris tydligt för kunden, inte hela taxitrafiklagstiftningen.",
+          "fact_keys": [
+            "D1-SERV-PRICE-FACT-003"
+          ]
+        },
+        {
+          "type": "example",
+          "text": "Kunden frågar vad resan ungefär kostar. Du använder prisinformationen och är tydlig med om svaret är uppskattning, fast pris eller bindande prisuppgift.",
+          "fact_keys": [
+            "D1-SERV-PRICE-FACT-004"
+          ]
+        },
+        {
+          "type": "warning",
+          "text": "Gör inte antaganden om vad kunden kan, vill eller behöver. Fråga sakligt när situationen är oklar.",
+          "fact_keys": [
+            "D1-SERV-PRICE-FACT-002"
+          ]
+        },
+        {
+          "type": "checkpoint",
+          "text": "Kan du peka ut vilket behov som styr bemötandet i scenariot?",
+          "fact_keys": [
+            "D1-SERV-PRICE-FACT-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

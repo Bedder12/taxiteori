@@ -19,32 +19,49 @@ export default function ResultScreen() {
   }
 
   const review = getAttemptReview(repository, attempt, state.answers);
-  const incorrect = review.filter((item) => !item.answer?.correct);
-  const correctCount = review.length - incorrect.length;
+  const scoredReview = review.filter((item) => item.attemptQuestion.scoringRole === 'scored');
+  const incorrect = scoredReview.filter((item) => !item.answer?.correct);
+  const correctCount = scoredReview.length - incorrect.length;
+  const isMock = attempt.type === 'mock_exam';
   const assessment = repository.assessments.find((candidate) => candidate.id === attempt.assessmentId);
   const topicId = assessment?.topicId ?? 'topic_d2_taxi_vilotider';
-  const percentage = Math.round((correctCount / Math.max(review.length, 1)) * 100);
+  const percentage = Math.round((correctCount / Math.max(scoredReview.length, 1)) * 100);
+  const subjectBreakdown = repository.subjects
+    .filter((subject) => attempt.questions.some((question) => question.subjectId === subject.id && question.scoringRole === 'scored'))
+    .map((subject) => {
+      const subjectQuestions = attempt.questions.filter((question) => question.subjectId === subject.id && question.scoringRole === 'scored');
+      const correct = subjectQuestions.filter((question) => state.answers.some((answer) => answer.attemptQuestionId === question.id && answer.correct)).length;
+      return { title: subject.title, correct, total: subjectQuestions.length };
+    });
 
   return (
     <Screen
       header={
         <>
-          <ThemedText type="small" themeColor="textSecondary">Intern lärandecheckpoint</ThemedText>
-          <ThemedText type="title">{attempt.passed ? 'Checkpoint klar' : 'Repetera och försök igen'}</ThemedText>
+          <ThemedText type="small" themeColor="textSecondary">{isMock ? 'Internt realistiskt övningsprov' : 'Intern lärandecheckpoint'}</ThemedText>
+          <ThemedText type="title">{attempt.passed ? 'Godkänt' : 'Inte godkänt'}</ThemedText>
           <ThemedText>
-            {correctCount}/{attempt.totalQuestions} rätt · {percentage}% · krav {Math.round(attempt.passThreshold * 100)}%
+            {correctCount}/{scoredReview.length} rätt · {percentage}% · krav {attempt.passingScore ?? `${Math.round(attempt.passThreshold * 100)}%`}
           </ThemedText>
           <ThemedText themeColor="textSecondary">
-            Detta är en intern övningscheckpoint, inte ett officiellt Trafikverket-prov.
+            {isMock ? 'Detta är ett internt övningsprov med egna frågor, inte Trafikverkets prov eller frågebank.' : 'Detta är en intern övningscheckpoint, inte ett officiellt Trafikverket-prov.'}
           </ThemedText>
         </>
       }>
       <View style={styles.summary}>
         <ThemedText type="subtitle">Resultat</ThemedText>
-        <ThemedText>Rätt svar: {correctCount}</ThemedText>
+        <ThemedText>Rätt svar: {correctCount} av {scoredReview.length}</ThemedText>
         <ThemedText>Fel svar: {incorrect.length}</ThemedText>
+        {isMock && <ThemedText themeColor="textSecondary">Provet innehåller även 5 simulerade utprövningsfrågor som inte påverkar resultatet.</ThemedText>}
         <ThemedText themeColor="textSecondary">Frågversionerna frystes när försöket startade.</ThemedText>
       </View>
+
+      {isMock && (
+        <View style={styles.breakdown}>
+          <ThemedText type="subtitle">Ämnesfördelning</ThemedText>
+          {subjectBreakdown.map((subject) => <ThemedText key={subject.title}>{subject.title}: {subject.correct}/{subject.total}</ThemedText>)}
+        </View>
+      )}
 
       <View style={styles.review}>
         <ThemedText type="subtitle">Gå igenom misstag</ThemedText>
@@ -71,5 +88,11 @@ const styles = StyleSheet.create({
   },
   review: {
     gap: Spacing.two,
+  },
+  breakdown: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: Spacing.two,
+    padding: Spacing.three,
+    gap: Spacing.one,
   },
 });

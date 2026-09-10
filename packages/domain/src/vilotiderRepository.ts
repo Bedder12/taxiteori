@@ -20,6 +20,18 @@ import environmentQuestionsContent from '../../../data/questions/d1-environment/
 import vehicleFactsContent from '../../../data/content/d1-vehicle-knowledge/vehicle-facts.json';
 import vehicleLessonsContent from '../../../data/content/d1-vehicle-knowledge/vehicle-lessons.json';
 import vehicleQuestionsContent from '../../../data/questions/d1-vehicle-knowledge/vehicle-questions.json';
+import safetyFactsContent from '../../../data/content/d1-safety/safety-facts.json';
+import safetyLessonsContent from '../../../data/content/d1-safety/safety-lessons.json';
+import safetyQuestionsContent from '../../../data/questions/d1-safety/safety-questions.json';
+import serviceFactsContent from '../../../data/content/d1-service/service-facts.json';
+import serviceLessonsContent from '../../../data/content/d1-service/service-lessons.json';
+import serviceQuestionsContent from '../../../data/questions/d1-service/service-questions.json';
+import healthFactsContent from '../../../data/content/d1-health-disabilities/health-disabilities-facts.json';
+import healthLessonsContent from '../../../data/content/d1-health-disabilities/health-disabilities-lessons.json';
+import healthQuestionsContent from '../../../data/questions/d1-health-disabilities/health-disabilities-questions.json';
+import workFactsContent from '../../../data/content/d1-work-environment-risk/work-environment-risk-facts.json';
+import workLessonsContent from '../../../data/content/d1-work-environment-risk/work-environment-risk-lessons.json';
+import workQuestionsContent from '../../../data/questions/d1-work-environment-risk/work-environment-risk-questions.json';
 import type {
   Assessment,
   ContentBlock,
@@ -91,7 +103,10 @@ const subjects: Subject[] = [
   { id: 'subject_d1_korekonomi', examId: 'exam_d1_sakerhet_beteende', title: 'Körekonomi', officialQuestionCount: 6, order: 2, status: 'published' },
   { id: 'subject_d1_miljo', examId: 'exam_d1_sakerhet_beteende', title: 'Miljö', officialQuestionCount: 6, order: 3, status: 'published' },
   { id: 'subject_d1_fordonskannedom', examId: 'exam_d1_sakerhet_beteende', title: 'Fordonskännedom', officialQuestionCount: 7, order: 4, status: 'published' },
-  { id: 'subject_d1_sakerhet_beteende', examId: 'exam_d1_sakerhet_beteende', title: 'Säkerhet och beteende', officialQuestionCount: 65, order: 5, status: 'draft' },
+  { id: 'subject_d1_sakerhet', examId: 'exam_d1_sakerhet_beteende', title: 'Säkerhet', officialQuestionCount: 10, order: 5, status: 'published' },
+  { id: 'subject_d1_bemotande', examId: 'exam_d1_sakerhet_beteende', title: 'Bemötande', officialQuestionCount: 12, order: 6, status: 'published' },
+  { id: 'subject_d1_sjukdomar', examId: 'exam_d1_sakerhet_beteende', title: 'Sjukdomar och funktionsnedsättningar', officialQuestionCount: 8, order: 7, status: 'published' },
+  { id: 'subject_d1_arbetsmiljo', examId: 'exam_d1_sakerhet_beteende', title: 'Arbetsmiljö, omdöme och riskmedvetenhet', officialQuestionCount: 6, order: 8, status: 'published' },
   { id: 'subject_d2_taxitrafiklagstiftning', examId: 'exam_d2_lagstiftning', title: 'Taxitrafiklagstiftning', officialQuestionCount: 23, order: 1, status: 'published' },
   { id: 'subject_d2_trafiklagstiftning', examId: 'exam_d2_lagstiftning', title: 'Trafiklagstiftning', officialQuestionCount: 23, order: 2, status: 'published' },
 ];
@@ -121,6 +136,34 @@ const topics: Topic[] = [
   ...vehicleLessonsContent.lessons.map((lesson, index) => ({
     id: lesson.topic_id,
     subjectId: 'subject_d1_fordonskannedom',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
+  ...safetyLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_sakerhet',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
+  ...serviceLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_bemotande',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
+  ...healthLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_sjukdomar',
+    title: lesson.title,
+    order: index + 1,
+    status: lesson.status as Topic['status'],
+  })),
+  ...workLessonsContent.lessons.map((lesson, index) => ({
+    id: lesson.topic_id,
+    subjectId: 'subject_d1_arbetsmiljo',
     title: lesson.title,
     order: index + 1,
     status: lesson.status as Topic['status'],
@@ -290,6 +333,10 @@ const allRawSources = [
   ...ecoFactsContent.sources,
   ...environmentFactsContent.sources,
   ...vehicleFactsContent.sources,
+  ...safetyFactsContent.sources,
+  ...serviceFactsContent.sources,
+  ...healthFactsContent.sources,
+  ...workFactsContent.sources,
 ];
 const sources: Source[] = [...new Map(allRawSources.map((source) => [source.source_id, source])).values()].map((source) => ({
   id: source.source_id,
@@ -308,7 +355,11 @@ type RawLesson =
   | (typeof navigationLessonsContent.lessons)[number]
   | (typeof ecoLessonsContent.lessons)[number]
   | (typeof environmentLessonsContent.lessons)[number]
-  | (typeof vehicleLessonsContent.lessons)[number];
+  | (typeof vehicleLessonsContent.lessons)[number]
+  | (typeof safetyLessonsContent.lessons)[number]
+  | (typeof serviceLessonsContent.lessons)[number]
+  | (typeof healthLessonsContent.lessons)[number]
+  | (typeof workLessonsContent.lessons)[number];
 
 function inferTopicIdFromLesson(lesson: RawLesson) {
   if ('topic_id' in lesson && lesson.topic_id) {
@@ -323,6 +374,10 @@ const allRawLessons = [
   ...ecoLessonsContent.lessons,
   ...environmentLessonsContent.lessons,
   ...vehicleLessonsContent.lessons,
+  ...safetyLessonsContent.lessons,
+  ...serviceLessonsContent.lessons,
+  ...healthLessonsContent.lessons,
+  ...workLessonsContent.lessons,
   ...remainingLessonsContent.lessons,
   ...lessonsContent.lessons,
   ...trafficLessonsContent.lessons,
@@ -354,11 +409,15 @@ const lessons: Lesson[] = allRawLessons.map((lesson) => {
 type RawQuestion =
   | (typeof questionsContent.questions)[number]
   | (typeof remainingQuestionsContent.questions)[number]
+  | (typeof workQuestionsContent.questions)[number]
   | (typeof trafficQuestionsContent.questions)[number]
   | (typeof navigationQuestionsContent.questions)[number]
   | (typeof ecoQuestionsContent.questions)[number]
   | (typeof environmentQuestionsContent.questions)[number]
-  | (typeof vehicleQuestionsContent.questions)[number];
+  | (typeof vehicleQuestionsContent.questions)[number]
+  | (typeof safetyQuestionsContent.questions)[number]
+  | (typeof serviceQuestionsContent.questions)[number]
+  | (typeof healthQuestionsContent.questions)[number];
 
 function inferTopicIdFromQuestion(question: RawQuestion) {
   if ('topic_id' in question && question.topic_id) {
@@ -385,6 +444,22 @@ function inferSubjectIdFromQuestion(question: RawQuestion) {
     return 'subject_d1_fordonskannedom';
   }
 
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_safety_')) {
+    return 'subject_d1_sakerhet';
+  }
+
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_service_')) {
+    return 'subject_d1_bemotande';
+  }
+
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_health_')) {
+    return 'subject_d1_sjukdomar';
+  }
+
+  if (inferTopicIdFromQuestion(question).startsWith('topic_d1_work_')) {
+    return 'subject_d1_arbetsmiljo';
+  }
+
   return inferTopicIdFromQuestion(question).startsWith('topic_d2_traffic_')
     ? 'subject_d2_trafiklagstiftning'
     : 'subject_d2_taxitrafiklagstiftning';
@@ -399,6 +474,10 @@ const questions: RawQuestion[] = [
   ...ecoQuestionsContent.questions,
   ...environmentQuestionsContent.questions,
   ...vehicleQuestionsContent.questions,
+  ...safetyQuestionsContent.questions,
+  ...serviceQuestionsContent.questions,
+  ...healthQuestionsContent.questions,
+  ...workQuestionsContent.questions,
   ...remainingQuestionsContent.questions,
   ...questionsContent.questions,
   ...trafficQuestionsContent.questions,
@@ -440,6 +519,10 @@ const checkpointExams = [
   ...ecoQuestionsContent.topic_checkpoints,
   ...environmentQuestionsContent.topic_checkpoints,
   ...vehicleQuestionsContent.topic_checkpoints,
+  ...safetyQuestionsContent.topic_checkpoints,
+  ...serviceQuestionsContent.topic_checkpoints,
+  ...healthQuestionsContent.topic_checkpoints,
+  ...workQuestionsContent.topic_checkpoints,
   ...remainingQuestionsContent.checkpoint_exams,
   questionsContent.checkpoint_exam,
   ...trafficQuestionsContent.topic_checkpoints,
@@ -457,9 +540,17 @@ const topicAssessments: Assessment[] = checkpointExams.map((checkpoint) => ({
         ? 'subject_d1_miljo'
         : checkpoint.topic?.startsWith('topic_d1_vehicle_')
           ? 'subject_d1_fordonskannedom'
-          : checkpoint.topic?.startsWith('topic_d2_traffic_')
-            ? 'subject_d2_trafiklagstiftning'
-            : 'subject_d2_taxitrafiklagstiftning',
+          : checkpoint.topic?.startsWith('topic_d1_safety_')
+            ? 'subject_d1_sakerhet'
+            : checkpoint.topic?.startsWith('topic_d1_service_')
+              ? 'subject_d1_bemotande'
+              : checkpoint.topic?.startsWith('topic_d1_health_')
+                ? 'subject_d1_sjukdomar'
+                : checkpoint.topic?.startsWith('topic_d1_work_')
+                  ? 'subject_d1_arbetsmiljo'
+                : checkpoint.topic?.startsWith('topic_d2_traffic_')
+                  ? 'subject_d2_trafiklagstiftning'
+                  : 'subject_d2_taxitrafiklagstiftning',
   topicId: checkpoint.topic?.startsWith('topic_') ? checkpoint.topic : 'topic_d2_taxi_vilotider',
   questionCount: checkpoint.question_count,
   passThreshold: checkpoint.pass_threshold,
@@ -499,6 +590,38 @@ const assessments: Assessment[] = topicAssessments.concat({
   passThreshold: vehicleQuestionsContent.subject_checkpoint.pass_threshold,
   status: vehicleQuestionsContent.subject_checkpoint.status as Assessment['status'],
 }, {
+  id: safetyQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: safetyQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_sakerhet',
+  questionCount: safetyQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: safetyQuestionsContent.subject_checkpoint.pass_threshold,
+  status: safetyQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
+  id: serviceQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: serviceQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_bemotande',
+  questionCount: serviceQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: serviceQuestionsContent.subject_checkpoint.pass_threshold,
+  status: serviceQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
+  id: healthQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: healthQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_sjukdomar',
+  questionCount: healthQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: healthQuestionsContent.subject_checkpoint.pass_threshold,
+  status: healthQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
+  id: workQuestionsContent.subject_checkpoint.stable_key,
+  type: 'checkpoint',
+  title: workQuestionsContent.subject_checkpoint.title,
+  subjectId: 'subject_d1_arbetsmiljo',
+  questionCount: workQuestionsContent.subject_checkpoint.question_count,
+  passThreshold: workQuestionsContent.subject_checkpoint.pass_threshold,
+  status: workQuestionsContent.subject_checkpoint.status as Assessment['status'],
+}, {
   id: trafficQuestionsContent.subject_checkpoint.stable_key,
   type: 'checkpoint',
   title: trafficQuestionsContent.subject_checkpoint.title,
@@ -517,6 +640,45 @@ export const d2TaxiLawRepository: LearningRepository = {
   sources,
   questionVersions,
   examBlueprints: [
+    {
+      id: 'blueprint_d1_realistic_full_mock_v1',
+      examId: 'exam_d1_sakerhet_beteende',
+      name: 'Realistiskt D1 övningsprov',
+      type: 'mock_exam',
+      version: 1,
+      status: 'published',
+      passThreshold: 48 / 65,
+      passingScore: 48,
+      scoringQuestionCount: 65,
+      nonScoringTestQuestionCount: 5,
+      totalDisplayedQuestionCount: 70,
+      timeLimitSeconds: 3000,
+      officialStructure: {
+        scoringQuestionCount: 65,
+        passingScore: 48,
+        nonScoringTestQuestionCount: 5,
+        totalDisplayedQuestionCount: 70,
+        timeLimitSeconds: 3000,
+      },
+      label: 'Internal realistic mock exam, not an official Trafikverket exam',
+      disclaimer: 'The questions are our own training questions. The five simulation items are not claimed to correspond to actual trial questions.',
+      active: true,
+      subjects: [
+        ['subject_d1_navigation', 10],
+        ['subject_d1_korekonomi', 6],
+        ['subject_d1_miljo', 6],
+        ['subject_d1_sakerhet', 10],
+        ['subject_d1_bemotande', 12],
+        ['subject_d1_sjukdomar', 8],
+        ['subject_d1_arbetsmiljo', 6],
+        ['subject_d1_fordonskannedom', 7],
+      ].map(([subjectId, questionCount]) => ({
+        id: `blueprint_d1_realistic_full_mock_v1_${subjectId}`,
+        examBlueprintId: 'blueprint_d1_realistic_full_mock_v1',
+        subjectId: String(subjectId),
+        questionCount: Number(questionCount),
+      })),
+    },
     {
       id: 'blueprint_d2_realistic_full_mock_v1',
       examId: 'exam_d2_lagstiftning',
@@ -558,4 +720,8 @@ export const d1NavigationFactRecords = navigationFactsContent.facts;
 export const d1EcoDrivingFactRecords = ecoFactsContent.facts;
 export const d1EnvironmentFactRecords = environmentFactsContent.facts;
 export const d1VehicleKnowledgeFactRecords = vehicleFactsContent.facts;
+export const d1SafetyFactRecords = safetyFactsContent.facts;
+export const d1ServiceFactRecords = serviceFactsContent.facts;
+export const d1HealthDisabilitiesFactRecords = healthFactsContent.facts;
+export const d1WorkEnvironmentRiskFactRecords = workFactsContent.facts;
 export const officialCurriculumRequirements = curriculum.requirements;

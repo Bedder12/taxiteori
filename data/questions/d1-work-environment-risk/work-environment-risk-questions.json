@@ -1,0 +1,1604 @@
+{
+  "metadata": {
+    "subject": "D1_WORK_ENVIRONMENT_RISK",
+    "title": "Source-backed scenario question bank",
+    "status": "published",
+    "created_at": "2026-09-10",
+    "reviewed_at": "2026-09-10",
+    "disclaimer": "Internal practice questions; not Trafikverket's official question bank."
+  },
+  "topic_checkpoints": [
+    {
+      "stable_key": "D1-WORK-WORK-CHECKPOINT-001",
+      "title": "Checkpoint: Arbetsrisker i taxiarbetet",
+      "type": "checkpoint",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "topic": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "eligible_status": "published",
+      "question_count": 4,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-LIFT-CHECKPOINT-001",
+      "title": "Checkpoint: Belastning, lyft och hjälpmedel",
+      "type": "checkpoint",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "topic": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "eligible_status": "published",
+      "question_count": 5,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-POSTURE-CHECKPOINT-001",
+      "title": "Checkpoint: Körställning och variation",
+      "type": "checkpoint",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "topic": "topic_d1_work_korstallning_och_variation",
+      "eligible_status": "published",
+      "question_count": 4,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-CHECKPOINT-001",
+      "title": "Checkpoint: Påverkan och körförmåga",
+      "type": "checkpoint",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "topic": "topic_d1_work_paverkan_och_korformaga",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-CHECKPOINT-001",
+      "title": "Checkpoint: Trötthet, stress och arbetscykel",
+      "type": "checkpoint",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "topic": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "eligible_status": "published",
+      "question_count": 6,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-EQUIPMENT-CHECKPOINT-001",
+      "title": "Checkpoint: Utrustning och riskmedvetenhet under färd",
+      "type": "checkpoint",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "topic": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "eligible_status": "published",
+      "question_count": 4,
+      "pass_threshold": 0.8,
+      "selection": "random_from_eligible_published_questions",
+      "freeze_question_versions_on_attempt_start": true,
+      "status": "published"
+    }
+  ],
+  "subject_checkpoint": {
+    "stable_key": "D1-WORK-SUBJECT-CHECKPOINT-001",
+    "title": "Checkpoint: Arbetsmiljö, omdöme och riskmedvetenhet",
+    "type": "checkpoint",
+    "subject": "D1_WORK_ENVIRONMENT_RISK",
+    "topic": null,
+    "eligible_status": "published",
+    "question_count": 24,
+    "pass_threshold": 0.8,
+    "selection": "broad_sample_across_all_d1_work_environment_risk_topics",
+    "freeze_question_versions_on_attempt_start": true,
+    "status": "published"
+  },
+  "questions": [
+    {
+      "stable_key": "D1-WORK-WORK-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-WORK-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-WORK-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka. Du behöver särskilt bedöma följande: Taxiförarens arbete kan innebära upprepade i- och urstigningar, långvarigt sittande, lyft, tidspress, ensamarbete och kontakt med personer i pressade situationer. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Taxiförarens arbete kan innebära upprepade i- och urstigningar, långvarigt sittande, lyft, tidspress, ensamarbete och kontakt med personer i pressade situationer."
+        },
+        {
+          "id": "B",
+          "text": "Arbetsrisker i taxiarbetet: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Arbetsrisker i taxiarbetet: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Arbetsrisker i taxiarbetet: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Taxiförarens arbete kan innebära upprepade i- och urstigningar, långvarigt sittande, lyft, tidspress, ensamarbete och kontakt med personer i pressade situationer. Detta kopplar scenariot till kravet D1-WORK-019-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_reference": "Belastningsergonomi, risker i arbetet"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_environment_risk_map",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "work_environment_risk_map",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-WORK-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-WORK-FACT-002"
+      ],
+      "lesson_key": "D1-WORK-WORK-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka. Du behöver särskilt bedöma följande: Arbetsrisker behöver uppmärksammas före och under arbetspasset så att arbetsmetod, paus eller uppdrag kan ändras innan säkerheten påverkas. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Arbetsrisker behöver uppmärksammas före och under arbetspasset så att arbetsmetod, paus eller uppdrag kan ändras innan säkerheten påverkas."
+        },
+        {
+          "id": "B",
+          "text": "Arbetsrisker i taxiarbetet: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Arbetsrisker i taxiarbetet: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Arbetsrisker i taxiarbetet: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Arbetsrisker behöver uppmärksammas före och under arbetspasset så att arbetsmetod, paus eller uppdrag kan ändras innan säkerheten påverkas. Detta kopplar scenariot till kravet D1-WORK-019-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 19 §"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-WORK-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-WORK-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-WORK-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka. Du behöver särskilt bedöma följande: Hot och våld i arbete med direktkontakt ska förebyggas med kända rutiner, instruktioner och rapportering av tillbud. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Hot och våld i arbete med direktkontakt ska förebyggas med kända rutiner, instruktioner och rapportering av tillbud."
+        },
+        {
+          "id": "B",
+          "text": "Arbetsrisker i taxiarbetet: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Arbetsrisker i taxiarbetet: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Arbetsrisker i taxiarbetet: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Hot och våld i arbete med direktkontakt ska förebyggas med kända rutiner, instruktioner och rapportering av tillbud. Detta kopplar scenariot till kravet D1-WORK-019-001 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Våld och hot om våld, förebyggande arbete"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-WORK-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-WORK-FACT-004"
+      ],
+      "lesson_key": "D1-WORK-WORK-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka. Du behöver särskilt bedöma följande: Ensamarbete och nattarbete kan minska möjligheten att snabbt få stöd och gör planering av kontaktvägar och avbrott viktig. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ensamarbete och nattarbete kan minska möjligheten att snabbt få stöd och gör planering av kontaktvägar och avbrott viktig."
+        },
+        {
+          "id": "B",
+          "text": "Arbetsrisker i taxiarbetet: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Arbetsrisker i taxiarbetet: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Arbetsrisker i taxiarbetet: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ensamarbete och nattarbete kan minska möjligheten att snabbt få stöd och gör planering av kontaktvägar och avbrott viktig. Detta kopplar scenariot till kravet D1-WORK-019-001 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_HOT_VALD",
+          "exact_reference": "Våld och hot om våld, arbete med människor och ensamarbete"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-LIFT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "requirement_keys": [
+        "D1-WORK-020-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-LIFT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats. Du behöver särskilt bedöma följande: Belastningsrisken ökar när lyft sker långt från kroppen, med vriden rygg, i trångt utrymme eller utan möjlighet att variera arbetet. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Belastningsrisken ökar när lyft sker långt från kroppen, med vriden rygg, i trångt utrymme eller utan möjlighet att variera arbetet."
+        },
+        {
+          "id": "B",
+          "text": "Belastning, lyft och hjälpmedel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Belastning, lyft och hjälpmedel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Belastning, lyft och hjälpmedel: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Belastningsrisken ökar när lyft sker långt från kroppen, med vriden rygg, i trångt utrymme eller utan möjlighet att variera arbetet. Detta kopplar scenariot till kravet D1-WORK-020-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_reference": "Belastningsergonomi, belastande arbetsställningar och arbetsrörelser"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_lifting_posture",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "work_lifting_posture",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-LIFT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "requirement_keys": [
+        "D1-WORK-020-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-002"
+      ],
+      "lesson_key": "D1-WORK-LIFT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats. Du behöver särskilt bedöma följande: Upprepade lyft och många in- och urstigningar under ett pass kan ge sammanlagd belastning även när varje enskilt moment känns hanterbart. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Upprepade lyft och många in- och urstigningar under ett pass kan ge sammanlagd belastning även när varje enskilt moment känns hanterbart."
+        },
+        {
+          "id": "B",
+          "text": "Belastning, lyft och hjälpmedel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Belastning, lyft och hjälpmedel: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Belastning, lyft och hjälpmedel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Upprepade lyft och många in- och urstigningar under ett pass kan ge sammanlagd belastning även när varje enskilt moment känns hanterbart. Detta kopplar scenariot till kravet D1-WORK-020-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_reference": "Belastningsergonomi, upprepad och långvarig belastning"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-LIFT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "requirement_keys": [
+        "D1-WORK-020-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-LIFT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats. Du behöver särskilt bedöma följande: Vid förflyttning av passagerare ska föraren använda tillgängliga hjälpmedel och be om hjälp när uppgiften inte kan göras säkert ensam. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid förflyttning av passagerare ska föraren använda tillgängliga hjälpmedel och be om hjälp när uppgiften inte kan göras säkert ensam."
+        },
+        {
+          "id": "B",
+          "text": "Belastning, lyft och hjälpmedel: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Belastning, lyft och hjälpmedel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Belastning, lyft och hjälpmedel: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid förflyttning av passagerare ska föraren använda tillgängliga hjälpmedel och be om hjälp när uppgiften inte kan göras säkert ensam. Detta kopplar scenariot till kravet D1-WORK-020-002 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 20 § 2"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_lifting_posture",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "work_lifting_posture",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-LIFT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "requirement_keys": [
+        "D1-WORK-020-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-004"
+      ],
+      "lesson_key": "D1-WORK-LIFT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats. Du behöver särskilt bedöma följande: Ett säkrare lyft planeras med stabilt underlag, nära arbetsavstånd och tydlig kommunikation med passageraren. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Ett säkrare lyft planeras med stabilt underlag, nära arbetsavstånd och tydlig kommunikation med passageraren."
+        },
+        {
+          "id": "B",
+          "text": "Belastning, lyft och hjälpmedel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Belastning, lyft och hjälpmedel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Belastning, lyft och hjälpmedel: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Ett säkrare lyft planeras med stabilt underlag, nära arbetsavstånd och tydlig kommunikation med passageraren. Detta kopplar scenariot till kravet D1-WORK-020-002 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_ARBETSDON",
+          "exact_reference": "Arbetsställningar och arbetsrörelser, planera arbetsrörelsen"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-LIFT-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "requirement_keys": [
+        "D1-WORK-020-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-LIFT-FACT-005"
+      ],
+      "lesson_key": "D1-WORK-LIFT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats. Du behöver särskilt bedöma följande: Tungt eller otympligt bagage bör hanteras med hjälpmedel eller tillsammans med annan person i stället för att föraren chansar. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tungt eller otympligt bagage bör hanteras med hjälpmedel eller tillsammans med annan person i stället för att föraren chansar."
+        },
+        {
+          "id": "B",
+          "text": "Belastning, lyft och hjälpmedel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Belastning, lyft och hjälpmedel: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Belastning, lyft och hjälpmedel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tungt eller otympligt bagage bör hanteras med hjälpmedel eller tillsammans med annan person i stället för att föraren chansar. Detta kopplar scenariot till kravet D1-WORK-020-002 och den angivna myndighetskällan.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_reference": "Belastningsergonomi, hjälpmedel och organisering"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-POSTURE-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_korstallning_och_variation",
+      "requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-POSTURE-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-POSTURE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel. Du behöver särskilt bedöma följande: En rätt körställning ger föraren kontroll över reglage och sikt utan att kroppen behöver hållas i en onödigt spänd eller vriden position. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En rätt körställning ger föraren kontroll över reglage och sikt utan att kroppen behöver hållas i en onödigt spänd eller vriden position."
+        },
+        {
+          "id": "B",
+          "text": "Körställning och variation: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Körställning och variation: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Körställning och variation: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En rätt körställning ger föraren kontroll över reglage och sikt utan att kroppen behöver hållas i en onödigt spänd eller vriden position. Detta kopplar scenariot till kravet D1-WORK-020-003 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 20 § 3"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_driver_posture",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "work_driver_posture",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-POSTURE-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_korstallning_och_variation",
+      "requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-POSTURE-FACT-002"
+      ],
+      "lesson_key": "D1-WORK-POSTURE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel. Du behöver särskilt bedöma följande: Stol, ratt, speglar och nackstöd ska ställas in så att föraren når reglagen, ser runt fordonet och kan arbeta med stöd för kroppen. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stol, ratt, speglar och nackstöd ska ställas in så att föraren når reglagen, ser runt fordonet och kan arbeta med stöd för kroppen."
+        },
+        {
+          "id": "B",
+          "text": "Körställning och variation: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Körställning och variation: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Körställning och variation: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stol, ratt, speglar och nackstöd ska ställas in så att föraren når reglagen, ser runt fordonet och kan arbeta med stöd för kroppen. Detta kopplar scenariot till kravet D1-WORK-020-003 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "AV_ARBETSDON",
+          "exact_reference": "Arbetsställningar och arbetsrörelser, anpassa arbetsplatsen"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-POSTURE-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_work_korstallning_och_variation",
+      "requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-POSTURE-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-POSTURE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel. Du behöver särskilt bedöma följande: Långvarigt sittande i samma ställning gör variation, korta avbrott och möjlighet att justera arbetsplatsen viktig. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Långvarigt sittande i samma ställning gör variation, korta avbrott och möjlighet att justera arbetsplatsen viktig."
+        },
+        {
+          "id": "B",
+          "text": "Körställning och variation: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Körställning och variation: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Körställning och variation: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Långvarigt sittande i samma ställning gör variation, korta avbrott och möjlighet att justera arbetsplatsen viktig. Detta kopplar scenariot till kravet D1-WORK-020-003 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "AV_BELASTNINGSERGONOMI",
+          "exact_reference": "Belastningsergonomi, långvarigt sittande och variation"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-POSTURE-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_work_korstallning_och_variation",
+      "requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-POSTURE-FACT-004"
+      ],
+      "lesson_key": "D1-WORK-POSTURE-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel. Du behöver särskilt bedöma följande: En förare ska inte lösa en obekväm körställning genom att sträcka sig efter utrustning under pågående körning. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En förare ska inte lösa en obekväm körställning genom att sträcka sig efter utrustning under pågående körning."
+        },
+        {
+          "id": "B",
+          "text": "Körställning och variation: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Körställning och variation: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Körställning och variation: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En förare ska inte lösa en obekväm körställning genom att sträcka sig efter utrustning under pågående körning. Detta kopplar scenariot till kravet D1-WORK-020-003 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_MOBILTELEFON",
+          "exact_reference": "Trafikförordning (1998:1276), 4 kap. 10 e §"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga. Du behöver särskilt bedöma följande: Läkemedel kan påverka exempelvis vakenhet, reaktionsförmåga eller omdöme; föraren ska läsa varningar och bedöma sin körförmåga. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Läkemedel kan påverka exempelvis vakenhet, reaktionsförmåga eller omdöme; föraren ska läsa varningar och bedöma sin körförmåga."
+        },
+        {
+          "id": "B",
+          "text": "Påverkan och körförmåga: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Påverkan och körförmåga: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Påverkan och körförmåga: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Läkemedel kan påverka exempelvis vakenhet, reaktionsförmåga eller omdöme; föraren ska läsa varningar och bedöma sin körförmåga. Detta kopplar scenariot till kravet D1-WORK-021-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_MEDICINER_KORNING",
+          "exact_reference": "Läkemedel, körförmåga och medicinska krav"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_impairment_decision",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "work_impairment_decision",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-002"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga. Du behöver särskilt bedöma följande: Vid osäkerhet om ett läkemedels påverkan ska föraren söka individuell rådgivning och inte chansa med en körning. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Vid osäkerhet om ett läkemedels påverkan ska föraren söka individuell rådgivning och inte chansa med en körning."
+        },
+        {
+          "id": "B",
+          "text": "Påverkan och körförmåga: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Påverkan och körförmåga: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Påverkan och körförmåga: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Vid osäkerhet om ett läkemedels påverkan ska föraren söka individuell rådgivning och inte chansa med en körning. Detta kopplar scenariot till kravet D1-WORK-021-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TS_MEDICINER_KORNING",
+          "exact_reference": "Medicinska krav och läkemedel"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga. Du behöver särskilt bedöma följande: Alkohol och andra droger kan försämra omdöme, uppmärksamhet, reaktion och förmåga att värdera risker. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Alkohol och andra droger kan försämra omdöme, uppmärksamhet, reaktion och förmåga att värdera risker."
+        },
+        {
+          "id": "B",
+          "text": "Påverkan och körförmåga: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Påverkan och körförmåga: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Påverkan och körförmåga: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Alkohol och andra droger kan försämra omdöme, uppmärksamhet, reaktion och förmåga att värdera risker. Detta kopplar scenariot till kravet D1-WORK-021-002 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "1177_ALKOHOL_DROGER",
+          "exact_reference": "Alkohol och påverkan på kroppen och omdömet"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-002"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-004"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga. Du behöver särskilt bedöma följande: En förare ska inte köra efter alkohol eller droger även om föraren själv upplever sig som kapabel. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En förare ska inte köra efter alkohol eller droger även om föraren själv upplever sig som kapabel."
+        },
+        {
+          "id": "B",
+          "text": "Påverkan och körförmåga: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Påverkan och körförmåga: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Påverkan och körförmåga: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En förare ska inte köra efter alkohol eller droger även om föraren själv upplever sig som kapabel. Detta kopplar scenariot till kravet D1-WORK-021-002 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 2"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-004"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-005"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga. Du behöver särskilt bedöma följande: Fysisk kondition, smärta eller akut sjukdom kan påverka uppmärksamhet, kontroll och förmåga att hantera en oväntad situation. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Fysisk kondition, smärta eller akut sjukdom kan påverka uppmärksamhet, kontroll och förmåga att hantera en oväntad situation."
+        },
+        {
+          "id": "B",
+          "text": "Påverkan och körförmåga: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Påverkan och körförmåga: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Påverkan och körförmåga: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Fysisk kondition, smärta eller akut sjukdom kan påverka uppmärksamhet, kontroll och förmåga att hantera en oväntad situation. Detta kopplar scenariot till kravet D1-WORK-021-004 och den angivna myndighetskällan.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 4"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-FITNESS-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_work_paverkan_och_korformaga",
+      "requirement_keys": [
+        "D1-WORK-021-005"
+      ],
+      "fact_keys": [
+        "D1-WORK-FITNESS-FACT-006"
+      ],
+      "lesson_key": "D1-WORK-FITNESS-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga. Du behöver särskilt bedöma följande: Stark oro, ilska eller annan psykisk obalans kan göra uppmärksamheten smalare och besluten mer impulsiva. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Stark oro, ilska eller annan psykisk obalans kan göra uppmärksamheten smalare och besluten mer impulsiva."
+        },
+        {
+          "id": "B",
+          "text": "Påverkan och körförmåga: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Påverkan och körförmåga: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Påverkan och körförmåga: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Stark oro, ilska eller annan psykisk obalans kan göra uppmärksamheten smalare och besluten mer impulsiva. Detta kopplar scenariot till kravet D1-WORK-021-005 och den angivna myndighetskällan.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 5"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål. Du behöver särskilt bedöma följande: Trötthet kan försämra uppmärksamhet, reaktion och omdöme och kan göra att föraren missar risker. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Trötthet kan försämra uppmärksamhet, reaktion och omdöme och kan göra att föraren missar risker."
+        },
+        {
+          "id": "B",
+          "text": "Trötthet, stress och arbetscykel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Trötthet, stress och arbetscykel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Trötthet, stress och arbetscykel: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Trötthet kan försämra uppmärksamhet, reaktion och omdöme och kan göra att föraren missar risker. Detta kopplar scenariot till kravet D1-WORK-021-003 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TRV_TRÖTTHET",
+          "exact_reference": "Trötthet och trafiksäkerhet"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_night_shift_decision",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "work_night_shift_decision",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-002"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål. Du behöver särskilt bedöma följande: När tröttheten påverkar körförmågan är det säkra beslutet att avbryta eller ta en ordentlig återhämtning innan körningen fortsätter. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "När tröttheten påverkar körförmågan är det säkra beslutet att avbryta eller ta en ordentlig återhämtning innan körningen fortsätter."
+        },
+        {
+          "id": "B",
+          "text": "Trötthet, stress och arbetscykel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Trötthet, stress och arbetscykel: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Trötthet, stress och arbetscykel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: När tröttheten påverkar körförmågan är det säkra beslutet att avbryta eller ta en ordentlig återhämtning innan körningen fortsätter. Detta kopplar scenariot till kravet D1-WORK-021-003 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TRV_TRÖTTHET",
+          "exact_reference": "Trötthet och trafiksäkerhet, åtgärder"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-006"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål. Du behöver särskilt bedöma följande: Oregelbundna måltider eller att inte ha ätit kan påverka ork och koncentration; föraren behöver planera arbetsdagen så att körförmågan inte försämras. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Oregelbundna måltider eller att inte ha ätit kan påverka ork och koncentration; föraren behöver planera arbetsdagen så att körförmågan inte försämras."
+        },
+        {
+          "id": "B",
+          "text": "Trötthet, stress och arbetscykel: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Trötthet, stress och arbetscykel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Trötthet, stress och arbetscykel: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Oregelbundna måltider eller att inte ha ätit kan påverka ork och koncentration; föraren behöver planera arbetsdagen så att körförmågan inte försämras. Detta kopplar scenariot till kravet D1-WORK-021-006 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 6"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-007"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-004"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål. Du behöver särskilt bedöma följande: Långa pass, nattarbete och för kort återhämtning kan öka trötthet och minska marginalerna i trafiken. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Långa pass, nattarbete och för kort återhämtning kan öka trötthet och minska marginalerna i trafiken."
+        },
+        {
+          "id": "B",
+          "text": "Trötthet, stress och arbetscykel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Trötthet, stress och arbetscykel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Trötthet, stress och arbetscykel: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Långa pass, nattarbete och för kort återhämtning kan öka trötthet och minska marginalerna i trafiken. Detta kopplar scenariot till kravet D1-WORK-021-007 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TRV_TRÖTTHET",
+          "exact_reference": "Trötthet och trafiksäkerhet, arbetstid och återhämtning"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-Q005",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-007"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-005"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål. Du behöver särskilt bedöma följande: Tidspress får inte användas som skäl för att fortsätta när arbets- och vilocykeln har gjort körningen osäker. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Tidspress får inte användas som skäl för att fortsätta när arbets- och vilocykeln har gjort körningen osäker."
+        },
+        {
+          "id": "B",
+          "text": "Trötthet, stress och arbetscykel: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Trötthet, stress och arbetscykel: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Trötthet, stress och arbetscykel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Tidspress får inte användas som skäl för att fortsätta när arbets- och vilocykeln har gjort körningen osäker. Detta kopplar scenariot till kravet D1-WORK-021-007 och den angivna myndighetskällan.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 21 § 7"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-RECOVERY-Q006",
+      "version": 1,
+      "topic_id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "requirement_keys": [
+        "D1-WORK-021-003"
+      ],
+      "fact_keys": [
+        "D1-WORK-RECOVERY-FACT-006"
+      ],
+      "lesson_key": "D1-WORK-RECOVERY-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål. Du behöver särskilt bedöma följande: Det finns ingen säker tumregel som gör att en trött förare kan ersätta sömn med högre fart, musik eller en kort chansning. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Det finns ingen säker tumregel som gör att en trött förare kan ersätta sömn med högre fart, musik eller en kort chansning."
+        },
+        {
+          "id": "B",
+          "text": "Trötthet, stress och arbetscykel: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Trötthet, stress och arbetscykel: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Trötthet, stress och arbetscykel: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Det finns ingen säker tumregel som gör att en trött förare kan ersätta sömn med högre fart, musik eller en kort chansning. Detta kopplar scenariot till kravet D1-WORK-021-003 och den angivna myndighetskällan.",
+      "difficulty": "hard",
+      "source_references": [
+        {
+          "source_id": "TRV_TRÖTTHET",
+          "exact_reference": "Trötthet och trafiksäkerhet, praktisk riskbedömning"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-EQUIPMENT-Q001",
+      "version": 1,
+      "topic_id": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-EQUIPMENT-FACT-001"
+      ],
+      "lesson_key": "D1-WORK-EQUIPMENT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras. Du behöver särskilt bedöma följande: Mobiltelefon, kommunikationsutrustning, taxameter och navigation får inte användas på ett sätt som gör körningen farlig eller tar uppmärksamheten från trafiken. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Mobiltelefon, kommunikationsutrustning, taxameter och navigation får inte användas på ett sätt som gör körningen farlig eller tar uppmärksamheten från trafiken."
+        },
+        {
+          "id": "B",
+          "text": "Utrustning och riskmedvetenhet under färd: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Utrustning och riskmedvetenhet under färd: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Utrustning och riskmedvetenhet under färd: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Mobiltelefon, kommunikationsutrustning, taxameter och navigation får inte användas på ett sätt som gör körningen farlig eller tar uppmärksamheten från trafiken. Detta kopplar scenariot till kravet D1-WORK-022-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_MOBILTELEFON",
+          "exact_reference": "Trafikförordning (1998:1276), 4 kap. 10 e §"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_metadata": {
+        "requires_image": false,
+        "requires_diagram": false,
+        "visual_asset_id": "work_distraction_scene",
+        "visual_correctness_depends_on_asset": false
+      },
+      "visual_asset_id": "work_distraction_scene",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-EQUIPMENT-Q002",
+      "version": 1,
+      "topic_id": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-EQUIPMENT-FACT-002"
+      ],
+      "lesson_key": "D1-WORK-EQUIPMENT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras. Du behöver särskilt bedöma följande: Föraren ska planera in knapptryckningar och adresskontroller när fordonet står säkert, inte lösa dem genom att titta bort under körning. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Föraren ska planera in knapptryckningar och adresskontroller när fordonet står säkert, inte lösa dem genom att titta bort under körning."
+        },
+        {
+          "id": "B",
+          "text": "Utrustning och riskmedvetenhet under färd: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "C",
+          "text": "Utrustning och riskmedvetenhet under färd: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "D",
+          "text": "Utrustning och riskmedvetenhet under färd: fortsätt enligt plan och ta problemet först efter sista körningen."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Föraren ska planera in knapptryckningar och adresskontroller när fordonet står säkert, inte lösa dem genom att titta bort under körning. Detta kopplar scenariot till kravet D1-WORK-022-001 och den angivna myndighetskällan.",
+      "difficulty": "easy",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 22 §"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-EQUIPMENT-Q003",
+      "version": 1,
+      "topic_id": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-EQUIPMENT-FACT-003"
+      ],
+      "lesson_key": "D1-WORK-EQUIPMENT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras. Du behöver särskilt bedöma följande: En kunds krav på snabb omplanering ändrar inte förarens ansvar att behålla uppmärksamheten på körningen. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "En kunds krav på snabb omplanering ändrar inte förarens ansvar att behålla uppmärksamheten på körningen."
+        },
+        {
+          "id": "B",
+          "text": "Utrustning och riskmedvetenhet under färd: anta att risken är liten eftersom inget har hänt ännu."
+        },
+        {
+          "id": "C",
+          "text": "Utrustning och riskmedvetenhet under färd: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "D",
+          "text": "Utrustning och riskmedvetenhet under färd: låt kundens tidspress avgöra även om din marginal minskar."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: En kunds krav på snabb omplanering ändrar inte förarens ansvar att behålla uppmärksamheten på körningen. Detta kopplar scenariot till kravet D1-WORK-022-001 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_2021_119_CONSOLIDATED",
+          "exact_reference": "TSFS 2021:119, 3 kap. 22 §"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    },
+    {
+      "stable_key": "D1-WORK-EQUIPMENT-Q004",
+      "version": 1,
+      "topic_id": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "fact_keys": [
+        "D1-WORK-EQUIPMENT-FACT-004"
+      ],
+      "lesson_key": "D1-WORK-EQUIPMENT-L01",
+      "question_type": "scenario",
+      "competency_tags": [
+        "APPLY",
+        "ASSESS",
+        "USE"
+      ],
+      "prompt": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras. Du behöver särskilt bedöma följande: Riskmedveten användning av utrustning innebär att föraren avstår från åtgärden när den inte kan göras utan att körningen påverkas. Vilket beslut visar bäst omdöme och riskmedvetenhet?",
+      "scenario_context": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras.",
+      "answer_choices": [
+        {
+          "id": "A",
+          "text": "Riskmedveten användning av utrustning innebär att föraren avstår från åtgärden när den inte kan göras utan att körningen påverkas."
+        },
+        {
+          "id": "B",
+          "text": "Utrustning och riskmedvetenhet under färd: fortsätt enligt plan och ta problemet först efter sista körningen."
+        },
+        {
+          "id": "C",
+          "text": "Utrustning och riskmedvetenhet under färd: låt kundens tidspress avgöra även om din marginal minskar."
+        },
+        {
+          "id": "D",
+          "text": "Utrustning och riskmedvetenhet under färd: anta att risken är liten eftersom inget har hänt ännu."
+        }
+      ],
+      "correct_answer_id": "A",
+      "explanation": "Rätt: Riskmedveten användning av utrustning innebär att föraren avstår från åtgärden när den inte kan göras utan att körningen påverkas. Detta kopplar scenariot till kravet D1-WORK-022-001 och den angivna myndighetskällan.",
+      "difficulty": "medium",
+      "source_references": [
+        {
+          "source_id": "TSFS_MOBILTELEFON",
+          "exact_reference": "Trafikförordning (1998:1276), 4 kap. 10 e §"
+        }
+      ],
+      "competency": "bedöma och välja säkert agerande",
+      "visual_correctness_depends_on_asset": false,
+      "status": "published"
+    }
+  ]
+}
