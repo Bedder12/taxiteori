@@ -115,3 +115,12 @@ export async function testProductReadinessSubjectScopedLoaders() {
     assert.ok(content.facts && content.lessons && content.questions, `${subject} loader returned incomplete content.`);
   }
 }
+
+export function testProductReadinessActiveRoutesAvoidAggregateRepository() {
+  const routeFiles = contentFiles('src/app', '.tsx');
+  for (const file of routeFiles) {
+    const source = readFileSync(resolve(root, file), 'utf8');
+    assert.ok(!source.includes("from '@/lib/learningStore'"), `${file} imports the legacy learning store.`);
+    assert.ok(!source.includes('packages/domain/src/vilotiderRepository'), `${file} imports the aggregate repository.`);
+  }
+}

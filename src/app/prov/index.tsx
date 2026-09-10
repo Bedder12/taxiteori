@@ -3,10 +3,10 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { Screen } from '@/components/layout/Screen';
 import { ThemedText } from '@/components/themed-text';
-import { getLearningSnapshot } from '@/lib/learningStore';
+import { getRuntimeMetadataRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function ProvScreen() {
-  const { repository } = getLearningSnapshot();
+  const repository = getRuntimeMetadataRepository();
   const exams = repository.exams.filter((exam) => exam.status === 'published').sort((left, right) => left.order - right.order);
 
   return (

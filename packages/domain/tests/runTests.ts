@@ -156,6 +156,7 @@ import {
   testProductReadinessNoOrphanFactsOrPublishedBanks,
   testProductReadinessLessonMetadataAndRevisitMapping,
   testProductReadinessSubjectScopedLoaders,
+  testProductReadinessActiveRoutesAvoidAggregateRepository,
 } from './productReadinessAudit.test';
 import {
   testP0CheckpointResumeAndAnswerIdempotency,
@@ -311,6 +312,7 @@ const tests = [
   ['product readiness has no orphan facts or invalid published banks', testProductReadinessNoOrphanFactsOrPublishedBanks],
   ['product readiness lesson metadata and revisit mapping', testProductReadinessLessonMetadataAndRevisitMapping],
   ['product readiness subject-scoped content loaders', testProductReadinessSubjectScopedLoaders],
+  ['product readiness active routes avoid aggregate repository', testProductReadinessActiveRoutesAvoidAggregateRepository],
   ['P0 timed out attempts are terminal and reviewable', testP0TimedOutAttemptsAreTerminalAndReviewable],
   ['P0 checkpoint resume and answer idempotency', testP0CheckpointResumeAndAnswerIdempotency],
   ['P0 D1 and D2 mock resume uses frozen attempts', testP0D1AndD2MockResumeUsesFrozenAttempts],

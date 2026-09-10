@@ -1,0 +1,3816 @@
+{
+  "course": {
+    "id": "course_taxiforarlegitimation",
+    "title": "Taxiförarlegitimation",
+    "status": "published"
+  },
+  "exams": [
+    {
+      "id": "exam_d1_sakerhet_beteende",
+      "courseId": "course_taxiforarlegitimation",
+      "code": "D1",
+      "title": "Delprov 1 - Säkerhet och beteende",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "exam_d2_lagstiftning",
+      "courseId": "course_taxiforarlegitimation",
+      "code": "D2",
+      "title": "Delprov 2 - Lagstiftning",
+      "order": 2,
+      "status": "published"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "subject_d1_navigation",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Navigering",
+      "officialQuestionCount": 10,
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "subject_d1_korekonomi",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Körekonomi",
+      "officialQuestionCount": 6,
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "subject_d1_miljo",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Miljö",
+      "officialQuestionCount": 6,
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "subject_d1_fordonskannedom",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Fordonskännedom",
+      "officialQuestionCount": 7,
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "subject_d1_sakerhet",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Säkerhet",
+      "officialQuestionCount": 10,
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "subject_d1_bemotande",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Bemötande",
+      "officialQuestionCount": 12,
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "subject_d1_sjukdomar",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Sjukdomar och funktionsnedsättningar",
+      "officialQuestionCount": 8,
+      "order": 7,
+      "status": "published"
+    },
+    {
+      "id": "subject_d1_arbetsmiljo",
+      "examId": "exam_d1_sakerhet_beteende",
+      "title": "Arbetsmiljö, omdöme och riskmedvetenhet",
+      "officialQuestionCount": 6,
+      "order": 8,
+      "status": "published"
+    },
+    {
+      "id": "subject_d2_taxitrafiklagstiftning",
+      "examId": "exam_d2_lagstiftning",
+      "title": "Taxitrafiklagstiftning",
+      "officialQuestionCount": 23,
+      "order": 9,
+      "status": "published"
+    },
+    {
+      "id": "subject_d2_trafiklagstiftning",
+      "examId": "exam_d2_lagstiftning",
+      "title": "Trafiklagstiftning",
+      "officialQuestionCount": 23,
+      "order": 10,
+      "status": "published"
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic_d1_navigation_navigeringshjalpmedel",
+      "subjectId": "subject_d1_navigation",
+      "title": "Kartor och navigeringshjälpmedel",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "subjectId": "subject_d1_navigation",
+      "title": "Muntlig färdbeskrivning",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_navigation_kartlasning",
+      "subjectId": "subject_d1_navigation",
+      "title": "Kartläsning och teckenförklaring",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_navigation_avstand_restid_ankomst",
+      "subjectId": "subject_d1_navigation",
+      "title": "Avstånd, restid och ankomsttid",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_eco_ekonomisk_korning",
+      "subjectId": "subject_d1_korekonomi",
+      "title": "Ekonomisk körning",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_eco_bransleforbrukning",
+      "subjectId": "subject_d1_korekonomi",
+      "title": "Bränsleförbrukning",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_eco_planering_korsatt",
+      "subjectId": "subject_d1_korekonomi",
+      "title": "Planering och körsätt",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "subjectId": "subject_d1_korekonomi",
+      "title": "Fordonsunderhåll och körekonomi",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_env_fordonets_miljopaverkan",
+      "subjectId": "subject_d1_miljo",
+      "title": "Fordonets miljöpåverkan",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_env_motorer_branslen_vatskor",
+      "subjectId": "subject_d1_miljo",
+      "title": "Motorer, bränslen och fordonsvätskor",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_env_avgaser_reningssystem",
+      "subjectId": "subject_d1_miljo",
+      "title": "Avgaser och reningssystem",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_env_dack_och_miljo",
+      "subjectId": "subject_d1_miljo",
+      "title": "Däck och miljö",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_env_fordonsskotsel_restprodukter",
+      "subjectId": "subject_d1_miljo",
+      "title": "Miljöanpassad fordonsskötsel",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_env_start_tomgang_buller",
+      "subjectId": "subject_d1_miljo",
+      "title": "Start, tomgång och buller",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_env_korsatt_vagval_miljo",
+      "subjectId": "subject_d1_miljo",
+      "title": "Körsätt och vägval",
+      "order": 7,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_uppbyggnad_funktion",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Fordonets uppbyggnad och funktion",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_kontroller_tekniska_uppgifter",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Fordonskontroller och tekniska uppgifter",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_sakerhetssystem",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Aktiva och passiva säkerhetssystem",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_varningslampor_fel",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Varningslampor och fel",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_vatskor_lackage",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Vätskor och läckage",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Batteri, säkringar och elsystem",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_styrning_koregenskaper",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Styrning och köregenskaper",
+      "order": 7,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_bromssystem",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Bromssystem",
+      "order": 8,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_hjul_sakerhetskontroll",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Hjul och säkerhetskontroll",
+      "order": 9,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_dackslitage_lufttryck",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Däckslitage och lufttryck",
+      "order": 10,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_dackmarkningar",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Däckmärkningar",
+      "order": 11,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_vinterdack_dubbdack",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Vinterdäck och dubbdäck",
+      "order": 12,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_vehicle_fordonskombinationer_dimensioner",
+      "subjectId": "subject_d1_fordonskannedom",
+      "title": "Hjul-, däck- och fordonskombinationer",
+      "order": 13,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_trygg_saker_resa",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Trygg och saker taxiresa",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_hot_vald",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Hot och vald i taxiarbetet",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_forsta_hjalpen_hlr",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Forsta hjalpen och HLR",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_olycksplats_nodsituation",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Olycksplats och nodsituation pa vag",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_passagerare_balte_barn",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Passagerare, balte och barnskydd",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_hjalpmedel_last",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Hjalpmedel, rullstol och last",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Barn och oskyddade trafikanter",
+      "order": 7,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "subjectId": "subject_d1_sakerhet",
+      "title": "Hastighet, krockvald och Nollvisionen",
+      "order": 8,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_professionellt_bemotande",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Professionellt bemötande och diskretion",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_kommunikation_onskemal",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Kommunikation om behov och önskemål",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_svara_passagerarsituationer",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Svåra passagerarsituationer",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Barn, ledsagare och självbestämmande",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_syn_horsel_kommunikation",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Syn, hörsel och anpassad kommunikation",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Rörelseförmåga och hjälpmedel",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_rent_fordon_dofter_rok",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Rent fordon, dofter och rök",
+      "order": 7,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "subjectId": "subject_d1_bemotande",
+      "title": "Prisinformation och ungefärligt pris",
+      "order": 8,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_health_forarens-roll-granser",
+      "subjectId": "subject_d1_sjukdomar",
+      "title": "Förarens roll och gränser",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_health_akuta-forandringar-under-resan",
+      "subjectId": "subject_d1_sjukdomar",
+      "title": "Akuta förändringar under resan",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_health_rorelse-balans-ork",
+      "subjectId": "subject_d1_sjukdomar",
+      "title": "Rörelse, balans och ork",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_health_kognition-minne-orientering",
+      "subjectId": "subject_d1_sjukdomar",
+      "title": "Kognition, minne och orientering",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "subjectId": "subject_d1_sjukdomar",
+      "title": "Psykisk och neuropsykiatrisk påverkan",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_health_individuella-behov-trygg-transport",
+      "subjectId": "subject_d1_sjukdomar",
+      "title": "Individuella behov och trygg transport",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "title": "Arbetsrisker i taxiarbetet",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "title": "Belastning, lyft och hjälpmedel",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_work_korstallning_och_variation",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "title": "Körställning och variation",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_work_paverkan_och_korformaga",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "title": "Påverkan och körförmåga",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "title": "Trötthet, stress och arbetscykel",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "title": "Utrustning och riskmedvetenhet under färd",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_taxitrafikens_grunder",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Taxitrafikens grunder",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_taxiforarlegitimation",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Taxiförarlegitimation",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_aterkallelse",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Återkallelse",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_begrepp_definitioner",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Begrepp och definitioner",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_handlingar_kontroller",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Handlingar och kontroller",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_taxitrafiktillstand",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Taxitrafiktillstånd",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_taxameter_sarskild_utrustning",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Taxameter och särskild utrustning",
+      "order": 7,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_prisinformation",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Prisinformation",
+      "order": 8,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_arbetstid_ansvar",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Arbetstid och ansvar",
+      "order": 9,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_skolskjuts",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Skolskjuts",
+      "order": 10,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_taxi_sanktioner_pafoljder",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Sanktioner och påföljder",
+      "order": 11,
+      "status": "published"
+    },
+    {
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Varför finns vilotidsregler?",
+      "order": 12,
+      "status": "published"
+    },
+    {
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Vilotidsbestämmelser",
+      "order": 13,
+      "status": "published"
+    },
+    {
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Arbetstid, förare och arbetsgivare",
+      "order": 14,
+      "status": "published"
+    },
+    {
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Beräkna dygnsvila",
+      "order": 15,
+      "status": "published"
+    },
+    {
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Anteckna dygnsvila",
+      "order": 16,
+      "status": "published"
+    },
+    {
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "title": "Scenarioövningar",
+      "order": 17,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_grundlaggande_trafikregler",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Grundläggande trafikregler",
+      "order": 1,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_vajnigsregler",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Väjningsregler",
+      "order": 2,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_hastighet",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Hastighet",
+      "order": 3,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_placering_korfalt",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Placering och körfält",
+      "order": 4,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_korsningar",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Korsningar",
+      "order": 5,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_cirkulationsplatser",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Cirkulationsplatser",
+      "order": 6,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_omkorning",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Omkörning",
+      "order": 7,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_stannande_parkering",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Stannande och parkering",
+      "order": 8,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_gaende_cyklister",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Gående och cyklister",
+      "order": 9,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Buss, spårväg och järnväg",
+      "order": 10,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_vagmarken",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Vägmärken",
+      "order": 11,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_vagmarkeringar",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Vägmarkeringar",
+      "order": 12,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_trafiksignaler_anordningar",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Trafiksignaler och andra anordningar",
+      "order": 13,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_fordonsdefinitioner",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Fordonsdefinitioner",
+      "order": 14,
+      "status": "published"
+    },
+    {
+      "id": "topic_d2_traffic_viktbegrepp",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "title": "Viktbegrepp",
+      "order": 15,
+      "status": "published"
+    }
+  ],
+  "lessons": [
+    {
+      "stableKey": "D1-NAV-TOOLS-L01",
+      "topicId": "topic_d1_navigation_navigeringshjalpmedel",
+      "title": "Kartor och navigeringshjälpmedel",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "LANTMATERIET_MIN_KARTA",
+        "TRAFIKVERKET_TRAFFIC_MAP"
+      ],
+      "requirementKeys": [
+        "D1-NAV-002-001",
+        "D1-NAV-003-001"
+      ],
+      "factKeys": [
+        "D1-NAV-TOOLS-FACT-001",
+        "D1-NAV-TOOLS-FACT-002",
+        "D1-NAV-TOOLS-FACT-003",
+        "D1-NAV-TOOLS-FACT-004",
+        "D1-NAV-TOOLS-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-NAV-ORAL-L01",
+      "topicId": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "title": "Muntlig färdbeskrivning",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-NAV-003-002",
+        "D1-NAV-003-003",
+        "D1-NAV-003-004"
+      ],
+      "factKeys": [
+        "D1-NAV-ORAL-FACT-001",
+        "D1-NAV-ORAL-FACT-002",
+        "D1-NAV-ORAL-FACT-003",
+        "D1-NAV-ORAL-FACT-004",
+        "D1-NAV-ORAL-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-NAV-MAP-L01",
+      "topicId": "topic_d1_navigation_kartlasning",
+      "title": "Kartläsning och teckenförklaring",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "LANTMATERIET_MIN_KARTA_HELP"
+      ],
+      "requirementKeys": [
+        "D1-NAV-003-005",
+        "D1-NAV-003-006",
+        "D1-NAV-003-007",
+        "D1-NAV-003-008"
+      ],
+      "factKeys": [
+        "D1-NAV-MAP-FACT-001",
+        "D1-NAV-MAP-FACT-002",
+        "D1-NAV-MAP-FACT-003",
+        "D1-NAV-MAP-FACT-004",
+        "D1-NAV-MAP-FACT-005",
+        "D1-NAV-MAP-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-NAV-CALC-L01",
+      "topicId": "topic_d1_navigation_avstand_restid_ankomst",
+      "title": "Avstånd, restid och ankomsttid",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-NAV-003-009",
+        "D1-NAV-003-010A",
+        "D1-NAV-003-010B"
+      ],
+      "factKeys": [
+        "D1-NAV-CALC-FACT-001",
+        "D1-NAV-CALC-FACT-002",
+        "D1-NAV-CALC-FACT-003",
+        "D1-NAV-CALC-FACT-004",
+        "D1-NAV-CALC-FACT-005",
+        "D1-NAV-CALC-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ECO-ECON-L01",
+      "topicId": "topic_d1_eco_ekonomisk_korning",
+      "title": "Ekonomisk körning",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_SPARSAM_KORNING"
+      ],
+      "requirementKeys": [
+        "D1-ECO-004-001",
+        "D1-ECO-005-001"
+      ],
+      "factKeys": [
+        "D1-ECO-ECON-FACT-001",
+        "D1-ECO-ECON-FACT-002",
+        "D1-ECO-ECON-FACT-003",
+        "D1-ECO-ECON-FACT-004",
+        "D1-ECO-ECON-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ECO-FUEL-L01",
+      "topicId": "topic_d1_eco_bransleforbrukning",
+      "title": "Bränsleförbrukning",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_SPARSAM_KORNING",
+        "TRV_HASTIGHET_HALLBARHET"
+      ],
+      "requirementKeys": [
+        "D1-ECO-005-002"
+      ],
+      "factKeys": [
+        "D1-ECO-FUEL-FACT-001",
+        "D1-ECO-FUEL-FACT-002",
+        "D1-ECO-FUEL-FACT-003",
+        "D1-ECO-FUEL-FACT-004",
+        "D1-ECO-FUEL-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ECO-PLAN-L01",
+      "topicId": "topic_d1_eco_planering_korsatt",
+      "title": "Planering och körsätt",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_SPARSAM_KORNING",
+        "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER"
+      ],
+      "requirementKeys": [
+        "D1-ECO-005-001"
+      ],
+      "factKeys": [
+        "D1-ECO-PLAN-FACT-001",
+        "D1-ECO-PLAN-FACT-002",
+        "D1-ECO-PLAN-FACT-003",
+        "D1-ECO-PLAN-FACT-004",
+        "D1-ECO-PLAN-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ECO-MAINT-L01",
+      "topicId": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "title": "Fordonsunderhåll och körekonomi",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_DACK_PERSONBIL",
+        "ENERGIMYNDIGHETEN_TRANSPORT_ATGARDER",
+        "TS_SPARSAM_KORNING"
+      ],
+      "requirementKeys": [
+        "D1-ECO-005-003"
+      ],
+      "factKeys": [
+        "D1-ECO-MAINT-FACT-001",
+        "D1-ECO-MAINT-FACT-002",
+        "D1-ECO-MAINT-FACT-003",
+        "D1-ECO-MAINT-FACT-004",
+        "D1-ECO-MAINT-FACT-005",
+        "D1-ECO-MAINT-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "Körekonomi handlar om att minska onödig förbrukning utan att tumma på säkerhet, trafikregler eller kundens uppdrag.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ENV-IMPACT-L01",
+      "topicId": "topic_d1_env_fordonets_miljopaverkan",
+      "title": "Fordonets miljöpåverkan",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "NV_TRANSPORTER_KLIMAT",
+        "NV_TRANSPORTER_UTSLAPP",
+        "NV_LUFTFORORENINGAR_EFFEKTER"
+      ],
+      "requirementKeys": [
+        "D1-ENV-006-001"
+      ],
+      "factKeys": [
+        "D1-ENV-IMPACT-FACT-001",
+        "D1-ENV-IMPACT-FACT-002",
+        "D1-ENV-IMPACT-FACT-003",
+        "D1-ENV-IMPACT-FACT-004",
+        "D1-ENV-IMPACT-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ENV-FUEL-L01",
+      "topicId": "topic_d1_env_motorer_branslen_vatskor",
+      "title": "Motorer, bränslen och fordonsvätskor",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "NV_TRANSPORTER_KLIMAT",
+        "EM_DRIVMEDEL",
+        "TS_AVGASER",
+        "KV_HALLBART_BILAGANDE"
+      ],
+      "requirementKeys": [
+        "D1-ENV-007-001"
+      ],
+      "factKeys": [
+        "D1-ENV-FUEL-FACT-001",
+        "D1-ENV-FUEL-FACT-002",
+        "D1-ENV-FUEL-FACT-003",
+        "D1-ENV-FUEL-FACT-004",
+        "D1-ENV-FUEL-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ENV-EXHAUST-L01",
+      "topicId": "topic_d1_env_avgaser_reningssystem",
+      "title": "Avgaser och reningssystem",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_AVGASER",
+        "NV_LUFTFORORENINGAR_EFFEKTER"
+      ],
+      "requirementKeys": [
+        "D1-ENV-007-002"
+      ],
+      "factKeys": [
+        "D1-ENV-EXHAUST-FACT-001",
+        "D1-ENV-EXHAUST-FACT-002",
+        "D1-ENV-EXHAUST-FACT-003",
+        "D1-ENV-EXHAUST-FACT-004",
+        "D1-ENV-EXHAUST-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ENV-TYRE-L01",
+      "topicId": "topic_d1_env_dack_och_miljo",
+      "title": "Däck och miljö",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "EM_DACK_ENERGIMARKNING",
+        "TS_DACK_PERSONBIL",
+        "TS_BULLER"
+      ],
+      "requirementKeys": [
+        "D1-ENV-007-003"
+      ],
+      "factKeys": [
+        "D1-ENV-TYRE-FACT-001",
+        "D1-ENV-TYRE-FACT-002",
+        "D1-ENV-TYRE-FACT-003",
+        "D1-ENV-TYRE-FACT-004",
+        "D1-ENV-TYRE-FACT-005",
+        "D1-ENV-TYRE-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ENV-CARE-L01",
+      "topicId": "topic_d1_env_fordonsskotsel_restprodukter",
+      "title": "Miljöanpassad fordonsskötsel",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "KV_HALLBART_BILAGANDE",
+        "NV_BILSKROTNING",
+        "NV_SPILLOLJA"
+      ],
+      "requirementKeys": [
+        "D1-ENV-008-001",
+        "D1-ENV-008-002"
+      ],
+      "factKeys": [
+        "D1-ENV-CARE-FACT-001",
+        "D1-ENV-CARE-FACT-002",
+        "D1-ENV-CARE-FACT-003",
+        "D1-ENV-CARE-FACT-004",
+        "D1-ENV-CARE-FACT-005",
+        "D1-ENV-CARE-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ENV-START-L01",
+      "topicId": "topic_d1_env_start_tomgang_buller",
+      "title": "Start, tomgång och buller",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_SPARSAM_KORNING",
+        "TS_BULLER"
+      ],
+      "requirementKeys": [
+        "D1-ENV-009-001"
+      ],
+      "factKeys": [
+        "D1-ENV-START-FACT-001",
+        "D1-ENV-START-FACT-002",
+        "D1-ENV-START-FACT-003",
+        "D1-ENV-START-FACT-004",
+        "D1-ENV-START-FACT-005",
+        "D1-ENV-START-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-ENV-DRIVE-L01",
+      "topicId": "topic_d1_env_korsatt_vagval_miljo",
+      "title": "Körsätt och vägval",
+      "order": 7,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_SPARSAM_KORNING",
+        "TRV_HASTIGHET_HALLBARHET",
+        "NV_TRANSPORTER_KLIMAT"
+      ],
+      "requirementKeys": [
+        "D1-ENV-009-002"
+      ],
+      "factKeys": [
+        "D1-ENV-DRIVE-FACT-001",
+        "D1-ENV-DRIVE-FACT-002",
+        "D1-ENV-DRIVE-FACT-003",
+        "D1-ENV-DRIVE-FACT-004",
+        "D1-ENV-DRIVE-FACT-005",
+        "D1-ENV-DRIVE-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I Miljö ligger fokus på utsläpp, hälsa, buller, avfall och resursanvändning. Samma körsätt kan ibland också förbättra körekonomin, men här bedöms miljöeffekten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-BASIC-L01",
+      "topicId": "topic_d1_vehicle_uppbyggnad_funktion",
+      "title": "Fordonets uppbyggnad och funktion",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TSFS_2017_54_KONTROLLBESIKTNING"
+      ],
+      "requirementKeys": [
+        "D1-VEH-023-001",
+        "D1-VEH-023-002"
+      ],
+      "factKeys": [
+        "D1-VEH-BASIC-FACT-001",
+        "D1-VEH-BASIC-FACT-002",
+        "D1-VEH-BASIC-FACT-003",
+        "D1-VEH-BASIC-FACT-004",
+        "D1-VEH-BASIC-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-CHECK-L01",
+      "topicId": "topic_d1_vehicle_kontroller_tekniska_uppgifter",
+      "title": "Fordonskontroller och tekniska uppgifter",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_BESIKTNING",
+        "TS_SLAPVAGNSVIKTER"
+      ],
+      "requirementKeys": [
+        "D1-VEH-024-001",
+        "D1-VEH-024-002"
+      ],
+      "factKeys": [
+        "D1-VEH-CHECK-FACT-001",
+        "D1-VEH-CHECK-FACT-002",
+        "D1-VEH-CHECK-FACT-003",
+        "D1-VEH-CHECK-FACT-004",
+        "D1-VEH-CHECK-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-SAFE-L01",
+      "topicId": "topic_d1_vehicle_sakerhetssystem",
+      "title": "Aktiva och passiva säkerhetssystem",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_AVGASER"
+      ],
+      "requirementKeys": [
+        "D1-VEH-024-003"
+      ],
+      "factKeys": [
+        "D1-VEH-SAFE-FACT-001",
+        "D1-VEH-SAFE-FACT-002",
+        "D1-VEH-SAFE-FACT-003",
+        "D1-VEH-SAFE-FACT-004",
+        "D1-VEH-SAFE-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-WARN-L01",
+      "topicId": "topic_d1_vehicle_varningslampor_fel",
+      "title": "Varningslampor och fel",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TSFS_2017_54_KONTROLLBESIKTNING"
+      ],
+      "requirementKeys": [
+        "D1-VEH-024-004"
+      ],
+      "factKeys": [
+        "D1-VEH-WARN-FACT-001",
+        "D1-VEH-WARN-FACT-002",
+        "D1-VEH-WARN-FACT-003",
+        "D1-VEH-WARN-FACT-004",
+        "D1-VEH-WARN-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-FLUID-L01",
+      "topicId": "topic_d1_vehicle_vatskor_lackage",
+      "title": "Vätskor och läckage",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "KV_HALLBART_BILAGANDE"
+      ],
+      "requirementKeys": [
+        "D1-VEH-025-001",
+        "D1-VEH-025-002",
+        "D1-VEH-025-003"
+      ],
+      "factKeys": [
+        "D1-VEH-FLUID-FACT-001",
+        "D1-VEH-FLUID-FACT-002",
+        "D1-VEH-FLUID-FACT-003",
+        "D1-VEH-FLUID-FACT-004",
+        "D1-VEH-FLUID-FACT-005",
+        "D1-VEH-FLUID-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-ELEC-L01",
+      "topicId": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "title": "Batteri, säkringar och elsystem",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_FORDONSBELYSNING",
+        "ELS_LADDA_ELBIL",
+        "ELS_LADDARE_BATTERIER"
+      ],
+      "requirementKeys": [
+        "D1-VEH-026-001",
+        "D1-VEH-026-002",
+        "D1-VEH-026-003",
+        "D1-VEH-026-004",
+        "D1-VEH-026-005"
+      ],
+      "factKeys": [
+        "D1-VEH-ELEC-FACT-001",
+        "D1-VEH-ELEC-FACT-002",
+        "D1-VEH-ELEC-FACT-003",
+        "D1-VEH-ELEC-FACT-004",
+        "D1-VEH-ELEC-FACT-005",
+        "D1-VEH-ELEC-FACT-006",
+        "D1-VEH-ELEC-FACT-007",
+        "D1-VEH-ELEC-FACT-008",
+        "D1-VEH-ELEC-FACT-009"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-STEER-L01",
+      "topicId": "topic_d1_vehicle_styrning_koregenskaper",
+      "title": "Styrning och köregenskaper",
+      "order": 7,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TSFS_2017_54_KONTROLLBESIKTNING",
+        "TS_LASTSAKRING"
+      ],
+      "requirementKeys": [
+        "D1-VEH-027-001",
+        "D1-VEH-027-002",
+        "D1-VEH-027-003",
+        "D1-VEH-027-004A",
+        "D1-VEH-027-004B",
+        "D1-VEH-027-004C"
+      ],
+      "factKeys": [
+        "D1-VEH-STEER-FACT-001",
+        "D1-VEH-STEER-FACT-002",
+        "D1-VEH-STEER-FACT-003",
+        "D1-VEH-STEER-FACT-004",
+        "D1-VEH-STEER-FACT-005",
+        "D1-VEH-STEER-FACT-006",
+        "D1-VEH-STEER-FACT-007",
+        "D1-VEH-STEER-FACT-008",
+        "D1-VEH-STEER-FACT-009"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-BRAKE-L01",
+      "topicId": "topic_d1_vehicle_bromssystem",
+      "title": "Bromssystem",
+      "order": 8,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TSFS_2017_54_KONTROLLBESIKTNING"
+      ],
+      "requirementKeys": [
+        "D1-VEH-028-001",
+        "D1-VEH-028-002",
+        "D1-VEH-028-003",
+        "D1-VEH-028-004"
+      ],
+      "factKeys": [
+        "D1-VEH-BRAKE-FACT-001",
+        "D1-VEH-BRAKE-FACT-002",
+        "D1-VEH-BRAKE-FACT-003",
+        "D1-VEH-BRAKE-FACT-004",
+        "D1-VEH-BRAKE-FACT-005",
+        "D1-VEH-BRAKE-FACT-006",
+        "D1-VEH-BRAKE-FACT-007",
+        "D1-VEH-BRAKE-FACT-008"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-WHEEL-L01",
+      "topicId": "topic_d1_vehicle_hjul_sakerhetskontroll",
+      "title": "Hjul och säkerhetskontroll",
+      "order": 9,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-VEH-029-002",
+        "D1-VEH-029-004"
+      ],
+      "factKeys": [
+        "D1-VEH-WHEEL-FACT-001",
+        "D1-VEH-WHEEL-FACT-002",
+        "D1-VEH-WHEEL-FACT-003",
+        "D1-VEH-WHEEL-FACT-004",
+        "D1-VEH-WHEEL-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-PRESS-L01",
+      "topicId": "topic_d1_vehicle_dackslitage_lufttryck",
+      "title": "Däckslitage och lufttryck",
+      "order": 10,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_DACK_PERSONBIL"
+      ],
+      "requirementKeys": [
+        "D1-VEH-029-001",
+        "D1-VEH-029-005"
+      ],
+      "factKeys": [
+        "D1-VEH-PRESS-FACT-001",
+        "D1-VEH-PRESS-FACT-002",
+        "D1-VEH-PRESS-FACT-003",
+        "D1-VEH-PRESS-FACT-004",
+        "D1-VEH-PRESS-FACT-005",
+        "D1-VEH-PRESS-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-MARK-L01",
+      "topicId": "topic_d1_vehicle_dackmarkningar",
+      "title": "Däckmärkningar",
+      "order": 11,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_DACK_PERSONBIL"
+      ],
+      "requirementKeys": [
+        "D1-VEH-029-006"
+      ],
+      "factKeys": [
+        "D1-VEH-MARK-FACT-001",
+        "D1-VEH-MARK-FACT-002",
+        "D1-VEH-MARK-FACT-003",
+        "D1-VEH-MARK-FACT-004",
+        "D1-VEH-MARK-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-WINTER-L01",
+      "topicId": "topic_d1_vehicle_vinterdack_dubbdack",
+      "title": "Vinterdäck och dubbdäck",
+      "order": 12,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_VINTERDACK"
+      ],
+      "requirementKeys": [
+        "D1-VEH-029-007A",
+        "D1-VEH-029-007C",
+        "D1-VEH-029-007B"
+      ],
+      "factKeys": [
+        "D1-VEH-WINTER-FACT-001",
+        "D1-VEH-WINTER-FACT-002",
+        "D1-VEH-WINTER-FACT-003",
+        "D1-VEH-WINTER-FACT-004",
+        "D1-VEH-WINTER-FACT-005",
+        "D1-VEH-WINTER-FACT-006",
+        "D1-VEH-WINTER-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-VEH-COMBO-L01",
+      "topicId": "topic_d1_vehicle_fordonskombinationer_dimensioner",
+      "title": "Hjul-, däck- och fordonskombinationer",
+      "order": 13,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_SLAPVAGNSVIKTER",
+        "TS_DACK_PERSONBIL"
+      ],
+      "requirementKeys": [
+        "D1-VEH-029-003",
+        "D1-VEH-029-007D",
+        "D1-VEH-029-007E"
+      ],
+      "factKeys": [
+        "D1-VEH-COMBO-FACT-001",
+        "D1-VEH-COMBO-FACT-002",
+        "D1-VEH-COMBO-FACT-003",
+        "D1-VEH-COMBO-FACT-004",
+        "D1-VEH-COMBO-FACT-005",
+        "D1-VEH-COMBO-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Fordonskännedom handlar om att upptäcka fel, förstå risker och veta när bilen inte ska användas innan felet är kontrollerat.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-TRIP-L01",
+      "topicId": "topic_d1_safety_trygg_saker_resa",
+      "title": "Trygg och saker taxiresa",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "SFS_1998_1276",
+        "TRV_HALKA",
+        "TRV_SNO_OVADER"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-010-001",
+        "D1-SAFE-010-002"
+      ],
+      "factKeys": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-002",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-004",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-THREAT-L01",
+      "topicId": "topic_d1_safety_hot_vald",
+      "title": "Hot och vald i taxiarbetet",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "AV_HOT_VALD",
+        "AV_HOT_VALD_RUTINER"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-011-001"
+      ],
+      "factKeys": [
+        "D1-SAFE-THREAT-FACT-001",
+        "D1-SAFE-THREAT-FACT-002",
+        "D1-SAFE-THREAT-FACT-003",
+        "D1-SAFE-THREAT-FACT-004",
+        "D1-SAFE-THREAT-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-HLR-L01",
+      "topicId": "topic_d1_safety_forsta_hjalpen_hlr",
+      "title": "Forsta hjalpen och HLR",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_HLR",
+        "VARDHANDBOKEN_HLR_TEKNIK"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-011-002"
+      ],
+      "factKeys": [
+        "D1-SAFE-HLR-FACT-001",
+        "D1-SAFE-HLR-FACT-002",
+        "D1-SAFE-HLR-FACT-003",
+        "D1-SAFE-HLR-FACT-004",
+        "D1-SAFE-HLR-FACT-005",
+        "D1-SAFE-HLR-FACT-006",
+        "D1-SAFE-HLR-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-ACCIDENT-L01",
+      "topicId": "topic_d1_safety_olycksplats_nodsituation",
+      "title": "Olycksplats och nodsituation pa vag",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "POLISEN_TRAFIKOLYCKOR",
+        "TRV_VARNA_LAMNA_LARMA"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-011-003",
+        "D1-SAFE-011-004"
+      ],
+      "factKeys": [
+        "D1-SAFE-ACCIDENT-FACT-001",
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-003",
+        "D1-SAFE-ACCIDENT-FACT-004",
+        "D1-SAFE-ACCIDENT-FACT-005",
+        "D1-SAFE-ACCIDENT-FACT-006",
+        "D1-SAFE-ACCIDENT-FACT-007",
+        "D1-SAFE-ACCIDENT-FACT-008"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-BELT-L01",
+      "topicId": "topic_d1_safety_passagerare_balte_barn",
+      "title": "Passagerare, balte och barnskydd",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_BALTESREGLER",
+        "TRV_BARN_I_BIL"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-012-001",
+        "D1-SAFE-012-002",
+        "D1-SAFE-012-003",
+        "D1-SAFE-014-002"
+      ],
+      "factKeys": [
+        "D1-SAFE-BELT-FACT-001",
+        "D1-SAFE-BELT-FACT-002",
+        "D1-SAFE-BELT-FACT-003",
+        "D1-SAFE-BELT-FACT-004",
+        "D1-SAFE-BELT-FACT-005",
+        "D1-SAFE-BELT-FACT-006",
+        "D1-SAFE-BELT-FACT-007",
+        "D1-SAFE-BELT-FACT-008",
+        "D1-SAFE-BELT-FACT-009"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-LOAD-L01",
+      "topicId": "topic_d1_safety_hjalpmedel_last",
+      "title": "Hjalpmedel, rullstol och last",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TS_LASTSAKRING",
+        "TS_LASTA_RATT"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-012-004",
+        "D1-SAFE-012-005",
+        "D1-SAFE-013-004"
+      ],
+      "factKeys": [
+        "D1-SAFE-LOAD-FACT-001",
+        "D1-SAFE-LOAD-FACT-002",
+        "D1-SAFE-LOAD-FACT-003",
+        "D1-SAFE-LOAD-FACT-004",
+        "D1-SAFE-LOAD-FACT-005",
+        "D1-SAFE-LOAD-FACT-006",
+        "D1-SAFE-LOAD-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-VULN-L01",
+      "topicId": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "title": "Barn och oskyddade trafikanter",
+      "order": 7,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TRV_BARN_I_BIL",
+        "TRV_HASTIGHET_KROCKVALD"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-013-001",
+        "D1-SAFE-013-002",
+        "D1-SAFE-013-003",
+        "D1-SAFE-013-004",
+        "D1-SAFE-014-001"
+      ],
+      "factKeys": [
+        "D1-SAFE-VULN-FACT-001",
+        "D1-SAFE-VULN-FACT-002",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-004",
+        "D1-SAFE-VULN-FACT-005",
+        "D1-SAFE-VULN-FACT-006",
+        "D1-SAFE-VULN-FACT-007",
+        "D1-SAFE-VULN-FACT-008"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SAFE-ZERO-L01",
+      "topicId": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "title": "Hastighet, krockvald och Nollvisionen",
+      "order": 8,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "TRV_HASTIGHET_KROCKVALD",
+        "TRV_HASTIGHETSGRANSER",
+        "TRV_NOLLVISIONEN",
+        "TS_NOLLVISIONEN"
+      ],
+      "requirementKeys": [
+        "D1-SAFE-014-001",
+        "D1-SAFE-015-001",
+        "D1-SAFE-015-002"
+      ],
+      "factKeys": [
+        "D1-SAFE-ZERO-FACT-001",
+        "D1-SAFE-ZERO-FACT-002",
+        "D1-SAFE-ZERO-FACT-003",
+        "D1-SAFE-ZERO-FACT-004",
+        "D1-SAFE-ZERO-FACT-005",
+        "D1-SAFE-ZERO-FACT-006",
+        "D1-SAFE-ZERO-FACT-007",
+        "D1-SAFE-ZERO-FACT-008",
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "I Säkerhet testas inte bara vad regeln säger, utan hur en taxiförare väljer ett säkert agerande när människor, fordon och trafikmiljö samverkar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-PRO-L01",
+      "topicId": "topic_d1_service_professionellt_bemotande",
+      "title": "Professionellt bemötande och diskretion",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-SERV-016-001",
+        "D1-SERV-016-003"
+      ],
+      "factKeys": [
+        "D1-SERV-PRO-FACT-001",
+        "D1-SERV-PRO-FACT-002",
+        "D1-SERV-PRO-FACT-003",
+        "D1-SERV-PRO-FACT-004",
+        "D1-SERV-PRO-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-COM-L01",
+      "topicId": "topic_d1_service_kommunikation_onskemal",
+      "title": "Kommunikation om behov och önskemål",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "DO_BRISTANDE_TILLGANGLIGHET",
+        "DO_TILLGANGLIGHET_FAQ"
+      ],
+      "requirementKeys": [
+        "D1-SERV-016-002",
+        "D1-SERV-016-003"
+      ],
+      "factKeys": [
+        "D1-SERV-COM-FACT-001",
+        "D1-SERV-COM-FACT-002",
+        "D1-SERV-COM-FACT-003",
+        "D1-SERV-COM-FACT-004",
+        "D1-SERV-COM-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-CONFLICT-L01",
+      "topicId": "topic_d1_service_svara_passagerarsituationer",
+      "title": "Svåra passagerarsituationer",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "AV_HOT_VALD"
+      ],
+      "requirementKeys": [
+        "D1-SERV-017-001"
+      ],
+      "factKeys": [
+        "D1-SERV-CONFLICT-FACT-001",
+        "D1-SERV-CONFLICT-FACT-002",
+        "D1-SERV-CONFLICT-FACT-003",
+        "D1-SERV-CONFLICT-FACT-004",
+        "D1-SERV-CONFLICT-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-CHILD-L01",
+      "topicId": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "title": "Barn, ledsagare och självbestämmande",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-SERV-017-002A",
+        "D1-SERV-017-003",
+        "D1-SERV-016-003"
+      ],
+      "factKeys": [
+        "D1-SERV-CHILD-FACT-001",
+        "D1-SERV-CHILD-FACT-002",
+        "D1-SERV-CHILD-FACT-003",
+        "D1-SERV-CHILD-FACT-004",
+        "D1-SERV-CHILD-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-ACCESS-L01",
+      "topicId": "topic_d1_service_syn_horsel_kommunikation",
+      "title": "Syn, hörsel och anpassad kommunikation",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "DO_TILLGANGLIGHET_FAQ",
+        "DO_BRISTANDE_TILLGANGLIGHET",
+        "MFD_START"
+      ],
+      "requirementKeys": [
+        "D1-SERV-017-002B",
+        "D1-SERV-017-002C",
+        "D1-SERV-016-003"
+      ],
+      "factKeys": [
+        "D1-SERV-ACCESS-FACT-001",
+        "D1-SERV-ACCESS-FACT-002",
+        "D1-SERV-ACCESS-FACT-003",
+        "D1-SERV-ACCESS-FACT-004",
+        "D1-SERV-ACCESS-FACT-005",
+        "D1-SERV-ACCESS-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-AID-L01",
+      "topicId": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "title": "Rörelseförmåga och hjälpmedel",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "DO_TILLGANGLIGHET_FAQ"
+      ],
+      "requirementKeys": [
+        "D1-SERV-017-002D",
+        "D1-SERV-017-007"
+      ],
+      "factKeys": [
+        "D1-SERV-AID-FACT-001",
+        "D1-SERV-AID-FACT-002",
+        "D1-SERV-AID-FACT-003",
+        "D1-SERV-AID-FACT-004",
+        "D1-SERV-AID-FACT-005",
+        "D1-SERV-AID-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-CLEAN-L01",
+      "topicId": "topic_d1_service_rent_fordon_dofter_rok",
+      "title": "Rent fordon, dofter och rök",
+      "order": 7,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_DOFTO",
+        "FHM_ROKFRIA_MILJOER",
+        "FHM_ROKFRIA_UTOMHUS"
+      ],
+      "requirementKeys": [
+        "D1-SERV-017-004",
+        "D1-SERV-017-005",
+        "D1-SERV-017-006"
+      ],
+      "factKeys": [
+        "D1-SERV-CLEAN-FACT-001",
+        "D1-SERV-CLEAN-FACT-002",
+        "D1-SERV-CLEAN-FACT-003",
+        "D1-SERV-CLEAN-FACT-004",
+        "D1-SERV-CLEAN-FACT-005",
+        "D1-SERV-CLEAN-FACT-006",
+        "D1-SERV-CLEAN-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-SERV-PRICE-L01",
+      "topicId": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "title": "Prisinformation och ungefärligt pris",
+      "order": 8,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "SFS_2012_211",
+        "TS_PRISINFORMATION_TAXI",
+        "KV_TAXI_PRESS_2026",
+        "KV_TAXI_PRIS"
+      ],
+      "requirementKeys": [
+        "D1-SERV-017-008"
+      ],
+      "factKeys": [
+        "D1-SERV-PRICE-FACT-001",
+        "D1-SERV-PRICE-FACT-002",
+        "D1-SERV-PRICE-FACT-003",
+        "D1-SERV-PRICE-FACT-004",
+        "D1-SERV-PRICE-FACT-005",
+        "D1-SERV-PRICE-FACT-006",
+        "D1-SERV-PRICE-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Bemötande handlar om att förstå passagerarens behov, kommunicera tydligt och göra resan professionell utan att hitta på egna juridiska skyldigheter.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-HEALTH-ROLE-LESSON-001",
+      "topicId": "topic_d1_health_forarens-roll-granser",
+      "title": "Förarens roll och gränser",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_KOGNITIVT_STOD",
+        "1177_DEMENS_NARSTAENDE"
+      ],
+      "requirementKeys": [
+        "D1-HEALTH-018-001"
+      ],
+      "factKeys": [
+        "D1-HEALTH-ROLE-FACT-001",
+        "D1-HEALTH-ROLE-FACT-002",
+        "D1-HEALTH-ROLE-FACT-003",
+        "D1-HEALTH-ROLE-FACT-004",
+        "D1-HEALTH-ROLE-FACT-005",
+        "D1-HEALTH-ROLE-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 5,
+      "summary": "I det här ämnet handlar kunskapen om trygg transport. Du behöver förstå vilka praktiska behov som kan uppstå, men du ska inte avgöra vilket tillstånd en passagerare har.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-HEALTH-URGENT-LESSON-001",
+      "topicId": "topic_d1_health_akuta-forandringar-under-resan",
+      "title": "Akuta förändringar under resan",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_INSULINKANNING",
+        "1177_ASTMA",
+        "1177_EPILEPSI",
+        "1177_STROKE",
+        "1177_ANAFYLAXI"
+      ],
+      "requirementKeys": [
+        "D1-HEALTH-018-GA-001"
+      ],
+      "factKeys": [
+        "D1-HEALTH-URGENT-FACT-001",
+        "D1-HEALTH-URGENT-FACT-002",
+        "D1-HEALTH-URGENT-FACT-003",
+        "D1-HEALTH-URGENT-FACT-004",
+        "D1-HEALTH-URGENT-FACT-005",
+        "D1-HEALTH-URGENT-FACT-006",
+        "D1-HEALTH-URGENT-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 5,
+      "summary": "Vissa förändringar under resan kan kräva snabb hjälp. Föraren ska då tänka säker plats, lugn kommunikation och rätt hjälp, inte fortsätta som om inget hänt.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-HEALTH-MOBILITY-LESSON-001",
+      "topicId": "topic_d1_health_rorelse-balans-ork",
+      "title": "Rörelse, balans och ork",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_PARKINSON",
+        "1177_MS",
+        "1177_CP",
+        "1177_STROKE"
+      ],
+      "requirementKeys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "factKeys": [
+        "D1-HEALTH-MOBILITY-FACT-001",
+        "D1-HEALTH-MOBILITY-FACT-002",
+        "D1-HEALTH-MOBILITY-FACT-003",
+        "D1-HEALTH-MOBILITY-FACT-004",
+        "D1-HEALTH-MOBILITY-FACT-005",
+        "D1-HEALTH-MOBILITY-FACT-006",
+        "D1-HEALTH-MOBILITY-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 5,
+      "summary": "Parkinsons sjukdom, MS, CP, stroke och reumatiska sjukdomar nämns i allmänna råden. För taxi betyder det framför allt att i- och urstigning, gångsträcka, tempo och hjälpmedel kan behöva anpassas.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-HEALTH-COG-LESSON-001",
+      "topicId": "topic_d1_health_kognition-minne-orientering",
+      "title": "Kognition, minne och orientering",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_KOGNITIVT_STOD",
+        "1177_DEMENS_NARSTAENDE",
+        "1177_ADHD",
+        "1177_AUTISM_IF"
+      ],
+      "requirementKeys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "factKeys": [
+        "D1-HEALTH-COG-FACT-001",
+        "D1-HEALTH-COG-FACT-002",
+        "D1-HEALTH-COG-FACT-003",
+        "D1-HEALTH-COG-FACT-004",
+        "D1-HEALTH-COG-FACT-005",
+        "D1-HEALTH-COG-FACT-006",
+        "D1-HEALTH-COG-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 5,
+      "summary": "Kognitiva svårigheter kan påverka minne, koncentration, orientering och planering. Föraren kan ofta göra resan tryggare genom tydlig struktur.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-HEALTH-MENTAL-LESSON-001",
+      "topicId": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "title": "Psykisk och neuropsykiatrisk påverkan",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_PANIKSYNDROM",
+        "1177_PSYKOS",
+        "1177_ADHD",
+        "1177_AUTISM_IF"
+      ],
+      "requirementKeys": [
+        "D1-HEALTH-018-GA-003",
+        "D1-HEALTH-018-GA-004"
+      ],
+      "factKeys": [
+        "D1-HEALTH-MENTAL-FACT-001",
+        "D1-HEALTH-MENTAL-FACT-002",
+        "D1-HEALTH-MENTAL-FACT-003",
+        "D1-HEALTH-MENTAL-FACT-004",
+        "D1-HEALTH-MENTAL-FACT-005",
+        "D1-HEALTH-MENTAL-FACT-006",
+        "D1-HEALTH-MENTAL-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 5,
+      "summary": "Ångest, psykotiska tillstånd och neuropsykiatriska funktionsnedsättningar anges i allmänna råden. Föraren behöver kunna möta oro, misstänksamhet eller svårigheter med instruktioner på ett tryggt sätt.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-HEALTH-ADAPT-LESSON-001",
+      "topicId": "topic_d1_health_individuella-behov-trygg-transport",
+      "title": "Individuella behov och trygg transport",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "1177_ASTMA"
+      ],
+      "requirementKeys": [
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-002",
+        "D1-HEALTH-018-GA-001"
+      ],
+      "factKeys": [
+        "D1-HEALTH-ADAPT-FACT-001",
+        "D1-HEALTH-ADAPT-FACT-002",
+        "D1-HEALTH-ADAPT-FACT-003",
+        "D1-HEALTH-ADAPT-FACT-004",
+        "D1-HEALTH-ADAPT-FACT-005",
+        "D1-HEALTH-ADAPT-FACT-006",
+        "D1-HEALTH-ADAPT-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 5,
+      "summary": "Samma tillstånd kan påverka två personer på helt olika sätt. Därför ska föraren inte använda färdiga antaganden, utan anpassa efter personen, resan och säkerheten.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-WORK-WORK-L01",
+      "topicId": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "title": "Arbetsrisker i taxiarbetet",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "AV_BELASTNINGSERGONOMI",
+        "TSFS_2021_119_CONSOLIDATED",
+        "AV_HOT_VALD"
+      ],
+      "requirementKeys": [
+        "D1-WORK-019-001"
+      ],
+      "factKeys": [
+        "D1-WORK-WORK-FACT-001",
+        "D1-WORK-WORK-FACT-002",
+        "D1-WORK-WORK-FACT-003",
+        "D1-WORK-WORK-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "Du har flera körningar kvar under ett kvällspass och märker att en arbetsrisk börjar öka.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-WORK-LIFT-L01",
+      "topicId": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "title": "Belastning, lyft och hjälpmedel",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "AV_BELASTNINGSERGONOMI",
+        "TSFS_2021_119_CONSOLIDATED",
+        "AV_ARBETSDON"
+      ],
+      "requirementKeys": [
+        "D1-WORK-020-001",
+        "D1-WORK-020-002"
+      ],
+      "factKeys": [
+        "D1-WORK-LIFT-FACT-001",
+        "D1-WORK-LIFT-FACT-002",
+        "D1-WORK-LIFT-FACT-003",
+        "D1-WORK-LIFT-FACT-004",
+        "D1-WORK-LIFT-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "En passagerare behöver hjälp och flera väskor ska in i bilen på en trång plats.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-WORK-POSTURE-L01",
+      "topicId": "topic_d1_work_korstallning_och_variation",
+      "title": "Körställning och variation",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_2021_119_CONSOLIDATED",
+        "AV_ARBETSDON",
+        "AV_BELASTNINGSERGONOMI",
+        "TSFS_MOBILTELEFON"
+      ],
+      "requirementKeys": [
+        "D1-WORK-020-003"
+      ],
+      "factKeys": [
+        "D1-WORK-POSTURE-FACT-001",
+        "D1-WORK-POSTURE-FACT-002",
+        "D1-WORK-POSTURE-FACT-003",
+        "D1-WORK-POSTURE-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "Efter flera timmar i bilen märker du att körställningen blivit spänd och att utrustningen ligger fel.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-WORK-FITNESS-L01",
+      "topicId": "topic_d1_work_paverkan_och_korformaga",
+      "title": "Påverkan och körförmåga",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "TS_MEDICINER_KORNING",
+        "1177_ALKOHOL_DROGER",
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-WORK-021-001",
+        "D1-WORK-021-002",
+        "D1-WORK-021-004",
+        "D1-WORK-021-005"
+      ],
+      "factKeys": [
+        "D1-WORK-FITNESS-FACT-001",
+        "D1-WORK-FITNESS-FACT-002",
+        "D1-WORK-FITNESS-FACT-003",
+        "D1-WORK-FITNESS-FACT-004",
+        "D1-WORK-FITNESS-FACT-005",
+        "D1-WORK-FITNESS-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "Före nästa körning upptäcker du en omständighet som kan påverka din körförmåga.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-WORK-RECOVERY-L01",
+      "topicId": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "title": "Trötthet, stress och arbetscykel",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "TRV_TRÖTTHET",
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-WORK-021-003",
+        "D1-WORK-021-006",
+        "D1-WORK-021-007"
+      ],
+      "factKeys": [
+        "D1-WORK-RECOVERY-FACT-001",
+        "D1-WORK-RECOVERY-FACT-002",
+        "D1-WORK-RECOVERY-FACT-003",
+        "D1-WORK-RECOVERY-FACT-004",
+        "D1-WORK-RECOVERY-FACT-005",
+        "D1-WORK-RECOVERY-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "Det är sent i ett pressat arbetspass och kunden vill att du ska fortsätta utan dröjsmål.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D1-WORK-EQUIPMENT-L01",
+      "topicId": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "title": "Utrustning och riskmedvetenhet under färd",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "TSFS_MOBILTELEFON",
+        "TSFS_2021_119_CONSOLIDATED"
+      ],
+      "requirementKeys": [
+        "D1-WORK-022-001"
+      ],
+      "factKeys": [
+        "D1-WORK-EQUIPMENT-FACT-001",
+        "D1-WORK-EQUIPMENT-FACT-002",
+        "D1-WORK-EQUIPMENT-FACT-003",
+        "D1-WORK-EQUIPMENT-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "Kunden skickar en ny adress medan du kör och navigationen behöver ändras.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-BASIC-L01",
+      "topicId": "topic_d2_taxi_taxitrafikens_grunder",
+      "title": "Taxitrafikens grunder",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_211",
+        "SFS_2012_238"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-030-001"
+      ],
+      "factKeys": [
+        "BASIC-FACT-001",
+        "BASIC-FACT-002",
+        "BASIC-FACT-003",
+        "BASIC-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxitrafikens grunder. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-TFL-L01",
+      "topicId": "topic_d2_taxi_taxiforarlegitimation",
+      "title": "Taxiförarlegitimation",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_211",
+        "SFS_2012_238"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-031-001"
+      ],
+      "factKeys": [
+        "TFL-FACT-001",
+        "TFL-FACT-002",
+        "TFL-FACT-003",
+        "TFL-FACT-004",
+        "TFL-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxiförarlegitimation. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-REVOKE-L01",
+      "topicId": "topic_d2_taxi_aterkallelse",
+      "title": "Återkallelse",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_211"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-031-002"
+      ],
+      "factKeys": [
+        "REVOKE-FACT-001",
+        "REVOKE-FACT-002",
+        "REVOKE-FACT-003",
+        "REVOKE-FACT-004",
+        "REVOKE-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller återkallelse. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-TERM-L01",
+      "topicId": "topic_d2_taxi_begrepp_definitioner",
+      "title": "Begrepp och definitioner",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_211",
+        "TSFS_2013_41"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-031-003"
+      ],
+      "factKeys": [
+        "TERM-FACT-001",
+        "TERM-FACT-002",
+        "TERM-FACT-003",
+        "TERM-FACT-004",
+        "TERM-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller begrepp och definitioner. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-DOC-L01",
+      "topicId": "topic_d2_taxi_handlingar_kontroller",
+      "title": "Handlingar och kontroller",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_238",
+        "SFS_1994_1297",
+        "TSFS_2013_41"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-031-004A",
+        "D2-TAXI-031-004B"
+      ],
+      "factKeys": [
+        "DOC-FACT-001",
+        "DOC-FACT-002",
+        "DOC-FACT-003",
+        "DOC-FACT-004",
+        "DOC-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller handlingar och kontroller. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-PERMIT-L01",
+      "topicId": "topic_d2_taxi_taxitrafiktillstand",
+      "title": "Taxitrafiktillstånd",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_211",
+        "SFS_2012_238"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-031-005"
+      ],
+      "factKeys": [
+        "PERMIT-FACT-001",
+        "PERMIT-FACT-002",
+        "PERMIT-FACT-003",
+        "PERMIT-FACT-004",
+        "PERMIT-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxitrafiktillstånd. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-METER-L01",
+      "topicId": "topic_d2_taxi_taxameter_sarskild_utrustning",
+      "title": "Taxameter och särskild utrustning",
+      "order": 7,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_238",
+        "TSFS_2013_41"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-031-006",
+        "D2-TAXI-031-007"
+      ],
+      "factKeys": [
+        "METER-FACT-001",
+        "METER-FACT-002",
+        "METER-FACT-003",
+        "METER-FACT-004",
+        "METER-FACT-005",
+        "METER-FACT-006",
+        "METER-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller taxameter och särskild utrustning. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-PRICE-L01",
+      "topicId": "topic_d2_taxi_prisinformation",
+      "title": "Prisinformation",
+      "order": 8,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_211",
+        "TSFS_2013_41"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-031-008"
+      ],
+      "factKeys": [
+        "PRICE-FACT-001",
+        "PRICE-FACT-002",
+        "PRICE-FACT-003",
+        "PRICE-FACT-004",
+        "PRICE-FACT-005",
+        "PRICE-FACT-006",
+        "PRICE-FACT-007",
+        "PRICE-FACT-008"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller prisinformation. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-WORK-L01",
+      "topicId": "topic_d2_taxi_arbetstid_ansvar",
+      "title": "Arbetstid och ansvar",
+      "order": 9,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2005_395"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-032-002"
+      ],
+      "factKeys": [
+        "WORK-FACT-001",
+        "WORK-FACT-002",
+        "WORK-FACT-003",
+        "WORK-FACT-004",
+        "WORK-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller arbetstid och ansvar. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-SCHOOL-L01",
+      "topicId": "topic_d2_taxi_skolskjuts",
+      "title": "Skolskjuts",
+      "order": 10,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1970_340"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-033-001"
+      ],
+      "factKeys": [
+        "SCHOOL-FACT-001",
+        "SCHOOL-FACT-002",
+        "SCHOOL-FACT-003",
+        "SCHOOL-FACT-004",
+        "SCHOOL-FACT-005",
+        "SCHOOL-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller skolskjuts. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-SANCTION-L01",
+      "topicId": "topic_d2_taxi_sanktioner_pafoljder",
+      "title": "Sanktioner och påföljder",
+      "order": 11,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2012_211",
+        "SFS_1994_1297",
+        "SFS_1970_340"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-030-001",
+        "D2-TAXI-031-002",
+        "D2-TAXI-032-002",
+        "D2-TAXI-033-001"
+      ],
+      "factKeys": [
+        "SANCTION-FACT-001",
+        "SANCTION-FACT-002",
+        "SANCTION-FACT-003",
+        "SANCTION-FACT-004",
+        "SANCTION-FACT-005",
+        "SANCTION-FACT-006",
+        "SANCTION-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Det här momentet samlar de regler som provet kan använda när frågan gäller sanktioner och påföljder. Börja alltid med att identifiera om frågan handlar om behörighet, fordon, ansvar, kontroll eller påföljd.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-VILOTIDER-L01",
+      "title": "Varför finns vilotidsregler?",
+      "order": 12,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1994_1297"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-032-001"
+      ],
+      "factKeys": [
+        "REST-FACT-001",
+        "REST-FACT-002",
+        "REST-FACT-003"
+      ],
+      "estimatedStudyTimeMinutes": 5,
+      "summary": "Vilotidsreglerna finns för att en förare inte ska köra när trötthet gör körningen riskabel. För dig som taxiförare är regeln praktisk: innan du kör behöver du kunna bedöma om din senaste vila räcker.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TAXI-VILOTIDER-L02",
+      "title": "Vilotidsbestämmelser",
+      "order": 13,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1994_1297"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-032-001"
+      ],
+      "factKeys": [
+        "REST-FACT-004",
+        "REST-FACT-005",
+        "REST-FACT-006",
+        "REST-FACT-007"
+      ],
+      "estimatedStudyTimeMinutes": 7,
+      "summary": "Inför varje tidpunkt då du utför transport ska du ha haft minst 11 timmars dygnsvila under de föregående 24 timmarna. Tänk därför rullande bakåt från den tid då körningen ska ske.",
+      "prerequisiteLessonKeys": [
+        "D2-TAXI-VILOTIDER-L01"
+      ]
+    },
+    {
+      "stableKey": "D2-TAXI-VILOTIDER-L03",
+      "title": "Arbetstid, förare och arbetsgivare",
+      "order": 14,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1994_1297",
+        "SFS_2005_395"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-032-002"
+      ],
+      "factKeys": [
+        "REST-FACT-013",
+        "REST-FACT-014",
+        "REST-FACT-015",
+        "REST-FACT-016",
+        "REST-FACT-017",
+        "REST-FACT-018",
+        "REST-FACT-019",
+        "REST-FACT-020",
+        "REST-FACT-021",
+        "REST-FACT-022",
+        "REST-FACT-023",
+        "REST-FACT-024",
+        "REST-FACT-025",
+        "REST-FACT-026"
+      ],
+      "estimatedStudyTimeMinutes": 9,
+      "summary": "Dygnsvilans tidbok visar din vila enligt vilotidsförordningen. Vägarbetstidslagens register handlar om arbetstid som omfattas av den lagen. De kan båda vara viktiga, men de är inte samma sak.",
+      "prerequisiteLessonKeys": [
+        "D2-TAXI-VILOTIDER-L02"
+      ]
+    },
+    {
+      "stableKey": "D2-TAXI-VILOTIDER-L04",
+      "title": "Beräkna dygnsvila",
+      "order": 15,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1994_1297"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-032-001",
+        "D2-TAXI-032-003"
+      ],
+      "factKeys": [
+        "REST-FACT-004",
+        "REST-FACT-005",
+        "REST-FACT-006"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "Börja vid den tid då körningen ska ske. Titta sedan 24 timmar bakåt. I det tidsfönstret ska det finnas minst 11 timmar dygnsvila.",
+      "prerequisiteLessonKeys": [
+        "D2-TAXI-VILOTIDER-L03"
+      ]
+    },
+    {
+      "stableKey": "D2-TAXI-VILOTIDER-L05",
+      "title": "Anteckna dygnsvila",
+      "order": 16,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1994_1297"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-032-003"
+      ],
+      "factKeys": [
+        "REST-FACT-008",
+        "REST-FACT-009",
+        "REST-FACT-010",
+        "REST-FACT-011",
+        "REST-FACT-012"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "Du ska fortlöpande anteckna din dygnsvila i en personlig tidbok. Anteckningen ska göras innan körningen påbörjas och avse den närmast föregående dygnsvilan.",
+      "prerequisiteLessonKeys": [
+        "D2-TAXI-VILOTIDER-L04"
+      ]
+    },
+    {
+      "stableKey": "D2-TAXI-VILOTIDER-L06",
+      "title": "Scenarioövningar",
+      "order": 17,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1994_1297",
+        "SFS_2005_395"
+      ],
+      "requirementKeys": [
+        "D2-TAXI-032-001",
+        "D2-TAXI-032-002",
+        "D2-TAXI-032-003"
+      ],
+      "factKeys": [
+        "REST-FACT-004",
+        "REST-FACT-005",
+        "REST-FACT-006",
+        "REST-FACT-008",
+        "REST-FACT-009",
+        "REST-FACT-012",
+        "REST-FACT-014",
+        "REST-FACT-020",
+        "REST-FACT-023"
+      ],
+      "estimatedStudyTimeMinutes": 10,
+      "summary": "Tillämpa reglerna i realistiska kör- och kontrollsituationer.",
+      "prerequisiteLessonKeys": [
+        "D2-TAXI-VILOTIDER-L05"
+      ]
+    },
+    {
+      "stableKey": "D2-TRAFFIC-BASIC-L01",
+      "topicId": "topic_d2_traffic_grundlaggande_trafikregler",
+      "title": "Grundläggande trafikregler",
+      "order": 1,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-034-001"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-BASIC-FACT-001",
+        "D2-TRAFFIC-BASIC-FACT-002",
+        "D2-TRAFFIC-BASIC-FACT-003",
+        "D2-TRAFFIC-BASIC-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på grundläggande trafikregler som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-YIELD-L01",
+      "topicId": "topic_d2_traffic_vajnigsregler",
+      "title": "Väjningsregler",
+      "order": 2,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-YIELD-FACT-001",
+        "D2-TRAFFIC-YIELD-FACT-002",
+        "D2-TRAFFIC-YIELD-FACT-003",
+        "D2-TRAFFIC-YIELD-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på väjningsregler som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-SPEED-L01",
+      "topicId": "topic_d2_traffic_hastighet",
+      "title": "Hastighet",
+      "order": 3,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-SPEED-FACT-001",
+        "D2-TRAFFIC-SPEED-FACT-002",
+        "D2-TRAFFIC-SPEED-FACT-003",
+        "D2-TRAFFIC-SPEED-FACT-004",
+        "D2-TRAFFIC-SPEED-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "I det här momentet tränar du på hastighet som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-LANE-L01",
+      "topicId": "topic_d2_traffic_placering_korfalt",
+      "title": "Placering och körfält",
+      "order": 4,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-LANE-FACT-001",
+        "D2-TRAFFIC-LANE-FACT-002",
+        "D2-TRAFFIC-LANE-FACT-003",
+        "D2-TRAFFIC-LANE-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på placering och körfält som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-JUNCTION-L01",
+      "topicId": "topic_d2_traffic_korsningar",
+      "title": "Korsningar",
+      "order": 5,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-JUNCTION-FACT-001",
+        "D2-TRAFFIC-JUNCTION-FACT-002",
+        "D2-TRAFFIC-JUNCTION-FACT-003",
+        "D2-TRAFFIC-JUNCTION-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på korsningar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-ROUND-L01",
+      "topicId": "topic_d2_traffic_cirkulationsplatser",
+      "title": "Cirkulationsplatser",
+      "order": 6,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2007_90",
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-001",
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-ROUND-FACT-001",
+        "D2-TRAFFIC-ROUND-FACT-002",
+        "D2-TRAFFIC-ROUND-FACT-003",
+        "D2-TRAFFIC-ROUND-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på cirkulationsplatser som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-PASS-L01",
+      "topicId": "topic_d2_traffic_omkorning",
+      "title": "Omkörning",
+      "order": 7,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-PASS-FACT-001",
+        "D2-TRAFFIC-PASS-FACT-002",
+        "D2-TRAFFIC-PASS-FACT-003",
+        "D2-TRAFFIC-PASS-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på omkörning som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-PARK-L01",
+      "topicId": "topic_d2_traffic_stannande_parkering",
+      "title": "Stannande och parkering",
+      "order": 8,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-PARK-FACT-001",
+        "D2-TRAFFIC-PARK-FACT-002",
+        "D2-TRAFFIC-PARK-FACT-003",
+        "D2-TRAFFIC-PARK-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på stannande och parkering som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-VULN-L01",
+      "topicId": "topic_d2_traffic_gaende_cyklister",
+      "title": "Gående och cyklister",
+      "order": 9,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-VULN-FACT-001",
+        "D2-TRAFFIC-VULN-FACT-002",
+        "D2-TRAFFIC-VULN-FACT-003",
+        "D2-TRAFFIC-VULN-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på gående och cyklister som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-TRANSIT-L01",
+      "topicId": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "title": "Buss, spårväg och järnväg",
+      "order": 10,
+      "status": "published",
+      "sourceIds": [
+        "SFS_1998_1276",
+        "SFS_2007_90"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-002",
+        "D2-TRAFFIC-034-002"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-TRANSIT-FACT-001",
+        "D2-TRAFFIC-TRANSIT-FACT-002",
+        "D2-TRAFFIC-TRANSIT-FACT-003",
+        "D2-TRAFFIC-TRANSIT-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på buss, spårväg och järnväg som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-SIGN-L01",
+      "topicId": "topic_d2_traffic_vagmarken",
+      "title": "Vägmärken",
+      "order": 11,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2007_90"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-SIGN-FACT-001",
+        "D2-TRAFFIC-SIGN-FACT-002",
+        "D2-TRAFFIC-SIGN-FACT-003",
+        "D2-TRAFFIC-SIGN-FACT-004",
+        "D2-TRAFFIC-SIGN-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "I det här momentet tränar du på vägmärken som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-MARK-L01",
+      "topicId": "topic_d2_traffic_vagmarkeringar",
+      "title": "Vägmarkeringar",
+      "order": 12,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2007_90"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-MARK-FACT-001",
+        "D2-TRAFFIC-MARK-FACT-002",
+        "D2-TRAFFIC-MARK-FACT-003",
+        "D2-TRAFFIC-MARK-FACT-004",
+        "D2-TRAFFIC-MARK-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "I det här momentet tränar du på vägmarkeringar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-SIGNAL-L01",
+      "topicId": "topic_d2_traffic_trafiksignaler_anordningar",
+      "title": "Trafiksignaler och andra anordningar",
+      "order": 13,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2007_90"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-034-002",
+        "D2-TRAFFIC-035-001"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-SIGNAL-FACT-001",
+        "D2-TRAFFIC-SIGNAL-FACT-002",
+        "D2-TRAFFIC-SIGNAL-FACT-003",
+        "D2-TRAFFIC-SIGNAL-FACT-004",
+        "D2-TRAFFIC-SIGNAL-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "I det här momentet tränar du på trafiksignaler och andra anordningar som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-VEHICLE-L01",
+      "topicId": "topic_d2_traffic_fordonsdefinitioner",
+      "title": "Fordonsdefinitioner",
+      "order": 14,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2001_559"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-003A1",
+        "D2-TRAFFIC-035-003A2",
+        "D2-TRAFFIC-035-003A3",
+        "D2-TRAFFIC-035-003B1",
+        "D2-TRAFFIC-035-003B2"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-VEHICLE-FACT-001",
+        "D2-TRAFFIC-VEHICLE-FACT-002",
+        "D2-TRAFFIC-VEHICLE-FACT-003",
+        "D2-TRAFFIC-VEHICLE-FACT-004",
+        "D2-TRAFFIC-VEHICLE-FACT-005"
+      ],
+      "estimatedStudyTimeMinutes": 8,
+      "summary": "I det här momentet tränar du på fordonsdefinitioner som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    },
+    {
+      "stableKey": "D2-TRAFFIC-WEIGHT-L01",
+      "topicId": "topic_d2_traffic_viktbegrepp",
+      "title": "Viktbegrepp",
+      "order": 15,
+      "status": "published",
+      "sourceIds": [
+        "SFS_2001_559"
+      ],
+      "requirementKeys": [
+        "D2-TRAFFIC-035-003C1",
+        "D2-TRAFFIC-035-003C2",
+        "D2-TRAFFIC-035-003C3",
+        "D2-TRAFFIC-035-003C4"
+      ],
+      "factKeys": [
+        "D2-TRAFFIC-WEIGHT-FACT-001",
+        "D2-TRAFFIC-WEIGHT-FACT-002",
+        "D2-TRAFFIC-WEIGHT-FACT-003",
+        "D2-TRAFFIC-WEIGHT-FACT-004"
+      ],
+      "estimatedStudyTimeMinutes": 6,
+      "summary": "I det här momentet tränar du på viktbegrepp som en del av Delprov 2 Trafiklagstiftning. Målet är att känna igen regeln, aktören och situationen innan du svarar.",
+      "prerequisiteLessonKeys": []
+    }
+  ],
+  "assessments": [
+    {
+      "id": "D1-NAV-TOOLS-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Kartor och navigeringshjälpmedel",
+      "subjectId": "subject_d1_navigation",
+      "topicId": "topic_d1_navigation_navigeringshjalpmedel",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-NAV-ORAL-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Muntlig färdbeskrivning",
+      "subjectId": "subject_d1_navigation",
+      "topicId": "topic_d1_navigation_muntlig_fardbeskrivning",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-NAV-MAP-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Kartläsning och teckenförklaring",
+      "subjectId": "subject_d1_navigation",
+      "topicId": "topic_d1_navigation_kartlasning",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-NAV-CALC-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Avstånd, restid och ankomsttid",
+      "subjectId": "subject_d1_navigation",
+      "topicId": "topic_d1_navigation_avstand_restid_ankomst",
+      "questionCount": 10,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-NAV-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern ämnescheckpoint: Navigering",
+      "subjectId": "subject_d1_navigation",
+      "questionCount": 24,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ECO-ECON-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Ekonomisk körning",
+      "subjectId": "subject_d1_korekonomi",
+      "topicId": "topic_d1_eco_ekonomisk_korning",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ECO-FUEL-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Bränsleförbrukning",
+      "subjectId": "subject_d1_korekonomi",
+      "topicId": "topic_d1_eco_bransleforbrukning",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ECO-PLAN-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Planering och körsätt",
+      "subjectId": "subject_d1_korekonomi",
+      "topicId": "topic_d1_eco_planering_korsatt",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ECO-MAINT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Fordonsunderhåll och körekonomi",
+      "subjectId": "subject_d1_korekonomi",
+      "topicId": "topic_d1_eco_fordonsunderhall_korekonomi",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ECO-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern ämnescheckpoint: Körekonomi",
+      "subjectId": "subject_d1_korekonomi",
+      "questionCount": 20,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-IMPACT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Fordonets miljöpåverkan",
+      "subjectId": "subject_d1_miljo",
+      "topicId": "topic_d1_env_fordonets_miljopaverkan",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-FUEL-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Motorer, bränslen och fordonsvätskor",
+      "subjectId": "subject_d1_miljo",
+      "topicId": "topic_d1_env_motorer_branslen_vatskor",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-EXHAUST-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Avgaser och reningssystem",
+      "subjectId": "subject_d1_miljo",
+      "topicId": "topic_d1_env_avgaser_reningssystem",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-TYRE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Däck och miljö",
+      "subjectId": "subject_d1_miljo",
+      "topicId": "topic_d1_env_dack_och_miljo",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-CARE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Miljöanpassad fordonsskötsel",
+      "subjectId": "subject_d1_miljo",
+      "topicId": "topic_d1_env_fordonsskotsel_restprodukter",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-START-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Start, tomgång och buller",
+      "subjectId": "subject_d1_miljo",
+      "topicId": "topic_d1_env_start_tomgang_buller",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-DRIVE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Körsätt och vägval",
+      "subjectId": "subject_d1_miljo",
+      "topicId": "topic_d1_env_korsatt_vagval_miljo",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-ENV-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern ämnescheckpoint: Miljö",
+      "subjectId": "subject_d1_miljo",
+      "questionCount": 24,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-BASIC-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Fordonets uppbyggnad och funktion",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_uppbyggnad_funktion",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-CHECK-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Fordonskontroller och tekniska uppgifter",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_kontroller_tekniska_uppgifter",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-SAFE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Aktiva och passiva säkerhetssystem",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_sakerhetssystem",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-WARN-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Varningslampor och fel",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_varningslampor_fel",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-FLUID-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Vätskor och läckage",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_vatskor_lackage",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-ELEC-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Batteri, säkringar och elsystem",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_batteri_sakringar_elsystem",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-STEER-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Styrning och köregenskaper",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_styrning_koregenskaper",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-BRAKE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Bromssystem",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_bromssystem",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-WHEEL-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Hjul och säkerhetskontroll",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_hjul_sakerhetskontroll",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-PRESS-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Däckslitage och lufttryck",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_dackslitage_lufttryck",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-MARK-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Däckmärkningar",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_dackmarkningar",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-WINTER-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Vinterdäck och dubbdäck",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_vinterdack_dubbdack",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-COMBO-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Hjul-, däck- och fordonskombinationer",
+      "subjectId": "subject_d1_fordonskannedom",
+      "topicId": "topic_d1_vehicle_fordonskombinationer_dimensioner",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-VEH-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern ämnescheckpoint: Fordonskännedom",
+      "subjectId": "subject_d1_fordonskannedom",
+      "questionCount": 32,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-TRIP-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Trygg och saker taxiresa",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_trygg_saker_resa",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-THREAT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Hot och vald i taxiarbetet",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_hot_vald",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-HLR-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Forsta hjalpen och HLR",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_forsta_hjalpen_hlr",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-ACCIDENT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Olycksplats och nodsituation pa vag",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_olycksplats_nodsituation",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-BELT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Passagerare, balte och barnskydd",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_passagerare_balte_barn",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-LOAD-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Hjalpmedel, rullstol och last",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_hjalpmedel_last",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-VULN-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Barn och oskyddade trafikanter",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_barn_oskyddade_trafikanter",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-ZERO-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Hastighet, krockvald och Nollvisionen",
+      "subjectId": "subject_d1_sakerhet",
+      "topicId": "topic_d1_safety_hastighet_krockvald_nollvision",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SAFE-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern ämnescheckpoint: Säkerhet",
+      "subjectId": "subject_d1_sakerhet",
+      "questionCount": 30,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-PRO-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Professionellt bemötande och diskretion",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_professionellt_bemotande",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-COM-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Kommunikation om behov och önskemål",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_kommunikation_onskemal",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-CONFLICT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Svåra passagerarsituationer",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_svara_passagerarsituationer",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-CHILD-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Barn, ledsagare och självbestämmande",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_barn_ledsagare_sjalvbestammande",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-ACCESS-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Syn, hörsel och anpassad kommunikation",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_syn_horsel_kommunikation",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-AID-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Rörelseförmåga och hjälpmedel",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_rorelseformaga_hjalpmedel",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-CLEAN-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Rent fordon, dofter och rök",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_rent_fordon_dofter_rok",
+      "questionCount": 7,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-PRICE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Prisinformation och ungefärligt pris",
+      "subjectId": "subject_d1_bemotande",
+      "topicId": "topic_d1_service_prisinformation_ungefarligt_pris",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-SERV-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern ämnescheckpoint: Bemötande",
+      "subjectId": "subject_d1_bemotande",
+      "questionCount": 30,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-HEALTH-ROLE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Förarens roll och gränser - checkpoint",
+      "subjectId": "subject_d1_sjukdomar",
+      "topicId": "topic_d1_health_forarens-roll-granser",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-HEALTH-URGENT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Akuta förändringar under resan - checkpoint",
+      "subjectId": "subject_d1_sjukdomar",
+      "topicId": "topic_d1_health_akuta-forandringar-under-resan",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-HEALTH-MOBILITY-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Rörelse, balans och ork - checkpoint",
+      "subjectId": "subject_d1_sjukdomar",
+      "topicId": "topic_d1_health_rorelse-balans-ork",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-HEALTH-COG-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Kognition, minne och orientering - checkpoint",
+      "subjectId": "subject_d1_sjukdomar",
+      "topicId": "topic_d1_health_kognition-minne-orientering",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-HEALTH-MENTAL-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Psykisk och neuropsykiatrisk påverkan - checkpoint",
+      "subjectId": "subject_d1_sjukdomar",
+      "topicId": "topic_d1_health_psykisk-neuropsykiatrisk-paverkan",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-HEALTH-ADAPT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Individuella behov och trygg transport - checkpoint",
+      "subjectId": "subject_d1_sjukdomar",
+      "topicId": "topic_d1_health_individuella-behov-trygg-transport",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-HEALTH-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Sjukdomar och funktionsnedsättningar - ämnescheckpoint",
+      "subjectId": "subject_d1_sjukdomar",
+      "questionCount": 18,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-WORK-WORK-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Checkpoint: Arbetsrisker i taxiarbetet",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "topicId": "topic_d1_work_arbetsrisker_i_taxiarbetet",
+      "questionCount": 4,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-WORK-LIFT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Checkpoint: Belastning, lyft och hjälpmedel",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "topicId": "topic_d1_work_belastning_lyft_och_hjalpmedel",
+      "questionCount": 5,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-WORK-POSTURE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Checkpoint: Körställning och variation",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "topicId": "topic_d1_work_korstallning_och_variation",
+      "questionCount": 4,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-WORK-FITNESS-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Checkpoint: Påverkan och körförmåga",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "topicId": "topic_d1_work_paverkan_och_korformaga",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-WORK-RECOVERY-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Checkpoint: Trötthet, stress och arbetscykel",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "topicId": "topic_d1_work_trotthet_stress_och_arbetscykel",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-WORK-EQUIPMENT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Checkpoint: Utrustning och riskmedvetenhet under färd",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "topicId": "topic_d1_work_utrustning_och_riskmedvetenhet",
+      "questionCount": 4,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D1-WORK-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Checkpoint: Arbetsmiljö, omdöme och riskmedvetenhet",
+      "subjectId": "subject_d1_arbetsmiljo",
+      "questionCount": 24,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-BASIC-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Grundläggande trafikregler",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_grundlaggande_trafikregler",
+      "questionCount": 6,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-YIELD-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Väjningsregler",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_vajnigsregler",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-SPEED-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Hastighet",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_hastighet",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-LANE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Placering och körfält",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_placering_korfalt",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-JUNCTION-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Korsningar",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_korsningar",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-ROUND-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Cirkulationsplatser",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_cirkulationsplatser",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-PASS-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Omkörning",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_omkorning",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-PARK-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Stannande och parkering",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_stannande_parkering",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-VULN-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Gående och cyklister",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_gaende_cyklister",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-TRANSIT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Buss, spårväg och järnväg",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_buss_sparvag_jarnvag",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-SIGN-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Vägmärken",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_vagmarken",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-MARK-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Vägmarkeringar",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_vagmarkeringar",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-SIGNAL-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Trafiksignaler och andra anordningar",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_trafiksignaler_anordningar",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-VEHICLE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Fordonsdefinitioner",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_fordonsdefinitioner",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-WEIGHT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Viktbegrepp",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "topicId": "topic_d2_traffic_viktbegrepp",
+      "questionCount": 8,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TRAFFIC-SUBJECT-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern ämnescheckpoint: Trafiklagstiftning",
+      "subjectId": "subject_d2_trafiklagstiftning",
+      "questionCount": 30,
+      "passThreshold": 0.8,
+      "status": "published"
+    }
+  ]
+}

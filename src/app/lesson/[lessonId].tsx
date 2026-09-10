@@ -1,24 +1,39 @@
 import { type Href, router, useLocalSearchParams } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
+import { useEffect, useState } from 'react';
 
 import { Screen } from '@/components/layout/Screen';
 import { LessonBlockRenderer } from '@/components/learning/LessonBlockRenderer';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import { getLessonView } from '@/features/learn/selectors';
-import { DEMO_USER_ID, completeLesson, getLearningSnapshot } from '@/lib/learningStore';
+import { RUNTIME_USER_ID, completeRuntimeLesson, getRuntimeState } from '@/lib/runtimeLearningState';
+import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function LessonScreen() {
   const { lessonId } = useLocalSearchParams<{ lessonId: string }>();
-  const { repository, state } = getLearningSnapshot();
-  const view = getLessonView(repository, lessonId, state.facts, DEMO_USER_ID);
+  const metadataRepository = getRuntimeMetadataRepository();
+  const metadataLesson = metadataRepository.lessons.find((lesson) => lesson.id === lessonId);
+  const metadataTopic = metadataLesson ? metadataRepository.topics.find((topic) => topic.id === metadataLesson.topicId) : undefined;
+  const [repository, setRepository] = useState(metadataRepository);
+  const [state, setState] = useState(getRuntimeState());
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<Error>();
+  useEffect(() => {
+    if (!metadataTopic) return;
+    setLoading(true);
+    void loadRuntimeRepository([metadataTopic.subjectId]).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
+  }, [metadataTopic?.subjectId]);
+  const view = getLessonView(repository, lessonId, state.facts, RUNTIME_USER_ID);
 
+  if (loadError) return <ThemedText>Lektionen kunde inte laddas. Försök igen.</ThemedText>;
+  if (loading && (!view.lesson || view.lesson.blocks.length === 0)) return <ThemedText>Laddar lektion...</ThemedText>;
   if (!view.lesson || !view.topic) {
     return <ThemedText>Lektionen hittades inte.</ThemedText>;
   }
 
   function handleContinue() {
-    completeLesson(DEMO_USER_ID, view.lesson!.id);
+    completeRuntimeLesson(view.lesson!.id);
     if (view.nextLesson) {
       router.replace({ pathname: '/lesson/[lessonId]', params: { lessonId: view.nextLesson.id } } as unknown as Href);
     } else {

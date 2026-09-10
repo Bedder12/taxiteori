@@ -7,14 +7,23 @@ import { Screen } from '@/components/layout/Screen';
 import { QuestionCard } from '@/components/quiz/QuestionCard';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
-import { DEMO_USER_ID, getLearningSnapshot, getRemainingTimeSeconds, saveAttemptAnswer, startMockAttempt, submitAttempt } from '@/lib/learningStore';
+import { getRemainingRuntimeSeconds, getRuntimeState, saveRuntimeAnswer, startRuntimeMock, submitRuntimeAttempt } from '@/lib/runtimeLearningState';
+import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../../packages/domain/src/runtimeRepository';
 
 export default function MockExamScreen() {
   const { examId } = useLocalSearchParams<{ examId: string }>();
-  const { repository, state } = getLearningSnapshot();
+  const [repository, setRepository] = useState(getRuntimeMetadataRepository());
+  const [state, setState] = useState(getRuntimeState());
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<Error>();
   const exam = repository.exams.find((candidate) => candidate.id === examId);
+  const subjectIds = repository.subjects.filter((subject) => subject.examId === examId).map((subject) => subject.id);
   const blueprint = repository.examBlueprints.find((candidate) => candidate.examId === examId && candidate.type === 'mock_exam' && candidate.active);
-  const attempt = useMemo(() => (blueprint ? startMockAttempt(DEMO_USER_ID, blueprint.id) : undefined), [blueprint?.id]);
+  useEffect(() => {
+    setLoading(true);
+    void loadRuntimeRepository(subjectIds).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
+  }, [examId]);
+  const attempt = useMemo(() => (!loading && blueprint ? startRuntimeMock(repository, blueprint.id) : undefined), [loading, blueprint?.id, repository]);
   const [currentIndex, setCurrentIndex] = useState(() => {
     const firstUnanswered = attempt?.questions.findIndex((question) => !state.answers.some((answer) => answer.attemptQuestionId === question.id)) ?? 0;
     return firstUnanswered < 0 ? 0 : firstUnanswered;
@@ -22,7 +31,7 @@ export default function MockExamScreen() {
   const [selectedChoices, setSelectedChoices] = useState<Record<string, string>>(() => Object.fromEntries(
     state.answers.filter((answer) => answer.attemptId === attempt?.id).map((answer) => [answer.attemptQuestionId, answer.selectedChoiceId]),
   ));
-  const [remainingSeconds, setRemainingSeconds] = useState(() => attempt ? getRemainingTimeSeconds(attempt) ?? 0 : 0);
+  const [remainingSeconds, setRemainingSeconds] = useState(() => attempt ? getRemainingRuntimeSeconds(attempt) ?? 0 : 0);
 
   useEffect(() => {
     if (!attempt || !blueprint) return undefined;
@@ -35,10 +44,12 @@ export default function MockExamScreen() {
   useEffect(() => {
     if (!attempt || remainingSeconds !== 0) return;
     const timeoutChoices = Object.fromEntries(attempt.questions.map((question) => [question.id, selectedChoices[question.id] ?? 'timeout']));
-    submitAttempt(attempt.id, timeoutChoices, true);
+    submitRuntimeAttempt(repository, attempt.id, timeoutChoices, true);
     router.replace({ pathname: '/result/[attemptId]', params: { attemptId: attempt.id } } as unknown as Href);
   }, [attempt, remainingSeconds, selectedChoices]);
 
+  if (loadError) return <ThemedText>Provet kunde inte laddas. Försök igen.</ThemedText>;
+  if (loading) return <ThemedText>Laddar prov...</ThemedText>;
   if (!exam || !blueprint || !attempt) {
     return <ThemedText>Övningsprovet hittades inte.</ThemedText>;
   }
@@ -52,7 +63,7 @@ export default function MockExamScreen() {
 
   function finish() {
     if (!attempt) return;
-    const result = submitAttempt(attempt.id, selectedChoices);
+    const result = submitRuntimeAttempt(repository, attempt.id, selectedChoices);
     router.replace({ pathname: '/result/[attemptId]', params: { attemptId: result.attempt.id } } as unknown as Href);
   }
 
@@ -81,7 +92,7 @@ export default function MockExamScreen() {
           totalQuestions={attempt.questions.length}
           selectedChoiceId={selectedChoiceId}
           onSelectChoice={(choiceId) => {
-            saveAttemptAnswer(attempt.id, attemptQuestion.id, choiceId);
+            saveRuntimeAnswer(repository, attempt.id, attemptQuestion.id, choiceId);
             setSelectedChoices((current) => ({ ...current, [attemptQuestion.id]: choiceId }));
           }}
         />

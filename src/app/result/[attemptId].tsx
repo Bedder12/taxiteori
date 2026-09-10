@@ -1,5 +1,6 @@
 import { Link, type Href, useLocalSearchParams } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
+import { useEffect, useState } from 'react';
 
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
 import { Screen } from '@/components/layout/Screen';
@@ -7,16 +8,27 @@ import { AnswerReviewCard } from '@/components/quiz/AnswerReviewCard';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import { getAttemptReview, getRevisitRecommendations } from '@/features/quiz/selectors';
-import { getLearningSnapshot } from '@/lib/learningStore';
+import { getRuntimeState } from '@/lib/runtimeLearningState';
+import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function ResultScreen() {
   const { attemptId } = useLocalSearchParams<{ attemptId: string }>();
-  const { repository, state } = getLearningSnapshot();
+  const state = getRuntimeState();
   const attempt = state.attempts.find((candidate) => candidate.id === attemptId);
+  const subjectIds = [...new Set(attempt?.questions.map((question) => question.subjectId) ?? [])];
+  const [repository, setRepository] = useState(getRuntimeMetadataRepository());
+  const [loading, setLoading] = useState(Boolean(attempt));
+  const [loadError, setLoadError] = useState<Error>();
+  useEffect(() => {
+    if (!subjectIds.length) return;
+    void loadRuntimeRepository(subjectIds).then(setRepository).catch(setLoadError).finally(() => setLoading(false));
+  }, [attemptId]);
 
   if (!attempt) {
     return <ThemedText>Resultatet hittades inte.</ThemedText>;
   }
+  if (loadError) return <ThemedText>Resultatet kunde inte laddas. Försök igen.</ThemedText>;
+  if (loading) return <ThemedText>Laddar resultat...</ThemedText>;
 
   const review = getAttemptReview(repository, attempt, state.answers);
   const revisitRecommendations = getRevisitRecommendations(repository, attempt, state.answers);

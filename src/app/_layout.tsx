@@ -4,14 +4,14 @@ import { useColorScheme } from 'react-native';
 import { useEffect } from 'react';
 
 import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import { hydrateLearningState } from '@/lib/learningStore';
+import { hydrateRuntimeState } from '@/lib/runtimeLearningState';
 
 SplashScreen.preventAutoHideAsync();
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
   useEffect(() => {
-    void hydrateLearningState().catch(() => undefined);
+    void hydrateRuntimeState();
   }, []);
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>

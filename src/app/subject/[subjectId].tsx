@@ -1,26 +1,36 @@
 import { Link, type Href, useFocusEffect, useLocalSearchParams } from 'expo-router';
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { Screen } from '@/components/layout/Screen';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import { getSubjectView, getTopicCardView } from '@/features/learn/selectors';
-import { DEMO_USER_ID, getLearningSnapshot } from '@/lib/learningStore';
+import { RUNTIME_USER_ID, getRuntimeState } from '@/lib/runtimeLearningState';
+import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function SubjectScreen() {
   const { subjectId } = useLocalSearchParams<{ subjectId: string }>();
-  const [snapshot, setSnapshot] = useState(getLearningSnapshot());
+  const [snapshot, setSnapshot] = useState(() => ({ repository: getRuntimeMetadataRepository(), state: getRuntimeState() }));
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<Error>();
 
   useFocusEffect(
     useCallback(() => {
-      setSnapshot(getLearningSnapshot());
+      setSnapshot((current) => ({ ...current, state: getRuntimeState() }));
     }, []),
   );
 
-  const { repository, state } = snapshot;
-  const view = getSubjectView(repository, subjectId, state.facts, DEMO_USER_ID);
+  useEffect(() => {
+    setLoading(true);
+    void loadRuntimeRepository([subjectId]).then((repository) => setSnapshot({ repository, state: getRuntimeState() })).catch(setLoadError).finally(() => setLoading(false));
+  }, [subjectId]);
 
+  const { repository, state } = snapshot;
+  const view = getSubjectView(repository, subjectId, state.facts, RUNTIME_USER_ID);
+
+  if (loadError) return <ThemedText>Ämnet kunde inte laddas. Försök igen.</ThemedText>;
+  if (loading && !view.subject) return <ThemedText>Laddar ämne...</ThemedText>;
   if (!view.subject) {
     return <ThemedText>Amnet hittades inte.</ThemedText>;
   }
@@ -44,7 +54,7 @@ export default function SubjectScreen() {
         )}
 
         {view.topics.map((topic) => {
-          const topicView = getTopicCardView(repository, topic.id, state.facts, DEMO_USER_ID);
+          const topicView = getTopicCardView(repository, topic.id, state.facts, RUNTIME_USER_ID);
           return (
             <Link key={topic.id} href={{ pathname: '/topic/[topicId]', params: { topicId: topic.id } } as unknown as Href} asChild>
               <Pressable style={({ pressed }) => [styles.topicRow, pressed && styles.pressed]}>

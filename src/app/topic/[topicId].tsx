@@ -1,5 +1,5 @@
 import { Link, type Href, useFocusEffect, useLocalSearchParams } from 'expo-router';
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
@@ -8,21 +8,34 @@ import { LessonRow } from '@/components/learning/LessonRow';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import { getTopicView } from '@/features/learn/selectors';
-import { DEMO_USER_ID, getLearningSnapshot } from '@/lib/learningStore';
+import { RUNTIME_USER_ID, getRuntimeState } from '@/lib/runtimeLearningState';
+import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function TopicScreen() {
   const { topicId } = useLocalSearchParams<{ topicId: string }>();
-  const [snapshot, setSnapshot] = useState(getLearningSnapshot());
+  const metadataRepository = getRuntimeMetadataRepository();
+  const metadataTopic = metadataRepository.topics.find((topic) => topic.id === topicId);
+  const [snapshot, setSnapshot] = useState(() => ({ repository: metadataRepository, state: getRuntimeState() }));
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<Error>();
 
   useFocusEffect(
     useCallback(() => {
-      setSnapshot(getLearningSnapshot());
+      setSnapshot((current) => ({ ...current, state: getRuntimeState() }));
     }, []),
   );
 
-  const { repository, state } = snapshot;
-  const view = getTopicView(repository, topicId, state.facts, DEMO_USER_ID);
+  useEffect(() => {
+    if (!metadataTopic) return;
+    setLoading(true);
+    void loadRuntimeRepository([metadataTopic.subjectId]).then((repository) => setSnapshot({ repository, state: getRuntimeState() })).catch(setLoadError).finally(() => setLoading(false));
+  }, [metadataTopic?.subjectId]);
 
+  const { repository, state } = snapshot;
+  const view = getTopicView(repository, topicId, state.facts, RUNTIME_USER_ID);
+
+  if (loadError) return <ThemedText>Momentet kunde inte laddas. Försök igen.</ThemedText>;
+  if (loading && !view.topic) return <ThemedText>Laddar moment...</ThemedText>;
   if (!view.topic) {
     return <ThemedText>Momentet hittades inte.</ThemedText>;
   }

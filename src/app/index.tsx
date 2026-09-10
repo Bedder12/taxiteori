@@ -6,14 +6,15 @@ import { Screen } from '@/components/layout/Screen';
 import { ExamCard } from '@/components/learning/ExamCard';
 import { ThemedText } from '@/components/themed-text';
 import { getSubjectProgress } from '../../packages/domain/src';
-import { DEMO_USER_ID, getLearningSnapshot } from '@/lib/learningStore';
+import { RUNTIME_USER_ID, getRuntimeState } from '@/lib/runtimeLearningState';
+import { getRuntimeMetadataRepository } from '../../packages/domain/src/runtimeRepository';
 
 export default function HomeScreen() {
-  const [snapshot, setSnapshot] = useState(getLearningSnapshot());
+  const [snapshot, setSnapshot] = useState(() => ({ repository: getRuntimeMetadataRepository(), state: getRuntimeState() }));
 
   useFocusEffect(
     useCallback(() => {
-      setSnapshot(getLearningSnapshot());
+      setSnapshot({ repository: getRuntimeMetadataRepository(), state: getRuntimeState() });
     }, []),
   );
 
@@ -39,7 +40,7 @@ export default function HomeScreen() {
           const topics = repository.topics.filter((topic) => topic.subjectId === subject.id);
           const checkpointAssessment = repository.assessments.find((assessment) => assessment.subjectId === subject.id);
           const progress = getSubjectProgress({
-            userId: DEMO_USER_ID,
+            userId: RUNTIME_USER_ID,
             topicIds: topics.map((topic) => topic.id),
             lessons: repository.lessons,
             facts: state.facts,

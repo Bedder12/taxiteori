@@ -3,7 +3,7 @@ import { ScrollView, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
-import { getLastPersistenceError } from '@/lib/learningStore';
+import { getPersistenceError } from '@/lib/persistenceStatus';
 import { ThemedText } from '@/components/themed-text';
 
 type ScreenProps = PropsWithChildren<{
@@ -11,7 +11,7 @@ type ScreenProps = PropsWithChildren<{
 }>;
 
 export function Screen({ children, header }: ScreenProps) {
-  const persistenceError = getLastPersistenceError();
+  const persistenceError = getPersistenceError();
   return (
     <ScrollView style={styles.screen}>
       <SafeAreaView style={styles.container}>

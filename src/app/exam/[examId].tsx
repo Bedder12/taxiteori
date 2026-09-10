@@ -6,11 +6,13 @@ import { SubjectCard } from '@/components/learning/SubjectCard';
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
 import { ThemedText } from '@/components/themed-text';
 import { getSubjectProgress } from '../../../packages/domain/src';
-import { DEMO_USER_ID, getLearningSnapshot } from '@/lib/learningStore';
+import { RUNTIME_USER_ID, getRuntimeState } from '@/lib/runtimeLearningState';
+import { getRuntimeMetadataRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function ExamScreen() {
   const { examId } = useLocalSearchParams<{ examId: string }>();
-  const { repository, state } = getLearningSnapshot();
+  const repository = getRuntimeMetadataRepository();
+  const state = getRuntimeState();
   const exam = repository.exams.find((candidate) => candidate.id === examId);
   const subjects = repository.subjects.filter((subject) => subject.examId === examId).sort((a, b) => a.order - b.order);
 
@@ -35,7 +37,7 @@ export default function ExamScreen() {
         const topics = repository.topics.filter((topic) => topic.subjectId === subject.id);
         const checkpointAssessment = repository.assessments.find((assessment) => assessment.subjectId === subject.id);
         const progress = getSubjectProgress({
-          userId: DEMO_USER_ID,
+          userId: RUNTIME_USER_ID,
           topicIds: topics.map((topic) => topic.id),
           lessons: repository.lessons,
           facts: state.facts,

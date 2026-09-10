@@ -36,11 +36,22 @@ Measured baseline:
 - Expo web export JS bundle: approximately 4.2 MB
 - static routes: 11
 
-Metro currently includes the monolithic `vilotiderRepository` import path. A subject-scoped dynamic loader and generated manifest were added, but the active app store still uses the synchronous aggregate repository. Therefore production bundle impact is **not yet improved/verified**. The next safe step is migrating app repository hydration to the scoped loader, then rerunning Expo export on web/native.
+The active app routes now use the metadata repository and subject-scoped dynamic loader. The aggregate repository remains only for tests/tools.
+
+After migration:
+
+- initial JS entry: approximately 2.4 MB, down from 4.2 MB;
+- authored JSON remains 2.68 MiB on disk;
+- question banks are emitted as separate subject chunks;
+- D1 mock loads eight D1 subject banks;
+- D2 mock loads two D2 subject banks;
+- ordinary Plugga navigation does not import question-bank chunks in the initial entry.
+
+See [content-loader-migration.md](content-loader-migration.md) for route mapping and limitations. Browser network timing was not measured in this workspace.
 
 ### Repository Structure
 
-`vilotiderRepository.ts` still owns all subject imports, normalization, assessment registration and blueprint assembly. The new loader API is separate, but the aggregate repository remains the active app path. This is a P1 maintainability/performance concern, not a behavior regression.
+`vilotiderRepository.ts` still owns compatibility normalization, assessment registration and blueprint assembly for tests/tools. It is no longer imported by active app routes. This is retained as a compatibility adapter rather than removed.
 
 ### UX Metadata
 
@@ -88,8 +99,7 @@ Passed locally:
 ## Remaining Production Blockers
 
 1. Configure and deploy Supabase/Auth, then run the documented two-user E2E verification.
-2. Rewire the active app repository path to scoped content loading and remeasure bundles.
-3. Run the final mobile/device smoke test for reload, resume, timeout and review.
+2. Run the final mobile/device smoke test for reload, resume, timeout and review.
 
 ## Recommended Next Task
 
