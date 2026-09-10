@@ -1,15 +1,17 @@
 {
   "metadata": {
     "subject": "D1_WORK_ENVIRONMENT_RISK",
-    "status": "placeholder_metadata",
+    "status": "production_ready",
     "created_at": "2026-09-10",
-    "note": "Visual metadata only; published questions remain answerable without an asset."
+    "note": "Visual metadata only; published questions remain answerable without an asset.",
+    "visual_asset_status": "production_ready",
+    "updated_at": "2026-09-11"
   },
   "visuals": [
     {
       "visual_id": "work_environment_risk_map",
       "visual_type": "work_environment_scenario",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Visual metadata för arbetsrisker i taxiarbetet.",
       "elements_must_be_shown": [
         "taxi",
@@ -31,12 +33,22 @@
         "D1-WORK-WORK-FACT-004"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration.",
+      "asset_path": "assets/visuals/work_environment_risk_map.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Visual metadata för arbetsrisker i taxiarbetet.. Diagram med riskmoment, säkert alternativ.",
+      "text_equivalent": "Visuellt stöd för Visual metadata för arbetsrisker i taxiarbetet.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "work_lifting_posture",
       "visual_type": "work_environment_scenario",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Visual metadata för belastning, lyft och hjälpmedel.",
       "elements_must_be_shown": [
         "taxi",
@@ -60,12 +72,22 @@
         "D1-WORK-LIFT-FACT-005"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration.",
+      "asset_path": "assets/visuals/work_lifting_posture.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Visual metadata för belastning, lyft och hjälpmedel.. Diagram med riskmoment, säkert alternativ.",
+      "text_equivalent": "Visuellt stöd för Visual metadata för belastning, lyft och hjälpmedel.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "work_driver_posture",
       "visual_type": "work_environment_scenario",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Visual metadata för körställning och variation.",
       "elements_must_be_shown": [
         "taxi",
@@ -87,12 +109,22 @@
         "D1-WORK-POSTURE-FACT-004"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration.",
+      "asset_path": "assets/visuals/work_driver_posture.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Visual metadata för körställning och variation.. Diagram med riskmoment, säkert alternativ.",
+      "text_equivalent": "Visuellt stöd för Visual metadata för körställning och variation.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "work_impairment_decision",
       "visual_type": "work_environment_scenario",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Visual metadata för påverkan och körförmåga.",
       "elements_must_be_shown": [
         "taxi",
@@ -118,12 +150,22 @@
         "D1-WORK-FITNESS-FACT-005"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration.",
+      "asset_path": "assets/visuals/work_impairment_decision.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Visual metadata för påverkan och körförmåga.. Diagram med riskmoment, säkert alternativ.",
+      "text_equivalent": "Visuellt stöd för Visual metadata för påverkan och körförmåga.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "work_night_shift_decision",
       "visual_type": "work_environment_scenario",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Visual metadata för trötthet, stress och arbetscykel.",
       "elements_must_be_shown": [
         "taxi",
@@ -148,12 +190,22 @@
         "D1-WORK-RECOVERY-FACT-005"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration.",
+      "asset_path": "assets/visuals/work_night_shift_decision.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Visual metadata för trötthet, stress och arbetscykel.. Diagram med riskmoment, säkert alternativ.",
+      "text_equivalent": "Visuellt stöd för Visual metadata för trötthet, stress och arbetscykel.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "work_distraction_scene",
       "visual_type": "distraction_scenario",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Visual metadata för utrustning och riskmedvetenhet under färd.",
       "elements_must_be_shown": [
         "taxi",
@@ -175,7 +227,17 @@
         "D1-WORK-EQUIPMENT-FACT-004"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration."
+      "notes": "Texten är tillräcklig för publicerad fråga; metadata beskriver eventuell framtida egen illustration.",
+      "asset_path": "assets/visuals/work_distraction_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Visual metadata för utrustning och riskmedvetenhet under färd.. Diagram med riskmoment, säkert alternativ.",
+      "text_equivalent": "Visuellt stöd för Visual metadata för utrustning och riskmedvetenhet under färd.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     }
   ]
 }

@@ -174,6 +174,14 @@ import {
   testQuestionCoverageV2NewQuestionsHaveTraceability,
 } from './questionCoverageAuditV2.test';
 import {
+  testVisualProductionEveryVisualReferenceResolves,
+  testVisualProductionHasNoOrphanAssets,
+  testVisualProductionLazyLoadingStillWorks,
+  testVisualProductionManifestHasUniqueResolvableAssets,
+  testVisualProductionMockBlueprintsAreUnchanged,
+  testVisualProductionRequiredQuestionsHaveAssets,
+} from './visualProduction.test';
+import {
   testVilotiderCalculationQuestionsUseCalculationRequirement,
   testVilotiderCheckpointSelectionAndVersionFreeze,
   testVilotiderFactsAreVerifiedAndSourced,
@@ -332,6 +340,12 @@ const tests = [
   ['question coverage v2 calculation and visual gates', testQuestionCoverageV2CalculationAndVisualGates],
   ['question coverage v2 mock blueprints are unchanged', testQuestionCoverageV2MockBlueprintsAreUnchanged],
   ['question coverage v2 all active requirements recalculated', testQuestionCoverageV2AllActiveRequirementsRecalculated],
+  ['visual production manifest has unique resolvable assets', testVisualProductionManifestHasUniqueResolvableAssets],
+  ['visual production every visual reference resolves', testVisualProductionEveryVisualReferenceResolves],
+  ['visual production required questions have assets', testVisualProductionRequiredQuestionsHaveAssets],
+  ['visual production has no orphan assets', testVisualProductionHasNoOrphanAssets],
+  ['visual production lazy loading still works', testVisualProductionLazyLoadingStillWorks],
+  ['visual production mock blueprints are unchanged', testVisualProductionMockBlueprintsAreUnchanged],
   ['Vilotider facts are verified and sourced', testVilotiderFactsAreVerifiedAndSourced],
   ['Vilotider lessons have requirement and fact links', testVilotiderLessonsHaveRequirementAndFactLinks],
   ['Vilotider questions have full traceability', testVilotiderQuestionsHaveFullTraceability],

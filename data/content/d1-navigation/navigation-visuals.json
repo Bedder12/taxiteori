@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "subject": "D1_NAVIGATION",
+    "title": "D1 navigation production visual manifest",
+    "status": "production_ready",
+    "created_at": "2026-09-11",
+    "note": "Original custom map diagrams. No external map screenshots.",
+    "visual_asset_status": "production_ready",
+    "updated_at": "2026-09-11"
+  },
+  "visuals": [
+    {
+      "visual_id": "simple_grid_center_route",
+      "visual_type": "navigation_map_diagram",
+      "status": "production_ready",
+      "purpose": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+      "elements_must_be_shown": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "labels_required": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-010A"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-004"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Production SVG replaces map metadata placeholder; question remains text-answerable.",
+      "subject": "D1_NAVIGATION",
+      "file": "data/content/d1-navigation/navigation-visuals.json",
+      "asset_path": "assets/visuals/simple_grid_center_route.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.. Diagram med Start, Mål, Rutt.",
+      "text_equivalent": "Visuellt stöd för Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
+    },
+    {
+      "visual_id": "simple_suburb_route",
+      "visual_type": "navigation_map_diagram",
+      "status": "production_ready",
+      "purpose": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+      "elements_must_be_shown": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "labels_required": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-010B"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-005"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Production SVG replaces map metadata placeholder; question remains text-answerable.",
+      "subject": "D1_NAVIGATION",
+      "file": "data/content/d1-navigation/navigation-visuals.json",
+      "asset_path": "assets/visuals/simple_suburb_route.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Egen schematisk karta med huvudgata, sidogata, park och entré.. Diagram med Start, Mål, Rutt.",
+      "text_equivalent": "Visuellt stöd för Egen schematisk karta med huvudgata, sidogata, park och entré.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
+    },
+    {
+      "visual_id": "simple_distance_segments",
+      "visual_type": "navigation_map_diagram",
+      "status": "production_ready",
+      "purpose": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+      "elements_must_be_shown": [
+        "4 km",
+        "6 km",
+        "8 km"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "labels_required": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-009"
+      ],
+      "fact_keys": [
+        "D1-NAV-CALC-FACT-006"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Production SVG replaces map metadata placeholder; question remains text-answerable.",
+      "subject": "D1_NAVIGATION",
+      "file": "data/content/d1-navigation/navigation-visuals.json",
+      "asset_path": "assets/visuals/simple_distance_segments.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.. Diagram med Start, Mål, Rutt.",
+      "text_equivalent": "Visuellt stöd för Egen linjekarta med delsträckor 4 km, 6 km och 8 km.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
+    },
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder",
+      "visual_type": "navigation_map_diagram",
+      "status": "production_ready",
+      "purpose": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "elements_must_be_shown": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "labels_required": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-001"
+      ],
+      "fact_keys": [
+        "D1-NAV-TOOLS-FACT-002"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Production SVG replaces map metadata placeholder; question remains text-answerable.",
+      "subject": "D1_NAVIGATION",
+      "file": "data/content/d1-navigation/navigation-visuals.json",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+      "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
+    },
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder",
+      "visual_type": "navigation_map_diagram",
+      "status": "production_ready",
+      "purpose": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "elements_must_be_shown": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "labels_required": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-004"
+      ],
+      "fact_keys": [
+        "D1-NAV-ORAL-FACT-003"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Production SVG replaces map metadata placeholder; question remains text-answerable.",
+      "subject": "D1_NAVIGATION",
+      "file": "data/content/d1-navigation/navigation-visuals.json",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+      "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
+    },
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder",
+      "visual_type": "navigation_map_diagram",
+      "status": "production_ready",
+      "purpose": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "elements_must_be_shown": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "labels_required": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-005"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-001"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Production SVG replaces map metadata placeholder; question remains text-answerable.",
+      "subject": "D1_NAVIGATION",
+      "file": "data/content/d1-navigation/navigation-visuals.json",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+      "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
+    },
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder",
+      "visual_type": "navigation_map_diagram",
+      "status": "production_ready",
+      "purpose": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "elements_must_be_shown": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "labels_required": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "requirement_keys": [
+        "D1-NAV-003-007"
+      ],
+      "fact_keys": [
+        "D1-NAV-MAP-FACT-003"
+      ],
+      "correctness_depends_on_visual": false,
+      "notes": "Production SVG replaces map metadata placeholder; question remains text-answerable.",
+      "subject": "D1_NAVIGATION",
+      "file": "data/content/d1-navigation/navigation-visuals.json",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+      "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
+    }
+  ]
+}

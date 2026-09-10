@@ -224,7 +224,7 @@ export function testD1HealthDisabilitiesVisualsArePlaceholdersAndNonBlocking() {
   assert.ok(visualQuestions.length < questions.length, 'Health/disability should not mark every question visual-dependent.');
 
   for (const visual of loadVisuals().visuals) {
-    assert.equal(visual.status, 'placeholder_metadata', `${visual.visual_id} should be placeholder metadata.`);
+    assert.equal(visual.status, 'production_ready', `${visual.visual_id} should be production-ready.`);
     assert.ok(visual.purpose.trim().length > 0, `${visual.visual_id} has no purpose.`);
     assert.ok(visual.elements_must_be_shown.length > 0, `${visual.visual_id} has no required elements.`);
     assert.equal(visual.correctness_depends_on_visual, false, `${visual.visual_id} should not be required for published correctness.`);

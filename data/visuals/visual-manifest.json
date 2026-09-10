@@ -1,0 +1,2737 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-11",
+    "status": "production_ready",
+    "style_system": {
+      "language": "Swedish labels",
+      "format": "SVG",
+      "aspect_ratio": "16:9",
+      "principles": [
+        "clean mobile-first diagrams",
+        "high contrast",
+        "simple geometry",
+        "clear focus",
+        "no photorealistic clutter",
+        "no copied exam imagery"
+      ]
+    }
+  },
+  "visuals": [
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder",
+      "title": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "subject": "D1_NAVIGATION",
+      "linked_requirement_keys": [
+        "D1-NAV-003-001"
+      ],
+      "linked_fact_keys": [
+        "D1-NAV-TOOLS-FACT-002"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [
+        "D1-NAV-COVERAGE-D1-NAV-003-001-Q001"
+      ],
+      "visual_type": "navigation_map_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "required_labels": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "required_objects": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder.svg",
+      "accessibility": {
+        "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+        "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder",
+      "title": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "subject": "D1_NAVIGATION",
+      "linked_requirement_keys": [
+        "D1-NAV-003-004"
+      ],
+      "linked_fact_keys": [
+        "D1-NAV-ORAL-FACT-003"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [
+        "D1-NAV-COVERAGE-D1-NAV-003-004-Q001"
+      ],
+      "visual_type": "navigation_map_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "required_labels": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "required_objects": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder.svg",
+      "accessibility": {
+        "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+        "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder",
+      "title": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "subject": "D1_NAVIGATION",
+      "linked_requirement_keys": [
+        "D1-NAV-003-005"
+      ],
+      "linked_fact_keys": [
+        "D1-NAV-MAP-FACT-001"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [
+        "D1-NAV-COVERAGE-D1-NAV-003-005-Q001"
+      ],
+      "visual_type": "navigation_map_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "required_labels": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "required_objects": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder.svg",
+      "accessibility": {
+        "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+        "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder",
+      "title": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "subject": "D1_NAVIGATION",
+      "linked_requirement_keys": [
+        "D1-NAV-003-007"
+      ],
+      "linked_fact_keys": [
+        "D1-NAV-MAP-FACT-003"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [
+        "D1-NAV-COVERAGE-D1-NAV-003-007-Q001"
+      ],
+      "visual_type": "navigation_map_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
+      "required_labels": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "required_objects": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder.svg",
+      "accessibility": {
+        "alt_text": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Diagram med Start, Mål, Rutt.",
+        "text_equivalent": "Visuellt stöd för Simple custom map metadata placeholder; the prompt contains all information needed to answer.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "health_boarding_mobility_scene",
+      "title": "Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.",
+      "subject": "D1_HEALTH_DISABILITIES",
+      "linked_requirement_keys": [
+        "D1-HEALTH-018-GA-002"
+      ],
+      "linked_fact_keys": [
+        "D1-HEALTH-MOBILITY-FACT-001",
+        "D1-HEALTH-MOBILITY-FACT-002",
+        "D1-HEALTH-MOBILITY-FACT-003",
+        "D1-HEALTH-MOBILITY-FACT-004",
+        "D1-HEALTH-MOBILITY-FACT-005",
+        "D1-HEALTH-MOBILITY-FACT-006",
+        "D1-HEALTH-MOBILITY-FACT-007"
+      ],
+      "linked_lesson_keys": [
+        "D1-HEALTH-MOBILITY-LESSON-001"
+      ],
+      "linked_question_keys": [
+        "D1-HEALTH-MOBILITY-Q-001",
+        "D1-HEALTH-MOBILITY-Q-002",
+        "D1-HEALTH-MOBILITY-Q-003",
+        "D1-HEALTH-MOBILITY-Q-004",
+        "D1-HEALTH-MOBILITY-Q-005",
+        "D1-HEALTH-MOBILITY-Q-006",
+        "D1-HEALTH-MOBILITY-Q-007"
+      ],
+      "visual_type": "mobility_assistance_scene",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.",
+      "required_labels": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare med hjälpmedel",
+        "förare som frågar innan stöd ges"
+      ],
+      "required_objects": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare med hjälpmedel",
+        "förare som frågar innan stöd ges"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/health_boarding_mobility_scene.svg",
+      "accessibility": {
+        "alt_text": "Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.. Diagram med taxi vid kantsten, öppen dörr, passagerare med hjälpmedel, förare som frågar innan stöd ges.",
+        "text_equivalent": "Visuellt stöd för Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "health_cognitive_support_scene",
+      "title": "Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.",
+      "subject": "D1_HEALTH_DISABILITIES",
+      "linked_requirement_keys": [
+        "D1-HEALTH-018-001",
+        "D1-HEALTH-018-GA-004",
+        "D1-HEALTH-018-GA-001"
+      ],
+      "linked_fact_keys": [
+        "D1-HEALTH-ROLE-FACT-001",
+        "D1-HEALTH-ROLE-FACT-002",
+        "D1-HEALTH-ROLE-FACT-003",
+        "D1-HEALTH-COG-FACT-001",
+        "D1-HEALTH-COG-FACT-002",
+        "D1-HEALTH-COG-FACT-003",
+        "D1-HEALTH-COG-FACT-004",
+        "D1-HEALTH-COG-FACT-005",
+        "D1-HEALTH-COG-FACT-006",
+        "D1-HEALTH-COG-FACT-007"
+      ],
+      "linked_lesson_keys": [
+        "D1-HEALTH-COG-LESSON-001"
+      ],
+      "linked_question_keys": [
+        "D1-HEALTH-COG-Q-001",
+        "D1-HEALTH-COG-Q-002",
+        "D1-HEALTH-COG-Q-003",
+        "D1-HEALTH-COG-Q-004",
+        "D1-HEALTH-COG-Q-005",
+        "D1-HEALTH-COG-Q-006",
+        "D1-HEALTH-COG-Q-007"
+      ],
+      "visual_type": "cognitive_support_scene",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.",
+      "required_labels": [
+        "kort textmeddelande",
+        "adressbekräftelse",
+        "lugn miljö",
+        "förare som ger en sak i taget"
+      ],
+      "required_objects": [
+        "kort textmeddelande",
+        "adressbekräftelse",
+        "lugn miljö",
+        "förare som ger en sak i taget"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/health_cognitive_support_scene.svg",
+      "accessibility": {
+        "alt_text": "Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.. Diagram med kort textmeddelande, adressbekräftelse, lugn miljö, förare som ger en sak i taget.",
+        "text_equivalent": "Visuellt stöd för Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "health_urgent_help_decision_scene",
+      "title": "Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.",
+      "subject": "D1_HEALTH_DISABILITIES",
+      "linked_requirement_keys": [
+        "D1-HEALTH-018-GA-001",
+        "D1-HEALTH-018-GA-003"
+      ],
+      "linked_fact_keys": [
+        "D1-HEALTH-URGENT-FACT-001",
+        "D1-HEALTH-URGENT-FACT-002",
+        "D1-HEALTH-URGENT-FACT-003",
+        "D1-HEALTH-URGENT-FACT-004",
+        "D1-HEALTH-URGENT-FACT-005",
+        "D1-HEALTH-URGENT-FACT-006",
+        "D1-HEALTH-URGENT-FACT-007"
+      ],
+      "linked_lesson_keys": [
+        "D1-HEALTH-URGENT-LESSON-001"
+      ],
+      "linked_question_keys": [
+        "D1-HEALTH-URGENT-Q-001",
+        "D1-HEALTH-URGENT-Q-002",
+        "D1-HEALTH-URGENT-Q-003",
+        "D1-HEALTH-URGENT-Q-004",
+        "D1-HEALTH-URGENT-Q-005",
+        "D1-HEALTH-URGENT-Q-006",
+        "D1-HEALTH-URGENT-Q-007"
+      ],
+      "visual_type": "urgent_help_decision_scene",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.",
+      "required_labels": [
+        "säker stoppplats",
+        "telefon 112",
+        "förare som håller avstånd från trafik",
+        "passagerare med akut försämring"
+      ],
+      "required_objects": [
+        "säker stoppplats",
+        "telefon 112",
+        "förare som håller avstånd från trafik",
+        "passagerare med akut försämring"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/health_urgent_help_decision_scene.svg",
+      "accessibility": {
+        "alt_text": "Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.. Diagram med säker stoppplats, telefon 112, förare som håller avstånd från trafik, passagerare med akut försämring.",
+        "text_equivalent": "Visuellt stöd för Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_accident_scene_diagram",
+      "title": "Forsta atgarder vid olycksplats",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-011-003",
+        "D1-SAFE-011-002",
+        "D1-SAFE-011-004"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-001",
+        "D1-SAFE-ACCIDENT-FACT-003",
+        "D1-SAFE-ACCIDENT-FACT-004",
+        "D1-SAFE-ACCIDENT-FACT-005",
+        "D1-SAFE-ACCIDENT-FACT-006",
+        "D1-SAFE-HLR-FACT-001",
+        "D1-SAFE-HLR-FACT-002",
+        "D1-SAFE-HLR-FACT-003",
+        "D1-SAFE-HLR-FACT-004",
+        "D1-SAFE-HLR-FACT-005",
+        "D1-SAFE-HLR-FACT-006",
+        "D1-SAFE-HLR-FACT-007",
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-007",
+        "D1-SAFE-ACCIDENT-FACT-008"
+      ],
+      "linked_lesson_keys": [
+        "D1-SAFE-HLR-L01",
+        "D1-SAFE-ACCIDENT-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SAFE-HLR-Q001",
+        "D1-SAFE-HLR-Q002",
+        "D1-SAFE-HLR-Q003",
+        "D1-SAFE-HLR-Q004",
+        "D1-SAFE-HLR-Q005",
+        "D1-SAFE-HLR-Q006",
+        "D1-SAFE-HLR-Q007",
+        "D1-SAFE-HLR-Q008",
+        "D1-SAFE-HLR-Q009",
+        "D1-SAFE-ACCIDENT-Q001",
+        "D1-SAFE-ACCIDENT-Q002",
+        "D1-SAFE-ACCIDENT-Q003",
+        "D1-SAFE-ACCIDENT-Q004",
+        "D1-SAFE-ACCIDENT-Q005",
+        "D1-SAFE-ACCIDENT-Q006",
+        "D1-SAFE-ACCIDENT-Q007",
+        "D1-SAFE-ACCIDENT-Q008",
+        "D1-SAFE-ACCIDENT-Q009",
+        "D1-SAFE-ACCIDENT-Q010"
+      ],
+      "visual_type": "accident_scene_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Forsta atgarder vid olycksplats",
+      "required_labels": [
+        "egen bil sakert parkerad",
+        "varningsblinkers",
+        "varningstriangel",
+        "112",
+        "skadade personer"
+      ],
+      "required_objects": [
+        "egen bil sakert parkerad",
+        "varningsblinkers",
+        "varningstriangel",
+        "112",
+        "skadade personer"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_accident_scene_diagram.svg",
+      "accessibility": {
+        "alt_text": "Forsta atgarder vid olycksplats. Diagram med egen bil sakert parkerad, varningsblinkers, varningstriangel, 112, skadade personer.",
+        "text_equivalent": "Visuellt stöd för Forsta atgarder vid olycksplats. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_child_restraint_scene",
+      "title": "Barnskydd och placering",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-012-002",
+        "D1-SAFE-014-002",
+        "D1-SAFE-012-001",
+        "D1-SAFE-012-003"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-BELT-FACT-002",
+        "D1-SAFE-BELT-FACT-005",
+        "D1-SAFE-BELT-FACT-006",
+        "D1-SAFE-BELT-FACT-007",
+        "D1-SAFE-BELT-FACT-008",
+        "D1-SAFE-BELT-FACT-009",
+        "D1-SAFE-BELT-FACT-001",
+        "D1-SAFE-BELT-FACT-003",
+        "D1-SAFE-BELT-FACT-004"
+      ],
+      "linked_lesson_keys": [
+        "D1-SAFE-BELT-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SAFE-BELT-Q001",
+        "D1-SAFE-BELT-Q002",
+        "D1-SAFE-BELT-Q003",
+        "D1-SAFE-BELT-Q004",
+        "D1-SAFE-BELT-Q005",
+        "D1-SAFE-BELT-Q006",
+        "D1-SAFE-BELT-Q007",
+        "D1-SAFE-BELT-Q008",
+        "D1-SAFE-BELT-Q009",
+        "D1-SAFE-BELT-Q010",
+        "D1-SAFE-BELT-Q011",
+        "D1-SAFE-BELT-Q012"
+      ],
+      "visual_type": "passenger_restraint_illustration",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Barnskydd och placering",
+      "required_labels": [
+        "barnstol",
+        "baksate",
+        "bilbalte",
+        "aktiv krockkudde markerad"
+      ],
+      "required_objects": [
+        "barnstol",
+        "baksate",
+        "bilbalte",
+        "aktiv krockkudde markerad"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_child_restraint_scene.svg",
+      "accessibility": {
+        "alt_text": "Barnskydd och placering. Diagram med barnstol, baksate, bilbalte, aktiv krockkudde markerad.",
+        "text_equivalent": "Visuellt stöd för Barnskydd och placering. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_children_road_scene",
+      "title": "Barn i trafikmiljo",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-013-001",
+        "D1-SAFE-013-002",
+        "D1-SAFE-013-003",
+        "D1-SAFE-013-004",
+        "D1-SAFE-014-001"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-VULN-FACT-001",
+        "D1-SAFE-VULN-FACT-002",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-005",
+        "D1-SAFE-VULN-FACT-006",
+        "D1-SAFE-VULN-FACT-007",
+        "D1-SAFE-VULN-FACT-004",
+        "D1-SAFE-VULN-FACT-008"
+      ],
+      "linked_lesson_keys": [
+        "D1-SAFE-VULN-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SAFE-VULN-Q001",
+        "D1-SAFE-VULN-Q002",
+        "D1-SAFE-VULN-Q003",
+        "D1-SAFE-VULN-Q004",
+        "D1-SAFE-VULN-Q005",
+        "D1-SAFE-VULN-Q006",
+        "D1-SAFE-VULN-Q007",
+        "D1-SAFE-VULN-Q008",
+        "D1-SAFE-VULN-Q009",
+        "D1-SAFE-VULN-Q010"
+      ],
+      "visual_type": "pedestrian_cyclist_scenario",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Barn i trafikmiljo",
+      "required_labels": [
+        "skola",
+        "parkering",
+        "barn vid overgangsstalle",
+        "skymd sikt",
+        "taxi"
+      ],
+      "required_objects": [
+        "skola",
+        "parkering",
+        "barn vid overgangsstalle",
+        "skymd sikt",
+        "taxi"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_children_road_scene.svg",
+      "accessibility": {
+        "alt_text": "Barn i trafikmiljo. Diagram med skola, parkering, barn vid overgangsstalle, skymd sikt, taxi.",
+        "text_equivalent": "Visuellt stöd för Barn i trafikmiljo. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_disability_access_scene",
+      "title": "Passagerare med funktionsnedsattning i trafikmiljo",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-013-004"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-LOAD-FACT-007",
+        "D1-SAFE-VULN-FACT-004"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "road_scene",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Passagerare med funktionsnedsattning i trafikmiljo",
+      "required_labels": [
+        "rullator",
+        "trottoarkant",
+        "ramp",
+        "extra utrymme",
+        "taxi"
+      ],
+      "required_objects": [
+        "rullator",
+        "trottoarkant",
+        "ramp",
+        "extra utrymme",
+        "taxi"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_disability_access_scene.svg",
+      "accessibility": {
+        "alt_text": "Passagerare med funktionsnedsattning i trafikmiljo. Diagram med rullator, trottoarkant, ramp, extra utrymme, taxi.",
+        "text_equivalent": "Visuellt stöd för Passagerare med funktionsnedsattning i trafikmiljo. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_load_luggage_scene",
+      "title": "Last och lost bagage",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-012-005"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-LOAD-FACT-002",
+        "D1-SAFE-LOAD-FACT-003",
+        "D1-SAFE-LOAD-FACT-004",
+        "D1-SAFE-LOAD-FACT-005"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "loading_luggage_illustration",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Last och lost bagage",
+      "required_labels": [
+        "resvaskor",
+        "lastnat/rem",
+        "bagageutrymme",
+        "fri sikt"
+      ],
+      "required_objects": [
+        "resvaskor",
+        "lastnat/rem",
+        "bagageutrymme",
+        "fri sikt"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_load_luggage_scene.svg",
+      "accessibility": {
+        "alt_text": "Last och lost bagage. Diagram med resvaskor, lastnat/rem, bagageutrymme, fri sikt.",
+        "text_equivalent": "Visuellt stöd för Last och lost bagage. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_night_visibility_scene",
+      "title": "Morker och synbarhet",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-010-001",
+        "D1-SAFE-013-003"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006",
+        "D1-SAFE-VULN-FACT-003",
+        "D1-SAFE-VULN-FACT-007"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "night_driving_scene",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Morker och synbarhet",
+      "required_labels": [
+        "taxi i morker",
+        "reflex",
+        "gangtrafikant",
+        "mote",
+        "reducerad sikt"
+      ],
+      "required_objects": [
+        "taxi i morker",
+        "reflex",
+        "gangtrafikant",
+        "mote",
+        "reducerad sikt"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_night_visibility_scene.svg",
+      "accessibility": {
+        "alt_text": "Morker och synbarhet. Diagram med taxi i morker, reflex, gangtrafikant, mote, reducerad sikt.",
+        "text_equivalent": "Visuellt stöd för Morker och synbarhet. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_pickup_dropoff_scene",
+      "title": "Saker pa- och avstigning",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-012-001",
+        "D1-SAFE-010-001",
+        "D1-SAFE-010-002",
+        "D1-SAFE-011-001"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-BELT-FACT-001",
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-002",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-004",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006",
+        "D1-SAFE-THREAT-FACT-001",
+        "D1-SAFE-THREAT-FACT-002",
+        "D1-SAFE-THREAT-FACT-003",
+        "D1-SAFE-THREAT-FACT-004",
+        "D1-SAFE-THREAT-FACT-005"
+      ],
+      "linked_lesson_keys": [
+        "D1-SAFE-TRIP-L01",
+        "D1-SAFE-THREAT-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SAFE-TRIP-Q001",
+        "D1-SAFE-TRIP-Q002",
+        "D1-SAFE-TRIP-Q003",
+        "D1-SAFE-TRIP-Q004",
+        "D1-SAFE-TRIP-Q005",
+        "D1-SAFE-TRIP-Q006",
+        "D1-SAFE-TRIP-Q007",
+        "D1-SAFE-TRIP-Q008",
+        "D1-SAFE-TRIP-Q009",
+        "D1-SAFE-THREAT-Q001",
+        "D1-SAFE-THREAT-Q002",
+        "D1-SAFE-THREAT-Q003",
+        "D1-SAFE-THREAT-Q004",
+        "D1-SAFE-THREAT-Q005",
+        "D1-SAFE-THREAT-Q006",
+        "D1-SAFE-THREAT-Q007",
+        "D1-SAFE-THREAT-Q008",
+        "D1-SAFE-THREAT-Q009"
+      ],
+      "visual_type": "road_scene",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Saker pa- och avstigning",
+      "required_labels": [
+        "taxi vid kantsten",
+        "cykelbana",
+        "gangbana",
+        "oppnad dorr",
+        "passagerare"
+      ],
+      "required_objects": [
+        "taxi vid kantsten",
+        "cykelbana",
+        "gangbana",
+        "oppnad dorr",
+        "passagerare"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_pickup_dropoff_scene.svg",
+      "accessibility": {
+        "alt_text": "Saker pa- och avstigning. Diagram med taxi vid kantsten, cykelbana, gangbana, oppnad dorr, passagerare.",
+        "text_equivalent": "Visuellt stöd för Saker pa- och avstigning. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_roadside_stop_scene",
+      "title": "Nodstopp pa motorvag eller 2+1-vag",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-011-004"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-007",
+        "D1-SAFE-ACCIDENT-FACT-008"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "accident_scene_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Nodstopp pa motorvag eller 2+1-vag",
+      "required_labels": [
+        "vagren",
+        "barriar",
+        "passagerare bakom skydd",
+        "varningstriangel",
+        "telefon"
+      ],
+      "required_objects": [
+        "vagren",
+        "barriar",
+        "passagerare bakom skydd",
+        "varningstriangel",
+        "telefon"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_roadside_stop_scene.svg",
+      "accessibility": {
+        "alt_text": "Nodstopp pa motorvag eller 2+1-vag. Diagram med vagren, barriar, passagerare bakom skydd, varningstriangel, telefon.",
+        "text_equivalent": "Visuellt stöd för Nodstopp pa motorvag eller 2+1-vag. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_stopping_distance_visual",
+      "title": "Hastighet, reaktion och stoppstracka",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-014-001",
+        "D1-SAFE-015-001",
+        "D1-SAFE-015-002"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-VULN-FACT-008",
+        "D1-SAFE-ZERO-FACT-001",
+        "D1-SAFE-ZERO-FACT-002",
+        "D1-SAFE-ZERO-FACT-003",
+        "D1-SAFE-ZERO-FACT-004",
+        "D1-SAFE-ZERO-FACT-005",
+        "D1-SAFE-ZERO-FACT-006",
+        "D1-SAFE-ZERO-FACT-007",
+        "D1-SAFE-ZERO-FACT-008",
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "linked_lesson_keys": [
+        "D1-SAFE-ZERO-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SAFE-ZERO-Q001",
+        "D1-SAFE-ZERO-Q002",
+        "D1-SAFE-ZERO-Q003",
+        "D1-SAFE-ZERO-Q004",
+        "D1-SAFE-ZERO-Q005",
+        "D1-SAFE-ZERO-Q006",
+        "D1-SAFE-ZERO-Q007",
+        "D1-SAFE-ZERO-Q008",
+        "D1-SAFE-ZERO-Q009",
+        "D1-SAFE-ZERO-Q010",
+        "D1-SAFE-ZERO-Q011",
+        "D1-SAFE-ZERO-Q012"
+      ],
+      "visual_type": "stopping_distance_visualization",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Hastighet, reaktion och stoppstracka",
+      "required_labels": [
+        "30 km/tim",
+        "50 km/tim",
+        "langre stoppstracka",
+        "gaende/cyklist"
+      ],
+      "required_objects": [
+        "30 km/tim",
+        "50 km/tim",
+        "langre stoppstracka",
+        "gaende/cyklist"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_stopping_distance_visual.svg",
+      "accessibility": {
+        "alt_text": "Hastighet, reaktion och stoppstracka. Diagram med 30 km/tim, 50 km/tim, langre stoppstracka, gaende/cyklist.",
+        "text_equivalent": "Visuellt stöd för Hastighet, reaktion och stoppstracka. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_weather_road_condition_scene",
+      "title": "Regn, sno och halka",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-010-001",
+        "D1-SAFE-011-004"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-TRIP-FACT-001",
+        "D1-SAFE-TRIP-FACT-003",
+        "D1-SAFE-TRIP-FACT-005",
+        "D1-SAFE-TRIP-FACT-006",
+        "D1-SAFE-ACCIDENT-FACT-002",
+        "D1-SAFE-ACCIDENT-FACT-007"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "weather_road_condition_scene",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Regn, sno och halka",
+      "required_labels": [
+        "vat vag",
+        "snorok",
+        "svart halka",
+        "langt avstand",
+        "lagre fart"
+      ],
+      "required_objects": [
+        "vat vag",
+        "snorok",
+        "svart halka",
+        "langt avstand",
+        "lagre fart"
+      ],
+      "required_road_configuration": "Simple non-copyright road scene diagram with taxi-relevant context.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_weather_road_condition_scene.svg",
+      "accessibility": {
+        "alt_text": "Regn, sno och halka. Diagram med vat vag, snorok, svart halka, langt avstand, lagre fart.",
+        "text_equivalent": "Visuellt stöd för Regn, sno och halka. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_wheelchair_stretcher_securement",
+      "title": "Fastspanning av hjalpmedel",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-012-004",
+        "D1-SAFE-012-005",
+        "D1-SAFE-013-004"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-LOAD-FACT-001",
+        "D1-SAFE-LOAD-FACT-006",
+        "D1-SAFE-LOAD-FACT-002",
+        "D1-SAFE-LOAD-FACT-003",
+        "D1-SAFE-LOAD-FACT-004",
+        "D1-SAFE-LOAD-FACT-005",
+        "D1-SAFE-LOAD-FACT-007"
+      ],
+      "linked_lesson_keys": [
+        "D1-SAFE-LOAD-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SAFE-LOAD-Q001",
+        "D1-SAFE-LOAD-Q002",
+        "D1-SAFE-LOAD-Q003",
+        "D1-SAFE-LOAD-Q004",
+        "D1-SAFE-LOAD-Q005",
+        "D1-SAFE-LOAD-Q006",
+        "D1-SAFE-LOAD-Q007",
+        "D1-SAFE-LOAD-Q008",
+        "D1-SAFE-LOAD-Q009"
+      ],
+      "visual_type": "passenger_restraint_illustration",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Fastspanning av hjalpmedel",
+      "required_labels": [
+        "rullstol",
+        "fastspanning",
+        "passagerarbalte",
+        "forankringspunkter"
+      ],
+      "required_objects": [
+        "rullstol",
+        "fastspanning",
+        "passagerarbalte",
+        "forankringspunkter"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_wheelchair_stretcher_securement.svg",
+      "accessibility": {
+        "alt_text": "Fastspanning av hjalpmedel. Diagram med rullstol, fastspanning, passagerarbalte, forankringspunkter.",
+        "text_equivalent": "Visuellt stöd för Fastspanning av hjalpmedel. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "safe_zero_vision_diagram",
+      "title": "Nollvisionens ansvar och mal",
+      "subject": "D1_SAFETY",
+      "linked_requirement_keys": [
+        "D1-SAFE-015-001",
+        "D1-SAFE-015-002"
+      ],
+      "linked_fact_keys": [
+        "D1-SAFE-ZERO-FACT-007",
+        "D1-SAFE-ZERO-FACT-008",
+        "D1-SAFE-ZERO-FACT-009"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "comparison_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Nollvisionens ansvar och mal",
+      "required_labels": [
+        "manniskans begransningar",
+        "saker hastighet",
+        "fordon",
+        "vagmiljo",
+        "delat ansvar"
+      ],
+      "required_objects": [
+        "manniskans begransningar",
+        "saker hastighet",
+        "fordon",
+        "vagmiljo",
+        "delat ansvar"
+      ],
+      "required_road_configuration": "Diagram or instructional illustration.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/safe_zero_vision_diagram.svg",
+      "accessibility": {
+        "alt_text": "Nollvisionens ansvar och mal. Diagram med manniskans begransningar, saker hastighet, fordon, vagmiljo, delat ansvar.",
+        "text_equivalent": "Visuellt stöd för Nollvisionens ansvar och mal. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "serv_communication_scene",
+      "title": "Kommunikation utan antaganden",
+      "subject": "D1_SERVICE",
+      "linked_requirement_keys": [
+        "D1-SERV-016-002",
+        "D1-SERV-016-003",
+        "D1-SERV-017-002B",
+        "D1-SERV-017-002C"
+      ],
+      "linked_fact_keys": [
+        "D1-SERV-PRO-FACT-004",
+        "D1-SERV-COM-FACT-001",
+        "D1-SERV-COM-FACT-002",
+        "D1-SERV-COM-FACT-003",
+        "D1-SERV-COM-FACT-004",
+        "D1-SERV-COM-FACT-005",
+        "D1-SERV-ACCESS-FACT-001",
+        "D1-SERV-ACCESS-FACT-002",
+        "D1-SERV-ACCESS-FACT-003",
+        "D1-SERV-ACCESS-FACT-004",
+        "D1-SERV-ACCESS-FACT-005",
+        "D1-SERV-ACCESS-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-SERV-COM-L01",
+        "D1-SERV-ACCESS-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SERV-COM-Q001",
+        "D1-SERV-COM-Q002",
+        "D1-SERV-COM-Q003",
+        "D1-SERV-COM-Q004",
+        "D1-SERV-COM-Q005",
+        "D1-SERV-COM-Q006",
+        "D1-SERV-COM-Q007",
+        "D1-SERV-COM-Q008",
+        "D1-SERV-ACCESS-Q001",
+        "D1-SERV-ACCESS-Q002",
+        "D1-SERV-ACCESS-Q003",
+        "D1-SERV-ACCESS-Q004",
+        "D1-SERV-ACCESS-Q005",
+        "D1-SERV-ACCESS-Q006",
+        "D1-SERV-ACCESS-Q007",
+        "D1-SERV-ACCESS-Q008",
+        "D1-SERV-ACCESS-Q009"
+      ],
+      "visual_type": "communication_scenario",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Kommunikation utan antaganden",
+      "required_labels": [
+        "förare",
+        "passagerare",
+        "kort fråga",
+        "bekräftelse av önskemål"
+      ],
+      "required_objects": [
+        "förare",
+        "passagerare",
+        "kort fråga",
+        "bekräftelse av önskemål"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/serv_communication_scene.svg",
+      "accessibility": {
+        "alt_text": "Kommunikation utan antaganden. Diagram med förare, passagerare, kort fråga, bekräftelse av önskemål.",
+        "text_equivalent": "Visuellt stöd för Kommunikation utan antaganden. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "serv_entry_assistance_scene",
+      "title": "Stöd vid in- och urstigning",
+      "subject": "D1_SERVICE",
+      "linked_requirement_keys": [
+        "D1-SERV-017-002D",
+        "D1-SERV-017-007"
+      ],
+      "linked_fact_keys": [
+        "D1-SERV-AID-FACT-001",
+        "D1-SERV-AID-FACT-002",
+        "D1-SERV-AID-FACT-003",
+        "D1-SERV-AID-FACT-004",
+        "D1-SERV-AID-FACT-005"
+      ],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "vehicle_entry_assistance_scene",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Stöd vid in- och urstigning",
+      "required_labels": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare",
+        "förare som frågar först"
+      ],
+      "required_objects": [
+        "taxi vid kantsten",
+        "öppen dörr",
+        "passagerare",
+        "förare som frågar först"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/serv_entry_assistance_scene.svg",
+      "accessibility": {
+        "alt_text": "Stöd vid in- och urstigning. Diagram med taxi vid kantsten, öppen dörr, passagerare, förare som frågar först.",
+        "text_equivalent": "Visuellt stöd för Stöd vid in- och urstigning. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "serv_luggage_cleanliness_scene",
+      "title": "Rent fordon och bagagehjälp",
+      "subject": "D1_SERVICE",
+      "linked_requirement_keys": [
+        "D1-SERV-017-004",
+        "D1-SERV-017-005",
+        "D1-SERV-017-006"
+      ],
+      "linked_fact_keys": [
+        "D1-SERV-CLEAN-FACT-001",
+        "D1-SERV-CLEAN-FACT-007",
+        "D1-SERV-CLEAN-FACT-002",
+        "D1-SERV-CLEAN-FACT-003",
+        "D1-SERV-CLEAN-FACT-004",
+        "D1-SERV-CLEAN-FACT-005",
+        "D1-SERV-CLEAN-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-SERV-CLEAN-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SERV-CLEAN-Q001",
+        "D1-SERV-CLEAN-Q002",
+        "D1-SERV-CLEAN-Q003",
+        "D1-SERV-CLEAN-Q004",
+        "D1-SERV-CLEAN-Q005",
+        "D1-SERV-CLEAN-Q006",
+        "D1-SERV-CLEAN-Q007",
+        "D1-SERV-CLEAN-Q008",
+        "D1-SERV-CLEAN-Q009"
+      ],
+      "visual_type": "luggage_and_clean_vehicle_scene",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Rent fordon och bagagehjälp",
+      "required_labels": [
+        "rent säte",
+        "bagage",
+        "fri golvyta",
+        "diskret förare"
+      ],
+      "required_objects": [
+        "rent säte",
+        "bagage",
+        "fri golvyta",
+        "diskret förare"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/serv_luggage_cleanliness_scene.svg",
+      "accessibility": {
+        "alt_text": "Rent fordon och bagagehjälp. Diagram med rent säte, bagage, fri golvyta, diskret förare.",
+        "text_equivalent": "Visuellt stöd för Rent fordon och bagagehjälp. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "serv_wheelchair_aid_scene",
+      "title": "Hjälpmedel och praktisk hantering",
+      "subject": "D1_SERVICE",
+      "linked_requirement_keys": [
+        "D1-SERV-017-007",
+        "D1-SERV-017-002D"
+      ],
+      "linked_fact_keys": [
+        "D1-SERV-AID-FACT-002",
+        "D1-SERV-AID-FACT-004",
+        "D1-SERV-AID-FACT-005",
+        "D1-SERV-AID-FACT-006",
+        "D1-SERV-AID-FACT-001",
+        "D1-SERV-AID-FACT-003"
+      ],
+      "linked_lesson_keys": [
+        "D1-SERV-AID-L01"
+      ],
+      "linked_question_keys": [
+        "D1-SERV-AID-Q001",
+        "D1-SERV-AID-Q002",
+        "D1-SERV-AID-Q003",
+        "D1-SERV-AID-Q004",
+        "D1-SERV-AID-Q005",
+        "D1-SERV-AID-Q006",
+        "D1-SERV-AID-Q007",
+        "D1-SERV-AID-Q008",
+        "D1-SERV-AID-Q009"
+      ],
+      "visual_type": "wheelchair_loading_situation",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Hjälpmedel och praktisk hantering",
+      "required_labels": [
+        "rullstol",
+        "rollator",
+        "bagageutrymme",
+        "förankring utan detaljmedicin"
+      ],
+      "required_objects": [
+        "rullstol",
+        "rollator",
+        "bagageutrymme",
+        "förankring utan detaljmedicin"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/serv_wheelchair_aid_scene.svg",
+      "accessibility": {
+        "alt_text": "Hjälpmedel och praktisk hantering. Diagram med rullstol, rollator, bagageutrymme, förankring utan detaljmedicin.",
+        "text_equivalent": "Visuellt stöd för Hjälpmedel och praktisk hantering. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "simple_distance_segments",
+      "title": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+      "subject": "D1_NAVIGATION",
+      "linked_requirement_keys": [
+        "D1-NAV-003-009",
+        "D1-NAV-003-010A",
+        "D1-NAV-003-010B",
+        "D1-NAV-002-001",
+        "D1-NAV-003-004",
+        "D1-NAV-003-002",
+        "D1-NAV-003-007",
+        "D1-NAV-003-008"
+      ],
+      "linked_fact_keys": [
+        "D1-NAV-CALC-FACT-006",
+        "D1-NAV-CALC-FACT-001",
+        "D1-NAV-CALC-FACT-002",
+        "D1-NAV-CALC-FACT-003",
+        "D1-NAV-CALC-FACT-004",
+        "D1-NAV-CALC-FACT-005",
+        "D1-NAV-TOOLS-FACT-003",
+        "D1-NAV-TOOLS-FACT-001",
+        "D1-NAV-TOOLS-FACT-004",
+        "D1-NAV-ORAL-FACT-003",
+        "D1-NAV-ORAL-FACT-001",
+        "D1-NAV-ORAL-FACT-004",
+        "D1-NAV-MAP-FACT-003",
+        "D1-NAV-MAP-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-NAV-CALC-L01"
+      ],
+      "linked_question_keys": [
+        "D1-NAV-TOOLS-Q003",
+        "D1-NAV-TOOLS-Q006",
+        "D1-NAV-TOOLS-Q009",
+        "D1-NAV-ORAL-Q003",
+        "D1-NAV-ORAL-Q006",
+        "D1-NAV-ORAL-Q009",
+        "D1-NAV-MAP-Q003",
+        "D1-NAV-MAP-Q006",
+        "D1-NAV-MAP-Q009",
+        "D1-NAV-CALC-Q003",
+        "D1-NAV-CALC-Q006",
+        "D1-NAV-CALC-Q009",
+        "D1-NAV-CALC-Q012"
+      ],
+      "visual_type": "navigation_map_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.",
+      "required_labels": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "required_objects": [
+        "4 km",
+        "6 km",
+        "8 km"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/simple_distance_segments.svg",
+      "accessibility": {
+        "alt_text": "Egen linjekarta med delsträckor 4 km, 6 km och 8 km.. Diagram med Start, Mål, Rutt.",
+        "text_equivalent": "Visuellt stöd för Egen linjekarta med delsträckor 4 km, 6 km och 8 km.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "simple_grid_center_route",
+      "title": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+      "subject": "D1_NAVIGATION",
+      "linked_requirement_keys": [
+        "D1-NAV-003-010A",
+        "D1-NAV-002-001",
+        "D1-NAV-003-001",
+        "D1-NAV-003-005",
+        "D1-NAV-003-006",
+        "D1-NAV-003-007",
+        "D1-NAV-003-008",
+        "D1-NAV-003-002",
+        "D1-NAV-003-003",
+        "D1-NAV-003-009"
+      ],
+      "linked_fact_keys": [
+        "D1-NAV-CALC-FACT-004",
+        "D1-NAV-TOOLS-FACT-001",
+        "D1-NAV-TOOLS-FACT-002",
+        "D1-NAV-TOOLS-FACT-003",
+        "D1-NAV-TOOLS-FACT-004",
+        "D1-NAV-TOOLS-FACT-005",
+        "D1-NAV-MAP-FACT-001",
+        "D1-NAV-MAP-FACT-002",
+        "D1-NAV-MAP-FACT-003",
+        "D1-NAV-MAP-FACT-004",
+        "D1-NAV-MAP-FACT-005",
+        "D1-NAV-MAP-FACT-006",
+        "D1-NAV-ORAL-FACT-001",
+        "D1-NAV-ORAL-FACT-004",
+        "D1-NAV-ORAL-FACT-002",
+        "D1-NAV-ORAL-FACT-005",
+        "D1-NAV-CALC-FACT-001"
+      ],
+      "linked_lesson_keys": [
+        "D1-NAV-TOOLS-L01",
+        "D1-NAV-MAP-L01"
+      ],
+      "linked_question_keys": [
+        "D1-NAV-TOOLS-Q001",
+        "D1-NAV-TOOLS-Q004",
+        "D1-NAV-TOOLS-Q007",
+        "D1-NAV-TOOLS-Q010",
+        "D1-NAV-ORAL-Q001",
+        "D1-NAV-ORAL-Q004",
+        "D1-NAV-ORAL-Q007",
+        "D1-NAV-ORAL-Q010",
+        "D1-NAV-MAP-Q001",
+        "D1-NAV-MAP-Q004",
+        "D1-NAV-MAP-Q007",
+        "D1-NAV-MAP-Q010",
+        "D1-NAV-CALC-Q001",
+        "D1-NAV-CALC-Q004",
+        "D1-NAV-CALC-Q007",
+        "D1-NAV-CALC-Q010"
+      ],
+      "visual_type": "navigation_map_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.",
+      "required_labels": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "required_objects": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/simple_grid_center_route.svg",
+      "accessibility": {
+        "alt_text": "Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.. Diagram med Start, Mål, Rutt.",
+        "text_equivalent": "Visuellt stöd för Egen schematisk rutnätskarta med Start, Torg, Bro, Station och Sjukhus.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "simple_suburb_route",
+      "title": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+      "subject": "D1_NAVIGATION",
+      "linked_requirement_keys": [
+        "D1-NAV-003-010B",
+        "D1-NAV-003-002",
+        "D1-NAV-003-003",
+        "D1-NAV-003-004",
+        "D1-NAV-003-001",
+        "D1-NAV-002-001",
+        "D1-NAV-003-006",
+        "D1-NAV-003-010A"
+      ],
+      "linked_fact_keys": [
+        "D1-NAV-CALC-FACT-005",
+        "D1-NAV-ORAL-FACT-001",
+        "D1-NAV-ORAL-FACT-002",
+        "D1-NAV-ORAL-FACT-003",
+        "D1-NAV-ORAL-FACT-004",
+        "D1-NAV-ORAL-FACT-005",
+        "D1-NAV-TOOLS-FACT-002",
+        "D1-NAV-TOOLS-FACT-005",
+        "D1-NAV-TOOLS-FACT-003",
+        "D1-NAV-MAP-FACT-002",
+        "D1-NAV-MAP-FACT-005",
+        "D1-NAV-CALC-FACT-002"
+      ],
+      "linked_lesson_keys": [
+        "D1-NAV-ORAL-L01"
+      ],
+      "linked_question_keys": [
+        "D1-NAV-TOOLS-Q002",
+        "D1-NAV-TOOLS-Q005",
+        "D1-NAV-TOOLS-Q008",
+        "D1-NAV-ORAL-Q002",
+        "D1-NAV-ORAL-Q005",
+        "D1-NAV-ORAL-Q008",
+        "D1-NAV-MAP-Q002",
+        "D1-NAV-MAP-Q005",
+        "D1-NAV-MAP-Q008",
+        "D1-NAV-CALC-Q002",
+        "D1-NAV-CALC-Q005",
+        "D1-NAV-CALC-Q008",
+        "D1-NAV-CALC-Q011"
+      ],
+      "visual_type": "navigation_map_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Egen schematisk karta med huvudgata, sidogata, park och entré.",
+      "required_labels": [
+        "Start",
+        "Mål",
+        "Rutt"
+      ],
+      "required_objects": [
+        "start",
+        "mål",
+        "ruttval",
+        "landmärke"
+      ],
+      "required_road_configuration": "Custom simplified map diagram. Not based on external map screenshots.",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/simple_suburb_route.svg",
+      "accessibility": {
+        "alt_text": "Egen schematisk karta med huvudgata, sidogata, park och entré.. Diagram med Start, Mål, Rutt.",
+        "text_equivalent": "Visuellt stöd för Egen schematisk karta med huvudgata, sidogata, park och entré.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_battery_jump_start",
+      "title": "Batteri och startkablar",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-026-002",
+        "D1-VEH-026-003",
+        "D1-VEH-026-001",
+        "D1-VEH-026-004",
+        "D1-VEH-026-005"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-ELEC-FACT-001",
+        "D1-VEH-ELEC-FACT-002",
+        "D1-VEH-ELEC-FACT-003",
+        "D1-VEH-ELEC-FACT-004",
+        "D1-VEH-ELEC-FACT-005",
+        "D1-VEH-ELEC-FACT-006",
+        "D1-VEH-ELEC-FACT-007",
+        "D1-VEH-ELEC-FACT-008",
+        "D1-VEH-ELEC-FACT-009"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-ELEC-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-ELEC-Q001",
+        "D1-VEH-ELEC-Q002",
+        "D1-VEH-ELEC-Q003",
+        "D1-VEH-ELEC-Q004",
+        "D1-VEH-ELEC-Q005",
+        "D1-VEH-ELEC-Q006",
+        "D1-VEH-ELEC-Q007",
+        "D1-VEH-ELEC-Q008",
+        "D1-VEH-ELEC-Q009"
+      ],
+      "visual_type": "battery_jump_start_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Batteri och startkablar",
+      "required_labels": [
+        "plus/minus",
+        "jordpunkt",
+        "skadad kabel",
+        "gnistrisk"
+      ],
+      "required_objects": [
+        "plus/minus",
+        "jordpunkt",
+        "skadad kabel",
+        "gnistrisk"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_battery_jump_start.svg",
+      "accessibility": {
+        "alt_text": "Batteri och startkablar. Diagram med plus/minus, jordpunkt, skadad kabel, gnistrisk.",
+        "text_equivalent": "Visuellt stöd för Batteri och startkablar. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_brake_system",
+      "title": "Bromssystem",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-028-001",
+        "D1-VEH-028-002",
+        "D1-VEH-028-003",
+        "D1-VEH-028-004"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-BRAKE-FACT-001",
+        "D1-VEH-BRAKE-FACT-002",
+        "D1-VEH-BRAKE-FACT-003",
+        "D1-VEH-BRAKE-FACT-004",
+        "D1-VEH-BRAKE-FACT-005",
+        "D1-VEH-BRAKE-FACT-006",
+        "D1-VEH-BRAKE-FACT-007",
+        "D1-VEH-BRAKE-FACT-008"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-BRAKE-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-BRAKE-Q001",
+        "D1-VEH-BRAKE-Q002",
+        "D1-VEH-BRAKE-Q003",
+        "D1-VEH-BRAKE-Q004",
+        "D1-VEH-BRAKE-Q005",
+        "D1-VEH-BRAKE-Q006",
+        "D1-VEH-BRAKE-Q007",
+        "D1-VEH-BRAKE-Q008",
+        "D1-VEH-BRAKE-Q009"
+      ],
+      "visual_type": "brake_system_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Bromssystem",
+      "required_labels": [
+        "pedal",
+        "bromsvätska",
+        "bromsskiva",
+        "bromsbelägg",
+        "ojämn bromsverkan"
+      ],
+      "required_objects": [
+        "pedal",
+        "bromsvätska",
+        "bromsskiva",
+        "bromsbelägg",
+        "ojämn bromsverkan"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_brake_system.svg",
+      "accessibility": {
+        "alt_text": "Bromssystem. Diagram med pedal, bromsvätska, bromsskiva, bromsbelägg, ojämn bromsverkan.",
+        "text_equivalent": "Visuellt stöd för Bromssystem. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_component_overview",
+      "title": "Fordonets uppbyggnad",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-023-001",
+        "D1-VEH-023-002"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-BASIC-FACT-001",
+        "D1-VEH-BASIC-FACT-002",
+        "D1-VEH-BASIC-FACT-003",
+        "D1-VEH-BASIC-FACT-004",
+        "D1-VEH-BASIC-FACT-005"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-BASIC-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-BASIC-Q001",
+        "D1-VEH-BASIC-Q002",
+        "D1-VEH-BASIC-Q003",
+        "D1-VEH-BASIC-Q004",
+        "D1-VEH-BASIC-Q005",
+        "D1-VEH-BASIC-Q006",
+        "D1-VEH-BASIC-Q007",
+        "D1-VEH-BASIC-Q008"
+      ],
+      "visual_type": "component_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Fordonets uppbyggnad",
+      "required_labels": [
+        "motor/drivlina",
+        "styrning",
+        "bromsar",
+        "elsystem",
+        "hjul/däck"
+      ],
+      "required_objects": [
+        "motor/drivlina",
+        "styrning",
+        "bromsar",
+        "elsystem",
+        "hjul/däck"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_component_overview.svg",
+      "accessibility": {
+        "alt_text": "Fordonets uppbyggnad. Diagram med motor/drivlina, styrning, bromsar, elsystem, hjul/däck.",
+        "text_equivalent": "Visuellt stöd för Fordonets uppbyggnad. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_dashboard_warning_symbols",
+      "title": "Varningsindikeringar",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-024-004",
+        "D1-VEH-024-003"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-SAFE-FACT-001",
+        "D1-VEH-SAFE-FACT-002",
+        "D1-VEH-SAFE-FACT-003",
+        "D1-VEH-SAFE-FACT-004",
+        "D1-VEH-SAFE-FACT-005",
+        "D1-VEH-WARN-FACT-001",
+        "D1-VEH-WARN-FACT-002",
+        "D1-VEH-WARN-FACT-003",
+        "D1-VEH-WARN-FACT-004",
+        "D1-VEH-WARN-FACT-005"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-SAFE-L01",
+        "D1-VEH-WARN-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-SAFE-Q001",
+        "D1-VEH-SAFE-Q002",
+        "D1-VEH-SAFE-Q003",
+        "D1-VEH-SAFE-Q004",
+        "D1-VEH-SAFE-Q005",
+        "D1-VEH-SAFE-Q006",
+        "D1-VEH-SAFE-Q007",
+        "D1-VEH-SAFE-Q008",
+        "D1-VEH-WARN-Q001",
+        "D1-VEH-WARN-Q002",
+        "D1-VEH-WARN-Q003",
+        "D1-VEH-WARN-Q004",
+        "D1-VEH-WARN-Q005",
+        "D1-VEH-WARN-Q006",
+        "D1-VEH-WARN-Q007",
+        "D1-VEH-WARN-Q008"
+      ],
+      "visual_type": "dashboard_warning_symbol_image",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Varningsindikeringar",
+      "required_labels": [
+        "röd varning",
+        "gul varning",
+        "broms",
+        "batteri/laddning",
+        "motor/avgas"
+      ],
+      "required_objects": [
+        "röd varning",
+        "gul varning",
+        "broms",
+        "batteri/laddning",
+        "motor/avgas"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_dashboard_warning_symbols.svg",
+      "accessibility": {
+        "alt_text": "Varningsindikeringar. Diagram med röd varning, gul varning, broms, batteri/laddning, motor/avgas.",
+        "text_equivalent": "Visuellt stöd för Varningsindikeringar. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_defect_decision_tree",
+      "title": "Felbedömning och åtgärd",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-023-002",
+        "D1-VEH-024-001",
+        "D1-VEH-024-002"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-CHECK-FACT-001",
+        "D1-VEH-CHECK-FACT-002",
+        "D1-VEH-CHECK-FACT-003",
+        "D1-VEH-CHECK-FACT-004",
+        "D1-VEH-CHECK-FACT-005"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-CHECK-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-CHECK-Q001",
+        "D1-VEH-CHECK-Q002",
+        "D1-VEH-CHECK-Q003",
+        "D1-VEH-CHECK-Q004",
+        "D1-VEH-CHECK-Q005",
+        "D1-VEH-CHECK-Q006",
+        "D1-VEH-CHECK-Q007",
+        "D1-VEH-CHECK-Q008"
+      ],
+      "visual_type": "component_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Felbedömning och åtgärd",
+      "required_labels": [
+        "kör vidare",
+        "åtgärda snarast",
+        "avbryt körning",
+        "verkstad/bärgning"
+      ],
+      "required_objects": [
+        "kör vidare",
+        "åtgärda snarast",
+        "avbryt körning",
+        "verkstad/bärgning"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_defect_decision_tree.svg",
+      "accessibility": {
+        "alt_text": "Felbedömning och åtgärd. Diagram med kör vidare, åtgärda snarast, avbryt körning, verkstad/bärgning.",
+        "text_equivalent": "Visuellt stöd för Felbedömning och åtgärd. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_drivetrain_types",
+      "title": "Fram-, bak- och fyrhjulsdrift",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-027-004A"
+      ],
+      "linked_fact_keys": [],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "drivetrain_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Fram-, bak- och fyrhjulsdrift",
+      "required_labels": [
+        "framdrift",
+        "bakdrift",
+        "fyrhjulsdrift",
+        "väglag"
+      ],
+      "required_objects": [
+        "framdrift",
+        "bakdrift",
+        "fyrhjulsdrift",
+        "väglag"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_drivetrain_types.svg",
+      "accessibility": {
+        "alt_text": "Fram-, bak- och fyrhjulsdrift. Diagram med framdrift, bakdrift, fyrhjulsdrift, väglag.",
+        "text_equivalent": "Visuellt stöd för Fram-, bak- och fyrhjulsdrift. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_fluid_reservoirs",
+      "title": "Vätskor och läckage",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-025-001",
+        "D1-VEH-025-003",
+        "D1-VEH-025-002"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-FLUID-FACT-001",
+        "D1-VEH-FLUID-FACT-002",
+        "D1-VEH-FLUID-FACT-003",
+        "D1-VEH-FLUID-FACT-004",
+        "D1-VEH-FLUID-FACT-005",
+        "D1-VEH-FLUID-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-FLUID-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-FLUID-Q001",
+        "D1-VEH-FLUID-Q002",
+        "D1-VEH-FLUID-Q003",
+        "D1-VEH-FLUID-Q004",
+        "D1-VEH-FLUID-Q005",
+        "D1-VEH-FLUID-Q006",
+        "D1-VEH-FLUID-Q007",
+        "D1-VEH-FLUID-Q008"
+      ],
+      "visual_type": "fluid_reservoir_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Vätskor och läckage",
+      "required_labels": [
+        "olja",
+        "kylvätska",
+        "bromsvätska",
+        "spolarvätska",
+        "läckage under bil"
+      ],
+      "required_objects": [
+        "olja",
+        "kylvätska",
+        "bromsvätska",
+        "spolarvätska",
+        "läckage under bil"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_fluid_reservoirs.svg",
+      "accessibility": {
+        "alt_text": "Vätskor och läckage. Diagram med olja, kylvätska, bromsvätska, spolarvätska, läckage under bil.",
+        "text_equivalent": "Visuellt stöd för Vätskor och läckage. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_fuse_panel",
+      "title": "Säkringar",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-026-001"
+      ],
+      "linked_fact_keys": [],
+      "linked_lesson_keys": [],
+      "linked_question_keys": [],
+      "visual_type": "component_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Säkringar",
+      "required_labels": [
+        "säkringshållare",
+        "amperetal",
+        "instruktionsbok/schema"
+      ],
+      "required_objects": [
+        "säkringshållare",
+        "amperetal",
+        "instruktionsbok/schema"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_fuse_panel.svg",
+      "accessibility": {
+        "alt_text": "Säkringar. Diagram med säkringshållare, amperetal, instruktionsbok/schema.",
+        "text_equivalent": "Visuellt stöd för Säkringar. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_steering_system",
+      "title": "Styrning och fel",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-027-001",
+        "D1-VEH-027-002",
+        "D1-VEH-027-003",
+        "D1-VEH-027-004A",
+        "D1-VEH-027-004B",
+        "D1-VEH-027-004C"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-STEER-FACT-001",
+        "D1-VEH-STEER-FACT-002",
+        "D1-VEH-STEER-FACT-003",
+        "D1-VEH-STEER-FACT-004",
+        "D1-VEH-STEER-FACT-005",
+        "D1-VEH-STEER-FACT-006",
+        "D1-VEH-STEER-FACT-007",
+        "D1-VEH-STEER-FACT-008",
+        "D1-VEH-STEER-FACT-009"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-STEER-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-STEER-Q001",
+        "D1-VEH-STEER-Q002",
+        "D1-VEH-STEER-Q003",
+        "D1-VEH-STEER-Q004",
+        "D1-VEH-STEER-Q005",
+        "D1-VEH-STEER-Q006",
+        "D1-VEH-STEER-Q007",
+        "D1-VEH-STEER-Q008",
+        "D1-VEH-STEER-Q009"
+      ],
+      "visual_type": "steering_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Styrning och fel",
+      "required_labels": [
+        "ratt",
+        "hjulupphängning",
+        "glapp",
+        "sidodragning"
+      ],
+      "required_objects": [
+        "ratt",
+        "hjulupphängning",
+        "glapp",
+        "sidodragning"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_steering_system.svg",
+      "accessibility": {
+        "alt_text": "Styrning och fel. Diagram med ratt, hjulupphängning, glapp, sidodragning.",
+        "text_equivalent": "Visuellt stöd för Styrning och fel. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_tread_depth_winter",
+      "title": "Mönsterdjup och vinterdäck",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-029-007A",
+        "D1-VEH-029-007B",
+        "D1-VEH-029-007C"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-WINTER-FACT-001",
+        "D1-VEH-WINTER-FACT-002",
+        "D1-VEH-WINTER-FACT-003",
+        "D1-VEH-WINTER-FACT-004",
+        "D1-VEH-WINTER-FACT-005",
+        "D1-VEH-WINTER-FACT-006",
+        "D1-VEH-WINTER-FACT-007"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-WINTER-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-WINTER-Q001",
+        "D1-VEH-WINTER-Q002",
+        "D1-VEH-WINTER-Q003",
+        "D1-VEH-WINTER-Q004",
+        "D1-VEH-WINTER-Q005",
+        "D1-VEH-WINTER-Q006",
+        "D1-VEH-WINTER-Q007",
+        "D1-VEH-WINTER-Q008"
+      ],
+      "visual_type": "tread_depth_illustration",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Mönsterdjup och vinterdäck",
+      "required_labels": [
+        "1,6 mm",
+        "3 mm",
+        "alptopp/snöflinga",
+        "dubbdäcksperiod"
+      ],
+      "required_objects": [
+        "1,6 mm",
+        "3 mm",
+        "alptopp/snöflinga",
+        "dubbdäcksperiod"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_tread_depth_winter.svg",
+      "accessibility": {
+        "alt_text": "Mönsterdjup och vinterdäck. Diagram med 1,6 mm, 3 mm, alptopp/snöflinga, dubbdäcksperiod.",
+        "text_equivalent": "Visuellt stöd för Mönsterdjup och vinterdäck. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_tyre_sidewall",
+      "title": "Däckmärkning",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-029-006",
+        "D1-VEH-029-007E",
+        "D1-VEH-029-003",
+        "D1-VEH-029-007D"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-MARK-FACT-001",
+        "D1-VEH-MARK-FACT-002",
+        "D1-VEH-MARK-FACT-003",
+        "D1-VEH-MARK-FACT-004",
+        "D1-VEH-MARK-FACT-005",
+        "D1-VEH-COMBO-FACT-001",
+        "D1-VEH-COMBO-FACT-002",
+        "D1-VEH-COMBO-FACT-003",
+        "D1-VEH-COMBO-FACT-004",
+        "D1-VEH-COMBO-FACT-005",
+        "D1-VEH-COMBO-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-MARK-L01",
+        "D1-VEH-COMBO-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-MARK-Q001",
+        "D1-VEH-MARK-Q002",
+        "D1-VEH-MARK-Q003",
+        "D1-VEH-MARK-Q004",
+        "D1-VEH-MARK-Q005",
+        "D1-VEH-MARK-Q006",
+        "D1-VEH-MARK-Q007",
+        "D1-VEH-MARK-Q008",
+        "D1-VEH-COMBO-Q001",
+        "D1-VEH-COMBO-Q002",
+        "D1-VEH-COMBO-Q003",
+        "D1-VEH-COMBO-Q004",
+        "D1-VEH-COMBO-Q005",
+        "D1-VEH-COMBO-Q006",
+        "D1-VEH-COMBO-Q007",
+        "D1-VEH-COMBO-Q008"
+      ],
+      "visual_type": "tyre_sidewall_illustration",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Däckmärkning",
+      "required_labels": [
+        "dimension",
+        "belastningskod",
+        "hastighetskod",
+        "E-märkning"
+      ],
+      "required_objects": [
+        "dimension",
+        "belastningskod",
+        "hastighetskod",
+        "E-märkning"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_tyre_sidewall.svg",
+      "accessibility": {
+        "alt_text": "Däckmärkning. Diagram med dimension, belastningskod, hastighetskod, E-märkning.",
+        "text_equivalent": "Visuellt stöd för Däckmärkning. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_tyre_wear_patterns",
+      "title": "Däckslitage",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-029-001",
+        "D1-VEH-029-005"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-PRESS-FACT-001",
+        "D1-VEH-PRESS-FACT-002",
+        "D1-VEH-PRESS-FACT-003",
+        "D1-VEH-PRESS-FACT-004",
+        "D1-VEH-PRESS-FACT-005",
+        "D1-VEH-PRESS-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-PRESS-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-PRESS-Q001",
+        "D1-VEH-PRESS-Q002",
+        "D1-VEH-PRESS-Q003",
+        "D1-VEH-PRESS-Q004",
+        "D1-VEH-PRESS-Q005",
+        "D1-VEH-PRESS-Q006",
+        "D1-VEH-PRESS-Q007",
+        "D1-VEH-PRESS-Q008"
+      ],
+      "visual_type": "tyre_wear_pattern",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Däckslitage",
+      "required_labels": [
+        "mittslitage",
+        "kantsslitage",
+        "ojämnt slitage",
+        "lufttryck"
+      ],
+      "required_objects": [
+        "mittslitage",
+        "kantsslitage",
+        "ojämnt slitage",
+        "lufttryck"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_tyre_wear_patterns.svg",
+      "accessibility": {
+        "alt_text": "Däckslitage. Diagram med mittslitage, kantsslitage, ojämnt slitage, lufttryck.",
+        "text_equivalent": "Visuellt stöd för Däckslitage. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "veh_wheel_change_safety",
+      "title": "Säkert hjulbyte",
+      "subject": "D1_VEHICLE_KNOWLEDGE",
+      "linked_requirement_keys": [
+        "D1-VEH-029-002",
+        "D1-VEH-029-004"
+      ],
+      "linked_fact_keys": [
+        "D1-VEH-WHEEL-FACT-001",
+        "D1-VEH-WHEEL-FACT-002",
+        "D1-VEH-WHEEL-FACT-003",
+        "D1-VEH-WHEEL-FACT-004",
+        "D1-VEH-WHEEL-FACT-005"
+      ],
+      "linked_lesson_keys": [
+        "D1-VEH-WHEEL-L01"
+      ],
+      "linked_question_keys": [
+        "D1-VEH-WHEEL-Q001",
+        "D1-VEH-WHEEL-Q002",
+        "D1-VEH-WHEEL-Q003",
+        "D1-VEH-WHEEL-Q004",
+        "D1-VEH-WHEEL-Q005",
+        "D1-VEH-WHEEL-Q006",
+        "D1-VEH-WHEEL-Q007",
+        "D1-VEH-WHEEL-Q008"
+      ],
+      "visual_type": "component_diagram",
+      "priority": "P1",
+      "usage_classification": "visual_enrichment",
+      "description": "Säkert hjulbyte",
+      "required_labels": [
+        "plan yta",
+        "domkraftspunkt",
+        "hjulbultar",
+        "efterkontroll"
+      ],
+      "required_objects": [
+        "plan yta",
+        "domkraftspunkt",
+        "hjulbultar",
+        "efterkontroll"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/veh_wheel_change_safety.svg",
+      "accessibility": {
+        "alt_text": "Säkert hjulbyte. Diagram med plan yta, domkraftspunkt, hjulbultar, efterkontroll.",
+        "text_equivalent": "Visuellt stöd för Säkert hjulbyte. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "work_distraction_scene",
+      "title": "Visual metadata för utrustning och riskmedvetenhet under färd.",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "linked_requirement_keys": [
+        "D1-WORK-022-001"
+      ],
+      "linked_fact_keys": [
+        "D1-WORK-EQUIPMENT-FACT-001",
+        "D1-WORK-EQUIPMENT-FACT-002",
+        "D1-WORK-EQUIPMENT-FACT-003",
+        "D1-WORK-EQUIPMENT-FACT-004"
+      ],
+      "linked_lesson_keys": [
+        "D1-WORK-EQUIPMENT-L01"
+      ],
+      "linked_question_keys": [
+        "D1-WORK-EQUIPMENT-Q001"
+      ],
+      "visual_type": "distraction_scenario",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Visual metadata för utrustning och riskmedvetenhet under färd.",
+      "required_labels": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_objects": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/work_distraction_scene.svg",
+      "accessibility": {
+        "alt_text": "Visual metadata för utrustning och riskmedvetenhet under färd.. Diagram med riskmoment, säkert alternativ.",
+        "text_equivalent": "Visuellt stöd för Visual metadata för utrustning och riskmedvetenhet under färd.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "work_driver_posture",
+      "title": "Visual metadata för körställning och variation.",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "linked_requirement_keys": [
+        "D1-WORK-020-003"
+      ],
+      "linked_fact_keys": [
+        "D1-WORK-POSTURE-FACT-001",
+        "D1-WORK-POSTURE-FACT-002",
+        "D1-WORK-POSTURE-FACT-003",
+        "D1-WORK-POSTURE-FACT-004"
+      ],
+      "linked_lesson_keys": [
+        "D1-WORK-POSTURE-L01"
+      ],
+      "linked_question_keys": [
+        "D1-WORK-POSTURE-Q001"
+      ],
+      "visual_type": "work_environment_scenario",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Visual metadata för körställning och variation.",
+      "required_labels": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_objects": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/work_driver_posture.svg",
+      "accessibility": {
+        "alt_text": "Visual metadata för körställning och variation.. Diagram med riskmoment, säkert alternativ.",
+        "text_equivalent": "Visuellt stöd för Visual metadata för körställning och variation.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "work_environment_risk_map",
+      "title": "Visual metadata för arbetsrisker i taxiarbetet.",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "linked_requirement_keys": [
+        "D1-WORK-019-001"
+      ],
+      "linked_fact_keys": [
+        "D1-WORK-WORK-FACT-001",
+        "D1-WORK-WORK-FACT-002",
+        "D1-WORK-WORK-FACT-003",
+        "D1-WORK-WORK-FACT-004"
+      ],
+      "linked_lesson_keys": [
+        "D1-WORK-WORK-L01"
+      ],
+      "linked_question_keys": [
+        "D1-WORK-WORK-Q001"
+      ],
+      "visual_type": "work_environment_scenario",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Visual metadata för arbetsrisker i taxiarbetet.",
+      "required_labels": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_objects": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/work_environment_risk_map.svg",
+      "accessibility": {
+        "alt_text": "Visual metadata för arbetsrisker i taxiarbetet.. Diagram med riskmoment, säkert alternativ.",
+        "text_equivalent": "Visuellt stöd för Visual metadata för arbetsrisker i taxiarbetet.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "work_impairment_decision",
+      "title": "Visual metadata för påverkan och körförmåga.",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "linked_requirement_keys": [
+        "D1-WORK-021-001",
+        "D1-WORK-021-002",
+        "D1-WORK-021-004",
+        "D1-WORK-021-005"
+      ],
+      "linked_fact_keys": [
+        "D1-WORK-FITNESS-FACT-001",
+        "D1-WORK-FITNESS-FACT-002",
+        "D1-WORK-FITNESS-FACT-003",
+        "D1-WORK-FITNESS-FACT-004",
+        "D1-WORK-FITNESS-FACT-005",
+        "D1-WORK-FITNESS-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-WORK-FITNESS-L01"
+      ],
+      "linked_question_keys": [
+        "D1-WORK-FITNESS-Q001"
+      ],
+      "visual_type": "work_environment_scenario",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Visual metadata för påverkan och körförmåga.",
+      "required_labels": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_objects": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/work_impairment_decision.svg",
+      "accessibility": {
+        "alt_text": "Visual metadata för påverkan och körförmåga.. Diagram med riskmoment, säkert alternativ.",
+        "text_equivalent": "Visuellt stöd för Visual metadata för påverkan och körförmåga.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "work_lifting_posture",
+      "title": "Visual metadata för belastning, lyft och hjälpmedel.",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "linked_requirement_keys": [
+        "D1-WORK-020-001",
+        "D1-WORK-020-002"
+      ],
+      "linked_fact_keys": [
+        "D1-WORK-LIFT-FACT-001",
+        "D1-WORK-LIFT-FACT-002",
+        "D1-WORK-LIFT-FACT-003",
+        "D1-WORK-LIFT-FACT-004",
+        "D1-WORK-LIFT-FACT-005"
+      ],
+      "linked_lesson_keys": [
+        "D1-WORK-LIFT-L01"
+      ],
+      "linked_question_keys": [
+        "D1-WORK-LIFT-Q001",
+        "D1-WORK-LIFT-Q003"
+      ],
+      "visual_type": "work_environment_scenario",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Visual metadata för belastning, lyft och hjälpmedel.",
+      "required_labels": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_objects": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/work_lifting_posture.svg",
+      "accessibility": {
+        "alt_text": "Visual metadata för belastning, lyft och hjälpmedel.. Diagram med riskmoment, säkert alternativ.",
+        "text_equivalent": "Visuellt stöd för Visual metadata för belastning, lyft och hjälpmedel.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    },
+    {
+      "visual_id": "work_night_shift_decision",
+      "title": "Visual metadata för trötthet, stress och arbetscykel.",
+      "subject": "D1_WORK_ENVIRONMENT_RISK",
+      "linked_requirement_keys": [
+        "D1-WORK-021-003",
+        "D1-WORK-021-006",
+        "D1-WORK-021-007"
+      ],
+      "linked_fact_keys": [
+        "D1-WORK-RECOVERY-FACT-001",
+        "D1-WORK-RECOVERY-FACT-002",
+        "D1-WORK-RECOVERY-FACT-003",
+        "D1-WORK-RECOVERY-FACT-004",
+        "D1-WORK-RECOVERY-FACT-005",
+        "D1-WORK-RECOVERY-FACT-006"
+      ],
+      "linked_lesson_keys": [
+        "D1-WORK-RECOVERY-L01"
+      ],
+      "linked_question_keys": [
+        "D1-WORK-RECOVERY-Q001"
+      ],
+      "visual_type": "work_environment_scenario",
+      "priority": "P2",
+      "usage_classification": "visual_enrichment",
+      "description": "Visual metadata för trötthet, stress och arbetscykel.",
+      "required_labels": [
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_objects": [
+        "taxi",
+        "förare",
+        "riskmoment",
+        "säkert alternativ"
+      ],
+      "required_road_configuration": "",
+      "aspect_ratio": "16:9",
+      "asset_path": "assets/visuals/work_night_shift_decision.svg",
+      "accessibility": {
+        "alt_text": "Visual metadata för trötthet, stress och arbetscykel.. Diagram med riskmoment, säkert alternativ.",
+        "text_equivalent": "Visuellt stöd för Visual metadata för trötthet, stress och arbetscykel.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+        "visual_required_accessibility_strategy": "Enrichment only; core theory remains available in text."
+      },
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      },
+      "status": "production_ready"
+    }
+  ]
+}

@@ -2,15 +2,17 @@
   "metadata": {
     "subject": "D1_SERVICE",
     "title": "D1 service visual manifest",
-    "status": "placeholder_metadata",
+    "status": "production_ready",
     "created_at": "2026-09-10",
-    "note": "Structured placeholders only. No copyrighted visual assets are included."
+    "note": "Structured placeholders only. No copyrighted visual assets are included.",
+    "visual_asset_status": "production_ready",
+    "updated_at": "2026-09-11"
   },
   "visuals": [
     {
       "visual_id": "serv_entry_assistance_scene",
       "visual_type": "vehicle_entry_assistance_scene",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Stöd vid in- och urstigning",
       "elements_must_be_shown": [
         "taxi vid kantsten",
@@ -36,12 +38,22 @@
         "D1-SERV-AID-FACT-005"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone.",
+      "asset_path": "assets/visuals/serv_entry_assistance_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Stöd vid in- och urstigning. Diagram med taxi vid kantsten, öppen dörr, passagerare, förare som frågar först.",
+      "text_equivalent": "Visuellt stöd för Stöd vid in- och urstigning. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "serv_wheelchair_aid_scene",
       "visual_type": "wheelchair_loading_situation",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Hjälpmedel och praktisk hantering",
       "elements_must_be_shown": [
         "rullstol",
@@ -65,12 +77,22 @@
         "D1-SERV-AID-FACT-006"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone.",
+      "asset_path": "assets/visuals/serv_wheelchair_aid_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Hjälpmedel och praktisk hantering. Diagram med rullstol, rollator, bagageutrymme, förankring utan detaljmedicin.",
+      "text_equivalent": "Visuellt stöd för Hjälpmedel och praktisk hantering. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "serv_luggage_cleanliness_scene",
       "visual_type": "luggage_and_clean_vehicle_scene",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Rent fordon och bagagehjälp",
       "elements_must_be_shown": [
         "rent säte",
@@ -92,12 +114,22 @@
         "D1-SERV-CLEAN-FACT-007"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone.",
+      "asset_path": "assets/visuals/serv_luggage_cleanliness_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Rent fordon och bagagehjälp. Diagram med rent säte, bagage, fri golvyta, diskret förare.",
+      "text_equivalent": "Visuellt stöd för Rent fordon och bagagehjälp. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "serv_communication_scene",
       "visual_type": "communication_scenario",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Kommunikation utan antaganden",
       "elements_must_be_shown": [
         "förare",
@@ -123,7 +155,17 @@
         "D1-SERV-COM-FACT-004"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone."
+      "notes": "Placeholder manifest entry only. Bemötande questions remain answerable from text alone.",
+      "asset_path": "assets/visuals/serv_communication_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Kommunikation utan antaganden. Diagram med förare, passagerare, kort fråga, bekräftelse av önskemål.",
+      "text_equivalent": "Visuellt stöd för Kommunikation utan antaganden. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     }
   ]
 }

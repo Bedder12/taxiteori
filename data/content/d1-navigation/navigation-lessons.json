@@ -55,7 +55,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "status": "published",
       "content_blocks": [
@@ -111,7 +113,9 @@
         }
       ],
       "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
-      "prerequisite_lesson_keys": []
+      "prerequisite_lesson_keys": [],
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-L01",
@@ -152,7 +156,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "status": "published",
       "content_blocks": [
@@ -208,7 +214,9 @@
         }
       ],
       "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
-      "prerequisite_lesson_keys": []
+      "prerequisite_lesson_keys": [],
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-L01",
@@ -257,7 +265,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "status": "published",
       "content_blocks": [
@@ -313,7 +323,9 @@
         }
       ],
       "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
-      "prerequisite_lesson_keys": []
+      "prerequisite_lesson_keys": [],
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-L01",
@@ -356,7 +368,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "status": "published",
       "content_blocks": [
@@ -419,7 +433,9 @@
         }
       ],
       "summary": "Det här momentet tränar navigering som en praktisk förarfärdighet: förstå uppdraget, välj rätt hjälpmedel och kontrollera vägen innan du kör.",
-      "prerequisite_lesson_keys": []
+      "prerequisite_lesson_keys": [],
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     }
   ]
 }

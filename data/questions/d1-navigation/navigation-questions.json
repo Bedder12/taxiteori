@@ -96,7 +96,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -143,7 +145,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 2 §"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q002",
@@ -166,7 +170,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -212,7 +218,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 1"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q003",
@@ -235,7 +243,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -274,7 +284,9 @@
           "exact_reference": "Min karta, Det här kan du göra i Min karta"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q004",
@@ -297,7 +309,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -344,7 +358,9 @@
           "exact_reference": "Min karta, Det här kan du göra i Min karta"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q005",
@@ -367,7 +383,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -413,7 +431,9 @@
           "exact_reference": "Trafikinformation vägkarta, Hjälp om kartan"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q006",
@@ -436,7 +456,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -475,7 +497,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 2 §"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q007",
@@ -498,7 +522,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -545,7 +571,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 1"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q008",
@@ -568,7 +596,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -614,7 +644,9 @@
           "exact_reference": "Min karta, Det här kan du göra i Min karta"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q009",
@@ -637,7 +669,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -676,7 +710,9 @@
           "exact_reference": "Min karta, Det här kan du göra i Min karta"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-TOOLS-Q010",
@@ -699,7 +735,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -746,7 +784,9 @@
           "exact_reference": "Trafikinformation vägkarta, Hjälp om kartan"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q001",
@@ -769,7 +809,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -816,7 +858,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q002",
@@ -839,7 +883,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -885,7 +931,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q003",
@@ -908,7 +956,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -947,7 +997,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q004",
@@ -970,7 +1022,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -1017,7 +1071,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q005",
@@ -1040,7 +1096,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -1086,7 +1144,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q006",
@@ -1109,7 +1169,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -1148,7 +1210,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q007",
@@ -1171,7 +1235,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -1218,7 +1284,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q008",
@@ -1241,7 +1309,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -1287,7 +1357,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q009",
@@ -1310,7 +1382,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -1349,7 +1423,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-ORAL-Q010",
@@ -1372,7 +1448,9 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -1419,7 +1497,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 2"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q001",
@@ -1442,7 +1522,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -1489,7 +1571,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 a"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q002",
@@ -1512,7 +1596,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -1558,7 +1644,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q003",
@@ -1581,7 +1669,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -1620,7 +1710,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q004",
@@ -1643,7 +1735,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -1690,7 +1784,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 c"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q005",
@@ -1713,7 +1809,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -1759,7 +1857,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q006",
@@ -1782,7 +1882,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -1821,7 +1923,9 @@
           "exact_reference": "Hjälp och tips till Min karta, Välj kartlager"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q007",
@@ -1844,7 +1948,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -1891,7 +1997,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 a"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q008",
@@ -1914,7 +2022,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -1960,7 +2070,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q009",
@@ -1983,7 +2095,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -2022,7 +2136,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 b"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-MAP-Q010",
@@ -2045,7 +2161,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -2092,7 +2210,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 c"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q001",
@@ -2115,7 +2235,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -2162,7 +2284,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q002",
@@ -2185,7 +2309,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -2231,7 +2357,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q003",
@@ -2254,7 +2382,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -2293,7 +2423,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q004",
@@ -2316,7 +2448,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -2363,7 +2497,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q005",
@@ -2386,7 +2522,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -2432,7 +2570,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q006",
@@ -2455,7 +2595,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -2494,7 +2636,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q007",
@@ -2517,7 +2661,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -2564,7 +2710,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q008",
@@ -2587,7 +2735,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -2633,7 +2783,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q009",
@@ -2656,7 +2808,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -2695,7 +2849,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q010",
@@ -2718,7 +2874,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_grid_center_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_grid_center_route",
@@ -2765,7 +2923,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_grid_center_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q011",
@@ -2788,7 +2948,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_suburb_route",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_suburb_route",
@@ -2834,7 +2996,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 e"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_suburb_route",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-CALC-Q012",
@@ -2857,7 +3021,9 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": true,
-        "requires_arrival_time_calculation": true
+        "requires_arrival_time_calculation": true,
+        "visual_asset_id": "simple_distance_segments",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "simple_distance_segments",
@@ -2896,7 +3062,9 @@
           "exact_reference": "TSFS 2021:119, 3 kap. 3 § 3 d"
         }
       ],
-      "status": "published"
+      "status": "published",
+      "visual_asset_id": "simple_distance_segments",
+      "visual_correctness_depends_on_asset": false
     },
     {
       "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-001-Q001",
@@ -2959,13 +3127,16 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder",
         "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
         "copyright_status": "custom_metadata_only"
-      }
+      },
+      "visual_asset_id": "d1-nav-coverage-d1-nav-003-001-q001_simple_map_placeholder"
     },
     {
       "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-004-Q001",
@@ -3028,13 +3199,16 @@
         "requires_oral_route_description": true,
         "requires_distance_estimation": false,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder",
         "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
         "copyright_status": "custom_metadata_only"
-      }
+      },
+      "visual_asset_id": "d1-nav-coverage-d1-nav-003-004-q001_simple_map_placeholder"
     },
     {
       "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-005-Q001",
@@ -3097,13 +3271,16 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder",
         "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
         "copyright_status": "custom_metadata_only"
-      }
+      },
+      "visual_asset_id": "d1-nav-coverage-d1-nav-003-005-q001_simple_map_placeholder"
     },
     {
       "stable_key": "D1-NAV-COVERAGE-D1-NAV-003-007-Q001",
@@ -3166,13 +3343,16 @@
         "requires_oral_route_description": false,
         "requires_distance_estimation": true,
         "requires_travel_time_calculation": false,
-        "requires_arrival_time_calculation": false
+        "requires_arrival_time_calculation": false,
+        "visual_asset_id": "d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder",
+        "visual_correctness_depends_on_asset": false
       },
       "map_metadata": {
         "id": "d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder",
         "description": "Simple custom map metadata placeholder; the prompt contains all information needed to answer.",
         "copyright_status": "custom_metadata_only"
-      }
+      },
+      "visual_asset_id": "d1-nav-coverage-d1-nav-003-007-q001_simple_map_placeholder"
     }
   ]
 }

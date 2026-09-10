@@ -4,7 +4,7 @@
     "title": "Sjukdomar och funktionsnedsättningar",
     "verified_at": "2026-09-10",
     "reviewed_at": "2026-09-10",
-    "status": "published",
+    "status": "production_ready",
     "requirement_count": 5,
     "architecture": "existing_vilotider_learning_pipeline",
     "exclusions": [
@@ -12,13 +12,15 @@
       "no treatment instruction beyond emergency/help boundary",
       "no other D1 subjects",
       "no full D1 mock exam"
-    ]
+    ],
+    "visual_asset_status": "production_ready",
+    "updated_at": "2026-09-11"
   },
   "visuals": [
     {
       "visual_id": "health_boarding_mobility_scene",
       "visual_type": "mobility_assistance_scene",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.",
       "elements_must_be_shown": [
         "taxi vid kantsten",
@@ -41,12 +43,22 @@
         "D1-HEALTH-MOBILITY-FACT-003"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone."
+      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone.",
+      "asset_path": "assets/visuals/health_boarding_mobility_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.. Diagram med taxi vid kantsten, öppen dörr, passagerare med hjälpmedel, förare som frågar innan stöd ges.",
+      "text_equivalent": "Visuellt stöd för Praktisk hjälp vid i- och urstigning när rörelse, balans eller ork påverkar resan.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "health_cognitive_support_scene",
       "visual_type": "cognitive_support_scene",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.",
       "elements_must_be_shown": [
         "kort textmeddelande",
@@ -70,12 +82,22 @@
         "D1-HEALTH-ROLE-FACT-003"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone."
+      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone.",
+      "asset_path": "assets/visuals/health_cognitive_support_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.. Diagram med kort textmeddelande, adressbekräftelse, lugn miljö, förare som ger en sak i taget.",
+      "text_equivalent": "Visuellt stöd för Tydlig kommunikation och orienteringsstöd vid kognitiv eller neuropsykiatrisk påverkan.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     },
     {
       "visual_id": "health_urgent_help_decision_scene",
       "visual_type": "urgent_help_decision_scene",
-      "status": "placeholder_metadata",
+      "status": "production_ready",
       "purpose": "Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.",
       "elements_must_be_shown": [
         "säker stoppplats",
@@ -99,7 +121,17 @@
         "D1-HEALTH-URGENT-FACT-003"
       ],
       "correctness_depends_on_visual": false,
-      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone."
+      "notes": "Custom/simple visual placeholder. Published questions remain answerable from text alone.",
+      "asset_path": "assets/visuals/health_urgent_help_decision_scene.svg",
+      "aspect_ratio": "16:9",
+      "alt_text": "Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.. Diagram med säker stoppplats, telefon 112, förare som håller avstånd från trafik, passagerare med akut försämring.",
+      "text_equivalent": "Visuellt stöd för Beslutsstöd för när resan ska avbrytas och hjälp tillkallas.. Kärninnehållet finns även i lektionens text och frågans förklaring.",
+      "licensing": {
+        "source_dependency": "none",
+        "copyright_status": "original_in_house_diagram",
+        "prohibited_sources_used": false,
+        "notes": "Original SVG generated from internal manifest/specification. Not copied from Trafikverket, commercial driving-theory material or map screenshots."
+      }
     }
   ]
 }
