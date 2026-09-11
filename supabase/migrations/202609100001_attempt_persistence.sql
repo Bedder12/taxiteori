@@ -34,12 +34,49 @@ alter table attempt_questions
   add column if not exists subject_key text;
 
 alter table lesson_progress
-  alter column lesson_id drop not null,
   add column if not exists lesson_key text;
-update lesson_progress set lesson_key = lesson_id::text where lesson_key is null;
+
+update lesson_progress
+set lesson_key = coalesce(lessons.stable_key, lesson_progress.lesson_id::text)
+from lessons
+where lesson_progress.lesson_id = lessons.id
+  and lesson_progress.lesson_key is null;
+
+update lesson_progress
+set lesson_key = lesson_id::text
+where lesson_key is null
+  and lesson_id is not null;
+
+do $$
+begin
+  if exists (
+    select 1
+    from lesson_progress
+    where lesson_key is null or btrim(lesson_key) = ''
+  ) then
+    raise exception 'lesson_progress contains rows without a deterministic lesson_key';
+  end if;
+
+  if exists (
+    select 1
+    from (
+      select user_id, lesson_key
+      from lesson_progress
+      group by user_id, lesson_key
+      having count(*) > 1
+    ) duplicates
+  ) then
+    raise exception 'lesson_progress contains duplicate user_id/lesson_key rows';
+  end if;
+end $$;
+
 alter table lesson_progress alter column lesson_key set not null;
 alter table lesson_progress drop constraint if exists lesson_progress_pkey;
+alter table lesson_progress drop constraint if exists lesson_progress_key_pkey;
 alter table lesson_progress add constraint lesson_progress_key_pkey primary key (user_id, lesson_key);
+alter table lesson_progress alter column lesson_id drop not null;
+alter table lesson_progress drop constraint if exists lesson_progress_lesson_key_not_blank;
+alter table lesson_progress add constraint lesson_progress_lesson_key_not_blank check (btrim(lesson_key) <> '');
 
 alter table answers
   alter column attempt_id drop not null,
@@ -67,16 +104,12 @@ alter table attempts add constraint attempts_reference_check check (
   or (assessment_key is not null) <> (blueprint_key is not null)
 );
 
-drop policy if exists "users complete own in-progress attempts" on attempts;
-create policy "users finalize own active attempts" on attempts
-  for update to authenticated
-  using (auth.uid() = user_id and status = 'in_progress')
-  with check (auth.uid() = user_id and status in ('completed', 'timed_out', 'abandoned'));
-
 drop policy if exists "users insert own lesson progress" on lesson_progress;
+drop policy if exists "users upsert own lesson progress" on lesson_progress;
 create policy "users upsert own lesson progress" on lesson_progress
   for insert to authenticated
   with check (auth.uid() = user_id);
+drop policy if exists "users update own lesson progress" on lesson_progress;
 create policy "users update own lesson progress" on lesson_progress
   for update to authenticated
   using (auth.uid() = user_id)
@@ -100,6 +133,7 @@ create policy "users create own attempt questions" on attempt_questions for inse
       and (attempts.id = attempt_questions.attempt_id or attempts.client_attempt_id = attempt_questions.client_attempt_id)
   )
 );
+drop policy if exists "users update own attempt questions" on attempt_questions;
 create policy "users update own attempt questions" on attempt_questions for update to authenticated using (
   exists (
     select 1 from attempts
@@ -123,6 +157,7 @@ create policy "users create own answers" on answers
     )
   );
 
+drop policy if exists "users update own answers" on answers;
 create policy "users update own answers" on answers
   for update to authenticated
   using (

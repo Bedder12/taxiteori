@@ -66,9 +66,26 @@ export function testP0FinalizationIsIdempotent() {
 
 export function testP0SupabaseMigrationContainsSecurityAndFrozenStateFields() {
   const migration = readFileSync(resolve(root, 'supabase/migrations/202609100001_attempt_persistence.sql'), 'utf8');
+  const policyMigration = readFileSync(resolve(root, 'supabase/migrations/202609100002_attempt_persistence_policies.sql'), 'utf8');
   for (const field of ['blueprint_version', 'scoring_role', 'timed_out', 'client_attempt_id', 'question_snapshot', 'lesson_key']) {
     assert.ok(migration.includes(field), `${field} is missing from the persistence migration.`);
   }
   assert.match(migration, /auth\.uid\(\) = user_id/);
-  assert.match(migration, /status in \('completed', 'timed_out', 'abandoned'\)/);
+  assert.match(migration, /alter type attempt_status add value if not exists 'timed_out'/);
+  assert.match(migration, /alter type attempt_status add value if not exists 'abandoned'/);
+  assert.doesNotMatch(migration, /status in \('completed', 'timed_out', 'abandoned'\)/);
+  assert.doesNotMatch(migration, /create policy "users finalize own active attempts"/);
+  assert.match(policyMigration, /drop policy if exists "users complete own in-progress attempts"/);
+  assert.match(policyMigration, /drop policy if exists "users finalize own active attempts"/);
+  assert.match(policyMigration, /create policy "users finalize own active attempts"/);
+  assert.match(policyMigration, /using \(auth\.uid\(\) = user_id and status = 'in_progress'\)/);
+  assert.match(policyMigration, /with check \(auth\.uid\(\) = user_id and status in \('completed', 'timed_out', 'abandoned'\)\)/);
+  assert.ok(
+    migration.indexOf('alter table lesson_progress drop constraint if exists lesson_progress_pkey') <
+      migration.indexOf('alter table lesson_progress alter column lesson_id drop not null'),
+    'lesson_progress primary key must be replaced before lesson_id becomes nullable.',
+  );
+  assert.match(migration, /coalesce\(lessons\.stable_key, lesson_progress\.lesson_id::text\)/);
+  assert.match(migration, /duplicate user_id\/lesson_key rows/);
+  assert.match(migration, /lesson_progress_lesson_key_not_blank/);
 }
