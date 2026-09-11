@@ -10,7 +10,7 @@ Generated: 2026-09-11
 - Mock readiness: PASS, D1/D2 blueprint counts unchanged
 - Persistence readiness: PASS in regression tests
 - Bundle/loading readiness: PASS for subject-scoped content loaders
-- Supabase live verification status: UNVERIFIED
+- Supabase live verification status: BLOCKED, missing configured live Supabase URL, anon/public key and two authenticated test users
 
 ## Remaining Work
 
@@ -22,4 +22,4 @@ Generated: 2026-09-11
 
 Beta-ready: NO
 
-Reason: Supabase live E2E remains unverified, so the app must not be called beta-ready yet even though curriculum, questions, mocks and production visual asset checks pass locally.
+Reason: Supabase live E2E remains blocked at the prerequisite gate. The workspace has no configured live Supabase URL, anon/public key or two authenticated test users, so Auth, live persistence, RLS, resume, timeout, D1/D2 mocks, idempotency and immutability cannot be verified.
