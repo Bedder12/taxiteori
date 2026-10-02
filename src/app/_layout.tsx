@@ -1,20 +1,32 @@
-import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
+import { DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
-import { useColorScheme } from 'react-native';
 import { useEffect } from 'react';
 
 import { AnimatedSplashOverlay } from '@/components/animated-icon';
+import { Colors } from '@/constants/theme';
 import { hydrateRuntimeState } from '@/lib/runtimeLearningState';
 
 SplashScreen.preventAutoHideAsync();
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
   useEffect(() => {
     void hydrateRuntimeState();
   }, []);
+
+  const appTheme = {
+    ...DefaultTheme,
+    colors: {
+      ...DefaultTheme.colors,
+      background: Colors.light.background,
+      card: Colors.light.background,
+      text: Colors.light.text,
+      border: Colors.light.border,
+      primary: Colors.light.primary,
+    },
+  };
+
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={appTheme}>
       <AnimatedSplashOverlay />
       <Stack
         screenOptions={{
@@ -23,8 +35,10 @@ export default function TabLayout() {
         }}>
         <Stack.Screen name="index" options={{ title: 'Plugga' }} />
         <Stack.Screen name="prov" options={{ title: 'Prov' }} />
+        <Stack.Screen name="teoribok" options={{ title: 'Teoriboken' }} />
+        <Stack.Screen name="profil" options={{ title: 'Profil' }} />
         <Stack.Screen name="exam/[examId]" options={{ title: 'Delprov' }} />
-        <Stack.Screen name="subject/[subjectId]" options={{ title: 'Amne' }} />
+        <Stack.Screen name="subject/[subjectId]" options={{ title: 'Ämne' }} />
         <Stack.Screen name="lesson/[lessonId]" options={{ title: 'Lektion' }} />
         <Stack.Screen name="quiz/[assessmentId]" options={{ title: 'Checkpoint' }} />
         <Stack.Screen name="result/[attemptId]" options={{ title: 'Resultat' }} />

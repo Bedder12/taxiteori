@@ -10,16 +10,18 @@ import { Platform } from 'react-native';
 export const Colors = {
   light: {
     text: '#17201B',
-    background: '#FAF7F0',
+    background: '#F7F3EE',
     surface: '#FFFFFF',
     surfaceMuted: '#F4F1EA',
     backgroundElement: '#EDF5EC',
     backgroundSelected: '#DCEEDB',
-    primary: '#3C8D63',
-    primaryStrong: '#236344',
-    primarySoft: '#DCEEDB',
+    primary: '#0F7A55',
+    primaryStrong: '#0B5F43',
+    primarySoft: '#DDF5E9',
+    ink: '#102018',
+    taxi: '#F2C94C',
     accent: '#D78A4A',
-    border: '#E5E0D5',
+    border: '#E6DED4',
     borderStrong: '#C9D8C7',
     success: '#2F7D57',
     danger: '#B45142',
@@ -36,6 +38,8 @@ export const Colors = {
     primary: '#78C99A',
     primaryStrong: '#A1DCB6',
     primarySoft: '#254331',
+    ink: '#EEF6EE',
+    taxi: '#F2C94C',
     accent: '#E2A467',
     border: '#31392F',
     borderStrong: '#4B6352',
@@ -87,7 +91,7 @@ export const Spacing = {
 export const Radii = {
   small: 10,
   medium: 16,
-  large: 22,
+  large: 24,
   pill: 999,
 } as const;
 
@@ -118,5 +122,5 @@ export const Shadows = {
   }),
 } as const;
 
-export const BottomTabInset = Platform.select({ ios: 72, android: 84 }) ?? 72;
-export const MaxContentWidth = 560;
+export const BottomTabInset = Platform.select({ ios: 76, android: 88 }) ?? 76;
+export const MaxContentWidth = 440;

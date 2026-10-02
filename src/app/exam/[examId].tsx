@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
 import { Screen } from '@/components/layout/Screen';
+import { LearningPath, type LearningPathNode } from '@/components/learning/LearningPath';
 import { SubjectCard } from '@/components/learning/SubjectCard';
 import { ThemedText } from '@/components/themed-text';
 import { AppHeader, BottomNav, Section } from '@/components/ui/foundation';
@@ -22,6 +23,28 @@ export default function ExamScreen() {
     return <ThemedText>Delprovet hittades inte.</ThemedText>;
   }
 
+  const subjectViews = subjects.map((subject) => {
+    const topics = repository.topics.filter((topic) => topic.subjectId === subject.id);
+    const checkpointAssessment = repository.assessments.find((assessment) => assessment.subjectId === subject.id);
+    const progress = getSubjectProgress({
+      userId: RUNTIME_USER_ID,
+      topicIds: topics.map((topic) => topic.id),
+      lessons: repository.lessons,
+      facts: state.facts,
+      checkpointAssessment,
+    });
+    return { subject, topics, progress };
+  });
+  const activeSubjectViews = subjectViews.filter(({ topics }) => topics.length > 0);
+  const firstIncompleteIndex = activeSubjectViews.findIndex(({ progress }) => !(progress.learningPercent === 100 && progress.checkpointPassed));
+  const pathNodes: LearningPathNode[] = activeSubjectViews
+    .map(({ progress, subject }, index) => ({
+      id: subject.id,
+      title: subject.title,
+      progressPercent: progress.learningPercent,
+      state: progress.learningPercent === 100 && progress.checkpointPassed ? 'completed' : index === firstIncompleteIndex ? 'current' : 'upcoming',
+    }));
+
   return (
     <Screen
       header={
@@ -37,18 +60,16 @@ export default function ExamScreen() {
         </Link>
       ) : null}
 
+      {pathNodes.length ? (
+        <Section>
+          <ThemedText type="subtitle">Din väg genom delprovet</ThemedText>
+          <LearningPath nodes={pathNodes} />
+        </Section>
+      ) : null}
+
       <Section>
         <ThemedText type="subtitle">Ämnen</ThemedText>
-        {subjects.map((subject) => {
-          const topics = repository.topics.filter((topic) => topic.subjectId === subject.id);
-          const checkpointAssessment = repository.assessments.find((assessment) => assessment.subjectId === subject.id);
-          const progress = getSubjectProgress({
-            userId: RUNTIME_USER_ID,
-            topicIds: topics.map((topic) => topic.id),
-            lessons: repository.lessons,
-            facts: state.facts,
-            checkpointAssessment,
-          });
+        {subjectViews.map(({ progress, subject, topics }) => {
           const disabled = topics.length === 0;
 
           const card = (

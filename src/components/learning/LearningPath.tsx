@@ -18,25 +18,29 @@ export function LearningPath({ nodes }: LearningPathProps) {
   return (
     <View style={styles.path}>
       {nodes.map((node, index) => {
-        const alignRight = index % 2 === 1;
+        const right = index % 2 === 1;
         return (
-          <View key={node.id} style={styles.nodeWrap}>
-            {index > 0 ? <View style={[styles.connector, alignRight ? styles.connectorRight : styles.connectorLeft]} /> : null}
-            <View style={[styles.nodeRow, alignRight && styles.nodeRowRight]}>
-              <View style={[styles.label, alignRight && styles.labelRight]}>
-                {node.state === 'current' ? (
+          <View key={node.id} style={[styles.step, right && styles.stepRight]}>
+            {index > 0 ? <Connector right={right} /> : null}
+            <View style={[styles.label, right ? styles.labelLeft : styles.labelRight]}>
+              <ThemedText type="smallBold">{node.title}</ThemedText>
+              <ThemedText type="small" themeColor="textSecondary">
+                {node.state === 'completed' ? 'Klar' : node.state === 'current' ? 'Pågår' : node.progressPercent ? `${node.progressPercent}% påbörjad` : 'Inte påbörjad'}
+              </ThemedText>
+            </View>
+            <View style={[styles.node, node.state === 'completed' && styles.completedNode, node.state === 'current' && styles.currentNode]}>
+              {node.state === 'current' ? (
+                <>
                   <View style={styles.currentMarker}>
                     <ThemedText type="smallBold" style={styles.currentMarkerText}>Fortsätt här</ThemedText>
                   </View>
-                ) : null}
-                <ThemedText type="smallBold">{node.title}</ThemedText>
-                <ThemedText type="small" themeColor="textSecondary">{node.progressPercent}% klart</ThemedText>
-              </View>
-              <View style={[styles.circle, node.state === 'completed' && styles.completed, node.state === 'current' && styles.current]}>
-                <ThemedText type="smallBold" style={[styles.circleText, node.state !== 'upcoming' && styles.circleTextActive]}>
-                  {node.state === 'completed' ? 'OK' : String(index + 1)}
+                  <ThemedText style={styles.currentPercent}>{node.progressPercent}%</ThemedText>
+                </>
+              ) : (
+                <ThemedText style={[styles.nodeText, node.state === 'completed' && styles.completedText]}>
+                  {node.state === 'completed' ? '✓' : node.title.slice(0, 1)}
                 </ThemedText>
-              </View>
+              )}
             </View>
           </View>
         );
@@ -45,79 +49,106 @@ export function LearningPath({ nodes }: LearningPathProps) {
   );
 }
 
+function Connector({ right }: { right: boolean }) {
+  return (
+    <View style={[styles.connector, right ? styles.connectorRight : styles.connectorLeft]}>
+      {Array.from({ length: 7 }).map((_, index) => (
+        <View key={index} style={[styles.dot, { top: index * 12, left: right ? index * 12 : 72 - index * 12 }]} />
+      ))}
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   path: {
-    gap: Spacing.four,
-    paddingVertical: Spacing.two,
+    paddingVertical: Spacing.five,
+    gap: Spacing.six,
+    minHeight: 720,
   },
-  nodeWrap: {
-    minHeight: 84,
-  },
-  connector: {
-    position: 'absolute',
-    top: -34,
-    width: '42%',
-    height: 58,
-    borderColor: Colors.light.borderStrong,
-    borderTopWidth: 2,
-  },
-  connectorLeft: {
-    left: '18%',
-    borderRightWidth: 2,
-    borderTopRightRadius: 36,
-  },
-  connectorRight: {
-    right: '18%',
-    borderLeftWidth: 2,
-    borderTopLeftRadius: 36,
-  },
-  nodeRow: {
-    flexDirection: 'row',
+  step: {
+    minHeight: 92,
+    justifyContent: 'center',
     alignItems: 'center',
-    justifyContent: 'flex-start',
-    gap: Spacing.three,
+    position: 'relative',
   },
-  nodeRowRight: {
-    flexDirection: 'row-reverse',
+  stepRight: {
+    alignItems: 'center',
   },
   label: {
-    maxWidth: '64%',
-    gap: Spacing.one,
+    position: 'absolute',
+    width: 132,
+    gap: 0,
   },
   labelRight: {
+    left: '58%',
+  },
+  labelLeft: {
+    right: '58%',
     alignItems: 'flex-end',
   },
-  circle: {
-    width: 62,
-    height: 62,
+  node: {
+    width: 58,
+    height: 58,
     borderRadius: Radii.pill,
+    backgroundColor: Colors.light.surface,
+    borderWidth: 1,
+    borderColor: Colors.light.border,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: Colors.light.surface,
-    borderWidth: 2,
-    borderColor: Colors.light.borderStrong,
   },
-  completed: {
+  completedNode: {
     backgroundColor: Colors.light.primary,
     borderColor: Colors.light.primary,
   },
-  current: {
-    backgroundColor: Colors.light.primarySoft,
-    borderColor: Colors.light.primary,
+  currentNode: {
+    width: 76,
+    height: 76,
+    backgroundColor: Colors.light.primary,
+    borderWidth: 6,
+    borderColor: Colors.light.primarySoft,
   },
-  circleText: {
-    color: Colors.light.textSecondary,
+  nodeText: {
+    color: Colors.light.ink,
+    fontWeight: 800,
+    fontSize: 18,
   },
-  circleTextActive: {
-    color: Colors.light.primaryStrong,
+  completedText: {
+    color: '#FFFFFF',
+    fontSize: 26,
+  },
+  currentPercent: {
+    color: '#FFFFFF',
+    fontWeight: 800,
+    fontSize: 18,
   },
   currentMarker: {
+    position: 'absolute',
+    top: -32,
     borderRadius: Radii.pill,
-    backgroundColor: Colors.light.primary,
-    paddingHorizontal: Spacing.three,
+    backgroundColor: Colors.light.ink,
+    paddingHorizontal: Spacing.two,
     paddingVertical: Spacing.one,
   },
   currentMarkerText: {
     color: '#FFFFFF',
+  },
+  connector: {
+    position: 'absolute',
+    top: -86,
+    width: 92,
+    height: 84,
+  },
+  connectorRight: {
+    transform: [{ rotate: '20deg' }],
+  },
+  connectorLeft: {
+    transform: [{ rotate: '-20deg' }],
+  },
+  dot: {
+    position: 'absolute',
+    width: 7,
+    height: 7,
+    borderRadius: 999,
+    backgroundColor: Colors.light.border,
   },
 });
