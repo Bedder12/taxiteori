@@ -198,6 +198,12 @@ import {
   testMobileFlowResultsAreDeterministic,
   testMobileFlowTopicProgressDerivation,
 } from './mobileLearningFlow.test';
+import {
+  testPluggaPathLocksD2UntilD1MockPassed,
+  testPluggaPathStartsAtFirstD1Subject,
+  testPluggaPathUnlocksD2MockAfterAllD2Subjects,
+  testPluggaPathUnlocksNextSubjectAfterCompletion,
+} from './pluggaPath.test';
 
 const tests = [
   ['blueprint allocation', testBlueprintAllocation],
@@ -359,6 +365,10 @@ const tests = [
   ['mobile flow question versions remain frozen', testMobileFlowQuestionVersionsRemainFrozen],
   ['mobile flow completed attempt cannot be altered', testMobileFlowCompletedAttemptCannotBeAltered],
   ['mobile flow results are deterministic', testMobileFlowResultsAreDeterministic],
+  ['Plugga path starts at first D1 subject', testPluggaPathStartsAtFirstD1Subject],
+  ['Plugga path unlocks next subject after completion', testPluggaPathUnlocksNextSubjectAfterCompletion],
+  ['Plugga path locks D2 until D1 mock passed', testPluggaPathLocksD2UntilD1MockPassed],
+  ['Plugga path unlocks D2 mock after all D2 subjects', testPluggaPathUnlocksD2MockAfterAllD2Subjects],
 ] as const;
 
 async function runAllTests() {

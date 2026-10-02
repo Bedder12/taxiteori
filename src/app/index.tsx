@@ -92,7 +92,7 @@ export default function HomeScreen() {
 
       <View style={styles.quickActions}>
         {publishedExams[0] ? (
-          <Link href={{ pathname: '/exam/[examId]', params: { examId: publishedExams[0].id } } as unknown as Href} asChild>
+          <Link href={'/plugga' as Href} asChild>
             <Pressable style={({ pressed }) => [styles.quickAction, pressed && styles.pressed]}>
               <MiniIllustration kind="book" />
               <ThemedText type="subtitle">Plugga</ThemedText>

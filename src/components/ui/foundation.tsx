@@ -67,7 +67,7 @@ type BottomNavProps = {
 
 const bottomItems: { key: BottomNavProps['active']; label: string; icon: string; href: Href }[] = [
   { key: 'home', label: 'Hem', icon: 'H', href: '/' as Href },
-  { key: 'study', label: 'Plugga', icon: 'P', href: '/' as Href },
+  { key: 'study', label: 'Plugga', icon: 'P', href: '/plugga' as Href },
   { key: 'exam', label: 'Prov', icon: 'Q', href: '/prov' as Href },
   { key: 'book', label: 'Boken', icon: 'B', href: '/teoribok' as Href },
   { key: 'profile', label: 'Profil', icon: 'M', href: '/profil' as Href },

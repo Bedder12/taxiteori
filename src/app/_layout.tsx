@@ -34,6 +34,7 @@ export default function TabLayout() {
           headerTitleStyle: { fontWeight: '700' },
         }}>
         <Stack.Screen name="index" options={{ title: 'Plugga' }} />
+        <Stack.Screen name="plugga" options={{ title: 'Plugga' }} />
         <Stack.Screen name="prov" options={{ title: 'Prov' }} />
         <Stack.Screen name="teoribok" options={{ title: 'Teoriboken' }} />
         <Stack.Screen name="profil" options={{ title: 'Profil' }} />
