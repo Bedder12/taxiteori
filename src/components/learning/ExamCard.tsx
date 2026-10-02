@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
+import { AppCard, ProgressBar } from '@/components/ui/foundation';
 import { Spacing } from '@/constants/theme';
 import type { Exam, Subject } from '../../../packages/domain/src';
 
@@ -11,12 +12,15 @@ type ExamCardProps = {
 };
 
 export function ExamCard({ completedSubjects, exam, subjects }: ExamCardProps) {
+  const progress = subjects.length ? Math.round((completedSubjects / subjects.length) * 100) : 0;
   return (
-    <View style={styles.card}>
-      <ThemedText type="subtitle">{exam.title}</ThemedText>
-      <ThemedText themeColor="textSecondary">
-        {completedSubjects}/{subjects.length} ämnen klara
-      </ThemedText>
+    <AppCard>
+      <View style={styles.heading}>
+        <ThemedText type="subtitle">{exam.title}</ThemedText>
+        <ThemedText type="smallBold" themeColor="primary">{completedSubjects}/{subjects.length}</ThemedText>
+      </View>
+      <ProgressBar value={progress} />
+      <ThemedText themeColor="textSecondary">{completedSubjects} av {subjects.length} ämnen klara</ThemedText>
       <View style={styles.preview}>
         {subjects.slice(0, 3).map((subject) => (
           <ThemedText key={subject.id} type="small" themeColor="textSecondary">
@@ -24,19 +28,18 @@ export function ExamCard({ completedSubjects, exam, subjects }: ExamCardProps) {
           </ThemedText>
         ))}
       </View>
-    </View>
+    </AppCard>
   );
 }
 
 const styles = StyleSheet.create({
-  card: {
-    backgroundColor: '#EEF3EA',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
-    gap: Spacing.two,
+  heading: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between',
+    gap: Spacing.three,
   },
   preview: {
-    gap: Spacing.three,
-    marginTop: Spacing.two,
+    gap: Spacing.one,
   },
 });

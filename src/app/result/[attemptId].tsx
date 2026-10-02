@@ -1,12 +1,13 @@
 import { Link, type Href, useLocalSearchParams } from 'expo-router';
-import { StyleSheet, View } from 'react-native';
 import { useEffect, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
 
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
 import { Screen } from '@/components/layout/Screen';
 import { AnswerReviewCard } from '@/components/quiz/AnswerReviewCard';
 import { ThemedText } from '@/components/themed-text';
-import { Spacing } from '@/constants/theme';
+import { AppCard, AppHeader, ProgressBar, Section, StatPill } from '@/components/ui/foundation';
+import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getAttemptReview, getRevisitRecommendations } from '@/features/quiz/selectors';
 import { getRuntimeState } from '@/lib/runtimeLearningState';
 import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
@@ -19,6 +20,7 @@ export default function ResultScreen() {
   const [repository, setRepository] = useState(getRuntimeMetadataRepository());
   const [loading, setLoading] = useState(Boolean(attempt));
   const [loadError, setLoadError] = useState<Error>();
+
   useEffect(() => {
     if (!subjectIds.length) return;
     void loadRuntimeRepository(subjectIds).then(setRepository).catch(setLoadError).finally(() => setLoading(false));
@@ -56,51 +58,66 @@ export default function ResultScreen() {
   return (
     <Screen
       header={
-        <>
-          <ThemedText type="small" themeColor="textSecondary">{isMock ? 'Internt realistiskt övningsprov' : 'Intern lärandecheckpoint'}</ThemedText>
-          <ThemedText type="title">{attempt.passed ? 'Godkänt' : 'Inte godkänt'}</ThemedText>
-          <ThemedText>
-            {correctCount}/{scoredReview.length} rätt · {percentage}% · krav {attempt.passingScore ?? `${Math.round(attempt.passThreshold * 100)}%`}
-          </ThemedText>
-          <ThemedText themeColor="textSecondary">
-            {isMock ? 'Detta är ett internt övningsprov med egna frågor, inte Trafikverkets prov eller frågebank.' : 'Detta är en intern övningscheckpoint, inte ett officiellt Trafikverket-prov.'}
-          </ThemedText>
-        </>
+        <AppHeader
+          eyebrow={isMock ? 'Internt realistiskt övningsprov' : 'Intern lärandecheckpoint'}
+          title={attempt.passed ? 'Godkänt' : 'Inte godkänt'}
+          description={isMock ? 'Detta är ett internt övningsprov med egna frågor, inte Trafikverkets prov eller frågebank.' : 'Detta är en intern övningscheckpoint, inte ett officiellt Trafikverket-prov.'}
+        />
       }>
-      <View style={styles.summary}>
-        <ThemedText type="subtitle">Resultat</ThemedText>
-        <ThemedText>Rätt svar: {correctCount} av {scoredReview.length}</ThemedText>
-        <ThemedText>Fel svar: {incorrect.length}</ThemedText>
-        {isMock && <ThemedText themeColor="textSecondary">Provet innehåller även 5 simulerade utprövningsfrågor som inte påverkar resultatet.</ThemedText>}
-        <ThemedText themeColor="textSecondary">Frågversionerna frystes när försöket startade.</ThemedText>
-      </View>
-
-      {isMock && (
-        <View style={styles.breakdown}>
-          <ThemedText type="subtitle">Ämnesfördelning</ThemedText>
-          {subjectBreakdown.map((subject) => <ThemedText key={subject.title}>{subject.title}: {subject.correct}/{subject.total}</ThemedText>)}
+      <AppCard>
+        <View style={styles.scoreTop}>
+          <View>
+            <ThemedText type="smallBold" themeColor="primary">Resultat</ThemedText>
+            <ThemedText style={styles.score}>{percentage}%</ThemedText>
+          </View>
+          <View style={[styles.resultBadge, attempt.passed ? styles.passBadge : styles.failBadge]}>
+            <ThemedText type="smallBold" style={styles.resultBadgeText}>{attempt.passed ? 'Klar' : 'Repetera'}</ThemedText>
+          </View>
         </View>
-      )}
+        <ProgressBar value={percentage} />
+        <View style={styles.stats}>
+          <StatPill label="Rätt" value={`${correctCount}/${scoredReview.length}`} tone={attempt.passed ? 'success' : 'default'} />
+          <StatPill label="Fel" value={String(incorrect.length)} tone={incorrect.length ? 'warning' : 'success'} />
+          <StatPill label="Krav" value={String(attempt.passingScore ?? `${Math.round(attempt.passThreshold * 100)}%`)} />
+        </View>
+        {isMock ? <ThemedText themeColor="textSecondary">Simulerade utprövningsfrågor påverkar inte resultatet.</ThemedText> : null}
+        <ThemedText themeColor="textSecondary">Frågversionerna frystes när försöket startade.</ThemedText>
+      </AppCard>
 
-      {revisitRecommendations.length > 0 && (
-        <View style={styles.breakdown}>
+      {isMock ? (
+        <Section>
+          <ThemedText type="subtitle">Ämnesfördelning</ThemedText>
+          {subjectBreakdown.map((subject) => (
+            <AppCard key={subject.title} muted style={styles.breakdownRow}>
+              <ThemedText>{subject.title}</ThemedText>
+              <ThemedText type="smallBold" themeColor="primary">{subject.correct}/{subject.total}</ThemedText>
+            </AppCard>
+          ))}
+        </Section>
+      ) : null}
+
+      {revisitRecommendations.length > 0 ? (
+        <Section>
           <ThemedText type="subtitle">Rekommenderad repetition</ThemedText>
           {revisitRecommendations.map((recommendation) => (
-            <ThemedText key={recommendation.lessonId}>
-              {recommendation.title}: {recommendation.revisitReason}
-            </ThemedText>
+            <AppCard key={recommendation.lessonId} muted>
+              <ThemedText>{recommendation.title}</ThemedText>
+              <ThemedText themeColor="textSecondary">{recommendation.revisitReason}</ThemedText>
+            </AppCard>
           ))}
-        </View>
-      )}
+        </Section>
+      ) : null}
 
-      <View style={styles.review}>
+      <Section>
         <ThemedText type="subtitle">Gå igenom misstag</ThemedText>
         {incorrect.length === 0 ? (
-          <ThemedText themeColor="textSecondary">Inga fel att repetera den här gången.</ThemedText>
+          <AppCard muted>
+            <ThemedText themeColor="textSecondary">Inga fel att repetera den här gången.</ThemedText>
+          </AppCard>
         ) : (
           incorrect.map((item) => <AnswerReviewCard key={item.attemptQuestion.id} item={item} />)
         )}
-      </View>
+      </Section>
 
       <Link href={resultDestination as unknown as Href} asChild>
         <PrimaryButton>{isMock ? 'Tillbaka till Prov' : assessment?.topicId ? 'Tillbaka till ämnet' : 'Tillbaka till delprovet'}</PrimaryButton>
@@ -110,19 +127,40 @@ export default function ResultScreen() {
 }
 
 const styles = StyleSheet.create({
-  summary: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
-    gap: Spacing.one,
+  scoreTop: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    gap: Spacing.three,
+    alignItems: 'flex-start',
   },
-  review: {
+  score: {
+    fontSize: 46,
+    lineHeight: 52,
+    fontWeight: 800,
+  },
+  resultBadge: {
+    borderRadius: Radii.pill,
+    paddingHorizontal: Spacing.three,
+    paddingVertical: Spacing.two,
+  },
+  passBadge: {
+    backgroundColor: Colors.light.primary,
+  },
+  failBadge: {
+    backgroundColor: Colors.light.danger,
+  },
+  resultBadgeText: {
+    color: '#FFFFFF',
+  },
+  stats: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
     gap: Spacing.two,
   },
-  breakdown: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
-    gap: Spacing.one,
+  breakdownRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    gap: Spacing.three,
   },
 });

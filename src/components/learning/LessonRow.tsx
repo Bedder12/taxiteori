@@ -1,7 +1,8 @@
 import { StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
-import { Spacing } from '@/constants/theme';
+import { AppCard } from '@/components/ui/foundation';
+import { Colors, Radii, Spacing } from '@/constants/theme';
 import type { Lesson } from '../../../packages/domain/src';
 
 type LessonRowProps = {
@@ -13,33 +14,52 @@ type LessonRowProps = {
 
 export function LessonRow({ completed, current, index, lesson }: LessonRowProps) {
   return (
-    <View style={styles.row}>
-      <View style={styles.marker}>
-        <ThemedText type="smallBold">{completed ? '✓' : current ? '→' : '○'}</ThemedText>
+    <AppCard style={[styles.row, current && styles.current]}>
+      <View style={[styles.marker, completed && styles.markerDone, current && styles.markerCurrent]}>
+        <ThemedText type="smallBold" style={completed || current ? styles.markerTextActive : styles.markerText}>
+          {completed ? 'OK' : current ? String(index + 1) : String(index + 1)}
+        </ThemedText>
       </View>
       <View style={styles.content}>
-        <ThemedText type="smallBold">Moment {index + 1}</ThemedText>
+        <ThemedText type="smallBold" themeColor="primary">Moment {index + 1}</ThemedText>
         <ThemedText style={styles.title}>{lesson.title}</ThemedText>
-        {lesson.estimatedStudyTimeMinutes !== undefined && (
+        {lesson.estimatedStudyTimeMinutes !== undefined ? (
           <ThemedText type="small" themeColor="textSecondary">{lesson.estimatedStudyTimeMinutes} min</ThemedText>
-        )}
+        ) : null}
       </View>
-    </View>
+    </AppCard>
   );
 }
 
 const styles = StyleSheet.create({
   row: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
-    gap: Spacing.two,
     flexDirection: 'row',
     alignItems: 'flex-start',
+    padding: Spacing.four,
+  },
+  current: {
+    borderColor: Colors.light.primary,
   },
   marker: {
-    width: 28,
+    width: 34,
+    height: 34,
+    borderRadius: Radii.pill,
     alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: Colors.light.surfaceMuted,
+    marginTop: Spacing.one,
+  },
+  markerCurrent: {
+    backgroundColor: Colors.light.primarySoft,
+  },
+  markerDone: {
+    backgroundColor: Colors.light.primary,
+  },
+  markerText: {
+    color: Colors.light.textSecondary,
+  },
+  markerTextActive: {
+    color: Colors.light.primaryStrong,
   },
   content: {
     flex: 1,

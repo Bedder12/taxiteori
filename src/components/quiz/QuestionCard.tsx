@@ -1,7 +1,8 @@
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
-import { Spacing } from '@/constants/theme';
+import { AppCard, ProgressBar } from '@/components/ui/foundation';
+import { Colors, Radii, Spacing } from '@/constants/theme';
 import type { AttemptQuestion, QuestionVersion } from '../../../packages/domain/src';
 
 type QuestionCardProps = {
@@ -13,60 +14,89 @@ type QuestionCardProps = {
 };
 
 export function QuestionCard({ attemptQuestion, onSelectChoice, question, selectedChoiceId, totalQuestions }: QuestionCardProps) {
+  const progress = totalQuestions ? (attemptQuestion.order / totalQuestions) * 100 : 0;
   return (
-    <View style={styles.card}>
-      <ThemedText type="smallBold">
-        Fråga {attemptQuestion.order}{totalQuestions ? ` av ${totalQuestions}` : ''} · {question.type}
-      </ThemedText>
-      <ThemedText>{question.prompt}</ThemedText>
+    <AppCard style={styles.card}>
+      {totalQuestions ? <ProgressBar value={progress} /> : null}
+      <View style={styles.questionMeta}>
+        <ThemedText type="smallBold" themeColor="primary">
+          Fråga {attemptQuestion.order}{totalQuestions ? ` av ${totalQuestions}` : ''}
+        </ThemedText>
+        <ThemedText type="small" themeColor="textSecondary">{question.difficulty}</ThemedText>
+      </View>
+      <ThemedText style={styles.prompt}>{question.prompt}</ThemedText>
       <View style={styles.choices}>
-        {question.choices.map((choice) => {
+        {question.choices.map((choice, index) => {
           const selected = selectedChoiceId === choice.id;
           return (
             <Pressable
               key={choice.id}
               onPress={() => onSelectChoice(choice.id)}
               style={({ pressed }) => [styles.choice, selected && styles.selected, pressed && styles.pressed]}>
-              <View style={styles.choiceContent}>
-                <ThemedText type="smallBold">{choice.id}</ThemedText>
-                <ThemedText style={styles.choiceText}>{choice.text}</ThemedText>
+              <View style={[styles.choiceBadge, selected && styles.choiceBadgeSelected]}>
+                <ThemedText type="smallBold" style={[styles.choiceBadgeText, selected && styles.choiceBadgeTextSelected]}>
+                  {String.fromCharCode(65 + index)}
+                </ThemedText>
               </View>
+              <ThemedText style={styles.choiceText}>{choice.text}</ThemedText>
             </Pressable>
           );
         })}
       </View>
-    </View>
+    </AppCard>
   );
 }
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#EEF3EA',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
+    gap: Spacing.four,
+  },
+  questionMeta: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     gap: Spacing.three,
   },
+  prompt: {
+    fontSize: 20,
+    lineHeight: 29,
+    fontWeight: 700,
+  },
   choices: {
-    gap: Spacing.two,
+    gap: Spacing.three,
   },
   choice: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
+    backgroundColor: Colors.light.surface,
+    borderRadius: Radii.medium,
+    padding: Spacing.four,
     borderWidth: 1,
-    borderColor: '#D7E1D2',
-  },
-  choiceContent: {
+    borderColor: Colors.light.border,
     flexDirection: 'row',
-    gap: Spacing.two,
+    gap: Spacing.three,
     alignItems: 'flex-start',
+  },
+  choiceBadge: {
+    width: 32,
+    height: 32,
+    borderRadius: Radii.pill,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: Colors.light.surfaceMuted,
+  },
+  choiceBadgeSelected: {
+    backgroundColor: Colors.light.primary,
+  },
+  choiceBadgeText: {
+    color: Colors.light.textSecondary,
+  },
+  choiceBadgeTextSelected: {
+    color: '#FFFFFF',
   },
   choiceText: {
     flex: 1,
   },
   selected: {
-    borderColor: '#176B49',
-    backgroundColor: '#DDE8D8',
+    borderColor: Colors.light.primary,
+    backgroundColor: Colors.light.primarySoft,
   },
   pressed: {
     opacity: 0.72,

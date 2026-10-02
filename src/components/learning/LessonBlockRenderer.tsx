@@ -1,7 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
-import { Spacing } from '@/constants/theme';
+import { Colors, Radii, Spacing } from '@/constants/theme';
 import type { ContentBlock } from '../../../packages/domain/src';
 
 type LessonBlockRendererProps = {
@@ -22,7 +22,7 @@ export function LessonBlockRenderer({ block }: LessonBlockRendererProps) {
       <View style={styles.list}>
         {block.items.map((item) => (
           <View key={item} style={styles.bulletRow}>
-            <ThemedText type="smallBold">•</ThemedText>
+            <View style={styles.bullet} />
             <ThemedText style={styles.bulletText}>{item}</ThemedText>
           </View>
         ))}
@@ -34,7 +34,7 @@ export function LessonBlockRenderer({ block }: LessonBlockRendererProps) {
     const label = block.type === 'info' ? 'Kom ihåg' : block.type === 'warning' ? 'Viktigt' : block.type === 'example' ? 'Exempel' : 'Testa dig själv';
     return (
       <View style={[styles.callout, block.type === 'warning' && styles.warning, block.type === 'checkpoint' && styles.checkpoint]}>
-        <ThemedText type="smallBold">{label}</ThemedText>
+        <ThemedText type="smallBold" themeColor={block.type === 'warning' ? 'warning' : 'primary'}>{label}</ThemedText>
         <ThemedText>{block.text}</ThemedText>
       </View>
     );
@@ -43,11 +43,11 @@ export function LessonBlockRenderer({ block }: LessonBlockRendererProps) {
   if (block.type === 'worked_example') {
     return (
       <View style={styles.workedExample}>
-        <ThemedText type="smallBold">{block.title}</ThemedText>
+        <ThemedText type="smallBold" themeColor="primary">{block.title}</ThemedText>
         <View style={styles.timeline}>
           {block.timeline.map((item) => (
             <View key={item} style={styles.bulletRow}>
-              <ThemedText type="smallBold">•</ThemedText>
+              <View style={styles.bullet} />
               <ThemedText style={styles.bulletText} themeColor="textSecondary">{item}</ThemedText>
             </View>
           ))}
@@ -77,36 +77,43 @@ const styles = StyleSheet.create({
     gap: Spacing.two,
     alignItems: 'flex-start',
   },
+  bullet: {
+    width: 7,
+    height: 7,
+    borderRadius: Radii.pill,
+    backgroundColor: Colors.light.primary,
+    marginTop: 9,
+  },
   bulletText: {
     flex: 1,
   },
   callout: {
-    backgroundColor: '#EEF3EA',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
-    gap: Spacing.one,
+    backgroundColor: Colors.light.primarySoft,
+    borderRadius: Radii.large,
+    padding: Spacing.four,
+    gap: Spacing.two,
   },
   warning: {
-    backgroundColor: '#FFF0D8',
+    backgroundColor: '#FFF2DF',
   },
   checkpoint: {
-    backgroundColor: '#EAF3FF',
+    backgroundColor: Colors.light.surfaceMuted,
   },
   workedExample: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: Spacing.two,
-    padding: Spacing.three,
-    gap: Spacing.two,
+    backgroundColor: Colors.light.surface,
+    borderRadius: Radii.large,
+    padding: Spacing.four,
+    gap: Spacing.three,
     borderWidth: 1,
-    borderColor: '#DDE6D8',
+    borderColor: Colors.light.border,
   },
   timeline: {
-    gap: Spacing.one,
+    gap: Spacing.two,
   },
   answer: {
-    backgroundColor: '#EEF3EA',
-    borderRadius: Spacing.two,
-    padding: Spacing.two,
+    backgroundColor: Colors.light.primarySoft,
+    borderRadius: Radii.medium,
+    padding: Spacing.three,
     gap: Spacing.one,
   },
 });
