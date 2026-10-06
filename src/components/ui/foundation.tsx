@@ -1,6 +1,6 @@
 import { Link, type Href, usePathname } from 'expo-router';
-import type { PropsWithChildren } from 'react';
-import { Pressable, StyleSheet, View, type DimensionValue, type StyleProp, type ViewStyle } from 'react-native';
+import type { PropsWithChildren, ReactNode } from 'react';
+import { Pressable, StyleSheet, TextInput, View, type DimensionValue, type StyleProp, type ViewStyle } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { Colors, Radii, Shadows, Spacing } from '@/constants/theme';
@@ -19,13 +19,19 @@ type AppHeaderProps = {
   title: string;
   description?: string;
   meta?: string;
+  right?: ReactNode;
 };
 
-export function AppHeader({ description, eyebrow, meta, title }: AppHeaderProps) {
+export function AppHeader({ description, eyebrow, meta, right, title }: AppHeaderProps) {
   return (
     <View style={styles.header}>
-      {eyebrow ? <ThemedText type="smallBold" themeColor="primary">{eyebrow}</ThemedText> : null}
-      <ThemedText type="title">{title}</ThemedText>
+      <View style={styles.headerTop}>
+        <View style={styles.headerCopy}>
+          {eyebrow ? <ThemedText type="smallBold" themeColor="textSecondary">{eyebrow}</ThemedText> : null}
+          <ThemedText type="title" style={styles.headerTitle}>{title}</ThemedText>
+        </View>
+        {right ? <View style={styles.headerRight}>{right}</View> : null}
+      </View>
       {description ? <ThemedText themeColor="textSecondary">{description}</ThemedText> : null}
       {meta ? <ThemedText type="small" themeColor="textSecondary">{meta}</ThemedText> : null}
     </View>
@@ -61,6 +67,62 @@ export function StatPill({ label, tone = 'default', value }: StatPillProps) {
   );
 }
 
+type StatusBadgeProps = {
+  label: string;
+  tone?: 'primary' | 'neutral' | 'danger';
+};
+
+export function StatusBadge({ label, tone = 'primary' }: StatusBadgeProps) {
+  return (
+    <View style={[styles.statusBadge, tone === 'neutral' && styles.statusBadgeNeutral, tone === 'danger' && styles.statusBadgeDanger]}>
+      <ThemedText type="smallBold" style={[styles.statusBadgeText, tone === 'neutral' && styles.statusBadgeTextNeutral, tone === 'danger' && styles.statusBadgeTextDanger]}>
+        {label}
+      </ThemedText>
+    </View>
+  );
+}
+
+type SearchFieldProps = {
+  placeholder?: string;
+  value?: string;
+  onChangeText?: (value: string) => void;
+};
+
+export function SearchField({ onChangeText, placeholder = 'Sök', value }: SearchFieldProps) {
+  return (
+    <View style={styles.searchField}>
+      <View style={styles.searchIcon} />
+      <TextInput
+        allowFontScaling={false}
+        placeholder={placeholder}
+        placeholderTextColor={palette.textSecondary}
+        value={value}
+        onChangeText={onChangeText}
+        style={styles.searchInput}
+      />
+    </View>
+  );
+}
+
+type IconButtonProps = PropsWithChildren<{
+  onPress?: () => void;
+  accessibilityLabel: string;
+  tone?: 'light' | 'dark';
+  style?: StyleProp<ViewStyle>;
+}>;
+
+export function IconButton({ accessibilityLabel, children, onPress, style, tone = 'light' }: IconButtonProps) {
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={accessibilityLabel}
+      onPress={onPress}
+      style={({ pressed }) => [styles.iconButton, tone === 'dark' && styles.iconButtonDark, pressed && styles.pressed, style]}>
+      {children}
+    </Pressable>
+  );
+}
+
 type BottomNavProps = {
   active: 'home' | 'study' | 'exam' | 'book' | 'profile';
 };
@@ -69,7 +131,7 @@ const bottomItems: { key: BottomNavProps['active']; label: string; icon: string;
   { key: 'home', label: 'Hem', icon: 'H', href: '/' as Href },
   { key: 'study', label: 'Plugga', icon: 'P', href: '/plugga' as Href },
   { key: 'exam', label: 'Prov', icon: 'Q', href: '/prov' as Href },
-  { key: 'book', label: 'Boken', icon: 'B', href: '/teoribok' as Href },
+  { key: 'book', label: 'Teoribok', icon: 'B', href: '/teoribok' as Href },
   { key: 'profile', label: 'Profil', icon: 'M', href: '/profil' as Href },
 ];
 
@@ -84,7 +146,7 @@ export function BottomNav({ active }: BottomNavProps) {
             <Link key={item.key} href={item.href} asChild>
               <Pressable style={({ pressed }) => [styles.navItem, selected && styles.navItemActive, pressed && styles.pressed]}>
                 <NavGlyph name={item.key} active={selected} />
-                <ThemedText type="smallBold" style={selected && styles.navTextActive}>{item.label}</ThemedText>
+                <ThemedText type="smallBold" style={[styles.navText, selected && styles.navTextActive]}>{item.label}</ThemedText>
               </Pressable>
             </Link>
           );
@@ -122,7 +184,7 @@ const palette = Colors.light;
 const styles = StyleSheet.create({
   card: {
     backgroundColor: palette.surface,
-    borderRadius: Radii.large,
+    borderRadius: 24,
     padding: Spacing.four,
     gap: Spacing.three,
     borderWidth: 1,
@@ -133,9 +195,25 @@ const styles = StyleSheet.create({
     backgroundColor: palette.surfaceMuted,
   },
   header: {
-    gap: Spacing.two,
-    paddingTop: Spacing.two,
+    gap: Spacing.one,
+    paddingTop: Spacing.one,
     paddingBottom: Spacing.three,
+  },
+  headerTop: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between',
+    gap: Spacing.three,
+  },
+  headerCopy: {
+    flex: 1,
+    gap: Spacing.half,
+  },
+  headerTitle: {
+    fontWeight: 800,
+  },
+  headerRight: {
+    paddingTop: Spacing.one,
   },
   progressTrack: {
     height: 8,
@@ -168,8 +246,71 @@ const styles = StyleSheet.create({
   warningPill: {
     backgroundColor: '#FFF2DF',
   },
+  statusBadge: {
+    alignSelf: 'flex-start',
+    borderRadius: Radii.pill,
+    paddingHorizontal: Spacing.three,
+    paddingVertical: Spacing.one,
+    backgroundColor: palette.primarySoft,
+  },
+  statusBadgeNeutral: {
+    backgroundColor: palette.surfaceMuted,
+  },
+  statusBadgeDanger: {
+    backgroundColor: '#FDE7E2',
+  },
+  statusBadgeText: {
+    color: palette.primaryStrong,
+  },
+  statusBadgeTextNeutral: {
+    color: palette.textSecondary,
+  },
+  statusBadgeTextDanger: {
+    color: palette.danger,
+  },
+  searchField: {
+    minHeight: 54,
+    borderRadius: Radii.pill,
+    backgroundColor: palette.surface,
+    borderWidth: 1,
+    borderColor: palette.border,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: Spacing.four,
+    gap: Spacing.three,
+  },
+  searchIcon: {
+    width: 15,
+    height: 15,
+    borderRadius: Radii.pill,
+    borderWidth: 1.6,
+    borderColor: palette.textSecondary,
+  },
+  searchInput: {
+    flex: 1,
+    color: palette.text,
+    fontSize: 16,
+    fontWeight: '500',
+    paddingVertical: 0,
+  },
+  iconButton: {
+    width: 46,
+    height: 46,
+    borderRadius: Radii.pill,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: palette.surface,
+    borderWidth: 1,
+    borderColor: palette.border,
+  },
+  iconButtonDark: {
+    backgroundColor: '#24262B',
+    borderColor: '#3A3D45',
+  },
   bottomNavWrap: {
     paddingTop: Spacing.four,
+    width: '100%',
+    alignItems: 'center',
   },
   bottomNav: {
     backgroundColor: palette.surface,
@@ -179,12 +320,15 @@ const styles = StyleSheet.create({
     padding: 6,
     flexDirection: 'row',
     gap: 2,
+    width: '100%',
+    maxWidth: 328,
+    alignSelf: 'center',
     ...Shadows.floating,
   },
   navItem: {
     flex: 1,
-    minHeight: 52,
-    borderRadius: 20,
+    minHeight: 44,
+    borderRadius: 18,
     alignItems: 'center',
     justifyContent: 'center',
     gap: Spacing.half,
@@ -194,6 +338,10 @@ const styles = StyleSheet.create({
   },
   navTextActive: {
     color: palette.primaryStrong,
+  },
+  navText: {
+    fontSize: 10,
+    lineHeight: 12,
   },
   pressed: {
     opacity: 0.72,

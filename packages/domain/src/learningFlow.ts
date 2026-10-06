@@ -57,7 +57,7 @@ export type SequentialPluggaStep =
       completedLessons: number;
       totalLessons: number;
       questionCount?: number;
-      href: { pathname: '/subject/[subjectId]'; params: { subjectId: string } };
+      href: { pathname: '/module/[subjectId]'; params: { subjectId: string } };
       lockedReason?: string;
       activeLabel?: string;
     }
@@ -155,7 +155,7 @@ export function buildSequentialPluggaPath(input: {
         completedLessons: progress.completedLessons,
         totalLessons: progress.totalLessons,
         questionCount: assessment?.questionCount ?? (topicAssessments.length ? topicAssessments.reduce((sum, candidate) => sum + candidate.questionCount, 0) : undefined),
-        href: { pathname: '/subject/[subjectId]', params: { subjectId: subject.id } },
+        href: { pathname: '/module/[subjectId]', params: { subjectId: subject.id } },
         lockedReason: previousCompleted ? undefined : 'Slutför föregående steg först.',
       };
       step.activeLabel = status === 'checkpoint_ready' ? 'Frågor kvar' : ['not_started', 'in_progress', 'lessons_done'].includes(status) ? 'Fortsätt här' : undefined;

@@ -2,7 +2,6 @@ import { DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 
-import { AnimatedSplashOverlay } from '@/components/animated-icon';
 import { Colors } from '@/constants/theme';
 import { hydrateRuntimeState } from '@/lib/runtimeLearningState';
 
@@ -11,6 +10,7 @@ SplashScreen.preventAutoHideAsync();
 export default function TabLayout() {
   useEffect(() => {
     void hydrateRuntimeState();
+    void SplashScreen.hideAsync();
   }, []);
 
   const appTheme = {
@@ -27,9 +27,9 @@ export default function TabLayout() {
 
   return (
     <ThemeProvider value={appTheme}>
-      <AnimatedSplashOverlay />
       <Stack
         screenOptions={{
+          headerShown: false,
           headerShadowVisible: false,
           headerTitleStyle: { fontWeight: '700' },
         }}>
@@ -39,6 +39,7 @@ export default function TabLayout() {
         <Stack.Screen name="teoribok" options={{ title: 'Teoriboken' }} />
         <Stack.Screen name="profil" options={{ title: 'Profil' }} />
         <Stack.Screen name="exam/[examId]" options={{ title: 'Delprov' }} />
+        <Stack.Screen name="module/[subjectId]" options={{ title: 'Modul' }} />
         <Stack.Screen name="subject/[subjectId]" options={{ title: 'Ämne' }} />
         <Stack.Screen name="lesson/[lessonId]" options={{ title: 'Lektion' }} />
         <Stack.Screen name="quiz/[assessmentId]" options={{ title: 'Checkpoint' }} />

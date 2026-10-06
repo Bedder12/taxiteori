@@ -1,15 +1,17 @@
 import { Link, type Href, useFocusEffect } from 'expo-router';
-import { useCallback, useState } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
+import { useCallback, useMemo, useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 import { Screen } from '@/components/layout/Screen';
-import { ExamCard } from '@/components/learning/ExamCard';
 import { ThemedText } from '@/components/themed-text';
-import { AppCard, AppHeader, BottomNav, ProgressBar, Section, StatPill } from '@/components/ui/foundation';
-import { Colors, Radii, Spacing } from '@/constants/theme';
+import { BottomNav, ProgressBar } from '@/components/ui/foundation';
+import { LearningIllustration } from '@/components/ui/LearningIllustration';
+import { Colors, Radii, Shadows, Spacing } from '@/constants/theme';
 import { RUNTIME_USER_ID, getRuntimeState } from '@/lib/runtimeLearningState';
 import { getSubjectProgress } from '../../packages/domain/src';
 import { getRuntimeMetadataRepository } from '../../packages/domain/src/runtimeRepository';
+
+const recommendationIllustrations = ['map', 'wheel', 'road', 'safety', 'car', 'person', 'book', 'exam'] as const;
 
 export default function HomeScreen() {
   const [snapshot, setSnapshot] = useState(() => ({ repository: getRuntimeMetadataRepository(), state: getRuntimeState() }));
@@ -49,160 +51,253 @@ export default function HomeScreen() {
     })
     .filter((item) => item.topic && item.subject && !item.completed)
     .sort((left, right) => {
+      const examOrder = examOrderForSubject(repository, left.subject?.id) - examOrderForSubject(repository, right.subject?.id);
+      if (examOrder !== 0) return examOrder;
       const subjectOrder = (left.subject?.order ?? 0) - (right.subject?.order ?? 0);
       if (subjectOrder !== 0) return subjectOrder;
       const topicOrder = (left.topic?.order ?? 0) - (right.topic?.order ?? 0);
       if (topicOrder !== 0) return topicOrder;
       return left.lesson.order - right.lesson.order;
     })[0];
-  const continuePercent = examProgress[0]?.percent ?? 0;
+
+  const continuePercent = useMemo(() => {
+    if (!currentLesson?.subject) return examProgress[0]?.percent ?? 0;
+    const topics = repository.topics.filter((topic) => topic.subjectId === currentLesson.subject?.id);
+    const checkpointAssessment = repository.assessments.find((assessment) => assessment.subjectId === currentLesson.subject?.id);
+    return getSubjectProgress({
+      userId: RUNTIME_USER_ID,
+      topicIds: topics.map((topic) => topic.id),
+      lessons: repository.lessons,
+      facts: state.facts,
+      checkpointAssessment,
+    }).learningPercent;
+  }, [currentLesson?.subject?.id, examProgress, repository, state.facts]);
+
+  const recommendedTopics = repository.topics
+    .slice()
+    .sort((left, right) => left.order - right.order)
+    .slice(0, 8);
 
   return (
-    <Screen
-      header={
-        <AppHeader
-          eyebrow="Fredag 2 oktober"
-          title="Hej igen"
-          description="Fortsätt där du slutade och välj nästa steg när du är redo."
-        />
-      }>
+    <Screen>
+      <View style={styles.homeHeader}>
+        <View style={styles.headerCopy}>
+          <ThemedText type="small" style={styles.dateText}>{formatSwedishDate(new Date())}</ThemedText>
+          <ThemedText style={styles.greeting}>{greetingForHour(new Date().getHours())}, {displayNameFromUserId(RUNTIME_USER_ID)}</ThemedText>
+        </View>
+        <Pressable accessibilityRole="button" accessibilityLabel="Öppna notiser" style={({ pressed }) => [styles.notificationButton, pressed && styles.pressed]}>
+          <NotificationBell />
+        </Pressable>
+      </View>
+
       {currentLesson ? (
         <Link href={{ pathname: '/lesson/[lessonId]', params: { lessonId: currentLesson.lesson.id } } as unknown as Href} asChild>
           <Pressable style={({ pressed }) => [styles.continueHero, pressed && styles.pressed]}>
             <View style={styles.continueTop}>
               <View style={styles.continueCopy}>
                 <ThemedText type="smallBold" style={styles.continueEyebrow}>Fortsätt plugga</ThemedText>
-                <ThemedText type="subtitle" style={styles.continueTitle}>{currentLesson.subject?.title}</ThemedText>
-                <ThemedText style={styles.continueMeta}>{currentLesson.lesson.title}</ThemedText>
+                <ThemedText style={styles.continueTitle}>{currentLesson.subject?.title}</ThemedText>
+                <ThemedText style={styles.continueMeta} numberOfLines={1}>{currentLesson.lesson.title}</ThemedText>
               </View>
               <ThemedText style={styles.continuePercent}>{continuePercent}%</ThemedText>
             </View>
             <ProgressBar value={continuePercent} tone="light" />
             <View style={styles.continueButton}>
               <ThemedText type="smallBold" style={styles.continueButtonText}>Fortsätt</ThemedText>
+              <ThemedText style={styles.arrowText}>→</ThemedText>
             </View>
           </Pressable>
         </Link>
       ) : (
-        <AppCard muted style={styles.heroStats}>
-          <StatPill label="Delprov" value={String(publishedExams.length)} />
-          <StatPill label="Ämnen" value={`${examProgress.reduce((sum, item) => sum + item.completedSubjects, 0)}/${examProgress.reduce((sum, item) => sum + item.subjects.length, 0)}`} />
-        </AppCard>
+        <View style={styles.continueHero}>
+          <View style={styles.continueTop}>
+            <View style={styles.continueCopy}>
+              <ThemedText type="smallBold" style={styles.continueEyebrow}>Allt klart just nu</ThemedText>
+              <ThemedText style={styles.continueTitle}>Bra jobbat</ThemedText>
+              <ThemedText style={styles.continueMeta}>Gå vidare till repetition eller prov.</ThemedText>
+            </View>
+            <ThemedText style={styles.continuePercent}>100%</ThemedText>
+          </View>
+          <ProgressBar value={100} tone="light" />
+        </View>
       )}
 
       <View style={styles.quickActions}>
-        {publishedExams[0] ? (
-          <Link href={'/plugga' as Href} asChild>
-            <Pressable style={({ pressed }) => [styles.quickAction, pressed && styles.pressed]}>
-              <MiniIllustration kind="book" />
-              <ThemedText type="subtitle">Plugga</ThemedText>
-              <ThemedText themeColor="textSecondary">Lärostig</ThemedText>
-            </Pressable>
-          </Link>
-        ) : null}
+        <Link href={'/plugga' as Href} asChild>
+          <Pressable style={({ pressed }) => [styles.quickAction, pressed && styles.pressed]}>
+            <LearningIllustration kind="book" />
+            <View>
+              <ThemedText style={styles.quickTitle}>Plugga</ThemedText>
+              <ThemedText type="small" themeColor="textSecondary">Lärostig</ThemedText>
+            </View>
+          </Pressable>
+        </Link>
         <Link href={'/prov' as Href} asChild>
           <Pressable style={({ pressed }) => [styles.quickAction, pressed && styles.pressed]}>
-            <MiniIllustration kind="exam" />
-            <ThemedText type="subtitle">Prov</ThemedText>
-            <ThemedText themeColor="textSecondary">Testa dig</ThemedText>
+            <LearningIllustration kind="exam" />
+            <View>
+              <ThemedText style={styles.quickTitle}>Prov</ThemedText>
+              <ThemedText type="small" themeColor="textSecondary">Testa dig</ThemedText>
+            </View>
           </Pressable>
         </Link>
       </View>
 
-      <Section>
-        <ThemedText type="subtitle">Din progress</ThemedText>
-        <AppCard>
-          {examProgress.map(({ completedSubjects, exam, percent, subjects }) => (
+      <View style={styles.section}>
+        <ThemedText style={styles.sectionTitle}>Din progress</ThemedText>
+        <View style={styles.progressCard}>
+          {examProgress.map(({ exam, percent }, index) => (
             <View key={exam.id} style={styles.progressRow}>
               <ProgressRing value={percent} />
               <View style={styles.progressCopy}>
-                <ThemedText type="smallBold">{exam.title}</ThemedText>
-                <ThemedText type="small" themeColor="textSecondary">{completedSubjects} av {subjects.length} ämnen klara</ThemedText>
+                <ThemedText style={styles.progressTitle}>{exam.code === 'D1' ? 'Delprov 1' : 'Delprov 2'}</ThemedText>
+                <ThemedText type="small" themeColor="textSecondary">{exam.code === 'D1' ? 'Säkerhet och beteende' : 'Lagstiftning'}</ThemedText>
               </View>
+              {index < examProgress.length - 1 ? <View style={styles.progressSpacer} /> : null}
             </View>
           ))}
-        </AppCard>
-      </Section>
+        </View>
+      </View>
 
-      <Section>
+      <View style={styles.section}>
         <View style={styles.sectionHeading}>
-          <ThemedText type="subtitle">Rekommenderat för dig</ThemedText>
+          <ThemedText style={styles.sectionTitle}>Rekommenderat för dig</ThemedText>
           <Link href={'/teoribok' as Href} asChild>
             <Pressable><ThemedText type="smallBold" themeColor="primary">Visa alla</ThemedText></Pressable>
           </Link>
         </View>
-        <View style={styles.recommendations}>
-          {repository.topics.slice(0, 2).map((topic, index) => (
+        <ScrollView horizontal showsHorizontalScrollIndicator contentContainerStyle={styles.recommendationScroll}>
+          {recommendedTopics.map((topic, index) => (
             <Link key={topic.id} href={{ pathname: '/topic/[topicId]', params: { topicId: topic.id } } as unknown as Href} asChild>
               <Pressable style={({ pressed }) => [styles.recommendationCard, pressed && styles.pressed]}>
-                <MiniIllustration kind={index === 0 ? 'map' : 'wheel'} />
-                <ThemedText type="smallBold">{topic.title}</ThemedText>
-                <ThemedText type="small" themeColor="textSecondary">Öppna kapitlet i teoriboken.</ThemedText>
+                <LearningIllustration kind={recommendationIllustrations[index % recommendationIllustrations.length]} />
+                <ThemedText style={styles.recommendationTitle} numberOfLines={1}>{topic.title}</ThemedText>
+                <ThemedText type="small" themeColor="textSecondary" numberOfLines={2}>{recommendationSubtitle(repository, topic.subjectId)}</ThemedText>
               </Pressable>
             </Link>
           ))}
-        </View>
-      </Section>
+        </ScrollView>
+      </View>
 
       <BottomNav active="home" />
     </Screen>
   );
 }
 
+function examOrderForSubject(repository: ReturnType<typeof getRuntimeMetadataRepository>, subjectId?: string) {
+  const subject = repository.subjects.find((candidate) => candidate.id === subjectId);
+  const exam = subject ? repository.exams.find((candidate) => candidate.id === subject.examId) : undefined;
+  return exam?.order ?? 0;
+}
+
+function displayNameFromUserId(userId: string) {
+  if (userId === 'local-demo-user') return 'Bedder';
+  const readable = userId.split('@')[0]?.split('-')[0];
+  return readable ? readable.charAt(0).toUpperCase() + readable.slice(1) : 'förare';
+}
+
+function greetingForHour(hour: number) {
+  if (hour < 10) return 'God morgon';
+  if (hour < 17) return 'Hej igen';
+  return 'God kväll';
+}
+
+function formatSwedishDate(date: Date) {
+  const formatted = date.toLocaleDateString('sv-SE', { weekday: 'long', day: 'numeric', month: 'long' });
+  return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+}
+
+function recommendationSubtitle(repository: ReturnType<typeof getRuntimeMetadataRepository>, subjectId: string) {
+  const subject = repository.subjects.find((candidate) => candidate.id === subjectId);
+  if (!subject) return 'Fortsätt med nästa moment i teorin.';
+  if (subject.title === 'Navigering') return 'Kartläsning, GPS och att hitta rätt i staden.';
+  if (subject.title === 'Körekonomi') return 'Bränsle, slitage och ekonomisk körning.';
+  return subject.title;
+}
+
+function NotificationBell() {
+  return (
+    <View style={styles.bell}>
+      <View style={styles.bellDome} />
+      <View style={styles.bellClapper} />
+    </View>
+  );
+}
+
 function ProgressRing({ value }: { value: number }) {
-  const rotation = `${Math.max(0, Math.min(100, value)) * 3.6}deg`;
+  const clamped = Math.max(0, Math.min(100, value));
+  const rotation = `${clamped * 3.6}deg`;
   return (
     <View style={styles.ringOuter}>
       <View style={[styles.ringFill, { transform: [{ rotate: rotation }] }]} />
       <View style={styles.ringInner}>
-        <ThemedText type="smallBold">{value}%</ThemedText>
+        <ThemedText type="smallBold" style={styles.ringText}>{clamped}%</ThemedText>
       </View>
     </View>
   );
 }
 
-function MiniIllustration({ kind }: { kind: 'book' | 'exam' | 'map' | 'wheel' }) {
-  return (
-    <View style={styles.illustrationTile}>
-      {kind === 'book' || kind === 'map' ? (
-        <>
-          <View style={kind === 'map' ? styles.mapFold : styles.bookPage} />
-          <View style={kind === 'map' ? styles.mapRoute : styles.bookCover} />
-        </>
-      ) : null}
-      {kind === 'exam' ? (
-        <>
-          <View style={styles.clip} />
-          <View style={styles.examSheet}>
-            <View style={styles.examLine} />
-            <View style={styles.examLine} />
-            <View style={styles.examLine} />
-          </View>
-        </>
-      ) : null}
-      {kind === 'wheel' ? (
-        <View style={styles.wheel}>
-          <View style={styles.wheelHub} />
-          <View style={[styles.wheelSpoke, styles.wheelSpokeOne]} />
-          <View style={[styles.wheelSpoke, styles.wheelSpokeTwo]} />
-          <View style={[styles.wheelSpoke, styles.wheelSpokeThree]} />
-        </View>
-      ) : null}
-    </View>
-  );
-}
-
 const styles = StyleSheet.create({
-  heroStats: {
+  homeHeader: {
     flexDirection: 'row',
-    padding: Spacing.three,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: Spacing.three,
+  },
+  headerCopy: {
+    flex: 1,
+  },
+  dateText: {
+    color: Colors.light.textSecondary,
+    fontSize: 12,
+    lineHeight: 18,
+  },
+  greeting: {
+    color: Colors.light.text,
+    fontSize: 23,
+    lineHeight: 28,
+    fontWeight: 800,
+  },
+  notificationButton: {
+    width: 42,
+    height: 42,
+    borderRadius: Radii.pill,
+    backgroundColor: Colors.light.surface,
+    borderWidth: 1,
+    borderColor: Colors.light.border,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  bell: {
+    width: 20,
+    height: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  bellDome: {
+    width: 11,
+    height: 12,
+    borderWidth: 1.6,
+    borderColor: Colors.light.ink,
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    borderBottomWidth: 1.6,
+  },
+  bellClapper: {
+    width: 5,
+    height: 2,
+    borderRadius: Radii.pill,
+    backgroundColor: Colors.light.ink,
+    marginTop: 1,
   },
   continueHero: {
-    backgroundColor: Colors.light.ink,
-    borderRadius: Radii.large,
-    padding: Spacing.five,
-    gap: Spacing.four,
-    minHeight: 152,
+    backgroundColor: '#102018',
+    borderRadius: 20,
+    paddingHorizontal: Spacing.four,
+    paddingVertical: Spacing.three,
+    gap: Spacing.three,
+    minHeight: 146,
+    justifyContent: 'space-between',
   },
   continueTop: {
     flexDirection: 'row',
@@ -211,21 +306,28 @@ const styles = StyleSheet.create({
   },
   continueCopy: {
     flex: 1,
-    gap: Spacing.one,
+    gap: 2,
   },
   continueEyebrow: {
-    color: '#89A092',
+    color: '#B7C7BC',
+    fontSize: 11,
+    lineHeight: 16,
   },
   continueTitle: {
     color: '#FFFFFF',
+    fontSize: 18,
+    lineHeight: 23,
+    fontWeight: 800,
   },
   continueMeta: {
-    color: '#9FB1A6',
+    color: '#B7C7BC',
+    fontSize: 14,
+    lineHeight: 20,
   },
   continuePercent: {
     color: '#FFFFFF',
-    fontSize: 24,
-    lineHeight: 28,
+    fontSize: 25,
+    lineHeight: 29,
     fontWeight: 800,
   },
   continueButton: {
@@ -233,116 +335,65 @@ const styles = StyleSheet.create({
     borderRadius: Radii.pill,
     backgroundColor: Colors.light.primary,
     paddingHorizontal: Spacing.four,
-    paddingVertical: Spacing.three,
+    paddingVertical: Spacing.two,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.two,
   },
   continueButtonText: {
     color: '#FFFFFF',
   },
+  arrowText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    lineHeight: 20,
+    fontWeight: 800,
+  },
   quickActions: {
     flexDirection: 'row',
-    gap: Spacing.three,
+    gap: Spacing.two,
   },
   quickAction: {
     flex: 1,
-    minHeight: 140,
+    minHeight: 136,
     backgroundColor: Colors.light.surface,
-    borderRadius: Radii.large,
+    borderRadius: 18,
     padding: Spacing.three,
-    gap: Spacing.two,
+    justifyContent: 'space-between',
     borderWidth: 1,
     borderColor: Colors.light.border,
+    ...Shadows.card,
   },
-  illustrationTile: {
-    height: 80,
-    borderRadius: Radii.large,
-    backgroundColor: Colors.light.primarySoft,
+  quickTitle: {
+    color: Colors.light.text,
+    fontSize: 16,
+    lineHeight: 21,
+    fontWeight: 800,
+  },
+  section: {
+    gap: Spacing.three,
+  },
+  sectionTitle: {
+    color: Colors.light.text,
+    fontSize: 16,
+    lineHeight: 22,
+    fontWeight: 800,
+  },
+  sectionHeading: {
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
-    overflow: 'hidden',
+    justifyContent: 'space-between',
+    gap: Spacing.three,
   },
-  bookPage: {
-    width: 36,
-    height: 42,
-    borderTopLeftRadius: 4,
-    borderBottomLeftRadius: 16,
-    backgroundColor: '#FFFFFF',
-    position: 'absolute',
-    left: '25%',
-    transform: [{ rotate: '-3deg' }],
+  progressCard: {
+    backgroundColor: Colors.light.surface,
+    borderRadius: 20,
+    padding: Spacing.three,
+    gap: Spacing.three,
+    borderWidth: 1,
+    borderColor: Colors.light.border,
+    ...Shadows.card,
   },
-  bookCover: {
-    width: 38,
-    height: 44,
-    borderTopRightRadius: 16,
-    borderBottomRightRadius: 4,
-    backgroundColor: Colors.light.primary,
-    position: 'absolute',
-    right: '25%',
-    transform: [{ rotate: '3deg' }],
-  },
-  clip: {
-    width: 26,
-    height: 8,
-    borderRadius: 4,
-    backgroundColor: Colors.light.ink,
-    position: 'absolute',
-    top: 17,
-    zIndex: 2,
-  },
-  examSheet: {
-    width: 44,
-    height: 54,
-    borderRadius: 6,
-    backgroundColor: '#FFFFFF',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 7,
-  },
-  examLine: {
-    width: 20,
-    height: 5,
-    borderRadius: 2,
-    backgroundColor: Colors.light.primary,
-  },
-  mapFold: {
-    width: 58,
-    height: 44,
-    backgroundColor: '#FFFFFF',
-    transform: [{ skewX: '-10deg' }],
-  },
-  mapRoute: {
-    width: 42,
-    height: 3,
-    borderRadius: 3,
-    backgroundColor: Colors.light.primary,
-    position: 'absolute',
-    transform: [{ rotate: '-18deg' }],
-  },
-  wheel: {
-    width: 58,
-    height: 58,
-    borderRadius: 999,
-    borderWidth: 8,
-    borderColor: Colors.light.ink,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  wheelHub: {
-    width: 12,
-    height: 12,
-    borderRadius: 999,
-    backgroundColor: Colors.light.primary,
-  },
-  wheelSpoke: {
-    width: 6,
-    height: 24,
-    borderRadius: 4,
-    backgroundColor: Colors.light.ink,
-    position: 'absolute',
-  },
-  wheelSpokeOne: { transform: [{ rotate: '0deg' }], top: 13 },
-  wheelSpokeTwo: { transform: [{ rotate: '120deg' }], top: 24, left: 17 },
-  wheelSpokeThree: { transform: [{ rotate: '240deg' }], top: 24, right: 17 },
   progressRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -350,11 +401,20 @@ const styles = StyleSheet.create({
   },
   progressCopy: {
     flex: 1,
-    gap: Spacing.one,
+    gap: 1,
+  },
+  progressTitle: {
+    color: Colors.light.text,
+    fontSize: 15,
+    lineHeight: 20,
+    fontWeight: 800,
+  },
+  progressSpacer: {
+    height: 0,
   },
   ringOuter: {
-    width: 46,
-    height: 46,
+    width: 48,
+    height: 48,
     borderRadius: 999,
     borderWidth: 5,
     borderColor: Colors.light.backgroundElement,
@@ -364,39 +424,45 @@ const styles = StyleSheet.create({
   },
   ringFill: {
     position: 'absolute',
-    width: 46,
-    height: 46,
+    width: 48,
+    height: 48,
     borderRadius: 999,
     borderRightWidth: 5,
     borderTopWidth: 5,
     borderColor: Colors.light.primary,
   },
   ringInner: {
-    width: 34,
-    height: 34,
+    width: 36,
+    height: 36,
     borderRadius: 999,
     backgroundColor: Colors.light.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  sectionHeading: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    gap: Spacing.three,
+  ringText: {
+    fontSize: 11,
+    lineHeight: 15,
   },
-  recommendations: {
-    flexDirection: 'row',
-    gap: Spacing.three,
+  recommendationScroll: {
+    gap: Spacing.two,
+    paddingRight: Spacing.four,
   },
   recommendationCard: {
-    flex: 1,
-    borderRadius: Radii.large,
+    width: 136,
+    minHeight: 174,
+    borderRadius: 18,
     backgroundColor: Colors.light.surface,
-    padding: Spacing.three,
+    padding: Spacing.two,
     gap: Spacing.two,
     borderWidth: 1,
     borderColor: Colors.light.border,
+    ...Shadows.card,
+  },
+  recommendationTitle: {
+    color: Colors.light.text,
+    fontSize: 15,
+    lineHeight: 20,
+    fontWeight: 800,
   },
   pressed: {
     opacity: 0.72,

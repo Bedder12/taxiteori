@@ -1,13 +1,13 @@
 import { type Href, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
-import { Screen } from '@/components/layout/Screen';
 import { QuestionCard } from '@/components/quiz/QuestionCard';
 import { ThemedText } from '@/components/themed-text';
-import { AppHeader, StatPill } from '@/components/ui/foundation';
-import { Spacing } from '@/constants/theme';
+import { ProgressBar } from '@/components/ui/foundation';
+import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getRuntimeState, saveRuntimeAnswer, startRuntimeCheckpoint, submitRuntimeAttempt } from '@/lib/runtimeLearningState';
 import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
 
@@ -37,17 +37,16 @@ export default function QuizScreen() {
     setSelectedChoices(Object.fromEntries(state.answers.filter((answer) => answer.attemptId === attempt.id).map((answer) => [answer.attemptQuestionId, answer.selectedChoiceId])));
   }, [attempt?.id]);
 
-  if (loadError) return <ThemedText>Checkpointen kunde inte laddas. Försök igen.</ThemedText>;
-  if (loading || !attempt) return <ThemedText>Laddar checkpoint...</ThemedText>;
-  if (!assessment) {
-    return <ThemedText>Checkpointen hittades inte.</ThemedText>;
-  }
+  if (loadError) return <FullscreenMessage text="Checkpointen kunde inte laddas. Försök igen." />;
+  if (loading || !attempt) return <FullscreenMessage text="Laddar checkpoint..." />;
+  if (!assessment) return <FullscreenMessage text="Checkpointen hittades inte." />;
 
   const attemptQuestion = attempt.questions[currentIndex];
   const question = repository.questionVersions.find((candidate) => candidate.id === attemptQuestion?.questionVersionId);
   const answeredCount = Object.keys(selectedChoices).length;
   const selectedChoiceId = attemptQuestion ? selectedChoices[attemptQuestion.id] : undefined;
   const isLastQuestion = currentIndex === attempt.questions.length - 1;
+  const progress = ((currentIndex + 1) / attempt.questions.length) * 100;
 
   function handleNext() {
     if (!attempt || !attemptQuestion || !selectedChoiceId) {
@@ -64,47 +63,185 @@ export default function QuizScreen() {
   }
 
   return (
-    <Screen
-      header={
-        <AppHeader
-          eyebrow="Intern lärandecheckpoint"
-          title={assessment.title}
-          meta={`Fråga ${currentIndex + 1} av ${attempt.questions.length}`}
-        />
-      }>
-      <View style={styles.stats}>
-        <StatPill label="Besvarade" value={`${answeredCount}/${attempt.questions.length}`} />
-        <StatPill label="Kvar" value={String(attempt.questions.length - answeredCount)} />
+    <SafeAreaView style={styles.safeArea}>
+      <View style={styles.topBar}>
+        <Pressable accessibilityRole="button" accessibilityLabel="Stäng frågor" onPress={() => router.back()} style={styles.closeButton}>
+          <ThemedText style={styles.closeText}>×</ThemedText>
+        </Pressable>
+        <View style={styles.topCenter}>
+          <View style={styles.dots}>
+            {attempt.questions.slice(0, 12).map((item, index) => (
+              <View key={item.id} style={[styles.dot, index <= currentIndex && styles.dotActive]} />
+            ))}
+          </View>
+          <ThemedText type="smallBold" style={styles.topMeta}>
+            {answeredCount}/{attempt.questions.length} besvarade
+          </ThemedText>
+        </View>
+        <View style={styles.counterPill}>
+          <ThemedText type="smallBold" style={styles.counterText}>{currentIndex + 1}/{attempt.questions.length}</ThemedText>
+        </View>
       </View>
 
-      {question && attemptQuestion ? (
-        <QuestionCard
-          attemptQuestion={attemptQuestion}
-          question={question}
-          totalQuestions={attempt.questions.length}
-          selectedChoiceId={selectedChoiceId}
-          onSelectChoice={(choiceId) => {
-            saveRuntimeAnswer(repository, attempt.id, attemptQuestion.id, choiceId);
-            setSelectedChoices((current) => ({ ...current, [attemptQuestion.id]: choiceId }));
-          }}
-        />
-      ) : null}
+      <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
+        <View style={styles.progressShell}>
+          <View style={styles.progressLabels}>
+            <ThemedText type="smallBold" style={styles.progressLabel}>START</ThemedText>
+            <ThemedText type="smallBold" style={styles.progressLabel}>KLAR</ThemedText>
+          </View>
+          <ProgressBar tone="light" value={progress} />
+        </View>
+
+        <View style={styles.quizHeader}>
+          <ThemedText type="smallBold" style={styles.eyebrow}>Intern lärandecheckpoint</ThemedText>
+          <ThemedText style={styles.title}>{assessment.title}</ThemedText>
+        </View>
+
+        {question && attemptQuestion ? (
+          <QuestionCard
+            tone="dark"
+            attemptQuestion={attemptQuestion}
+            question={question}
+            selectedChoiceId={selectedChoiceId}
+            onSelectChoice={(choiceId) => {
+              saveRuntimeAnswer(repository, attempt.id, attemptQuestion.id, choiceId);
+              setSelectedChoices((current) => ({ ...current, [attemptQuestion.id]: choiceId }));
+            }}
+          />
+        ) : null}
+      </ScrollView>
 
       <View style={styles.actions}>
         <PrimaryButton disabled={!selectedChoiceId} onPress={handleNext}>
           {isLastQuestion ? 'Lämna in' : 'Nästa fråga'}
         </PrimaryButton>
       </View>
-    </Screen>
+    </SafeAreaView>
+  );
+}
+
+function FullscreenMessage({ text }: { text: string }) {
+  return (
+    <SafeAreaView style={styles.safeArea}>
+      <View style={styles.message}>
+        <ThemedText style={styles.darkBody}>{text}</ThemedText>
+      </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  stats: {
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#101113',
+  },
+  topBar: {
+    minHeight: 80,
     flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: Spacing.three,
+    paddingHorizontal: Spacing.four,
+  },
+  closeButton: {
+    width: 56,
+    height: 56,
+    borderRadius: Radii.pill,
+    backgroundColor: '#24262B',
+    borderWidth: 1,
+    borderColor: '#3A3D45',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  closeText: {
+    color: '#FFFFFF',
+    fontSize: 42,
+    lineHeight: 46,
+    fontWeight: 800,
+  },
+  topCenter: {
+    flex: 1,
+    alignItems: 'center',
+    gap: Spacing.one,
+  },
+  dots: {
+    flexDirection: 'row',
+    gap: Spacing.one,
+  },
+  dot: {
+    width: 8,
+    height: 8,
+    borderRadius: Radii.pill,
+    backgroundColor: '#444852',
+  },
+  dotActive: {
+    backgroundColor: Colors.light.primary,
+  },
+  topMeta: {
+    color: '#9CA3AF',
+  },
+  counterPill: {
+    minWidth: 56,
+    minHeight: 36,
+    borderRadius: Radii.pill,
+    backgroundColor: '#24262B',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: Spacing.two,
+  },
+  counterText: {
+    color: '#FFFFFF',
+  },
+  scroll: {
+    flex: 1,
+  },
+  content: {
+    paddingHorizontal: Spacing.four,
+    paddingBottom: 128,
+    gap: Spacing.five,
+  },
+  progressShell: {
+    backgroundColor: '#090A0B',
+    borderRadius: Radii.pill,
+    paddingHorizontal: Spacing.four,
+    paddingVertical: Spacing.three,
     gap: Spacing.two,
   },
+  progressLabels: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  progressLabel: {
+    color: '#FFFFFF',
+  },
+  quizHeader: {
+    gap: Spacing.one,
+  },
+  eyebrow: {
+    color: Colors.light.primary,
+  },
+  title: {
+    color: '#FFFFFF',
+    fontSize: 30,
+    lineHeight: 36,
+    fontWeight: 800,
+  },
   actions: {
-    gap: Spacing.two,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+    paddingHorizontal: Spacing.four,
+    paddingTop: Spacing.three,
+    paddingBottom: Spacing.five,
+    backgroundColor: 'rgba(16,17,19,0.96)',
+  },
+  message: {
+    flex: 1,
+    padding: Spacing.five,
+    justifyContent: 'center',
+  },
+  darkBody: {
+    color: '#FFFFFF',
   },
 });

@@ -2,7 +2,7 @@ import { StyleSheet, View } from 'react-native';
 
 import { Screen } from '@/components/layout/Screen';
 import { ThemedText } from '@/components/themed-text';
-import { AppCard, BottomNav } from '@/components/ui/foundation';
+import { AppCard, BottomNav, StatusBadge } from '@/components/ui/foundation';
 import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getSubjectProgress } from '../../packages/domain/src';
 import { getRuntimeMetadataRepository } from '../../packages/domain/src/runtimeRepository';
@@ -40,9 +40,7 @@ export default function ProfileScreen() {
           <ThemedText style={styles.avatarText}>BM</ThemedText>
         </View>
         <ThemedText type="subtitle">Bedder M.</ThemedText>
-        <View style={styles.badge}>
-          <ThemedText type="smallBold" style={styles.badgeText}>{state.facts.filter((fact) => fact.type === 'lesson_completed').length} moment klara</ThemedText>
-        </View>
+        <StatusBadge label={`${state.facts.filter((fact) => fact.type === 'lesson_completed').length} moment klara`} />
       </View>
 
       <ThemedText type="subtitle">Progress</ThemedText>
@@ -161,15 +159,6 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 24,
     fontWeight: 800,
-  },
-  badge: {
-    borderRadius: Radii.pill,
-    backgroundColor: Colors.light.primarySoft,
-    paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.one,
-  },
-  badgeText: {
-    color: Colors.light.primaryStrong,
   },
   progressGrid: {
     flexDirection: 'row',

@@ -61,6 +61,7 @@ export function testPluggaPathStartsAtFirstD1Subject() {
   assert.equal(path.steps[0].type, 'subject');
   assert.equal(path.steps[0].id, 'subject_d1_navigation');
   assert.equal(path.steps[0].status, 'not_started');
+  assert.equal(path.steps[0].href.pathname, '/module/[subjectId]');
   assert.equal(path.activeStep?.id, 'subject_d1_navigation');
   assert.equal(path.steps[1].status, 'locked');
 }

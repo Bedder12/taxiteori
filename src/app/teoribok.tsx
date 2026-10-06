@@ -1,10 +1,10 @@
 import { Link, type Href } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { Pressable, StyleSheet, TextInput, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 
 import { Screen } from '@/components/layout/Screen';
 import { ThemedText } from '@/components/themed-text';
-import { AppHeader, BottomNav, Section } from '@/components/ui/foundation';
+import { AppHeader, BottomNav, SearchField, Section } from '@/components/ui/foundation';
 import { LearningIllustration } from '@/components/ui/LearningIllustration';
 import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getRuntimeState } from '@/lib/runtimeLearningState';
@@ -53,17 +53,7 @@ export default function TheoryBookScreen() {
           title="Teoriboken"
         />
       }>
-      <View style={styles.searchWrap}>
-        <ThemedText type="small" themeColor="textSecondary">Sök</ThemedText>
-        <TextInput
-          accessibilityLabel="Sök i teoriboken"
-          placeholder="Sök i teorin"
-          placeholderTextColor={Colors.light.textSecondary}
-          value={query}
-          onChangeText={setQuery}
-          style={styles.search}
-        />
-      </View>
+      <SearchField placeholder="Sök i teorin" value={query} onChangeText={setQuery} />
 
       <View style={styles.filters}>
         {(['all', 'D1', 'D2'] as ExamFilter[]).map((item) => (
@@ -110,19 +100,6 @@ export default function TheoryBookScreen() {
 }
 
 const styles = StyleSheet.create({
-  searchWrap: {
-    gap: Spacing.one,
-  },
-  search: {
-    minHeight: 52,
-    borderRadius: Radii.large,
-    backgroundColor: Colors.light.surface,
-    borderWidth: 1,
-    borderColor: Colors.light.border,
-    paddingHorizontal: Spacing.four,
-    fontSize: 16,
-    color: Colors.light.text,
-  },
   filters: {
     flexDirection: 'row',
     gap: Spacing.two,
