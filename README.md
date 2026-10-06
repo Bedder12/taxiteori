@@ -4,6 +4,14 @@ Taxiteori is a Swedish taxi-driver theory learning app built with Expo and React
 
 This is an active portfolio project and learning product prototype. Course material and questions are internally authored training content; the app is not affiliated with Trafikverket and does not reproduce its official question bank or exam.
 
+## Screenshots
+
+Selected screenshots from the running Expo web app at a mobile viewport size:
+
+| Home | Guided study path | Theory book |
+| --- | --- | --- |
+| <img src="./docs/screenshots/home.png" alt="Taxiteori home screen" width="240"> | <img src="./docs/screenshots/study-path.png" alt="Guided study path" width="240"> | <img src="./docs/screenshots/theory-book.png" alt="Theory book with searchable chapters" width="240"> |
+
 ## Product features
 
 - Guided study path for taxi-driver exam areas D1 and D2, with prerequisite and progress states.
