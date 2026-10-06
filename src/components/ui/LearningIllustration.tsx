@@ -4,12 +4,12 @@ import { Colors, Radii } from '@/constants/theme';
 
 type LearningIllustrationProps = {
   kind: 'book' | 'exam' | 'map' | 'wheel' | 'safety' | 'road' | 'car' | 'person';
-  size?: 'small' | 'large';
+  size?: 'small' | 'large' | 'feature';
 };
 
 export function LearningIllustration({ kind, size = 'large' }: LearningIllustrationProps) {
   return (
-    <View style={[styles.tile, size === 'small' && styles.smallTile]}>
+    <View style={[styles.tile, size === 'small' && styles.smallTile, size === 'feature' && styles.featureTile]}>
       {kind === 'book' ? (
         <>
           <View style={styles.bookPage} />
@@ -87,6 +87,10 @@ const styles = StyleSheet.create({
   smallTile: {
     width: 72,
     height: 58,
+  },
+  featureTile: {
+    height: 116,
+    borderRadius: 18,
   },
   bookPage: {
     width: 36,

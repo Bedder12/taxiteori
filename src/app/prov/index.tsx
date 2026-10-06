@@ -33,7 +33,7 @@ export default function ProvScreen() {
           const dark = index === 0;
           return (
             <Link key={exam.id} href={{ pathname: '/exam/[examId]/mock', params: { examId: exam.id } } as unknown as Href} asChild>
-              <Pressable style={({ pressed }) => [styles.examCard, dark && styles.examCardDark, pressed && styles.pressed]}>
+              <Pressable style={StyleSheet.flatten([styles.examCard, dark && styles.examCardDark])}>
                 <ThemedText type="smallBold" style={dark && styles.darkMuted}>{exam.code === 'D1' ? 'Delprov 1' : 'Delprov 2'}</ThemedText>
                 <ThemedText type="subtitle" style={dark && styles.darkText}>{exam.title}</ThemedText>
                 <View style={styles.examMeta}>
@@ -57,7 +57,7 @@ export default function ProvScreen() {
             if (!topic) return null;
             return (
               <Link key={subject.id} href={{ pathname: '/subject/[subjectId]', params: { subjectId: subject.id } } as unknown as Href} asChild>
-                <Pressable style={({ pressed }) => [styles.practiceCard, pressed && styles.pressed]}>
+                <Pressable style={styles.practiceCard}>
                   <LearningIllustration kind={subjectIllustrations[index % subjectIllustrations.length]} />
                   <ThemedText type="smallBold">{subject.title}</ThemedText>
                   <ThemedText type="small" themeColor="textSecondary">{Math.max(15, subject.officialQuestionCount)} frågor</ThemedText>
@@ -126,8 +126,5 @@ const styles = StyleSheet.create({
     gap: Spacing.two,
     borderWidth: 1,
     borderColor: Colors.light.border,
-  },
-  pressed: {
-    opacity: 0.72,
   },
 });

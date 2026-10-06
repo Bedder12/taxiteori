@@ -76,7 +76,7 @@ export default function TheoryBookScreen() {
           return (
             <View key={topic.id}>
               <Link href={{ pathname: '/topic/[topicId]', params: { topicId: topic.id } } as unknown as Href} asChild>
-                <Pressable style={({ pressed }) => [styles.chapter, pressed && styles.pressed]}>
+                <Pressable style={styles.chapter}>
                   <LearningIllustration kind={illustrationKinds[index % illustrationKinds.length]} size="small" />
                   <View style={styles.chapterCopy}>
                     <ThemedText type="small" themeColor="textSecondary">Kapitel {index + 1}</ThemedText>
@@ -138,8 +138,5 @@ const styles = StyleSheet.create({
   chapterTitle: {
     fontSize: 18,
     lineHeight: 22,
-  },
-  pressed: {
-    opacity: 0.72,
   },
 });

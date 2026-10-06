@@ -69,7 +69,7 @@ export default function TopicScreen() {
             const completed = state.facts.some((fact) => fact.type === 'lesson_completed' && fact.lessonId === lesson.id);
             return (
               <Link key={lesson.id} href={{ pathname: '/lesson/[lessonId]', params: { lessonId: lesson.id } } as unknown as Href} asChild>
-                <Pressable style={({ pressed }) => [styles.lessonRow, pressed && styles.pressed]}>
+                <Pressable style={styles.lessonRow}>
                   <LessonRow
                     completed={completed}
                     current={!completed && index === (view.progress?.completedLessons ?? 0)}
@@ -118,8 +118,5 @@ const styles = StyleSheet.create({
   },
   checkpointBadgeText: {
     color: Colors.light.primaryStrong,
-  },
-  pressed: {
-    opacity: 0.72,
   },
 });

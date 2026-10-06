@@ -144,7 +144,7 @@ export function BottomNav({ active }: BottomNavProps) {
           const selected = item.key === active || (item.href !== '/' && pathname.startsWith(String(item.href)));
           return (
             <Link key={item.key} href={item.href} asChild>
-              <Pressable style={({ pressed }) => [styles.navItem, selected && styles.navItemActive, pressed && styles.pressed]}>
+              <Pressable style={StyleSheet.flatten([styles.navItem, selected && styles.navItemActive])}>
                 <NavGlyph name={item.key} active={selected} />
                 <ThemedText type="smallBold" style={[styles.navText, selected && styles.navTextActive]}>{item.label}</ThemedText>
               </Pressable>
@@ -321,7 +321,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 2,
     width: '100%',
-    maxWidth: 328,
+    maxWidth: 400,
     alignSelf: 'center',
     ...Shadows.floating,
   },

@@ -15,7 +15,7 @@ export function PrimaryButton({ children, disabled, onPress, variant = 'primary'
     <Pressable
       disabled={disabled}
       onPress={onPress}
-      style={({ pressed }) => [styles.button, variant === 'secondary' && styles.secondary, disabled && styles.disabled, pressed && styles.pressed]}>
+      style={StyleSheet.flatten([styles.button, variant === 'secondary' && styles.secondary, disabled && styles.disabled])}>
       <ThemedText type="smallBold" style={[styles.text, variant === 'secondary' && styles.secondaryText]}>
         {children}
       </ThemedText>
@@ -44,8 +44,5 @@ const styles = StyleSheet.create({
   },
   disabled: {
     opacity: 0.45,
-  },
-  pressed: {
-    opacity: 0.72,
   },
 });

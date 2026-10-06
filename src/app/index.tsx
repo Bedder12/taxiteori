@@ -92,7 +92,7 @@ export default function HomeScreen() {
 
       {currentLesson ? (
         <Link href={{ pathname: '/lesson/[lessonId]', params: { lessonId: currentLesson.lesson.id } } as unknown as Href} asChild>
-          <Pressable style={({ pressed }) => [styles.continueHero, pressed && styles.pressed]}>
+          <Pressable style={styles.continueHero}>
             <View style={styles.continueTop}>
               <View style={styles.continueCopy}>
                 <ThemedText type="smallBold" style={styles.continueEyebrow}>Fortsätt plugga</ThemedText>
@@ -124,8 +124,8 @@ export default function HomeScreen() {
 
       <View style={styles.quickActions}>
         <Link href={'/plugga' as Href} asChild>
-          <Pressable style={({ pressed }) => [styles.quickAction, pressed && styles.pressed]}>
-            <LearningIllustration kind="book" />
+          <Pressable style={styles.quickAction}>
+            <LearningIllustration kind="book" size="feature" />
             <View>
               <ThemedText style={styles.quickTitle}>Plugga</ThemedText>
               <ThemedText type="small" themeColor="textSecondary">Lärostig</ThemedText>
@@ -133,8 +133,8 @@ export default function HomeScreen() {
           </Pressable>
         </Link>
         <Link href={'/prov' as Href} asChild>
-          <Pressable style={({ pressed }) => [styles.quickAction, pressed && styles.pressed]}>
-            <LearningIllustration kind="exam" />
+          <Pressable style={styles.quickAction}>
+            <LearningIllustration kind="exam" size="feature" />
             <View>
               <ThemedText style={styles.quickTitle}>Prov</ThemedText>
               <ThemedText type="small" themeColor="textSecondary">Testa dig</ThemedText>
@@ -166,11 +166,11 @@ export default function HomeScreen() {
             <Pressable><ThemedText type="smallBold" themeColor="primary">Visa alla</ThemedText></Pressable>
           </Link>
         </View>
-        <ScrollView horizontal showsHorizontalScrollIndicator contentContainerStyle={styles.recommendationScroll}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.recommendationScroll}>
           {recommendedTopics.map((topic, index) => (
             <Link key={topic.id} href={{ pathname: '/topic/[topicId]', params: { topicId: topic.id } } as unknown as Href} asChild>
-              <Pressable style={({ pressed }) => [styles.recommendationCard, pressed && styles.pressed]}>
-                <LearningIllustration kind={recommendationIllustrations[index % recommendationIllustrations.length]} />
+              <Pressable style={styles.recommendationCard}>
+                <LearningIllustration kind={recommendationIllustrations[index % recommendationIllustrations.length]} size="feature" />
                 <ThemedText style={styles.recommendationTitle} numberOfLines={1}>{topic.title}</ThemedText>
                 <ThemedText type="small" themeColor="textSecondary" numberOfLines={2}>{recommendationSubtitle(repository, topic.subjectId)}</ThemedText>
               </Pressable>
@@ -254,8 +254,8 @@ const styles = StyleSheet.create({
   },
   greeting: {
     color: Colors.light.text,
-    fontSize: 23,
-    lineHeight: 28,
+    fontSize: 28,
+    lineHeight: 34,
     fontWeight: 800,
   },
   notificationButton: {
@@ -291,12 +291,12 @@ const styles = StyleSheet.create({
     marginTop: 1,
   },
   continueHero: {
-    backgroundColor: '#102018',
-    borderRadius: 20,
-    paddingHorizontal: Spacing.four,
-    paddingVertical: Spacing.three,
+    backgroundColor: Colors.light.ink,
+    borderRadius: Radii.large,
+    paddingHorizontal: Spacing.five,
+    paddingVertical: Spacing.five,
     gap: Spacing.three,
-    minHeight: 146,
+    minHeight: 190,
     justifyContent: 'space-between',
   },
   continueTop: {
@@ -315,27 +315,27 @@ const styles = StyleSheet.create({
   },
   continueTitle: {
     color: '#FFFFFF',
-    fontSize: 18,
-    lineHeight: 23,
+    fontSize: 22,
+    lineHeight: 28,
     fontWeight: 800,
   },
   continueMeta: {
     color: '#B7C7BC',
-    fontSize: 14,
-    lineHeight: 20,
+    fontSize: 15,
+    lineHeight: 22,
   },
   continuePercent: {
     color: '#FFFFFF',
-    fontSize: 25,
-    lineHeight: 29,
+    fontSize: 28,
+    lineHeight: 34,
     fontWeight: 800,
   },
   continueButton: {
     alignSelf: 'flex-start',
-    borderRadius: Radii.pill,
+    borderRadius: Radii.medium,
     backgroundColor: Colors.light.primary,
-    paddingHorizontal: Spacing.four,
-    paddingVertical: Spacing.two,
+    paddingHorizontal: Spacing.five,
+    paddingVertical: Spacing.three,
     flexDirection: 'row',
     alignItems: 'center',
     gap: Spacing.two,
@@ -355,9 +355,9 @@ const styles = StyleSheet.create({
   },
   quickAction: {
     flex: 1,
-    minHeight: 136,
+    minHeight: 196,
     backgroundColor: Colors.light.surface,
-    borderRadius: 18,
+    borderRadius: Radii.large,
     padding: Spacing.three,
     justifyContent: 'space-between',
     borderWidth: 1,
@@ -366,8 +366,8 @@ const styles = StyleSheet.create({
   },
   quickTitle: {
     color: Colors.light.text,
-    fontSize: 16,
-    lineHeight: 21,
+    fontSize: 18,
+    lineHeight: 24,
     fontWeight: 800,
   },
   section: {
@@ -413,8 +413,8 @@ const styles = StyleSheet.create({
     height: 0,
   },
   ringOuter: {
-    width: 48,
-    height: 48,
+    width: 56,
+    height: 56,
     borderRadius: 999,
     borderWidth: 5,
     borderColor: Colors.light.backgroundElement,
@@ -424,16 +424,16 @@ const styles = StyleSheet.create({
   },
   ringFill: {
     position: 'absolute',
-    width: 48,
-    height: 48,
+    width: 56,
+    height: 56,
     borderRadius: 999,
     borderRightWidth: 5,
     borderTopWidth: 5,
     borderColor: Colors.light.primary,
   },
   ringInner: {
-    width: 36,
-    height: 36,
+    width: 44,
+    height: 44,
     borderRadius: 999,
     backgroundColor: Colors.light.surface,
     alignItems: 'center',
@@ -448,11 +448,11 @@ const styles = StyleSheet.create({
     paddingRight: Spacing.four,
   },
   recommendationCard: {
-    width: 136,
-    minHeight: 174,
-    borderRadius: 18,
+    width: 220,
+    minHeight: 230,
+    borderRadius: Radii.large,
     backgroundColor: Colors.light.surface,
-    padding: Spacing.two,
+    padding: Spacing.three,
     gap: Spacing.two,
     borderWidth: 1,
     borderColor: Colors.light.border,
@@ -460,8 +460,8 @@ const styles = StyleSheet.create({
   },
   recommendationTitle: {
     color: Colors.light.text,
-    fontSize: 15,
-    lineHeight: 20,
+    fontSize: 16,
+    lineHeight: 22,
     fontWeight: 800,
   },
   pressed: {

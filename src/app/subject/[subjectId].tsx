@@ -71,7 +71,7 @@ export default function SubjectScreen() {
           const percent = topicView.progress?.learningPercent ?? 0;
           return (
             <Link key={topic.id} href={{ pathname: '/topic/[topicId]', params: { topicId: topic.id } } as unknown as Href} asChild>
-              <Pressable style={({ pressed }) => [styles.topicRow, pressed && styles.pressed]}>
+              <Pressable style={styles.topicRow}>
                 <View style={styles.topicNumber}>
                   <ThemedText type="smallBold" style={styles.topicNumberText}>{topic.order}</ThemedText>
                 </View>
@@ -191,8 +191,5 @@ const styles = StyleSheet.create({
   },
   questionBadgeText: {
     color: '#FFFFFF',
-  },
-  pressed: {
-    opacity: 0.72,
   },
 });
