@@ -37,9 +37,9 @@ export default function ProfileScreen() {
     <Screen>
       <View style={styles.profileHeader}>
         <View style={styles.avatar}>
-          <ThemedText style={styles.avatarText}>BM</ThemedText>
+          <ThemedText style={styles.avatarText}>P</ThemedText>
         </View>
-        <ThemedText type="subtitle">Bedder M.</ThemedText>
+        <ThemedText type="subtitle">Profil</ThemedText>
         <StatusBadge label={`${state.facts.filter((fact) => fact.type === 'lesson_completed').length} moment klara`} />
       </View>
 
@@ -79,9 +79,7 @@ export default function ProfileScreen() {
       </AppCard>
 
       <AppCard>
-        <ProfileRow icon="bookmark" title="Sparat" subtitle="Sparade moment visas här när funktionen finns" />
-        <ProfileRow icon="settings" title="Synk" subtitle={isBackendPersistenceConfigured() ? 'Supabase är konfigurerat' : 'Endast lokal state är aktiv'} />
-        <ProfileRow icon="profile" title="Konto" subtitle="E-post och prenumeration" last />
+        <ProfileRow icon="settings" title="Synk" subtitle={isBackendPersistenceConfigured() ? 'Supabase är konfigurerat' : 'Endast lokal state är aktiv'} last />
       </AppCard>
 
       <BottomNav active="profile" />
@@ -89,7 +87,7 @@ export default function ProfileScreen() {
   );
 }
 
-function ProfileRow({ icon, last, subtitle, title }: { icon: 'bookmark' | 'settings' | 'profile'; last?: boolean; subtitle: string; title: string }) {
+function ProfileRow({ icon, last, subtitle, title }: { icon: 'settings'; last?: boolean; subtitle: string; title: string }) {
   return (
     <View style={[styles.profileRow, !last && styles.divider]}>
       <View style={styles.rowIcon}>
@@ -104,25 +102,13 @@ function ProfileRow({ icon, last, subtitle, title }: { icon: 'bookmark' | 'setti
   );
 }
 
-function ProfileGlyph({ name }: { name: 'bookmark' | 'settings' | 'profile' }) {
+function ProfileGlyph({ name }: { name: 'settings' }) {
   return (
     <View style={styles.glyph}>
-      {name === 'bookmark' ? (
-        <>
-          <View style={styles.bookmarkBody} />
-          <View style={styles.bookmarkCut} />
-        </>
-      ) : null}
       {name === 'settings' ? (
         <>
           <View style={styles.settingsOuter} />
           <View style={styles.settingsInner} />
-        </>
-      ) : null}
-      {name === 'profile' ? (
-        <>
-          <View style={styles.profileHead} />
-          <View style={styles.profileBody} />
         </>
       ) : null}
     </View>
@@ -254,21 +240,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  bookmarkBody: {
-    width: 11,
-    height: 15,
-    borderWidth: 1.8,
-    borderColor: Colors.light.primaryStrong,
-    borderRadius: 3,
-  },
-  bookmarkCut: {
-    position: 'absolute',
-    bottom: 1,
-    width: 7,
-    height: 7,
-    backgroundColor: Colors.light.primarySoft,
-    transform: [{ rotate: '45deg' }],
-  },
   settingsOuter: {
     width: 15,
     height: 15,
@@ -282,23 +253,5 @@ const styles = StyleSheet.create({
     height: 5,
     borderRadius: 999,
     backgroundColor: Colors.light.primaryStrong,
-  },
-  profileHead: {
-    width: 7,
-    height: 7,
-    borderRadius: 999,
-    borderWidth: 1.8,
-    borderColor: Colors.light.primaryStrong,
-    position: 'absolute',
-    top: 1,
-  },
-  profileBody: {
-    width: 14,
-    height: 8,
-    borderRadius: 999,
-    borderWidth: 1.8,
-    borderColor: Colors.light.primaryStrong,
-    position: 'absolute',
-    bottom: 1,
   },
 });

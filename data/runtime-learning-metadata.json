@@ -52,7 +52,7 @@
       "examId": "exam_d1_sakerhet_beteende",
       "title": "Fordonskännedom",
       "officialQuestionCount": 7,
-      "order": 4,
+      "order": 8,
       "status": "published"
     },
     {
@@ -60,7 +60,7 @@
       "examId": "exam_d1_sakerhet_beteende",
       "title": "Säkerhet",
       "officialQuestionCount": 10,
-      "order": 5,
+      "order": 4,
       "status": "published"
     },
     {
@@ -68,7 +68,7 @@
       "examId": "exam_d1_sakerhet_beteende",
       "title": "Bemötande",
       "officialQuestionCount": 12,
-      "order": 6,
+      "order": 5,
       "status": "published"
     },
     {
@@ -76,15 +76,15 @@
       "examId": "exam_d1_sakerhet_beteende",
       "title": "Sjukdomar och funktionsnedsättningar",
       "officialQuestionCount": 8,
-      "order": 7,
+      "order": 6,
       "status": "published"
     },
     {
       "id": "subject_d1_arbetsmiljo",
       "examId": "exam_d1_sakerhet_beteende",
-      "title": "Arbetsmiljö, omdöme och riskmedvetenhet",
+      "title": "Arbetsmiljö, omdömesförmåga och riskmedvetenhet",
       "officialQuestionCount": 6,
-      "order": 8,
+      "order": 7,
       "status": "published"
     },
     {

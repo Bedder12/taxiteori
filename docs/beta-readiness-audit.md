@@ -1,25 +1,31 @@
 # Beta Readiness Audit
 
-Generated: 2026-09-11
+Generated: 2026-10-07
 
 ## Status
 
 - Curriculum completeness: PASS
-- Question coverage: PASS, based on docs/question-coverage-audit-v2.md
+- Question coverage: PASS, based on `docs/question-coverage-audit-v2.md`
 - Visual completeness: PASS
 - Mock readiness: PASS, D1/D2 blueprint counts unchanged
+- UI real-data audit: PASS, based on `docs/real-data-ui-audit.md`
 - Persistence readiness: PASS in regression tests
 - Bundle/loading readiness: PASS for subject-scoped content loaders
-- Supabase live verification status: BLOCKED, missing configured live Supabase URL, anon/public key and two authenticated test users
+- Supabase environment variables: PASS, configured in local `.env`
+- Supabase live Auth: FAIL, configured host returned DNS `ENOTFOUND`
+- Supabase live persistence/RLS/resume/timeout: NOT_TESTED, blocked by live Auth/network failure
 
 ## Remaining Work
 
-- Remaining P0: none
-- Remaining P1: verify production SVG rendering in a real device build before public launch.
-- Remaining P2: optional visual refinements for enrichment-only Service, Health/Disabilities and Work Environment/Risk scenes.
+- Remaining P0:
+  - Fix Supabase project reachability for the configured URL, then rerun live Auth, persistence, resume, timeout, RLS, idempotency and immutability verification.
+- Remaining P1:
+  - Verify production visual rendering in a real device build before public launch.
+- Remaining P2:
+  - Optional visual refinements for enrichment-only Service, Health/Disabilities and Work Environment/Risk scenes.
 
 ## Decision
 
 Beta-ready: NO
 
-Reason: Supabase live E2E remains blocked at the prerequisite gate. The workspace has no configured live Supabase URL, anon/public key or two authenticated test users, so Auth, live persistence, RLS, resume, timeout, D1/D2 mocks, idempotency and immutability cannot be verified.
+Reason: The app now passes local real-data UI and regression gates, but beta readiness requires live Supabase/Auth/RLS/persistence/resume/timeout checks to actually PASS. Auth could not be verified because the configured Supabase host was not resolvable from this machine.

@@ -38,7 +38,7 @@ export default function ProvScreen() {
                 <ThemedText type="subtitle" style={dark && styles.darkText}>{exam.title}</ThemedText>
                 <View style={styles.examMeta}>
                   <ThemedText type="small" style={dark ? styles.darkMuted : styles.metaText}>{blueprint.totalDisplayedQuestionCount} frågor</ThemedText>
-                  <ThemedText type="small" style={dark ? styles.darkMuted : styles.metaText}>50 min</ThemedText>
+                  <ThemedText type="small" style={dark ? styles.darkMuted : styles.metaText}>{Math.round((blueprint.timeLimitSeconds ?? 0) / 60)} min</ThemedText>
                 </View>
                 <View style={[styles.startButton, dark && styles.startButtonDark]}>
                   <ThemedText type="smallBold" style={styles.startButtonText}>Starta fullständigt prov</ThemedText>

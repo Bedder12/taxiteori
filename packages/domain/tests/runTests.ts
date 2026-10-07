@@ -159,6 +159,14 @@ import {
   testProductReadinessActiveRoutesAvoidAggregateRepository,
 } from './productReadinessAudit.test';
 import {
+  testRealDataUiActiveRoutesAvoidMockDataDependencies,
+  testRealDataUiActiveRoutesAvoidPrototypeLiterals,
+  testRealDataUiExamScreensReadCanonicalBlueprints,
+  testRealDataUiLearningPathsMatchRuntimeCurriculum,
+  testRealDataUiResultUsesAttemptAndTraceability,
+  testRealDataUiTeoribokenUsesCanonicalRuntimeContent,
+} from './realDataUiAudit.test';
+import {
   testP0CheckpointResumeAndAnswerIdempotency,
   testP0D1AndD2MockResumeUsesFrozenAttempts,
   testP0FinalizationIsIdempotent,
@@ -335,6 +343,12 @@ const tests = [
   ['product readiness lesson metadata and revisit mapping', testProductReadinessLessonMetadataAndRevisitMapping],
   ['product readiness subject-scoped content loaders', testProductReadinessSubjectScopedLoaders],
   ['product readiness active routes avoid aggregate repository', testProductReadinessActiveRoutesAvoidAggregateRepository],
+  ['real data UI active routes avoid mock-data dependencies', testRealDataUiActiveRoutesAvoidMockDataDependencies],
+  ['real data UI active routes avoid prototype literals', testRealDataUiActiveRoutesAvoidPrototypeLiterals],
+  ['real data UI learning paths match runtime curriculum', testRealDataUiLearningPathsMatchRuntimeCurriculum],
+  ['real data UI Teoriboken uses canonical runtime content', testRealDataUiTeoribokenUsesCanonicalRuntimeContent],
+  ['real data UI exam screens read canonical blueprints', testRealDataUiExamScreensReadCanonicalBlueprints],
+  ['real data UI result uses attempt and traceability', testRealDataUiResultUsesAttemptAndTraceability],
   ['P0 timed out attempts are terminal and reviewable', testP0TimedOutAttemptsAreTerminalAndReviewable],
   ['P0 checkpoint resume and answer idempotency', testP0CheckpointResumeAndAnswerIdempotency],
   ['P0 D1 and D2 mock resume uses frozen attempts', testP0D1AndD2MockResumeUsesFrozenAttempts],

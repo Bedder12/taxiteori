@@ -23,6 +23,7 @@ export default function HomeScreen() {
   );
 
   const { repository, state } = snapshot;
+  const displayName = displayNameFromUserId(RUNTIME_USER_ID);
   const publishedExams = repository.exams.filter((exam) => exam.status === 'published').sort((left, right) => left.order - right.order);
   const examProgress = publishedExams.map((exam) => {
     const subjects = repository.subjects.filter((subject) => subject.examId === exam.id);
@@ -83,7 +84,7 @@ export default function HomeScreen() {
       <View style={styles.homeHeader}>
         <View style={styles.headerCopy}>
           <ThemedText type="small" style={styles.dateText}>{formatSwedishDate(new Date())}</ThemedText>
-          <ThemedText style={styles.greeting}>{greetingForHour(new Date().getHours())}, {displayNameFromUserId(RUNTIME_USER_ID)}</ThemedText>
+          <ThemedText style={styles.greeting}>{formatGreeting(greetingForHour(new Date().getHours()), displayName)}</ThemedText>
         </View>
         <Pressable accessibilityRole="button" accessibilityLabel="Öppna notiser" style={({ pressed }) => [styles.notificationButton, pressed && styles.pressed]}>
           <NotificationBell />
@@ -191,9 +192,13 @@ function examOrderForSubject(repository: ReturnType<typeof getRuntimeMetadataRep
 }
 
 function displayNameFromUserId(userId: string) {
-  if (userId === 'local-demo-user') return 'Bedder';
+  if (userId === 'local-demo-user') return undefined;
   const readable = userId.split('@')[0]?.split('-')[0];
-  return readable ? readable.charAt(0).toUpperCase() + readable.slice(1) : 'förare';
+  return readable ? readable.charAt(0).toUpperCase() + readable.slice(1) : undefined;
+}
+
+function formatGreeting(greeting: string, displayName?: string) {
+  return displayName ? `${greeting}, ${displayName}` : greeting;
 }
 
 function greetingForHour(hour: number) {

@@ -1,30 +1,36 @@
 # Supabase Live E2E Verification
 
-Generated: 2026-09-11
+Generated: 2026-10-07
 
 ## Result
 
-Live Supabase/Auth E2E verification was stopped at the prerequisite gate. The current workspace does not contain the configured live Supabase environment or authenticated test users required to verify the real project.
+Live Supabase/Auth E2E verification reached the configured-environment gate but failed at real network/Auth reachability.
 
-No live database, Auth, RLS, persistence, resume, timeout, idempotency or immutability claims are made in this document.
+The workspace has a `.env` file with the client-safe Supabase URL, anon/public key, and two configured E2E user credential sets. No secrets or passwords were printed. A real network check against the configured Supabase host failed with DNS `ENOTFOUND`, so Auth and downstream live flows could not be executed.
+
+No live database, RLS, persistence, resume, timeout, idempotency or immutability PASS claims are made.
 
 ## Environment Used
 
 - Workspace: `C:\taxitheory\taxiteori`
-- Supabase environment: NOT CONFIGURED
+- Supabase environment file: configured
 - App Supabase runtime variables expected by `src/lib/supabaseClient.ts`:
   - `EXPO_PUBLIC_SUPABASE_URL`
   - `EXPO_PUBLIC_SUPABASE_ANON_KEY`
-- Secrets/keys printed: NO
+- Two E2E test-user credential sets: configured
+- Secrets/keys/passwords printed: NO
 
 ## Prerequisite Gate
 
 | Prerequisite | Status | Evidence |
 | --- | --- | --- |
-| `SUPABASE_URL` or app-equivalent URL exists | FAIL | No `.env*` file found. No `SUPABASE_URL`, `EXPO_PUBLIC_SUPABASE_URL` or `VITE_SUPABASE_URL` process environment variable was present. |
-| Anon/public key exists | FAIL | No `.env*` file found. No `SUPABASE_ANON_KEY`, `SUPABASE_PUBLIC_KEY`, `EXPO_PUBLIC_SUPABASE_ANON_KEY` or `VITE_SUPABASE_ANON_KEY` process environment variable was present. |
-| Migrations are applied to actual Supabase project | NOT_TESTED | Live project connection unavailable. Local migration files exist but do not prove applied live state. |
-| At least two test users can authenticate | FAIL | No `TEST_USER_A_*`, `TEST_USER_B_*`, `E2E_USER_A_*` or `E2E_USER_B_*` credentials were present. Auth cannot be verified. |
+| App-equivalent Supabase URL exists | PASS | `.env` contains a configured Supabase URL. |
+| Anon/public key exists | PASS | `.env` contains a configured client-safe key. |
+| At least two test users configured | PASS | `.env` contains User A and User B credential variable sets. |
+| Supabase host reachable | FAIL | `fetch` failed with DNS `ENOTFOUND` for the configured Supabase host. |
+| User A authentication | FAIL | Auth request could not reach the configured host. |
+| User B authentication | FAIL | Auth request could not reach the configured host. |
+| Migrations applied to actual project | NOT_TESTED | Live project could not be reached. |
 
 ## Local Migration Files Present
 
@@ -33,16 +39,17 @@ These files exist locally:
 - `supabase/migrations/202609090001_learning_foundation.sql`
 - `supabase/migrations/202609090002_official_curriculum_foundation.sql`
 - `supabase/migrations/202609100001_attempt_persistence.sql`
+- `supabase/migrations/202609100002_attempt_persistence_policies.sql`
 
-The local attempt persistence migration contains schema/policy changes for:
+Local migration evidence includes:
 
-- attempt status values `timed_out` and `abandoned`
+- attempt statuses `timed_out` and `abandoned`
 - `attempts.blueprint_version`
 - `attempt_questions.scoring_role`
 - `attempt_questions.question_snapshot`
 - lesson progress persistence by `lesson_key`
 - answer persistence with stable client attempt/question IDs
-- RLS policies limiting attempts, attempt questions, answers and lesson progress to the authenticated user
+- RLS policies for authenticated user-owned progress, attempts, attempt questions and answers
 
 This is local schema evidence only. The actual Supabase project schema was not reached.
 
@@ -50,34 +57,30 @@ This is local schema evidence only. The actual Supabase project schema was not r
 
 | Area | Status | Notes |
 | --- | --- | --- |
-| Migration applied successfully | NOT_TESTED | Blocked by missing live Supabase URL/key. |
-| Expected tables/columns exist live | NOT_TESTED | Blocked by missing live Supabase URL/key. |
-| Attempt statuses `active`/`completed`/`timed_out`/`abandoned` supported live | NOT_TESTED | Local migrations show `timed_out`/`abandoned`; live schema not verified. |
+| Migration applied successfully | NOT_TESTED | Blocked by DNS failure to configured Supabase host. |
+| Expected tables/columns exist live | NOT_TESTED | Blocked by DNS failure. |
+| Attempt statuses `in_progress`/`completed`/`timed_out`/`abandoned` supported live | NOT_TESTED | Local migrations include them; live schema not verified. |
 | `blueprint_version` exists live | NOT_TESTED | Local migration includes it; live schema not verified. |
 | `scoring_role` exists live | NOT_TESTED | Local migration includes it; live schema not verified. |
-| Frozen question snapshots persist live | NOT_TESTED | Local migration includes `question_snapshot`; live persistence not verified. |
-| Lesson completion persists live | NOT_TESTED | Requires authenticated live user. |
-| Answers persist live | NOT_TESTED | Requires authenticated live user. |
-| Auth verified | FAIL | No configured live credentials for two test users. |
-| User A lesson persistence | NOT_TESTED | Blocked at prerequisite gate. |
-| User A checkpoint resume | NOT_TESTED | Blocked at prerequisite gate. |
-| D1 mock resume | NOT_TESTED | Blocked at prerequisite gate. |
-| D2 mock resume | NOT_TESTED | Blocked at prerequisite gate. |
-| Timeout flow | NOT_TESTED | Blocked at prerequisite gate. |
-| RLS: User B cannot read/mutate User A state | NOT_TESTED | Blocked by missing live credentials. |
-| User B own-state access | NOT_TESTED | Blocked by missing live credentials. |
-| Idempotency | NOT_TESTED | Blocked at prerequisite gate. |
-| Immutability after completed/timed-out attempts | NOT_TESTED | Blocked at prerequisite gate. |
-| Recoverable network/write/resume errors | NOT_TESTED | Blocked at prerequisite gate. |
+| Frozen question snapshots persist live | NOT_TESTED | Requires reachable live database. |
+| Auth verified | FAIL | Configured host was not resolvable from this machine. |
+| User A lesson persistence | NOT_TESTED | Blocked by Auth/network failure. |
+| User A checkpoint resume | NOT_TESTED | Blocked by Auth/network failure. |
+| D1 mock resume | NOT_TESTED | Blocked by Auth/network failure. |
+| D2 mock resume | NOT_TESTED | Blocked by Auth/network failure. |
+| Timeout flow | NOT_TESTED | Blocked by Auth/network failure. |
+| RLS: User B cannot read/mutate User A state | NOT_TESTED | Blocked by Auth/network failure. |
+| User B own-state access | NOT_TESTED | Blocked by Auth/network failure. |
+| Idempotency | NOT_TESTED | Blocked by Auth/network failure. |
+| Immutability after completed/timed-out attempts | NOT_TESTED | Blocked by Auth/network failure. |
+| Recoverable network/write/resume errors | NOT_TESTED | Network failure detected before app flow could run. |
 
-## Unresolved Issues
+## Required Action Before Rerun
 
-- Missing configured live Supabase URL.
-- Missing configured live Supabase anon/public key.
-- Missing two authenticated test-user credential sets.
-- Live migration status cannot be verified without a reachable configured Supabase project.
-- Live Auth, persistence, resume, timeout, RLS, idempotency and immutability remain unverified.
+- Verify the configured Supabase project ref/URL is correct.
+- Verify DNS/network access to the configured `*.supabase.co` host from the development machine.
+- After the host resolves, rerun the live Auth and persistence audit.
 
 ## Beta Readiness Impact
 
-Beta-ready remains NO because the required live Supabase/Auth verification did not run.
+Beta-ready remains NO because live Supabase/Auth verification did not pass.
