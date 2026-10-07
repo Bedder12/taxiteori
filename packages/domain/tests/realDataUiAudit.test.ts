@@ -100,6 +100,8 @@ export function testRealDataUiRoutesLoadOnlyRequiredContentScopes() {
 
 export async function testRealDataUiQuestionAndLessonLoadersStayExamAndSubjectScoped() {
   const metadata = getRuntimeMetadataRepository();
+  assert.equal(metadata.questionVersions.length, 0, 'Startup metadata must not instantiate question-bank objects.');
+  assert.ok(metadata.lessons.every((lesson) => lesson.blocks.length === 0), 'Startup metadata must not instantiate lesson bodies.');
   const d1SubjectIds = metadata.subjects.filter((subject) => metadata.exams.find((exam) => exam.id === subject.examId)?.code === 'D1').map((subject) => subject.id);
   const d2SubjectIds = metadata.subjects.filter((subject) => metadata.exams.find((exam) => exam.id === subject.examId)?.code === 'D2').map((subject) => subject.id);
   const taxiSubjectId = 'subject_d2_taxitrafiklagstiftning';

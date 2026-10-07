@@ -6,14 +6,14 @@ Date: 2026-10-07
 
 The beta audit marked bundle/loading readiness FAIL without naming a size threshold or a failing build. This document recorded that route-level network loading had not been measured. The production export and route requests are now measured below.
 
-The active route graph had an additional, concrete overfetch: subject, topic, lesson, checkpoint, mock and result routes all called the full subject repository loader. That loader imported facts, lessons, questions and some visual metadata even when the route needed only metadata, lesson bodies or questions.
+The previous active route graph had a concrete overfetch: subject, topic, lesson, checkpoint, mock and result routes called the full subject repository loader. That loader imported facts, lessons, questions and some visual metadata even when a route needed only metadata, lesson bodies or questions. Active routes now use metadata-only, lesson-only or question-only paths as appropriate.
 
-## Active Runtime Loading
+## A. Runtime Loading Behavior
 
 | Caller | Previous data need | Runtime path |
 | --- | --- | --- |
 | App startup / Home / Plugga / D1-D2 path / Subject / Topic / Prov / Profile | shell, progress and lightweight course index | `getRuntimeMetadataRepository()` + runtime state; no authored content loader |
-| Lesson / module | lesson bodies for the selected subject | `loadRuntimeLessonRepository(subjectIds)` |
+| Lesson / module | lesson bodies for the selected subject only | `loadRuntimeLessonRepository(subjectIds)`; no question, fact or visual-manifest bodies |
 | Topic or subject checkpoint | questions for the assessment's subject | `loadRuntimeQuestionRepository([subjectId])` |
 | D1 mock | D1 question banks only | `loadRuntimeQuestionRepository(D1 subject ids)` |
 | D2 mock | D2 question banks only | `loadRuntimeQuestionRepository(D2 subject ids)` |
@@ -28,12 +28,15 @@ The active route graph had an additional, concrete overfetch: subject, topic, le
 - `loadRuntimeRepository(subjectIds)` remains a full-content compatibility loader for audit/test tooling; active routes do not call it.
 - `contentLoader.ts` owns all JSON dynamic imports; UI screens do not import JSON directly.
 - `runtimeLearningState.ts` owns active app state, resume, answer persistence and attempt finalization without importing the aggregate repository.
+- Startup metadata is 126,172 bytes (~123 KiB); it contains indexes and lightweight lesson descriptors. It contains no question versions or lesson content blocks. `getRuntimeMetadataRepository()` constructs zero question objects, and the route regression test guards that invariant.
+- Opening D1 returns only its 503 question versions; opening D2 returns only its 321 question versions. The loader is invoked by assessment/mock routes, not during startup or Home rendering. Subject lesson requests likewise select only that subject's lesson JSON.
+- Result/review uses the question-only loader for the frozen attempt's subject IDs; it no longer calls the full-content compatibility loader.
 
 ## Compatibility
 
 `packages/domain/src/vilotiderRepository.ts` and `src/lib/learningStore.ts` remain as compatibility adapters for domain tests and content/audit scripts. No active route imports them.
 
-## Production Bundle Measurement
+## B. Physical Production Bundle Packaging
 
 Historical Expo web-export measurements in this repository:
 
@@ -45,7 +48,7 @@ Historical Expo web-export measurements in this repository:
 
 Current production export (`npx expo export --platform web`):
 
-- initial web JS entry: 1,661,767 bytes (1.58 MiB raw; 425,024 bytes gzip), down approximately 0.74 MB raw from the previously documented ~2.4 MB entry;
+- initial web JS entry: 1,660,201 bytes (1.58 MiB raw; 423,794 bytes gzip), down approximately 0.74 MB raw from the previously documented ~2.4 MB entry;
 - 39 additional JS chunks are emitted, including 11 subject/source-specific question chunks;
 - authored question JSON: 1,701,626 bytes across 11 files; facts/lesson JSON: 796,925 bytes; curriculum JSON: 495,155 bytes;
 - runtime metadata JSON: 126,172 bytes;
@@ -57,10 +60,12 @@ Current production export (`npx expo export --platform web`):
 
 The current native production export (`npx expo export --platform ios --platform android`) emits one Hermes bytecode bundle per platform and no dynamic question-bank chunks:
 
-- iOS HBC: 4,558,636 bytes;
-- Android HBC: 4,874,214 bytes.
+- iOS HBC: 4,554,519 bytes (~4.56 MB);
+- Android HBC: 4,874,448 bytes (~4.87 MB).
 
-Metro includes the authored question-bank modules in those single native bundles. Runtime calls still select only the requested subject IDs, but native startup/package delivery does not physically split D1 and D2 question payloads. This is the remaining P1 loading blocker; the current Expo native export path provides no route-level native chunks. No prior native bundle baseline is documented.
+Metro includes the authored question-bank modules in those single native bundles. This is an accepted Expo/React Native production packaging characteristic, not a runtime-loading defect or beta gate by itself. These measured HBC sizes are retained as optimization baselines; there is no prior native baseline. Web output remains physically split: Home requested the entry only; D1 requested its eight question chunks, and D2 its three source question chunks without the other exam's question chunks.
+
+> Native Expo/Hermes production builds package JavaScript into a single platform HBC. Web-style production code splitting is not treated as a beta requirement. Runtime data initialization remains scoped.
 
 ## Loading States
 
@@ -68,14 +73,18 @@ Lesson, checkpoint, mock and result screens retain loading/error states while th
 
 Teoriboken search uses indexed exam, subject, topic and lesson titles. It does not load full lesson bodies or question banks.
 
+## C. Web Hosting and Deep Links
+
+Production-host dynamic deep-link refresh behavior is NOT_TESTED / deployment-specific because the actual hosting rewrite configuration has not been tested. A local static-server root fallback served Home HTML for a parameterized route and produced React hydration error #418; that local setup is not evidence that the production deployment is broken. No routing architecture changes are made based on that result.
+
 ## Visual Loading
 
-The 45 SVG files (81,585 source bytes) and visual manifest are not imported by active routes and are not present in the production web or native exports. There are no base64 data URLs in active source/runtime modules. Question and lesson scoped loaders do not include visual metadata files. The current active UI does not yet render these authored SVG assets; the lesson media fallback remains text. SVG rendering integration and real-device visual behavior are NOT_TESTED here.
+The production web export emits six subject-specific visual-metadata JS chunks; they are not requested by the cold Home route or by question-only/lesson-only runtime loaders. Full-content compatibility loader entries can reference visual JSON, but active routes do not call that loader. The native package is a single HBC as described above, so physical module inclusion is not a measure of runtime initialization. The 45 authored SVG files total 81,585 source bytes; there are no base64 data URLs in active source/runtime modules. The current active UI does not yet render these authored SVG assets; the lesson media fallback remains text. SVG rendering integration and real-device visual behavior are NOT_TESTED here.
 
-## Bundle Readiness
+## Bundle/Loading Readiness
+
+PASS — production exports succeed, web route requests are split and scoped, and runtime initialization stays scoped on web and native. Expo's single-HBC native packaging is accepted; its measured size remains a future optimization baseline. No full question bank is parsed or instantiated during startup or Home rendering.
 
 P0: none identified by this audit.
 
-P1: native iOS/Android output remains a single 4.56/4.87 MB HBC bundle containing all question-bank modules, so native D1/D2 bank payloads are not separate from the initial JS bundle. Resolving this requires a native-compatible raw content asset or remote-content delivery approach; no schema change is required for a packaged asset approach, but it is a separate architecture decision.
-
-Informational: web output is production-split and route-request tested; the old FAIL entry had no recorded numeric threshold, and the older web baseline is approximate. The local static-server smoke used a root fallback for concrete dynamic URLs; this produced React hydration error #418 because the fallback served the Home HTML. No production host rewrite configuration exists here, so dynamic deep-link refresh behavior remains NOT_TESTED against the actual host.
+P1: real-device production visual/performance QA remains NOT_TESTED and is the remaining beta-readiness phase. Production-host dynamic deep-link refresh remains NOT_TESTED / deployment-specific; it is separate from bundle/loading readiness and is not inferred to be broken from the local static-server result.

@@ -10,7 +10,7 @@ import { AppCard, AppHeader, ProgressBar, Section, StatPill } from '@/components
 import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getAttemptReview, getRevisitRecommendations } from '@/features/quiz/selectors';
 import { getRuntimeState } from '@/lib/runtimeLearningState';
-import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
+import { getRuntimeMetadataRepository, loadRuntimeQuestionRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function ResultScreen() {
   const { attemptId } = useLocalSearchParams<{ attemptId: string }>();
@@ -23,7 +23,7 @@ export default function ResultScreen() {
 
   useEffect(() => {
     if (!subjectIds.length) return;
-    void loadRuntimeRepository(subjectIds).then(setRepository).catch(setLoadError).finally(() => setLoading(false));
+    void loadRuntimeQuestionRepository(subjectIds).then(setRepository).catch(setLoadError).finally(() => setLoading(false));
   }, [attemptId]);
 
   if (!attempt) {

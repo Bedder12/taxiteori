@@ -21,11 +21,12 @@ export default function ProvScreen() {
       exams.map((exam) => {
         const blueprint = repository.examBlueprints.find((candidate) => candidate.examId === exam.id && candidate.type === 'mock_exam' && candidate.active);
         if (!blueprint) return null;
+        const duration = blueprint.timeLimitSeconds ? ` · ${Math.ceil(blueprint.timeLimitSeconds / 60)} minuter` : '';
         return (
           <Link key={exam.id} href={{ pathname: '/exam/[examId]/mock', params: { examId: exam.id } } as unknown as Href} asChild>
             <Pressable style={({ pressed }) => [styles.card, pressed && styles.pressed]}>
               <ThemedText type="subtitle">{exam.title}</ThemedText>
-              <ThemedText themeColor="textSecondary">Fullständigt övningsprov · {blueprint.totalDisplayedQuestionCount} frågor · 50 minuter</ThemedText>
+              <ThemedText themeColor="textSecondary">Fullständigt övningsprov · {blueprint.totalDisplayedQuestionCount} frågor{duration}</ThemedText>
               <ThemedText type="smallBold">Starta prov</ThemedText>
             </Pressable>
           </Link>

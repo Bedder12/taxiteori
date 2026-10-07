@@ -9,7 +9,7 @@ Generated: 2026-10-07
 - Visual completeness: PASS
 - Mock readiness: PASS
 - UI real-data audit: PASS
-- Bundle/loading readiness: FAIL
+- Bundle/loading readiness: PASS
 - Supabase environment variables: PASS
 - Supabase project reachability: PASS
 - Supabase live Auth: PASS
@@ -42,16 +42,24 @@ Generated: 2026-10-07
 - Live timeout, RLS isolation, idempotency and post-finalization immutability passed.
 - Persistence fixes use explicit in-progress finalization and handle absent optional passing-score metadata without producing `NaN`.
 
+## Bundle/Loading Readiness
+
+- Runtime startup reads compact metadata (126,172 bytes, about 123 KiB) and persisted progress; it does not deserialize or instantiate the 824-question bank.
+- Home uses metadata and progress only. D1 and D2 assessment routes invoke subject-scoped question loaders; regression coverage verifies the returned D1/D2 banks do not include the other exam's questions.
+- Lesson/module routes load lesson JSON for the selected subject only. Teoriboken search uses the indexed lesson-title metadata without loading lesson bodies.
+- Production web, iOS and Android exports: PASS. Web entry: 1,660,201 bytes raw / 423,794 bytes gzip; iOS HBC: 4,554,519 bytes (~4.56 MB); Android HBC: 4,874,448 bytes (~4.87 MB).
+- Native Expo/Hermes production builds package JavaScript into a single platform HBC. Web-style production code splitting is not treated as a beta requirement. Runtime data initialization remains scoped.
+- Production-host dynamic deep-link refresh: NOT_TESTED / deployment-specific. The local static-server fallback result is not evidence of a production routing defect and is separate from bundle/loading readiness.
+
 ## Remaining Work
 
 Remaining P0:
 
-- None identified by the completed D2 content and live persistence gates.
+- None identified by the completed D2 content, persistence and bundle/loading gates.
 
 Remaining P1:
 
-- Native Expo output is one 4.56 MB iOS / 4.87 MB Android Hermes bundle containing the D1 and D2 question-bank modules; native Metro export does not emit lazy question-bank chunks. Web startup and route-level question isolation pass, but the requested native initial-bundle split is not met.
-- Verify production visual rendering in a real device build before public launch.
+- Verify production visual rendering and real-device performance in a real device build before public launch (NOT_TESTED).
 
 Remaining P2:
 
@@ -59,13 +67,6 @@ Remaining P2:
 
 ## Decision
 
-Bundle/loading evidence:
-
-- Production web export: PASS; initial entry is 1,661,767 bytes raw / 425,024 bytes gzip, with 39 additional JS chunks.
-- Cold web Home requests the entry only. D1 mock requests only D1 question chunks; D2 mock requests only D2 question chunks.
-- Native iOS/Android export: FAIL for the requested split; each platform emits one HBC bundle containing all authored question-bank modules.
-- Route regression tests verify metadata-only screens, question-only routes, lesson-only routes, and D1/D2 subject isolation.
-
 Beta-ready: NO
 
-Reason: D2 source-authored assessments and all requested D2 live gates are PASS. Beta remains blocked by native bundle/loading readiness (FAIL) and real-device visual rendering (NOT_TESTED).
+Reason: D2 source-authored assessments and all requested D2 live gates are PASS. Bundle/loading readiness is PASS. Real-device visual rendering and performance QA remain NOT_TESTED and are the next/final beta-readiness phase. Production-host dynamic deep-link refresh is also NOT_TESTED / deployment-specific and must be verified against the actual host, independently of bundle/loading readiness.
