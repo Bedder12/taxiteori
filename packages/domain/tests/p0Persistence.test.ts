@@ -67,6 +67,9 @@ export function testP0FinalizationIsIdempotent() {
 export function testP0SupabaseMigrationContainsSecurityAndFrozenStateFields() {
   const migration = readFileSync(resolve(root, 'supabase/migrations/202609100001_attempt_persistence.sql'), 'utf8');
   const policyMigration = readFileSync(resolve(root, 'supabase/migrations/202609100002_attempt_persistence_policies.sql'), 'utf8');
+  const privilegesMigration = readFileSync(resolve(root, 'supabase/migrations/202609100003_persistence_privileges_idempotency.sql'), 'utf8');
+  const nullabilityMigration = readFileSync(resolve(root, 'supabase/migrations/202609100004_client_key_persistence_nullability.sql'), 'utf8');
+  const adapter = readFileSync(resolve(root, 'src/lib/supabaseLearningPersistence.ts'), 'utf8');
   for (const field of ['blueprint_version', 'scoring_role', 'timed_out', 'client_attempt_id', 'question_snapshot', 'lesson_key']) {
     assert.ok(migration.includes(field), `${field} is missing from the persistence migration.`);
   }
@@ -88,4 +91,27 @@ export function testP0SupabaseMigrationContainsSecurityAndFrozenStateFields() {
   assert.match(migration, /coalesce\(lessons\.stable_key, lesson_progress\.lesson_id::text\)/);
   assert.match(migration, /duplicate user_id\/lesson_key rows/);
   assert.match(migration, /lesson_progress_lesson_key_not_blank/);
+
+  for (const table of ['lesson_progress', 'attempts', 'attempt_questions', 'answers']) {
+    assert.match(privilegesMigration, new RegExp(`grant select, insert, update on table ${table} to authenticated`));
+  }
+  assert.doesNotMatch(privilegesMigration, /grant .* to anon/i);
+  assert.doesNotMatch(privilegesMigration, /disable row level security/i);
+  assert.match(privilegesMigration, /duplicate user_id\/client_attempt_id rows/);
+  assert.match(privilegesMigration, /attempts_user_client_attempt_id_key unique \(user_id, client_attempt_id\)/);
+  assert.match(privilegesMigration, /attempt_questions_user_client_order_key unique \(user_id, client_attempt_id, display_order\)/);
+  assert.match(privilegesMigration, /answers_user_client_question_key unique \(user_id, client_attempt_id, client_attempt_question_id\)/);
+  assert.match(privilegesMigration, /auth\.uid\(\) = user_id/);
+
+  assert.match(adapter, /onConflict: 'user_id,client_attempt_id'/);
+  assert.match(adapter, /\.select\('id'\)\.single\(\)/);
+  assert.match(adapter, /attempt_id: savedAttempt\.id/);
+  assert.match(adapter, /user_id: userId,\s+client_attempt_id: attempt\.id/s);
+  assert.match(adapter, /onConflict: 'user_id,client_attempt_id,display_order'/);
+  assert.match(adapter, /\.select\('id,attempt_id'\)/);
+  assert.match(adapter, /attempt_question_id: remoteQuestion\.id/);
+  assert.match(adapter, /onConflict: 'user_id,client_attempt_id,client_attempt_question_id'/);
+
+  assert.match(nullabilityMigration, /alter table attempt_questions\s+alter column attempt_id drop not null/s);
+  assert.match(nullabilityMigration, /alter column attempt_question_id drop not null/);
 }

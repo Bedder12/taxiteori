@@ -38,7 +38,7 @@ export class SupabaseLearningPersistence {
   async saveAttempt(attempt: Attempt, questionSnapshots: PersistenceRow[]) {
     const userId = await this.userId();
     const isMock = attempt.type === 'mock_exam';
-    const { error: attemptError } = await this.client.from('attempts').upsert({
+    const { data: savedAttempt, error: attemptError } = await this.client.from('attempts').upsert({
       client_attempt_id: attempt.id,
       user_id: userId,
       assessment_key: isMock ? null : attempt.assessmentId,
@@ -54,12 +54,13 @@ export class SupabaseLearningPersistence {
       total_questions: attempt.totalQuestions,
       pass_threshold: attempt.passThreshold,
       passed: attempt.passed ?? null,
-    }, { onConflict: 'client_attempt_id' });
+    }, { onConflict: 'user_id,client_attempt_id' }).select('id').single();
     if (attemptError) throw new LearningPersistenceError('Could not save attempt.', attemptError);
 
     const { error: questionError } = await this.client.from('attempt_questions').upsert(
       attempt.questions.map((question, index) => ({
-        attempt_id: null,
+        attempt_id: savedAttempt.id,
+        user_id: userId,
         client_attempt_id: attempt.id,
         client_attempt_question_id: question.id,
         question_key: question.questionId,
@@ -70,14 +71,25 @@ export class SupabaseLearningPersistence {
         subject_key: question.subjectId,
         question_snapshot: questionSnapshots[index] ?? {},
       })),
-      { onConflict: 'client_attempt_id,display_order' },
+      { onConflict: 'user_id,client_attempt_id,display_order' },
     );
     if (questionError) throw new LearningPersistenceError('Could not save frozen attempt questions.', questionError);
   }
 
   async saveAnswer(attempt: Attempt, answer: Answer) {
     const userId = await this.userId();
+    const { data: remoteQuestion, error: questionError } = await this.client
+      .from('attempt_questions')
+      .select('id,attempt_id')
+      .eq('user_id', userId)
+      .eq('client_attempt_id', attempt.id)
+      .eq('client_attempt_question_id', answer.attemptQuestionId)
+      .single();
+    if (questionError) throw new LearningPersistenceError('Could not load frozen attempt question for answer persistence.', questionError);
+
     const { error } = await this.client.from('answers').upsert({
+      attempt_id: remoteQuestion.attempt_id,
+      attempt_question_id: remoteQuestion.id,
       client_attempt_id: attempt.id,
       client_attempt_question_id: answer.attemptQuestionId,
       user_id: userId,
@@ -85,7 +97,7 @@ export class SupabaseLearningPersistence {
       correct: answer.correct,
       answered_at: answer.answeredAt,
       unanswered: answer.unanswered ?? false,
-    }, { onConflict: 'client_attempt_id,client_attempt_question_id' });
+    }, { onConflict: 'user_id,client_attempt_id,client_attempt_question_id' });
     if (error) throw new LearningPersistenceError('Could not save answer.', error);
   }
 
