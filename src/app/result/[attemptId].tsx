@@ -120,7 +120,7 @@ export default function ResultScreen() {
       </Section>
 
       <Link href={resultDestination as unknown as Href} asChild>
-        <PrimaryButton>{isMock ? 'Tillbaka till Prov' : assessment?.topicId ? 'Tillbaka till ämnet' : 'Tillbaka till modulen'}</PrimaryButton>
+        <PrimaryButton>{isMock ? 'Tillbaka till Prov' : assessment?.topicId ? 'Tillbaka till ämnet' : 'Tillbaka till delprovet'}</PrimaryButton>
       </Link>
     </Screen>
   );

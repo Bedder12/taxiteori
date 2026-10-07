@@ -34,7 +34,8 @@ export default function TheoryBookScreen() {
         if (!exam || !subject || lessons.length === 0) return false;
         if (filter !== 'all' && exam.code !== filter) return false;
         if (!normalizedQuery) return true;
-        return `${exam.title} ${subject.title} ${topic.title}`.toLowerCase().includes(normalizedQuery);
+        const lessonTitles = lessons.map((lesson) => lesson.title).join(' ');
+        return `${exam.title} ${subject.title} ${topic.title} ${lessonTitles}`.toLowerCase().includes(normalizedQuery);
       })
       .sort((left, right) => {
         const examOrder = (left.exam?.order ?? 0) - (right.exam?.order ?? 0);

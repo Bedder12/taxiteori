@@ -1,5 +1,5 @@
 import { Link, type Href, useFocusEffect, useLocalSearchParams } from 'expo-router';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
@@ -10,15 +10,13 @@ import { AppCard, AppHeader, ProgressBar, Section } from '@/components/ui/founda
 import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getTopicView } from '@/features/learn/selectors';
 import { RUNTIME_USER_ID, getRuntimeState } from '@/lib/runtimeLearningState';
-import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
+import { getRuntimeMetadataRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function TopicScreen() {
   const { topicId } = useLocalSearchParams<{ topicId: string }>();
   const metadataRepository = getRuntimeMetadataRepository();
   const metadataTopic = metadataRepository.topics.find((topic) => topic.id === topicId);
   const [snapshot, setSnapshot] = useState(() => ({ repository: metadataRepository, state: getRuntimeState() }));
-  const [loading, setLoading] = useState(true);
-  const [loadError, setLoadError] = useState<Error>();
 
   useFocusEffect(
     useCallback(() => {
@@ -26,18 +24,10 @@ export default function TopicScreen() {
     }, []),
   );
 
-  useEffect(() => {
-    if (!metadataTopic) return;
-    setLoading(true);
-    void loadRuntimeRepository([metadataTopic.subjectId]).then((repository) => setSnapshot({ repository, state: getRuntimeState() })).catch(setLoadError).finally(() => setLoading(false));
-  }, [metadataTopic?.subjectId]);
-
   const { repository, state } = snapshot;
   const view = getTopicView(repository, topicId, state.facts, RUNTIME_USER_ID);
   const learningPercent = view.progress?.learningPercent ?? 0;
 
-  if (loadError) return <ThemedText>Momentet kunde inte laddas. Försök igen.</ThemedText>;
-  if (loading && !view.topic) return <ThemedText>Laddar moment...</ThemedText>;
   if (!view.topic) {
     return <ThemedText>Momentet hittades inte.</ThemedText>;
   }

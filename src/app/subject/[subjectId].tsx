@@ -1,5 +1,5 @@
 import { Link, type Href, useFocusEffect, useLocalSearchParams } from 'expo-router';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { PrimaryButton } from '@/components/layout/PrimaryButton';
@@ -9,13 +9,11 @@ import { AppCard, AppHeader, BottomNav, ProgressBar, Section, StatPill } from '@
 import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getSubjectView, getTopicCardView } from '@/features/learn/selectors';
 import { RUNTIME_USER_ID, getRuntimeState } from '@/lib/runtimeLearningState';
-import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
+import { getRuntimeMetadataRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function SubjectScreen() {
   const { subjectId } = useLocalSearchParams<{ subjectId: string }>();
   const [snapshot, setSnapshot] = useState(() => ({ repository: getRuntimeMetadataRepository(), state: getRuntimeState() }));
-  const [loading, setLoading] = useState(true);
-  const [loadError, setLoadError] = useState<Error>();
 
   useFocusEffect(
     useCallback(() => {
@@ -23,18 +21,11 @@ export default function SubjectScreen() {
     }, []),
   );
 
-  useEffect(() => {
-    setLoading(true);
-    void loadRuntimeRepository([subjectId]).then((repository) => setSnapshot({ repository, state: getRuntimeState() })).catch(setLoadError).finally(() => setLoading(false));
-  }, [subjectId]);
-
   const { repository, state } = snapshot;
   const view = getSubjectView(repository, subjectId, state.facts, RUNTIME_USER_ID);
   const lessonsDone = view.progress.learningPercent === 100;
   const moduleDone = lessonsDone && view.progress.checkpointPassed;
 
-  if (loadError) return <ThemedText>Ämnet kunde inte laddas. Försök igen.</ThemedText>;
-  if (loading && !view.subject) return <ThemedText>Laddar ämne...</ThemedText>;
   if (!view.subject) {
     return <ThemedText>Ämnet hittades inte.</ThemedText>;
   }
@@ -45,14 +36,16 @@ export default function SubjectScreen() {
         <AppHeader
           eyebrow="Utbildningsmodul"
           title={view.subject.title}
-          description="Läs momenten i ordning, kontrollera grunderna och avsluta modulen med ämnesfrågor."
+          description="Läs momenten i ordning och gör de checkpoints som hör till innehållet."
         />
       }>
       <AppCard muted>
         <ProgressBar value={moduleDone ? 100 : view.progress.learningPercent} />
         <View style={styles.stats}>
           <StatPill label="Lärmaterial" value={`${view.progress.completedLessons}/${view.progress.totalLessons}`} />
-          <StatPill label="Frågor" value={view.progress.checkpointPassed ? 'Klara' : 'Kvar'} tone={view.progress.checkpointPassed ? 'success' : 'warning'} />
+          {view.checkpointAssessment ? (
+            <StatPill label="Ämnesfrågor" value={view.progress.checkpointPassed ? 'Klara' : 'Kvar'} tone={view.progress.checkpointPassed ? 'success' : 'warning'} />
+          ) : null}
           <StatPill label="Modul" value={moduleDone ? 'Klar' : lessonsDone ? 'Frågor kvar' : 'Pågår'} tone={moduleDone ? 'success' : 'default'} />
         </View>
       </AppCard>

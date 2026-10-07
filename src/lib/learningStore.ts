@@ -97,8 +97,8 @@ function finalizeTimedOutAttempt(attempt: Attempt) {
     facts: [...state.facts, completedAttemptFact(result.attempt)],
   });
   persist(async () => {
+    for (const answer of result.answers) await backendPersistence!.saveAnswer(attempt, answer);
     await backendPersistence!.saveAttempt(result.attempt, questionSnapshots(result.attempt));
-    for (const answer of result.answers) await backendPersistence!.saveAnswer(result.attempt, answer);
   });
   return result.attempt;
 }
@@ -322,8 +322,8 @@ export function submitAttempt(attemptId: string, selectedChoicesByAttemptQuestio
   };
   writeState(nextState);
   persist(async () => {
+    for (const answer of result.answers) await backendPersistence!.saveAnswer(attempt, answer);
     await backendPersistence!.saveAttempt(result.attempt, questionSnapshots(result.attempt));
-    for (const answer of result.answers) await backendPersistence!.saveAnswer(result.attempt, answer);
   });
   return result;
 }

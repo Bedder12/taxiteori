@@ -1,5 +1,5 @@
 import metadata from '../../../data/runtime-learning-metadata.json';
-import { loadSubjectContent } from './contentLoader';
+import { loadSubjectContent, loadSubjectLessons, loadSubjectQuestions } from './contentLoader';
 import type { Assessment, ContentBlock, Course, ExamBlueprint, LearningRepository, Lesson, QuestionVersion, Source, Subject, Topic } from './types';
 
 type Raw = any;
@@ -95,6 +95,45 @@ function blueprints(): ExamBlueprint[] {
 
 export function getRuntimeMetadataRepository(): LearningRepository {
   return { course, exams, subjects, topics, lessons: metadataLessons, sources: [], questionVersions: [], examBlueprints: blueprints(), assessments, };
+}
+
+function scopedMetadata(subjectIds: string[]): LearningRepository {
+  const selected = new Set(subjectIds);
+  const repository = getRuntimeMetadataRepository();
+  const selectedTopics = topics.filter((topic) => selected.has(topic.subjectId));
+  const selectedTopicIds = new Set(selectedTopics.map((topic) => topic.id));
+  return {
+    ...repository,
+    topics: selectedTopics,
+    lessons: metadataLessons.filter((lesson) => selectedTopicIds.has(lesson.topicId)),
+    assessments: assessments.filter((assessment) => selected.has(assessment.subjectId ?? '')),
+  };
+}
+
+export async function loadRuntimeQuestionRepository(subjectIds: string[]) {
+  const requestedSubjects = [...new Set(subjectIds)].filter((subjectId) => subjectKeyById[subjectId]);
+  const loaded = await Promise.all(requestedSubjects.map(async (subjectId) => {
+    const key = subjectKeyById[subjectId];
+    const questions = await loadSubjectQuestions(key) as Raw;
+    return questions.questions.map((question: Raw) => toQuestion(question, questions.metadata?.reviewed_at));
+  }));
+  return {
+    ...scopedMetadata(requestedSubjects),
+    questionVersions: loaded.flat(),
+  } satisfies LearningRepository;
+}
+
+export async function loadRuntimeLessonRepository(subjectIds: string[]) {
+  const requestedSubjects = [...new Set(subjectIds)].filter((subjectId) => subjectKeyById[subjectId]);
+  const loaded = await Promise.all(requestedSubjects.map(async (subjectId) => {
+    const key = subjectKeyById[subjectId];
+    const content = await loadSubjectLessons(key) as Raw;
+    return content.lessons.map((lesson: Raw, index: number) => toLesson(lesson, index + 1));
+  }));
+  return {
+    ...scopedMetadata(requestedSubjects),
+    lessons: loaded.flat(),
+  } satisfies LearningRepository;
 }
 
 export async function loadRuntimeRepository(subjectIds: string[] = []) {

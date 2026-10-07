@@ -32,9 +32,59 @@ const loaders: Record<string, () => Promise<SubjectContent>> = {
   D2_TRAFFIC_LAW: async () => ({ facts: (await import('../../../data/content/d2-traffic-law/traffic-law-facts.json')).default, lessons: (await import('../../../data/content/d2-traffic-law/traffic-law-lessons.json')).default, questions: (await import('../../../data/questions/d2-traffic-law/traffic-law-questions.json')).default }),
 };
 
+const questionLoaders: Record<string, () => Promise<unknown>> = {
+  D1_NAVIGATION: async () => (await import('../../../data/questions/d1-navigation/navigation-questions.json')).default,
+  D1_ECO_DRIVING: async () => (await import('../../../data/questions/d1-eco-driving/eco-driving-questions.json')).default,
+  D1_ENVIRONMENT: async () => (await import('../../../data/questions/d1-environment/environment-questions.json')).default,
+  D1_SAFETY: async () => (await import('../../../data/questions/d1-safety/safety-questions.json')).default,
+  D1_SERVICE: async () => (await import('../../../data/questions/d1-service/service-questions.json')).default,
+  D1_HEALTH_DISABILITIES: async () => (await import('../../../data/questions/d1-health-disabilities/health-disabilities-questions.json')).default,
+  D1_WORK_ENVIRONMENT_RISK: async () => (await import('../../../data/questions/d1-work-environment-risk/work-environment-risk-questions.json')).default,
+  D1_VEHICLE_KNOWLEDGE: async () => (await import('../../../data/questions/d1-vehicle-knowledge/vehicle-questions.json')).default,
+  D2_TAXI_LAW: async () => {
+    const [remaining, vilotider] = await Promise.all([
+      import('../../../data/questions/d2-taxi-law/remaining-topics-questions.json'),
+      import('../../../data/questions/d2-taxi-law/vilotider-questions.json'),
+    ]);
+    return { ...remaining.default, questions: [...remaining.default.questions, ...vilotider.default.questions] };
+  },
+  D2_TRAFFIC_LAW: async () => (await import('../../../data/questions/d2-traffic-law/traffic-law-questions.json')).default,
+};
+
+const lessonLoaders: Record<string, () => Promise<unknown>> = {
+  D1_NAVIGATION: async () => (await import('../../../data/content/d1-navigation/navigation-lessons.json')).default,
+  D1_ECO_DRIVING: async () => (await import('../../../data/content/d1-eco-driving/eco-driving-lessons.json')).default,
+  D1_ENVIRONMENT: async () => (await import('../../../data/content/d1-environment/environment-lessons.json')).default,
+  D1_SAFETY: async () => (await import('../../../data/content/d1-safety/safety-lessons.json')).default,
+  D1_SERVICE: async () => (await import('../../../data/content/d1-service/service-lessons.json')).default,
+  D1_HEALTH_DISABILITIES: async () => (await import('../../../data/content/d1-health-disabilities/health-disabilities-lessons.json')).default,
+  D1_WORK_ENVIRONMENT_RISK: async () => (await import('../../../data/content/d1-work-environment-risk/work-environment-risk-lessons.json')).default,
+  D1_VEHICLE_KNOWLEDGE: async () => (await import('../../../data/content/d1-vehicle-knowledge/vehicle-lessons.json')).default,
+  D2_TAXI_LAW: async () => {
+    const [remaining, vilotider] = await Promise.all([
+      import('../../../data/content/d2-taxi-law/remaining-topics-lessons.json'),
+      import('../../../data/content/d2-taxi-law/vilotider-lessons.json'),
+    ]);
+    return { ...remaining.default, lessons: [...remaining.default.lessons, ...vilotider.default.lessons] };
+  },
+  D2_TRAFFIC_LAW: async () => (await import('../../../data/content/d2-traffic-law/traffic-law-lessons.json')).default,
+};
+
 export async function loadSubjectContent(subject: string) {
   const loader = loaders[subject];
   if (!loader) throw new Error(`No content loader exists for ${subject}.`);
+  return loader();
+}
+
+export async function loadSubjectQuestions(subject: string) {
+  const loader = questionLoaders[subject];
+  if (!loader) throw new Error(`No question loader exists for ${subject}.`);
+  return loader();
+}
+
+export async function loadSubjectLessons(subject: string) {
+  const loader = lessonLoaders[subject];
+  if (!loader) throw new Error(`No lesson loader exists for ${subject}.`);
   return loader();
 }
 

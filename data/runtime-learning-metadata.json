@@ -575,39 +575,10 @@
       "status": "published"
     },
     {
+      "id": "topic_d2_taxi_vilotider",
       "subjectId": "subject_d2_taxitrafiklagstiftning",
-      "title": "Varför finns vilotidsregler?",
+      "title": "Vilotider",
       "order": 12,
-      "status": "published"
-    },
-    {
-      "subjectId": "subject_d2_taxitrafiklagstiftning",
-      "title": "Vilotidsbestämmelser",
-      "order": 13,
-      "status": "published"
-    },
-    {
-      "subjectId": "subject_d2_taxitrafiklagstiftning",
-      "title": "Arbetstid, förare och arbetsgivare",
-      "order": 14,
-      "status": "published"
-    },
-    {
-      "subjectId": "subject_d2_taxitrafiklagstiftning",
-      "title": "Beräkna dygnsvila",
-      "order": 15,
-      "status": "published"
-    },
-    {
-      "subjectId": "subject_d2_taxitrafiklagstiftning",
-      "title": "Anteckna dygnsvila",
-      "order": 16,
-      "status": "published"
-    },
-    {
-      "subjectId": "subject_d2_taxitrafiklagstiftning",
-      "title": "Scenarioövningar",
-      "order": 17,
       "status": "published"
     },
     {
@@ -2517,6 +2488,7 @@
     },
     {
       "stableKey": "D2-TAXI-VILOTIDER-L01",
+      "topicId": "topic_d2_taxi_vilotider",
       "title": "Varför finns vilotidsregler?",
       "order": 12,
       "status": "published",
@@ -2537,6 +2509,7 @@
     },
     {
       "stableKey": "D2-TAXI-VILOTIDER-L02",
+      "topicId": "topic_d2_taxi_vilotider",
       "title": "Vilotidsbestämmelser",
       "order": 13,
       "status": "published",
@@ -2560,6 +2533,7 @@
     },
     {
       "stableKey": "D2-TAXI-VILOTIDER-L03",
+      "topicId": "topic_d2_taxi_vilotider",
       "title": "Arbetstid, förare och arbetsgivare",
       "order": 14,
       "status": "published",
@@ -2594,6 +2568,7 @@
     },
     {
       "stableKey": "D2-TAXI-VILOTIDER-L04",
+      "topicId": "topic_d2_taxi_vilotider",
       "title": "Beräkna dygnsvila",
       "order": 15,
       "status": "published",
@@ -2617,6 +2592,7 @@
     },
     {
       "stableKey": "D2-TAXI-VILOTIDER-L05",
+      "topicId": "topic_d2_taxi_vilotider",
       "title": "Anteckna dygnsvila",
       "order": 16,
       "status": "published",
@@ -2641,6 +2617,7 @@
     },
     {
       "stableKey": "D2-TAXI-VILOTIDER-L06",
+      "topicId": "topic_d2_taxi_vilotider",
       "title": "Scenarioövningar",
       "order": 17,
       "status": "published",
@@ -3650,6 +3627,126 @@
       "title": "Checkpoint: Arbetsmiljö, omdöme och riskmedvetenhet",
       "subjectId": "subject_d1_arbetsmiljo",
       "questionCount": 24,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-GRUNDER-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Taxitrafikens grunder",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_taxitrafikens_grunder",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-TFL-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Taxiförarlegitimation",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_taxiforarlegitimation",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-ATERKALLELSE-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Återkallelse",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_aterkallelse",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-BEGREPP-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Begrepp och definitioner",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_begrepp_definitioner",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-HANDLINGAR-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Handlingar och kontroller",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_handlingar_kontroller",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-TILLSTAND-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Taxitrafiktillstånd",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_taxitrafiktillstand",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-TAXAMETER-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Taxameter och särskild utrustning",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_taxameter_sarskild_utrustning",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-PRIS-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Prisinformation",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_prisinformation",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-ARBETSTID-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Arbetstid och ansvar",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_arbetstid_ansvar",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-SKOLSKJUTS-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Skolskjuts",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_skolskjuts",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-SANKTIONER-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Sanktioner och påföljder",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_sanktioner_pafoljder",
+      "questionCount": 15,
+      "passThreshold": 0.8,
+      "status": "published"
+    },
+    {
+      "id": "D2-TAXI-VILOTIDER-CHECKPOINT-001",
+      "type": "checkpoint",
+      "title": "Intern checkpoint: Vilotider",
+      "subjectId": "subject_d2_taxitrafiklagstiftning",
+      "topicId": "topic_d2_taxi_vilotider",
+      "questionCount": 15,
       "passThreshold": 0.8,
       "status": "published"
     },

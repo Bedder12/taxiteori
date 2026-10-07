@@ -160,6 +160,8 @@ import {
 } from './productReadinessAudit.test';
 import {
   testRealDataUiActiveRoutesAvoidMockDataDependencies,
+  testRealDataUiRoutesLoadOnlyRequiredContentScopes,
+  testRealDataUiQuestionAndLessonLoadersStayExamAndSubjectScoped,
   testRealDataUiActiveRoutesAvoidPrototypeLiterals,
   testRealDataUiExamScreensReadCanonicalBlueprints,
   testRealDataUiLearningPathsMatchRuntimeCurriculum,
@@ -180,6 +182,8 @@ import {
   testQuestionCoverageV2HasNoExactDuplicates,
   testQuestionCoverageV2MockBlueprintsAreUnchanged,
   testQuestionCoverageV2NewQuestionsHaveTraceability,
+  testQuestionCoverageV2D2RuntimeAndMockLoad,
+  testQuestionCoverageV2RuntimeQuestionTopicsResolve,
 } from './questionCoverageAuditV2.test';
 import {
   testVisualProductionEveryVisualReferenceResolves,
@@ -344,6 +348,8 @@ const tests = [
   ['product readiness subject-scoped content loaders', testProductReadinessSubjectScopedLoaders],
   ['product readiness active routes avoid aggregate repository', testProductReadinessActiveRoutesAvoidAggregateRepository],
   ['real data UI active routes avoid mock-data dependencies', testRealDataUiActiveRoutesAvoidMockDataDependencies],
+  ['real data UI routes load only required content scopes', testRealDataUiRoutesLoadOnlyRequiredContentScopes],
+  ['real data UI question and lesson loaders stay exam and subject scoped', testRealDataUiQuestionAndLessonLoadersStayExamAndSubjectScoped],
   ['real data UI active routes avoid prototype literals', testRealDataUiActiveRoutesAvoidPrototypeLiterals],
   ['real data UI learning paths match runtime curriculum', testRealDataUiLearningPathsMatchRuntimeCurriculum],
   ['real data UI Teoriboken uses canonical runtime content', testRealDataUiTeoribokenUsesCanonicalRuntimeContent],
@@ -357,6 +363,8 @@ const tests = [
   ['question coverage v2 backlog rows are sufficient', testQuestionCoverageV2BacklogRowsAreSufficient],
   ['question coverage v2 new questions have traceability', testQuestionCoverageV2NewQuestionsHaveTraceability],
   ['question coverage v2 has no exact duplicates', testQuestionCoverageV2HasNoExactDuplicates],
+  ['question coverage v2 runtime question topics resolve', testQuestionCoverageV2RuntimeQuestionTopicsResolve],
+  ['question coverage v2 D2 runtime and mock load', testQuestionCoverageV2D2RuntimeAndMockLoad],
   ['question coverage v2 calculation and visual gates', testQuestionCoverageV2CalculationAndVisualGates],
   ['question coverage v2 mock blueprints are unchanged', testQuestionCoverageV2MockBlueprintsAreUnchanged],
   ['question coverage v2 all active requirements recalculated', testQuestionCoverageV2AllActiveRequirementsRecalculated],

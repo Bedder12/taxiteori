@@ -10,7 +10,7 @@ import { AppCard, AppHeader } from '@/components/ui/foundation';
 import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getLessonView } from '@/features/learn/selectors';
 import { RUNTIME_USER_ID, completeRuntimeLesson, getRuntimeState } from '@/lib/runtimeLearningState';
-import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
+import { getRuntimeMetadataRepository, loadRuntimeLessonRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function LessonScreen() {
   const { lessonId } = useLocalSearchParams<{ lessonId: string }>();
@@ -25,7 +25,7 @@ export default function LessonScreen() {
   useEffect(() => {
     if (!metadataTopic) return;
     setLoading(true);
-    void loadRuntimeRepository([metadataTopic.subjectId]).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
+    void loadRuntimeLessonRepository([metadataTopic.subjectId]).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
   }, [metadataTopic?.subjectId]);
 
   const view = getLessonView(repository, lessonId, state.facts, RUNTIME_USER_ID);

@@ -10,7 +10,7 @@ import { getSubjectView } from '@/features/learn/selectors';
 import { RUNTIME_USER_ID, completeRuntimeLesson, getRuntimeState } from '@/lib/runtimeLearningState';
 import type { ContentBlock, Lesson } from '../../../packages/domain/src';
 import { isLessonCompleted } from '../../../packages/domain/src';
-import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
+import { getRuntimeMetadataRepository, loadRuntimeLessonRepository } from '../../../packages/domain/src/runtimeRepository';
 
 type ModuleStep =
   | { type: 'lesson'; lesson: Lesson; index: number }
@@ -31,7 +31,7 @@ export default function SubjectModuleScreen() {
 
   useEffect(() => {
     setLoading(true);
-    void loadRuntimeRepository([subjectId]).then((repository) => setSnapshot({ repository, state: getRuntimeState() })).catch(setLoadError).finally(() => setLoading(false));
+    void loadRuntimeLessonRepository([subjectId]).then((repository) => setSnapshot({ repository, state: getRuntimeState() })).catch(setLoadError).finally(() => setLoading(false));
   }, [subjectId]);
 
   const { repository, state } = snapshot;

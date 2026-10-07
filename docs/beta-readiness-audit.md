@@ -16,24 +16,41 @@ Generated: 2026-10-07
 - Supabase live persistence: PASS
 - Supabase live checkpoint resume: PASS
 - Supabase live D1 resume: PASS
-- Supabase live D2 resume: FAIL
-- Supabase live timeout: NOT_TESTED
-- Supabase live RLS: NOT_TESTED
-- Supabase live idempotency: NOT_TESTED
-- Supabase live immutability: NOT_TESTED
+- Question bank topic/subject structural audit: PASS
+- D2 taxi-law runtime loading: PASS
+- D2 traffic-law runtime loading: PASS
+- Vilotider lesson loading: PASS
+- Vilotider checkpoint question selection: PASS
+- Taxi-law authored topic checkpoint assessments: PASS
+- D2 taxi-law subject checkpoint requirement: PASS
+- D2 mock local runtime construction: PASS
+- Supabase live D2 resume: PASS
+- Supabase live timeout: PASS
+- Supabase live RLS: PASS
+- Supabase live idempotency: PASS
+- Supabase live immutability: PASS
+
+## D2 Blocker Verification
+
+- All 824 questions now have valid topic IDs; no invalid topic IDs, wrong-subject topic mappings or duplicate stable-key/version pairs were found.
+- The 27 Vilotider questions and all 6 Vilotider lessons use `topic_d2_taxi_vilotider`.
+- Question text, answers, explanations, scoring and source references changed: 0.
+- The D2 mock builds locally as 50 displayed / 46 scoring / 4 non-scoring, with a 23/23 scoring allocation and no duplicate, invalid version/relation or visual-required blockers.
+- Canonical Taxi-law content defines 12 topic checkpoint assessments and no subject checkpoint. No existing product/domain contract requires a Taxi-law subject checkpoint; absence is valid and is not replaced with generated content.
+- Traffic-law retains 15 topic checkpoints and its authored subject checkpoint. Subject-checkpoint rendering is data-driven and omits the optional CTA when none exists.
+- D2 live resume passed with the same attempt ID, restored answers/timer/order/versions/roles, a 50/46/4 mock, 23/23 allocation, persisted result and review.
+- Live timeout, RLS isolation, idempotency and post-finalization immutability passed.
+- Persistence fixes use explicit in-progress finalization and handle absent optional passing-score metadata without producing `NaN`.
 
 ## Remaining Work
 
 Remaining P0:
 
-- Fix or guard D2 runtime loading for D2 taxi-law questions without `topic_id`; current D2 live verification fails with `Cannot read properties of undefined (reading 'startsWith')`.
-- Verify timeout live after D2 resume passes.
-- Verify RLS live after D2 resume passes.
-- Verify idempotency live after D2 resume passes.
-- Verify immutability live after D2 resume passes.
+- None identified by the completed D2 content and live persistence gates.
 
 Remaining P1:
 
+- Native Expo output is one 4.56 MB iOS / 4.87 MB Android Hermes bundle containing the D1 and D2 question-bank modules; native Metro export does not emit lazy question-bank chunks. Web startup and route-level question isolation pass, but the requested native initial-bundle split is not met.
 - Verify production visual rendering in a real device build before public launch.
 
 Remaining P2:
@@ -42,6 +59,13 @@ Remaining P2:
 
 ## Decision
 
+Bundle/loading evidence:
+
+- Production web export: PASS; initial entry is 1,661,767 bytes raw / 425,024 bytes gzip, with 39 additional JS chunks.
+- Cold web Home requests the entry only. D1 mock requests only D1 question chunks; D2 mock requests only D2 question chunks.
+- Native iOS/Android export: FAIL for the requested split; each platform emits one HBC bundle containing all authored question-bank modules.
+- Route regression tests verify metadata-only screens, question-only routes, lesson-only routes, and D1/D2 subject isolation.
+
 Beta-ready: NO
 
-Reason: Supabase Auth, lesson persistence, checkpoint resume and D1 mock resume now pass live, but D2 resume is FAIL and timeout/RLS/idempotency/immutability remain NOT_TESTED.
+Reason: D2 source-authored assessments and all requested D2 live gates are PASS. Beta remains blocked by native bundle/loading readiness (FAIL) and real-device visual rendering (NOT_TESTED).

@@ -9,7 +9,7 @@ import { ThemedText } from '@/components/themed-text';
 import { AppHeader, StatPill } from '@/components/ui/foundation';
 import { Spacing } from '@/constants/theme';
 import { getRemainingRuntimeSeconds, getRuntimeState, saveRuntimeAnswer, startRuntimeMock, submitRuntimeAttempt } from '@/lib/runtimeLearningState';
-import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../../packages/domain/src/runtimeRepository';
+import { getRuntimeMetadataRepository, loadRuntimeQuestionRepository } from '../../../../packages/domain/src/runtimeRepository';
 
 export default function MockExamScreen() {
   const { examId } = useLocalSearchParams<{ examId: string }>();
@@ -23,7 +23,7 @@ export default function MockExamScreen() {
 
   useEffect(() => {
     setLoading(true);
-    void loadRuntimeRepository(subjectIds).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
+    void loadRuntimeQuestionRepository(subjectIds).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
   }, [examId]);
 
   const attempt = useMemo(() => (!loading && blueprint ? startRuntimeMock(repository, blueprint.id) : undefined), [loading, blueprint?.id, repository]);
@@ -34,7 +34,7 @@ export default function MockExamScreen() {
   const [selectedChoices, setSelectedChoices] = useState<Record<string, string>>(() => Object.fromEntries(
     state.answers.filter((answer) => answer.attemptId === attempt?.id).map((answer) => [answer.attemptQuestionId, answer.selectedChoiceId]),
   ));
-  const [remainingSeconds, setRemainingSeconds] = useState(() => attempt ? getRemainingRuntimeSeconds(attempt) ?? 0 : 0);
+  const [remainingSeconds, setRemainingSeconds] = useState<number>();
 
   useEffect(() => {
     if (!attempt) return;
@@ -47,7 +47,7 @@ export default function MockExamScreen() {
   useEffect(() => {
     if (!attempt || !blueprint) return undefined;
     const timer = setInterval(() => {
-      setRemainingSeconds((current) => Math.max(current - 1, 0));
+      setRemainingSeconds((current) => current === undefined ? current : Math.max(current - 1, 0));
     }, 1000);
     return () => clearInterval(timer);
   }, [attempt, blueprint]);
@@ -60,7 +60,7 @@ export default function MockExamScreen() {
   }, [attempt, remainingSeconds, selectedChoices]);
 
   if (loadError) return <ThemedText>Provet kunde inte laddas. Försök igen.</ThemedText>;
-  if (loading) return <ThemedText>Laddar prov...</ThemedText>;
+  if (loading || remainingSeconds === undefined) return <ThemedText>Laddar prov...</ThemedText>;
   if (!exam || !blueprint || !attempt) {
     return <ThemedText>Övningsprovet hittades inte.</ThemedText>;
   }
@@ -70,8 +70,8 @@ export default function MockExamScreen() {
   const selectedChoiceId = attemptQuestion ? selectedChoices[attemptQuestion.id] : undefined;
   const isLastQuestion = currentIndex === attempt.questions.length - 1;
   const answeredCount = Object.keys(selectedChoices).length;
-  const minutes = Math.floor(remainingSeconds / 60).toString().padStart(2, '0');
-  const seconds = (remainingSeconds % 60).toString().padStart(2, '0');
+  const minutes = Math.floor((remainingSeconds ?? 0) / 60).toString().padStart(2, '0');
+  const seconds = ((remainingSeconds ?? 0) % 60).toString().padStart(2, '0');
 
   function finish() {
     if (!attempt) return;
@@ -98,7 +98,7 @@ export default function MockExamScreen() {
         />
       }>
       <View style={styles.stats}>
-        <StatPill label="Tid kvar" value={`${minutes}:${seconds}`} tone={remainingSeconds < 300 ? 'warning' : 'default'} />
+        <StatPill label="Tid kvar" value={`${minutes}:${seconds}`} tone={(remainingSeconds ?? 0) < 300 ? 'warning' : 'default'} />
         <StatPill label="Besvarade" value={`${answeredCount}/${attempt.questions.length}`} />
       </View>
 

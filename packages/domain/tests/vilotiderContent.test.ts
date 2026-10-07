@@ -61,6 +61,7 @@ type LessonsFile = {
 type Question = {
   stable_key: string;
   version: number;
+  topic_id: string;
   requirement_keys: string[];
   fact_keys: string[];
   lesson_key: string;
@@ -199,6 +200,7 @@ export function testVilotiderQuestionsHaveFullTraceability() {
   const requirementKeys = curriculumRequirementKeys();
 
   for (const question of loadQuestions().questions.filter((candidate) => candidate.status === 'published')) {
+    assert.equal(question.topic_id, 'topic_d2_taxi_vilotider', `${question.stable_key} has wrong Vilotider topic.`);
     assert.ok(question.requirement_keys.length > 0, `${question.stable_key} has no requirement links.`);
     assert.ok(question.fact_keys.length > 0, `${question.stable_key} has no fact links.`);
     assert.ok(question.source_references.length > 0, `${question.stable_key} has no source references.`);

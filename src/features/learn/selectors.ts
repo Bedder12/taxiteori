@@ -4,10 +4,17 @@ import {
   getSubjectProgress,
   getTopicLearningProgress,
   getTopicProgress,
+  type Assessment,
   isLessonCompleted,
   type LearningRepository,
   type UserProgressFact,
 } from '../../../packages/domain/src';
+
+function hasPassedAssessment(facts: UserProgressFact[], userId: string, assessment: Assessment) {
+  return facts.some(
+    (fact) => fact.type === 'attempt_completed' && fact.userId === userId && fact.assessmentId === assessment.id && fact.passed,
+  );
+}
 
 export function getExamView(repository: LearningRepository, examId: string) {
   const exam = repository.exams.find((candidate) => candidate.id === examId);
@@ -22,6 +29,9 @@ export function getSubjectView(repository: LearningRepository, subjectId: string
   const checkpointAssessment = repository.assessments.find(
     (assessment) => assessment.subjectId === subjectId && !assessment.topicId && assessment.status === 'published',
   );
+  const topicAssessments = repository.assessments.filter(
+    (assessment) => assessment.subjectId === subjectId && assessment.topicId && topics.some((topic) => topic.id === assessment.topicId) && assessment.status === 'published',
+  );
   const progress = getSubjectProgress({
     userId,
     topicIds: topics.map((topic) => topic.id),
@@ -29,8 +39,16 @@ export function getSubjectView(repository: LearningRepository, subjectId: string
     facts,
     checkpointAssessment,
   });
+  const topicCheckpointsPassed =
+    topicAssessments.length > 0 && topicAssessments.every((assessment) => hasPassedAssessment(facts, userId, assessment));
 
-  return { subject, topics, lessons, checkpointAssessment, progress };
+  return {
+    subject,
+    topics,
+    lessons,
+    checkpointAssessment,
+    progress: { ...progress, checkpointPassed: checkpointAssessment ? progress.checkpointPassed : topicCheckpointsPassed },
+  };
 }
 
 export function getTopicCardView(repository: LearningRepository, topicId: string, facts: UserProgressFact[], userId: string) {

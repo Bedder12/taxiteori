@@ -2,7 +2,11 @@ import assert from 'node:assert/strict';
 import { readdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import { getRuntimeMetadataRepository } from '../src/runtimeRepository';
+import {
+  getRuntimeMetadataRepository,
+  loadRuntimeLessonRepository,
+  loadRuntimeQuestionRepository,
+} from '../src/runtimeRepository';
 
 const root = resolve(__dirname, '../../../../');
 
@@ -48,6 +52,7 @@ export function testRealDataUiActiveRoutesAvoidMockDataDependencies() {
     'exampleData',
     'fixture',
     'packages/domain/src/vilotiderRepository',
+    'loadRuntimeRepository',
   ];
 
   for (const file of appFiles()) {
@@ -56,6 +61,75 @@ export function testRealDataUiActiveRoutesAvoidMockDataDependencies() {
       assert.ok(!source.includes(banned), `${file} depends on prototype or aggregate data through ${banned}.`);
     }
   }
+}
+
+export function testRealDataUiRoutesLoadOnlyRequiredContentScopes() {
+  const routeLoaders: Record<string, string[]> = {
+    'src/app/index.tsx': [],
+    'src/app/plugga.tsx': [],
+    'src/app/exam/[examId].tsx': [],
+    'src/app/subject/[subjectId].tsx': [],
+    'src/app/topic/[topicId].tsx': [],
+    'src/app/lesson/[lessonId].tsx': ['loadRuntimeLessonRepository'],
+    'src/app/module/[subjectId].tsx': ['loadRuntimeLessonRepository'],
+    'src/app/quiz/[assessmentId].tsx': ['loadRuntimeQuestionRepository'],
+    'src/app/exam/[examId]/mock.tsx': ['loadRuntimeQuestionRepository'],
+    'src/app/result/[attemptId].tsx': ['loadRuntimeQuestionRepository'],
+    'src/app/prov/index.tsx': [],
+    'src/app/teoribok.tsx': [],
+    'src/app/profil.tsx': [],
+  };
+
+  for (const [file, expectedLoaders] of Object.entries(routeLoaders)) {
+    const source = read(file);
+    for (const loader of ['loadRuntimeRepository', 'loadRuntimeQuestionRepository', 'loadRuntimeLessonRepository']) {
+      assert.equal(source.includes(loader), expectedLoaders.includes(loader), `${file} must ${expectedLoaders.includes(loader) ? '' : 'not '}use ${loader}.`);
+    }
+    assert.ok(!source.includes('visual-manifest.json'), `${file} must not import the complete visual manifest.`);
+    assert.ok(!source.includes('assets/visuals/'), `${file} must not import the complete SVG asset set.`);
+  }
+
+  const startup = read('src/app/_layout.tsx');
+  assert.ok(startup.includes('void hydrateRuntimeState()'), 'App startup must hydrate progress without awaiting authored content.');
+  assert.ok(!startup.includes('loadRuntimeRepository'), 'App startup must not load authored content.');
+
+  const mockRoute = read('src/app/exam/[examId]/mock.tsx');
+  assert.match(mockRoute, /useState<number>\(\)/, 'Mock timer must remain uninitialized until the active attempt has loaded.');
+  assert.match(mockRoute, /if \(!attempt \|\| remainingSeconds !== 0\) return;/, 'Mock timeout must wait for the loaded attempt timer.');
+}
+
+export async function testRealDataUiQuestionAndLessonLoadersStayExamAndSubjectScoped() {
+  const metadata = getRuntimeMetadataRepository();
+  const d1SubjectIds = metadata.subjects.filter((subject) => metadata.exams.find((exam) => exam.id === subject.examId)?.code === 'D1').map((subject) => subject.id);
+  const d2SubjectIds = metadata.subjects.filter((subject) => metadata.exams.find((exam) => exam.id === subject.examId)?.code === 'D2').map((subject) => subject.id);
+  const taxiSubjectId = 'subject_d2_taxitrafiklagstiftning';
+  const trafficSubjectId = 'subject_d2_trafiklagstiftning';
+
+  const [d1, d2, taxi, taxiLessons] = await Promise.all([
+    loadRuntimeQuestionRepository(d1SubjectIds),
+    loadRuntimeQuestionRepository(d2SubjectIds),
+    loadRuntimeQuestionRepository([taxiSubjectId]),
+    loadRuntimeLessonRepository([taxiSubjectId]),
+  ]);
+
+  assert.equal(d1.questionVersions.length, 503);
+  assert.ok(d1.questionVersions.every((question) => d1SubjectIds.includes(question.subjectId)));
+  assert.ok(d1.questionVersions.every((question) => !question.subjectId.startsWith('subject_d2_')));
+
+  assert.equal(d2.questionVersions.length, 321);
+  assert.ok(d2.questionVersions.every((question) => d2SubjectIds.includes(question.subjectId)));
+  assert.ok(d2.questionVersions.every((question) => !question.subjectId.startsWith('subject_d1_')));
+
+  assert.equal(taxi.questionVersions.length, 192);
+  assert.ok(taxi.questionVersions.every((question) => question.subjectId === taxiSubjectId));
+  assert.equal(taxi.lessons.every((lesson) => lesson.blocks.length === 0), true);
+  assert.ok(!('visuals' in taxi));
+
+  assert.ok(taxiLessons.lessons.length > 0);
+  assert.equal(taxiLessons.questionVersions.length, 0);
+  assert.ok(taxiLessons.lessons.every((lesson) => lesson.blocks.length > 0));
+  assert.ok(taxiLessons.lessons.every((lesson) => taxi.topics.some((topic) => topic.id === lesson.topicId)));
+  assert.ok(!('visuals' in taxiLessons));
 }
 
 export function testRealDataUiActiveRoutesAvoidPrototypeLiterals() {
@@ -111,6 +185,9 @@ export function testRealDataUiTeoribokenUsesCanonicalRuntimeContent() {
   assert.ok(source.includes('getRuntimeMetadataRepository'), 'Teoriboken must read canonical runtime metadata.');
   assert.ok(source.includes('repository.topics'), 'Teoriboken must derive chapters from canonical topics.');
   assert.ok(source.includes('repository.lessons'), 'Teoriboken must derive lesson counts from canonical lessons.');
+  assert.ok(source.includes('lessonTitles'), 'Teoriboken search should use indexed lesson titles.');
+  assert.ok(!source.includes('loadRuntimeLessonRepository'), 'Teoriboken search must not load lesson bodies.');
+  assert.ok(!source.includes('loadRuntimeQuestionRepository'), 'Teoriboken search must not load question banks.');
   assert.ok(!source.includes('const chapters = ['), 'Teoriboken must not maintain a separate chapter copy.');
 }
 

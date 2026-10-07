@@ -9,6 +9,7 @@
   "lessons": [
     {
       "stable_key": "D2-TAXI-VILOTIDER-L01",
+      "topic_id": "topic_d2_taxi_vilotider",
       "title": "Varför finns vilotidsregler?",
       "learning_objectives": [
         "Förstå varför vilotidsregler är en trafiksäkerhetsregel, inte bara en administrativ regel.",
@@ -89,6 +90,7 @@
     },
     {
       "stable_key": "D2-TAXI-VILOTIDER-L02",
+      "topic_id": "topic_d2_taxi_vilotider",
       "title": "Vilotidsbestämmelser",
       "learning_objectives": [
         "Redogöra för huvudregeln om dygnsvila.",
@@ -168,6 +170,7 @@
     },
     {
       "stable_key": "D2-TAXI-VILOTIDER-L03",
+      "topic_id": "topic_d2_taxi_vilotider",
       "title": "Arbetstid, förare och arbetsgivare",
       "learning_objectives": [
         "Bedöma hur arbetstid och ansvar påverkar förare, arbetsgivare och egenföretagare.",
@@ -288,6 +291,7 @@
     },
     {
       "stable_key": "D2-TAXI-VILOTIDER-L04",
+      "topic_id": "topic_d2_taxi_vilotider",
       "title": "Beräkna dygnsvila",
       "learning_objectives": [
         "Beräkna om en förare har tillräcklig dygnsvila i de föregående 24 timmarna.",
@@ -381,6 +385,7 @@
     },
     {
       "stable_key": "D2-TAXI-VILOTIDER-L05",
+      "topic_id": "topic_d2_taxi_vilotider",
       "title": "Anteckna dygnsvila",
       "learning_objectives": [
         "Förstå vad tidboken ska visa.",
@@ -468,6 +473,7 @@
     },
     {
       "stable_key": "D2-TAXI-VILOTIDER-L06",
+      "topic_id": "topic_d2_taxi_vilotider",
       "title": "Scenarioövningar",
       "learning_objectives": [
         "Tillämpa reglerna i realistiska kör- och kontrollsituationer.",

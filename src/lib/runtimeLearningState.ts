@@ -48,14 +48,41 @@ function snapshots(repository: LearningRepository, attempt: Attempt) {
 
 export function getRuntimeState() { return readState(); }
 
+export function restoreAttemptQuestions(attemptId: string, rows: Record<string, unknown>[]) {
+  return [...rows]
+    .sort((left, right) => Number(left.display_order ?? 0) - Number(right.display_order ?? 0))
+    .map((question, index) => {
+      const version = Number(question.version);
+      const stableKey = String(question.stable_key);
+      const snapshot = question.question_snapshot;
+      const snapshotId =
+        snapshot && typeof snapshot === 'object' && 'id' in snapshot && typeof snapshot.id === 'string'
+          ? snapshot.id
+          : undefined;
+      return {
+        id: String(question.client_attempt_question_id ?? question.id),
+        attemptId,
+        questionVersionId:
+          snapshotId ??
+          String(question.question_version_id ?? `${stableKey.toLowerCase()}_v${version}`),
+        questionId: String(question.question_key ?? question.question_id ?? stableKey.toLowerCase()),
+        stableKey,
+        version,
+        order: Number(question.display_order ?? index + 1),
+        subjectId: String(question.subject_key ?? question.subject_id ?? ''),
+        scoringRole: (question.scoring_role ?? 'scored') as Attempt['questions'][number]['scoringRole'],
+      };
+    });
+}
+
 export async function hydrateRuntimeState() {
   if (!backend) return readState();
   try {
     const remote = await backend.loadState();
     const attempts: Attempt[] = remote.attempts.map((row) => {
       const id = String(row.client_attempt_id ?? row.id);
-      const questions = ((row.attempt_questions ?? []) as Record<string, unknown>[]).map((question, index) => ({ id: String(question.client_attempt_question_id ?? question.id), attemptId: id, questionVersionId: String(question.question_key ?? question.question_version_id), questionId: String(question.question_key ?? question.question_id), stableKey: String(question.stable_key), version: Number(question.version), order: Number(question.display_order ?? index + 1), subjectId: String(question.subject_key ?? question.subject_id ?? ''), scoringRole: (question.scoring_role ?? 'scored') as Attempt['questions'][number]['scoringRole'] }));
-      return { id, userId: RUNTIME_USER_ID, assessmentId: String(row.assessment_key ?? row.blueprint_key), type: row.type as Attempt['type'], startedAt: String(row.started_at), completedAt: row.completed_at ? String(row.completed_at) : undefined, status: row.status as Attempt['status'], score: row.score === null ? undefined : Number(row.score), totalQuestions: Number(row.total_questions), scoringQuestionCount: questions.filter((question) => question.scoringRole === 'scored').length, passThreshold: Number(row.pass_threshold), passingScore: row.passing_score === null ? undefined : Number(row.passing_score), blueprintVersion: row.blueprint_version === null ? undefined : Number(row.blueprint_version), timeLimitSeconds: row.time_limit_seconds === null ? undefined : Number(row.time_limit_seconds), timedOut: Boolean(row.timed_out), passed: row.passed === null ? undefined : Boolean(row.passed), questions };
+      const questions = restoreAttemptQuestions(id, (row.attempt_questions ?? []) as Record<string, unknown>[]);
+      return { id, userId: RUNTIME_USER_ID, assessmentId: String(row.assessment_key ?? row.blueprint_key), type: row.type as Attempt['type'], startedAt: String(row.started_at), completedAt: row.completed_at ? String(row.completed_at) : undefined, status: row.status as Attempt['status'], score: row.score === null || row.score === undefined ? undefined : Number(row.score), totalQuestions: Number(row.total_questions), scoringQuestionCount: questions.filter((question) => question.scoringRole === 'scored').length, passThreshold: Number(row.pass_threshold), passingScore: row.passing_score === null || row.passing_score === undefined ? undefined : Number(row.passing_score), blueprintVersion: row.blueprint_version === null || row.blueprint_version === undefined ? undefined : Number(row.blueprint_version), timeLimitSeconds: row.time_limit_seconds === null || row.time_limit_seconds === undefined ? undefined : Number(row.time_limit_seconds), timedOut: Boolean(row.timed_out), passed: row.passed === null || row.passed === undefined ? undefined : Boolean(row.passed), questions };
     });
     const answers: Answer[] = remote.attempts.flatMap((row) => ((row.answers ?? []) as Record<string, unknown>[]).map((answer) => ({ id: String(answer.id), attemptId: String(row.client_attempt_id ?? row.id), attemptQuestionId: String(answer.client_attempt_question_id ?? answer.attempt_question_id), userId: RUNTIME_USER_ID, selectedChoiceId: String(answer.selected_choice_id), correct: Boolean(answer.correct), unanswered: Boolean(answer.unanswered), answeredAt: String(answer.answered_at) })));
     const facts: UserProgressFact[] = remote.lessons.map((lesson) => ({ type: 'lesson_completed', userId: RUNTIME_USER_ID, lessonId: String(lesson.lesson_key), completedAt: String(lesson.completed_at) }));
@@ -127,6 +154,6 @@ export function submitRuntimeAttempt(repository: LearningRepository, attemptId: 
   if (Object.values(completeChoices).some((choice) => !choice)) throw new Error('Missing answer for active attempt.');
   const result = scoreAttempt(attempt, repository.questionVersions, completeChoices as Record<string, string>, new Date().toISOString(), timedOut);
   writeState({ ...state, attempts: state.attempts.map((candidate) => candidate.id === attemptId ? result.attempt : candidate), answers: [...state.answers.filter((answer) => !result.answers.some((next) => next.attemptQuestionId === answer.attemptQuestionId)), ...result.answers], facts: [...state.facts, completedAttemptFact(result.attempt)] });
-  persist(async () => { await backend!.saveAttempt(result.attempt, snapshots(repository, result.attempt)); for (const answer of result.answers) await backend!.saveAnswer(result.attempt, answer); });
+  persist(async () => { for (const answer of result.answers) await backend!.saveAnswer(attempt, answer); await backend!.saveAttempt(result.attempt, snapshots(repository, result.attempt)); });
   return result;
 }

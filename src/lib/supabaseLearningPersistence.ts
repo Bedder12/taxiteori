@@ -38,7 +38,7 @@ export class SupabaseLearningPersistence {
   async saveAttempt(attempt: Attempt, questionSnapshots: PersistenceRow[]) {
     const userId = await this.userId();
     const isMock = attempt.type === 'mock_exam';
-    const { data: savedAttempt, error: attemptError } = await this.client.from('attempts').upsert({
+    const attemptRow = {
       client_attempt_id: attempt.id,
       user_id: userId,
       assessment_key: isMock ? null : attempt.assessmentId,
@@ -54,12 +54,29 @@ export class SupabaseLearningPersistence {
       total_questions: attempt.totalQuestions,
       pass_threshold: attempt.passThreshold,
       passed: attempt.passed ?? null,
-    }, { onConflict: 'user_id,client_attempt_id' }).select('id').single();
-    if (attemptError) throw new LearningPersistenceError('Could not save attempt.', attemptError);
+    };
+    let savedAttemptId: string;
+    if (attempt.status === 'in_progress') {
+      const { data, error } = await this.client.from('attempts').upsert(attemptRow, { onConflict: 'user_id,client_attempt_id' }).select('id').single();
+      if (error) throw new LearningPersistenceError('Could not save attempt.', error);
+      savedAttemptId = data.id;
+    } else {
+      const { data, error } = await this.client.from('attempts').update(attemptRow)
+        .eq('user_id', userId)
+        .eq('client_attempt_id', attempt.id)
+        .eq('status', 'in_progress')
+        .select('id')
+        .maybeSingle();
+      if (error) throw new LearningPersistenceError('Could not finalize attempt.', error);
+      if (!data) throw new LearningPersistenceError('Could not finalize attempt because it is no longer in progress.');
+      savedAttemptId = data.id;
+    }
+
+    if (attempt.status !== 'in_progress') return;
 
     const { error: questionError } = await this.client.from('attempt_questions').upsert(
       attempt.questions.map((question, index) => ({
-        attempt_id: savedAttempt.id,
+        attempt_id: savedAttemptId,
         user_id: userId,
         client_attempt_id: attempt.id,
         client_attempt_question_id: question.id,

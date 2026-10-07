@@ -15,25 +15,60 @@ const subjectDirectories = [
 ];
 
 const files = (directory, pattern) => readdirSync(directory).filter((name) => name.endsWith(pattern));
-const lessonsFor = (directory) => files(join('data/content', directory), '-lessons.json').flatMap((name) => JSON.parse(readFileSync(join('data/content', directory, name), 'utf8')).lessons);
+const lessonDocsFor = (directory) => files(join('data/content', directory), '-lessons.json').map((name) => JSON.parse(readFileSync(join('data/content', directory, name), 'utf8')));
+const lessonsFor = (directory) => lessonDocsFor(directory).flatMap((document) => document.lessons);
 const questionDocsFor = (directory) => files(join('data/questions', directory), '-questions.json').map((name) => JSON.parse(readFileSync(join('data/questions', directory, name), 'utf8')));
 
-const titles = { D1_NAVIGATION: 'Navigering', D1_ECO_DRIVING: 'Körekonomi', D1_ENVIRONMENT: 'Miljö', D1_VEHICLE_KNOWLEDGE: 'Fordonskännedom', D1_SAFETY: 'Säkerhet', D1_SERVICE: 'Bemötande', D1_HEALTH_DISABILITIES: 'Sjukdomar och funktionsnedsättningar', D1_WORK_ENVIRONMENT_RISK: 'Arbetsmiljö, omdöme och riskmedvetenhet', D2_TAXI_LAW: 'Taxitrafiklagstiftning', D2_TRAFFIC_LAW: 'Trafiklagstiftning' };
-const subjects = subjectDirectories.map(([key, examId, subjectId], index) => ({ id: subjectId, examId, title: titles[key], officialQuestionCount: { D1_NAVIGATION: 10, D1_ECO_DRIVING: 6, D1_ENVIRONMENT: 6, D1_VEHICLE_KNOWLEDGE: 7, D1_SAFETY: 10, D1_SERVICE: 12, D1_HEALTH_DISABILITIES: 8, D1_WORK_ENVIRONMENT_RISK: 6, D2_TAXI_LAW: 23, D2_TRAFFIC_LAW: 23 }[key], order: index + 1, status: 'published' }));
+const titles = { D1_NAVIGATION: 'Navigering', D1_ECO_DRIVING: 'Körekonomi', D1_ENVIRONMENT: 'Miljö', D1_VEHICLE_KNOWLEDGE: 'Fordonskännedom', D1_SAFETY: 'Säkerhet', D1_SERVICE: 'Bemötande', D1_HEALTH_DISABILITIES: 'Sjukdomar och funktionsnedsättningar', D1_WORK_ENVIRONMENT_RISK: 'Arbetsmiljö, omdömesförmåga och riskmedvetenhet', D2_TAXI_LAW: 'Taxitrafiklagstiftning', D2_TRAFFIC_LAW: 'Trafiklagstiftning' };
+const subjectOrders = { D1_NAVIGATION: 1, D1_ECO_DRIVING: 2, D1_ENVIRONMENT: 3, D1_SAFETY: 4, D1_SERVICE: 5, D1_HEALTH_DISABILITIES: 6, D1_WORK_ENVIRONMENT_RISK: 7, D1_VEHICLE_KNOWLEDGE: 8, D2_TAXI_LAW: 9, D2_TRAFFIC_LAW: 10 };
+const subjects = subjectDirectories.map(([key, examId, subjectId]) => ({ id: subjectId, examId, title: titles[key], officialQuestionCount: { D1_NAVIGATION: 10, D1_ECO_DRIVING: 6, D1_ENVIRONMENT: 6, D1_VEHICLE_KNOWLEDGE: 7, D1_SAFETY: 10, D1_SERVICE: 12, D1_HEALTH_DISABILITIES: 8, D1_WORK_ENVIRONMENT_RISK: 6, D2_TAXI_LAW: 23, D2_TRAFFIC_LAW: 23 }[key], order: subjectOrders[key], status: 'published' }));
 const topics = [];
 const lessons = [];
 const assessments = [];
+const topicIds = new Set();
 for (const [key, examId, subjectId, directory] of subjectDirectories) {
-  const subjectLessons = lessonsFor(directory);
+  const lessonDocs = lessonDocsFor(directory);
+  const subjectLessons = lessonDocs.flatMap((document) => document.lessons);
+  const questionDocs = questionDocsFor(directory);
+  const topicTitles = new Map();
+  for (const document of questionDocs) {
+    const topicCheckpoints = [
+      ...(document.topic_checkpoints ?? []),
+      ...(document.checkpoint_exams ?? []),
+      ...(document.checkpoint_exam ? [document.checkpoint_exam] : []),
+    ];
+    for (const checkpoint of topicCheckpoints) {
+      const sourceTopicKey = checkpoint.topic;
+      const canonicalTopicId = sourceTopicKey?.startsWith('topic_') ? sourceTopicKey : document.metadata?.topic;
+      const lessonDocument = lessonDocs.find((candidate) => candidate.metadata?.topic === sourceTopicKey);
+      if (canonicalTopicId?.startsWith('topic_') && lessonDocument?.metadata?.title) {
+        topicTitles.set(canonicalTopicId, lessonDocument.metadata.title);
+      }
+    }
+  }
   subjectLessons.forEach((lesson, index) => {
-    topics.push({ id: lesson.topic_id, subjectId, title: lesson.title, order: index + 1, status: lesson.status });
+    if (!topicIds.has(lesson.topic_id)) {
+      topicIds.add(lesson.topic_id);
+      topics.push({ id: lesson.topic_id, subjectId, title: topicTitles.get(lesson.topic_id) ?? lesson.title, order: index + 1, status: lesson.status });
+    }
     lessons.push({ stableKey: lesson.stable_key, topicId: lesson.topic_id, title: lesson.title, order: index + 1, status: lesson.status, sourceIds: lesson.source_references?.map((source) => source.source_id) ?? [], requirementKeys: lesson.requirement_keys ?? [], factKeys: lesson.fact_keys ?? [], estimatedStudyTimeMinutes: lesson.estimated_study_time_minutes, summary: lesson.summary, prerequisiteLessonKeys: lesson.prerequisite_lesson_keys });
   });
-  for (const document of questionDocsFor(directory)) {
-    for (const checkpoint of document.topic_checkpoints ?? []) assessments.push({ id: checkpoint.stable_key, type: 'checkpoint', title: checkpoint.title, subjectId, topicId: checkpoint.topic, questionCount: checkpoint.question_count, passThreshold: checkpoint.pass_threshold, status: checkpoint.status });
+  for (const document of questionDocs) {
+    const topicCheckpoints = [
+      ...(document.topic_checkpoints ?? []),
+      ...(document.checkpoint_exams ?? []),
+      ...(document.checkpoint_exam ? [document.checkpoint_exam] : []),
+    ];
+    for (const checkpoint of topicCheckpoints) {
+      const topicId = checkpoint.topic?.startsWith('topic_') ? checkpoint.topic : document.metadata?.topic;
+      if (!topicId?.startsWith('topic_')) {
+        throw new Error(`Checkpoint ${checkpoint.stable_key} has no canonical topic ID.`);
+      }
+      assessments.push({ id: checkpoint.stable_key, type: 'checkpoint', title: checkpoint.title, subjectId, topicId, questionCount: checkpoint.question_count, passThreshold: checkpoint.pass_threshold, status: checkpoint.status });
+    }
     if (document.subject_checkpoint) assessments.push({ id: document.subject_checkpoint.stable_key, type: 'checkpoint', title: document.subject_checkpoint.title, subjectId, questionCount: document.subject_checkpoint.question_count, passThreshold: document.subject_checkpoint.pass_threshold, status: document.subject_checkpoint.status });
   }
 }
 
 writeFileSync('data/runtime-learning-metadata.json', `${JSON.stringify({ course: { id: 'course_taxiforarlegitimation', title: 'Taxiförarlegitimation', status: 'published' }, exams: [{ id: 'exam_d1_sakerhet_beteende', courseId: 'course_taxiforarlegitimation', code: 'D1', title: 'Delprov 1 - Säkerhet och beteende', order: 1, status: 'published' }, { id: 'exam_d2_lagstiftning', courseId: 'course_taxiforarlegitimation', code: 'D2', title: 'Delprov 2 - Lagstiftning', order: 2, status: 'published' }], subjects, topics, lessons, assessments }, null, 2)}\n`);
-console.log(`Wrote metadata for ${subjects.length} subjects, ${topics.length} topics and ${lessons.length} lessons.`);
+console.log(`Wrote metadata for ${subjects.length} subjects, ${topics.length} topics, ${lessons.length} lessons and ${assessments.length} authored assessments.`);

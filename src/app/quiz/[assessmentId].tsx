@@ -9,7 +9,7 @@ import { ThemedText } from '@/components/themed-text';
 import { ProgressBar } from '@/components/ui/foundation';
 import { Colors, Radii, Spacing } from '@/constants/theme';
 import { getRuntimeState, saveRuntimeAnswer, startRuntimeCheckpoint, submitRuntimeAttempt } from '@/lib/runtimeLearningState';
-import { getRuntimeMetadataRepository, loadRuntimeRepository } from '../../../packages/domain/src/runtimeRepository';
+import { getRuntimeMetadataRepository, loadRuntimeQuestionRepository } from '../../../packages/domain/src/runtimeRepository';
 
 export default function QuizScreen() {
   const { assessmentId } = useLocalSearchParams<{ assessmentId: string }>();
@@ -23,7 +23,7 @@ export default function QuizScreen() {
   useEffect(() => {
     if (!subjectId) return;
     setLoading(true);
-    void loadRuntimeRepository([subjectId]).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
+    void loadRuntimeQuestionRepository([subjectId]).then((loaded) => { setRepository(loaded); setState(getRuntimeState()); }).catch(setLoadError).finally(() => setLoading(false));
   }, [subjectId]);
 
   const attempt = useMemo(() => (!loading ? startRuntimeCheckpoint(repository, assessmentId) : undefined), [loading, assessmentId, repository]);

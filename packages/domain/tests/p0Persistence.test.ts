@@ -70,6 +70,7 @@ export function testP0SupabaseMigrationContainsSecurityAndFrozenStateFields() {
   const privilegesMigration = readFileSync(resolve(root, 'supabase/migrations/202609100003_persistence_privileges_idempotency.sql'), 'utf8');
   const nullabilityMigration = readFileSync(resolve(root, 'supabase/migrations/202609100004_client_key_persistence_nullability.sql'), 'utf8');
   const adapter = readFileSync(resolve(root, 'src/lib/supabaseLearningPersistence.ts'), 'utf8');
+  const runtimeState = readFileSync(resolve(root, 'src/lib/runtimeLearningState.ts'), 'utf8');
   for (const field of ['blueprint_version', 'scoring_role', 'timed_out', 'client_attempt_id', 'question_snapshot', 'lesson_key']) {
     assert.ok(migration.includes(field), `${field} is missing from the persistence migration.`);
   }
@@ -104,8 +105,11 @@ export function testP0SupabaseMigrationContainsSecurityAndFrozenStateFields() {
   assert.match(privilegesMigration, /auth\.uid\(\) = user_id/);
 
   assert.match(adapter, /onConflict: 'user_id,client_attempt_id'/);
+  assert.match(adapter, /\.from\('attempts'\)\.update\(attemptRow\)/);
+  assert.match(adapter, /\.eq\('status', 'in_progress'\)/);
   assert.match(adapter, /\.select\('id'\)\.single\(\)/);
-  assert.match(adapter, /attempt_id: savedAttempt\.id/);
+  assert.match(runtimeState, /passingScore: row\.passing_score === null \|\| row\.passing_score === undefined \? undefined : Number\(row\.passing_score\)/);
+  assert.match(adapter, /attempt_id: savedAttemptId/);
   assert.match(adapter, /user_id: userId,\s+client_attempt_id: attempt\.id/s);
   assert.match(adapter, /onConflict: 'user_id,client_attempt_id,display_order'/);
   assert.match(adapter, /\.select\('id,attempt_id'\)/);

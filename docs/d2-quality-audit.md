@@ -1,6 +1,6 @@
 # D2 Quality Audit
 
-Audit date: 2026-09-10
+Audit date: 2026-10-07
 
 Scope: D2_TAXI_LAW, D2_TRAFFIC_LAW, all published lessons, questions, topic checkpoints, subject checkpoints and the full D2 mock exam.
 
@@ -10,17 +10,34 @@ The D2 study domain passes the automated quality gate after one documented mock-
 
 No content was held for review. No question currently depends on a missing visual asset for its correct answer.
 
+## Runtime Topic Integrity
+
+The full 824-question bank was checked against runtime topic, subject and exam metadata after the Vilotider normalization:
+
+| Check | Result |
+| --- | ---: |
+| Questions with missing `topic_id` | 0 |
+| Questions with invalid `topic_id` | 0 |
+| Questions mapped to the wrong subject/exam | 0 |
+| Duplicate question `stable_key`/version pairs | 0 |
+| Canonical Vilotider runtime topic rows | 1 |
+| Vilotider lessons using the canonical topic | 6 |
+| Vilotider questions using the canonical topic | 27 |
+| Question text/answer/explanation/scoring/source semantics changed | 0 |
+
+The topic relation regression is guarded by `questionCoverageAuditV2` tests. Local D2 runtime loading and the 50-question mock construction pass. Runtime metadata now registers all 12 source-authored Taxi-law topic assessments (including Vilotider), and the Taxi-law subject checkpoint remains absent by design: no canonical source content or product/domain contract requires it. Traffic-law keeps its authored subject checkpoint. Assessment rendering is data-driven and does not show an empty Taxi-law subject-checkpoint CTA. See [the live E2E verification](./supabase-live-e2e-verification.md) for live persistence and resume results.
+
 ## Totals Reviewed
 
 | Item | Count |
 | --- | ---: |
 | Published D2 topics | 27 |
 | Published lessons | 32 |
-| Published questions | 310 |
+| Published questions | 321 |
 | Verified facts | 153 |
 | Topic checkpoints | 27 |
 | Subject checkpoints | 1 |
-| Full D2 mock blueprints | 1 |
+| Full D2 mock blueprints | 2 |
 
 ## Content Duplication
 
@@ -28,7 +45,7 @@ No content was held for review. No question currently depends on a missing visua
 | --- | ---: |
 | Exact duplicate question prompts | 0 |
 | Exact duplicate answer sets | 0 |
-| Near-duplicate question pairs within same topic | 89 |
+| Near-duplicate question pairs within same topic | 90 |
 | Substantially similar cross-topic lessons | 1 |
 
 Audit judgment: the largest repetition pattern is deliberate source-recall reinforcement in generated checkpoint questions. Exact duplicates were not found. Near-duplicates should be monitored as the question bank becomes more scenario-rich.
@@ -69,15 +86,15 @@ Manual review notes:
 | D2-TRAFFIC-034-002 | D2_TRAFFIC_LAW | UNDERSTAND | 5 | 4 | 10 | 5 | 0 |
 | D2-TRAFFIC-035-001 | D2_TRAFFIC_LAW | APPLY | 14 | 4 | 22 | 11 | 0 |
 | D2-TRAFFIC-035-002 | D2_TRAFFIC_LAW | APPLY | 33 | 9 | 64 | 32 | 0 |
-| D2-TRAFFIC-035-003A1 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 2 | 0 | 2 |
-| D2-TRAFFIC-035-003A2 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 2 | 0 | 2 |
-| D2-TRAFFIC-035-003A3 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 2 | 0 | 2 |
-| D2-TRAFFIC-035-003B1 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 1 | 0 | 1 |
-| D2-TRAFFIC-035-003B2 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 1 | 0 | 1 |
-| D2-TRAFFIC-035-003C1 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 2 | 0 | 2 |
-| D2-TRAFFIC-035-003C2 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 2 | 0 | 2 |
-| D2-TRAFFIC-035-003C3 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 2 | 0 | 2 |
-| D2-TRAFFIC-035-003C4 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 2 | 0 | 2 |
+| D2-TRAFFIC-035-003A1 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003A2 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003A3 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003B1 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003B2 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003C1 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003C2 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003C3 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
+| D2-TRAFFIC-035-003C4 | D2_TRAFFIC_LAW | EXPLAIN | 1 | 1 | 3 | 0 | 3 |
 
 Undercovered requirements: D2-TAXI-031-004A, D2-TAXI-031-006, D2-TRAFFIC-035-003A1, D2-TRAFFIC-035-003A2, D2-TRAFFIC-035-003A3, D2-TRAFFIC-035-003B1, D2-TRAFFIC-035-003B2, D2-TRAFFIC-035-003C1, D2-TRAFFIC-035-003C2, D2-TRAFFIC-035-003C3, D2-TRAFFIC-035-003C4.
 
@@ -89,13 +106,15 @@ Competency alignment issues requiring follow-up: D2-TAXI-031-001, D2-TAXI-031-00
 
 | Seed | Scoring | Displayed | Taxi scoring | Traffic scoring | Non-scoring | Duplicate questions | Topic spread | Deterministic scoring | Frozen versions |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| audit-a | 46 | 50 | 23 | 23 | 4 | 0 | 20 | yes | yes |
+| audit-a | 46 | 50 | 23 | 23 | 4 | 0 | 19 | yes | yes |
 | audit-b | 46 | 50 | 23 | 23 | 4 | 0 | 23 | yes | yes |
 | audit-c | 46 | 50 | 23 | 23 | 4 | 0 | 22 | yes | yes |
 | audit-d | 46 | 50 | 23 | 23 | 4 | 0 | 23 | yes | yes |
-| audit-e | 46 | 50 | 23 | 23 | 4 | 0 | 23 | yes | yes |
+| audit-e | 46 | 50 | 23 | 23 | 4 | 0 | 24 | yes | yes |
 
 Mock exam status: passes the D2 blueprint gate. It is a realistic internal mock exam, not an official Trafikverket exam.
+
+Live D2 runtime status: PASS. Reload restored the same attempt, frozen question order/versions/scoring roles, saved answers and elapsed-time-derived timer. Finalization persisted 50 displayed, 46 scored, 4 non-scoring, score 46/46, and all 50 review rows.
 
 ## Pedagogical Flow
 
